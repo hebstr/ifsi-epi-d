@@ -1,0 +1,446 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Épidémiologie descriptive",
+    "section": "",
+    "text": "Introduction",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#la-santé",
+    "href": "index.html#la-santé",
+    "title": "Épidémiologie descriptive",
+    "section": "La santé",
+    "text": "La santé\n\n« La santé est un état de complet bien-être physique, mental et social, et ne consiste pas seulement en une absence de maladie ou d’infirmité »\n\n\nPréambule de la constitution de l’OMS 1946",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#lépidémiologie",
+    "href": "index.html#lépidémiologie",
+    "title": "Épidémiologie descriptive",
+    "section": "L’épidémiologie",
+    "text": "L’épidémiologie\nL’épidémiologie est étymologiquement composée de trois concepts : au-dessus/parmi (“epi”), peuple (“demos”) et discours/connaissance (“logos”). Elle signifie donc par extrapolation\n\n” la science de ce qui affecte la population”\n\net était historiquement réservée à l’étude des maladies infectieuses (épidémies).\nActuellement, l’épidémiologie étudie en pratique :\n\nLa distribution d’un phénomène de santé dans une population humaine\nEt les déterminants de cette distribution (facteurs délétères, facteurs protecteurs)\n\n\n\n\n\n\n\nPhénomène de santé = maladie ?\n\n\n\nUn phénomène de santé, ou état de santé, fait référence à tout évènement relatif à santé d’une personne ou d’une population. Il n’est donc pas forcément synonyme de maladie. Ça peut être un symptôme, ou même la mort.\n\n\nPour quoi ?\n\n\nDécrire un phénomène de santé = Epidémiologie descriptive\n\nCaractériser une pathologie\n\n\n\nComprendre = Epidémiologie analytique\n\nRechercher les déterminants de cette pathologie\n\n\n\nEvaluer = Epidémiologie évaluative\n\nMesurer l’impact d’une politique de santé\n\n\n\n\n\n\n\n\n\n\n\nPour qui ?\nLes professionnels de santé : mieux cibler les interventions: prévention, action, soins\nLes politiques et les administrations : décider (promotion de la santé, éducation à la santé)\nLes gestionnaires : planifier, allouer organiser\nLes usagers : savoir défendre leurs causes",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "definitions.html",
+    "href": "definitions.html",
+    "title": "1  Définitions",
+    "section": "",
+    "text": "1.1 Définitions\nL’épidémiologie descriptive a pour objectif de décrire un problème de santé dans un groupe de personne ou une population :\nElle repose sur l’utilisation d’indicateurs de santé :",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Définitions</span>"
+    ]
+  },
+  {
+    "objectID": "definitions.html#définitions",
+    "href": "definitions.html#définitions",
+    "title": "1  Définitions",
+    "section": "",
+    "text": "Fréquence\nRépartition\nEvolution\nCaractéristiques\n\n\n\nIndicateurs de morbidité\nIndicateurs de mortalité",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Définitions</span>"
+    ]
+  },
+  {
+    "objectID": "definitions.html#objectifs",
+    "href": "definitions.html#objectifs",
+    "title": "1  Définitions",
+    "section": "1.2 Objectifs",
+    "text": "1.2 Objectifs\n\nSurveillance et contrôle sanitaire\nMeilleure connaissance des besoins de prise en charge médicale des populations\nEvaluation d’une action de santé\nFormulation d’hypothèses dans la recherche étiologique :\n\nVariations dans le temps\nVariations géographiques\n\n\n\n1.2.1 Surveillance et contrôle sanitaire\n\nSurveillance et alerte\nRepérer les individus atteints de maladie pour mettre en place des mesures :\n\nIsolement (ex : SRAS)\nTraitement des malades (Tuberculose)\nTraitement prophylactique de l’entourage (ex: Méningite)\nRepérer et neutraliser la source de la contamination (ex: TIAC)\n…\n\n\n\n\n1.2.2 Meilleure connaissance des besoins de prise en charge médicale des populations\n\nEx : fréquence de la trisomie 21 selon l’âge maternel\n\n\n\n1.2.3 Evaluation d’une action de santé\nimg covid\n\n\n1.2.4 Formulation d’hypothèses dans la recherche étiologique\nimg gradient nord sud",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Définitions</span>"
+    ]
+  },
+  {
+    "objectID": "definitions.html#en-bref",
+    "href": "definitions.html#en-bref",
+    "title": "1  Définitions",
+    "section": "1.3 En bref",
+    "text": "1.3 En bref\nVise à déterminer dans la population : la fréquence et la répartition\n\nDes maladies\nDes paramètres de santé\nDes facteurs de risques\n\nEn terme de\n\nTemps : Quand?\nLieu : Où?\nPersonnes : Qui?",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Définitions</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_base.html",
+    "href": "indicateurs_base.html",
+    "title": "\n2  Mesures de base\n",
+    "section": "",
+    "text": "2.1 Proportion\nProportion est synonyme de fréquence.\nDRESS, remontées des services de PMI - Certificat de santé du 24e mois, Janvier 2020",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mesures de base</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_base.html#proportion",
+    "href": "indicateurs_base.html#proportion",
+    "title": "\n2  Mesures de base\n",
+    "section": "",
+    "text": "S’exprime en % ou en chiffre compris entre 0 et 1\nDénominateur inclus le numérateur\n\n\n\nEx: sur 750 000 enfants de 2 ans, 602 250 sont correctement vaccinés contre la rougeole. 80,3% d’enfant à 24 mois avec une couverture vaccinale contre la rougeole",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mesures de base</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_base.html#taux",
+    "href": "indicateurs_base.html#taux",
+    "title": "\n2  Mesures de base\n",
+    "section": "\n2.2 Taux",
+    "text": "2.2 Taux\n\\[\n\\frac\n{Nombre \\space de \\space changement \\space d’état\n\\space pendant \\space une \\space durée \\space T}\n{Nombre \\space de \\space sujet \\space à \\space risque\n\\space de \\space changement \\space d’état \\space pendant\n\\space cette \\space durée \\space T}\n\\]\n\nProbabilité de survenue d’un événement au cours d’une période\nS’exprime en % ou en chiffre compris entre 0 et 1\nNotion de temps et de risque\n\n\nEx: taux de mortalité, taux d’incidence",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mesures de base</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_base.html#ratio",
+    "href": "indicateurs_base.html#ratio",
+    "title": "\n2  Mesures de base\n",
+    "section": "\n2.3 Ratio",
+    "text": "2.3 Ratio\n\nRapport des effectifs des 2 modalités d’une même variable mutuellement exclusives\nPas d’unité\nVariables sexe à 2 modalités (F,H) : sex ratio = H/F\n\n\nEx: sur 100 individus, 49 hommes et 51 femmes Sex ratio= 0,96 (0,96 hommes pour 1 femme)",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mesures de base</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_base.html#indice",
+    "href": "indicateurs_base.html#indice",
+    "title": "\n2  Mesures de base\n",
+    "section": "\n2.4 Indice",
+    "text": "2.4 Indice\nRapport des effectifs de 2 variables\n\nEx: à l’hôpital, 1000 enfants pour 10 infirmières soit 1000/10=100 enfants par infirmières",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mesures de base</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_base.html#en-bref",
+    "href": "indicateurs_base.html#en-bref",
+    "title": "\n2  Mesures de base\n",
+    "section": "\n2.5 En bref",
+    "text": "2.5 En bref\nPour être de qualité, un indicateur de santé doit être :\n\nSimple et acceptable\nValide : mesure pertinente\nFiable : mesure précise et reproductible\nSensible : si le phénomène évolue, l’indicateur évolue aussi\nSpécifique :\n\n\n\n\n\n\n\nFiablilité vs validité\n\n\n\nIl faut bien distinguer fiabilité et validité\nFiabilité La fiabilité est synonyme de précision\nValidité La validité est synonyme d’exactitude\n\n\n2 grandes catégories d’indicateurs de santé :\n\nLes indicateurs de mortalité\n\nLes indicateurs de morbidité\n\n\n\n\n\n\n\n\nProportion? Taux? Ratio? Indice?\n\n\n\nNombre de cancers cutanés / nombre de cancers\n\nAfficher la réponse\"proportion\"\n\n\nexplication :\n\n- une seule variable : le cancer\n\n- nombre de cancers = ensemble des cancers\n\n- les cancers cutanés sont un sous-ensemble des cancers\n\n--&gt; c''est un rapport dans lequel le numérateur est inclut dans le dénominateur\n\n\n\nNombre de fumeurs / Nombre de non fumeurs\n\nAfficher la réponse\"ratio\"\n\n\nexplication :\n\n- une seule variable : le statut fumeur/non fumeur\n  \n- variable à 2 modalités : fumeur, non fumeur\n\n--&gt; c''est un rapport entre 2 modalités d''une même variable\n\n\n\nConsommation de cigarettes par habitant\n\nAfficher la réponse\"indice\"\n\n- 2 variables :\n  - nombre de cigarettes\n  - nombre d''habitants\n  \n--&gt; c''est un rapport entre 2 variables\n\n\n\nNombre de décès sur une période / effectif à risque de décès sur cette période\n\nAfficher la réponse\"taux\"\n\n\n\n(la baignoire !)\n\n\n\nNombre d’hypertendus en 1975 / nombre d’hypertendus en 1994\n\nAfficher la réponse\"indice\"\n\n\nexplication :\n\n- 2 variables :\n  - nombre d''hypertendus sur une période\n  - nombre d''hypertendus sur une autre période\n  \n--&gt; c''est un rapport entre 2 variables\n\n\n\nNombre d’amputés du bras / nombre d’amputés\n\nAfficher la réponse\"proportion\"\n\n\nexplication :\n\n- une seule variable : l''amputation\n\n- nombre d''amputations = ensemble des amputations\n\n- les amputations du bras sont un sous-ensemble des amputations\n\n--&gt; c''est un rapport dans lequel le numérateur est inclut dans le dénominateur",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mesures de base</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_mrt.html",
+    "href": "indicateurs_mrt.html",
+    "title": "3  Indicateurs de mortalité",
+    "section": "",
+    "text": "3.1 Taux brut de mortalité\n= mortalité globale\nNombre de décès dans une population pour une période donnée / Effectif de la population pendant la même période",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_mrt.html#taux-brut-de-mortalité",
+    "href": "indicateurs_mrt.html#taux-brut-de-mortalité",
+    "title": "3  Indicateurs de mortalité",
+    "section": "",
+    "text": "En général calculé sur un an\nExprimé en taux pour 1000\n\n\nEx: il était de 9,1 pour 1000 habitants en 2019 en France (Source : Insee)",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_mrt.html#taux-spécifiques-de-mortalité",
+    "href": "indicateurs_mrt.html#taux-spécifiques-de-mortalité",
+    "title": "3  Indicateurs de mortalité",
+    "section": "3.2 Taux spécifiques de mortalité",
+    "text": "3.2 Taux spécifiques de mortalité\n\nEtablis en tenant compte d’un autre paramètre : par sexe, par tranches d’âges, par causes\n\nNombre de décès du sous−groupe pour une période donnée / Effectifs de la population du sous−groupe pendant la même période\n\nExprimé en taux pour 1000\n\nMortalité prématurée : survenant avant 65 ans\nMortalité évitable : qui aurait pu être évitée\n\n\n\nEx : Taux de mortalité infantile = 3,8 pour 1000 enfants nés vivants entre 2016 et 2018\n\nLes taux spécifiques de mortalité : dans l’enfance et autour de la naissance\nimg emfantile",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_mrt.html#taux-de-létalité",
+    "href": "indicateurs_mrt.html#taux-de-létalité",
+    "title": "3  Indicateurs de mortalité",
+    "section": "3.3 Taux de létalité",
+    "text": "3.3 Taux de létalité\n\nProportion de sujets qui, nouvellement atteints d’une maladie, en meurent\nIndice de gravité d’une maladie\nLétalité à x temps (à 28 jours, à un an, …)\n\nTaux Létalité = Nbre de Décès dus à la pathologie P x temps après le début / Nbre de personnes nouvellement atteintes de la pathologie P",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_mrt.html#lespérance-de-vie",
+    "href": "indicateurs_mrt.html#lespérance-de-vie",
+    "title": "3  Indicateurs de mortalité",
+    "section": "3.4 L’espérance de vie",
+    "text": "3.4 L’espérance de vie\nL’espérance de vie à un âge donné est le nombre moyen d’années que peut espérer vivre une personne à partir de cet âge\n\nSi l’âge est 0, on parle d’espérance de vie à la naissance\n\nEn 2019, l’espérance de vie\n\nA la naissance en France était de 79,8 ans pour les hommes, de 85,7 ans pour les femmes\nA 65 ans cette espérance de vie était de 19,6 ans pour les hommes, 23,5 pour les femmes",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_mrt.html#standardisation",
+    "href": "indicateurs_mrt.html#standardisation",
+    "title": "3  Indicateurs de mortalité",
+    "section": "3.5 Standardisation",
+    "text": "3.5 Standardisation\nTaux comparatifs de décès (ou taux standardisés) = Taux de décès si la structure d’âge était la même dans tous les départements",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_mrb.html",
+    "href": "indicateurs_mrb.html",
+    "title": "4  Indicateurs de morbidité",
+    "section": "",
+    "text": "4.1 Incidence\nCalcul du taux d’incidence : I = N/PT\nI : taux d’incidence N : nombre de nouveaux cas de la maladie constatés dans la population étudiée pendant la période de temps considérée PT : nombre de personnes-temps à risque calculé dans la population étudiée pendant la période de temps considérée",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_mrb.html#incidence",
+    "href": "indicateurs_mrb.html#incidence",
+    "title": "4  Indicateurs de morbidité",
+    "section": "",
+    "text": "Nombre de nouveaux cas d’une maladie survenant au sein d’une population\nMesure longitudinale\nReflète la vitesse d’apparition d’une maladie dans une population",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_mrb.html#prévalence",
+    "href": "indicateurs_mrb.html#prévalence",
+    "title": "4  Indicateurs de morbidité",
+    "section": "4.2 Prévalence",
+    "text": "4.2 Prévalence\n\nPourcentage d’individus malades dans une population à un moment donné\nMesure transversale\nDépend de l’incidence et de la durée d’évolution de la maladie : plus elles augmentent plus la prévalence augmente\n\nCalcul de la prévalence : P = n/N\nP : prévalence n : nombre de malades dans la population étudiée à un instant t N : effectif total de la population étudiée",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_mrb.html#différence-entre-incidence-et-prévalence",
+    "href": "indicateurs_mrb.html#différence-entre-incidence-et-prévalence",
+    "title": "4  Indicateurs de morbidité",
+    "section": "4.3 Différence entre incidence et prévalence",
+    "text": "4.3 Différence entre incidence et prévalence\nInfection à VIH : incidence, prévalence et mortalité\nimg courbes",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
+    ]
+  },
+  {
+    "objectID": "sources_base.html",
+    "href": "sources_base.html",
+    "title": "5  Recueils systématiques",
+    "section": "",
+    "text": "5.1 Certificat de décès\n57-62",
+    "crumbs": [
+      "Sources des indicateurs",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
+    ]
+  },
+  {
+    "objectID": "sources_base.html#déclaration-obligatoire",
+    "href": "sources_base.html#déclaration-obligatoire",
+    "title": "5  Recueils systématiques",
+    "section": "5.2 Déclaration obligatoire",
+    "text": "5.2 Déclaration obligatoire\n63-69",
+    "crumbs": [
+      "Sources des indicateurs",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
+    ]
+  },
+  {
+    "objectID": "sources_base.html#systèmes-sentinelles",
+    "href": "sources_base.html#systèmes-sentinelles",
+    "title": "5  Recueils systématiques",
+    "section": "5.3 Systèmes sentinelles",
+    "text": "5.3 Systèmes sentinelles\n70-75",
+    "crumbs": [
+      "Sources des indicateurs",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
+    ]
+  },
+  {
+    "objectID": "sources_base.html#bases-de-données-médico-administratives",
+    "href": "sources_base.html#bases-de-données-médico-administratives",
+    "title": "5  Recueils systématiques",
+    "section": "5.4 Bases de données médico-administratives",
+    "text": "5.4 Bases de données médico-administratives\n76",
+    "crumbs": [
+      "Sources des indicateurs",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
+    ]
+  },
+  {
+    "objectID": "sources_base.html#limites",
+    "href": "sources_base.html#limites",
+    "title": "5  Recueils systématiques",
+    "section": "5.5 Limites",
+    "text": "5.5 Limites\n77",
+    "crumbs": [
+      "Sources des indicateurs",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
+    ]
+  },
+  {
+    "objectID": "sources_adhoc.html",
+    "href": "sources_adhoc.html",
+    "title": "\n6  Enquêtes ad hoc\n",
+    "section": "",
+    "text": "6.1 Terminologie",
+    "crumbs": [
+      "Sources des indicateurs",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Enquêtes ad hoc</span>"
+    ]
+  },
+  {
+    "objectID": "sources_adhoc.html#terminologie",
+    "href": "sources_adhoc.html#terminologie",
+    "title": "\n6  Enquêtes ad hoc\n",
+    "section": "",
+    "text": "Population\n\n\n\nExhaustive\n\n\nReprésentative\n\n\n\n\n\n\n\n\n\nDurée\n\n\n\nTransversale\n\n\nLongitudinale\n\n\n\n\n\n\n\n\n\nChronologie\n\n\n\nRétrospective\n\n\nProspective\n\n\n\n\n\n\n\n\n6.1.1 Population\nLe recueil d’information dans une population peut être réalisé de deux manières.\nOn a recueilli l’information de tous les individus qui constituent la population. Dans ce cas on parle d’exhaustivité.\nParfois il n’est pas possible d’avoir accès à l’ensemble d’une population (effectifs trop grands, manque de moyens…)\nUn échantillon est dit représentatif s’il est le reflet de la population dont il est issu.\nExemple : liste électorale\nCette méthode permet de réduire les biais de sélection (Section 9.1)\n\n6.1.2 Durée\n\n6.1.3 Chronologie",
+    "crumbs": [
+      "Sources des indicateurs",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Enquêtes ad hoc</span>"
+    ]
+  },
+  {
+    "objectID": "sources_adhoc.html#types-denquêtes",
+    "href": "sources_adhoc.html#types-denquêtes",
+    "title": "\n6  Enquêtes ad hoc\n",
+    "section": "\n6.2 Types d’enquêtes",
+    "text": "6.2 Types d’enquêtes\n82-89",
+    "crumbs": [
+      "Sources des indicateurs",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Enquêtes ad hoc</span>"
+    ]
+  },
+  {
+    "objectID": "sources_adhoc.html#en-bref",
+    "href": "sources_adhoc.html#en-bref",
+    "title": "\n6  Enquêtes ad hoc\n",
+    "section": "\n6.3 En bref",
+    "text": "6.3 En bref",
+    "crumbs": [
+      "Sources des indicateurs",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Enquêtes ad hoc</span>"
+    ]
+  },
+  {
+    "objectID": "sources_quali.html",
+    "href": "sources_quali.html",
+    "title": "7  Qualité des sources",
+    "section": "",
+    "text": "3 grands types de problèmes :\n\nErreur de diagnostic : Malade non reconnu comme tel (sous-estimation)\nNon exhaustivité : Malade connu comme tel mais non enregistré par la source (sous-estimation)\nDoublons : Le malade est connu mais enregistré plusieurs fois (surestimation)\n\nLes mesures estimées sur l’échantillon peuvent s’écarter des valeurs «réelles» auxquelles nous n’avons pas accès, par 2 mécanismes :\n\nLes fluctuations d’échantillonnage, liées au hasard (Chapitre 8)\nLes biais, sources de variabilité et d’erreurs prévisibles (Chapitre 9)",
+    "crumbs": [
+      "Sources des indicateurs",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Qualité des sources</span>"
+    ]
+  },
+  {
+    "objectID": "fluctuations.html",
+    "href": "fluctuations.html",
+    "title": "8  Fluctuations d’échantillonnage",
+    "section": "",
+    "text": "8.1 Maitriser l’incertitude\nIntervalle de confiance à 95% d’une prévalence\np= Nombre de malades dans la population / Effectif total de la population\nSi Np et N(1-p) &gt; 5, alors IC95% = p ±1.96× p (1−p)/N\nIC95% = intervalle de confiance à 95% p = prévalence N = nombre total de sujet\nExemple : intervalle de confiance à 95% d’une prévalence\nUne maladie a une prévalence de 20% dans un échantillon de 100 personnes tirées au sort en population générale 0,20 x 0,80\nInterprétation : dans la population générale, il y a 95% de chance pour que la vraie prévalence de la maladie soit comprise entre 12 et 28% IC95% [0,12 – 0,28]",
+    "crumbs": [
+      "Erreurs",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Fluctuations d'échantillonnage</span>"
+    ]
+  },
+  {
+    "objectID": "fluctuations.html#maitriser-lincertitude",
+    "href": "fluctuations.html#maitriser-lincertitude",
+    "title": "8  Fluctuations d’échantillonnage",
+    "section": "",
+    "text": "BsupIC95% = 0,20 +1.96 x 100 = 0,28 0,20 x 0,80\nBInfIC95% = 0,20 -1.96 x 100 = 0,12",
+    "crumbs": [
+      "Erreurs",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Fluctuations d'échantillonnage</span>"
+    ]
+  },
+  {
+    "objectID": "fluctuations.html#en-bref",
+    "href": "fluctuations.html#en-bref",
+    "title": "8  Fluctuations d’échantillonnage",
+    "section": "8.2 En bref",
+    "text": "8.2 En bref\n\nErreurs aléatoires\nDiminuent en augmentant la taille de l’échantillon\nJustifient la réalisation de tests statistiques\nPrises en compte dans la présentation des résultats (intervalle de confiance)\n\n\n\n\n\n\n\nQuestion",
+    "crumbs": [
+      "Erreurs",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Fluctuations d'échantillonnage</span>"
+    ]
+  },
+  {
+    "objectID": "biais.html",
+    "href": "biais.html",
+    "title": "9  Biais",
+    "section": "",
+    "text": "9.1 Biais de sélection\nBiais intervenant lors de la constitution de l’échantillon ou du suivi des sujets conduisant à ce que l’échantillon ne soit pas représentatif de la population cible\nRetrouvé lors de la constitution :\nLa sélection n’engendre pas systématiquement un biais",
+    "crumbs": [
+      "Erreurs",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Biais</span>"
+    ]
+  },
+  {
+    "objectID": "biais.html#sec-biais-sel",
+    "href": "biais.html#sec-biais-sel",
+    "title": "9  Biais",
+    "section": "",
+    "text": "De la population source\nDe l’échantillon (nécessité de l’accord de participation)\n\nA l’entrée dans l’étude (non répondant, refus)\n\nTaux de participation\n= Comparaison, des sujets répondants vs non répondants\n\nLors du suivi (cas d’une cohorte)\n\nTaux d’attrition (perdus de vue)\n= Comparaison des caractéristiques PDV vs sujets suivis",
+    "crumbs": [
+      "Erreurs",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Biais</span>"
+    ]
+  },
+  {
+    "objectID": "biais.html#biais-de-classement",
+    "href": "biais.html#biais-de-classement",
+    "title": "9  Biais",
+    "section": "9.2 Biais de classement",
+    "text": "9.2 Biais de classement\nErreur systématique dans la mesure de la maladie ou de l’exposition conduisant à mal classer les sujets en malades/non malades ou en exposés/non exposés intervenant au moment du recueil de données\nMesure précise de la maladie (ou exposition) étudiée :\n\nReposant, si possible, sur des méthodes objectives\nExamens objectifs\nQuestionnaires standardisés et validés\nProcédures reproductibles",
+    "crumbs": [
+      "Erreurs",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Biais</span>"
+    ]
+  },
+  {
+    "objectID": "biais.html#biais-de-confusion",
+    "href": "biais.html#biais-de-confusion",
+    "title": "9  Biais",
+    "section": "9.3 Biais de confusion",
+    "text": "9.3 Biais de confusion\n\nCes biais vont être liés à l’intervention d’un ou de plusieurs tiers facteurs\nIls sont particulièrement redoutés en épidémiologie analytique\nEn épidémiologie descriptive, peuvent intervenir lorsque l’on compare les taux provenant de plusieurs populations différentes\n\n\nEx : comparer les taux de mortalité de la région Nord Pas de Calais (région jeune) à ceux de la région Limousin (région âgée)",
+    "crumbs": [
+      "Erreurs",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Biais</span>"
+    ]
+  },
+  {
+    "objectID": "biais.html#en-bref",
+    "href": "biais.html#en-bref",
+    "title": "9  Biais",
+    "section": "9.4 En bref",
+    "text": "9.4 En bref\n\nErreurs systématiques (sous ou sur estimation)\nNe sont pas modifiés par la taille de l’échantillon\nIls peuvent être évités ou réduits et nécessitent donc une réflexion préalable\n\n\n\n\n\n\n\nQuestion",
+    "crumbs": [
+      "Erreurs",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Biais</span>"
+    ]
+  }
+]

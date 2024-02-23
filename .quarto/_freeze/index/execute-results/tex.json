@@ -1,0 +1,21 @@
+{
+  "hash": "350411685c7ec3ff7bfcf99e7274e450",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Introduction {.unnumbered}\n\n\n\n\n::: {.cell}\n\n:::\n\n\n\n\n\n::: callout-important\n## ATTENTION\n**!! Document en cours de rédaction et en attente de validation par les enseignants de santé publique !!**\n:::\n\n## La santé\n\n> « La santé est un état de complet bien-être physique, mental et social, et ne consiste pas seulement en une absence de maladie ou d’infirmité »\n\n- Préambule de la constitution de l’OMS 1946\n\n## L'épidémiologie\n\nL'épidémiologie est étymologiquement composée de trois concepts : au-dessus/parmi (*\"epi\"*), peuple (\"*demos*\") et discours/connaissance (*\"logos\"*). Elle signifie donc par extrapolation\n\n> *\" la science de ce qui affecte la population\"* \n\net était historiquement réservée à l'étude des maladies infectieuses (épidémies).\n\nActuellement, l’épidémiologie étudie en pratique :\n\n- La [distribution]{.cb} d'un phénomène de santé dans une population humaine \n- Et les [déterminants]{.cb} de cette distribution (facteurs délétères, facteurs protecteurs)\n\n::: callout-note\n\n## Phénomène de santé = maladie ?\n\nUn phénomène de santé, ou état de santé, fait référence à [tout évènement]{.cb} relatif à santé d'une personne ou d'une population. Il n'est donc [pas forcément synonyme de maladie]{.cb}. Ça peut être un symptôme, ou même la mort.\n\n:::\n\n### **Pour quoi ?**\n\n- [Décrire]{.cb} un phénomène de santé = Epidémiologie descriptive \n  - Caractériser une pathologie \n  \n- [Comprendre]{.cb} = Epidémiologie analytique\n  - Rechercher les déterminants de cette pathologie \n\n- [Evaluer]{.cb} = Epidémiologie évaluative\n  - Mesurer l’impact d’une politique de santé\n\n\n\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![](img/quadri.png){fig-align='center' width=6in}\n:::\n:::\n\n\n\n\n\n### **Pour qui ?**\n\nLes professionnels de santé : mieux cibler les interventions: prévention, action, soins \n\nLes politiques et les administrations : décider (promotion de la santé, éducation à la santé) \n\nLes gestionnaires : planifier, allouer organiser\n\nLes usagers : savoir défendre leurs causes\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}

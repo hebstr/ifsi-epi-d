@@ -1,0 +1,70 @@
+# Biais {#sec-biais}
+
+Erreur ou écart systématique présentant une direction privilégiée et prévisible
+
+Conséquences : 
+
+- Diminution de la puissance de l’étude 
+- Sous-estimation ou surestimation d’une association 
+
+Il existe trois grandes catégories de biais :
+
+- Biais de [sélection]{.cb} 
+- Biais de [classement]{.cb} 
+- Biais de [confusion]{.cb}
+
+
+## Biais de sélection {#sec-biais-sel}
+
+Biais intervenant lors de la constitution de l’échantillon ou du suivi des sujets conduisant à ce que l’échantillon ne soit pas représentatif de la population cible
+
+Retrouvé lors de la constitution : 
+
+- De la population source 
+- De l’échantillon (nécessité de l’accord de participation) 
+  - A l’entrée dans l’étude (non répondant, refus) 
+    - Taux de participation
+    - = Comparaison, des sujets répondants vs non répondants
+  - Lors du suivi (cas d’une cohorte)
+    - Taux d’attrition (perdus de vue)
+    - = Comparaison des caractéristiques PDV vs sujets suivis
+    
+**La sélection n’engendre pas systématiquement un biais**
+
+
+## Biais de classement
+
+Erreur systématique dans la mesure de la maladie ou de l’exposition conduisant à mal classer les sujets en malades/non malades ou en exposés/non exposés intervenant au moment du recueil de données
+
+Mesure précise de la maladie (ou exposition) étudiée :
+
+- Reposant, si possible, sur des méthodes objectives
+- Examens objectifs
+- Questionnaires standardisés et validés
+- Procédures reproductibles
+
+
+## Biais de confusion
+
+- Ces biais vont être liés à l’intervention d’un ou de plusieurs tiers facteurs
+- Ils sont particulièrement redoutés en épidémiologie analytique
+- En épidémiologie descriptive, peuvent intervenir lorsque l’on compare les taux provenant de plusieurs populations différentes
+
+> *Ex : comparer les taux de mortalité de la région Nord Pas de Calais (région jeune) à ceux de la région Limousin (région âgée)*
+
+
+## En bref
+
+- Erreurs systématiques (sous ou sur estimation) 
+- Ne sont pas modifiés par la taille de l’échantillon 
+- Ils peuvent être évités ou réduits et nécessitent donc une réflexion préalable
+
+
+::: callout-note
+
+## Question
+
+
+
+:::
+

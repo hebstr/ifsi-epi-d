@@ -1,0 +1,93 @@
+/*-- scss:defaults --*/
+
+$primary: #BC3C22 !default;
+$secondary: #f8ece9 !default;
+$font-size-root: 16px !default;
+
+/*-- scss:rules --*/
+
+body {
+  text-align: justify !important;
+}
+
+.cb {
+  font-weight: bold;
+  color: $primary;
+}
+
+div.callout-title-container {
+  font-size: 15px;  
+}
+
+div.callout-body-container.callout-body > p {
+  font-size: $font-size-root;
+}
+
+.sidebar-title {
+  color: $primary;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+div.sidebar-item-container .active {
+  font-weight: bold;
+}
+
+.sidebar nav[role=doc-toc] ul>li>a.active, .sidebar nav[role=doc-toc] ul>li>ul>li>a.active{
+  font-weight: bold;
+}
+
+img.quarto-cover-image {
+  box-shadow: 0.5rem 1rem rgba(0,0,0,.15);
+}
+
+#title-block-header.quarto-title-block.default .quarto-title h1.title {
+  margin-bottom: 0.5rem;
+  font-weight: normal;
+  color: #6C6C6C;
+}
+
+h2, h3, h4, h5 {
+  color: $primary;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+h3 { 
+  margin-top: 1.5em; 
+  font-size: 1.2rem; 
+  font-weight: normal; 
+}
+
+h4 { 
+  margin-top: 1.5em; 
+  font-size: 1.1rem; 
+}
+
+h5 { 
+  margin-top: 1.5em; 
+  font-size: 1rem; 
+}
+
+.quarto-section-identifier {
+  font-weight: normal;
+  color: #6C6C6C;
+}
+
+code.sourceCode {
+  font-size: 14px;
+}
+
+code {
+  color: $primary;
+}
+
+code a:any-link {
+  text-decoration: underline;
+  text-decoration-color: #cccccc;
+}

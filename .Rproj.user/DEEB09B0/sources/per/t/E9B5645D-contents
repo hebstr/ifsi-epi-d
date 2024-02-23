@@ -1,0 +1,52 @@
+project:
+  type: book
+
+lang: fr
+
+book:
+  title: "**Épidémiologie descriptive**"
+  date: today
+  sidebar: 
+    border: true
+    background: secondary
+  chapters:
+    - index.qmd
+    
+    - definitions.qmd
+    
+    - part: Indicateurs de santé
+      chapters: 
+        - indicateurs_base.qmd
+        - indicateurs_mrt.qmd
+        - indicateurs_mrb.qmd
+    
+    - part: Sources des indicateurs
+      chapters: 
+        - sources_base.qmd
+        - sources_adhoc.qmd
+        - sources_quali.qmd
+    
+    - part: Erreurs    
+      chapters: 
+        - fluctuations.qmd
+        - biais.qmd
+        
+knitr: 
+  opts_chunk:
+    collapse: true
+    comment: "#>"
+    echo: true
+    eval: false
+    message: false
+    warning: false
+
+format:
+  html:
+    theme:
+      light: 
+        - cosmo
+        - theme.scss
+    code-link: true
+    code-copy: false
+    code-fold: true
+    code-summary: "Afficher la réponse"

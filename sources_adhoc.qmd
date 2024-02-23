@@ -1,0 +1,72 @@
+# Enquêtes ad hoc
+
+- Enquête réalisée spécialement pour répondre à un besoin d’information sur un sujet précis
+- Quand aucune statistique recueillie en routine n’existe
+- Si la pathologie s'y prête
+
+organigramme
+
+
+## Terminologie
+
+::: {layout-ncol=3}
+
+```{r}
+#| echo: false
+#| eval: true
+
+tibble::tibble(Population = c("Exhaustive", "Représentative")) |> 
+  knitr::kable(align = "c")
+```
+
+```{r}
+#| echo: false
+#| eval: true
+
+tibble::tibble(Durée = c("Transversale", "Longitudinale")) |> 
+  knitr::kable(align = "c")
+```
+
+```{r}
+#| echo: false
+#| eval: true
+
+tibble::tibble(Chronologie = c("Rétrospective", "Prospective")) |> 
+  knitr::kable(align = "c")
+```
+
+:::
+
+### Population
+
+Le recueil d'information dans une population peut être réalisé de deux manières.
+
+On a recueilli l'information de [tous]{.cb} les individus qui constituent la population.
+Dans ce cas on parle d'[exhaustivité]{.cb}.
+
+Parfois il n'est pas possible d'avoir accès à l'ensemble d'une population (effectifs trop grands, manque de moyens...)
+
+Un échantillon est dit [représentatif]{.cb} s'il est le reflet de la population dont il est issu.
+
+
+Exemple : liste électorale 
+
+
+Cette méthode permet de réduire les *biais de sélection* (@sec-biais-sel)
+
+
+### Durée
+
+
+
+### Chronologie
+
+
+
+## Types d'enquêtes
+
+82-89
+
+
+## En bref
+

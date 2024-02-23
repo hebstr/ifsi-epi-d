@@ -1,0 +1,188 @@
+# Mesures de base
+
+Un indicateur de santé est une variable que l’on mesure afin de mesurer l’état de santé d’une population 
+
+- Outil d’évaluation et d’aide à la décision 
+- Permet de décrire l'état de santé des individus d'une communauté
+- Bien définir ce que nous mesurons +++ : TEMPS-ESPACE-PERSONNE
+- Toute mesure a un numérateur et un dénominateur
+
+
+## Proportion
+
+- S’exprime en % ou en chiffre compris entre 0 et 1 
+- Dénominateur inclus le numérateur 
+
+Proportion est synonyme de [fréquence]{.cb}.
+
+> *Ex: sur 750 000 enfants de 2 ans, 602 250 sont correctement vaccinés contre la rougeole. 80,3% d’enfant à 24 mois avec une couverture vaccinale contre la rougeole*
+
+DRESS, remontées des services de PMI - Certificat de santé du 24e mois, Janvier 2020
+
+
+## Taux 
+
+$$
+\frac
+{Nombre \space de \space changement \space d’état 
+\space pendant \space une \space durée \space T}
+{Nombre \space de \space sujet \space à \space risque
+\space de \space changement \space d’état \space pendant 
+\space cette \space durée \space T}
+$$
+
+- Probabilité de survenue d’un événement au cours d’une période 
+- S’exprime en % ou en chiffre compris entre 0 et 1 
+- Notion de temps et de risque
+
+> *Ex: taux de mortalité, taux d’incidence*
+
+
+## Ratio 
+
+- Rapport des effectifs des 2 modalités d’une même variable mutuellement exclusives 
+- Pas d’unité
+- Variables sexe à 2 modalités (F,H) : sex ratio = H/F 
+
+> *Ex: sur 100 individus, 49 hommes et 51 femmes Sex ratio= 0,96 (0,96 hommes pour 1 femme)*
+
+
+## Indice
+
+Rapport des effectifs de 2 variables 
+
+> *Ex: à l’hôpital, 1000 enfants pour 10 infirmières soit 1000/10=100 enfants par infirmières*
+
+
+## En bref
+
+Pour être de qualité, un indicateur de santé doit être :
+
+- Simple et acceptable
+- Valide : mesure pertinente
+- Fiable : mesure précise et reproductible
+- Sensible : si le phénomène évolue, l'indicateur évolue aussi
+- Spécifique : 
+
+::: callout-note
+
+## Fiablilité vs validité
+
+Il faut bien distinguer fiabilité et validité
+
+Fiabilité
+La fiabilité est synonyme de [précision]{.cb}
+
+Validité
+La validité est synonyme d'[exactitude]{.cb}
+
+:::
+
+2 grandes catégories d’indicateurs de santé :
+
+- Les indicateurs de [mortalité]{.cb}
+- Les indicateurs de [morbidité]{.cb}
+
+
+::: callout-note
+
+## Proportion? Taux? Ratio? Indice?
+
+Nombre de cancers cutanés / nombre de cancers 
+
+```{r}
+"proportion"
+
+
+explication :
+
+- une seule variable : le cancer
+
+- nombre de cancers = ensemble des cancers
+
+- les cancers cutanés sont un sous-ensemble des cancers
+
+--> c''est un rapport dans lequel le numérateur est inclut dans le dénominateur
+```
+
+\
+
+Nombre de fumeurs / Nombre de non fumeurs 
+
+```{r}
+"ratio"
+
+
+explication :
+
+- une seule variable : le statut fumeur/non fumeur
+  
+- variable à 2 modalités : fumeur, non fumeur
+
+--> c''est un rapport entre 2 modalités d''une même variable
+```
+
+\
+
+Consommation de cigarettes par habitant 
+
+```{r}
+"indice"
+
+- 2 variables :
+  - nombre de cigarettes
+  - nombre d''habitants
+  
+--> c''est un rapport entre 2 variables
+```
+
+\
+
+Nombre de décès sur une période / effectif à risque de décès sur cette période
+
+```{r}
+"taux"
+
+
+
+(la baignoire !)
+```
+
+\
+
+Nombre d'hypertendus en 1975 / nombre d'hypertendus en 1994 
+
+```{r}
+"indice"
+
+
+explication :
+
+- 2 variables :
+  - nombre d''hypertendus sur une période
+  - nombre d''hypertendus sur une autre période
+  
+--> c''est un rapport entre 2 variables
+```
+
+\
+
+Nombre d'amputés du bras / nombre d'amputés
+
+```{r}
+"proportion"
+
+
+explication :
+
+- une seule variable : l''amputation
+
+- nombre d''amputations = ensemble des amputations
+
+- les amputations du bras sont un sous-ensemble des amputations
+
+--> c''est un rapport dans lequel le numérateur est inclut dans le dénominateur
+```
+
+
+:::

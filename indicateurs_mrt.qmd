@@ -1,0 +1,63 @@
+# Indicateurs de mortalité
+
+Indicateurs qui décrivent la fréquence des décès 
+
+Différents taux de mortalité peuvent être calculés : 
+
+- Taux brut 
+- Taux spécifique 
+- Taux standardisé
+
+## Taux brut de mortalité
+
+= mortalité globale
+
+Nombre de décès dans une population pour une période donnée / Effectif de la population pendant la même période 
+
+- En général calculé sur un an 
+- Exprimé en taux pour 1000 
+
+> *Ex: il était de 9,1 pour 1000 habitants en 2019 en France (Source : Insee)*
+
+
+## Taux spécifiques de mortalité 
+
+- Etablis en tenant compte d’un autre paramètre : par sexe, par tranches d’âges, par causes
+
+Nombre de décès du sous−groupe pour une période donnée / Effectifs de la population du sous−groupe pendant la même période
+
+- Exprimé en taux pour 1000
+  - Mortalité prématurée : survenant avant 65 ans 
+  - Mortalité évitable : qui aurait pu être évitée 
+  
+> *Ex : Taux de mortalité infantile = 3,8 pour 1000 enfants nés vivants entre 2016 et 2018*
+
+Les taux spécifiques de mortalité : dans l’enfance et autour de la naissance
+
+img emfantile
+
+
+## Taux de létalité 
+
+- Proportion de sujets qui, nouvellement atteints d'une maladie, en meurent 
+- Indice de gravité d'une maladie
+- Létalité à x temps (à 28 jours, à un an, …) 
+
+Taux Létalité = Nbre de Décès dus à la pathologie P x temps après le début / Nbre de personnes nouvellement atteintes de la pathologie P
+
+
+## L’espérance de vie
+
+L’espérance de vie à un âge donné est le nombre moyen d’années que peut espérer vivre une personne à partir de cet âge
+
+- Si l’âge est 0, on parle d’espérance de vie à la naissance
+
+En 2019, l’espérance de vie 
+
+- A la naissance en France était de 79,8 ans pour les hommes, de 85,7 ans pour les femmes 
+- A 65 ans cette espérance de vie était de 19,6 ans pour les hommes, 23,5 pour les femmes
+
+
+## Standardisation
+
+Taux comparatifs de décès (ou taux standardisés) = Taux de décès si la structure d’âge était la même dans tous les départements

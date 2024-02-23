@@ -1,0 +1,73 @@
+# Introduction {.unnumbered}
+
+```{r}
+#| echo: false
+#| eval: true
+library(knitr)
+```
+
+
+::: callout-important
+## ATTENTION
+**!! Document en cours de rédaction et en attente de validation par les enseignants de santé publique !!**
+:::
+
+## La santé
+
+> « La santé est un état de complet bien-être physique, mental et social, et ne consiste pas seulement en une absence de maladie ou d’infirmité »
+
+- Préambule de la constitution de l’OMS 1946
+
+## L'épidémiologie
+
+L'épidémiologie est étymologiquement composée de trois concepts : au-dessus/parmi (*"epi"*), peuple ("*demos*") et discours/connaissance (*"logos"*). Elle signifie donc par extrapolation
+
+> *" la science de ce qui affecte la population"* 
+
+et était historiquement réservée à l'étude des maladies infectieuses (épidémies).
+
+Actuellement, l’épidémiologie étudie en pratique :
+
+- La [distribution]{.cb} d'un phénomène de santé dans une population humaine 
+- Et les [déterminants]{.cb} de cette distribution (facteurs délétères, facteurs protecteurs)
+
+::: callout-note
+
+## Phénomène de santé = maladie ?
+
+Un phénomène de santé, ou état de santé, fait référence à [tout évènement]{.cb} relatif à santé d'une personne ou d'une population. Il n'est donc [pas forcément synonyme de maladie]{.cb}. Ça peut être un symptôme, ou même la mort.
+
+:::
+
+### **Pour quoi ?**
+
+- [Décrire]{.cb} un phénomène de santé = Epidémiologie descriptive 
+  - Caractériser une pathologie 
+  
+- [Comprendre]{.cb} = Epidémiologie analytique
+  - Rechercher les déterminants de cette pathologie 
+
+- [Evaluer]{.cb} = Epidémiologie évaluative
+  - Mesurer l’impact d’une politique de santé
+
+
+```{r}
+#| echo: false
+#| eval: true
+#| out-width: 6in
+#| fig-align: center
+
+include_graphics("img/quadri.png")
+```
+
+
+### **Pour qui ?**
+
+Les professionnels de santé : mieux cibler les interventions: prévention, action, soins 
+
+Les politiques et les administrations : décider (promotion de la santé, éducation à la santé) 
+
+Les gestionnaires : planifier, allouer organiser
+
+Les usagers : savoir défendre leurs causes
+

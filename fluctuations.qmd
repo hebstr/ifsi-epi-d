@@ -1,0 +1,44 @@
+# Fluctuations d'échantillonnage {#sec-fluct}
+
+- Erreurs aléatoires liées au hasard 
+- Diminuent en augmentant la taille de l’échantillon 
+- Prises en compte dans la présentation des résultats : Intervalle de confiance à 95%
+
+
+## Maitriser l'incertitude
+
+Intervalle de confiance à 95% d’une prévalence 
+
+p= Nombre de malades dans la population / Effectif total de la population 
+
+Si Np et N(1-p) > 5, alors IC95% = p ±1.96× p (1−p)/N 
+
+IC95% = intervalle de confiance à 95% 
+p = prévalence 
+N = nombre total de sujet
+
+
+Exemple : intervalle de confiance à 95% d’une prévalence
+
+Une maladie a une prévalence de 20% dans un échantillon de 100 personnes tirées au sort en population générale 0,20 x 0,80 
+
+- BsupIC95% = 0,20 +1.96 x 100 = 0,28 0,20 x 0,80 
+- BInfIC95% = 0,20 -1.96 x 100 = 0,12 
+
+Interprétation : dans la population générale, il y a 95% de chance pour que la vraie prévalence de la maladie soit comprise entre 12 et 28% IC95% [0,12 – 0,28]
+
+
+## En bref
+
+- Erreurs aléatoires
+- Diminuent en augmentant la taille de l’échantillon
+- Justifient la réalisation de tests statistiques
+- Prises en compte dans la présentation des résultats (intervalle de confiance)
+
+::: callout-note
+
+## Question
+
+
+
+:::

@@ -1,0 +1,4 @@
+- source: project
+  quarto-pub:
+    - id: aca1ee9f-a4f7-42e7-82a3-0d269d44a7d3
+      url: 'https://hebstr.quarto.pub/ifsi_epi_d'

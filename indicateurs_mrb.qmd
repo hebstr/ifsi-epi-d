@@ -1,0 +1,59 @@
+# Indicateurs de morbidité
+
+Morbidité : nombre de personnes atteintes par une maladie
+
+- Taux de morbidité : Fréquence d’une maladie 
+- Indicateurs de morbidité : - Prévalence - Incidence
+
+Problèmes de la mesure de la morbidité 
+
+- Qu’est ce qu’une maladie? Quelle définition adopter? 
+- Quand commence une maladie? (ex: maladie d’Alzheimer) 
+- Quand finit une maladie? 
+- Comment mesurer cette morbidité? En interrogeant l’individu? Son médecin? En mesurant un paramètre?
+
+Différents types : 
+
+- La morbidité ressentie 
+- La morbidité diagnostiquée : affections diagnostiquées par les médecins 
+- La morbidité objectivée : affections diagnostiquées à l’aide d’un examen systématique 
+- La morbidité déclarée
+
+Évolution de la connaissance (A) et de la part traitée et contrôlée de l’hypertension artérielle (HTA) (B) chez les personnes hypertendues entre ENNS 2006 et Esteban 2015, en fonction du sexe.
+
+img hta
+
+img comparatif incidence/prévalence
+
+
+## Incidence
+
+- Nombre de nouveaux cas d’une maladie survenant au sein d’une population 
+- Mesure longitudinale 
+- Reflète la vitesse d’apparition d’une maladie dans une population 
+
+Calcul du taux d’incidence : I = N/PT 
+
+I : taux d’incidence 
+N : nombre de nouveaux cas de la maladie constatés dans la population étudiée pendant la période de temps considérée
+PT : nombre de personnes-temps à risque calculé dans la population étudiée pendant la période de temps considérée
+
+
+## Prévalence
+
+- Pourcentage d’individus malades dans une population à un moment donné 
+- Mesure transversale 
+- Dépend de l’incidence et de la durée d’évolution de la maladie : plus elles augmentent plus la prévalence augmente 
+
+Calcul de la prévalence : P = n/N
+
+P : prévalence 
+n : nombre de malades dans la population étudiée à un instant t 
+N : effectif total de la population étudiée
+
+
+## Différence entre incidence et prévalence
+
+Infection à VIH : incidence, prévalence et mortalité
+
+img courbes

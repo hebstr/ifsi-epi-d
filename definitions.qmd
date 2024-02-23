@@ -1,0 +1,65 @@
+# Définitions
+
+## Définitions
+
+L’épidémiologie descriptive a pour objectif de **décrire** un problème de santé dans un groupe de personne ou une population :
+
+- Fréquence 
+- Répartition 
+- Evolution 
+- Caractéristiques
+
+Elle repose sur l’utilisation d’indicateurs de santé :
+
+- Indicateurs de **morbidité**
+- Indicateurs de **mortalité**
+
+## Objectifs
+
+1) Surveillance et contrôle sanitaire 
+2) Meilleure connaissance des besoins de prise en charge médicale des populations 
+3) Evaluation d’une action de santé 
+4) Formulation d’hypothèses dans la recherche étiologique :
+    - Variations dans le temps
+    - Variations géographiques
+
+### Surveillance et contrôle sanitaire
+
+- Surveillance et alerte 
+- Repérer les individus atteints de maladie pour mettre en place des mesures : 
+  - Isolement (ex : SRAS) 
+  - Traitement des malades (Tuberculose) 
+  - Traitement prophylactique de l'entourage (ex: Méningite) 
+  - Repérer et neutraliser la source de la contamination (ex: TIAC) 
+  - ...
+
+
+### Meilleure connaissance des besoins de prise en charge médicale des populations
+
+> *Ex : fréquence de la trisomie 21 selon l’âge maternel*
+
+
+### Evaluation d'une action de santé
+
+img covid
+
+
+### Formulation d’hypothèses dans la recherche étiologique
+
+img gradient nord sud
+
+
+## En bref
+
+Vise à déterminer dans la population : la fréquence et la répartition 
+
+- Des maladies 
+- Des paramètres de santé 
+- Des facteurs de risques 
+
+En terme de 
+
+- Temps : Quand? 
+- Lieu : Où? 
+- Personnes : Qui?
+

@@ -1,0 +1,21 @@
+{
+  "hash": "acfe1c3ba403e428ad427431d581669f",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Enquêtes ad hoc\n\n- Enquête réalisée spécialement pour répondre à un besoin d’information sur un sujet précis\n- Quand aucune statistique recueillie en routine n’existe\n- Si la pathologie s'y prête\n\norganigramme\n\n\n## Terminologie\n\n::: {layout-ncol=3}\n\n\n\n::: {.cell}\n::: {.cell-output-display}\n\n\n|   Population   |\n|:--------------:|\n|   Exhaustive   |\n| Représentative |\n\n\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n\n\n|     Durée     |\n|:-------------:|\n| Transversale  |\n| Longitudinale |\n\n\n:::\n:::\n\n::: {.cell}\n::: {.cell-output-display}\n\n\n|  Chronologie  |\n|:-------------:|\n| Rétrospective |\n|  Prospective  |\n\n\n:::\n:::\n\n\n\n:::\n\n### Population\n\nLe recueil d'information dans une population peut être réalisé de deux manières.\n\nOn a recueilli l'information de [tous]{.cb} les individus qui constituent la population.\nDans ce cas on parle d'[exhaustivité]{.cb}.\n\nParfois il n'est pas possible d'avoir accès à l'ensemble d'une population (effectifs trop grands, manque de moyens...)\n\nUn échantillon est dit [représentatif]{.cb} s'il est le reflet de la population dont il est issu.\n\n\nExemple : liste électorale \n\n\nCette méthode permet de réduire les *biais de sélection* (@sec-biais-sel)\n\n\n### Durée\n\n\n\n### Chronologie\n\n\n\n## Types d'enquêtes\n\n82-89\n\n\n## En bref\n\n",
+    "supporting": [
+      "sources_adhoc_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {
+      "knitr": [
+        "{\"type\":\"list\",\"attributes\":{},\"value\":[]}"
+      ]
+    },
+    "preserve": null,
+    "postProcess": false
+  }
+}
