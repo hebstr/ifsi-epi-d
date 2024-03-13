@@ -44,13 +44,13 @@ Mesure précise de la maladie (ou exposition) étudiée :
 - Procédures reproductibles
 
 
-## Biais de confusion
+## Biais de confusion {#sec-biais-conf}
 
 - Ces biais vont être liés à l’intervention d’un ou de plusieurs tiers facteurs
 - Ils sont particulièrement redoutés en épidémiologie analytique
 - En épidémiologie descriptive, peuvent intervenir lorsque l’on compare les taux provenant de plusieurs populations différentes
 
-> *Ex : comparer les taux de mortalité de la région Nord Pas de Calais (région jeune) à ceux de la région Limousin (région âgée)*
+> *Ex : comparer les taux bruts de mortalité de la région Nord-Pas-de-Calais (région jeune) à ceux de la région Limousin (région âgée)*
 
 
 ## En bref

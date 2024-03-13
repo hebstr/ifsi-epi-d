@@ -1,59 +1,104 @@
 # Indicateurs de morbidité
 
-Morbidité : nombre de personnes atteintes par une maladie
+Le terme de [morbidité]{.cb} est relatif au fait d'être [atteint d'une maladie]{.cb}.
 
-- Taux de morbidité : Fréquence d’une maladie 
-- Indicateurs de morbidité : - Prévalence - Incidence
+Il existe en pratique deux indicateurs de morbidité : l'[incidence]{.cb} et la [prévalence]{.cb}.
 
 Problèmes de la mesure de la morbidité 
 
-- Qu’est ce qu’une maladie? Quelle définition adopter? 
+- Qu’est-ce qu’une maladie? Quelle définition adopter? 
 - Quand commence une maladie? (ex: maladie d’Alzheimer) 
 - Quand finit une maladie? 
 - Comment mesurer cette morbidité? En interrogeant l’individu? Son médecin? En mesurant un paramètre?
 
-Différents types : 
+La morbidité peut se distinguer en plusieurs types : 
 
-- La morbidité ressentie 
-- La morbidité diagnostiquée : affections diagnostiquées par les médecins 
-- La morbidité objectivée : affections diagnostiquées à l’aide d’un examen systématique 
-- La morbidité déclarée
+- La morbidité [ressentie]{.cb} 
+- La morbidité [diagnostiquée]{.cb} : affections diagnostiquées par les médecins 
+- La morbidité [objectivée]{.cb} : affections diagnostiquées à l’aide d’un examen systématique 
+- La morbidité [déclarée]{.cb}
 
-Évolution de la connaissance (A) et de la part traitée et contrôlée de l’hypertension artérielle (HTA) (B) chez les personnes hypertendues entre ENNS 2006 et Esteban 2015, en fonction du sexe.
+Évolution de la connaissance (A) et de la part traitée et contrôlée (B) de l’hypertension artérielle (HTA) chez les personnes hypertendues entre ENNS 2006 et Esteban 2015, en fonction du sexe.
 
 img hta
-
-img comparatif incidence/prévalence
 
 
 ## Incidence
 
-- Nombre de nouveaux cas d’une maladie survenant au sein d’une population 
-- Mesure longitudinale 
-- Reflète la vitesse d’apparition d’une maladie dans une population 
+L'incidence est un [taux de morbidité]{.cb}. Le terme d'incidence est d'ailleurs synonyme en pratique de [taux d'incidence]{.cb}.
 
-Calcul du taux d’incidence : I = N/PT 
+Il s'agit simplement d'un taux appliqué à [l'apparition de nouveaux cas]{.cb} d'une maladie au sein d'une population.
 
-I : taux d’incidence 
-N : nombre de nouveaux cas de la maladie constatés dans la population étudiée pendant la période de temps considérée
-PT : nombre de personnes-temps à risque calculé dans la population étudiée pendant la période de temps considérée
+FORMULE
+
+Du fait qu'il s'agisse d'une mesure sur une période donnée, elle est qualifiée de mesure [longitudinale]{.cb} (*"en longueur"*, *"sur la durée"*). 
+
+L'incidence étant par définition un taux, elle peut-être vue comme une [vitesse d’apparition de nouveaux cas]{.cb} d’une maladie dans une population, [sur une période donnée]{.cb}.
 
 
 ## Prévalence
 
-- Pourcentage d’individus malades dans une population à un moment donné 
-- Mesure transversale 
-- Dépend de l’incidence et de la durée d’évolution de la maladie : plus elles augmentent plus la prévalence augmente 
+La [prévalence]{.cb} est la [proportion]{.cb} d'individus atteints d'une maladie dans une population à un instant donné. 
 
-Calcul de la prévalence : P = n/N
+FORMULE
 
-P : prévalence 
-n : nombre de malades dans la population étudiée à un instant t 
-N : effectif total de la population étudiée
+Du fait qu'il s'agisse d'une mesure ponctuelle, à un instant donné, elle est qualifiée de mesure [transversale]{.cb} (*"une photographie"*), en opposition donc à longitudinale.
+
+Pour qu'une proportion d'individus malades se constitue au sein d'une population, il faut bien sûr que de nouveaux cas de cette maladie soient apparus en amont.
+Autrement dit, la prévalence est [dépendante de l’incidence]{.cb}. 
+
+Elle dépend également de la [durée d’évolution]{.cb} de la maladie : plus elle augmente, plus la prévalence augmente. 
 
 
-## Différence entre incidence et prévalence
+## Incidence et prévalence : allégorie et exemples
 
-Infection à VIH : incidence, prévalence et mortalité
+### La baignoire de l'épidémiologiste
+
+La baignoire de l'épidémiologiste.
+
+Cette image comporte classiquement 3 éléments :
+
+- Le volume d'eau occupant la baignoire
+- Le robinet ouvert
+- L'évacuation
+
+[img baignoire]
+
+La baignoire dans son ensemble symbolise la morbidité. Elle se situe , qui symbolise l'ensemble de la population.
+
+Le volume d'eau représente le proportion d'individus malades dans la population : c'est la [prévalence]{.cb}.
+
+Le débit d'eau entrant représente les nouveaux cas de malades : c'est l'[incidence]{.cb}.
+
+L'évacuation représente les individus sortant de la population de malades : c'est la [mortalité]{.cb}.
+
+Bien sûr la mort n'est pas la seule façon de sortir du circuit : il y a une possibilité de [guérison ou rémission]{.cb} de la maladie en question.
+Ainsi pour être complet, on peut donc rajouter ce nouvel élément en le symbolisant par l'évaporation du volume d'eau présent dans la baignoire.
+
+L'image de la baignoire est plutôt bonne : c'est un circuit ouvert avec entrée et sortie. De ce fait, bien que le robinet sort constamment ouvert, la baignoire ne déborde jamais.
+
+### Exemple de l'infection à VIH
+
+> *La baignoire ne déborde jamais, mais le niveau d'eau augmente petit à petit.*
+
+Qu'est-ce que ça signifie ?
+
+Infection à VIH, en représentant graphiquement incidence et prévalence.
 
 img courbes
+
+L'infection à VIH est pourvoyeuse du **SIDA** (**S**yndrome d'**I**mmuno-**D**éficience **A**cquise), ayant pour caractéristique d'être une maladie donc on ne guérit pas.
+
+Les progrès de la médecine ont changé la donne en permettant une augmentation notable de l'espérance de vie, autrement dit en permettant aux gens de moins mourir de la maladie. Par conséquent on parle de maladie [chronique]{.cb}.
+
+La prévalence d'une maladie augmente avec le temps.
+L'incidence, quant à elle, ne suit pas cette tendance. Hors cas d'épidémie, les nouveaux cas se produisent à vitesse constante.
+
+
+::: callout-important
+## Ce qu'il faut retenir
+
+- [Bien différencier incidence et prévalence (penser à la baignoire !)]{.cb}
+- [La prévalence d'une maladie chronique à tendance à augmenter avec le temps du fait de l'augmentation de l'espérance de vie]{.cb}
+
+:::

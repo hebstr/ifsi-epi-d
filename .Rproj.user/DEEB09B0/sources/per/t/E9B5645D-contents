@@ -26,7 +26,7 @@ book:
         - sources_adhoc.qmd
         - sources_quali.qmd
     
-    - part: Erreurs    
+    - part: Erreurs de mesure    
       chapters: 
         - fluctuations.qmd
         - biais.qmd
@@ -46,7 +46,9 @@ format:
       light: 
         - cosmo
         - theme.scss
+    lightbox: true
     code-link: true
     code-copy: false
     code-fold: true
     code-summary: "Afficher la réponse"
+    reference-location: margin

@@ -179,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
- <span class="menu-text">Erreurs</span></a>
+ <span class="menu-text">Erreurs de mesure</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -211,7 +211,11 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#incidence" id="toc-incidence" class="nav-link active" data-scroll-target="#incidence"><span class="header-section-number">4.1</span> Incidence</a></li>
   <li><a href="#prévalence" id="toc-prévalence" class="nav-link" data-scroll-target="#prévalence"><span class="header-section-number">4.2</span> Prévalence</a></li>
-  <li><a href="#différence-entre-incidence-et-prévalence" id="toc-différence-entre-incidence-et-prévalence" class="nav-link" data-scroll-target="#différence-entre-incidence-et-prévalence"><span class="header-section-number">4.3</span> Différence entre incidence et prévalence</a></li>
+  <li><a href="#incidence-et-prévalence-allégorie-et-exemples" id="toc-incidence-et-prévalence-allégorie-et-exemples" class="nav-link" data-scroll-target="#incidence-et-prévalence-allégorie-et-exemples"><span class="header-section-number">4.3</span> Incidence et prévalence : allégorie et exemples</a>
+  <ul class="collapse">
+  <li><a href="#la-baignoire-de-lépidémiologiste" id="toc-la-baignoire-de-lépidémiologiste" class="nav-link" data-scroll-target="#la-baignoire-de-lépidémiologiste"><span class="header-section-number">4.3.1</span> La baignoire de l’épidémiologiste</a></li>
+  <li><a href="#exemple-de-linfection-à-vih" id="toc-exemple-de-linfection-à-vih" class="nav-link" data-scroll-target="#exemple-de-linfection-à-vih"><span class="header-section-number">4.3.2</span> Exemple de l’infection à VIH</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -237,54 +241,89 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Morbidité : nombre de personnes atteintes par une maladie</p>
-<ul>
-<li>Taux de morbidité : Fréquence d’une maladie</li>
-<li>Indicateurs de morbidité : - Prévalence - Incidence</li>
-</ul>
+<p>Le terme de <span class="cb">morbidité</span> est relatif au fait d’être <span class="cb">atteint d’une maladie</span>.</p>
+<p>Il existe en pratique deux indicateurs de morbidité : l’<span class="cb">incidence</span> et la <span class="cb">prévalence</span>.</p>
 <p>Problèmes de la mesure de la morbidité</p>
 <ul>
-<li>Qu’est ce qu’une maladie? Quelle définition adopter?</li>
+<li>Qu’est-ce qu’une maladie? Quelle définition adopter?</li>
 <li>Quand commence une maladie? (ex: maladie d’Alzheimer)</li>
 <li>Quand finit une maladie?</li>
 <li>Comment mesurer cette morbidité? En interrogeant l’individu? Son médecin? En mesurant un paramètre?</li>
 </ul>
-<p>Différents types :</p>
+<p>La morbidité peut se distinguer en plusieurs types :</p>
 <ul>
-<li>La morbidité ressentie</li>
-<li>La morbidité diagnostiquée : affections diagnostiquées par les médecins</li>
-<li>La morbidité objectivée : affections diagnostiquées à l’aide d’un examen systématique</li>
-<li>La morbidité déclarée</li>
+<li>La morbidité <span class="cb">ressentie</span></li>
+<li>La morbidité <span class="cb">diagnostiquée</span> : affections diagnostiquées par les médecins</li>
+<li>La morbidité <span class="cb">objectivée</span> : affections diagnostiquées à l’aide d’un examen systématique</li>
+<li>La morbidité <span class="cb">déclarée</span></li>
 </ul>
-<p>Évolution de la connaissance (A) et de la part traitée et contrôlée de l’hypertension artérielle (HTA) (B) chez les personnes hypertendues entre ENNS 2006 et Esteban 2015, en fonction du sexe.</p>
+<p>Évolution de la connaissance (A) et de la part traitée et contrôlée (B) de l’hypertension artérielle (HTA) chez les personnes hypertendues entre ENNS 2006 et Esteban 2015, en fonction du sexe.</p>
 <p>img hta</p>
-<p>img comparatif incidence/prévalence</p>
 <section id="incidence" class="level2" data-number="4.1">
 <h2 data-number="4.1" class="anchored" data-anchor-id="incidence"><span class="header-section-number">4.1</span> Incidence</h2>
-<ul>
-<li>Nombre de nouveaux cas d’une maladie survenant au sein d’une population</li>
-<li>Mesure longitudinale</li>
-<li>Reflète la vitesse d’apparition d’une maladie dans une population</li>
-</ul>
-<p>Calcul du taux d’incidence : I = N/PT</p>
-<p>I : taux d’incidence N : nombre de nouveaux cas de la maladie constatés dans la population étudiée pendant la période de temps considérée PT : nombre de personnes-temps à risque calculé dans la population étudiée pendant la période de temps considérée</p>
+<p>L’incidence est un <span class="cb">taux de morbidité</span>. Le terme d’incidence est d’ailleurs synonyme en pratique de <span class="cb">taux d’incidence</span>.</p>
+<p>Il s’agit simplement d’un taux appliqué à <span class="cb">l’apparition de nouveaux cas</span> d’une maladie au sein d’une population.</p>
+<p>FORMULE</p>
+<p>Du fait qu’il s’agisse d’une mesure sur une période donnée, elle est qualifiée de mesure <span class="cb">longitudinale</span> (<em>“en longueur”</em>, <em>“sur la durée”</em>).</p>
+<p>L’incidence étant par définition un taux, elle peut-être vue comme une <span class="cb">vitesse d’apparition de nouveaux cas</span> d’une maladie dans une population, <span class="cb">sur une période donnée</span>.</p>
 </section>
 <section id="prévalence" class="level2" data-number="4.2">
 <h2 data-number="4.2" class="anchored" data-anchor-id="prévalence"><span class="header-section-number">4.2</span> Prévalence</h2>
-<ul>
-<li>Pourcentage d’individus malades dans une population à un moment donné</li>
-<li>Mesure transversale</li>
-<li>Dépend de l’incidence et de la durée d’évolution de la maladie : plus elles augmentent plus la prévalence augmente</li>
-</ul>
-<p>Calcul de la prévalence : P = n/N</p>
-<p>P : prévalence n : nombre de malades dans la population étudiée à un instant t N : effectif total de la population étudiée</p>
+<p>La <span class="cb">prévalence</span> est la <span class="cb">proportion</span> d’individus atteints d’une maladie dans une population à un instant donné.</p>
+<p>FORMULE</p>
+<p>Du fait qu’il s’agisse d’une mesure ponctuelle, à un instant donné, elle est qualifiée de mesure <span class="cb">transversale</span> (<em>“une photographie”</em>), en opposition donc à longitudinale.</p>
+<p>Pour qu’une proportion d’individus malades se constitue au sein d’une population, il faut bien sûr que de nouveaux cas de cette maladie soient apparus en amont. Autrement dit, la prévalence est <span class="cb">dépendante de l’incidence</span>.</p>
+<p>Elle dépend également de la <span class="cb">durée d’évolution</span> de la maladie : plus elle augmente, plus la prévalence augmente.</p>
 </section>
-<section id="différence-entre-incidence-et-prévalence" class="level2" data-number="4.3">
-<h2 data-number="4.3" class="anchored" data-anchor-id="différence-entre-incidence-et-prévalence"><span class="header-section-number">4.3</span> Différence entre incidence et prévalence</h2>
-<p>Infection à VIH : incidence, prévalence et mortalité</p>
+<section id="incidence-et-prévalence-allégorie-et-exemples" class="level2" data-number="4.3">
+<h2 data-number="4.3" class="anchored" data-anchor-id="incidence-et-prévalence-allégorie-et-exemples"><span class="header-section-number">4.3</span> Incidence et prévalence : allégorie et exemples</h2>
+<section id="la-baignoire-de-lépidémiologiste" class="level3" data-number="4.3.1">
+<h3 data-number="4.3.1" class="anchored" data-anchor-id="la-baignoire-de-lépidémiologiste"><span class="header-section-number">4.3.1</span> La baignoire de l’épidémiologiste</h3>
+<p>La baignoire de l’épidémiologiste.</p>
+<p>Cette image comporte classiquement 3 éléments :</p>
+<ul>
+<li>Le volume d’eau occupant la baignoire</li>
+<li>Le robinet ouvert</li>
+<li>L’évacuation</li>
+</ul>
+<p>[img baignoire]</p>
+<p>La baignoire dans son ensemble symbolise la morbidité. Elle se situe , qui symbolise l’ensemble de la population.</p>
+<p>Le volume d’eau représente le proportion d’individus malades dans la population : c’est la <span class="cb">prévalence</span>.</p>
+<p>Le débit d’eau entrant représente les nouveaux cas de malades : c’est l’<span class="cb">incidence</span>.</p>
+<p>L’évacuation représente les individus sortant de la population de malades : c’est la <span class="cb">mortalité</span>.</p>
+<p>Bien sûr la mort n’est pas la seule façon de sortir du circuit : il y a une possibilité de <span class="cb">guérison ou rémission</span> de la maladie en question. Ainsi pour être complet, on peut donc rajouter ce nouvel élément en le symbolisant par l’évaporation du volume d’eau présent dans la baignoire.</p>
+<p>L’image de la baignoire est plutôt bonne : c’est un circuit ouvert avec entrée et sortie. De ce fait, bien que le robinet sort constamment ouvert, la baignoire ne déborde jamais.</p>
+</section>
+<section id="exemple-de-linfection-à-vih" class="level3" data-number="4.3.2">
+<h3 data-number="4.3.2" class="anchored" data-anchor-id="exemple-de-linfection-à-vih"><span class="header-section-number">4.3.2</span> Exemple de l’infection à VIH</h3>
+<blockquote class="blockquote">
+<p><em>La baignoire ne déborde jamais, mais le niveau d’eau augmente petit à petit.</em></p>
+</blockquote>
+<p>Qu’est-ce que ça signifie ?</p>
+<p>Infection à VIH, en représentant graphiquement incidence et prévalence.</p>
 <p>img courbes</p>
+<p>L’infection à VIH est pourvoyeuse du <strong>SIDA</strong> (<strong>S</strong>yndrome d’<strong>I</strong>mmuno-<strong>D</strong>éficience <strong>A</strong>cquise), ayant pour caractéristique d’être une maladie donc on ne guérit pas.</p>
+<p>Les progrès de la médecine ont changé la donne en permettant une augmentation notable de l’espérance de vie, autrement dit en permettant aux gens de moins mourir de la maladie. Par conséquent on parle de maladie <span class="cb">chronique</span>.</p>
+<p>La prévalence d’une maladie augmente avec le temps. L’incidence, quant à elle, ne suit pas cette tendance. Hors cas d’épidémie, les nouveaux cas se produisent à vitesse constante.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Ce qu’il faut retenir
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><span class="cb">Bien différencier incidence et prévalence (penser à la baignoire !)</span></li>
+<li><span class="cb">La prévalence d’une maladie chronique à tendance à augmenter avec le temps du fait de l’augmentation de l’espérance de vie</span></li>
+</ul>
+</div>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

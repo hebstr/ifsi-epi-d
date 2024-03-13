@@ -15,10 +15,12 @@ Un indicateur de santé est une variable que l’on mesure afin de mesurer l’�
 
 Proportion est synonyme de [fréquence]{.cb}.
 
-> *Ex: sur 750 000 enfants de 2 ans, 602 250 sont correctement vaccinés contre la rougeole. 80,3% d’enfant à 24 mois avec une couverture vaccinale contre la rougeole*
+::: callout-note
+## Exemple
 
-DRESS, remontées des services de PMI - Certificat de santé du 24e mois, Janvier 2020
+sur 750 000 enfants de 2 ans, 602 250 sont correctement vaccinés contre la rougeole. 80,3% d’enfant à 24 mois avec une couverture vaccinale contre la rougeole*
 
+:::
 
 ## Taux 
 
@@ -35,8 +37,12 @@ $$
 - S’exprime en % ou en chiffre compris entre 0 et 1 
 - Notion de temps et de risque
 
-> *Ex: taux de mortalité, taux d’incidence*
+::: callout-note
+## Exemple
 
+taux de mortalité, taux d’incidence
+
+:::
 
 ## Ratio 
 
@@ -44,14 +50,104 @@ $$
 - Pas d’unité
 - Variables sexe à 2 modalités (F,H) : sex ratio = H/F 
 
-> *Ex: sur 100 individus, 49 hommes et 51 femmes Sex ratio= 0,96 (0,96 hommes pour 1 femme)*
+::: callout-note
+## Exemple
 
+sur 100 individus, 49 hommes et 51 femmes Sex ratio= 0,96 (0,96 hommes pour 1 femme)*
+
+:::
 
 ## Indice
 
 Rapport des effectifs de 2 variables 
 
-> *Ex: à l’hôpital, 1000 enfants pour 10 infirmières soit 1000/10=100 enfants par infirmières*
+::: callout-note
+## Exemple
+
+à l’hôpital, 1000 enfants pour 10 infirmières soit 1000/10=100 enfants par infirmières*
+
+:::
+
+## Proportion? Taux? Ratio? Indice?
+
+::: {.callout-caution collapse="true" appearance="minimal"}
+
+## Nombre de cancers cutanés / nombre de cancers 
+
+[Proportion]{.cb}
+
+- Une seule variable : le cancer
+- Nombre de cancers = ensemble des cancers
+- Les cancers cutanés sont un sous-ensemble des cancers
+
+**C'est un rapport dans lequel le numérateur est inclut dans le dénominateur**
+
+:::
+
+::: {.callout-caution collapse="true" appearance="minimal"}
+
+## Nombre de fumeurs / Nombre de non fumeurs
+
+[Ratio]{.cb}
+
+- Une seule variable : le statut fumeur/non fumeur
+- Variable à 2 modalités : fumeur, non fumeur
+
+**C'est un rapport entre 2 modalités d'une même variable**
+
+:::
+
+::: {.callout-caution collapse="true" appearance="minimal"}
+
+## Consommation de cigarettes par habitant 
+
+[Indice]{.cb}
+
+- 2 variables :
+  - Nombre de cigarettes
+  - Nombre d'habitants
+  
+**C'est un rapport entre 2 effectifs différents**
+
+:::
+
+::: {.callout-caution collapse="true" appearance="minimal"}
+
+## Nombre de décès sur une période / effectif à risque de décès sur cette période
+
+[Taux]{.cb}
+
+(la baignoire !)
+
+:::
+
+::: {.callout-caution collapse="true" appearance="minimal"}
+
+## Nombre d'hypertendus en 1975 / nombre d'hypertendus en 1994 
+
+[Indice]{.cb}
+
+- 2 variables :
+  - Nombre d'hypertendus sur une période
+  - Nombre d'hypertendus sur une autre période
+  
+**C'est un rapport entre 2 effectifs différents**
+
+:::
+
+::: {.callout-caution collapse="true" appearance="minimal"}
+
+## Nombre d'amputés du bras / nombre d'amputés
+
+[Proportion]{.cb}
+
+- Une seule variable : l'amputation
+- Nombre d'amputations = ensemble des amputations
+- Les amputations du bras sont un sous-ensemble des amputations
+
+**C'est un rapport dans lequel le numérateur est inclut dans le dénominateur**
+
+:::
 
 
 ## En bref
@@ -82,107 +178,3 @@ La validité est synonyme d'[exactitude]{.cb}
 
 - Les indicateurs de [mortalité]{.cb}
 - Les indicateurs de [morbidité]{.cb}
-
-
-::: callout-note
-
-## Proportion? Taux? Ratio? Indice?
-
-Nombre de cancers cutanés / nombre de cancers 
-
-```{r}
-"proportion"
-
-
-explication :
-
-- une seule variable : le cancer
-
-- nombre de cancers = ensemble des cancers
-
-- les cancers cutanés sont un sous-ensemble des cancers
-
---> c''est un rapport dans lequel le numérateur est inclut dans le dénominateur
-```
-
-\
-
-Nombre de fumeurs / Nombre de non fumeurs 
-
-```{r}
-"ratio"
-
-
-explication :
-
-- une seule variable : le statut fumeur/non fumeur
-  
-- variable à 2 modalités : fumeur, non fumeur
-
---> c''est un rapport entre 2 modalités d''une même variable
-```
-
-\
-
-Consommation de cigarettes par habitant 
-
-```{r}
-"indice"
-
-- 2 variables :
-  - nombre de cigarettes
-  - nombre d''habitants
-  
---> c''est un rapport entre 2 variables
-```
-
-\
-
-Nombre de décès sur une période / effectif à risque de décès sur cette période
-
-```{r}
-"taux"
-
-
-
-(la baignoire !)
-```
-
-\
-
-Nombre d'hypertendus en 1975 / nombre d'hypertendus en 1994 
-
-```{r}
-"indice"
-
-
-explication :
-
-- 2 variables :
-  - nombre d''hypertendus sur une période
-  - nombre d''hypertendus sur une autre période
-  
---> c''est un rapport entre 2 variables
-```
-
-\
-
-Nombre d'amputés du bras / nombre d'amputés
-
-```{r}
-"proportion"
-
-
-explication :
-
-- une seule variable : l''amputation
-
-- nombre d''amputations = ensemble des amputations
-
-- les amputations du bras sont un sous-ensemble des amputations
-
---> c''est un rapport dans lequel le numérateur est inclut dans le dénominateur
-```
-
-
-:::
