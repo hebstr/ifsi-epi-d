@@ -11,17 +11,10 @@ L’épidémiologie descriptive a pour objectif de **décrire** un problème de 
 
 Elle repose sur l’utilisation d’indicateurs de santé :
 
-- Indicateurs de **morbidité**
-- Indicateurs de **mortalité**
+- Indicateurs de [morbidité]{.cb}
+- Indicateurs de [mortalité]{.cb}
 
 ## Objectifs
-
-1) Surveillance et contrôle sanitaire 
-2) Meilleure connaissance des besoins de prise en charge médicale des populations 
-3) Evaluation d’une action de santé 
-4) Formulation d’hypothèses dans la recherche étiologique :
-    - Variations dans le temps
-    - Variations géographiques
 
 ### Surveillance et contrôle sanitaire
 
@@ -45,6 +38,9 @@ img covid
 
 
 ### Formulation d’hypothèses dans la recherche étiologique
+
+- Variations dans le temps
+- Variations géographiques
 
 img gradient nord sud
 

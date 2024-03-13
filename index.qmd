@@ -1,26 +1,19 @@
 # Introduction {.unnumbered}
 
 ```{r}
-#| echo: false
-#| eval: true
 library(knitr)
 ```
 
 
-::: callout-caution
-## ATTENTION
-**!! Document en cours de rédaction et en attente de validation par les enseignants de santé publique !!**
-:::
-
 ## La santé
 
-> « La santé est un état de complet bien-être physique, mental et social, et ne consiste pas seulement en une absence de maladie ou d’infirmité »
+> *"La santé est un état de complet bien-être physique, mental et social, et ne consiste pas seulement en une absence de maladie ou d’infirmité"*
 
-- Préambule de la constitution de l’OMS 1946
+Préambule de la constitution de l’OMS, 1946
 
 ## L'épidémiologie
 
-L'épidémiologie est étymologiquement composée de trois concepts : au-dessus/parmi (*"epi"*), peuple ("*demos*") et discours/connaissance (*"logos"*). Elle signifie donc par extrapolation
+L'épidémiologie est composée de trois concepts : au-dessus/parmi (*epi*), peuple (*demos*) et discours/connaissance (*logos*). Elle signifie donc par extrapolation
 
 > *" la science de ce qui affecte la population"* 
 
@@ -32,14 +25,11 @@ Actuellement, l’épidémiologie étudie en pratique :
 - Et les [déterminants]{.cb} de cette distribution (facteurs délétères, facteurs protecteurs)
 
 ::: callout-note
-
-## Phénomène de santé = maladie ?
-
-Un phénomène de santé, ou état de santé, fait référence à [tout évènement]{.cb} relatif à santé d'une personne ou d'une population. Il n'est donc [pas forcément synonyme de maladie]{.cb}. Ça peut être un symptôme, ou même la mort.
-
+## Phénomène de santé ?
+Un phénomène de santé, ou état de santé, fait référence à [tout évènement]{.cb} relatif à santé d'une personne ou d'une population. Il n'est donc [pas toujours synonyme de maladie]{.cb} : il peut s'agir d'un symptôme, de la mortalité, mais aussi de facteurs comportementaux (consommation de tabac, pratique d'activité physique, etc.) ou socio-économiques.
 :::
 
-### **Pour quoi ?**
+## Pour quoi ?
 
 - [Décrire]{.cb} un phénomène de santé = Epidémiologie descriptive 
   - Caractériser une pathologie 
@@ -52,8 +42,6 @@ Un phénomène de santé, ou état de santé, fait référence à [tout évènem
 
 
 ```{r}
-#| echo: false
-#| eval: true
 #| out-width: 6in
 #| fig-align: center
 
@@ -61,13 +49,13 @@ include_graphics("img/quadri.png")
 ```
 
 
-### **Pour qui ?**
+## Pour qui ?
 
-Les professionnels de santé : mieux cibler les interventions: prévention, action, soins 
+Les [professionnels de santé]{.cb} : ils jouent un rôle important dans la mise en oeuvre des interventions de santé, allant de la prévention à la prestation de soins. Leur expertise est nécessaire pour assurer des interventions efficaces et adaptées aux besoins de la populations.
 
-Les politiques et les administrations : décider (promotion de la santé, éducation à la santé) 
+Les [politiques et administrations]{.cb} : leur rôle consiste à élaborer des politiques et des programmes qui répondent aux besoins de la population et qui favorisent l'accès au système de santé (campagnes de sensibilisation)
 
-Les gestionnaires : planifier, allouer organiser
+Les [gestionnaires]{.cb} : chargés de planifier, d'allouer et d'organiser les ressources nécessaires à la prestation des services de santé, leur travail consiste à garantir que les ressources sont utilisées de manière efficiente et équitable pour répondre aux besoins de la population (organiser des campagnes de vaccination en cas d'épidémie)
 
-Les usagers : savoir défendre leurs causes
+Les [usagers]{.cb} : Ils doivent être en mesure de défendre leurs propres intérêts en matière de santé, en plaidant pour des politiques et des services qui répondent à leurs besoins spécifiques (patients, associations de patients, etc.)
 

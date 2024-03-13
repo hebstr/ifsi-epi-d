@@ -5,6 +5,8 @@ lang: fr
 
 book:
   title: "**Épidémiologie descriptive**"
+  description: "| **IFSI 1A - UE1.2 Santé Publique**"
+  author: Université de Lille
   date: today
   sidebar: 
     border: true
@@ -35,8 +37,7 @@ knitr:
   opts_chunk:
     collapse: true
     comment: "#>"
-    echo: true
-    eval: false
+    echo: false
     message: false
     warning: false
 
@@ -46,6 +47,7 @@ format:
       light: 
         - cosmo
         - theme.scss
+    callout-appearance: simple
     lightbox: true
     code-link: true
     code-copy: false

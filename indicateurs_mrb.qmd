@@ -1,4 +1,4 @@
-# Indicateurs de morbidité
+# Indicateurs de morbidité {#sec-mrb}
 
 Le terme de [morbidité]{.cb} est relatif au fait d'être [atteint d'une maladie]{.cb}.
 
@@ -95,10 +95,16 @@ La prévalence d'une maladie augmente avec le temps.
 L'incidence, quant à elle, ne suit pas cette tendance. Hors cas d'épidémie, les nouveaux cas se produisent à vitesse constante.
 
 
-::: callout-important
+## Incidence et prévalence : déterminants
+
+```{r}
+#| out-width: 6in
+#| fig-align: center
+
+knitr::include_graphics("img/tbl-mrb.png")
+```
+
 ## Ce qu'il faut retenir
 
 - [Bien différencier incidence et prévalence (penser à la baignoire !)]{.cb}
-- [La prévalence d'une maladie chronique à tendance à augmenter avec le temps du fait de l'augmentation de l'espérance de vie]{.cb}
-
-:::
+- [Comprendre l'évolution de l'incidence et de la prévalence]{.cb}

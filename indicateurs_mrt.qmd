@@ -1,4 +1,4 @@
-# Indicateurs de mortalité
+# Indicateurs de mortalité {#sec-mrt}
 
 Un indicateur de [mortalité]{.cb} a pour but de décrire le [nombre de décès]{.cb} dans une population.
 
@@ -74,11 +74,9 @@ C'est un indicateur témoignant de la [gravité]{.cb} d'une maladie.
 En pratique elle est exprimée à x temps (létalité à 28 jours, à un an, etc.).
 
 
-## L’espérance de vie[^esp-1]
+## L’espérance de vie
 
 L’espérance de vie est le [nombre moyen d’années]{.cb} qu'une personne peut espérer vivre [à partir d'un âge donné]{.cb}.
-
-[^esp-1]: Test 
 
 ```{r #tbl-esp-base}
 #| echo: false

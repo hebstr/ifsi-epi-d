@@ -4,8 +4,8 @@ Erreur ou écart systématique présentant une direction privilégiée et prévi
 
 Conséquences : 
 
-- Diminution de la puissance de l’étude 
-- Sous-estimation ou surestimation d’une association 
+- Diminution de la puissance de l'étude 
+- Sous-estimation ou surestimation d'une association 
 
 Il existe trois grandes catégories de biais :
 
@@ -16,25 +16,30 @@ Il existe trois grandes catégories de biais :
 
 ## Biais de sélection {#sec-biais-sel}
 
-Biais intervenant lors de la constitution de l’échantillon ou du suivi des sujets conduisant à ce que l’échantillon ne soit pas représentatif de la population cible
+Biais intervenant lors de la constitution de l'échantillon ou du suivi des sujets conduisant à ce que l'échantillon ne soit pas représentatif de la population cible
 
 Retrouvé lors de la constitution : 
 
 - De la population source 
-- De l’échantillon (nécessité de l’accord de participation) 
-  - A l’entrée dans l’étude (non répondant, refus) 
+- De l'échantillon (nécessité de l'accord de participation) 
+  - A l'entrée dans l'étude (non répondant, refus) 
     - Taux de participation
     - = Comparaison, des sujets répondants vs non répondants
-  - Lors du suivi (cas d’une cohorte)
-    - Taux d’attrition (perdus de vue)
+  - Lors du suivi (cas d'une cohorte)
+    - Taux d'attrition (perdus de vue)
     - = Comparaison des caractéristiques PDV vs sujets suivis
     
-**La sélection n’engendre pas systématiquement un biais**
+**La sélection n'engendre pas systématiquement un biais**
+
+::: callout-note
+## Exemple
+Sélection sur liste électorale vs annuaire
+:::
 
 
 ## Biais de classement
 
-Erreur systématique dans la mesure de la maladie ou de l’exposition conduisant à mal classer les sujets en malades/non malades ou en exposés/non exposés intervenant au moment du recueil de données
+Erreur systématique dans la mesure de la maladie ou de l'exposition conduisant à mal classer les sujets en malades/non malades ou en exposés/non exposés intervenant au moment du recueil de données
 
 Mesure précise de la maladie (ou exposition) étudiée :
 
@@ -46,25 +51,18 @@ Mesure précise de la maladie (ou exposition) étudiée :
 
 ## Biais de confusion {#sec-biais-conf}
 
-- Ces biais vont être liés à l’intervention d’un ou de plusieurs tiers facteurs
+- Ces biais vont être liés à l'intervention d'un ou de plusieurs tiers facteurs
 - Ils sont particulièrement redoutés en épidémiologie analytique
-- En épidémiologie descriptive, peuvent intervenir lorsque l’on compare les taux provenant de plusieurs populations différentes
+- En épidémiologie descriptive, peuvent intervenir lorsqu'on compare les taux provenant de plusieurs populations différentes
 
-> *Ex : comparer les taux bruts de mortalité de la région Nord-Pas-de-Calais (région jeune) à ceux de la région Limousin (région âgée)*
-
+::: callout-note
+## Exemple
+Comparer les taux bruts de mortalité de la région Nord-Pas-de-Calais (région jeune) à ceux de la région Limousin (région âgée)
+:::
 
 ## En bref
 
 - Erreurs systématiques (sous ou sur estimation) 
-- Ne sont pas modifiés par la taille de l’échantillon 
+- Ne sont pas modifiés par la taille de l'échantillon 
 - Ils peuvent être évités ou réduits et nécessitent donc une réflexion préalable
-
-
-::: callout-note
-
-## Question
-
-
-
-:::
 

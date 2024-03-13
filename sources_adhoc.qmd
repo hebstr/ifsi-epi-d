@@ -12,25 +12,16 @@ organigramme
 ::: {layout-ncol=3}
 
 ```{r}
-#| echo: false
-#| eval: true
-
 tibble::tibble(Population = c("Exhaustive", "Représentative")) |> 
   knitr::kable(align = "c")
 ```
 
 ```{r}
-#| echo: false
-#| eval: true
-
 tibble::tibble(Durée = c("Transversale", "Longitudinale")) |> 
   knitr::kable(align = "c")
 ```
 
 ```{r}
-#| echo: false
-#| eval: true
-
 tibble::tibble(Chronologie = c("Rétrospective", "Prospective")) |> 
   knitr::kable(align = "c")
 ```
@@ -52,7 +43,7 @@ Un échantillon est dit [représentatif]{.cb} s'il est le reflet de la populatio
 Exemple : liste électorale 
 
 
-Cette méthode permet de réduire les *biais de sélection* (@sec-biais-sel)
+Cette méthode permet de réduire les [biais de sélection @sec-biais-sel]
 
 
 ### Durée
@@ -69,4 +60,9 @@ Cette méthode permet de réduire les *biais de sélection* (@sec-biais-sel)
 
 
 ## En bref
+
+
+
+## Ce qu'il faut retenir
+
 

@@ -1,16 +1,22 @@
 # Mesures de base
 
-Un indicateur de santé est une variable que l’on mesure afin de mesurer l’état de santé d’une population 
+Un indicateur de santé est une variable que l'on mesure afin de mesurer l'état de santé d'une population 
 
-- Outil d’évaluation et d’aide à la décision 
+- Outil d'évaluation et d'aide à la décision 
 - Permet de décrire l'état de santé des individus d'une communauté
 - Bien définir ce que nous mesurons +++ : TEMPS-ESPACE-PERSONNE
 - Toute mesure a un numérateur et un dénominateur
 
 
+sont à la base de 2 grandes catégories d'indicateurs de santé :
+
+- Les indicateurs de [mortalité]{.cb} (@sec-mrt)
+- Les indicateurs de [morbidité]{.cb} (@sec-mrb) 
+
+
 ## Proportion
 
-- S’exprime en % ou en chiffre compris entre 0 et 1 
+- S'exprime en % ou en chiffre compris entre 0 et 1 
 - Dénominateur inclus le numérateur 
 
 Proportion est synonyme de [fréquence]{.cb}.
@@ -18,7 +24,7 @@ Proportion est synonyme de [fréquence]{.cb}.
 ::: callout-note
 ## Exemple
 
-sur 750 000 enfants de 2 ans, 602 250 sont correctement vaccinés contre la rougeole. 80,3% d’enfant à 24 mois avec une couverture vaccinale contre la rougeole*
+sur 750 000 enfants de 2 ans, 602 250 sont correctement vaccinés contre la rougeole. 80,3% d'enfant à 24 mois avec une couverture vaccinale contre la rougeole*
 
 :::
 
@@ -26,28 +32,28 @@ sur 750 000 enfants de 2 ans, 602 250 sont correctement vaccinés contre la roug
 
 $$
 \frac
-{Nombre \space de \space changement \space d’état 
+{Nombre \space de \space changement \space d'état 
 \space pendant \space une \space durée \space T}
 {Nombre \space de \space sujet \space à \space risque
-\space de \space changement \space d’état \space pendant 
+\space de \space changement \space d'état \space pendant 
 \space cette \space durée \space T}
 $$
 
-- Probabilité de survenue d’un événement au cours d’une période 
-- S’exprime en % ou en chiffre compris entre 0 et 1 
+- Probabilité de survenue d'un événement au cours d'une période 
+- S'exprime en % ou en chiffre compris entre 0 et 1 
 - Notion de temps et de risque
 
 ::: callout-note
 ## Exemple
 
-taux de mortalité, taux d’incidence
+taux de mortalité, taux d'incidence
 
 :::
 
 ## Ratio 
 
-- Rapport des effectifs des 2 modalités d’une même variable mutuellement exclusives 
-- Pas d’unité
+- Rapport des effectifs des 2 modalités d'une même variable mutuellement exclusives 
+- Pas d'unité
 - Variables sexe à 2 modalités (F,H) : sex ratio = H/F 
 
 ::: callout-note
@@ -64,7 +70,7 @@ Rapport des effectifs de 2 variables
 ::: callout-note
 ## Exemple
 
-à l’hôpital, 1000 enfants pour 10 infirmières soit 1000/10=100 enfants par infirmières*
+à l'hôpital, 1000 enfants pour 10 infirmières soit 1000/10=100 enfants par infirmières*
 
 :::
 
@@ -154,27 +160,33 @@ Rapport des effectifs de 2 variables
 
 Pour être de qualité, un indicateur de santé doit être :
 
-- Simple et acceptable
-- Valide : mesure pertinente
-- Fiable : mesure précise et reproductible
-- Sensible : si le phénomène évolue, l'indicateur évolue aussi
-- Spécifique : 
+- [Simple et acceptable]{.cb} : facilement utilisable par les chercheurs, facilement compréhensible par les professionnels de la santé et les usagers.
 
 ::: callout-note
+## Exemple
 
-## Fiablilité vs validité
-
-Il faut bien distinguer fiabilité et validité
-
-Fiabilité
-La fiabilité est synonyme de [précision]{.cb}
-
-Validité
-La validité est synonyme d'[exactitude]{.cb}
+Le taux de mortalité infantile est une mesure simple et consensuelle du nombre d'enfants décédés entre la naissance et 1 an par rapport au nombre total de naissances vivantes dans une population donnée.
 
 :::
 
-2 grandes catégories d’indicateurs de santé :
+- Valide : mesure pertinente
 
-- Les indicateurs de [mortalité]{.cb}
-- Les indicateurs de [morbidité]{.cb}
+- Fiabilité : mesure précise et reproductible
+
+- Sensible : si le phénomène évolue, l'indicateur évolue aussi
+- Spécifique : 
+
+
+
+ pouvant être invoqués de manière interchangeable dans le langage courant
+
+
+
+
+::: callout-important
+## Ce qu'il faut retenir
+
+- [Reconnaitre les indicateurs de base]{.cb}
+- [Savoir distinguer validité (exactitude) et fiabilité (précision)]{.cb}
+
+:::
