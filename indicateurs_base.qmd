@@ -16,19 +16,22 @@ sont à la base de 2 grandes catégories d'indicateurs de santé :
 
 ## Proportion
 
-- S'exprime en % ou en chiffre compris entre 0 et 1 
-- Dénominateur inclus le numérateur 
+Une [proportion]{.cb} (ou [fréquence]{.cb}) est un rapport dans lequel le numérateur est inclus dans le dénominateur. Il s'exprime en pourcentage ou en chiffre décimal compris entre 0 et 1.
 
-Proportion est synonyme de [fréquence]{.cb}.
-
-::: callout-note
+::: callout-tip
 ## Exemple
 
-sur 750 000 enfants de 2 ans, 602 250 sont correctement vaccinés contre la rougeole. 80,3% d'enfant à 24 mois avec une couverture vaccinale contre la rougeole*
+En 2019, sur 750 000 enfants de 24 mois, 600 000 sont correctement vaccinés contre la rougeole.\
+La proportion correspondante est 600 000 / 750 000 = 0,8
 
+La couverture vaccinale contre la rougeole chez les enfants de 24 mois est de 80%.
 :::
 
 ## Taux 
+
+Un taux est la probabilité de survenue d'un évènement au cours d'une période. Il s'exprime en pourcentage ou en chiffre décimal compris entre 0 et 1.
+
+Notion de temps et de risque
 
 $$
 \frac
@@ -39,11 +42,7 @@ $$
 \space cette \space durée \space T}
 $$
 
-- Probabilité de survenue d'un événement au cours d'une période 
-- S'exprime en % ou en chiffre compris entre 0 et 1 
-- Notion de temps et de risque
-
-::: callout-note
+::: callout-tip
 ## Exemple
 
 taux de mortalité, taux d'incidence
@@ -52,26 +51,39 @@ taux de mortalité, taux d'incidence
 
 ## Ratio 
 
-- Rapport des effectifs des 2 modalités d'une même variable mutuellement exclusives 
-- Pas d'unité
-- Variables sexe à 2 modalités (F,H) : sex ratio = H/F 
+Un ratio est un rapport des effectifs entre [deux modalités d'une même variable]{.cb}.
 
-::: callout-note
+Ces modalités sont mutuellement exclusives : contrairement à une proportion, le numérateur ne peut pas être inclus dans le dénominateur (et inversement).
+
+C'est un rapport [sans unité]{.cb}.
+
+::: callout-tip
+## Exemple : le sex ratio
+
+Si on considère que le sexe est une variable à deux modalités, homme et femme, alors le "sex ratio" correspond au nombre d'hommes sur le nombre de femmes (ou inversement).
+
+Le sex ratio du diabète de type II est 3 hommes pour 1 femme (3:1) : cette maladie concerne 3 fois plus souvent les hommes que les femmes.
+
+Le sex ratio de l'anorexie mentale est 1:9 : cette maladie concerne 9 fois plus souvent les femmes que les hommes.
+
+:::
+
+::: callout-tip
 ## Exemple
-
-sur 100 individus, 49 hommes et 51 femmes Sex ratio= 0,96 (0,96 hommes pour 1 femme)*
 
 :::
 
 ## Indice
 
-Rapport des effectifs de 2 variables 
+Un indice est le rapport des effectifs de [2 variables différentes]{.cb}.
 
-::: callout-note
+::: callout-tip
 ## Exemple
 
-à l'hôpital, 1000 enfants pour 10 infirmières soit 1000/10=100 enfants par infirmières*
+30 enfants sont hospitalisés dans un service de pédiatrie.\
+Dans ce service il y a 3 IDE.
 
+L'indice correspondant est 30/3, soit 10/1 : il y a 10 enfants par IDE.
 :::
 
 ## Proportion? Taux? Ratio? Indice?
@@ -137,12 +149,11 @@ Rapport des effectifs de 2 variables
   - Nombre d'hypertendus sur une période
   - Nombre d'hypertendus sur une autre période
   
-**C'est un rapport entre 2 effectifs différents**
+**C'est un rapport des effectifs 2 variables différents**
 
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-
 ## Nombre d'amputés du bras / nombre d'amputés
 
 [Proportion]{.cb}
@@ -152,7 +163,6 @@ Rapport des effectifs de 2 variables
 - Les amputations du bras sont un sous-ensemble des amputations
 
 **C'est un rapport dans lequel le numérateur est inclut dans le dénominateur**
-
 :::
 
 
@@ -162,31 +172,57 @@ Pour être de qualité, un indicateur de santé doit être :
 
 - [Simple et acceptable]{.cb} : facilement utilisable par les chercheurs, facilement compréhensible par les professionnels de la santé et les usagers.
 
+::: callout-tip
+## Exemple
+*Le taux de mortalité infantile est une mesure simple et consensuelle du nombre d'enfants décédés entre la naissance et 12 mois, sur le nombre total de naissances vivantes dans une population donnée.*
+:::
+
+- [Valide]{.cb} : la mesure a t-elle du sens, est-elle raccord à la réalité ?
+
+::: callout-tip
+## Exemple
+
+La MAPA (mesure autonome de la pression artérielle)
+
+:::
+
+- [Fiable]{.cb} : si la mesure est répétée dans des conditions similaires, elle doit produire des résultats similaires. 
+
+::: callout-tip
+## Exemple
+
+La MAPA est également une mesure fiable, si on considère , (le matin à domicile)
+
+:::
+
+- [Sensible]{.cb} : la mesure détecte des petites changements dans le processus étudié.
+
+::: callout-tip
+## Exemple
+
+*Un test de dépistage du cancer du sein doit être suffisamment sensible pour détecter une tumeur à un stade précoce, lorsque le traitement est le plus efficace.*
+:::
+
+- [Spécifique]{.cb} : la mesure est détecte uniquement le processus étudié
+
+::: callout-tip
+## Exemple
+
+*Un test de dépistage du VIH doit être spécifique à l'infection à VIH et ne pas donner de résultats positifs pour d'autres infections virales.*
+:::
+
+
 ::: callout-note
 ## Exemple
 
-Le taux de mortalité infantile est une mesure simple et consensuelle du nombre d'enfants décédés entre la naissance et 1 an par rapport au nombre total de naissances vivantes dans une population donnée.
+La validité est a rapprocher d'exactitude
+La fiabilité est a rapprocher de précision
+
 
 :::
 
-- Valide : mesure pertinente
 
-- Fiabilité : mesure précise et reproductible
-
-- Sensible : si le phénomène évolue, l'indicateur évolue aussi
-- Spécifique : 
-
-
-
- pouvant être invoqués de manière interchangeable dans le langage courant
-
-
-
-
-::: callout-important
 ## Ce qu'il faut retenir
 
 - [Reconnaitre les indicateurs de base]{.cb}
-- [Savoir distinguer validité (exactitude) et fiabilité (précision)]{.cb}
-
-:::
+- [Distinguer fiabilité (précision) et validité (exactitude) : une mesure peut être fiable sans être valide !]{.cb}

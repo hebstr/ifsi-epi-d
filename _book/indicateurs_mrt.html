@@ -37,7 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
@@ -195,10 +198,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
 <li><a href="#taux-brut-de-mortalit%C3%A9" id="toc-taux-brut-de-mortalité" class="nav-link active" data-scroll-target="#taux-brut-de-mortalit%C3%A9"><span class="header-section-number">3.1</span> Taux brut de mortalité</a></li>
-  <li><a href="#taux-sp%C3%A9cifiques-de-mortalit%C3%A9" id="toc-taux-spécifiques-de-mortalité" class="nav-link" data-scroll-target="#taux-sp%C3%A9cifiques-de-mortalit%C3%A9"><span class="header-section-number">3.2</span> Taux spécifiques de mortalité</a></li>
-  <li><a href="#taux-standardis%C3%A9s-de-mortalit%C3%A9" id="toc-taux-standardisés-de-mortalité" class="nav-link" data-scroll-target="#taux-standardis%C3%A9s-de-mortalit%C3%A9"><span class="header-section-number">3.3</span> Taux standardisés de mortalité</a></li>
+  <li><a href="#taux-sp%C3%A9cifique-de-mortalit%C3%A9" id="toc-taux-spécifique-de-mortalité" class="nav-link" data-scroll-target="#taux-sp%C3%A9cifique-de-mortalit%C3%A9"><span class="header-section-number">3.2</span> Taux spécifique de mortalité</a></li>
+  <li><a href="#taux-standardis%C3%A9-de-mortalit%C3%A9" id="toc-taux-standardisé-de-mortalité" class="nav-link" data-scroll-target="#taux-standardis%C3%A9-de-mortalit%C3%A9"><span class="header-section-number">3.3</span> Taux standardisé de mortalité</a></li>
   <li><a href="#taux-de-l%C3%A9talit%C3%A9" id="toc-taux-de-létalité" class="nav-link" data-scroll-target="#taux-de-l%C3%A9talit%C3%A9"><span class="header-section-number">3.4</span> Taux de létalité</a></li>
-  <li><a href="#lesp%C3%A9rance-de-vie" id="toc-lespérance-de-vie" class="nav-link" data-scroll-target="#lesp%C3%A9rance-de-vie"><span class="header-section-number">3.5</span> L’espérance de vie</a></li>
+  <li><a href="#esp%C3%A9rance-de-vie" id="toc-espérance-de-vie" class="nav-link" data-scroll-target="#esp%C3%A9rance-de-vie"><span class="header-section-number">3.5</span> Espérance de vie</a></li>
   <li><a href="#ce-quil-faut-retenir" id="toc-ce-quil-faut-retenir" class="nav-link" data-scroll-target="#ce-quil-faut-retenir"><span class="header-section-number">3.6</span> Ce qu’il faut retenir</a></li>
   </ul></nav>
     </div>
@@ -233,7 +236,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Un taux brut de mortalité est un <span class="cb">taux</span> appliqué à <span class="cb">l’apparition de décès</span> au sein d’une population.</p>
 <p>Nombre de décès dans une population pour une période donnée / Effectif de la population pendant la même période</p>
 <p>Il est généralement calculé sur un an et exprimé en taux pour 1000.</p>
-<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -246,8 +249,8 @@ Exemple
 <p>Il était de 9,1 pour 1000 habitants en 2019 en France</p>
 </div>
 </div>
-</section><section id="taux-spécifiques-de-mortalité" class="level2" data-number="3.2"><h2 data-number="3.2" class="anchored" data-anchor-id="taux-spécifiques-de-mortalité">
-<span class="header-section-number">3.2</span> Taux spécifiques de mortalité</h2>
+</section><section id="taux-spécifique-de-mortalité" class="level2" data-number="3.2"><h2 data-number="3.2" class="anchored" data-anchor-id="taux-spécifique-de-mortalité">
+<span class="header-section-number">3.2</span> Taux spécifique de mortalité</h2>
 <p>Un taux spécifique de mortalité est un taux de mortalité dans lequel on tient compte d’un autre paramètre. Il s’agit le plus souvent de taux spécifiques par sexe, par tranches d’âges, ou par causes.</p>
 <p>FORMULE</p>
 <p>Sous-types :</p>
@@ -255,7 +258,7 @@ Exemple
 <li>Mortalité <span class="cb">prématurée</span> : mortalité survenant avant 65 ans (taux spécifique par âge)</li>
 <li>Mortalité <span class="cb">évitable</span> : taux spécifique par causes de décès</li>
 </ul>
-<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -265,26 +268,46 @@ Exemple
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Entre 2016 et 2018, le taux de mortalité infantile était de 3,8 pour 1000 enfants nés vivants</p>
+<p><em>Sur l’année 2023, le taux de mortalité infantile était de 3,8/1000 : sur 1000 enfants nés, environ 4 sont décédés avant l’âge de 12 mois.</em></p>
 </div>
 </div>
-</section><section id="taux-standardisés-de-mortalité" class="level2" data-number="3.3"><h2 data-number="3.3" class="anchored" data-anchor-id="taux-standardisés-de-mortalité">
-<span class="header-section-number">3.3</span> Taux standardisés de mortalité</h2>
-<p>Indépendamment de ses causes, la mortalité est liée un facteur incontournable : <span class="cb">l’âge</span>. Par conséquent si la comparaison entre départements révèle un des taux est plus élevé dans l’un, cela peut-être dû non pas à des causes externes mais simplement à la <span class="cb">structure d’âge</span> du département en question (la mortalité sera plus élevé si la moyenne d’âge est plus élevée).</p>
+</section><section id="taux-standardisé-de-mortalité" class="level2" data-number="3.3"><h2 data-number="3.3" class="anchored" data-anchor-id="taux-standardisé-de-mortalité">
+<span class="header-section-number">3.3</span> Taux standardisé de mortalité</h2>
+<p>Indépendamment de ses causes, la mortalité est liée un facteur incontournable : <span class="cb">l’âge</span>. Si la comparaison entre départements révèle un des taux est plus élevé dans l’un, cela peut-être dû non pas à des causes externes mais simplement à la <span class="cb">structure d’âge</span> du département (la mortalité sera plus élevé si la moyenne d’âge est plus élevée).</p>
+<p>On dit que l’âge est un <span class="cb">facteur de confusion</span> (<a href="biais.html#sec-biais-conf" class="quarto-xref"><span>Section 9.3</span></a>) dans la mesure de taux comparatifs de mortalité.</p>
 <p>img stand 1</p>
-<p>On dit que l’âge est un <a href="biais.html#sec-biais-conf" class="quarto-xref">facteur de confusion&nbsp;<span>9.3</span></a> dans la mesure de taux comparatifs de mortalité.</p>
-<p>Afin de pouvoir comparer de manière valide des taux de mortalité entre différentes départements, il faut procéder à un traitement des taux bruts pour annuler cet <em>“effet âge”</em> : cette méthode est appelée <span class="cb">standardisation</span>. Les taux comparatifs de décès, ou taux <span class="cb">standardisés</span>, correspondent à des taux de décès calculés <em>“comme si”</em> la structure d’âge était <span class="cb">la même dans tous les départements</span>.</p>
+<p>Afin de pouvoir comparer de manière pertinente des taux de mortalité entre différentes départements, il faut procéder à un traitement des taux bruts pour annuler cet <em>effet âge</em> : cette méthode est appelée <span class="cb">standardisation</span>. Les taux comparatifs de décès, ou taux <span class="cb">standardisés</span>, correspondent à des taux de décès calculés <em>comme si</em> la structure d’âge était <span class="cb">la même dans tous les départements</span>.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><a href="img/standard.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img/standard.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:6in"></a></p>
+</figure>
+</div>
+</div>
+</div>
 <p>Dans l’exemple ci-dessus, on peut donc supposer que les taux de mortalité observés dépendent non pas de la structure d’âge dans chaque région, mais bien de facteurs externes.</p>
 </section><section id="taux-de-létalité" class="level2" data-number="3.4"><h2 data-number="3.4" class="anchored" data-anchor-id="taux-de-létalité">
 <span class="header-section-number">3.4</span> Taux de létalité</h2>
-<p>La distinction entre mortalité et létalité est <span class="cb">fondamentale</span>.</p>
-<p>Tandis que la mortalité représente le nombre d’individus décédés sur l’ensemble de la population, la létalité représente le nombre d’individus décédés d’une maladie <span class="cb">parmi les individus atteints de cette maladie</span>.</p>
+<p>Tandis que la mortalité représente le nombre d’individus décédés sur l’ensemble de la population, la <span class="cb">létalité</span> représente le nombre d’individus décédés d’une maladie <span class="cb">parmi les individus atteints de cette maladie</span>.</p>
 <p>Un taux de létalité prend pour période d’étude le <span class="cb">temps à partir du début</span> de la maladie.</p>
 <p>FORMULE</p>
 <p>C’est un indicateur témoignant de la <span class="cb">gravité</span> d’une maladie.</p>
 <p>En pratique elle est exprimée à x temps (létalité à 28 jours, à un an, etc.).</p>
-</section><section id="lespérance-de-vie" class="level2" data-number="3.5"><h2 data-number="3.5" class="anchored" data-anchor-id="lespérance-de-vie">
-<span class="header-section-number">3.5</span> L’espérance de vie</h2>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemple
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+</section><section id="espérance-de-vie" class="level2" data-number="3.5"><h2 data-number="3.5" class="anchored" data-anchor-id="espérance-de-vie">
+<span class="header-section-number">3.5</span> Espérance de vie</h2>
 <p>L’espérance de vie est le <span class="cb">nombre moyen d’années</span> qu’une personne peut espérer vivre <span class="cb">à partir d’un âge donné</span>.</p>
 <div class="cell">
 <div id="tbl-esp-base" class="cell quarto-float anchored">
@@ -316,7 +339,7 @@ Table&nbsp;3.1: Espérance de vie en France, 2022.
 </figure>
 </div>
 </div>
-<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -708,7 +731,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
 
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 </body></html>

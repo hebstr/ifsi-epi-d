@@ -74,7 +74,7 @@
     "href": "indicateurs_base.html",
     "title": "2  Mesures de base",
     "section": "",
-    "text": "2.1 Proportion\nProportion est synonyme de fréquence.",
+    "text": "2.1 Proportion\nUne proportion (ou fréquence) est un rapport dans lequel le numérateur est inclus dans le dénominateur. Il s’exprime en pourcentage ou en chiffre décimal compris entre 0 et 1.",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mesures de base</span>"
@@ -85,7 +85,7 @@
     "href": "indicateurs_base.html#proportion",
     "title": "2  Mesures de base",
     "section": "",
-    "text": "S’exprime en % ou en chiffre compris entre 0 et 1\nDénominateur inclus le numérateur\n\n\n\n\n\n\n\n\nExemple\n\n\n\nsur 750 000 enfants de 2 ans, 602 250 sont correctement vaccinés contre la rougeole. 80,3% d’enfant à 24 mois avec une couverture vaccinale contre la rougeole*",
+    "text": "Exemple\n\n\n\nEn 2019, sur 750 000 enfants de 24 mois, 600 000 sont correctement vaccinés contre la rougeole.\nLa proportion correspondante est 600 000 / 750 000 = 0,8\nLa couverture vaccinale contre la rougeole chez les enfants de 24 mois est de 80%.",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mesures de base</span>"
@@ -96,7 +96,7 @@
     "href": "indicateurs_base.html#taux",
     "title": "2  Mesures de base",
     "section": "2.2 Taux",
-    "text": "2.2 Taux\n\\[\n\\frac\n{Nombre \\space de \\space changement \\space d'état\n\\space pendant \\space une \\space durée \\space T}\n{Nombre \\space de \\space sujet \\space à \\space risque\n\\space de \\space changement \\space d'état \\space pendant\n\\space cette \\space durée \\space T}\n\\]\n\nProbabilité de survenue d’un événement au cours d’une période\nS’exprime en % ou en chiffre compris entre 0 et 1\nNotion de temps et de risque\n\n\n\n\n\n\n\nExemple\n\n\n\ntaux de mortalité, taux d’incidence",
+    "text": "2.2 Taux\nUn taux est la probabilité de survenue d’un évènement au cours d’une période. Il s’exprime en pourcentage ou en chiffre décimal compris entre 0 et 1.\nNotion de temps et de risque\n\\[\n\\frac\n{Nombre \\space de \\space changement \\space d'état\n\\space pendant \\space une \\space durée \\space T}\n{Nombre \\space de \\space sujet \\space à \\space risque\n\\space de \\space changement \\space d'état \\space pendant\n\\space cette \\space durée \\space T}\n\\]\n\n\n\n\n\n\nExemple\n\n\n\ntaux de mortalité, taux d’incidence",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mesures de base</span>"
@@ -107,7 +107,7 @@
     "href": "indicateurs_base.html#ratio",
     "title": "2  Mesures de base",
     "section": "2.3 Ratio",
-    "text": "2.3 Ratio\n\nRapport des effectifs des 2 modalités d’une même variable mutuellement exclusives\nPas d’unité\nVariables sexe à 2 modalités (F,H) : sex ratio = H/F\n\n\n\n\n\n\n\nExemple\n\n\n\nsur 100 individus, 49 hommes et 51 femmes Sex ratio= 0,96 (0,96 hommes pour 1 femme)*",
+    "text": "2.3 Ratio\nUn ratio est un rapport des effectifs entre deux modalités d’une même variable.\nCes modalités sont mutuellement exclusives : contrairement à une proportion, le numérateur ne peut pas être inclus dans le dénominateur (et inversement).\nC’est un rapport sans unité.\n\n\n\n\n\n\nExemple : le sex ratio\n\n\n\nSi on considère que le sexe est une variable à deux modalités, homme et femme, alors le “sex ratio” correspond au nombre d’hommes sur le nombre de femmes (ou inversement).\nLe sex ratio du diabète de type II est 3 hommes pour 1 femme (3:1) : cette maladie concerne 3 fois plus souvent les hommes que les femmes.\nLe sex ratio de l’anorexie mentale est 1:9 : cette maladie concerne 9 fois plus souvent les femmes que les hommes.\n\n\n\n\n\n\n\n\nExemple",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mesures de base</span>"
@@ -118,7 +118,7 @@
     "href": "indicateurs_base.html#indice",
     "title": "2  Mesures de base",
     "section": "2.4 Indice",
-    "text": "2.4 Indice\nRapport des effectifs de 2 variables\n\n\n\n\n\n\nExemple\n\n\n\nà l’hôpital, 1000 enfants pour 10 infirmières soit 1000/10=100 enfants par infirmières*",
+    "text": "2.4 Indice\nUn indice est le rapport des effectifs de 2 variables différentes.\n\n\n\n\n\n\nExemple\n\n\n\n30 enfants sont hospitalisés dans un service de pédiatrie.\nDans ce service il y a 3 IDE.\nL’indice correspondant est 30/3, soit 10/1 : il y a 10 enfants par IDE.",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mesures de base</span>"
@@ -129,7 +129,7 @@
     "href": "indicateurs_base.html#proportion-taux-ratio-indice",
     "title": "2  Mesures de base",
     "section": "2.5 Proportion? Taux? Ratio? Indice?",
-    "text": "2.5 Proportion? Taux? Ratio? Indice?\n\n\n\n\n\n\nNombre de cancers cutanés / nombre de cancers\n\n\n\n\n\nProportion\n\nUne seule variable : le cancer\nNombre de cancers = ensemble des cancers\nLes cancers cutanés sont un sous-ensemble des cancers\n\nC’est un rapport dans lequel le numérateur est inclut dans le dénominateur\n\n\n\n\n\n\n\n\n\nNombre de fumeurs / Nombre de non fumeurs\n\n\n\n\n\nRatio\n\nUne seule variable : le statut fumeur/non fumeur\nVariable à 2 modalités : fumeur, non fumeur\n\nC’est un rapport entre 2 modalités d’une même variable\n\n\n\n\n\n\n\n\n\nConsommation de cigarettes par habitant\n\n\n\n\n\nIndice\n\n2 variables :\n\nNombre de cigarettes\nNombre d’habitants\n\n\nC’est un rapport entre 2 effectifs différents\n\n\n\n\n\n\n\n\n\nNombre de décès sur une période / effectif à risque de décès sur cette période\n\n\n\n\n\nTaux\n(la baignoire !)\n\n\n\n\n\n\n\n\n\nNombre d’hypertendus en 1975 / nombre d’hypertendus en 1994\n\n\n\n\n\nIndice\n\n2 variables :\n\nNombre d’hypertendus sur une période\nNombre d’hypertendus sur une autre période\n\n\nC’est un rapport entre 2 effectifs différents\n\n\n\n\n\n\n\n\n\nNombre d’amputés du bras / nombre d’amputés\n\n\n\n\n\nProportion\n\nUne seule variable : l’amputation\nNombre d’amputations = ensemble des amputations\nLes amputations du bras sont un sous-ensemble des amputations\n\nC’est un rapport dans lequel le numérateur est inclut dans le dénominateur",
+    "text": "2.5 Proportion? Taux? Ratio? Indice?\n\n\n\n\n\n\nNombre de cancers cutanés / nombre de cancers\n\n\n\n\n\nProportion\n\nUne seule variable : le cancer\nNombre de cancers = ensemble des cancers\nLes cancers cutanés sont un sous-ensemble des cancers\n\nC’est un rapport dans lequel le numérateur est inclut dans le dénominateur\n\n\n\n\n\n\n\n\n\nNombre de fumeurs / Nombre de non fumeurs\n\n\n\n\n\nRatio\n\nUne seule variable : le statut fumeur/non fumeur\nVariable à 2 modalités : fumeur, non fumeur\n\nC’est un rapport entre 2 modalités d’une même variable\n\n\n\n\n\n\n\n\n\nConsommation de cigarettes par habitant\n\n\n\n\n\nIndice\n\n2 variables :\n\nNombre de cigarettes\nNombre d’habitants\n\n\nC’est un rapport entre 2 effectifs différents\n\n\n\n\n\n\n\n\n\nNombre de décès sur une période / effectif à risque de décès sur cette période\n\n\n\n\n\nTaux\n(la baignoire !)\n\n\n\n\n\n\n\n\n\nNombre d’hypertendus en 1975 / nombre d’hypertendus en 1994\n\n\n\n\n\nIndice\n\n2 variables :\n\nNombre d’hypertendus sur une période\nNombre d’hypertendus sur une autre période\n\n\nC’est un rapport des effectifs 2 variables différents\n\n\n\n\n\n\n\n\n\nNombre d’amputés du bras / nombre d’amputés\n\n\n\n\n\nProportion\n\nUne seule variable : l’amputation\nNombre d’amputations = ensemble des amputations\nLes amputations du bras sont un sous-ensemble des amputations\n\nC’est un rapport dans lequel le numérateur est inclut dans le dénominateur",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mesures de base</span>"
@@ -140,7 +140,7 @@
     "href": "indicateurs_base.html#en-bref",
     "title": "2  Mesures de base",
     "section": "2.6 En bref",
-    "text": "2.6 En bref\nPour être de qualité, un indicateur de santé doit être :\n\nSimple et acceptable : facilement utilisable par les chercheurs, facilement compréhensible par les professionnels de la santé et les usagers.\n\n\n\n\n\n\n\nExemple\n\n\n\nLe taux de mortalité infantile est une mesure simple et consensuelle du nombre d’enfants décédés entre la naissance et 1 an par rapport au nombre total de naissances vivantes dans une population donnée.\n\n\n\nValide : mesure pertinente\nFiabilité : mesure précise et reproductible\nSensible : si le phénomène évolue, l’indicateur évolue aussi\nSpécifique :\n\npouvant être invoqués de manière interchangeable dans le langage courant\n\n\n\n\n\n\nCe qu’il faut retenir\n\n\n\n\nReconnaitre les indicateurs de base\nSavoir distinguer validité (exactitude) et fiabilité (précision)",
+    "text": "2.6 En bref\nPour être de qualité, un indicateur de santé doit être :\n\nSimple et acceptable : facilement utilisable par les chercheurs, facilement compréhensible par les professionnels de la santé et les usagers.\n\n\n\n\n\n\n\nExemple\n\n\n\nLe taux de mortalité infantile est une mesure simple et consensuelle du nombre d’enfants décédés entre la naissance et 12 mois, sur le nombre total de naissances vivantes dans une population donnée.\n\n\n\nValide : la mesure a t-elle du sens, est-elle raccord à la réalité ?\n\n\n\n\n\n\n\nExemple\n\n\n\nLa MAPA (mesure autonome de la pression artérielle)\n\n\n\nFiable : si la mesure est répétée dans des conditions similaires, elle doit produire des résultats similaires.\n\n\n\n\n\n\n\nExemple\n\n\n\nLa MAPA est également une mesure fiable, si on considère , (le matin à domicile)\n\n\n\nSensible : la mesure détecte des petites changements dans le processus étudié.\n\n\n\n\n\n\n\nExemple\n\n\n\nUn test de dépistage du cancer du sein doit être suffisamment sensible pour détecter une tumeur à un stade précoce, lorsque le traitement est le plus efficace.\n\n\n\nSpécifique : la mesure est détecte uniquement le processus étudié\n\n\n\n\n\n\n\nExemple\n\n\n\nUn test de dépistage du VIH doit être spécifique à l’infection à VIH et ne pas donner de résultats positifs pour d’autres infections virales.\n\n\n\n\n\n\n\n\nExemple\n\n\n\nLa validité est a rapprocher d’exactitude La fiabilité est a rapprocher de précision",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mesures de base</span>"
@@ -184,7 +184,7 @@
     "href": "indicateurs_mrt.html#taux-standardisés-de-mortalité",
     "title": "3  Indicateurs de mortalité",
     "section": "\n3.3 Taux standardisés de mortalité",
-    "text": "3.3 Taux standardisés de mortalité\nIndépendamment de ses causes, la mortalité est liée un facteur incontournable : l’âge. Par conséquent si la comparaison entre départements révèle un des taux est plus élevé dans l’un, cela peut-être dû non pas à des causes externes mais simplement à la structure d’âge du département en question (la mortalité sera plus élevé si la moyenne d’âge est plus élevée).\nimg stand 1\nOn dit que l’âge est un facteur de confusion 9.3 dans la mesure de taux comparatifs de mortalité.\nAfin de pouvoir comparer de manière valide des taux de mortalité entre différentes départements, il faut procéder à un traitement des taux bruts pour annuler cet “effet âge” : cette méthode est appelée standardisation. Les taux comparatifs de décès, ou taux standardisés, correspondent à des taux de décès calculés “comme si” la structure d’âge était la même dans tous les départements.\nDans l’exemple ci-dessus, on peut donc supposer que les taux de mortalité observés dépendent non pas de la structure d’âge dans chaque région, mais bien de facteurs externes.",
+    "text": "3.3 Taux standardisés de mortalité\nIndépendamment de ses causes, la mortalité est liée un facteur incontournable : l’âge. Si la comparaison entre départements révèle un des taux est plus élevé dans l’un, cela peut-être dû non pas à des causes externes mais simplement à la structure d’âge du département en question (la mortalité sera plus élevé si la moyenne d’âge est plus élevée).\nimg stand 1\nOn dit que l’âge est un facteur de confusion (Section 9.3) dans la mesure de taux comparatifs de mortalité.\nAfin de pouvoir comparer de manière valide des taux de mortalité entre différentes départements, il faut procéder à un traitement des taux bruts pour annuler cet “effet âge” : cette méthode est appelée standardisation. Les taux comparatifs de décès, ou taux standardisés, correspondent à des taux de décès calculés “comme si” la structure d’âge était la même dans tous les départements.\nimag std\nDans l’exemple ci-dessus, on peut donc supposer que les taux de mortalité observés dépendent non pas de la structure d’âge dans chaque région, mais bien de facteurs externes.",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
@@ -195,7 +195,7 @@
     "href": "indicateurs_mrt.html#taux-de-létalité",
     "title": "3  Indicateurs de mortalité",
     "section": "\n3.4 Taux de létalité",
-    "text": "3.4 Taux de létalité\nLa distinction entre mortalité et létalité est fondamentale.\nTandis que la mortalité représente le nombre d’individus décédés sur l’ensemble de la population, la létalité représente le nombre d’individus décédés d’une maladie parmi les individus atteints de cette maladie.\nUn taux de létalité prend pour période d’étude le temps à partir du début de la maladie.\nFORMULE\nC’est un indicateur témoignant de la gravité d’une maladie.\nEn pratique elle est exprimée à x temps (létalité à 28 jours, à un an, etc.).",
+    "text": "3.4 Taux de létalité\nTandis que la mortalité représente le nombre d’individus décédés sur l’ensemble de la population, la létalité représente le nombre d’individus décédés d’une maladie parmi les individus atteints de cette maladie.\nUn taux de létalité prend pour période d’étude le temps à partir du début de la maladie.\nFORMULE\nC’est un indicateur témoignant de la gravité d’une maladie.\nEn pratique elle est exprimée à x temps (létalité à 28 jours, à un an, etc.).\n\n\n\n\n\n\nExemple",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
@@ -239,7 +239,7 @@
     "href": "indicateurs_mrb.html#prévalence",
     "title": "4  Indicateurs de morbidité",
     "section": "\n4.2 Prévalence",
-    "text": "4.2 Prévalence\nLa prévalence est la proportion d’individus atteints d’une maladie dans une population à un instant donné.\nFORMULE\nDu fait qu’il s’agisse d’une mesure ponctuelle, à un instant donné, elle est qualifiée de mesure transversale (“une photographie”), en opposition donc à longitudinale.\nPour qu’une proportion d’individus malades se constitue au sein d’une population, il faut bien sûr que de nouveaux cas de cette maladie soient apparus en amont. Autrement dit, la prévalence est dépendante de l’incidence.\nElle dépend également de la durée d’évolution de la maladie : plus elle augmente, plus la prévalence augmente.",
+    "text": "4.2 Prévalence\nLa prévalence est la proportion d’individus atteints d’une maladie dans une population à un instant donné.\nFORMULE\nDu fait qu’il s’agisse d’une mesure ponctuelle, à un instant donné, elle est qualifiée de mesure transversale (“une photographie”), en opposition donc à longitudinale.\nPour qu’une proportion d’individus malades se constitue au sein d’une population, il faut bien sûr que de nouveaux cas de cette maladie soient apparus en amont. Autrement dit, la prévalence est dépendante de l’incidence.\nElle dépend également de la durée d’évolution de la maladie : plus celle-ci augmente, plus la prévalence augmente.",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
@@ -250,7 +250,7 @@
     "href": "indicateurs_mrb.html#incidence-et-prévalence-allégorie-et-exemples",
     "title": "4  Indicateurs de morbidité",
     "section": "\n4.3 Incidence et prévalence : allégorie et exemples",
-    "text": "4.3 Incidence et prévalence : allégorie et exemples\n\n4.3.1 La baignoire de l’épidémiologiste\nLa baignoire de l’épidémiologiste.\nCette image comporte classiquement 3 éléments :\n\nLe volume d’eau occupant la baignoire\nLe robinet ouvert\nL’évacuation\n\n[img baignoire]\nLa baignoire dans son ensemble symbolise la morbidité. Elle se situe , qui symbolise l’ensemble de la population.\nLe volume d’eau représente le proportion d’individus malades dans la population : c’est la prévalence.\nLe débit d’eau entrant représente les nouveaux cas de malades : c’est l’incidence.\nL’évacuation représente les individus sortant de la population de malades : c’est la mortalité.\nBien sûr la mort n’est pas la seule façon de sortir du circuit : il y a une possibilité de guérison ou rémission de la maladie en question. Ainsi pour être complet, on peut donc rajouter ce nouvel élément en le symbolisant par l’évaporation du volume d’eau présent dans la baignoire.\nL’image de la baignoire est plutôt bonne : c’est un circuit ouvert avec entrée et sortie. De ce fait, bien que le robinet sort constamment ouvert, la baignoire ne déborde jamais.\n\n4.3.2 Exemple de l’infection à VIH\n\nLa baignoire ne déborde jamais, mais le niveau d’eau augmente petit à petit.\n\nQu’est-ce que ça signifie ?\nInfection à VIH, en représentant graphiquement incidence et prévalence.\nimg courbes\nL’infection à VIH est pourvoyeuse du SIDA (Syndrome d’Immuno-Déficience Acquise), ayant pour caractéristique d’être une maladie donc on ne guérit pas.\nLes progrès de la médecine ont changé la donne en permettant une augmentation notable de l’espérance de vie, autrement dit en permettant aux gens de moins mourir de la maladie. Par conséquent on parle de maladie chronique.\nLa prévalence d’une maladie augmente avec le temps. L’incidence, quant à elle, ne suit pas cette tendance. Hors cas d’épidémie, les nouveaux cas se produisent à vitesse constante.",
+    "text": "4.3 Incidence et prévalence : allégorie et exemples\n\n4.3.1 La baignoire de l’épidémiologiste\nLa baignoire de l’épidémiologiste.\nCette image comporte classiquement 3 éléments :\n\nLe volume d’eau occupant la baignoire\nLe robinet ouvert\nL’évacuation\n\n[img baignoire]\nLa baignoire dans son ensemble symbolise la morbidité. Elle se situe , qui symbolise l’ensemble de la population.\nLe volume d’eau représente le proportion d’individus malades dans la population : c’est la prévalence.\nLe débit d’eau entrant représente les nouveaux cas de malades : c’est l’incidence.\nL’évacuation représente les individus sortant de la population de malades : c’est la mortalité.\nBien sûr la mort n’est pas la seule façon de sortir du circuit : il y a une possibilité de guérison ou rémission de la maladie en question. Ainsi pour être complet, on peut donc rajouter ce nouvel élément en le symbolisant par l’évaporation du volume d’eau présent dans la baignoire.\nL’image de la baignoire est plutôt bonne : c’est un circuit ouvert avec entrée et sortie. De ce fait, bien que le robinet sort constamment ouvert, la baignoire ne déborde jamais.\n\n4.3.2 Exemple de l’infection à VIH\n\nLa baignoire ne déborde jamais, mais le niveau d’eau augmente petit à petit.\n\nQu’est-ce que ça signifie ?\nInfection à VIH, en représentant graphiquement incidence et prévalence.\n\n\n\n\n\n\n\n\nL’infection à VIH est pourvoyeuse du SIDA (Syndrome d’Immuno-Déficience Acquise), ayant pour caractéristique d’être une maladie donc on ne guérit pas.\nLes progrès de la médecine ont changé la donne en permettant une augmentation notable de l’espérance de vie, autrement dit en permettant aux gens de moins mourir de la maladie. Par conséquent on parle de maladie chronique.\nLa prévalence d’une maladie augmente avec le temps. L’incidence, quant à elle, ne suit pas cette tendance. Hors cas d’épidémie, les nouveaux cas apparaissent à vitesse faible et constante.",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
@@ -261,7 +261,7 @@
     "href": "sources_base.html",
     "title": "5  Recueils systématiques",
     "section": "",
-    "text": "5.1 Certificat de décès\n57-62",
+    "text": "5.1 Certificat de décès\nLe certificat comprend 2 parties :\nimg certif papier\nimg certif elec",
     "crumbs": [
       "Sources des indicateurs",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
@@ -272,7 +272,7 @@
     "href": "sources_base.html#déclaration-obligatoire",
     "title": "5  Recueils systématiques",
     "section": "5.2 Déclaration obligatoire",
-    "text": "5.2 Déclaration obligatoire\n63-69",
+    "text": "5.2 Déclaration obligatoire\n\nRepose sur un système de transmission de données individuelles à l’autorité sanitaire - Recueil exhaustif car obligatoire\n2 procédures dans la transmission des données\n\nSignalement\nNotification\n\n38 maladies à déclaration obligatoire\n\nliste MDO\nButs :\n\nAgir et prévenir le risque d’épidémie\nAnalyser l’évolution dans le temps de ces maladies\nAdapter les politiques de santé publique aux besoins de la population\n\nDéclaration d’une maladie à DO - Signalement\n\nEn urgence, sans délai\nPar les médecins et biologiste\nDès suspicion\nAuprès des médecins inspecteurs de santé publique de l’ARS\nPas de support dédié (fax, téléphone…)\nDonnées nominatives\n\nPour figurer sur cette liste, les maladies doivent répondre à deux types de critères :\n\nDes critères principaux\nDes critères de faisabilité\n\nimg rougeole",
     "crumbs": [
       "Sources des indicateurs",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
@@ -283,7 +283,7 @@
     "href": "sources_base.html#systèmes-sentinelles",
     "title": "5  Recueils systématiques",
     "section": "5.3 Systèmes sentinelles",
-    "text": "5.3 Systèmes sentinelles\n70-75",
+    "text": "5.3 Systèmes sentinelles\nLes systèmes sentinelles sont des\n\nEnsemble de professionnels de la santé (principalement des médecins) regroupés au sein d’un réseau\nLes professionnels s’engagent à signaler tous les cas de maladies surveillées par le système sentinelle auprès d’un centre coordinateur\nSystème basé sur le volontariat\nObjectif : repérer rapidement le début de certaines épidémies\nL’exhaustivité sur un territoire donnée n’est pas recherchée mais des efforts sont faits dans une zone donnée pour arriver à un certain degré de représentativité\nCollaboration entre médecins généralistes et chercheurs\nRéseau 1300 médecins généralistes français répartis sur l’ensemble du territoire métropolitain\nObjectifs : recueil, analyse, prévision et redistribution en temps réel de données épidémiologiques issues de l’activité des médecins généralistes libéraux\n\nSurveillance continue de 9 indicateurs\n\nSyndromes grippaux\nDiarrhée aiguë\nOreillons\nVaricelle\nUrétrite masculine\nZona\nBorréliose de Lyme\nSuicide et tentative de suicide\nCoqueluche\n\nimg carte",
     "crumbs": [
       "Sources des indicateurs",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
@@ -294,7 +294,7 @@
     "href": "sources_base.html#bases-de-données-médico-administratives",
     "title": "5  Recueils systématiques",
     "section": "5.4 Bases de données médico-administratives",
-    "text": "5.4 Bases de données médico-administratives\n76",
+    "text": "5.4 Bases de données médico-administratives\nexemple du Système National des Données de Santé (SNDS)\nSystème National des Données de Santé contient:\n\ndonnées de l’assurance maladie, SNIIRAM\ndonnées des hôpitaux, base PMSI\ncauses médicales de décès, CépiDC\ndonnées relatives aux handicap\néchantillons de données des assurances maladies complémentaires\n\nFinalités de ces données:\n\nFavoriser les études, la recherche ou l’évaluation présentant un caractère public\nAide à la mise en œuvre de politique de santé\nConnaissance des dépenses de santé\nSurveillance, veille et sécurité sanitaire",
     "crumbs": [
       "Sources des indicateurs",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
@@ -305,7 +305,7 @@
     "href": "sources_base.html#limites",
     "title": "5  Recueils systématiques",
     "section": "5.5 Limites",
-    "text": "5.5 Limites\n77",
+    "text": "5.5 Limites\n\nPas de choix des données\nInformations limités\nPas de définition standardisée\nPas de contrôle de qualité des données\n\nNécessité d’enquêtes spécifiques - Exhaustive - Sur échantillon",
     "crumbs": [
       "Sources des indicateurs",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
@@ -327,7 +327,7 @@
     "href": "sources_adhoc.html#terminologie",
     "title": "\n6  Enquêtes ad hoc\n",
     "section": "",
-    "text": "Population\n\n\n\nExhaustive\n\n\nReprésentative\n\n\n\n\n\n\n\n\n\nDurée\n\n\n\nTransversale\n\n\nLongitudinale\n\n\n\n\n\n\n\n\n\nChronologie\n\n\n\nRétrospective\n\n\nProspective\n\n\n\n\n\n\n\n\n6.1.1 Population\nLe recueil d’information dans une population peut être réalisé de deux manières.\nOn a recueilli l’information de tous les individus qui constituent la population. Dans ce cas on parle d’exhaustivité.\nParfois il n’est pas possible d’avoir accès à l’ensemble d’une population (effectifs trop grands, manque de moyens…)\nUn échantillon est dit représentatif s’il est le reflet de la population dont il est issu.\nExemple : liste électorale\nCette méthode permet de réduire les biais de sélection 9.1\n\n6.1.2 Durée\n\n6.1.3 Chronologie",
+    "text": "Population\n\n\n\nExhaustive\n\n\nReprésentative\n\n\n\n\n\n\n\n\n\nDurée\n\n\n\nTransversale\n\n\nLongitudinale\n\n\n\n\n\n\n\n\n\nChronologie\n\n\n\nRétrospective\n\n\nProspective\n\n\n\n\n\n\n\n\n6.1.1 Population\nLe recueil d’information dans une population peut être réalisé de deux manières.\nOn a recueilli l’information de tous les individus qui constituent la population. Dans ce cas on parle d’exhaustivité.\n\n\n\n\n\n\nexemple\n\n\n\n\n\n\nParfois il n’est pas possible d’avoir accès à l’ensemble d’une population (effectifs trop grands, manque de moyens…)\nUn échantillon est dit représentatif s’il est le reflet de la population dont il est issu.\nCette méthode permet de réduire les biais de sélection (Section 9.1)\n\n\n\n\n\n\nexemple\n\n\n\nliste électorale\n\n\n\n6.1.2 Durée\nTransversale / prévalence\n\n\n\n\n\n\nexemple\n\n\n\n\n\n\nLongitudinale / incidence\n\n\n\n\n\n\nexemple\n\n\n\n\n\n\n\n6.1.3 Chronologie\nUne étude est dite prospective si\n\n\n\n\n\n\nexemple\n\n\n\n\n\n\nUne étude est dite rétrospective si\n\n\n\n\n\n\nexemple",
     "crumbs": [
       "Sources des indicateurs",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Enquêtes ad hoc</span>"
@@ -338,7 +338,7 @@
     "href": "sources_adhoc.html#types-denquêtes",
     "title": "\n6  Enquêtes ad hoc\n",
     "section": "\n6.2 Types d’enquêtes",
-    "text": "6.2 Types d’enquêtes\n82-89",
+    "text": "6.2 Types d’enquêtes\n3 types d’enquêtes principales en épidémiologie descriptive\n\nEnquête exhaustive : registre de morbidité\n\nEnquête sur échantillon représentatif de la population générale\n\nEnquête transversale\nEnquête de cohorte\n\n\n\n\n6.2.1 Registres de morbidité\nStructure Epidémiologique qui enregistre les cas d’une pathologie de façon exhaustive et continue sur un territoire géographique donné\nPermet l’étude de :\n\nL’incidence d’une pathologie\nDe sa mortalité\nDe sa létalité\n\nA but purement descriptif mais peut aussi aider à l’évaluation d’actions de santé publique (impact d’une campagne de dépistage)\nPathologie adaptée (facilement repérable) !\n\n\n\n\n\n\nExemples\n\n\n\n\nRegistre de cancer (les plus nombreux)\nRegistre des maladies inflammatoires du tube digestif\nRegistre des malformations congénitales\nRegistre des AVC\n\n\n\n\n6.2.2 Enquêtes sur échantillon représentatif\n\n6.2.2.1 De la population à l’échantillon\nimg pop echant\nPopulation cible :\nPopulation source :\nC’est de cette population dont peut être issu l’échantillon.\n\n\n\n\n\n\nExemples\n\n\n\nDes chercheurs veulent connaître la prévalence de l’obésité chez les sujets de 30-45 ans habitant à Lille\n\n\n\n6.2.2.2 Enquête transversale\n\nMesure de la prévalence\nSur échantillon représentatif (parfois exhaustive si population pas trop importante) - Pas de suivi de la population (« photographie »)\nChamps d’étude restreint\n\nPour des maladies suffisamment fréquentes pour pouvoir être étudiées avec une précision raisonnable\n\n\n\n\n\n\n\n\n\nExemples\n\n\n\nenquête MONA-LISA-Lille\n\nObjectif : mesurer la prévalence des principaux FR cardiovasculaire dans la MEL\n\nEchantillon représentatif\n\nPar tirage au sort sur les listes électorales avec une stratification sur la taille des communes\n1600 hommes et femmes, âgées de 35 à 74 ans et résidant dans la MEL\n\n\n\nInvitation par courrier\n\nMesures (poids, taille, tour de taille, tour de hanche, PA, FC)\nPrise de sang à jeun (glycémie à jeun, cholestérolémie)\n\n\n\nEx de résultat : la prévalence de l’HTA dans la MEL est de 53% chez les hommes et de 45% chez les femmes\n\n\n\n6.2.2.3 Enquête longitudinale\n\n\n\n\n\n\nExemples\n\n\n\nenquête PAQUID\n\nÉtude de cohorte ayant inclus 3777 sujets de 65 ans et plus, en 1988\nEchantillon de population générale de la région Aquitaine\nObjectif : étude du vieillissement cérébral et fonctionnel en population générale\nSuivi tous les deux ans à 11 reprises\nRésultat : la démence était la cause principale de dépendance du sujet âgé en France",
     "crumbs": [
       "Sources des indicateurs",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Enquêtes ad hoc</span>"
@@ -499,8 +499,8 @@
     "objectID": "sources_adhoc.html#ce-quil-faut-retenir",
     "href": "sources_adhoc.html#ce-quil-faut-retenir",
     "title": "\n6  Enquêtes ad hoc\n",
-    "section": "\n6.4 Ce qu’il faut retenir",
-    "text": "6.4 Ce qu’il faut retenir",
+    "section": "\n6.3 Ce qu’il faut retenir",
+    "text": "6.3 Ce qu’il faut retenir",
     "crumbs": [
       "Sources des indicateurs",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Enquêtes ad hoc</span>"
@@ -510,8 +510,8 @@
     "objectID": "indicateurs_mrb.html#ce-quil-faut-retenir",
     "href": "indicateurs_mrb.html#ce-quil-faut-retenir",
     "title": "4  Indicateurs de morbidité",
-    "section": "\n4.5 Ce qu’il faut retenir",
-    "text": "4.5 Ce qu’il faut retenir\n\nBien différencier incidence et prévalence (penser à la baignoire !)\nComprendre l’évolution de l’incidence et de la prévalence",
+    "section": "\n4.4 Ce qu’il faut retenir",
+    "text": "4.4 Ce qu’il faut retenir\n\nBien différencier incidence et prévalence (penser à la baignoire !)\nComprendre l’évolution de l’incidence et de la prévalence",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
@@ -526,6 +526,83 @@
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_base.html#ce-quil-faut-retenir",
+    "href": "indicateurs_base.html#ce-quil-faut-retenir",
+    "title": "2  Mesures de base",
+    "section": "2.7 Ce qu’il faut retenir",
+    "text": "2.7 Ce qu’il faut retenir\n\nReconnaitre les indicateurs de base\nDistinguer fiabilité (précision) et validité (exactitude) : une mesure peut être fiable sans être valide !",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mesures de base</span>"
+    ]
+  },
+  {
+    "objectID": "sources_base.html#systèmes-sentinellessrc-base",
+    "href": "sources_base.html#systèmes-sentinellessrc-base",
+    "title": "5  Recueils systématiques",
+    "section": "5.3 Systèmes sentinelles1",
+    "text": "5.3 Systèmes sentinelles1\n70-75",
+    "crumbs": [
+      "Sources des indicateurs",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_mrt.html#taux-spécifique-de-mortalité",
+    "href": "indicateurs_mrt.html#taux-spécifique-de-mortalité",
+    "title": "3  Indicateurs de mortalité",
+    "section": "\n3.2 Taux spécifique de mortalité",
+    "text": "3.2 Taux spécifique de mortalité\nUn taux spécifique de mortalité est un taux de mortalité dans lequel on tient compte d’un autre paramètre. Il s’agit le plus souvent de taux spécifiques par sexe, par tranches d’âges, ou par causes.\nFORMULE\nSous-types :\n\nMortalité prématurée : mortalité survenant avant 65 ans (taux spécifique par âge)\nMortalité évitable : taux spécifique par causes de décès\n\n\n\n\n\n\n\nExemple\n\n\n\nSur l’année 2023, le taux de mortalité infantile était de 3,8/1000 : sur 1000 enfants nés, environ 4 sont décédés avant l’âge de 12 mois.",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_mrt.html#taux-standardisé-de-mortalité",
+    "href": "indicateurs_mrt.html#taux-standardisé-de-mortalité",
+    "title": "3  Indicateurs de mortalité",
+    "section": "\n3.3 Taux standardisé de mortalité",
+    "text": "3.3 Taux standardisé de mortalité\nIndépendamment de ses causes, la mortalité est liée un facteur incontournable : l’âge. Si la comparaison entre départements révèle un des taux est plus élevé dans l’un, cela peut-être dû non pas à des causes externes mais simplement à la structure d’âge du département (la mortalité sera plus élevé si la moyenne d’âge est plus élevée).\nOn dit que l’âge est un facteur de confusion (Section 9.3) dans la mesure de taux comparatifs de mortalité.\nimg stand 1\nAfin de pouvoir comparer de manière pertinente des taux de mortalité entre différentes départements, il faut procéder à un traitement des taux bruts pour annuler cet effet âge : cette méthode est appelée standardisation. Les taux comparatifs de décès, ou taux standardisés, correspondent à des taux de décès calculés comme si la structure d’âge était la même dans tous les départements.\n\n\n\n\n\n\n\n\nDans l’exemple ci-dessus, on peut donc supposer que les taux de mortalité observés dépendent non pas de la structure d’âge dans chaque région, mais bien de facteurs externes.",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_mrt.html#espérance-de-vie",
+    "href": "indicateurs_mrt.html#espérance-de-vie",
+    "title": "3  Indicateurs de mortalité",
+    "section": "\n3.5 Espérance de vie",
+    "text": "3.5 Espérance de vie\nL’espérance de vie est le nombre moyen d’années qu’une personne peut espérer vivre à partir d’un âge donné.\n\n\n\nTable 3.1: Espérance de vie en France, 2022.\n\n\n\n\n\nÀ la naissance\nÀ 65 ans\n\n\n\nHommes\n79.3\n19.1\n\n\nFemmes\n85.1\n23.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEspérance de vie en bonne santé\n\n\n\nL’espérance de vie en bonne santé, aussi appelée espérance de vie sans incapacité, est le nombre moyen d’années qu’une personne peut espérer vivre sans souffrir d’incapacité dans les gestes de la vie quotidienne.\n\n\n\nTable 3.2: Espérance de vie en bonne santé en France, 2022.\n\n\n\n\n\nÀ la naissance\nÀ 65 ans\n\n\n\nHommes\n63.8\n10.2\n\n\nFemmes\n65.3\n11.8",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_mrb.html#incidence-vs-prévalence",
+    "href": "indicateurs_mrb.html#incidence-vs-prévalence",
+    "title": "4  Indicateurs de morbidité",
+    "section": "\n4.3 Incidence vs prévalence",
+    "text": "4.3 Incidence vs prévalence\n\n4.3.1 Une analogie : la baignoire de l’épidémiologiste\nLa baignoire de l’épidémiologiste.\nCette image comporte classiquement 3 éléments :\n\nLe volume d’eau occupant la baignoire\nLe robinet ouvert\nL’évacuation\n\n[img baignoire]\nLa baignoire dans son ensemble symbolise la morbidité. Elle se situe , qui symbolise l’ensemble de la population.\nLe volume d’eau représente le proportion d’individus malades dans la population : c’est la prévalence.\nLe débit d’eau entrant représente les nouveaux cas de malades : c’est l’incidence.\nL’évacuation représente les individus sortant de la population de malades : c’est la mortalité.\nBien sûr la mort n’est pas la seule façon de sortir du circuit : il y a une possibilité de guérison ou rémission de la maladie en question. Ainsi pour être complet, on peut donc rajouter ce nouvel élément en le symbolisant par l’évaporation du volume d’eau présent dans la baignoire.\nL’image de la baignoire est plutôt bonne : c’est un circuit ouvert avec entrée et sortie. De ce fait, bien que le robinet sort constamment ouvert, la baignoire ne déborde jamais.\n\n4.3.2 Un exemple : l’infection à VIH\n\nLa baignoire ne déborde jamais, mais le niveau d’eau augmente petit à petit.\n\nQu’est-ce que ça signifie ?\nInfection à VIH, en représentant graphiquement incidence et prévalence.\n\n\n\n\n\n\n\n\nL’infection à VIH est pourvoyeuse du SIDA (Syndrome d’Immuno-Déficience Acquise), ayant pour caractéristique d’être une maladie donc on ne guérit pas.\nLes progrès de la médecine ont changé la donne en permettant une augmentation notable de l’espérance de vie, autrement dit en permettant aux gens de moins mourir de la maladie. Par conséquent on parle de maladie chronique.\nLa prévalence d’une maladie augmente avec le temps. L’incidence, quant à elle, ne suit pas cette tendance. Hors cas d’épidémie, les nouveaux cas apparaissent à vitesse faible et constante.\n\n4.3.3 Facteurs déterminants",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
+    ]
+  },
+  {
+    "objectID": "sources_base.html#certificat-de-décès",
+    "href": "sources_base.html#certificat-de-décès",
+    "title": "5  Recueils systématiques",
+    "section": "",
+    "text": "Déclaration de décès obligatoire pour toute personne présente sur le territoire national, dont enfants déclarés à l’état civil (Enfants mort-nés : bulletin d’enfant déclaré sans vie)\nLe certificat de décès est établi par le médecin qui constate le décès\n\n\n\nUne partie supérieure nominative, utilisée pour la déclaration à l’état civil, qui comprend:\n\nNom-prénom\ndomicile du décédé\ndate et heure de la mort\ndiverses opérations funéraires\n\nUne partie inférieure anonyme qui comprend:\n\nrenseignements médicaux\nnom de la commune où est survenu le décès\ndate de décès\n\n\n\n\n\nUtilisation pour la plupart des statistiques de mortalité en France\nSystème similaire dans la plupart des pays du monde\nIntérêts :\n\nFaire des comparaisons des taux de mortalité entre région\nFaire des comparaisons entre pays\n\nMais habitudes et qualité de remplissage des certificats peuvent changer d’un pays à l’autre -&gt; rester prudent",
+    "crumbs": [
+      "Sources des indicateurs",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
     ]
   }
 ]

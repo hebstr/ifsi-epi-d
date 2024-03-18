@@ -1,28 +1,128 @@
 # Recueils systématiques
 
-56 liste 
-
 ## Certificat de décès
 
-57-62
+- Déclaration de décès obligatoire pour toute personne présente sur le territoire national, dont enfants déclarés à l'état civil (Enfants mort-nés : bulletin d'enfant déclaré sans vie)
+- Le certificat de décès est établi par le médecin qui constate le décès
+
+Le certificat comprend 2 parties :
+
+- Une partie supérieure nominative, utilisée pour la déclaration à l'état civil, qui comprend:
+  - Nom-prénom 
+  - domicile du décédé 
+  - date et heure de la mort 
+  - diverses opérations funéraires 
+  
+- Une partie inférieure anonyme qui comprend:
+  - renseignements médicaux 
+  - nom de la commune où est survenu le décès 
+  - date de décès
+
+img certif papier
+
+img certif elec
+
+- Utilisation pour la plupart des statistiques de mortalité en France
+- Système similaire dans la plupart des pays du monde
+
+- Intérêts :
+
+  - Faire des comparaisons des taux de mortalité entre région
+  - Faire des comparaisons entre pays
+  
+- Mais habitudes et qualité de remplissage des certificats peuvent changer d'un pays à l'autre -> rester prudent
 
 
 ## Déclaration obligatoire
 
-63-69
+- Repose sur un système de transmission de données individuelles à l'autorité sanitaire - Recueil exhaustif car obligatoire
+- 2 procédures dans la transmission des données
+  - Signalement
+  - Notification
+- 38 maladies à déclaration obligatoire
+
+liste MDO
+
+Buts :
+
+- Agir et prévenir le risque d'épidémie
+- Analyser l'évolution dans le temps de ces maladies
+- Adapter les politiques de santé publique aux besoins de la population
+
+Déclaration d'une maladie à DO - Signalement
+
+- En urgence, sans délai
+- Par les médecins et biologiste
+- Dès suspicion
+- Auprès des médecins inspecteurs de santé publique de l'ARS
+- Pas de support dédié (fax, téléphone…)
+- Données nominatives
+
+Pour figurer sur cette liste, les maladies doivent répondre à deux types de critères :
+
+- Des critères principaux
+- Des critères de faisabilité
+
+img rougeole
 
 
 ## Systèmes sentinelles
 
-70-75
+Les [systèmes sentinelles](https://sentiweb.fr/) sont des 
 
+- Ensemble de professionnels de la santé (principalement des médecins) regroupés au sein d'un réseau
+- Les professionnels s'engagent à signaler tous les cas de maladies surveillées par le système sentinelle auprès d'un centre coordinateur
+- Système basé sur le volontariat
+
+- Objectif : repérer rapidement le début de certaines épidémies
+- L'exhaustivité sur un territoire donnée n'est pas recherchée mais des efforts sont faits dans une zone donnée pour arriver à un certain degré de représentativité
+
+- Collaboration entre médecins généralistes et chercheurs
+- Réseau 1300 médecins généralistes français répartis sur l'ensemble du territoire métropolitain
+- Objectifs : recueil, analyse, prévision et redistribution en temps réel de données épidémiologiques issues de l'activité des médecins généralistes libéraux
+
+Surveillance continue de 9 indicateurs
+
+- Syndromes grippaux
+- Diarrhée aiguë
+- Oreillons
+- Varicelle
+- Urétrite masculine
+- Zona
+- Borréliose de Lyme
+- Suicide et tentative de suicide
+- Coqueluche
+
+img carte
 
 ## Bases de données médico-administratives
 
-76
+exemple du Système National des Données de Santé (SNDS)
+
+Système National des Données de Santé contient:
+
+- données de l'assurance maladie, SNIIRAM
+- données des hôpitaux, base PMSI
+- causes médicales de décès, CépiDC
+- données relatives aux handicap
+- échantillons de données des assurances maladies complémentaires
+
+Finalités de ces données:
+
+- Favoriser les études, la recherche ou l'évaluation présentant un caractère public
+- Aide à la mise en œuvre de politique de santé
+- Connaissance des dépenses de santé
+- Surveillance, veille et sécurité sanitaire
 
 
 ## Limites
 
-77
+- Pas de choix des données
+- Informations limités
+- Pas de définition standardisée
+- Pas de contrôle de qualité des données
+
+Nécessité d'enquêtes spécifiques
+- Exhaustive
+- Sur échantillon
 

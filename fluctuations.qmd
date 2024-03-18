@@ -1,13 +1,13 @@
 # Fluctuations d'échantillonnage {#sec-fluct}
 
 - Erreurs aléatoires liées au hasard 
-- Diminuent en augmentant la taille de l’échantillon 
+- Diminuent en augmentant la taille de l'échantillon 
 - Prises en compte dans la présentation des résultats : Intervalle de confiance à 95%
 
 
 ## Maitriser l'incertitude
 
-Intervalle de confiance à 95% d’une prévalence 
+Intervalle de confiance à 95% d'une prévalence 
 
 p= Nombre de malades dans la population / Effectif total de la population 
 
@@ -18,7 +18,7 @@ p = prévalence
 N = nombre total de sujet
 
 
-Exemple : intervalle de confiance à 95% d’une prévalence
+Exemple : intervalle de confiance à 95% d'une prévalence
 
 Une maladie a une prévalence de 20% dans un échantillon de 100 personnes tirées au sort en population générale 0,20 x 0,80 
 
@@ -31,14 +31,12 @@ Interprétation : dans la population générale, il y a 95% de chance pour que l
 ## En bref
 
 - Erreurs aléatoires
-- Diminuent en augmentant la taille de l’échantillon
+- Diminuent en augmentant la taille de l'échantillon
 - Justifient la réalisation de tests statistiques
 - Prises en compte dans la présentation des résultats (intervalle de confiance)
 
 ::: callout-note
-
 ## Question
-
 
 
 :::

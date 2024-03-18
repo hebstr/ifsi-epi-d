@@ -47,12 +47,12 @@ Du fait qu'il s'agisse d'une mesure ponctuelle, à un instant donné, elle est q
 Pour qu'une proportion d'individus malades se constitue au sein d'une population, il faut bien sûr que de nouveaux cas de cette maladie soient apparus en amont.
 Autrement dit, la prévalence est [dépendante de l’incidence]{.cb}. 
 
-Elle dépend également de la [durée d’évolution]{.cb} de la maladie : plus elle augmente, plus la prévalence augmente. 
+Elle dépend également de la [durée d’évolution]{.cb} de la maladie : plus celle-ci augmente, plus la prévalence augmente. 
 
 
-## Incidence et prévalence : allégorie et exemples
+## Incidence vs prévalence
 
-### La baignoire de l'épidémiologiste
+### Une analogie : la baignoire de l'épidémiologiste
 
 La baignoire de l'épidémiologiste.
 
@@ -77,7 +77,7 @@ Ainsi pour être complet, on peut donc rajouter ce nouvel élément en le symbol
 
 L'image de la baignoire est plutôt bonne : c'est un circuit ouvert avec entrée et sortie. De ce fait, bien que le robinet sort constamment ouvert, la baignoire ne déborde jamais.
 
-### Exemple de l'infection à VIH
+### Un exemple : l'infection à VIH
 
 > *La baignoire ne déborde jamais, mais le niveau d'eau augmente petit à petit.*
 
@@ -85,17 +85,22 @@ Qu'est-ce que ça signifie ?
 
 Infection à VIH, en représentant graphiquement incidence et prévalence.
 
-img courbes
+```{r}
+#| out-width: 5in
+#| fig-align: center
+
+knitr::include_graphics("img/vih.png")
+```
 
 L'infection à VIH est pourvoyeuse du **SIDA** (**S**yndrome d'**I**mmuno-**D**éficience **A**cquise), ayant pour caractéristique d'être une maladie donc on ne guérit pas.
 
 Les progrès de la médecine ont changé la donne en permettant une augmentation notable de l'espérance de vie, autrement dit en permettant aux gens de moins mourir de la maladie. Par conséquent on parle de maladie [chronique]{.cb}.
 
 La prévalence d'une maladie augmente avec le temps.
-L'incidence, quant à elle, ne suit pas cette tendance. Hors cas d'épidémie, les nouveaux cas se produisent à vitesse constante.
+L'incidence, quant à elle, ne suit pas cette tendance. Hors cas d'épidémie, les nouveaux cas apparaissent à vitesse faible et constante.
 
 
-## Incidence et prévalence : déterminants
+### Facteurs déterminants
 
 ```{r}
 #| out-width: 6in

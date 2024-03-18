@@ -16,7 +16,7 @@ Nombre de décès dans une population pour une période donnée / Effectif de la
 
 Il est généralement calculé sur un an et exprimé en taux pour 1000.
 
-::: callout-note
+::: callout-tip
 ## Exemple
 
 Il était de 9,1 pour 1000 habitants en 2019 en France
@@ -24,10 +24,10 @@ Il était de 9,1 pour 1000 habitants en 2019 en France
 :::
 
 
-## Taux spécifiques de mortalité 
+## Taux spécifique de mortalité 
 
-Un taux spécifique de mortalité est un taux de mortalité dans lequel on tient compte d’un autre paramètre.
-Il s'agit le plus souvent de taux spécifiques par sexe, par tranches d’âges, ou par causes.
+Un taux spécifique de mortalité est un taux de mortalité dans lequel on tient compte d'un autre paramètre.
+Il s'agit le plus souvent de taux spécifiques par sexe, par tranches d'âges, ou par causes.
 
 FORMULE
 
@@ -36,34 +36,37 @@ Sous-types :
 - Mortalité [prématurée]{.cb} : mortalité survenant avant 65 ans (taux spécifique par âge)
 - Mortalité [évitable]{.cb} : taux spécifique par causes de décès
   
-::: callout-note
+::: callout-tip
 ## Exemple
 
-Entre 2016 et 2018, le taux de mortalité infantile était de 3,8 pour 1000 enfants nés vivants
-
+*Sur l'année 2023, le taux de mortalité infantile était de 3,8/1000 : sur 1000 enfants nés, environ 4 sont décédés avant l'âge de 12 mois.*
 :::
 
-## Taux standardisés de mortalité
+## Taux standardisé de mortalité
 
 Indépendamment de ses causes, la mortalité est liée un facteur incontournable : [l'âge]{.cb}.
-Par conséquent si la comparaison entre départements révèle un des taux est plus élevé dans l'un, cela peut-être dû non pas à des causes externes mais simplement à la [structure d'âge]{.cb} du département en question (la mortalité sera plus élevé si la moyenne d'âge est plus élevée).
+Si la comparaison entre départements révèle un des taux est plus élevé dans l'un, cela peut-être dû non pas à des causes externes mais simplement à la [structure d'âge]{.cb} du département (la mortalité sera plus élevé si la moyenne d'âge est plus élevée).
+
+On dit que l'âge est un [facteur de confusion]{.cb} (@sec-biais-conf) dans la mesure de taux comparatifs de mortalité.
 
 img stand 1
 
-On dit que l'âge est un [facteur de confusion @sec-biais-conf] dans la mesure de taux comparatifs de mortalité.
+Afin de pouvoir comparer de manière pertinente des taux de mortalité entre différentes départements, il faut procéder à un traitement des taux bruts pour annuler cet *effet âge* : cette méthode est appelée [standardisation]{.cb}.
+Les taux comparatifs de décès, ou taux [standardisés]{.cb}, correspondent à des taux de décès calculés *comme si* la structure d'âge était [la même dans tous les départements]{.cb}.
 
-Afin de pouvoir comparer de manière valide des taux de mortalité entre différentes départements, il faut procéder à un traitement des taux bruts pour annuler cet *"effet âge"* : cette méthode est appelée [standardisation]{.cb}.
-Les taux comparatifs de décès, ou taux [standardisés]{.cb}, correspondent à des taux de décès calculés *"comme si"* la structure d’âge était [la même dans tous les départements]{.cb}.
+```{r}
+#| out-width: 6in
+#| fig-align: center
 
+knitr::include_graphics("img/standard.png")
+```
 
 Dans l'exemple ci-dessus, on peut donc supposer que les taux de mortalité observés dépendent non pas de la structure d'âge dans chaque région, mais bien de facteurs externes.
 
 
 ## Taux de létalité 
 
-La distinction entre mortalité et létalité est [fondamentale]{.cb}.
-
-Tandis que la mortalité représente le nombre d'individus décédés sur l'ensemble de la population, la létalité représente le nombre d'individus décédés d'une maladie [parmi les individus atteints de cette maladie]{.cb}.
+Tandis que la mortalité représente le nombre d'individus décédés sur l'ensemble de la population, la [létalité]{.cb} représente le nombre d'individus décédés d'une maladie [parmi les individus atteints de cette maladie]{.cb}.
 
 Un taux de létalité prend pour période d'étude le [temps à partir du début]{.cb} de la maladie.
 
@@ -73,14 +76,18 @@ C'est un indicateur témoignant de la [gravité]{.cb} d'une maladie.
 
 En pratique elle est exprimée à x temps (létalité à 28 jours, à un an, etc.).
 
+::: callout-tip
+## Exemple
 
-## L’espérance de vie
 
-L’espérance de vie est le [nombre moyen d’années]{.cb} qu'une personne peut espérer vivre [à partir d'un âge donné]{.cb}.
+:::
+
+
+## Espérance de vie
+
+L'espérance de vie est le [nombre moyen d'années]{.cb} qu'une personne peut espérer vivre [à partir d'un âge donné]{.cb}.
 
 ```{r #tbl-esp-base}
-#| echo: false
-#| eval: true
 #| tbl-cap: "Espérance de vie en France, 2022."
 
 tibble::tibble(" " = c("**Hommes**", "**Femmes**"),
@@ -89,14 +96,12 @@ tibble::tibble(" " = c("**Hommes**", "**Femmes**"),
   knitr::kable(align = "c")
 ```
 
-::: callout-tip
+::: callout-note
 ## Espérance de vie en bonne santé
 
-L’espérance de vie [en bonne santé]{.cb}, aussi appelée espérance de vie [sans incapacité]{.cb}, est le nombre moyen d’années qu’une personne peut espérer vivre sans souffrir d’incapacité dans les gestes de la vie quotidienne. 
+L'espérance de vie [en bonne santé]{.cb}, aussi appelée espérance de vie [sans incapacité]{.cb}, est le nombre moyen d'années qu'une personne peut espérer vivre sans souffrir d'incapacité dans les gestes de la vie quotidienne. 
 
 ```{r #tbl-esp-bs}
-#| echo: false
-#| eval: true
 #| tbl-cap: "Espérance de vie en bonne santé en France, 2022."
 
 tibble::tibble(" " = c("**Hommes**", "**Femmes**"),
