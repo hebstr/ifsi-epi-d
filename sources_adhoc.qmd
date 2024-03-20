@@ -42,7 +42,11 @@ Dans ce cas on parle d'[exhaustivité]{.cb}.
 
 Parfois il n'est pas possible d'avoir accès à l'ensemble d'une population (effectifs trop grands, manque de moyens...)
 
-Un échantillon est dit [représentatif]{.cb} s'il est le reflet de la population dont il est issu.
+La solution est 
+
+Un échantillon est dit [représentatif]{.cb} s'il est un bon reflet de la population dont il est issu.
+
+Cette représentativité supposée permet de généraliser les résultats à la population.
 
 Cette méthode permet de réduire les [biais de sélection]{.cb} (@sec-biais-sel)
 

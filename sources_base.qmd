@@ -35,6 +35,8 @@ img certif elec
 
 ## Déclaration obligatoire
 
+La liste des [maladies à déclaratoire obligatoire](https://www.santepubliquefrance.fr/maladies-a-declaration-obligatoire/liste-des-maladies-a-declaration-obligatoire)
+
 - Repose sur un système de transmission de données individuelles à l'autorité sanitaire - Recueil exhaustif car obligatoire
 - 2 procédures dans la transmission des données
   - Signalement
