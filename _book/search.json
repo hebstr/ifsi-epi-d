@@ -30,6 +30,26 @@
     ]
   },
   {
+    "objectID": "index.html#pour-quoi",
+    "href": "index.html#pour-quoi",
+    "title": "Épidémiologie descriptive",
+    "section": "Pour quoi ?",
+    "text": "Pour quoi ?\n\n\nDécrire un phénomène de santé = Epidémiologie descriptive\n\nCaractériser une pathologie\n\n\n\nComprendre = Epidémiologie analytique\n\nRechercher les déterminants de cette pathologie\n\n\n\nEvaluer = Epidémiologie évaluative\n\nMesurer l’impact d’une politique de santé",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
+    "objectID": "index.html#pour-qui",
+    "href": "index.html#pour-qui",
+    "title": "Épidémiologie descriptive",
+    "section": "Pour qui ?",
+    "text": "Pour qui ?\nLes professionnels de santé : ils jouent un rôle important dans la mise en oeuvre des interventions de santé, allant de la prévention à la prestation de soins. Leur expertise est nécessaire pour assurer des interventions efficaces et adaptées aux besoins de la populations.\nLes politiques et administrations : leur rôle consiste à élaborer des politiques et des programmes qui répondent aux besoins de la population et qui favorisent l’accès au système de santé (campagnes de sensibilisation)\nLes gestionnaires : chargés de planifier, d’allouer et d’organiser les ressources nécessaires à la prestation des services de santé, leur travail consiste à garantir que les ressources sont utilisées de manière efficiente et équitable pour répondre aux besoins de la population (organiser des campagnes de vaccination en cas d’épidémie)\nLes usagers : Ils doivent être en mesure de défendre leurs propres intérêts en matière de santé, en plaidant pour des politiques et des services qui répondent à leurs besoins spécifiques (patients, associations de patients, etc.)",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
     "objectID": "definitions.html",
     "href": "definitions.html",
     "title": "1  Définitions",
@@ -147,6 +167,17 @@
     ]
   },
   {
+    "objectID": "indicateurs_base.html#ce-quil-faut-retenir",
+    "href": "indicateurs_base.html#ce-quil-faut-retenir",
+    "title": "2  Mesures de base",
+    "section": "2.7 Ce qu’il faut retenir",
+    "text": "2.7 Ce qu’il faut retenir\n\nReconnaitre les indicateurs de base\nDistinguer fiabilité (précision) et validité (exactitude) : une mesure peut être fiable sans être valide !",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mesures de base</span>"
+    ]
+  },
+  {
     "objectID": "indicateurs_mrt.html",
     "href": "indicateurs_mrt.html",
     "title": "3  Indicateurs de mortalité",
@@ -169,22 +200,22 @@
     ]
   },
   {
-    "objectID": "indicateurs_mrt.html#taux-spécifiques-de-mortalité",
-    "href": "indicateurs_mrt.html#taux-spécifiques-de-mortalité",
+    "objectID": "indicateurs_mrt.html#taux-spécifique-de-mortalité",
+    "href": "indicateurs_mrt.html#taux-spécifique-de-mortalité",
     "title": "3  Indicateurs de mortalité",
-    "section": "\n3.2 Taux spécifiques de mortalité",
-    "text": "3.2 Taux spécifiques de mortalité\nUn taux spécifique de mortalité est un taux de mortalité dans lequel on tient compte d’un autre paramètre. Il s’agit le plus souvent de taux spécifiques par sexe, par tranches d’âges, ou par causes.\nFORMULE\nSous-types :\n\nMortalité prématurée : mortalité survenant avant 65 ans (taux spécifique par âge)\nMortalité évitable : taux spécifique par causes de décès\n\n\n\n\n\n\n\nExemple\n\n\n\nEntre 2016 et 2018, le taux de mortalité infantile était de 3,8 pour 1000 enfants nés vivants",
+    "section": "\n3.2 Taux spécifique de mortalité",
+    "text": "3.2 Taux spécifique de mortalité\nUn taux spécifique de mortalité est un taux de mortalité dans lequel on tient compte d’un autre paramètre. Il s’agit le plus souvent de taux spécifiques par sexe, par tranches d’âges, ou par causes.\nFORMULE\nSous-types :\n\nMortalité prématurée : mortalité survenant avant 65 ans (taux spécifique par âge)\nMortalité évitable : taux spécifique par causes de décès\n\n\n\n\n\n\n\nExemple\n\n\n\nSur l’année 2023, le taux de mortalité infantile était de 3,8/1000 : sur 1000 enfants nés, environ 4 sont décédés avant l’âge de 12 mois.",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
     ]
   },
   {
-    "objectID": "indicateurs_mrt.html#taux-standardisés-de-mortalité",
-    "href": "indicateurs_mrt.html#taux-standardisés-de-mortalité",
+    "objectID": "indicateurs_mrt.html#taux-standardisé-de-mortalité",
+    "href": "indicateurs_mrt.html#taux-standardisé-de-mortalité",
     "title": "3  Indicateurs de mortalité",
-    "section": "\n3.3 Taux standardisés de mortalité",
-    "text": "3.3 Taux standardisés de mortalité\nIndépendamment de ses causes, la mortalité est liée un facteur incontournable : l’âge. Si la comparaison entre départements révèle un des taux est plus élevé dans l’un, cela peut-être dû non pas à des causes externes mais simplement à la structure d’âge du département en question (la mortalité sera plus élevé si la moyenne d’âge est plus élevée).\nimg stand 1\nOn dit que l’âge est un facteur de confusion (Section 9.3) dans la mesure de taux comparatifs de mortalité.\nAfin de pouvoir comparer de manière valide des taux de mortalité entre différentes départements, il faut procéder à un traitement des taux bruts pour annuler cet “effet âge” : cette méthode est appelée standardisation. Les taux comparatifs de décès, ou taux standardisés, correspondent à des taux de décès calculés “comme si” la structure d’âge était la même dans tous les départements.\nimag std\nDans l’exemple ci-dessus, on peut donc supposer que les taux de mortalité observés dépendent non pas de la structure d’âge dans chaque région, mais bien de facteurs externes.",
+    "section": "\n3.3 Taux standardisé de mortalité",
+    "text": "3.3 Taux standardisé de mortalité\nIndépendamment de ses causes, la mortalité est liée un facteur incontournable : l’âge. Si la comparaison entre départements révèle un des taux est plus élevé dans l’un, cela peut-être dû non pas à des causes externes mais simplement à la structure d’âge du département (la mortalité sera plus élevé si la moyenne d’âge est plus élevée).\nOn dit que l’âge est un facteur de confusion (Section 9.3) dans la mesure de taux comparatifs de mortalité.\nimg stand 1\nAfin de pouvoir comparer de manière pertinente des taux de mortalité entre différentes départements, il faut procéder à un traitement des taux bruts pour annuler cet effet âge : cette méthode est appelée standardisation. Les taux comparatifs de décès, ou taux standardisés, correspondent à des taux de décès calculés comme si la structure d’âge était la même dans tous les départements.\n\n\n\n\n\n\n\n\nDans l’exemple ci-dessus, on peut donc supposer que les taux de mortalité observés dépendent non pas de la structure d’âge dans chaque région, mais bien de facteurs externes.",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
@@ -202,11 +233,11 @@
     ]
   },
   {
-    "objectID": "indicateurs_mrt.html#lespérance-de-vieesp-1",
-    "href": "indicateurs_mrt.html#lespérance-de-vieesp-1",
-    "title": "\n3  Indicateurs de mortalité\n",
-    "section": "\n3.5 L’espérance de vie1\n",
-    "text": "3.5 L’espérance de vie1\n\nL’espérance de vie est le nombre moyen d’années qu’une personne peut espérer vivre à partir d’un âge donné.\n\n\n\nTable 3.1: Espérance de vie en France, 2022.\n\n\n\n\n\nÀ la naissance\nÀ 65 ans\n\n\n\nHommes\n79.3\n19.1\n\n\nFemmes\n85.1\n23.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEspérance de vie en bonne santé\n\n\n\nL’espérance de vie en bonne santé, aussi appelée espérance de vie sans incapacité, est le nombre moyen d’années qu’une personne peut espérer vivre sans souffrir d’incapacité dans les gestes de la vie quotidienne.\n\n\n\nTable 3.2: Espérance de vie en bonne santé en France, 2022.\n\n\n\n\n\nÀ la naissance\nÀ 65 ans\n\n\n\nHommes\n63.8\n10.2\n\n\nFemmes\n65.3\n11.8",
+    "objectID": "indicateurs_mrt.html#espérance-de-vie",
+    "href": "indicateurs_mrt.html#espérance-de-vie",
+    "title": "3  Indicateurs de mortalité",
+    "section": "\n3.5 Espérance de vie",
+    "text": "3.5 Espérance de vie\nL’espérance de vie est le nombre moyen d’années qu’une personne peut espérer vivre à partir d’un âge donné.\n\n\n\nTable 3.1: Espérance de vie en France, 2022.\n\n\n\n\n\nÀ la naissance\nÀ 65 ans\n\n\n\nHommes\n79.3\n19.1\n\n\nFemmes\n85.1\n23.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEspérance de vie en bonne santé\n\n\n\nL’espérance de vie en bonne santé, aussi appelée espérance de vie sans incapacité, est le nombre moyen d’années qu’une personne peut espérer vivre sans souffrir d’incapacité dans les gestes de la vie quotidienne.\n\n\n\nTable 3.2: Espérance de vie en bonne santé en France, 2022.\n\n\n\n\n\nÀ la naissance\nÀ 65 ans\n\n\n\nHommes\n63.8\n10.2\n\n\nFemmes\n65.3\n11.8",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
@@ -246,11 +277,22 @@
     ]
   },
   {
-    "objectID": "indicateurs_mrb.html#incidence-et-prévalence-allégorie-et-exemples",
-    "href": "indicateurs_mrb.html#incidence-et-prévalence-allégorie-et-exemples",
+    "objectID": "indicateurs_mrb.html#incidence-vs-prévalence",
+    "href": "indicateurs_mrb.html#incidence-vs-prévalence",
     "title": "4  Indicateurs de morbidité",
-    "section": "\n4.3 Incidence et prévalence : allégorie et exemples",
-    "text": "4.3 Incidence et prévalence : allégorie et exemples\n\n4.3.1 La baignoire de l’épidémiologiste\nLa baignoire de l’épidémiologiste.\nCette image comporte classiquement 3 éléments :\n\nLe volume d’eau occupant la baignoire\nLe robinet ouvert\nL’évacuation\n\n[img baignoire]\nLa baignoire dans son ensemble symbolise la morbidité. Elle se situe , qui symbolise l’ensemble de la population.\nLe volume d’eau représente le proportion d’individus malades dans la population : c’est la prévalence.\nLe débit d’eau entrant représente les nouveaux cas de malades : c’est l’incidence.\nL’évacuation représente les individus sortant de la population de malades : c’est la mortalité.\nBien sûr la mort n’est pas la seule façon de sortir du circuit : il y a une possibilité de guérison ou rémission de la maladie en question. Ainsi pour être complet, on peut donc rajouter ce nouvel élément en le symbolisant par l’évaporation du volume d’eau présent dans la baignoire.\nL’image de la baignoire est plutôt bonne : c’est un circuit ouvert avec entrée et sortie. De ce fait, bien que le robinet sort constamment ouvert, la baignoire ne déborde jamais.\n\n4.3.2 Exemple de l’infection à VIH\n\nLa baignoire ne déborde jamais, mais le niveau d’eau augmente petit à petit.\n\nQu’est-ce que ça signifie ?\nInfection à VIH, en représentant graphiquement incidence et prévalence.\n\n\n\n\n\n\n\n\nL’infection à VIH est pourvoyeuse du SIDA (Syndrome d’Immuno-Déficience Acquise), ayant pour caractéristique d’être une maladie donc on ne guérit pas.\nLes progrès de la médecine ont changé la donne en permettant une augmentation notable de l’espérance de vie, autrement dit en permettant aux gens de moins mourir de la maladie. Par conséquent on parle de maladie chronique.\nLa prévalence d’une maladie augmente avec le temps. L’incidence, quant à elle, ne suit pas cette tendance. Hors cas d’épidémie, les nouveaux cas apparaissent à vitesse faible et constante.",
+    "section": "\n4.3 Incidence vs prévalence",
+    "text": "4.3 Incidence vs prévalence\n\n4.3.1 Une analogie : la baignoire de l’épidémiologiste\nLa baignoire de l’épidémiologiste.\nCette image comporte classiquement 3 éléments :\n\nLe volume d’eau occupant la baignoire\nLe robinet ouvert\nL’évacuation\n\n[img baignoire]\nLa baignoire dans son ensemble symbolise la morbidité. Elle se situe , qui symbolise l’ensemble de la population.\nLe volume d’eau représente le proportion d’individus malades dans la population : c’est la prévalence.\nLe débit d’eau entrant représente les nouveaux cas de malades : c’est l’incidence.\nL’évacuation représente les individus sortant de la population de malades : c’est la mortalité.\nBien sûr la mort n’est pas la seule façon de sortir du circuit : il y a une possibilité de guérison ou rémission de la maladie en question. Ainsi pour être complet, on peut donc rajouter ce nouvel élément en le symbolisant par l’évaporation du volume d’eau présent dans la baignoire.\nL’image de la baignoire est plutôt bonne : c’est un circuit ouvert avec entrée et sortie. De ce fait, bien que le robinet sort constamment ouvert, la baignoire ne déborde jamais.\n\n4.3.2 Un exemple : l’infection à VIH\n\nLa baignoire ne déborde jamais, mais le niveau d’eau augmente petit à petit.\n\nQu’est-ce que ça signifie ?\nInfection à VIH, en représentant graphiquement incidence et prévalence.\n\n\n\n\n\n\n\n\nL’infection à VIH est pourvoyeuse du SIDA (Syndrome d’Immuno-Déficience Acquise), ayant pour caractéristique d’être une maladie donc on ne guérit pas.\nLes progrès de la médecine ont changé la donne en permettant une augmentation notable de l’espérance de vie, autrement dit en permettant aux gens de moins mourir de la maladie. Par conséquent on parle de maladie chronique.\nLa prévalence d’une maladie augmente avec le temps. L’incidence, quant à elle, ne suit pas cette tendance. Hors cas d’épidémie, les nouveaux cas apparaissent à vitesse faible et constante.\n\n4.3.3 Facteurs déterminants",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
+    ]
+  },
+  {
+    "objectID": "indicateurs_mrb.html#ce-quil-faut-retenir",
+    "href": "indicateurs_mrb.html#ce-quil-faut-retenir",
+    "title": "4  Indicateurs de morbidité",
+    "section": "\n4.4 Ce qu’il faut retenir",
+    "text": "4.4 Ce qu’il faut retenir\n\nBien différencier incidence et prévalence (penser à la baignoire !)\nComprendre l’évolution de l’incidence et de la prévalence",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
@@ -262,6 +304,17 @@
     "title": "5  Recueils systématiques",
     "section": "",
     "text": "5.1 Certificat de décès\nLe certificat comprend 2 parties :\nimg certif papier\nimg certif elec",
+    "crumbs": [
+      "Sources des indicateurs",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
+    ]
+  },
+  {
+    "objectID": "sources_base.html#certificat-de-décès",
+    "href": "sources_base.html#certificat-de-décès",
+    "title": "5  Recueils systématiques",
+    "section": "",
+    "text": "Déclaration de décès obligatoire pour toute personne présente sur le territoire national, dont enfants déclarés à l’état civil (Enfants mort-nés : bulletin d’enfant déclaré sans vie)\nLe certificat de décès est établi par le médecin qui constate le décès\n\n\n\nUne partie supérieure nominative, utilisée pour la déclaration à l’état civil, qui comprend:\n\nNom-prénom\ndomicile du décédé\ndate et heure de la mort\ndiverses opérations funéraires\n\nUne partie inférieure anonyme qui comprend:\n\nrenseignements médicaux\nnom de la commune où est survenu le décès\ndate de décès\n\n\n\n\n\nUtilisation pour la plupart des statistiques de mortalité en France\nSystème similaire dans la plupart des pays du monde\nIntérêts :\n\nFaire des comparaisons des taux de mortalité entre région\nFaire des comparaisons entre pays\n\nMais habitudes et qualité de remplissage des certificats peuvent changer d’un pays à l’autre -&gt; rester prudent",
     "crumbs": [
       "Sources des indicateurs",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
@@ -345,11 +398,11 @@
     ]
   },
   {
-    "objectID": "sources_adhoc.html#en-bref",
-    "href": "sources_adhoc.html#en-bref",
+    "objectID": "sources_adhoc.html#ce-quil-faut-retenir",
+    "href": "sources_adhoc.html#ce-quil-faut-retenir",
     "title": "\n6  Enquêtes ad hoc\n",
-    "section": "\n6.3 En bref",
-    "text": "6.3 En bref",
+    "section": "\n6.3 Ce qu’il faut retenir",
+    "text": "6.3 Ce qu’il faut retenir",
     "crumbs": [
       "Sources des indicateurs",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Enquêtes ad hoc</span>"
@@ -452,157 +505,6 @@
     "crumbs": [
       "Erreurs de mesure",
       "<span class='chapter-number'>9</span>  <span class='chapter-title'>Biais</span>"
-    ]
-  },
-  {
-    "objectID": "index.html#pour-quoi",
-    "href": "index.html#pour-quoi",
-    "title": "Épidémiologie descriptive",
-    "section": "Pour quoi ?",
-    "text": "Pour quoi ?\n\n\nDécrire un phénomène de santé = Epidémiologie descriptive\n\nCaractériser une pathologie\n\n\n\nComprendre = Epidémiologie analytique\n\nRechercher les déterminants de cette pathologie\n\n\n\nEvaluer = Epidémiologie évaluative\n\nMesurer l’impact d’une politique de santé",
-    "crumbs": [
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "index.html#pour-qui",
-    "href": "index.html#pour-qui",
-    "title": "Épidémiologie descriptive",
-    "section": "Pour qui ?",
-    "text": "Pour qui ?\nLes professionnels de santé : ils jouent un rôle important dans la mise en oeuvre des interventions de santé, allant de la prévention à la prestation de soins. Leur expertise est nécessaire pour assurer des interventions efficaces et adaptées aux besoins de la populations.\nLes politiques et administrations : leur rôle consiste à élaborer des politiques et des programmes qui répondent aux besoins de la population et qui favorisent l’accès au système de santé (campagnes de sensibilisation)\nLes gestionnaires : chargés de planifier, d’allouer et d’organiser les ressources nécessaires à la prestation des services de santé, leur travail consiste à garantir que les ressources sont utilisées de manière efficiente et équitable pour répondre aux besoins de la population (organiser des campagnes de vaccination en cas d’épidémie)\nLes usagers : Ils doivent être en mesure de défendre leurs propres intérêts en matière de santé, en plaidant pour des politiques et des services qui répondent à leurs besoins spécifiques (patients, associations de patients, etc.)",
-    "crumbs": [
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "indicateurs_mrt.html#lespérance-de-vie",
-    "href": "indicateurs_mrt.html#lespérance-de-vie",
-    "title": "3  Indicateurs de mortalité",
-    "section": "\n3.5 L’espérance de vie",
-    "text": "3.5 L’espérance de vie\nL’espérance de vie est le nombre moyen d’années qu’une personne peut espérer vivre à partir d’un âge donné.\n\n\n\nTable 3.1: Espérance de vie en France, 2022.\n\n\n\n\n\nÀ la naissance\nÀ 65 ans\n\n\n\nHommes\n79.3\n19.1\n\n\nFemmes\n85.1\n23.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEspérance de vie en bonne santé\n\n\n\nL’espérance de vie en bonne santé, aussi appelée espérance de vie sans incapacité, est le nombre moyen d’années qu’une personne peut espérer vivre sans souffrir d’incapacité dans les gestes de la vie quotidienne.\n\n\n\nTable 3.2: Espérance de vie en bonne santé en France, 2022.\n\n\n\n\n\nÀ la naissance\nÀ 65 ans\n\n\n\nHommes\n63.8\n10.2\n\n\nFemmes\n65.3\n11.8",
-    "crumbs": [
-      "Indicateurs de santé",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
-    ]
-  },
-  {
-    "objectID": "index.html#phénomène-de-santé",
-    "href": "index.html#phénomène-de-santé",
-    "title": "Épidémiologie descriptive",
-    "section": "Phénomène de santé ?",
-    "text": "Phénomène de santé ?\nUn phénomène de santé, ou état de santé, fait référence à tout évènement relatif à santé d’une personne ou d’une population. Il n’est donc pas toujours synonyme de maladie : il peut s’agir d’un symptôme, de la mortalité, mais aussi de facteurs comportementaux (consommation de tabac, pratique d’activité physique, etc.) ou socio-économiques.",
-    "crumbs": [
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "sources_adhoc.html#ce-quil-faut-retenir",
-    "href": "sources_adhoc.html#ce-quil-faut-retenir",
-    "title": "\n6  Enquêtes ad hoc\n",
-    "section": "\n6.3 Ce qu’il faut retenir",
-    "text": "6.3 Ce qu’il faut retenir",
-    "crumbs": [
-      "Sources des indicateurs",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Enquêtes ad hoc</span>"
-    ]
-  },
-  {
-    "objectID": "indicateurs_mrb.html#ce-quil-faut-retenir",
-    "href": "indicateurs_mrb.html#ce-quil-faut-retenir",
-    "title": "4  Indicateurs de morbidité",
-    "section": "\n4.4 Ce qu’il faut retenir",
-    "text": "4.4 Ce qu’il faut retenir\n\nBien différencier incidence et prévalence (penser à la baignoire !)\nComprendre l’évolution de l’incidence et de la prévalence",
-    "crumbs": [
-      "Indicateurs de santé",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
-    ]
-  },
-  {
-    "objectID": "indicateurs_mrb.html#incidence-et-prévalence-déterminants",
-    "href": "indicateurs_mrb.html#incidence-et-prévalence-déterminants",
-    "title": "4  Indicateurs de morbidité",
-    "section": "\n4.4 Incidence et prévalence : déterminants",
-    "text": "4.4 Incidence et prévalence : déterminants",
-    "crumbs": [
-      "Indicateurs de santé",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
-    ]
-  },
-  {
-    "objectID": "indicateurs_base.html#ce-quil-faut-retenir",
-    "href": "indicateurs_base.html#ce-quil-faut-retenir",
-    "title": "2  Mesures de base",
-    "section": "2.7 Ce qu’il faut retenir",
-    "text": "2.7 Ce qu’il faut retenir\n\nReconnaitre les indicateurs de base\nDistinguer fiabilité (précision) et validité (exactitude) : une mesure peut être fiable sans être valide !",
-    "crumbs": [
-      "Indicateurs de santé",
-      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Mesures de base</span>"
-    ]
-  },
-  {
-    "objectID": "sources_base.html#systèmes-sentinellessrc-base",
-    "href": "sources_base.html#systèmes-sentinellessrc-base",
-    "title": "5  Recueils systématiques",
-    "section": "5.3 Systèmes sentinelles1",
-    "text": "5.3 Systèmes sentinelles1\n70-75",
-    "crumbs": [
-      "Sources des indicateurs",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
-    ]
-  },
-  {
-    "objectID": "indicateurs_mrt.html#taux-spécifique-de-mortalité",
-    "href": "indicateurs_mrt.html#taux-spécifique-de-mortalité",
-    "title": "3  Indicateurs de mortalité",
-    "section": "\n3.2 Taux spécifique de mortalité",
-    "text": "3.2 Taux spécifique de mortalité\nUn taux spécifique de mortalité est un taux de mortalité dans lequel on tient compte d’un autre paramètre. Il s’agit le plus souvent de taux spécifiques par sexe, par tranches d’âges, ou par causes.\nFORMULE\nSous-types :\n\nMortalité prématurée : mortalité survenant avant 65 ans (taux spécifique par âge)\nMortalité évitable : taux spécifique par causes de décès\n\n\n\n\n\n\n\nExemple\n\n\n\nSur l’année 2023, le taux de mortalité infantile était de 3,8/1000 : sur 1000 enfants nés, environ 4 sont décédés avant l’âge de 12 mois.",
-    "crumbs": [
-      "Indicateurs de santé",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
-    ]
-  },
-  {
-    "objectID": "indicateurs_mrt.html#taux-standardisé-de-mortalité",
-    "href": "indicateurs_mrt.html#taux-standardisé-de-mortalité",
-    "title": "3  Indicateurs de mortalité",
-    "section": "\n3.3 Taux standardisé de mortalité",
-    "text": "3.3 Taux standardisé de mortalité\nIndépendamment de ses causes, la mortalité est liée un facteur incontournable : l’âge. Si la comparaison entre départements révèle un des taux est plus élevé dans l’un, cela peut-être dû non pas à des causes externes mais simplement à la structure d’âge du département (la mortalité sera plus élevé si la moyenne d’âge est plus élevée).\nOn dit que l’âge est un facteur de confusion (Section 9.3) dans la mesure de taux comparatifs de mortalité.\nimg stand 1\nAfin de pouvoir comparer de manière pertinente des taux de mortalité entre différentes départements, il faut procéder à un traitement des taux bruts pour annuler cet effet âge : cette méthode est appelée standardisation. Les taux comparatifs de décès, ou taux standardisés, correspondent à des taux de décès calculés comme si la structure d’âge était la même dans tous les départements.\n\n\n\n\n\n\n\n\nDans l’exemple ci-dessus, on peut donc supposer que les taux de mortalité observés dépendent non pas de la structure d’âge dans chaque région, mais bien de facteurs externes.",
-    "crumbs": [
-      "Indicateurs de santé",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
-    ]
-  },
-  {
-    "objectID": "indicateurs_mrt.html#espérance-de-vie",
-    "href": "indicateurs_mrt.html#espérance-de-vie",
-    "title": "3  Indicateurs de mortalité",
-    "section": "\n3.5 Espérance de vie",
-    "text": "3.5 Espérance de vie\nL’espérance de vie est le nombre moyen d’années qu’une personne peut espérer vivre à partir d’un âge donné.\n\n\n\nTable 3.1: Espérance de vie en France, 2022.\n\n\n\n\n\nÀ la naissance\nÀ 65 ans\n\n\n\nHommes\n79.3\n19.1\n\n\nFemmes\n85.1\n23.0\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nEspérance de vie en bonne santé\n\n\n\nL’espérance de vie en bonne santé, aussi appelée espérance de vie sans incapacité, est le nombre moyen d’années qu’une personne peut espérer vivre sans souffrir d’incapacité dans les gestes de la vie quotidienne.\n\n\n\nTable 3.2: Espérance de vie en bonne santé en France, 2022.\n\n\n\n\n\nÀ la naissance\nÀ 65 ans\n\n\n\nHommes\n63.8\n10.2\n\n\nFemmes\n65.3\n11.8",
-    "crumbs": [
-      "Indicateurs de santé",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
-    ]
-  },
-  {
-    "objectID": "indicateurs_mrb.html#incidence-vs-prévalence",
-    "href": "indicateurs_mrb.html#incidence-vs-prévalence",
-    "title": "4  Indicateurs de morbidité",
-    "section": "\n4.3 Incidence vs prévalence",
-    "text": "4.3 Incidence vs prévalence\n\n4.3.1 Une analogie : la baignoire de l’épidémiologiste\nLa baignoire de l’épidémiologiste.\nCette image comporte classiquement 3 éléments :\n\nLe volume d’eau occupant la baignoire\nLe robinet ouvert\nL’évacuation\n\n[img baignoire]\nLa baignoire dans son ensemble symbolise la morbidité. Elle se situe , qui symbolise l’ensemble de la population.\nLe volume d’eau représente le proportion d’individus malades dans la population : c’est la prévalence.\nLe débit d’eau entrant représente les nouveaux cas de malades : c’est l’incidence.\nL’évacuation représente les individus sortant de la population de malades : c’est la mortalité.\nBien sûr la mort n’est pas la seule façon de sortir du circuit : il y a une possibilité de guérison ou rémission de la maladie en question. Ainsi pour être complet, on peut donc rajouter ce nouvel élément en le symbolisant par l’évaporation du volume d’eau présent dans la baignoire.\nL’image de la baignoire est plutôt bonne : c’est un circuit ouvert avec entrée et sortie. De ce fait, bien que le robinet sort constamment ouvert, la baignoire ne déborde jamais.\n\n4.3.2 Un exemple : l’infection à VIH\n\nLa baignoire ne déborde jamais, mais le niveau d’eau augmente petit à petit.\n\nQu’est-ce que ça signifie ?\nInfection à VIH, en représentant graphiquement incidence et prévalence.\n\n\n\n\n\n\n\n\nL’infection à VIH est pourvoyeuse du SIDA (Syndrome d’Immuno-Déficience Acquise), ayant pour caractéristique d’être une maladie donc on ne guérit pas.\nLes progrès de la médecine ont changé la donne en permettant une augmentation notable de l’espérance de vie, autrement dit en permettant aux gens de moins mourir de la maladie. Par conséquent on parle de maladie chronique.\nLa prévalence d’une maladie augmente avec le temps. L’incidence, quant à elle, ne suit pas cette tendance. Hors cas d’épidémie, les nouveaux cas apparaissent à vitesse faible et constante.\n\n4.3.3 Facteurs déterminants",
-    "crumbs": [
-      "Indicateurs de santé",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
-    ]
-  },
-  {
-    "objectID": "sources_base.html#certificat-de-décès",
-    "href": "sources_base.html#certificat-de-décès",
-    "title": "5  Recueils systématiques",
-    "section": "",
-    "text": "Déclaration de décès obligatoire pour toute personne présente sur le territoire national, dont enfants déclarés à l’état civil (Enfants mort-nés : bulletin d’enfant déclaré sans vie)\nLe certificat de décès est établi par le médecin qui constate le décès\n\n\n\nUne partie supérieure nominative, utilisée pour la déclaration à l’état civil, qui comprend:\n\nNom-prénom\ndomicile du décédé\ndate et heure de la mort\ndiverses opérations funéraires\n\nUne partie inférieure anonyme qui comprend:\n\nrenseignements médicaux\nnom de la commune où est survenu le décès\ndate de décès\n\n\n\n\n\nUtilisation pour la plupart des statistiques de mortalité en France\nSystème similaire dans la plupart des pays du monde\nIntérêts :\n\nFaire des comparaisons des taux de mortalité entre région\nFaire des comparaisons entre pays\n\nMais habitudes et qualité de remplissage des certificats peuvent changer d’un pays à l’autre -&gt; rester prudent",
-    "crumbs": [
-      "Sources des indicateurs",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
     ]
   }
 ]
