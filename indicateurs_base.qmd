@@ -1,5 +1,7 @@
 # Mesures de base
 
+### Qu'est-ce qu'un indicateur ? {.unnumbered}
+
 Un indicateur de santé est une variable que l'on mesure afin de mesurer l'état de santé d'une population 
 
 - Outil d'évaluation et d'aide à la décision 
@@ -14,32 +16,31 @@ sont à la base de 2 grandes catégories d'indicateurs de santé :
 - Les indicateurs de [morbidité]{.cb} (@sec-mrb) 
 
 
-## Proportion
+## Proportion {#sec-prop}
 
-Une [proportion]{.cb} (ou [fréquence]{.cb}) est un rapport dans lequel le numérateur est inclus dans le dénominateur. Il s'exprime en pourcentage ou en chiffre décimal compris entre 0 et 1.
+Une [proportion]{.cb} (ou [fréquence]{.cb}) est un rapport dans lequel le numérateur est inclus dans le dénominateur.
+
+Il s'exprime en pourcentage ou en chiffre décimal compris entre 0 et 1.
 
 ::: callout-tip
-## Exemple
+## En 2019, sur 750 000 enfants de 24 mois, 600 000 sont correctement vaccinés contre la rougeole
 
-En 2019, sur 750 000 enfants de 24 mois, 600 000 sont correctement vaccinés contre la rougeole.\
-La proportion correspondante est 600 000 / 750 000 = 0,8
-
+La proportion correspondante est 600 000 / 750 000 = 0.8\
 La couverture vaccinale contre la rougeole chez les enfants de 24 mois est de 80%.
 :::
 
-## Taux 
+## Taux {#sec-taux}
 
 Un taux est la probabilité de survenue d'un évènement au cours d'une période. Il s'exprime en pourcentage ou en chiffre décimal compris entre 0 et 1.
 
 Notion de temps et de risque
 
 $$
+\mathrm{
 \frac
-{Nombre \space de \space changement \space d'état 
-\space pendant \space une \space durée \space T}
-{Nombre \space de \space sujet \space à \space risque
-\space de \space changement \space d'état \space pendant 
-\space cette \space durée \space T}
+{Nombre \ de \ changement \ d'état \ pendant \ une \ durée \ T}
+{Nombre \ de \ sujet \ à \ risque \ de \ changement \ d'état \ pendant \ cette \ durée \ T}
+}
 $$
 
 ::: callout-tip
@@ -51,21 +52,17 @@ taux de mortalité, taux d'incidence
 
 ## Ratio 
 
-Un ratio est un rapport des effectifs entre [deux modalités d'une même variable]{.cb}.
+Un ratio est un rapport des effectifs entre [deux modalités d'une variable binaire]{.cb}.
 
 Ces modalités sont mutuellement exclusives : contrairement à une proportion, le numérateur ne peut pas être inclus dans le dénominateur (et inversement).
 
 C'est un rapport [sans unité]{.cb}.
 
 ::: callout-tip
-## Exemple : le sex ratio
+## En admettant que le sexe est une variable binaire (homme/femme), le "sex ratio" correspond au rapport du nombre d'hommes sur le nombre de femmes (ou inversement)
 
-Si on considère que le sexe est une variable à deux modalités, homme et femme, alors le "sex ratio" correspond au nombre d'hommes sur le nombre de femmes (ou inversement).
-
-Le sex ratio du diabète de type II est 3 hommes pour 1 femme (3:1) : cette maladie concerne 3 fois plus souvent les hommes que les femmes.
-
-Le sex ratio de l'anorexie mentale est 1:9 : cette maladie concerne 9 fois plus souvent les femmes que les hommes.
-
+- Le sex ratio du diabète de type II est de 3 hommes pour 1 femme (3:1) : cette maladie concerne 3 fois plus souvent les hommes que les femmes.
+- Le sex ratio de l'anorexie mentale est 1:9 : cette maladie concerne 9 fois plus souvent les femmes que les hommes.
 :::
 
 ::: callout-tip
@@ -78,12 +75,14 @@ Le sex ratio de l'anorexie mentale est 1:9 : cette maladie concerne 9 fois plus 
 Un indice est le rapport des effectifs de [2 variables différentes]{.cb}.
 
 ::: callout-tip
-## Exemple
+## 30 enfants sont hospitalisés dans un service de pédiatrie. Dans ce service il y a 3 IDE.
 
-30 enfants sont hospitalisés dans un service de pédiatrie.\
-Dans ce service il y a 3 IDE.
+Il y a ici 2 variables différentes :
 
-L'indice correspondant est 30/3, soit 10/1 : il y a 10 enfants par IDE.
+- Le nombre d'enfants
+- Le
+
+L'indice correspondant est 30/3, ou 10/1 : il y a 10 enfants par IDE.
 :::
 
 ## Proportion? Taux? Ratio? Indice?
@@ -103,20 +102,17 @@ L'indice correspondant est 30/3, soit 10/1 : il y a 10 enfants par IDE.
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-
 ## Nombre de fumeurs / Nombre de non fumeurs
 
 [Ratio]{.cb}
 
-- Une seule variable : le statut fumeur/non fumeur
-- Variable à 2 modalités : fumeur, non fumeur
+- Une seule variable : le statut tabagique
+- Variable binaire : fumeur / non fumeur
 
-**C'est un rapport entre 2 modalités d'une même variable**
-
+**C'est un rapport entre les deux modalités d'une variable binaire**
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-
 ## Consommation de cigarettes par habitant 
 
 [Indice]{.cb}
@@ -126,11 +122,9 @@ L'indice correspondant est 30/3, soit 10/1 : il y a 10 enfants par IDE.
   - Nombre d'habitants
   
 **C'est un rapport entre 2 effectifs différents**
-
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-
 ## Nombre de décès sur une période / effectif à risque de décès sur cette période
 
 [Taux]{.cb}
@@ -170,32 +164,36 @@ L'indice correspondant est 30/3, soit 10/1 : il y a 10 enfants par IDE.
 
 Pour être de qualité, un indicateur de santé doit être :
 
-- [Simple et acceptable]{.cb} : facilement utilisable par les chercheurs, facilement compréhensible par les professionnels de la santé et les usagers.
+#### Simple et acceptable {.unnumbered}
+
+Facilement utilisable par les chercheurs, facilement compréhensible par les professionnels et les usagers.
 
 ::: callout-tip
 ## Exemple
 *Le taux de mortalité infantile est une mesure simple et consensuelle du nombre d'enfants décédés entre la naissance et 12 mois, sur le nombre total de naissances vivantes dans une population donnée.*
 :::
 
-- [Valide]{.cb} : la mesure a t-elle du sens, est-elle raccord à la réalité ?
+#### Valide {.unnumbered}
+
+La mesure a t-elle du sens, est-elle raccord à la réalité ?
 
 ::: callout-tip
 ## Exemple
-
 La MAPA (mesure autonome de la pression artérielle)
-
 :::
 
-- [Fiable]{.cb} : si la mesure est répétée dans des conditions similaires, elle doit produire des résultats similaires. 
+#### Fiable {.unnumbered}
+
+Si la mesure est répétée dans des conditions similaires, elle doit produire des résultats similaires. 
 
 ::: callout-tip
 ## Exemple
-
 La MAPA est également une mesure fiable, si on considère , (le matin à domicile)
-
 :::
 
-- [Sensible]{.cb} : la mesure détecte des petites changements dans le processus étudié.
+#### Sensible {.unnumbered}
+
+La mesure détecte des petites changements dans le processus étudié.
 
 ::: callout-tip
 ## Exemple
@@ -203,7 +201,9 @@ La MAPA est également une mesure fiable, si on considère , (le matin à domici
 *Un test de dépistage du cancer du sein doit être suffisamment sensible pour détecter une tumeur à un stade précoce, lorsque le traitement est le plus efficace.*
 :::
 
-- [Spécifique]{.cb} : la mesure est détecte uniquement le processus étudié
+#### Spécifique {.unnumbered}
+
+La mesure détecte uniquement le processus étudié
 
 ::: callout-tip
 ## Exemple

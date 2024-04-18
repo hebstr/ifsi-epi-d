@@ -2,11 +2,14 @@
 
 Le terme de [morbidité]{.cb} est relatif au fait d'être [atteint d'une maladie]{.cb}.
 
-Il existe en pratique deux indicateurs de morbidité : l'[incidence]{.cb} et la [prévalence]{.cb}.
+Il existe en pratique deux indicateurs de morbidité :
+
+- L'[incidence]{.cb}
+- La [prévalence]{.cb}
 
 Problèmes de la mesure de la morbidité 
 
-- Qu’est-ce qu’une maladie? Quelle définition adopter? 
+- Qu'est-ce qu'une maladie? Quelle définition adopter? 
 - Quand commence une maladie? (ex: maladie d’Alzheimer) 
 - Quand finit une maladie? 
 - Comment mesurer cette morbidité? En interrogeant l’individu? Son médecin? En mesurant un paramètre?
@@ -25,34 +28,58 @@ img hta
 
 ## Incidence
 
-L'incidence est un [taux de morbidité]{.cb}. Le terme d'incidence est d'ailleurs synonyme en pratique de [taux d'incidence]{.cb}.
+L'incidence est un [taux]{.cb} (@sec-taux). Le terme d'incidence est par ailleurs synonyme en pratique de [taux d'incidence]{.cb}.
 
-Il s'agit simplement d'un taux appliqué à [l'apparition de nouveaux cas]{.cb} d'une maladie au sein d'une population.
+Il s'agit d'un taux appliqué à [l'apparition de nouveaux cas]{.cb} d'une maladie dans une population.
 
-FORMULE
+$$
+\mathrm{
+\frac
+{Nombre \ de \ nouveaux \ cas \ apparus \ pendant \ une \ durée \ T}
+{Nombre \ de \ personnes-temps \ à \ risque \ pendant \ cette \ durée \ T}
+}
+$$
 
-Du fait qu'il s'agisse d'une mesure sur une période donnée, elle est qualifiée de mesure [longitudinale]{.cb} (*"en longueur"*, *"sur la durée"*). 
+::: callout-note
+## Personnes-temps ?
 
-L'incidence étant par définition un taux, elle peut-être vue comme une [vitesse d’apparition de nouveaux cas]{.cb} d’une maladie dans une population, [sur une période donnée]{.cb}.
+
+
+:::
+
+
+Puisqu'il s'agit d'une mesure prise sur une période, elle est qualifiée de mesure [longitudinale]{.cb} (*en longueur*, *d'un point A à un point B*).
+
+L'incidence reflète la [vitesse d'apparition de nouveaux cas]{.cb} d'une maladie dans une population.
 
 
 ## Prévalence
 
-La [prévalence]{.cb} est la [proportion]{.cb} d'individus atteints d'une maladie dans une population à un instant donné. 
+La [prévalence]{.cb} est une [proportion]{.cb} (@sec-prop).
 
-FORMULE
+C'est la [proportion]{.cb} d'individus atteints d'une maladie, [à un instant donné]{.cb}, dans une population.
 
-Du fait qu'il s'agisse d'une mesure ponctuelle, à un instant donné, elle est qualifiée de mesure [transversale]{.cb} (*"une photographie"*), en opposition donc à longitudinale.
+$$
+\mathrm{
+\frac
+{Nombre \ de \ cas \ d'une \ maladie}
+{Ensemble \ de \ la \ population}
+}
+$$
+
+
+
+Du fait qu'il s'agisse d'une mesure ponctuelle, elle est qualifiée de mesure [transversale]{.cb} (*à un instant T*, *une photographie*), en opposition à longitudinale.
 
 Pour qu'une proportion d'individus malades se constitue au sein d'une population, il faut bien sûr que de nouveaux cas de cette maladie soient apparus en amont.
-Autrement dit, la prévalence est [dépendante de l’incidence]{.cb}. 
+Autrement dit, la prévalence est [dépendante de l'incidence]{.cb}. 
 
-Elle dépend également de la [durée d’évolution]{.cb} de la maladie : plus celle-ci augmente, plus la prévalence augmente. 
+Elle dépend également de la [durée d'évolution]{.cb} de la maladie : plus celle-ci augmente, plus la prévalence augmente. 
 
 
 ## Incidence vs prévalence
 
-### Une analogie : la baignoire de l'épidémiologiste
+### Analogie : la baignoire de l'épidémiologiste
 
 La baignoire de l'épidémiologiste.
 
@@ -72,12 +99,19 @@ Le débit d'eau entrant représente les nouveaux cas de malades : c'est l'[incid
 
 L'évacuation représente les individus sortant de la population de malades : c'est la [mortalité]{.cb}.
 
-Bien sûr la mort n'est pas la seule façon de sortir du circuit : il y a une possibilité de [guérison ou rémission]{.cb} de la maladie en question.
-Ainsi pour être complet, on peut donc rajouter ce nouvel élément en le symbolisant par l'évaporation du volume d'eau présent dans la baignoire.
+La mort n'est pas la seule manière de ne plus être malade : il y a une possibilité de [guérison/rémission]{.cb} de la maladie en question.
+On peut symboliser ce dernier élément par l'évaporation.
+
+```{r}
+#| out-width: 6in
+#| fig-align: center
+
+knitr::include_graphics("img/bath.png")
+```
 
 L'image de la baignoire est plutôt bonne : c'est un circuit ouvert avec entrée et sortie. De ce fait, bien que le robinet sort constamment ouvert, la baignoire ne déborde jamais.
 
-### Un exemple : l'infection à VIH
+### Exemple : l'infection à VIH
 
 > *La baignoire ne déborde jamais, mais le niveau d'eau augmente petit à petit.*
 
@@ -96,8 +130,9 @@ L'infection à VIH est pourvoyeuse du **SIDA** (**S**yndrome d'**I**mmuno-**D**�
 
 Les progrès de la médecine ont changé la donne en permettant une augmentation notable de l'espérance de vie, autrement dit en permettant aux gens de moins mourir de la maladie. Par conséquent on parle de maladie [chronique]{.cb}.
 
-La prévalence d'une maladie augmente avec le temps.
-L'incidence, quant à elle, ne suit pas cette tendance. Hors cas d'épidémie, les nouveaux cas apparaissent à vitesse faible et constante.
+La prévalence d'une maladie a tendance à augmenter avec le temps, à l'image d'une baignoire qui se remplirait d'eau.
+
+L'incidence ne suit pas cette tendance. Hors situation d'épidémie, les nouveaux cas d'une maladie apparaissent à une vitesse modérée et constante, à l'image d'un robinet qu'on aurait laissé ouvert.
 
 
 ### Facteurs déterminants
@@ -113,3 +148,4 @@ knitr::include_graphics("img/tbl-mrb.png")
 
 - [Bien différencier incidence et prévalence (penser à la baignoire !)]{.cb}
 - [Comprendre l'évolution de l'incidence et de la prévalence]{.cb}
+- La prévalence est dépendante de l'incidence

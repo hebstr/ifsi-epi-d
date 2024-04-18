@@ -19,14 +19,14 @@ L'épidémiologie est composée de trois concepts : au-dessus/parmi (*epi*), peu
 
 et était historiquement réservée à l'étude des maladies infectieuses (épidémies).
 
-Actuellement, l’épidémiologie étudie en pratique :
+Actuellement, l'épidémiologie étudie en pratique :
 
 - La [distribution]{.cb} d'un phénomène de santé dans une population humaine 
 - Et les [déterminants]{.cb} de cette distribution (facteurs délétères, facteurs protecteurs)
 
 ::: callout-note
 ## Phénomène de santé ?
-Un phénomène de santé, ou état de santé, fait référence à [tout évènement]{.cb} relatif à santé d'une personne ou d'une population. Il n'est donc [pas toujours synonyme de maladie]{.cb} : il peut s'agir d'un symptôme, de la mortalité, mais aussi de facteurs comportementaux (consommation de tabac, pratique d'activité physique, etc.) ou socio-économiques.
+Un phénomène de santé, ou état de santé, fait référence à [tout évènement]{.cb} relatif à santé d'une personne ou d'une population. Il n'est donc [pas focrément synonyme de maladie]{.cb} : il peut s'agir d'un symptôme, de la mortalité, mais aussi de facteurs comportementaux (consommation de tabac, pratique d'activité physique, etc.) ou socio-économiques.
 :::
 
 ## Pour quoi ?
