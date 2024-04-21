@@ -31,7 +31,7 @@ Retrouvé lors de la constitution :
     
 **La sélection n'engendre pas systématiquement un biais**
 
-::: callout-note
+::: callout-tip
 ## Exemple
 Sélection sur liste électorale vs annuaire
 :::
@@ -55,9 +55,8 @@ Mesure précise de la maladie (ou exposition) étudiée :
 - Ils sont particulièrement redoutés en épidémiologie analytique
 - En épidémiologie descriptive, peuvent intervenir lorsqu'on compare les taux provenant de plusieurs populations différentes
 
-::: callout-note
-## Exemple
-Comparer les taux bruts de mortalité de la région Nord-Pas-de-Calais (région jeune) à ceux de la région Limousin (région âgée)
+::: callout-tip
+## Comparer les taux bruts de mortalité de la région Nord-Pas-de-Calais (région jeune) à ceux de la région Limousin (région âgée)
 :::
 
 ## En bref

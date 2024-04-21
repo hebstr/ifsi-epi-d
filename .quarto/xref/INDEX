@@ -40,5 +40,26 @@
   },
   "biais.qmd": {
     "biais.html": "141790fc"
+  },
+  "sources_spe.qmd": {
+    "sources_spe.html": "dd5d9821"
+  },
+  "erreur_fluct.qmd": {
+    "erreur_fluct.html": "e9f82d70"
+  },
+  "indic_base.qmd": {
+    "indic_base.html": "90de1e14"
+  },
+  "indic_mort.qmd": {
+    "indic_mort.html": "c3ead28e"
+  },
+  "indic_morbi.qmd": {
+    "indic_morbi.html": "e6fe9de6"
+  },
+  "erreur_biais.qmd": {
+    "erreur_biais.html": "e830da2d"
+  },
+  "erreur_def.qmd": {
+    "erreur_def.html": "7877eb5b"
   }
 }

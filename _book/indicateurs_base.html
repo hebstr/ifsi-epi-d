@@ -69,6 +69,17 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Recherche"
   }
 }</script>
+<script type="application/json" class="js-hypothesis-config">
+{
+  "openSidebar": false
+}
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -245,8 +256,9 @@ window.Quarto = {
   <li><a href="#ratio" id="toc-ratio" class="nav-link" data-scroll-target="#ratio"><span class="header-section-number">2.3</span> Ratio</a></li>
   <li><a href="#indice" id="toc-indice" class="nav-link" data-scroll-target="#indice"><span class="header-section-number">2.4</span> Indice</a></li>
   <li><a href="#proportion-taux-ratio-indice" id="toc-proportion-taux-ratio-indice" class="nav-link" data-scroll-target="#proportion-taux-ratio-indice"><span class="header-section-number">2.5</span> Proportion? Taux? Ratio? Indice?</a></li>
-  <li><a href="#en-bref" id="toc-en-bref" class="nav-link" data-scroll-target="#en-bref"><span class="header-section-number">2.6</span> En bref</a></li>
-  <li><a href="#ce-quil-faut-retenir" id="toc-ce-quil-faut-retenir" class="nav-link" data-scroll-target="#ce-quil-faut-retenir"><span class="header-section-number">2.7</span> Ce qu’il faut retenir</a></li>
+  <li><a href="#critères-de-qualité-dun-indicateur" id="toc-critères-de-qualité-dun-indicateur" class="nav-link" data-scroll-target="#critères-de-qualité-dun-indicateur"><span class="header-section-number">2.6</span> Critères de qualité d’un indicateur</a></li>
+  <li><a href="#fiabilité-vs-validité" id="toc-fiabilité-vs-validité" class="nav-link" data-scroll-target="#fiabilité-vs-validité"><span class="header-section-number">2.7</span> Fiabilité vs validité</a></li>
+  <li><a href="#ce-quil-faut-retenir" id="toc-ce-quil-faut-retenir" class="nav-link" data-scroll-target="#ce-quil-faut-retenir"><span class="header-section-number">2.8</span> Ce qu’il faut retenir</a></li>
   </ul>
 </nav>
     </div>
@@ -297,24 +309,24 @@ window.Quarto = {
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-En 2019, sur 750 000 enfants de 24 mois, 600 000 sont correctement vaccinés contre la rougeole
+En 2023, sur 750 000 enfants de 24 mois, 600 000 sont correctement vaccinés contre la rougeole.
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>La proportion correspondante est 600 000 / 750 000 = 0.8<br>
+<p>La proportion correspondante est <span class="math inline">\(\frac{600 \ 000}{750 \ 000} = 0.8\)</span><br>
 La couverture vaccinale contre la rougeole chez les enfants de 24 mois est de 80%.</p>
 </div>
 </div>
 </section>
 <section id="sec-taux" class="level2" data-number="2.2">
 <h2 data-number="2.2" class="anchored" data-anchor-id="sec-taux"><span class="header-section-number">2.2</span> Taux</h2>
-<p>Un taux est la probabilité de survenue d’un évènement au cours d’une période. Il s’exprime en pourcentage ou en chiffre décimal compris entre 0 et 1.</p>
+<p>Un taux est le risque de survenue d’un évènement au cours d’une période. Il s’exprime en pourcentage ou en chiffre compris entre 0 et 1.</p>
 <p>Notion de temps et de risque</p>
 <p><span class="math display">\[
 \mathrm{
 \frac
-{Nombre \ de \ changement \ d'état \ pendant \ une \ durée \ T}
-{Nombre \ de \ sujet \ à \ risque \ de \ changement \ d'état \ pendant \ cette \ durée \ T}
+{Nombre \ d'évènements \ pendant \ une \ durée \ T}
+{Nombre \ de \ sujet \ à \ risque \ de \ faire \ l'évènement \ pendant \ cette \ durée \ T}
 }
 \]</span></p>
 <div class="callout callout-style-simple callout-tip callout-titled">
@@ -323,11 +335,11 @@ La couverture vaccinale contre la rougeole chez les enfants de 24 mois est de 80
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exemple
+Dans une maternelle, sur 200 enfants n’ayant jamais eu la varicelle et non vaccinés, il y a eu 72 nouveaux cas durant l’année scolaire 2021-2022.
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>taux de mortalité, taux d’incidence</p>
+
 </div>
 </div>
 </section>
@@ -352,46 +364,33 @@ En admettant que le sexe est une variable binaire (homme/femme), le “sex ratio
 </ul>
 </div>
 </div>
-<div class="callout callout-style-simple callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Exemple
-</div>
-</div>
-<div class="callout-body-container callout-body">
-
-</div>
-</div>
 </section>
 <section id="indice" class="level2" data-number="2.4">
 <h2 data-number="2.4" class="anchored" data-anchor-id="indice"><span class="header-section-number">2.4</span> Indice</h2>
-<p>Un indice est le rapport des effectifs de <span class="cb">2 variables différentes</span>.</p>
+<p>Un indice est le rapport entre deux effectifs de <span class="cb">nature différente</span>.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-30 enfants sont hospitalisés dans un service de pédiatrie. Dans ce service il y a 3 IDE.
+30 enfants sont hospitalisés dans un service de pédiatrie. Dans ce service, il y a 3 IDE.
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Il y a ici 2 variables différentes :</p>
+<p>Il y a ici deux effectifs de nature différente :</p>
 <ul>
 <li>Le nombre d’enfants</li>
-<li>Le</li>
+<li>Le nombre d’IDE</li>
 </ul>
-<p>L’indice correspondant est 30/3, ou 10/1 : il y a 10 enfants par IDE.</p>
+<p>L’indice correspondant est 30 pour 3, ou 10 pour 1 : il y a 10 enfants par IDE.</p>
 </div>
 </div>
 </section>
 <section id="proportion-taux-ratio-indice" class="level2" data-number="2.5">
 <h2 data-number="2.5" class="anchored" data-anchor-id="proportion-taux-ratio-indice"><span class="header-section-number">2.5</span> Proportion? Taux? Ratio? Indice?</h2>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -400,7 +399,7 @@ Nombre de cancers cutanés / nombre de cancers
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><span class="cb">Proportion</span></p>
 <ul>
@@ -413,7 +412,7 @@ Nombre de cancers cutanés / nombre de cancers
 </div>
 </div>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -422,7 +421,7 @@ Nombre de fumeurs / Nombre de non fumeurs
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-7" class="callout-7-contents callout-collapse collapse">
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><span class="cb">Ratio</span></p>
 <ul>
@@ -434,7 +433,7 @@ Nombre de fumeurs / Nombre de non fumeurs
 </div>
 </div>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -443,7 +442,7 @@ Consommation de cigarettes par habitant
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-8" class="callout-8-contents callout-collapse collapse">
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><span class="cb">Indice</span></p>
 <ul>
@@ -458,16 +457,16 @@ Consommation de cigarettes par habitant
 </div>
 </div>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Nombre de décès sur une période / effectif à risque de décès sur cette période
+Nombre de décès sur une période / nombre de personnes à risque de décès sur cette période
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><span class="cb">Taux</span></p>
 <p>(la baignoire !)</p>
@@ -475,7 +474,7 @@ Nombre de décès sur une période / effectif à risque de décès sur cette pé
 </div>
 </div>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -484,7 +483,7 @@ Nombre d’hypertendus en 1975 / nombre d’hypertendus en 1994
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div id="callout-9" class="callout-9-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><span class="cb">Indice</span></p>
 <ul>
@@ -499,7 +498,7 @@ Nombre d’hypertendus en 1975 / nombre d’hypertendus en 1994
 </div>
 </div>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -508,7 +507,7 @@ Nombre d’amputés du bras / nombre d’amputés
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-11" class="callout-11-contents callout-collapse collapse">
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><span class="cb">Proportion</span></p>
 <ul>
@@ -521,8 +520,8 @@ Nombre d’amputés du bras / nombre d’amputés
 </div>
 </div>
 </section>
-<section id="en-bref" class="level2" data-number="2.6">
-<h2 data-number="2.6" class="anchored" data-anchor-id="en-bref"><span class="header-section-number">2.6</span> En bref</h2>
+<section id="critères-de-qualité-dun-indicateur" class="level2" data-number="2.6">
+<h2 data-number="2.6" class="anchored" data-anchor-id="critères-de-qualité-dun-indicateur"><span class="header-section-number">2.6</span> Critères de qualité d’un indicateur</h2>
 <p>Pour être de qualité, un indicateur de santé doit être :</p>
 <section id="simple-et-acceptable" class="level4 unnumbered">
 <h4 class="unnumbered anchored" data-anchor-id="simple-et-acceptable">Simple et acceptable</h4>
@@ -533,11 +532,11 @@ Nombre d’amputés du bras / nombre d’amputés
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exemple
+Le taux de mortalité infantile est une mesure simple et consensuelle du nombre d’enfants décédés entre la naissance et 12 mois, sur le nombre total de naissances vivantes dans une population donnée.
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><em>Le taux de mortalité infantile est une mesure simple et consensuelle du nombre d’enfants décédés entre la naissance et 12 mois, sur le nombre total de naissances vivantes dans une population donnée.</em></p>
+
 </div>
 </div>
 </section>
@@ -550,11 +549,11 @@ Exemple
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exemple
+La mesure autonome de la pression artérielle (MAPA)
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>La MAPA (mesure autonome de la pression artérielle)</p>
+
 </div>
 </div>
 </section>
@@ -567,11 +566,11 @@ Exemple
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exemple
+La MAPA est également une mesure fiable, si on considère , (le matin à domicile)
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>La MAPA est également une mesure fiable, si on considère , (le matin à domicile)</p>
+
 </div>
 </div>
 </section>
@@ -584,11 +583,11 @@ Exemple
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exemple
+Un test de dépistage du cancer du sein doit être suffisamment sensible pour détecter une tumeur à un stade précoce, lorsque le traitement est le plus efficace.
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><em>Un test de dépistage du cancer du sein doit être suffisamment sensible pour détecter une tumeur à un stade précoce, lorsque le traitement est le plus efficace.</em></p>
+
 </div>
 </div>
 </section>
@@ -601,30 +600,22 @@ Exemple
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exemple
+Un test de dépistage du VIH doit être spécifique à l’infection à VIH et ne pas donner de résultats positifs pour d’autres infections virales.
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><em>Un test de dépistage du VIH doit être spécifique à l’infection à VIH et ne pas donner de résultats positifs pour d’autres infections virales.</em></p>
-</div>
-</div>
-<div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Exemple
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>La validité est a rapprocher d’exactitude La fiabilité est a rapprocher de précision</p>
+
 </div>
 </div>
 </section>
 </section>
-<section id="ce-quil-faut-retenir" class="level2" data-number="2.7">
-<h2 data-number="2.7" class="anchored" data-anchor-id="ce-quil-faut-retenir"><span class="header-section-number">2.7</span> Ce qu’il faut retenir</h2>
+<section id="fiabilité-vs-validité" class="level2" data-number="2.7">
+<h2 data-number="2.7" class="anchored" data-anchor-id="fiabilité-vs-validité"><span class="header-section-number">2.7</span> Fiabilité vs validité</h2>
+<p>La validité est synonyme d’exactitude</p>
+<p>La fiabilité est synonyme de précision</p>
+</section>
+<section id="ce-quil-faut-retenir" class="level2" data-number="2.8">
+<h2 data-number="2.8" class="anchored" data-anchor-id="ce-quil-faut-retenir"><span class="header-section-number">2.8</span> Ce qu’il faut retenir</h2>
 <ul>
 <li><span class="cb">Reconnaitre les indicateurs de base</span></li>
 <li><span class="cb">Distinguer fiabilité (précision) et validité (exactitude) : une mesure peut être fiable sans être valide !</span></li>

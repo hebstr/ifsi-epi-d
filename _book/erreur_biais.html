@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.4.537">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
 <meta name="description" content="| IFSI 1A - UE 1.2 Santé Publique">
-<title>Épidémiologie descriptive - 4&nbsp; Indicateurs de morbidité</title>
+
+<title>Épidémiologie descriptive - 10&nbsp; Biais</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +23,7 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
+
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
@@ -27,8 +31,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./sources_base.html" rel="next">
-<link href="./indicateurs_mrt.html" rel="prev">
+<link href="./erreur_fluct.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -38,9 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
+<script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
@@ -66,58 +67,45 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Envoyer",
     "search-label": "Recherche"
   }
-}</script><script type="application/json" class="js-hypothesis-config">
+}</script>
+<script type="application/json" class="js-hypothesis-config">
 {
   "openSidebar": false
 }
-</script><script async="" src="https://hypothes.is/embed.js"></script><script>
+</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
   window.document.addEventListener("DOMContentLoaded", function (_event) {
     document.body.classList.add('hypothesis-enabled');
   });
-</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
 </script>
+
+
 </head>
+
 <body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./indicateurs_base.html">Indicateurs de santé</a></li><li class="breadcrumb-item"><a href="./indicateurs_mrb.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Indicateurs de morbidité</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./erreur_def.html">Erreurs de mesure</a></li><li class="breadcrumb-item"><a href="./erreur_biais.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Biais</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
-  </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><div class="pt-lg-2 mt-2 text-left sidebar-header">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./"><strong>Épidémiologie descriptive</strong></a> 
     </div>
@@ -129,7 +117,7 @@ window.Quarto = {
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-<li class="sidebar-item">
+        <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction</span></a>
@@ -149,27 +137,27 @@ window.Quarto = {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">
-<li class="sidebar-item">
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./indicateurs_base.html" class="sidebar-item-text sidebar-link">
+  <a href="./indic_base.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Mesures de base</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./indicateurs_mrt.html" class="sidebar-item-text sidebar-link">
+  <a href="./indic_mort.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Indicateurs de mortalité</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./indicateurs_mrb.html" class="sidebar-item-text sidebar-link active">
+  <a href="./indic_morbi.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Indicateurs de morbidité</span></span></a>
   </div>
 </li>
       </ul>
-</li>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
@@ -178,8 +166,8 @@ window.Quarto = {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">
-<li class="sidebar-item">
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./sources_base.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Recueils systématiques</span></span></a>
@@ -198,7 +186,7 @@ window.Quarto = {
   </div>
 </li>
       </ul>
-</li>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
@@ -207,46 +195,50 @@ window.Quarto = {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">
-<li class="sidebar-item">
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./fluctuations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Fluctuations d'échantillonnage</span></span></a>
+  <a href="./erreur_def.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Définition de l'erreur</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./biais.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Biais</span></span></a>
+  <a href="./erreur_fluct.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Fluctuations d'échantillonnage</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./erreur_biais.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Biais</span></span></a>
   </div>
 </li>
       </ul>
-</li>
+  </li>
     </ul>
-</div>
-</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">Table des matières</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table des matières</h2>
    
   <ul>
-<li><a href="#sec-inc" id="toc-sec-inc" class="nav-link active" data-scroll-target="#sec-inc"><span class="header-section-number">4.1</span> Incidence</a></li>
-  <li><a href="#sec-prev" id="toc-sec-prev" class="nav-link" data-scroll-target="#sec-prev"><span class="header-section-number">4.2</span> Prévalence</a></li>
-  <li>
-<a href="#incidence-vs-pr%C3%A9valence" id="toc-incidence-vs-prévalence" class="nav-link" data-scroll-target="#incidence-vs-pr%C3%A9valence"><span class="header-section-number">4.3</span> Incidence vs prévalence</a>
-  <ul class="collapse">
-<li><a href="#analogie-la-baignoire-de-l%C3%A9pid%C3%A9miologiste" id="toc-analogie-la-baignoire-de-lépidémiologiste" class="nav-link" data-scroll-target="#analogie-la-baignoire-de-l%C3%A9pid%C3%A9miologiste"><span class="header-section-number">4.3.1</span> Analogie : la baignoire de l’épidémiologiste</a></li>
-  <li><a href="#exemple-linfection-%C3%A0-vih" id="toc-exemple-linfection-à-vih" class="nav-link" data-scroll-target="#exemple-linfection-%C3%A0-vih"><span class="header-section-number">4.3.2</span> Exemple : l’infection à VIH</a></li>
-  <li><a href="#facteurs-d%C3%A9terminants" id="toc-facteurs-déterminants" class="nav-link" data-scroll-target="#facteurs-d%C3%A9terminants"><span class="header-section-number">4.3.3</span> Facteurs déterminants</a></li>
+  <li><a href="#sec-biais-sel" id="toc-sec-biais-sel" class="nav-link active" data-scroll-target="#sec-biais-sel"><span class="header-section-number">10.1</span> Biais de sélection</a></li>
+  <li><a href="#biais-de-classement" id="toc-biais-de-classement" class="nav-link" data-scroll-target="#biais-de-classement"><span class="header-section-number">10.2</span> Biais de classement</a></li>
+  <li><a href="#sec-biais-conf" id="toc-sec-biais-conf" class="nav-link" data-scroll-target="#sec-biais-conf"><span class="header-section-number">10.3</span> Biais de confusion</a></li>
+  <li><a href="#en-bref" id="toc-en-bref" class="nav-link" data-scroll-target="#en-bref"><span class="header-section-number">10.4</span> En bref</a></li>
   </ul>
-</li>
-  <li><a href="#incidence-pr%C3%A9valence" id="toc-incidence-prévalence" class="nav-link" data-scroll-target="#incidence-pr%C3%A9valence"><span class="header-section-number">4.4</span> Incidence ? Prévalence ?</a></li>
-  <li><a href="#ce-quil-faut-retenir" id="toc-ce-quil-faut-retenir" class="nav-link" data-scroll-target="#ce-quil-faut-retenir"><span class="header-section-number">4.5</span> Ce qu’il faut retenir</a></li>
-  </ul></nav>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./indicateurs_base.html">Indicateurs de santé</a></li><li class="breadcrumb-item"><a href="./indicateurs_mrb.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Indicateurs de morbidité</span></a></li></ol></nav><div class="quarto-title">
-<h1 class="title"><span id="sec-mrb" class="quarto-section-identifier"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Indicateurs de morbidité</span></span></h1>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./erreur_def.html">Erreurs de mesure</a></li><li class="breadcrumb-item"><a href="./erreur_biais.html"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Biais</span></a></li></ol></nav>
+<div class="quarto-title">
+<h1 class="title"><span id="sec-biais" class="quarto-section-identifier"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Biais</span></span></h1>
 </div>
 
 
@@ -260,182 +252,101 @@ window.Quarto = {
   
 
 
-</header><p>La <span class="cb">morbidité</span> est relative au fait d’être <span class="cb">atteint d’une maladie</span>.</p>
-<div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Mesurer la morbidité : éléments philosophiques
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><em>La mesure de morbidité est un concept. Elle est un moyen de se représenter de manière simplifiée et tangible un phénomène de santé, qui lui est bien réel et complexe.</em></p>
-<p><em>La morbidité est multidimensionnelle (morbidité ressentie, diagnostiquée, objectivée, déclarée…). Quelle définition faut-il adopter ? Celle-ci peut varier selon les perspectives cliniques, épidémiologiques, voire même culturelles.</em></p>
-<p><em>Ainsi, comment mesurer la morbidité ? Par le biais de l’individu ? De son médecin ? D’un paramètre biologique ? Quand est-ce qu’elle commence et quand est-ce qu’elle finit ?</em></p>
-</div>
-</div>
-<p>Il existe en pratique deux indicateurs de morbidité : l’<span class="cb">incidence</span> et la <span class="cb">prévalence</span>.</p>
-<section id="sec-inc" class="level2" data-number="4.1"><h2 data-number="4.1" class="anchored" data-anchor-id="sec-inc">
-<span class="header-section-number">4.1</span> Incidence</h2>
-<p>L’incidence est un <span class="cb">taux</span> (<a href="indicateurs_base.html#sec-taux" class="quarto-xref"><span>Section 2.2</span></a>).</p>
-<p>Il s’agit d’un taux appliqué à <span class="cb">l’apparition de nouveaux cas</span> d’une maladie dans une population.</p>
-<p><span class="math display">\[
-\mathrm{
-\frac
-{Nombre \ de \ nouveaux \ cas \ survenus \ pendant \ une \ période}
-{Nombre \ de \ personnes \ à \ risque \ pendant \ cette \ période}
-}
-\]</span></p>
-<p>Puisqu’il s’agit d’une mesure prise sur une période, elle est qualifiée de mesure <span class="cb">longitudinale</span> (<em>en longueur</em>, <em>d’un point A à un point B</em>).</p>
-<p>L’incidence reflète la <span class="cb">vitesse</span> de survenue d’une maladie dans une population.</p>
-</section><section id="sec-prev" class="level2" data-number="4.2"><h2 data-number="4.2" class="anchored" data-anchor-id="sec-prev">
-<span class="header-section-number">4.2</span> Prévalence</h2>
-<p>La <span class="cb">prévalence</span> est une <span class="cb">proportion</span> (<a href="indicateurs_base.html#sec-prop" class="quarto-xref"><span>Section 2.1</span></a>).</p>
-<p>C’est la proportion de <span class="cb">personnes atteintes d’une maladie à un instant donné</span> dans la population.</p>
-<p><span class="math display">\[
-\mathrm{
-\frac
-{Nombre \ de \ cas \ observés}
-{Ensemble \ de \ la \ population}
-}
-\]</span></p>
+</header>
+
+
+<p>Erreur ou écart systématique présentant une direction privilégiée et prévisible</p>
+<p>Conséquences :</p>
+<ul>
+<li>Diminution de la puissance de l’étude</li>
+<li>Sous-estimation ou surestimation d’une association</li>
+</ul>
+<p>Il existe trois grandes catégories de biais :</p>
+<ul>
+<li>Biais de <span class="cb">sélection</span></li>
+<li>Biais de <span class="cb">classement</span></li>
+<li>Biais de <span class="cb">confusion</span></li>
+</ul>
+<section id="sec-biais-sel" class="level2" data-number="10.1">
+<h2 data-number="10.1" class="anchored" data-anchor-id="sec-biais-sel"><span class="header-section-number">10.1</span> Biais de sélection</h2>
+<p>Biais intervenant lors de la constitution de l’échantillon ou du suivi des sujets conduisant à ce que l’échantillon ne soit pas représentatif de la population cible</p>
+<p>Retrouvé lors de la constitution :</p>
+<ul>
+<li>De la population source</li>
+<li>De l’échantillon (nécessité de l’accord de participation)
+<ul>
+<li>A l’entrée dans l’étude (non répondant, refus)
+<ul>
+<li>Taux de participation</li>
+<li>= Comparaison, des sujets répondants vs non répondants</li>
+</ul></li>
+<li>Lors du suivi (cas d’une cohorte)
+<ul>
+<li>Taux d’attrition (perdus de vue)</li>
+<li>= Comparaison des caractéristiques PDV vs sujets suivis</li>
+</ul></li>
+</ul></li>
+</ul>
+<p><strong>La sélection n’engendre pas systématiquement un biais</strong></p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Lors d’une enquête nationale réalisée sur les 3000 femmes enceintes ayant accouché le 15/03/2024, 1150 ont été dépistées positives à la toxoplasmose.
+Exemple
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>La prévalence était de <span class="math inline">\(\frac{1150}{3000}\)</span> = 0,38<br>
-Le 15/03/2024, la prévalence de la toxoplasmose chez les femmes enceintes était de 38%.</p>
+<p>Sélection sur liste électorale vs annuaire</p>
 </div>
 </div>
-<p>Du fait qu’il s’agisse d’une mesure ponctuelle, elle est qualifiée de mesure <span class="cb">transversale</span> (<em>à un instant donné</em>, <em>une photographie</em>), en opposition à longitudinale.</p>
-<p>Pour qu’une proportion de personnes malades soit constituée au sein d’une population, il faut logiquement que de nouveaux cas soient apparus en amont. Autrement dit, la prévalence d’une maladie est <span class="cb">dépendante de son incidence</span>.</p>
-<p>La prévalence dépend également de la <span class="cb">durée d’évolution</span> de la maladie : plus celle-ci augmente, plus la prévalence augmente.</p>
-</section><section id="incidence-vs-prévalence" class="level2" data-number="4.3"><h2 data-number="4.3" class="anchored" data-anchor-id="incidence-vs-prévalence">
-<span class="header-section-number">4.3</span> Incidence vs prévalence</h2>
-<p>En clair :</p>
+</section>
+<section id="biais-de-classement" class="level2" data-number="10.2">
+<h2 data-number="10.2" class="anchored" data-anchor-id="biais-de-classement"><span class="header-section-number">10.2</span> Biais de classement</h2>
+<p>Erreur systématique dans la mesure de la maladie ou de l’exposition conduisant à mal classer les sujets en malades/non malades ou en exposés/non exposés intervenant au moment du recueil de données</p>
+<p>Mesure précise de la maladie (ou exposition) étudiée :</p>
 <ul>
-<li><dl>
-<dt>La prévalence est un indicateur statique</dt>
-<dd>
-Elle rend compte de la <span class="cb">fréquence</span> d’une maladie <span class="cb">à un instant donné</span>
-</dd>
-</dl></li>
-<li><dl>
-<dt>L’incidence est un indicateur dynamique</dt>
-<dd>
-Elle rend compte de la <span class="cb">vitesse</span> à laquelle une maladie survient <span class="cb">sur une période donnée</span>
-</dd>
-</dl></li>
+<li>Reposant, si possible, sur des méthodes objectives</li>
+<li>Examens objectifs</li>
+<li>Questionnaires standardisés et validés</li>
+<li>Procédures reproductibles</li>
 </ul>
-<section id="analogie-la-baignoire-de-lépidémiologiste" class="level3" data-number="4.3.1"><h3 data-number="4.3.1" class="anchored" data-anchor-id="analogie-la-baignoire-de-lépidémiologiste">
-<span class="header-section-number">4.3.1</span> Analogie : la baignoire de l’épidémiologiste</h3>
-<p>L’incidence, la prévalence et la relation qui existe entre elles peuvent être illustrées avec <span class="cb">la baignoire de l’épidémiologiste</span>.</p>
-<p>Cette allégories est constituée classiquement de 4 éléments :</p>
+</section>
+<section id="sec-biais-conf" class="level2" data-number="10.3">
+<h2 data-number="10.3" class="anchored" data-anchor-id="sec-biais-conf"><span class="header-section-number">10.3</span> Biais de confusion</h2>
 <ul>
-<li>Un robinet ouvert</li>
-<li>Un volume d’eau occupant la baignoire</li>
-<li>Une évacuation</li>
-<li>Une évaporation</li>
+<li>Ces biais vont être liés à l’intervention d’un ou de plusieurs tiers facteurs</li>
+<li>Ils sont particulièrement redoutés en épidémiologie analytique</li>
+<li>En épidémiologie descriptive, peuvent intervenir lorsqu’on compare les taux provenant de plusieurs populations différentes</li>
 </ul>
-<p>Le débit d’eau entrant représente les nouveaux cas de malades : c’est l’<span class="cb">incidence</span>.</p>
-<p>Le volume d’eau représente le proportion d’individus malades dans la population : c’est la <span class="cb">prévalence</span>.</p>
-<p>L’évacuation symbolise une proportion sortant de la population malade : c’est la <span class="cb">mortalité</span>.</p>
-<p>La mort n’est pas la seule manière de ne plus être malade : il y a aussi la possibilité d’une <span class="cb">guérison</span>. Ce 4e élément peut être symbolisé par l’évaporation.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="img/bath.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img/bath.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:6in"></a></p>
-</figure>
-</div>
-</div>
-</div>
-<p>En résumé, il s’agit d’un circuit ouvert avec :</p>
-<ul>
-<li>Un volume <span class="cb">entrant</span> : l’apparition de nouveaux cas = <span class="cb">incidence</span>
-</li>
-<li>Un volume <span class="cb">constitué</span> : le nombre de cas constitués = <span class="cb">prévalence</span>
-</li>
-<li>Un volume <span class="cb">sortant</span> : la <span class="cb">mort</span> ou la <span class="cb">guérison</span>
-</li>
-</ul>
-<p>Ainsi, bien que le robinet soit constamment ouvert, la baignoire ne déborde pas. En revanche, s’il y a une limite à la sortie, le volume d’eau aura tendance à augmenter avec le temps.</p>
-</section><section id="exemple-linfection-à-vih" class="level3" data-number="4.3.2"><h3 data-number="4.3.2" class="anchored" data-anchor-id="exemple-linfection-à-vih">
-<span class="header-section-number">4.3.2</span> Exemple : l’infection à VIH</h3>
-<p>L’incidence, la prévalence et leur dynamique peuvent être représentées graphiquement à travers l’exemple de l’infection à VIH.</p>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="img/vih.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="img/vih.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:5in"></a></p>
-</figure>
-</div>
-</div>
-</div>
-<p>L’infection à VIH est pourvoyeuse du SIDA, une maladie pour laquelle il n’y a pas de guérison.</p>
-<p>De plus les progrès de la médecine ont changé la donne en permettant une augmentation notable de l’espérance de vie, autrement dit en permettant aux gens de moins mourir de la maladie. C’est ainsi qu’on parle de <span class="cb">maladie chronique</span>.</p>
-<p>La prévalence d’une maladie a tendance à augmenter avec le temps, à l’image d’une baignoire qui se remplirait d’eau.</p>
-<p>L’incidence ne suit pas cette tendance. Hors situation d’épidémie, les nouveaux cas d’une maladie apparaissent à une vitesse modérée et constante, à l’image d’un robinet qu’on aurait laissé ouvert.</p>
-</section><section id="facteurs-déterminants" class="level3" data-number="4.3.3"><h3 data-number="4.3.3" class="anchored" data-anchor-id="facteurs-déterminants">
-<span class="header-section-number">4.3.3</span> Facteurs déterminants</h3>
-<div class="cell" data-layout-align="center">
-<div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="img/tbl-mrb.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="img/tbl-mrb.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:6in"></a></p>
-</figure>
-</div>
-</div>
-</div>
-</section></section><section id="incidence-prévalence" class="level2" data-number="4.4"><h2 data-number="4.4" class="anchored" data-anchor-id="incidence-prévalence">
-<span class="header-section-number">4.4</span> Incidence ? Prévalence ?</h2>
-<div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Sur les 30 derniers jours, 15 patients ont été hospitalisés en réanimation pour septicémie.
+Comparer les taux bruts de mortalité de la région Nord-Pas-de-Calais (région jeune) à ceux de la région Limousin (région âgée)
 </div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>Nombre de nouveaux cas sur une période donnée : c’est une <span class="cb">incidence</span></p>
+
 </div>
 </div>
-</div>
-<div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Au 01/01/2024, il y avait 5% de cas de cancer de la prostate chez les hommes habitant dans la région Hauts-de-France.
-</div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
-</div>
-<div id="callout-4" class="callout-4-contents callout-collapse collapse">
-<div class="callout-body-container callout-body">
-<p>Proportion à un instant donné : c’est une <span class="cb">prévalence</span></p>
-</div>
-</div>
-</div>
-</section><section id="ce-quil-faut-retenir" class="level2" data-number="4.5"><h2 data-number="4.5" class="anchored" data-anchor-id="ce-quil-faut-retenir">
-<span class="header-section-number">4.5</span> Ce qu’il faut retenir</h2>
+</section>
+<section id="en-bref" class="level2" data-number="10.4">
+<h2 data-number="10.4" class="anchored" data-anchor-id="en-bref"><span class="header-section-number">10.4</span> En bref</h2>
 <ul>
-<li><span class="cb">Bien différencier incidence et prévalence (penser à la baignoire !)</span></li>
-<li><span class="cb">Comprendre l’évolution de l’incidence et de la prévalence</span></li>
-<li>La prévalence est dépendante de l’incidence</li>
+<li>Erreurs systématiques (sous ou sur estimation)</li>
+<li>Ne sont pas modifiés par la taille de l’échantillon</li>
+<li>Ils peuvent être évités ou réduits et nécessitent donc une réflexion préalable</li>
 </ul>
 
 
-</section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -764,43 +675,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
 });
-</script><nav class="page-navigation"><div class="nav-page nav-page-previous">
-      <a href="./indicateurs_mrt.html" class="pagination-link  aria-label=" de="" mortalit="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Indicateurs de mortalité</span></span>
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./erreur_fluct.html" class="pagination-link  aria-label=" &lt;span="" d&#39;échantillonnage&lt;="" span&gt;"="">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Fluctuations d’échantillonnage</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./sources_base.html" class="pagination-link" aria-label="<span class='chapter-number'>5</span>&nbsp; <span class='chapter-title'>Recueils systématiques</span>">
-        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Recueils systématiques</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom"});
-window.onload = () => {
-  lightboxQuarto.on('slide_before_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    const href = trigger.getAttribute('href');
-    if (href !== null) {
-      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-      if (imgEl !== null) {
-        const srcAttr = imgEl.getAttribute("src");
-        if (srcAttr && srcAttr.startsWith("data:")) {
-          slideConfig.href = srcAttr;
-        }
-      }
-    } 
-  });
 
-  lightboxQuarto.on('slide_after_load', (data) => {
-    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-    if (window.Quarto?.typesetMath) {
-      window.Quarto.typesetMath(slideNode);
-    }
-  });
 
-};
-          </script>
 
 
 </body></html>

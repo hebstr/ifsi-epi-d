@@ -23,31 +23,28 @@ Une [proportion]{.cb} (ou [fréquence]{.cb}) est un rapport dans lequel le numé
 Il s'exprime en pourcentage ou en chiffre décimal compris entre 0 et 1.
 
 ::: callout-tip
-## En 2019, sur 750 000 enfants de 24 mois, 600 000 sont correctement vaccinés contre la rougeole
+## En 2023, sur 750 000 enfants de 24 mois, 600 000 sont correctement vaccinés contre la rougeole.
 
-La proportion correspondante est 600 000 / 750 000 = 0.8\
+La proportion correspondante est $\frac{600 \ 000}{750 \ 000} = 0.8$ \
 La couverture vaccinale contre la rougeole chez les enfants de 24 mois est de 80%.
 :::
 
 ## Taux {#sec-taux}
 
-Un taux est la probabilité de survenue d'un évènement au cours d'une période. Il s'exprime en pourcentage ou en chiffre décimal compris entre 0 et 1.
+Un taux est le risque de survenue d'un évènement au cours d'une période. Il s'exprime en pourcentage ou en chiffre compris entre 0 et 1.
 
 Notion de temps et de risque
 
 $$
 \mathrm{
 \frac
-{Nombre \ de \ changement \ d'état \ pendant \ une \ durée \ T}
-{Nombre \ de \ sujet \ à \ risque \ de \ changement \ d'état \ pendant \ cette \ durée \ T}
+{Nombre \ d'évènements \ pendant \ une \ durée \ T}
+{Nombre \ de \ sujet \ à \ risque \ de \ faire \ l'évènement \ pendant \ cette \ durée \ T}
 }
 $$
 
 ::: callout-tip
-## Exemple
-
-taux de mortalité, taux d'incidence
-
+## Dans une maternelle, sur 200 enfants n'ayant jamais eu la varicelle et non vaccinés, il y a eu 72 nouveaux cas durant l'année scolaire 2021-2022.
 :::
 
 ## Ratio 
@@ -65,24 +62,20 @@ C'est un rapport [sans unité]{.cb}.
 - Le sex ratio de l'anorexie mentale est 1:9 : cette maladie concerne 9 fois plus souvent les femmes que les hommes.
 :::
 
-::: callout-tip
-## Exemple
-
-:::
 
 ## Indice
 
-Un indice est le rapport des effectifs de [2 variables différentes]{.cb}.
+Un indice est le rapport entre deux effectifs de [nature différente]{.cb}.
 
 ::: callout-tip
-## 30 enfants sont hospitalisés dans un service de pédiatrie. Dans ce service il y a 3 IDE.
+## 30 enfants sont hospitalisés dans un service de pédiatrie. Dans ce service, il y a 3 IDE.
 
-Il y a ici 2 variables différentes :
+Il y a ici deux effectifs de nature différente :
 
 - Le nombre d'enfants
-- Le
+- Le nombre d'IDE
 
-L'indice correspondant est 30/3, ou 10/1 : il y a 10 enfants par IDE.
+L'indice correspondant est 30 pour 3, ou 10 pour 1 : il y a 10 enfants par IDE.
 :::
 
 ## Proportion? Taux? Ratio? Indice?
@@ -125,7 +118,7 @@ L'indice correspondant est 30/3, ou 10/1 : il y a 10 enfants par IDE.
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-## Nombre de décès sur une période / effectif à risque de décès sur cette période
+## Nombre de décès sur une période / nombre de personnes à risque de décès sur cette période
 
 [Taux]{.cb}
 
@@ -160,26 +153,26 @@ L'indice correspondant est 30/3, ou 10/1 : il y a 10 enfants par IDE.
 :::
 
 
-## En bref
+## Critères de qualité d'un indicateur
 
 Pour être de qualité, un indicateur de santé doit être :
+
 
 #### Simple et acceptable {.unnumbered}
 
 Facilement utilisable par les chercheurs, facilement compréhensible par les professionnels et les usagers.
 
 ::: callout-tip
-## Exemple
-*Le taux de mortalité infantile est une mesure simple et consensuelle du nombre d'enfants décédés entre la naissance et 12 mois, sur le nombre total de naissances vivantes dans une population donnée.*
+## Le taux de mortalité infantile est une mesure simple et consensuelle du nombre d'enfants décédés entre la naissance et 12 mois, sur le nombre total de naissances vivantes dans une population donnée.
 :::
+
 
 #### Valide {.unnumbered}
 
 La mesure a t-elle du sens, est-elle raccord à la réalité ?
 
 ::: callout-tip
-## Exemple
-La MAPA (mesure autonome de la pression artérielle)
+## La mesure autonome de la pression artérielle (MAPA)
 :::
 
 #### Fiable {.unnumbered}
@@ -187,8 +180,7 @@ La MAPA (mesure autonome de la pression artérielle)
 Si la mesure est répétée dans des conditions similaires, elle doit produire des résultats similaires. 
 
 ::: callout-tip
-## Exemple
-La MAPA est également une mesure fiable, si on considère , (le matin à domicile)
+## La MAPA est également une mesure fiable, si on considère , (le matin à domicile)
 :::
 
 #### Sensible {.unnumbered}
@@ -196,9 +188,7 @@ La MAPA est également une mesure fiable, si on considère , (le matin à domici
 La mesure détecte des petites changements dans le processus étudié.
 
 ::: callout-tip
-## Exemple
-
-*Un test de dépistage du cancer du sein doit être suffisamment sensible pour détecter une tumeur à un stade précoce, lorsque le traitement est le plus efficace.*
+## Un test de dépistage du cancer du sein doit être suffisamment sensible pour détecter une tumeur à un stade précoce, lorsque le traitement est le plus efficace.
 :::
 
 #### Spécifique {.unnumbered}
@@ -206,18 +196,19 @@ La mesure détecte des petites changements dans le processus étudié.
 La mesure détecte uniquement le processus étudié
 
 ::: callout-tip
-## Exemple
-
-*Un test de dépistage du VIH doit être spécifique à l'infection à VIH et ne pas donner de résultats positifs pour d'autres infections virales.*
+## Un test de dépistage du VIH doit être spécifique à l'infection à VIH et ne pas donner de résultats positifs pour d'autres infections virales.
 :::
 
 
-::: callout-note
-## Exemple
+## Fiabilité vs validité {#sec-temp}
 
-La validité est a rapprocher d'exactitude
-La fiabilité est a rapprocher de précision
+La validité est synonyme d'exactitude
 
+La fiabilité est synonyme de précision
+
+
+::: callout-tip
+## exemple température, partie 1
 
 :::
 

@@ -1,0 +1,34 @@
+# Définition de l'erreur
+
+La "vraie" valeur d'un indicateur est estimée par la mesure que l'on fait de cet indicateur.
+
+On attend notamment de cette mesure :
+
+1. Qu'elle fournisse la même valeur lorsqu'on la reproduit : sa [fiabilité]{.cb}
+2. Qu'elle corresponde bien à la "vraie" valeur : sa [validité]{.cb}
+
+Une mesure peut parfois s'écarter de la "vraie" valeur, à laquelle nous n'avons pas accès : c'est ce qu'on peut appeler une [erreur de mesure]{.cb}.
+
+Une erreur peut se produire par deux mécanismes, illustrés avec l'exemple suivant.
+
+::: callout-tip
+## exemple température, partie 2 (@sec-temp)
+
+L'erreur de calibrage de l'appareil, aboutissant à une surestimation de la température de 1°C, est une erreur [prévisible]{.cb}. Elle se produit à chaque mesure, [toujours dans le même sens]{.cb}. On peut dire de l'appareil qu'il est [biaisé]{.cb}.
+
+D'autre part, 
+
+:::
+
+En résumé, on retrouve donc 2 grands types d'erreurs :
+
+- La [fluctuation d'échantillonnage]{.cb} : une erreur imprévisible, liée au hasard, dite ["aléatoire"]{.cb}
+- Le [biais]{.cb} : une erreur prévisible, non liée au hasard, dite ["systématique"]{.cb}
+
+::: callout-note
+## Erreur ou écart ?
+
+La notion d'erreur doit donc ici être comprise dans un sens large, non seulement comme une erreur de mesure, mais comme un [écart par rapport à la réalité]{.cb}.
+
+:::
+

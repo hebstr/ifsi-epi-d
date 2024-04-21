@@ -1,0 +1,169 @@
+# Indicateurs de mortalité {#sec-mrt}
+
+Un indicateur de [mortalité]{.cb} a pour but de décrire la [fréquence des décès]{.cb} dans une population.
+
+Il en existe trois types : 
+
+- Taux [brut]{.cb} 
+- Taux [spécifique]{.cb} 
+- Taux [standardisé]{.cb}
+
+## Taux brut de mortalité
+
+Un [taux brut de mortalité]{.cb} est un taux appliqué à [la survenue de décès]{.cb} dans une population.
+
+$$
+\mathrm{
+\frac
+{Nombre \ de \ décès \ sur \ une \ période}
+{Effectif \ de \ la \ population \ sur \ la \ même \ période}
+}
+$$
+
+Il est généralement calculé sur un an et exprimé en taux pour 1000.
+
+::: callout-note
+## Pourquoi en "taux pour 1000" ?
+
+Le nombre de décès étant logiquement inférieur à l'effectif total de la population, le taux tel qu'il est calculé est [toujours inférieur à 1]{.cb}.
+
+Supposons que, sur l'année 2022, le taux brut de mortalité en France soit égal à 0,009.\
+La phrase suivante n'est pas très intuitive :
+
+> En France, en 2022, le taux brut de mortalité était de 0,009 pour 1 habitant.
+
+En pratique, cet inconvénient est résolu en multipliant par 1000 :
+
+> En 2022, le taux brut de mortalité était de 9 pour 1000 habitants.
+
+On comprend ainsi facilement que, en moyenne, pour 1000 personnes suivies sur l'année 2022, 9 sont décédées.
+:::
+
+
+## Taux spécifique de mortalité 
+
+Un [taux spécifique de mortalité]{.cb} est un taux de mortalité dans lequel on tient compte d'un autre paramètre.
+Il s'agit le plus souvent de taux spécifiques par sexe, par tranches d'âges, ou par causes de décès.
+
+$$
+\mathrm{
+\frac
+{Nombre \ de \ décès \ dans \ le \ sous-groupe \ sur \ une \ période}
+{Effectif \ de \ la \ population \ dans \ le \ sous-groupe \ sur \ la \ même \ période}
+}
+$$
+  
+::: callout-tip
+## En 2022, le taux de mortalité infantile était de 3,8 pour 1000 naissances.
+Sur 1000 enfants nés en 2023, environ 4 sont décédés avant l'âge de 12 mois.
+:::
+
+::: callout-tip
+## En 2022, le taux de mortalité chez les femmes enceintes était de 9,6 pour 100 000 accouchements.
+:::
+
+Il en existe plusieurs types, dont :
+
+- La mortalité [prématurée]{.cb} : mortalité survenant avant 65 ans (= taux spécifique par tranches d'âge)
+- La mortalité [évitable]{.cb} : taux spécifique par causes de décès
+
+
+## Taux standardisé de mortalité
+
+### Problème
+
+Indépendamment de ses causes, la mortalité est liée un facteur incontournable : [l'âge]{.cb}.
+
+Si la comparaison entre départements révèle des taux plus élevés dans l'un, cela peut-être dû non pas à des causes externes mais simplement à la [structure d'âge]{.cb} du département : [la mortalité sera plus élevée si la moyenne d'âge est plus élevée !]{.cb}
+
+On dit que l'âge est un [facteur de confusion]{.cb} (@sec-biais-conf) dans la mesure des taux comparatifs de mortalité.
+
+img stand 1
+
+
+### Solution
+
+Afin de pouvoir comparer de manière pertinente des taux de mortalité entre différentes départements, il faut procéder à un traitement des taux bruts pour annuler cet *effet âge* : cette méthode est appelée [standardisation]{.cb}.
+
+Les taux comparatifs de décès, ou [taux standardisés]{.cb}, correspondent à des taux de décès calculés [comme si la structure d'âge était la même dans tous les départements]{.cb}.
+
+```{r}
+#| out-width: 6in
+#| fig-align: center
+
+knitr::include_graphics("img/standard.png")
+```
+
+Dans cet exemple, on peut supposer que les taux de mortalité observés dépendent non pas de la structure d'âge dans chaque région, mais bien de [facteurs externes]{.cb}.
+
+
+## Taux de létalité 
+
+Tandis que la mortalité représente le nombre d'individus décédés sur l'ensemble de la population, la [létalité]{.cb} représente le nombre de personnes décédés d'une maladie [parmi les personnes atteints de cette maladie]{.cb}.
+
+Un [taux de létalité]{.cb} prend pour période d'étude [le temps à partir du début]{.cb} de la maladie.
+
+$$
+\mathrm{
+\frac
+{Nombre \ de \ décès \ d'une \ maladie \ sur \ la \ période}
+{Nombre \ de \ personnes \ atteintes \ de \ la \ maladie \ sur \ la \ même \ période}
+}
+$$
+
+Elle est exprimée en temps depuis le début de la maladie (létalité à 28 jours, à un an, etc.).
+
+C'est un indicateur de la [gravité]{.cb} d'une maladie.
+
+
+::: callout-tip
+## Pendant la première phase de l'épidémie de COVID à Wuhan, la létalité du COVID était de 17,3% pour les cas survenus durant les deux premières semaines de janvier 2020.
+
+Sur 100 cas de COVID survenus durant cette période, 17 sont décédés.
+:::
+
+::: callout-warning
+## [Un taux de létalité n'est pas un taux de mortalité spécifique d'une cause de décès]{.cb}
+
+La différence se situe au dénominateur :
+
+- Le taux de mortalité spécifique du cancer du sein sur une période donnée correspond au nombre de personnes décédées d'un cancer du sein [parmi l'ensemble de la population]{.cb}.
+- Le taux de létalité du cancer du sein sur cette même période correspond au nombre de personnes décédées d'un cancer du sein [parmi les personnes atteintes]{.cb}.
+
+La mortalité spécifique est un indicateur de la charge globale de la maladie sur la société, tandis que la létalité est cruciale pour comprendre et gérer les risques pour les individus atteints d'une maladie donnée.
+:::
+
+
+## Espérance de vie
+
+L'espérance de vie est le [nombre moyen d'années]{.cb} qu'une personne peut espérer vivre [à partir d'un âge donné]{.cb}.
+
+```{r #tbl-esp-base}
+#| tbl-cap: "Espérance de vie en France, 2022."
+
+tibble::tibble(" " = c("**Hommes**", "**Femmes**"),
+               "À la naissance" = c(79.3, 85.1),
+               "À 65 ans" = c(19.1, 23.0)) |> 
+  knitr::kable(align = "c")
+```
+
+::: callout-note
+## Espérance de vie en bonne santé
+
+L'espérance de vie [en bonne santé]{.cb}, aussi appelée espérance de vie [sans incapacité]{.cb}, est le nombre moyen d'années qu'une personne peut espérer vivre sans souffrir d'incapacité dans les gestes de la vie quotidienne. 
+
+```{r #tbl-esp-bs}
+#| tbl-cap: "Espérance de vie en bonne santé en France, 2022."
+
+tibble::tibble(" " = c("**Hommes**", "**Femmes**"),
+               "À la naissance" = c(63.8, 65.3),
+               "À 65 ans" = c(10.2, 11.8)) |> 
+  knitr::kable(align = "c")
+```
+:::
+
+
+## Ce qu'il faut retenir
+
+- La standardisation est indispensable dès lors qu'on souhaite comparer des taux de mortalité
+- Faire la distinction entre mortalité et létalité

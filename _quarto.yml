@@ -11,6 +11,9 @@ book:
   sidebar: 
     border: true
     background: secondary
+  comments: 
+    hypothesis:
+      openSidebar: false
   chapters:
     - index.qmd
     
@@ -18,20 +21,21 @@ book:
     
     - part: Indicateurs de santé
       chapters: 
-        - indicateurs_base.qmd
-        - indicateurs_mrt.qmd
-        - indicateurs_mrb.qmd
+        - indic_base.qmd
+        - indic_mort.qmd
+        - indic_morbi.qmd
     
     - part: Sources des indicateurs
       chapters: 
         - sources_base.qmd
-        - sources_adhoc.qmd
+        - sources_spe.qmd
         - sources_quali.qmd
     
     - part: Erreurs de mesure    
       chapters: 
-        - fluctuations.qmd
-        - biais.qmd
+        - erreur_def.qmd
+        - erreur_fluct.qmd
+        - erreur_biais.qmd
         
 knitr: 
   opts_chunk:
@@ -52,5 +56,4 @@ format:
     code-link: true
     code-copy: false
     code-fold: true
-    code-summary: "Afficher la réponse"
     reference-location: margin

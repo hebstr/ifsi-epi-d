@@ -6,8 +6,4 @@
 - Non exhaustivité : Malade connu comme tel mais non enregistré par la source (sous-estimation)
 - Doublons : Le malade est connu mais enregistré plusieurs fois (surestimation)
 
-Les mesures estimées sur l'échantillon peuvent s'écarter des valeurs «réelles» auxquelles nous n'avons pas accès, par 2 mécanismes : 
-
-- Les [fluctuations d'échantillonnage]{.cb}, liées au hasard (@sec-fluct)
-- Les [biais]{.cb}, sources de variabilité et d'erreurs prévisibles (@sec-biais)
 

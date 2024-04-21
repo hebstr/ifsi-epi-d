@@ -119,12 +119,20 @@ Finalités de ces données:
 
 ## Limites
 
-- Pas de choix des données
-- Informations limités
-- Pas de définition standardisée
-- Pas de contrôle de qualité des données
+---
 
-Nécessité d'enquêtes spécifiques
-- Exhaustive
-- Sur échantillon
+Informations limitées
+: Les données que vous avez peuvent être incomplètes ou ne pas couvrir tous les aspects nécessaires pour une évaluation complète. Cela requiert une approche prudente dans l'interprétation des résultats et dans les décisions de soins basées sur ces données.
 
+Pas de choix des données
+: Souvent, dans le contexte clinique ou lors d'études épidémiologiques, vous devez travailler avec les données disponibles, qui ne sont pas toujours celles que vous auriez choisies. Cela peut affecter la manière dont vous interprétez et utilisez ces informations dans votre pratique.
+
+Pas de définition standardisée
+: Dans le domaine de la santé, toutes les institutions ou études ne suivent pas les mêmes définitions pour les termes ou les critères diagnostiques. Cette variabilité peut conduire à des confusions ou à des erreurs d'interprétation si elle n'est pas correctement gérée.
+
+Pas de contrôle de qualité des données
+: Les données peuvent souvent être de qualité variable, sans vérifications ou contrôles standard pour assurer leur fiabilité. Il est essentiel de comprendre les limites de ces données pour éviter des conclusions erronées.
+
+---
+
+Pour pallier ces limitations, il est nécessaire de passer par la réalisation d'[enquêtes spécifiques]{.cb}.

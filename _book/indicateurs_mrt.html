@@ -66,7 +66,40 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Envoyer",
     "search-label": "Recherche"
   }
-}</script>
+}</script><script type="application/json" class="js-hypothesis-config">
+{
+  "openSidebar": false
+}
+</script><script async="" src="https://hypothes.is/embed.js"></script><script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 </head>
 <body class="nav-sidebar floating">
 
@@ -199,7 +232,13 @@ ul.task-list li input[type="checkbox"] {
   <ul>
 <li><a href="#taux-brut-de-mortalit%C3%A9" id="toc-taux-brut-de-mortalité" class="nav-link active" data-scroll-target="#taux-brut-de-mortalit%C3%A9"><span class="header-section-number">3.1</span> Taux brut de mortalité</a></li>
   <li><a href="#taux-sp%C3%A9cifique-de-mortalit%C3%A9" id="toc-taux-spécifique-de-mortalité" class="nav-link" data-scroll-target="#taux-sp%C3%A9cifique-de-mortalit%C3%A9"><span class="header-section-number">3.2</span> Taux spécifique de mortalité</a></li>
-  <li><a href="#taux-standardis%C3%A9-de-mortalit%C3%A9" id="toc-taux-standardisé-de-mortalité" class="nav-link" data-scroll-target="#taux-standardis%C3%A9-de-mortalit%C3%A9"><span class="header-section-number">3.3</span> Taux standardisé de mortalité</a></li>
+  <li>
+<a href="#taux-standardis%C3%A9-de-mortalit%C3%A9" id="toc-taux-standardisé-de-mortalité" class="nav-link" data-scroll-target="#taux-standardis%C3%A9-de-mortalit%C3%A9"><span class="header-section-number">3.3</span> Taux standardisé de mortalité</a>
+  <ul class="collapse">
+<li><a href="#probl%C3%A8me" id="toc-problème" class="nav-link" data-scroll-target="#probl%C3%A8me"><span class="header-section-number">3.3.1</span> Problème</a></li>
+  <li><a href="#solution" id="toc-solution" class="nav-link" data-scroll-target="#solution"><span class="header-section-number">3.3.2</span> Solution</a></li>
+  </ul>
+</li>
   <li><a href="#taux-de-l%C3%A9talit%C3%A9" id="toc-taux-de-létalité" class="nav-link" data-scroll-target="#taux-de-l%C3%A9talit%C3%A9"><span class="header-section-number">3.4</span> Taux de létalité</a></li>
   <li><a href="#esp%C3%A9rance-de-vie" id="toc-espérance-de-vie" class="nav-link" data-scroll-target="#esp%C3%A9rance-de-vie"><span class="header-section-number">3.5</span> Espérance de vie</a></li>
   <li><a href="#ce-quil-faut-retenir" id="toc-ce-quil-faut-retenir" class="nav-link" data-scroll-target="#ce-quil-faut-retenir"><span class="header-section-number">3.6</span> Ce qu’il faut retenir</a></li>
@@ -221,8 +260,8 @@ ul.task-list li input[type="checkbox"] {
   
 
 
-</header><p>Un indicateur de <span class="cb">mortalité</span> a pour but de décrire le <span class="cb">nombre de décès</span> dans une population.</p>
-<p>Différents types de taux de mortalité peuvent être calculés :</p>
+</header><p>Un indicateur de <span class="cb">mortalité</span> a pour but de décrire la <span class="cb">fréquence des décès</span> dans une population.</p>
+<p>Il en existe trois types :</p>
 <ul>
 <li>Taux <span class="cb">brut</span>
 </li>
@@ -233,50 +272,90 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <section id="taux-brut-de-mortalité" class="level2" data-number="3.1"><h2 data-number="3.1" class="anchored" data-anchor-id="taux-brut-de-mortalité">
 <span class="header-section-number">3.1</span> Taux brut de mortalité</h2>
-<p>Un taux brut de mortalité est un <span class="cb">taux</span> appliqué à <span class="cb">l’apparition de décès</span> au sein d’une population.</p>
-<p>Nombre de décès dans une population pour une période donnée / Effectif de la population pendant la même période</p>
+<p>Un <span class="cb">taux brut de mortalité</span> est un taux appliqué à <span class="cb">la survenue de décès</span> dans une population.</p>
+<p><span class="math display">\[
+\mathrm{
+\frac
+{Nombre \ de \ décès \ sur \ une \ période}
+{Effectif \ de \ la \ population \ sur \ la \ même \ période}
+}
+\]</span></p>
 <p>Il est généralement calculé sur un an et exprimé en taux pour 1000.</p>
-<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exemple
+Pourquoi en “taux pour 1000” ?
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Il était de 9,1 pour 1000 habitants en 2019 en France</p>
+<p>Le nombre de décès étant logiquement inférieur à l’effectif total de la population, le taux tel qu’il est calculé est <span class="cb">toujours inférieur à 1</span>.</p>
+<p>Supposons que, sur l’année 2022, le taux brut de mortalité en France soit égal à 0,009.<br>
+La phrase suivante n’est pas très intuitive :</p>
+<blockquote class="blockquote">
+<p>En France, en 2022, le taux brut de mortalité était de 0,009 pour 1 habitant.</p>
+</blockquote>
+<p>En pratique, cet inconvénient est résolu en multipliant par 1000 :</p>
+<blockquote class="blockquote">
+<p>En 2022, le taux brut de mortalité était de 9 pour 1000 habitants.</p>
+</blockquote>
+<p>On comprend ainsi facilement que, en moyenne, pour 1000 personnes suivies sur l’année 2022, 9 sont décédées.</p>
 </div>
 </div>
 </section><section id="taux-spécifique-de-mortalité" class="level2" data-number="3.2"><h2 data-number="3.2" class="anchored" data-anchor-id="taux-spécifique-de-mortalité">
 <span class="header-section-number">3.2</span> Taux spécifique de mortalité</h2>
-<p>Un taux spécifique de mortalité est un taux de mortalité dans lequel on tient compte d’un autre paramètre. Il s’agit le plus souvent de taux spécifiques par sexe, par tranches d’âges, ou par causes.</p>
-<p>FORMULE</p>
-<p>Sous-types :</p>
-<ul>
-<li>Mortalité <span class="cb">prématurée</span> : mortalité survenant avant 65 ans (taux spécifique par âge)</li>
-<li>Mortalité <span class="cb">évitable</span> : taux spécifique par causes de décès</li>
-</ul>
+<p>Un <span class="cb">taux spécifique de mortalité</span> est un taux de mortalité dans lequel on tient compte d’un autre paramètre. Il s’agit le plus souvent de taux spécifiques par sexe, par tranches d’âges, ou par causes de décès.</p>
+<p><span class="math display">\[
+\mathrm{
+\frac
+{Nombre \ de \ décès \ dans \ le \ sous-groupe \ sur \ une \ période}
+{Effectif \ de \ la \ population \ dans \ le \ sous-groupe \ sur \ la \ même \ période}
+}
+\]</span></p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exemple
+En 2022, le taux de mortalité infantile était de 3,8 pour 1000 naissances.
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><em>Sur l’année 2023, le taux de mortalité infantile était de 3,8/1000 : sur 1000 enfants nés, environ 4 sont décédés avant l’âge de 12 mois.</em></p>
+<p>Sur 1000 enfants nés en 2023, environ 4 sont décédés avant l’âge de 12 mois.</p>
 </div>
 </div>
-</section><section id="taux-standardisé-de-mortalité" class="level2" data-number="3.3"><h2 data-number="3.3" class="anchored" data-anchor-id="taux-standardisé-de-mortalité">
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+En 2022, le taux de mortalité chez les femmes enceintes était de 9,6 pour 100 000 accouchements.
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<p>Il en existe plusieurs types, dont :</p>
+<ul>
+<li>La mortalité <span class="cb">prématurée</span> : mortalité survenant avant 65 ans (= taux spécifique par tranches d’âge)</li>
+<li>La mortalité <span class="cb">évitable</span> : taux spécifique par causes de décès</li>
+</ul></section><section id="taux-standardisé-de-mortalité" class="level2" data-number="3.3"><h2 data-number="3.3" class="anchored" data-anchor-id="taux-standardisé-de-mortalité">
 <span class="header-section-number">3.3</span> Taux standardisé de mortalité</h2>
-<p>Indépendamment de ses causes, la mortalité est liée un facteur incontournable : <span class="cb">l’âge</span>. Si la comparaison entre départements révèle un des taux est plus élevé dans l’un, cela peut-être dû non pas à des causes externes mais simplement à la <span class="cb">structure d’âge</span> du département (la mortalité sera plus élevé si la moyenne d’âge est plus élevée).</p>
-<p>On dit que l’âge est un <span class="cb">facteur de confusion</span> (<a href="biais.html#sec-biais-conf" class="quarto-xref"><span>Section 9.3</span></a>) dans la mesure de taux comparatifs de mortalité.</p>
+<section id="problème" class="level3" data-number="3.3.1"><h3 data-number="3.3.1" class="anchored" data-anchor-id="problème">
+<span class="header-section-number">3.3.1</span> Problème</h3>
+<p>Indépendamment de ses causes, la mortalité est liée un facteur incontournable : <span class="cb">l’âge</span>.</p>
+<p>Si la comparaison entre départements révèle des taux plus élevés dans l’un, cela peut-être dû non pas à des causes externes mais simplement à la <span class="cb">structure d’âge</span> du département : <span class="cb">la mortalité sera plus élevée si la moyenne d’âge est plus élevée !</span></p>
+<p>On dit que l’âge est un <span class="cb">facteur de confusion</span> (<a href="biais.html#sec-biais-conf" class="quarto-xref"><span>Section 9.3</span></a>) dans la mesure des taux comparatifs de mortalité.</p>
 <p>img stand 1</p>
-<p>Afin de pouvoir comparer de manière pertinente des taux de mortalité entre différentes départements, il faut procéder à un traitement des taux bruts pour annuler cet <em>effet âge</em> : cette méthode est appelée <span class="cb">standardisation</span>. Les taux comparatifs de décès, ou taux <span class="cb">standardisés</span>, correspondent à des taux de décès calculés <em>comme si</em> la structure d’âge était <span class="cb">la même dans tous les départements</span>.</p>
+</section><section id="solution" class="level3" data-number="3.3.2"><h3 data-number="3.3.2" class="anchored" data-anchor-id="solution">
+<span class="header-section-number">3.3.2</span> Solution</h3>
+<p>Afin de pouvoir comparer de manière pertinente des taux de mortalité entre différentes départements, il faut procéder à un traitement des taux bruts pour annuler cet <em>effet âge</em> : cette méthode est appelée <span class="cb">standardisation</span>.</p>
+<p>Les taux comparatifs de décès, ou <span class="cb">taux standardisés</span>, correspondent à des taux de décès calculés <span class="cb">comme si la structure d’âge était la même dans tous les départements</span>.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -285,25 +364,49 @@ Exemple
 </div>
 </div>
 </div>
-<p>Dans l’exemple ci-dessus, on peut donc supposer que les taux de mortalité observés dépendent non pas de la structure d’âge dans chaque région, mais bien de facteurs externes.</p>
-</section><section id="taux-de-létalité" class="level2" data-number="3.4"><h2 data-number="3.4" class="anchored" data-anchor-id="taux-de-létalité">
+<p>Dans cet exemple, on peut supposer que les taux de mortalité observés dépendent non pas de la structure d’âge dans chaque région, mais bien de <span class="cb">facteurs externes</span>.</p>
+</section></section><section id="taux-de-létalité" class="level2" data-number="3.4"><h2 data-number="3.4" class="anchored" data-anchor-id="taux-de-létalité">
 <span class="header-section-number">3.4</span> Taux de létalité</h2>
-<p>Tandis que la mortalité représente le nombre d’individus décédés sur l’ensemble de la population, la <span class="cb">létalité</span> représente le nombre d’individus décédés d’une maladie <span class="cb">parmi les individus atteints de cette maladie</span>.</p>
-<p>Un taux de létalité prend pour période d’étude le <span class="cb">temps à partir du début</span> de la maladie.</p>
-<p>FORMULE</p>
-<p>C’est un indicateur témoignant de la <span class="cb">gravité</span> d’une maladie.</p>
-<p>En pratique elle est exprimée à x temps (létalité à 28 jours, à un an, etc.).</p>
+<p>Tandis que la mortalité représente le nombre d’individus décédés sur l’ensemble de la population, la <span class="cb">létalité</span> représente le nombre de personnes décédés d’une maladie <span class="cb">parmi les personnes atteints de cette maladie</span>.</p>
+<p>Un <span class="cb">taux de létalité</span> prend pour période d’étude <span class="cb">le temps à partir du début</span> de la maladie.</p>
+<p><span class="math display">\[
+\mathrm{
+\frac
+{Nombre \ de \ décès \ d'une \ maladie \ sur \ la \ période}
+{Nombre \ de \ personnes \ atteintes \ de \ la \ maladie \ sur \ la \ même \ période}
+}
+\]</span></p>
+<p>Elle est exprimée en temps depuis le début de la maladie (létalité à 28 jours, à un an, etc.).</p>
+<p>C’est un indicateur de la <span class="cb">gravité</span> d’une maladie.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exemple
+Pendant la première phase de l’épidémie de COVID à Wuhan, la létalité du COVID était de 17,3% pour les cas survenus durant les deux premières semaines de janvier 2020.
 </div>
 </div>
 <div class="callout-body-container callout-body">
-
+<p>Sur 100 cas de COVID survenus durant cette période, 17 sont décédés.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="cb">Un taux de létalité n’est pas un taux de mortalité spécifique d’une cause de décès</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>La différence se situe au dénominateur :</p>
+<ul>
+<li>Le taux de mortalité spécifique du cancer du sein sur une période donnée correspond au nombre de personnes décédées d’un cancer du sein <span class="cb">parmi l’ensemble de la population</span>.</li>
+<li>Le taux de létalité du cancer du sein sur cette même période correspond au nombre de personnes décédées d’un cancer du sein <span class="cb">parmi les personnes atteintes</span>.</li>
+</ul>
+<p>La mortalité spécifique est un indicateur de la charge globale de la maladie sur la société, tandis que la létalité est cruciale pour comprendre et gérer les risques pour les individus atteints d’une maladie donnée.</p>
 </div>
 </div>
 </section><section id="espérance-de-vie" class="level2" data-number="3.5"><h2 data-number="3.5" class="anchored" data-anchor-id="espérance-de-vie">
@@ -385,8 +488,8 @@ Table&nbsp;3.2: Espérance de vie en bonne santé en France, 2022.
 </section><section id="ce-quil-faut-retenir" class="level2" data-number="3.6"><h2 data-number="3.6" class="anchored" data-anchor-id="ce-quil-faut-retenir">
 <span class="header-section-number">3.6</span> Ce qu’il faut retenir</h2>
 <ul>
-<li><span class="cb">Comprendre la nécessité de standardiser des taux de mortalité</span></li>
-<li><span class="cb">Bien distinguer mortalité et létalité</span></li>
+<li>La standardisation est indispensable dès lors qu’on souhaite comparer des taux de mortalité</li>
+<li>Faire la distinction entre mortalité et létalité</li>
 </ul>
 
 
@@ -731,7 +834,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","loop":false});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":false,"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
