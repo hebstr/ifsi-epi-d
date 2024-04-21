@@ -124,19 +124,19 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">
 <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./indicateurs_base.html" class="sidebar-item-text sidebar-link">
+  <a href="./indic_base.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Mesures de base</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./indicateurs_mrt.html" class="sidebar-item-text sidebar-link">
+  <a href="./indic_mort.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Indicateurs de mortalité</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./indicateurs_mrb.html" class="sidebar-item-text sidebar-link">
+  <a href="./indic_morbi.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Indicateurs de morbidité</span></span></a>
   </div>
 </li>
@@ -182,14 +182,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">
 <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./fluctuations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Fluctuations d'échantillonnage</span></span></a>
+  <a href="./erreur_def.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Définition de l'erreur</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./biais.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Biais</span></span></a>
+  <a href="./erreur_fluct.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Fluctuations d'échantillonnage</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./erreur_biais.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Biais</span></span></a>
   </div>
 </li>
       </ul>
@@ -339,7 +345,7 @@ Une liste exhaustive est une liste <span class="cb">complète</span>, qui contie
 <p>img pop echant</p>
 <p>Un échantillon doit être constitué de manière rigoureuse : on veut qu’il soit [un bon reflet] de la population dont il est issu. Autrement dit, on veut qu’il soit <span class="cb">représentatif</span> de cette population.</p>
 <p>La représentativité d’un échantillon est toujours recherchée, puisqu’elle permet de <span class="cb">généraliser</span> les résultats à la population dont il est issu.</p>
-<p>Un échantillon mal constitué, non représentatif, et un échantillon soumis à des <span class="cb">biais de sélection</span> (<a href="biais.html#sec-biais-sel" class="quarto-xref"><span>Section 9.1</span></a>).</p>
+<p>Un échantillon mal constitué, non représentatif, et un échantillon soumis à des <span class="cb">biais de sélection</span> (<a href="erreur_biais.html#sec-biais-sel" class="quarto-xref"><span>Section 10.1</span></a>).</p>
 <p>En pratique, la constitution d’un échantillon fait intervenir 3 notions :</p>
 <ol type="1">
 <li><p>La population <span class="cb">cible</span></p></li>
@@ -364,7 +370,7 @@ On souhaite connaître la prévalence de l’obésité chez les sujets âgés de
 <span class="header-section-number">6.1.2</span> Durée</h3>
 <section id="transversalité" class="level4" data-number="6.1.2.1"><h4 data-number="6.1.2.1" class="anchored" data-anchor-id="transversalité">
 <span class="header-section-number">6.1.2.1</span> Transversalité</h4>
-<p>Une mesure dite <span class="cb">transversale</span> est une mesure de <span class="cb">prévalence</span> (<a href="indicateurs_mrb.html#sec-prev" class="quarto-xref"><span>Section 4.2</span></a>).</p>
+<p>Une mesure dite <span class="cb">transversale</span> est une mesure de <span class="cb">prévalence</span> (<a href="indic_morbi.html#sec-prev" class="quarto-xref"><span>Section 4.2</span></a>).</p>
 <p>C’est une mesure instantanée, réalisée <span class="cb">à instant donné</span> (<em>une photographie</em>). Il n’y a donc <span class="cb">pas de suivi</span>.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -381,7 +387,7 @@ On souhaite connaître la prévalence de l’obésité chez les sujets âgés de
 </div>
 </section><section id="longitudinalité" class="level4" data-number="6.1.2.2"><h4 data-number="6.1.2.2" class="anchored" data-anchor-id="longitudinalité">
 <span class="header-section-number">6.1.2.2</span> Longitudinalité</h4>
-<p>Une mesure dite <span class="cb">longitudinale</span> est une mesure d’<span class="cb">incidence</span> (<a href="indicateurs_mrb.html#sec-inc" class="quarto-xref"><span>Section 4.1</span></a>).</p>
+<p>Une mesure dite <span class="cb">longitudinale</span> est une mesure d’<span class="cb">incidence</span> (<a href="indic_morbi.html#sec-inc" class="quarto-xref"><span>Section 4.1</span></a>).</p>
 <p>C’est une mesure réalisée dans le temps, <span class="cb">sur une période donnée</span> (<em>d’un point A à un point B</em>). Il a donc une notion de <span class="cb">suivi</span>.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
