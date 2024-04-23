@@ -5,9 +5,9 @@ La "vraie" valeur d'un indicateur est estimée par la mesure que l'on fait de ce
 On attend notamment de cette mesure :
 
 1. Qu'elle fournisse la même valeur lorsqu'on la reproduit : sa [fiabilité]{.cb}
-2. Qu'elle corresponde bien à la "vraie" valeur : sa [validité]{.cb}
+2. Qu'elle corresponde bien à la vraie valeur : sa [validité]{.cb}
 
-Une mesure peut parfois s'écarter de la "vraie" valeur, à laquelle nous n'avons pas accès : c'est ce qu'on peut appeler une [erreur de mesure]{.cb}.
+Une mesure peut parfois s'écarter de la vraie valeur, à laquelle nous n'avons pas accès : c'est ce qu'on peut appeler une [erreur de mesure]{.cb}.
 
 Une erreur peut se produire par deux mécanismes, illustrés avec l'exemple suivant.
 
@@ -20,13 +20,29 @@ D'autre part,
 
 :::
 
-En résumé, on retrouve donc 2 grands types d'erreurs :
+En résumé, il y a donc deux grands types d'erreurs :
 
 - La [fluctuation d'échantillonnage]{.cb} : une erreur imprévisible, liée au hasard, dite [aléatoire]{.cb} (@sec-fluct)
-- Le [biais]{.cb} : une erreur prévisible, non liée au hasard, dite [systématique]{.cb} (@sec-biais)
+- Le [biais]{.cb} : une erreur prévisible, prédéterminée, dite [systématique]{.cb} (@sec-biais)
+
+Ces 2 types d'erreurs peuvent être illustrés en reprenant la @fig-cible, refaisant ainsi le lien avec les notions de [fiabilité]{.cb} et [validité]{.cb} (@sec-temp).
+
+```{r #fig-cible-erreur}
+#| out-width: 7in
+#| fig-align: center
+#| fig-cap: "Fluctuation d'échantillonnage et biais"
+
+knitr::include_graphics("img/cible_abcd.png")
+```
+
+>
+La [fluctuation d'échantillonnage]{.cb} est une erreur qui affecte la [précision]{.cb} d'une mesure \
+Le [biais]{.cb} est une erreur qui affecte l'[exactitude]{.cb} d'une mesure
 
 ::: callout-note
 ## Erreur ou écart ?
+
+Exp
 
 La notion d'erreur doit donc ici être comprise dans un sens large, non seulement comme une erreur de mesure, mais comme un [écart par rapport à la réalité]{.cb}.
 

@@ -42,6 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -256,15 +259,17 @@ window.Quarto = {
     <h2 id="toc-title">Table des matières</h2>
    
   <ul>
-  <li><a href="#quest-ce-quun-indicateur" id="toc-quest-ce-quun-indicateur" class="nav-link active" data-scroll-target="#quest-ce-quun-indicateur">Qu’est-ce qu’un indicateur ?</a></li>
-  <li><a href="#sec-prop" id="toc-sec-prop" class="nav-link" data-scroll-target="#sec-prop"><span class="header-section-number">2.1</span> Proportion</a></li>
-  <li><a href="#sec-taux" id="toc-sec-taux" class="nav-link" data-scroll-target="#sec-taux"><span class="header-section-number">2.2</span> Taux</a></li>
-  <li><a href="#ratio" id="toc-ratio" class="nav-link" data-scroll-target="#ratio"><span class="header-section-number">2.3</span> Ratio</a></li>
-  <li><a href="#indice" id="toc-indice" class="nav-link" data-scroll-target="#indice"><span class="header-section-number">2.4</span> Indice</a></li>
-  <li><a href="#proportion-taux-ratio-indice" id="toc-proportion-taux-ratio-indice" class="nav-link" data-scroll-target="#proportion-taux-ratio-indice"><span class="header-section-number">2.5</span> Proportion? Taux? Ratio? Indice?</a></li>
-  <li><a href="#critères-de-qualité-dun-indicateur" id="toc-critères-de-qualité-dun-indicateur" class="nav-link" data-scroll-target="#critères-de-qualité-dun-indicateur"><span class="header-section-number">2.6</span> Critères de qualité d’un indicateur</a></li>
-  <li><a href="#sec-temp" id="toc-sec-temp" class="nav-link" data-scroll-target="#sec-temp"><span class="header-section-number">2.7</span> Fiabilité vs validité</a></li>
-  <li><a href="#ce-quil-faut-retenir" id="toc-ce-quil-faut-retenir" class="nav-link" data-scroll-target="#ce-quil-faut-retenir"><span class="header-section-number">2.8</span> Ce qu’il faut retenir</a></li>
+  <li><a href="#indicateurs-de-base" id="toc-indicateurs-de-base" class="nav-link active" data-scroll-target="#indicateurs-de-base"><span class="header-section-number">2.1</span> Indicateurs de base</a>
+  <ul class="collapse">
+  <li><a href="#sec-prop" id="toc-sec-prop" class="nav-link" data-scroll-target="#sec-prop"><span class="header-section-number">2.1.1</span> Proportion</a></li>
+  <li><a href="#sec-taux" id="toc-sec-taux" class="nav-link" data-scroll-target="#sec-taux"><span class="header-section-number">2.1.2</span> Taux</a></li>
+  <li><a href="#ratio" id="toc-ratio" class="nav-link" data-scroll-target="#ratio"><span class="header-section-number">2.1.3</span> Ratio</a></li>
+  <li><a href="#indice" id="toc-indice" class="nav-link" data-scroll-target="#indice"><span class="header-section-number">2.1.4</span> Indice</a></li>
+  <li><a href="#exercice" id="toc-exercice" class="nav-link" data-scroll-target="#exercice"><span class="header-section-number">2.1.5</span> Exercice</a></li>
+  </ul></li>
+  <li><a href="#critères-de-qualité-dun-indicateur" id="toc-critères-de-qualité-dun-indicateur" class="nav-link" data-scroll-target="#critères-de-qualité-dun-indicateur"><span class="header-section-number">2.2</span> Critères de qualité d’un indicateur</a></li>
+  <li><a href="#sec-temp" id="toc-sec-temp" class="nav-link" data-scroll-target="#sec-temp"><span class="header-section-number">2.3</span> Fiabilité vs validité</a></li>
+  <li><a href="#ce-quil-faut-retenir" id="toc-ce-quil-faut-retenir" class="nav-link" data-scroll-target="#ce-quil-faut-retenir"><span class="header-section-number">2.4</span> Ce qu’il faut retenir</a></li>
   </ul>
 </nav>
     </div>
@@ -290,8 +295,6 @@ window.Quarto = {
 </header>
 
 
-<section id="quest-ce-quun-indicateur" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="quest-ce-quun-indicateur">Qu’est-ce qu’un indicateur ?</h3>
 <p>Un indicateur de santé est une variable que l’on mesure afin de mesurer l’état de santé d’une population</p>
 <ul>
 <li>Outil d’évaluation et d’aide à la décision</li>
@@ -304,11 +307,12 @@ window.Quarto = {
 <li>Les indicateurs de <span class="cb">mortalité</span> (<a href="indic_mort.html" class="quarto-xref"><span>Chapitre 3</span></a>)</li>
 <li>Les indicateurs de <span class="cb">morbidité</span> (<a href="indic_morbi.html" class="quarto-xref"><span>Chapitre 4</span></a>)</li>
 </ul>
-</section>
-<section id="sec-prop" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="sec-prop"><span class="header-section-number">2.1</span> Proportion</h2>
-<p>Une <span class="cb">proportion</span> (ou <span class="cb">fréquence</span>) est un rapport dans lequel le numérateur est inclus dans le dénominateur.</p>
-<p>Il s’exprime en pourcentage ou en chiffre décimal compris entre 0 et 1.</p>
+<section id="indicateurs-de-base" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="indicateurs-de-base"><span class="header-section-number">2.1</span> Indicateurs de base</h2>
+<section id="sec-prop" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="sec-prop"><span class="header-section-number">2.1.1</span> Proportion</h3>
+<p>Une proportion est un rapport dans lequel <span class="cb">le numérateur est inclus dans le dénominateur</span>.</p>
+<p>Il s’exprime en pourcentage ou en un chiffre compris entre 0 et 1.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -319,22 +323,26 @@ En 2023, sur 750 000 enfants de 24 mois, 600 000 sont correctement vaccinés con
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>La proportion correspondante est <span class="math inline">\(\frac{600 \ 000}{750 \ 000} = 0.8\)</span><br>
+<p>La proportion correspondante est <span class="math inline">\(\frac{600 \ 000}{750 \ 000}\)</span> = 0,8<br>
 La couverture vaccinale contre la rougeole chez les enfants de 24 mois est de 80%.</p>
 </div>
 </div>
 </section>
-<section id="sec-taux" class="level2" data-number="2.2">
-<h2 data-number="2.2" class="anchored" data-anchor-id="sec-taux"><span class="header-section-number">2.2</span> Taux</h2>
-<p>Un taux est le risque de survenue d’un évènement au cours d’une période. Il s’exprime en pourcentage ou en chiffre compris entre 0 et 1.</p>
+<section id="sec-taux" class="level3" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="sec-taux"><span class="header-section-number">2.1.2</span> Taux</h3>
+<p>Un taux est le risque de survenue d’un évènement au cours d’une période.</p>
+<p>Il s’exprime en pourcentage ou en un chiffre compris entre 0 et 1.</p>
 <p>Notion de temps et de risque</p>
+<blockquote class="blockquote">
 <p><span class="math display">\[
 \mathrm{
 \frac
-{Nombre \ d'évènements \ pendant \ une \ durée \ T}
-{Nombre \ de \ sujet \ à \ risque \ de \ faire \ l'évènement \ pendant \ cette \ durée \ T}
+{Nombre \ d'évènements}
+{Nombre \ de \ sujet \ à \ risque \ de \ faire \ l'évènement}
+\ \ sur \ une \ période \ donnée
 }
 \]</span></p>
+</blockquote>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -349,31 +357,42 @@ Dans une maternelle, sur 200 enfants n’ayant jamais eu la varicelle et non vac
 </div>
 </div>
 </section>
-<section id="ratio" class="level2" data-number="2.3">
-<h2 data-number="2.3" class="anchored" data-anchor-id="ratio"><span class="header-section-number">2.3</span> Ratio</h2>
+<section id="ratio" class="level3" data-number="2.1.3">
+<h3 data-number="2.1.3" class="anchored" data-anchor-id="ratio"><span class="header-section-number">2.1.3</span> Ratio</h3>
 <p>Un ratio est un rapport des effectifs entre <span class="cb">deux modalités d’une variable binaire</span>.</p>
-<p>Ces modalités sont mutuellement exclusives : contrairement à une proportion, le numérateur ne peut pas être inclus dans le dénominateur (et inversement).</p>
-<p>C’est un rapport <span class="cb">sans unité</span>.</p>
+<p>Les modalités d’une variable binaire sont <span class="cb">mutuellement exclusives</span> : contrairement à une proportion, le numérateur ne peut pas être inclus dans le dénominateur.</p>
+<p>Puisqu’il s’agit de la même unité au numérateur et au dénominateur, c’est un rapport <span class="cb">sans unité</span>.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-En admettant que le sexe est une variable binaire (homme/femme), le “sex ratio” correspond au rapport du nombre d’hommes sur le nombre de femmes (ou inversement)
+En considérant que le sexe est une variable binaire (homme/femme), le “sex ratio” correspond au rapport du nombre d’hommes sur le nombre de femmes (ou inversement)
 </div>
 </div>
 <div class="callout-body-container callout-body">
+<p>Classiquement, le sex ratio est présenté avec les hommes à gauche et les femmes à droite :</p>
 <ul>
-<li>Le sex ratio du diabète de type II est de 3 hommes pour 1 femme (3:1) : cette maladie concerne 3 fois plus souvent les hommes que les femmes.</li>
-<li>Le sex ratio de l’anorexie mentale est 1:9 : cette maladie concerne 9 fois plus souvent les femmes que les hommes.</li>
+<li><dl>
+<dt>Le sex ratio de la schizophrénie est de 3/1</dt>
+<dd>
+La schizophrénie concerne 3 fois plus souvent les hommes que les femmes
+</dd>
+</dl></li>
+<li><dl>
+<dt>Le sex ratio de l’anorexie mentale est de 1/9</dt>
+<dd>
+La schizophrénie concerne 9 fois plus souvent les femmes que les hommes
+</dd>
+</dl></li>
 </ul>
 </div>
 </div>
 </section>
-<section id="indice" class="level2" data-number="2.4">
-<h2 data-number="2.4" class="anchored" data-anchor-id="indice"><span class="header-section-number">2.4</span> Indice</h2>
-<p>Un indice est le rapport entre deux effectifs de <span class="cb">nature différente</span>.</p>
+<section id="indice" class="level3" data-number="2.1.4">
+<h3 data-number="2.1.4" class="anchored" data-anchor-id="indice"><span class="header-section-number">2.1.4</span> Indice</h3>
+<p>Un indice est le rapport entre deux effectifs <span class="cb">de nature différente</span>.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -384,17 +403,18 @@ En admettant que le sexe est une variable binaire (homme/femme), le “sex ratio
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Il y a ici deux effectifs de nature différente :</p>
+<p>Deux effectifs de nature différente :</p>
 <ul>
-<li>Le nombre d’enfants</li>
-<li>Le nombre d’IDE</li>
+<li>Nombre d’enfants</li>
+<li>Nombre d’IDE</li>
 </ul>
 <p>L’indice correspondant est 30 pour 3, ou 10 pour 1 : il y a 10 enfants par IDE.</p>
 </div>
 </div>
 </section>
-<section id="proportion-taux-ratio-indice" class="level2" data-number="2.5">
-<h2 data-number="2.5" class="anchored" data-anchor-id="proportion-taux-ratio-indice"><span class="header-section-number">2.5</span> Proportion? Taux? Ratio? Indice?</h2>
+<section id="exercice" class="level3" data-number="2.1.5">
+<h3 data-number="2.1.5" class="anchored" data-anchor-id="exercice"><span class="header-section-number">2.1.5</span> Exercice</h3>
+<p>Pour chaque énoncé, quel est l’indicateur de base correspondant ?</p>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -407,13 +427,11 @@ Nombre de cancers cutanés / nombre de cancers
 </div>
 <div id="callout-5" class="callout-5-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><span class="cb">Proportion</span></p>
-<ul>
-<li>Une seule variable : le cancer</li>
-<li>Nombre de cancers = ensemble des cancers</li>
-<li>Les cancers cutanés sont un sous-ensemble des cancers</li>
-</ul>
-<p><strong>C’est un rapport dans lequel le numérateur est inclut dans le dénominateur</strong></p>
+<blockquote class="blockquote">
+<p>Nombre de cancers = l’ensemble des cancers<br>
+Les cancers cutanés sont un sous-ensemble des cancers</p>
+</blockquote>
+<p>Le numérateur est inclut dans le dénominateur : c’est une <span class="cb">proportion</span></p>
 </div>
 </div>
 </div>
@@ -423,18 +441,18 @@ Nombre de cancers cutanés / nombre de cancers
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Nombre de fumeurs / Nombre de non fumeurs
+Consommation de cigarettes par habitant
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><span class="cb">Ratio</span></p>
-<ul>
-<li>Une seule variable : le statut tabagique</li>
-<li>Variable binaire : fumeur / non fumeur</li>
-</ul>
-<p><strong>C’est un rapport entre les deux modalités d’une variable binaire</strong></p>
+<blockquote class="blockquote">
+<p>2 effectifs de nature différente :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Nombre de cigarettes<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Nombre d’habitants</p>
+</blockquote>
+<p>Rapport entre 2 effectifs de nature différente : c’est un <span class="cb">indice</span></p>
 </div>
 </div>
 </div>
@@ -444,21 +462,17 @@ Nombre de fumeurs / Nombre de non fumeurs
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Consommation de cigarettes par habitant
+Nombre de fumeurs / Nombre de non fumeurs
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><span class="cb">Indice</span></p>
-<ul>
-<li>2 variables :
-<ul>
-<li>Nombre de cigarettes</li>
-<li>Nombre d’habitants</li>
-</ul></li>
-</ul>
-<p><strong>C’est un rapport entre 2 effectifs différents</strong></p>
+<blockquote class="blockquote">
+<p>Une variable : le statut tabagique<br>
+C’est une variable binaire : fumeur / non fumeur</p>
+</blockquote>
+<p>Rapport entre les deux modalités d’une variable binaire : c’est un <span class="cb">ratio</span></p>
 </div>
 </div>
 </div>
@@ -474,8 +488,8 @@ Nombre de décès sur une période / nombre de personnes à risque de décès su
 </div>
 <div id="callout-8" class="callout-8-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><span class="cb">Taux</span></p>
-<p>(la baignoire !)</p>
+<p>Un évènement : le décès Mesuré sur une période donnée</p>
+<p>, sur une période donnée</p>
 </div>
 </div>
 </div>
@@ -509,29 +523,46 @@ Nombre d’hypertendus en 1975 / nombre d’hypertendus en 1994
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Nombre d’amputés du bras / nombre d’amputés
+Nombre de femmes enceintes vaccinées contre la rubéole / nombre de femmes enceintes
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-10" class="callout-10-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><span class="cb">Proportion</span></p>
-<ul>
-<li>Une seule variable : l’amputation</li>
-<li>Nombre d’amputations = ensemble des amputations</li>
-<li>Les amputations du bras sont un sous-ensemble des amputations</li>
-</ul>
-<p><strong>C’est un rapport dans lequel le numérateur est inclut dans le dénominateur</strong></p>
+<p>Nombre de femmes enceintes = l’ensemble des femmes enceintes<br>
+Les femmes enceintes vaccinées contre la rubéole sont un sous-ensemble des femmes enceintes</p>
+<p>Le numérateur est inclut dans le dénominateur : c’est une <span class="cb">proportion</span></p>
 </div>
+</div>
+</div>
+<hr>
+<div class="callout callout-style-simple callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Date vs période
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Comment ne pas confondre date et période</p>
 </div>
 </div>
 </section>
-<section id="critères-de-qualité-dun-indicateur" class="level2" data-number="2.6">
-<h2 data-number="2.6" class="anchored" data-anchor-id="critères-de-qualité-dun-indicateur"><span class="header-section-number">2.6</span> Critères de qualité d’un indicateur</h2>
+</section>
+<section id="critères-de-qualité-dun-indicateur" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="critères-de-qualité-dun-indicateur"><span class="header-section-number">2.2</span> Critères de qualité d’un indicateur</h2>
 <p>Pour être de qualité, un indicateur de santé doit être :</p>
-<section id="simple-et-acceptable" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="simple-et-acceptable">Simple et acceptable</h4>
-<p>Facilement utilisable par les chercheurs, facilement compréhensible par les professionnels et les usagers.</p>
+<ul>
+<li><dl>
+<dt><span class="cb">Simple et acceptable</span></dt>
+<dd>
+Facilement utilisable par les chercheurs<br>
+Facilement compréhensible par les professionnels et les usagers
+</dd>
+</dl></li>
+</ul>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -545,27 +576,14 @@ Le taux de mortalité infantile est une mesure simple et consensuelle du nombre 
 
 </div>
 </div>
-</section>
-<section id="valide" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="valide">Valide</h4>
-<p>La mesure a t-elle du sens, est-elle raccord à la réalité ?</p>
-<div class="callout callout-style-simple callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-La mesure autonome de la pression artérielle (MAPA)
-</div>
-</div>
-<div class="callout-body-container callout-body">
-
-</div>
-</div>
-</section>
-<section id="fiable" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="fiable">Fiable</h4>
-<p>Si la mesure est répétée dans des conditions similaires, elle doit produire des résultats similaires.</p>
+<ul>
+<li><dl>
+<dt><span class="cb">Fiable</span></dt>
+<dd>
+Si la mesure est répétée dans des conditions similaires, elle doit produire des résultats similaires
+</dd>
+</dl></li>
+</ul>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -579,17 +597,63 @@ La MAPA est également une mesure fiable, si on considère , (le matin à domici
 
 </div>
 </div>
-</section>
-<section id="sensible" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="sensible">Sensible</h4>
-<p>La mesure détecte des petites changements dans le processus étudié.</p>
+<ul>
+<li><dl>
+<dt><span class="cb">Valide</span></dt>
+<dd>
+La mesure est-elle pertinente, est-elle en accord avec la réalité ?
+</dd>
+</dl></li>
+</ul>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Un test de dépistage du cancer du sein doit être suffisamment sensible pour détecter une tumeur à un stade précoce, lorsque le traitement est le plus efficace.
+La mesure autonome de la pression artérielle (MAPA)
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<ul>
+<li><dl>
+<dt><span class="cb">Sensible</span></dt>
+<dd>
+La mesure peut détecter des petites changements dans le phénomène étudié
+</dd>
+</dl></li>
+</ul>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Un test de dépistage du cancer du sein doit être suffisamment sensible pour détecter une tumeur à un stade précoce, lorsque le traitement est le plus efficace
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<ul>
+<li><dl>
+<dt><span class="cb">Spécifique</span></dt>
+<dd>
+La mesure détecte uniquement le phénomène étudié
+</dd>
+</dl></li>
+</ul>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Un test de dépistage du VIH doit être spécifique à l’infection à VIH et ne pas donner de résultats positifs pour d’autres infections virales
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -597,28 +661,99 @@ Un test de dépistage du cancer du sein doit être suffisamment sensible pour d�
 </div>
 </div>
 </section>
-<section id="spécifique" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="spécifique">Spécifique</h4>
-<p>La mesure détecte uniquement le processus étudié</p>
-<div class="callout callout-style-simple callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<section id="sec-temp" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="sec-temp"><span class="header-section-number">2.3</span> Fiabilité vs validité</h2>
+<p>Fiabilité et validité sont des notions à ne pas confondre, et toutes aussi importantes l’une que l’autre.</p>
+<blockquote class="blockquote">
+<p><span class="cb">Fiabilité</span> est synonyme de <span class="cb">précision</span> (ou reproductibilité)<br>
+<span class="cb">Validité</span> est synonyme d’<span class="cb">exactitude</span> (ou pertinence)</p>
+</blockquote>
+<p>On peut illustrer précision et exactitude en symbolisant la mesure avec une cible et un ensemble de points, chacun représentant une mesure :</p>
+<ul>
+<li>La précision étant symbolisée par la dispersion entre les points</li>
+<li>L’exactitude étant symbolisée par le centre de la cible : c’est la “vraie” valeur qu’on cherche à atteindre</li>
+</ul>
+<p>Quatre situations sont possibles.</p>
+<div id="fig-cible" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-cible-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-cible" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-cible-a" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-cible-a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="img/cible_a.png" class="lightbox" data-gallery="fig-cible" data-glightbox="description: .lightbox-desc-1"><img src="img/cible_a.png" class="img-fluid figure-img" data-ref-parent="fig-cible"></a>
 </div>
-<div class="callout-title-container flex-fill">
-Un test de dépistage du VIH doit être spécifique à l’infection à VIH et ne pas donner de résultats positifs pour d’autres infections virales.
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-cible-a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Précis et exact
+</figcaption>
+</figure>
 </div>
 </div>
-<div class="callout-body-container callout-body">
-
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-cible" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-cible-b" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-cible-b-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="img/cible_b.png" class="lightbox" data-gallery="fig-cible" data-glightbox="description: .lightbox-desc-2"><img src="img/cible_b.png" class="img-fluid figure-img" data-ref-parent="fig-cible"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-cible-b-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Imprécis mais plutôt exact
+</figcaption>
+</figure>
 </div>
 </div>
-</section>
-</section>
-<section id="sec-temp" class="level2" data-number="2.7">
-<h2 data-number="2.7" class="anchored" data-anchor-id="sec-temp"><span class="header-section-number">2.7</span> Fiabilité vs validité</h2>
-<p>La validité est synonyme d’exactitude</p>
-<p>La fiabilité est synonyme de précision</p>
+</div>
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-cible" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-cible-c" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-cible-c-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="img/cible_c.png" class="lightbox" data-gallery="fig-cible" data-glightbox="description: .lightbox-desc-3"><img src="img/cible_c.png" class="img-fluid figure-img" data-ref-parent="fig-cible"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-cible-c-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(c) Précis mais inexact
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-cible" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-cible-d" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-cible-d-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="img/cible_d.png" class="lightbox" data-gallery="fig-cible" data-glightbox="description: .lightbox-desc-4"><img src="img/cible_d.png" class="img-fluid figure-img" data-ref-parent="fig-cible"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-cible-d-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(d) Imprécis et inexact
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cible-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;2.1: Précision et exactitude
+</figcaption>
+</figure>
+</div>
+<p>La <a href="#fig-cible-a" class="quarto-xref">Figure&nbsp;<span>2.1 (a)</span></a> représente la situation idéale. La répétition de la mesure donne globalement la même valeur, celle-ci étant proche de la réalité : la mesure est <span class="cb">fiable et valide</span>.</p>
+<p>La <a href="#fig-cible-b" class="quarto-xref">Figure&nbsp;<span>2.1 (b)</span></a> représente une situation problématique : la répétition de la mesure ne donne jamais la même valeur. Elle peut parfois donner la bonne valeur, mais de façon imprévisible, par “chance” : la mesure <span class="cb">peut être valide, mais elle n’est pas fiable</span>.</p>
+<p>La <a href="#fig-cible-c" class="quarto-xref">Figure&nbsp;<span>2.1 (c)</span></a> représente une situation fréquente en pratique. La répétition de la mesure donne globalement la même valeur, mais celle-ci ne correspond pas à la réalité : la mesure est <span class="cb">fiable mais pas valide</span>.</p>
+<p>La <a href="#fig-cible-d" class="quarto-xref">Figure&nbsp;<span>2.1 (d)</span></a> représente une situation où la mesure n’apporte pas d’information. Sa répétition ne donne jamais la même valeur, et rarement la bonne valeur : la mesure n’est <span class="cb">ni fiable ni valide</span>.</p>
+<p>Les deux caractéristiques sont donc nécessaires :</p>
+<ul>
+<li><dl>
+<dt>Une mesure <span class="cb">exacte mais imprécise</span> donnerait des bonnes valeurs <span class="cb">par hasard</span></dt>
+<dd>
+Elle ne serait pas utilisable en pratique
+</dd>
+</dl></li>
+<li><dl>
+<dt>Une mesure <span class="cb">précise mais inexacte</span> donnerait des valeurs fiables <span class="cb">mais fausses</span></dt>
+<dd>
+Elle serait utilisable de par sa fiabilité, mais elle induirait en erreur
+</dd>
+</dl></li>
+</ul>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -633,14 +768,20 @@ exemple température, partie 1
 </div>
 </div>
 </section>
-<section id="ce-quil-faut-retenir" class="level2" data-number="2.8">
-<h2 data-number="2.8" class="anchored" data-anchor-id="ce-quil-faut-retenir"><span class="header-section-number">2.8</span> Ce qu’il faut retenir</h2>
+<section id="ce-quil-faut-retenir" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="ce-quil-faut-retenir"><span class="header-section-number">2.4</span> Ce qu’il faut retenir</h2>
 <ul>
-<li><span class="cb">Reconnaitre les indicateurs de base</span></li>
+<li><span class="cb">Reconnaître les indicateurs de base</span></li>
 <li><span class="cb">Distinguer fiabilité (précision) et validité (exactitude) : une mesure peut être fiable sans être valide !</span></li>
 </ul>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">Figure&nbsp;2.1&nbsp;(a): Précis et exact</span>
+<span class="glightbox-desc lightbox-desc-2">Figure&nbsp;2.1&nbsp;(b): Imprécis mais plutôt exact</span>
+<span class="glightbox-desc lightbox-desc-3">Figure&nbsp;2.1&nbsp;(c): Précis mais inexact</span>
+<span class="glightbox-desc lightbox-desc-4">Figure&nbsp;2.1&nbsp;(d): Imprécis et inexact</span>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -987,6 +1128,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

@@ -1,7 +1,5 @@
 # Mesures de base
 
-### Qu'est-ce qu'un indicateur ? {.unnumbered}
-
 Un indicateur de santé est une variable que l'on mesure afin de mesurer l'état de santé d'une population 
 
 - Outil d'évaluation et d'aide à la décision 
@@ -16,30 +14,36 @@ sont à la base de 2 grandes catégories d'indicateurs de santé :
 - Les indicateurs de [morbidité]{.cb} (@sec-mrb) 
 
 
-## Proportion {#sec-prop}
+## Indicateurs de base
 
-Une [proportion]{.cb} (ou [fréquence]{.cb}) est un rapport dans lequel le numérateur est inclus dans le dénominateur.
+### Proportion {#sec-prop}
 
-Il s'exprime en pourcentage ou en chiffre décimal compris entre 0 et 1.
+Une proportion est un rapport dans lequel [le numérateur est inclus dans le dénominateur]{.cb}.
+
+Il s'exprime en pourcentage ou en un chiffre compris entre 0 et 1.
 
 ::: callout-tip
 ## En 2023, sur 750 000 enfants de 24 mois, 600 000 sont correctement vaccinés contre la rougeole.
 
-La proportion correspondante est $\frac{600 \ 000}{750 \ 000} = 0.8$ \
+La proportion correspondante est $\frac{600 \ 000}{750 \ 000}$ = 0,8 \
 La couverture vaccinale contre la rougeole chez les enfants de 24 mois est de 80%.
 :::
 
-## Taux {#sec-taux}
+### Taux {#sec-taux}
 
-Un taux est le risque de survenue d'un évènement au cours d'une période. Il s'exprime en pourcentage ou en chiffre compris entre 0 et 1.
+Un taux est le risque de survenue d'un évènement au cours d'une période. 
+
+Il s'exprime en pourcentage ou en un chiffre compris entre 0 et 1.
 
 Notion de temps et de risque
 
+>
 $$
 \mathrm{
 \frac
-{Nombre \ d'évènements \ pendant \ une \ durée \ T}
-{Nombre \ de \ sujet \ à \ risque \ de \ faire \ l'évènement \ pendant \ cette \ durée \ T}
+{Nombre \ d'évènements}
+{Nombre \ de \ sujet \ à \ risque \ de \ faire \ l'évènement}
+\ \ sur \ une \ période \ donnée
 }
 $$
 
@@ -47,82 +51,85 @@ $$
 ## Dans une maternelle, sur 200 enfants n'ayant jamais eu la varicelle et non vaccinés, il y a eu 72 nouveaux cas durant l'année scolaire 2021-2022.
 :::
 
-## Ratio 
+### Ratio 
 
 Un ratio est un rapport des effectifs entre [deux modalités d'une variable binaire]{.cb}.
 
-Ces modalités sont mutuellement exclusives : contrairement à une proportion, le numérateur ne peut pas être inclus dans le dénominateur (et inversement).
+Les modalités d'une variable binaire sont [mutuellement exclusives]{.cb} : contrairement à une proportion, le numérateur ne peut pas être inclus dans le dénominateur.
 
-C'est un rapport [sans unité]{.cb}.
+Puisqu'il s'agit de la même unité au numérateur et au dénominateur, c'est un rapport [sans unité]{.cb}.
 
 ::: callout-tip
-## En admettant que le sexe est une variable binaire (homme/femme), le "sex ratio" correspond au rapport du nombre d'hommes sur le nombre de femmes (ou inversement)
+## En considérant que le sexe est une variable binaire (homme/femme), le "sex ratio" correspond au rapport du nombre d'hommes sur le nombre de femmes (ou inversement)
 
-- Le sex ratio du diabète de type II est de 3 hommes pour 1 femme (3:1) : cette maladie concerne 3 fois plus souvent les hommes que les femmes.
-- Le sex ratio de l'anorexie mentale est 1:9 : cette maladie concerne 9 fois plus souvent les femmes que les hommes.
+Classiquement, le sex ratio est présenté avec les hommes à gauche et les femmes à droite :
+
+- Le sex ratio de la schizophrénie est de 3/1 
+: La schizophrénie concerne 3 fois plus souvent les hommes que les femmes
+
+- Le sex ratio de l'anorexie mentale est de 1/9 
+: La schizophrénie concerne 9 fois plus souvent les femmes que les hommes
 :::
 
 
-## Indice
+### Indice
 
-Un indice est le rapport entre deux effectifs de [nature différente]{.cb}.
+Un indice est le rapport entre deux effectifs [de nature différente]{.cb}.
 
 ::: callout-tip
 ## 30 enfants sont hospitalisés dans un service de pédiatrie. Dans ce service, il y a 3 IDE.
 
-Il y a ici deux effectifs de nature différente :
+Deux effectifs de nature différente :
 
-- Le nombre d'enfants
-- Le nombre d'IDE
+- Nombre d'enfants
+- Nombre d'IDE
 
 L'indice correspondant est 30 pour 3, ou 10 pour 1 : il y a 10 enfants par IDE.
 :::
 
-## Proportion? Taux? Ratio? Indice?
+### Exercice
+
+Pour chaque énoncé, quel est l'indicateur de base correspondant ?
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
 
 ## Nombre de cancers cutanés / nombre de cancers 
 
-[Proportion]{.cb}
+>
+Nombre de cancers = l'ensemble des cancers \
+Les cancers cutanés sont un sous-ensemble des cancers
 
-- Une seule variable : le cancer
-- Nombre de cancers = ensemble des cancers
-- Les cancers cutanés sont un sous-ensemble des cancers
-
-**C'est un rapport dans lequel le numérateur est inclut dans le dénominateur**
-
-:::
-
-::: {.callout-caution collapse="true" appearance="minimal"}
-## Nombre de fumeurs / Nombre de non fumeurs
-
-[Ratio]{.cb}
-
-- Une seule variable : le statut tabagique
-- Variable binaire : fumeur / non fumeur
-
-**C'est un rapport entre les deux modalités d'une variable binaire**
+Le numérateur est inclut dans le dénominateur : c'est une [proportion]{.cb}
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
 ## Consommation de cigarettes par habitant 
 
-[Indice]{.cb}
-
-- 2 variables :
-  - Nombre de cigarettes
-  - Nombre d'habitants
+>
+2 effectifs de nature différente : \
+\ \ \ \ - Nombre de cigarettes \
+\ \ \ \ - Nombre d'habitants
   
-**C'est un rapport entre 2 effectifs différents**
+Rapport entre 2 effectifs de nature différente : c'est un [indice]{.cb}
+:::
+
+::: {.callout-caution collapse="true" appearance="minimal"}
+## Nombre de fumeurs / Nombre de non fumeurs
+
+>
+Une variable : le statut tabagique\
+C'est une variable binaire : fumeur / non fumeur
+
+Rapport entre les deux modalités d'une variable binaire : c'est un [ratio]{.cb}
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
 ## Nombre de décès sur une période / nombre de personnes à risque de décès sur cette période
 
-[Taux]{.cb}
+Un évènement : le décès 
+Mesuré sur une période donnée
 
-(la baignoire !)
+, sur une période donnée
 
 :::
 
@@ -141,15 +148,20 @@ L'indice correspondant est 30 pour 3, ou 10 pour 1 : il y a 10 enfants par IDE.
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-## Nombre d'amputés du bras / nombre d'amputés
+## Nombre de femmes enceintes vaccinées contre la rubéole / nombre de femmes enceintes
 
-[Proportion]{.cb}
+Nombre de femmes enceintes = l'ensemble des femmes enceintes \
+Les femmes enceintes vaccinées contre la rubéole sont un sous-ensemble des femmes enceintes
 
-- Une seule variable : l'amputation
-- Nombre d'amputations = ensemble des amputations
-- Les amputations du bras sont un sous-ensemble des amputations
+Le numérateur est inclut dans le dénominateur : c'est une [proportion]{.cb}
+:::
 
-**C'est un rapport dans lequel le numérateur est inclut dans le dénominateur**
+---
+
+::: callout-warning
+## Date vs période
+
+Comment ne pas confondre date et période
 :::
 
 
@@ -157,54 +169,87 @@ L'indice correspondant est 30 pour 3, ou 10 pour 1 : il y a 10 enfants par IDE.
 
 Pour être de qualité, un indicateur de santé doit être :
 
-
-#### Simple et acceptable {.unnumbered}
-
-Facilement utilisable par les chercheurs, facilement compréhensible par les professionnels et les usagers.
+- [Simple et acceptable]{.cb}
+: Facilement utilisable par les chercheurs \
+Facilement compréhensible par les professionnels et les usagers
 
 ::: callout-tip
 ## Le taux de mortalité infantile est une mesure simple et consensuelle du nombre d'enfants décédés entre la naissance et 12 mois, sur le nombre total de naissances vivantes dans une population donnée.
 :::
 
-
-#### Valide {.unnumbered}
-
-La mesure a t-elle du sens, est-elle raccord à la réalité ?
-
-::: callout-tip
-## La mesure autonome de la pression artérielle (MAPA)
-:::
-
-#### Fiable {.unnumbered}
-
-Si la mesure est répétée dans des conditions similaires, elle doit produire des résultats similaires. 
+- [Fiable]{.cb}
+: Si la mesure est répétée dans des conditions similaires, elle doit produire des résultats similaires
 
 ::: callout-tip
 ## La MAPA est également une mesure fiable, si on considère , (le matin à domicile)
 :::
 
-#### Sensible {.unnumbered}
-
-La mesure détecte des petites changements dans le processus étudié.
+- [Valide]{.cb}
+: La mesure est-elle pertinente, est-elle en accord avec la réalité ?
 
 ::: callout-tip
-## Un test de dépistage du cancer du sein doit être suffisamment sensible pour détecter une tumeur à un stade précoce, lorsque le traitement est le plus efficace.
+## La mesure autonome de la pression artérielle (MAPA)
 :::
 
-#### Spécifique {.unnumbered}
-
-La mesure détecte uniquement le processus étudié
+- [Sensible]{.cb}
+: La mesure peut détecter des petites changements dans le phénomène étudié
 
 ::: callout-tip
-## Un test de dépistage du VIH doit être spécifique à l'infection à VIH et ne pas donner de résultats positifs pour d'autres infections virales.
+## Un test de dépistage du cancer du sein doit être suffisamment sensible pour détecter une tumeur à un stade précoce, lorsque le traitement est le plus efficace
+:::
+
+- [Spécifique]{.cb}
+: La mesure détecte uniquement le phénomène étudié
+
+::: callout-tip
+## Un test de dépistage du VIH doit être spécifique à l'infection à VIH et ne pas donner de résultats positifs pour d'autres infections virales
 :::
 
 
 ## Fiabilité vs validité {#sec-temp}
 
-La validité est synonyme d'exactitude
+Fiabilité et validité sont des notions à ne pas confondre, et toutes aussi importantes l'une que l'autre.
 
-La fiabilité est synonyme de précision
+> [Fiabilité]{.cb} est synonyme de [précision]{.cb} (ou reproductibilité) \
+[Validité]{.cb} est synonyme d'[exactitude]{.cb} (ou pertinence)
+
+On peut illustrer précision et exactitude en symbolisant la mesure avec une cible et un ensemble de points, chacun représentant une mesure :
+
+- La précision étant symbolisée par la dispersion entre les points
+- L'exactitude étant symbolisée par le centre de la cible : c'est la "vraie" valeur qu'on cherche à atteindre
+
+Quatre situations sont possibles.
+
+::: {#fig-cible layout-ncol=2 layout-nrow=2}
+
+![Précis et exact](img/cible_a.png){#fig-cible-a}
+
+![Imprécis mais plutôt exact](img/cible_b.png){#fig-cible-b}
+
+![Précis mais inexact](img/cible_c.png){#fig-cible-c}
+
+![Imprécis et inexact](img/cible_d.png){#fig-cible-d}
+
+Précision et exactitude
+:::
+
+La @fig-cible-a représente la situation idéale. La répétition de la mesure donne globalement la même valeur, celle-ci étant proche de la réalité : la mesure est [fiable et valide]{.cb}.
+
+La @fig-cible-b représente une situation problématique : la répétition de la mesure ne donne jamais la même valeur. Elle peut parfois donner la bonne valeur, mais de façon imprévisible, par "chance" : la mesure [peut être valide, mais elle n'est pas fiable]{.cb}.
+
+La @fig-cible-c représente une situation fréquente en pratique. La répétition de la mesure donne globalement la même valeur, mais celle-ci ne correspond pas à la réalité : la mesure est [fiable mais pas valide]{.cb}.
+
+La @fig-cible-d représente une situation où la mesure n'apporte pas d'information. Sa répétition ne donne jamais la même valeur, et rarement la bonne valeur : la mesure n'est [ni fiable ni valide]{.cb}.
+
+
+Les deux caractéristiques sont donc nécessaires :
+
+- Une mesure [exacte mais imprécise]{.cb} donnerait des bonnes valeurs [par hasard]{.cb}
+: Elle ne serait pas utilisable en pratique
+
+- Une mesure [précise mais inexacte]{.cb} donnerait des valeurs fiables [mais fausses]{.cb}
+: Elle serait utilisable de par sa fiabilité, mais elle induirait en erreur
+
 
 
 ::: callout-tip
@@ -215,5 +260,5 @@ La fiabilité est synonyme de précision
 
 ## Ce qu'il faut retenir
 
-- [Reconnaitre les indicateurs de base]{.cb}
+- [Reconnaître les indicateurs de base]{.cb}
 - [Distinguer fiabilité (précision) et validité (exactitude) : une mesure peut être fiable sans être valide !]{.cb}
