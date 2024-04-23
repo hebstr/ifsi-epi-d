@@ -33,17 +33,16 @@ img certif elec
 - Mais habitudes et qualité de remplissage des certificats peuvent changer d'un pays à l'autre -> rester prudent
 
 
-## Déclaration obligatoire
+## Déclaration obligatoire {#sec-mdo}
 
-La liste des [maladies à déclaratoire obligatoire](https://www.santepubliquefrance.fr/maladies-a-declaration-obligatoire/liste-des-maladies-a-declaration-obligatoire)
+Il existe une liste des [maladies à déclaratoire obligatoire](https://www.santepubliquefrance.fr/maladies-a-declaration-obligatoire/liste-des-maladies-a-declaration-obligatoire)
 
-- Repose sur un système de transmission de données individuelles à l'autorité sanitaire - Recueil exhaustif car obligatoire
+- Repose sur un système de transmission de données individuelles à l'autorité sanitaire
+- Recueil exhaustif car obligatoire
 - 2 procédures dans la transmission des données
   - Signalement
   - Notification
 - 38 maladies à déclaration obligatoire
-
-liste MDO
 
 Buts :
 
@@ -70,32 +69,42 @@ img rougeole
 
 ## Systèmes sentinelles
 
-Les [systèmes sentinelles](https://sentiweb.fr/) sont des 
+Le [réseau Sentinelles](https://sentiweb.fr/) est un [système de surveillance épidémiologique continue]{.cb} basé sur le [volontariat]{.cb}.
 
-- Ensemble de professionnels de la santé (principalement des médecins) regroupés au sein d'un réseau
-- Les professionnels s'engagent à signaler tous les cas de maladies surveillées par le système sentinelle auprès d'un centre coordinateur
-- Système basé sur le volontariat
+Il permet le recueil, l'analyse, la prévision et l'extrapolation en temps réel de données issues de l'activité de 1300 médecins généralistes libéraux répartis sur l'ensemble du territoire métropolitain.
 
-- Objectif : repérer rapidement le début de certaines épidémies
-- L'exhaustivité sur un territoire donnée n'est pas recherchée mais des efforts sont faits dans une zone donnée pour arriver à un certain degré de représentativité
+Les professionnels de santé appartenant à ce réseau s'engagent à signaler tous les cas de maladies surveillées auprès d'un centre coordinateur.
 
-- Collaboration entre médecins généralistes et chercheurs
-- Réseau 1300 médecins généralistes français répartis sur l'ensemble du territoire métropolitain
-- Objectifs : recueil, analyse, prévision et redistribution en temps réel de données épidémiologiques issues de l'activité des médecins généralistes libéraux
+Tout comme le système de déclaration obligatoire (#sec-mdo), l'objectif est de [repérer et contrôler l'émergence de potentielles épidémies]{.cb}.
 
-Surveillance continue de 9 indicateurs
+Toutefois puisqu'il s'agit d'une [déclaration volontaire]{.cb}, l'exhaustivité ne peut pas être recherchée, mais des efforts sont faits au niveau local afin d'arriver à un certain degré de [représentativité]{.cb}.
 
-- Syndromes grippaux
-- Diarrhée aiguë
+[9 indicateurs]{.cb} bénéficient actuellement d'une surveillance continue :
+
+- [Diarrhée aiguë]{.cb}
+- [Infection respiratoire aiguë (syndromes grippaux et COVID-19)]{.cb}
+- [Varicelle]{.cb}
 - Oreillons
-- Varicelle
 - Urétrite masculine
 - Zona
 - Borréliose de Lyme
+- Coqueluche    
 - Suicide et tentative de suicide
-- Coqueluche
 
-img carte
+La situation des trois premières est actualisée chaque semaine et représentée graphiquement à un niveau national via une extrapolation des données obtenues localement.
+
+::: {#fig-senti layout-nrow=1}
+
+![Diarrhée aiguë](https://www.sentiweb.fr/img/accueil/40334-norm.png){#fig-senti-a}
+
+![Infection respiratoire aiguë](https://www.sentiweb.fr/img/accueil/40335-norm.png){#fig-senti-b}
+
+![Varicelle](https://www.sentiweb.fr/img/accueil/40336-norm.png){#fig-senti-c}
+
+Situation observée en France métropolitaine par le réseau Sentinelles, semaine du 08 au 14/04/24
+
+:::
+
 
 ## Bases de données médico-administratives
 

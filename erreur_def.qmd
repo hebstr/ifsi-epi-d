@@ -1,4 +1,4 @@
-# Définition de l'erreur
+# Définition de l'erreur {#sec-err}
 
 La "vraie" valeur d'un indicateur est estimée par la mesure que l'on fait de cet indicateur.
 
@@ -22,8 +22,8 @@ D'autre part,
 
 En résumé, on retrouve donc 2 grands types d'erreurs :
 
-- La [fluctuation d'échantillonnage]{.cb} : une erreur imprévisible, liée au hasard, dite ["aléatoire"]{.cb}
-- Le [biais]{.cb} : une erreur prévisible, non liée au hasard, dite ["systématique"]{.cb}
+- La [fluctuation d'échantillonnage]{.cb} : une erreur imprévisible, liée au hasard, dite [aléatoire]{.cb} (@sec-fluct)
+- Le [biais]{.cb} : une erreur prévisible, non liée au hasard, dite [systématique]{.cb} (@sec-biais)
 
 ::: callout-note
 ## Erreur ou écart ?

@@ -193,7 +193,7 @@
     "href": "indic_mort.html",
     "title": "3  Indicateurs de mortalité",
     "section": "",
-    "text": "3.1 Taux brut de mortalité\nUn taux brut de mortalité est un taux appliqué à la survenue de décès dans une population.\n\\[\n\\mathrm{\n\\frac\n{Nombre \\ de \\ décès \\ sur \\ une \\ période}\n{Effectif \\ de \\ la \\ population \\ sur \\ la \\ même \\ période}\n}\n\\]\nIl est généralement calculé sur un an et exprimé en taux pour 1000.",
+    "text": "3.1 Taux brut de mortalité\nUn taux brut de mortalité est un taux appliqué à la survenue de décès dans une population.\nIl est généralement calculé sur un an et exprimé en taux pour 1000.",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
@@ -204,7 +204,7 @@
     "href": "indic_mort.html#taux-brut-de-mortalité",
     "title": "3  Indicateurs de mortalité",
     "section": "",
-    "text": "Pourquoi en “taux pour 1000” ?\n\n\n\nLe nombre de décès étant logiquement inférieur à l’effectif total de la population, le taux tel qu’il est calculé est toujours inférieur à 1.\nSupposons que, sur l’année 2022, le taux brut de mortalité en France soit égal à 0,009.\nLa phrase suivante n’est pas très intuitive :\n\nEn France, en 2022, le taux brut de mortalité était de 0,009 pour 1 habitant.\n\nEn pratique, cet inconvénient est résolu en multipliant par 1000 :\n\nEn 2022, le taux brut de mortalité était de 9 pour 1000 habitants.\n\nOn comprend ainsi facilement que, en moyenne, pour 1000 personnes suivies sur l’année 2022, 9 sont décédées.",
+    "text": "\\[\n\\mathrm{\n\\frac\n{Nombre \\ de \\ décès}\n{Ensemble \\ de \\ la \\ population}\n\\ \\\nsur \\ une \\ période \\ donnée\n}\n\\]\n\n\n\n\n\n\n\n\nPourquoi en “taux pour 1000” ?\n\n\n\nLe nombre de décès étant logiquement inférieur à l’effectif total de la population, le taux tel qu’il est calculé est toujours inférieur à 1.\nSupposons que, sur l’année 2022, le taux brut de mortalité en France soit égal à 0,009.\nLa phrase suivante n’est pas très intuitive :\n\nEn France, en 2022, le taux brut de mortalité était de 0,009 pour 1 habitant.\n\nEn pratique, cet inconvénient est résolu en multipliant par 1000 :\n\nEn 2022, le taux brut de mortalité était de 9 pour 1000 habitants.\n\nOn comprend ainsi facilement que, en moyenne, pour 1000 personnes suivies sur l’année 2022, 9 sont décédées.",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
@@ -215,18 +215,18 @@
     "href": "indic_mort.html#taux-spécifique-de-mortalité",
     "title": "3  Indicateurs de mortalité",
     "section": "\n3.2 Taux spécifique de mortalité",
-    "text": "3.2 Taux spécifique de mortalité\nUn taux spécifique de mortalité est un taux de mortalité dans lequel on tient compte d’un autre paramètre. Il s’agit le plus souvent de taux spécifiques par sexe, par tranches d’âges, ou par causes de décès.\n\\[\n\\mathrm{\n\\frac\n{Nombre \\ de \\ décès \\ dans \\ le \\ sous-groupe \\ sur \\ une \\ période}\n{Effectif \\ de \\ la \\ population \\ dans \\ le \\ sous-groupe \\ sur \\ la \\ même \\ période}\n}\n\\]\n\n\n\n\n\n\nEn 2022, le taux de mortalité infantile était de 3,8 pour 1000 naissances.\n\n\n\nSur 1000 enfants nés en 2023, environ 4 sont décédés avant l’âge de 12 mois.\n\n\n\n\n\n\n\n\nEn 2022, le taux de mortalité chez les femmes enceintes était de 9,6 pour 100 000 accouchements.\n\n\n\n\n\n\nIl en existe plusieurs types, dont :\n\nLa mortalité prématurée : mortalité survenant avant 65 ans (= taux spécifique par tranches d’âge)\nLa mortalité évitable : taux spécifique par causes de décès",
+    "text": "3.2 Taux spécifique de mortalité\nUn taux spécifique de mortalité est un taux de mortalité dans lequel on tient compte d’un autre paramètre. Il s’agit le plus souvent de taux spécifiques par sexe, par tranches d’âges, ou par causes de décès.\n\n\\[\n\\mathrm{\n\\frac\n{Nombre \\ de \\ décès \\ dans \\ le \\ sous-groupe}\n{Effectif \\ de \\ la \\ population \\ dans \\ le \\ sous-groupe}\n\\ \\\nsur \\ une \\ période \\ donnée\n}\n\\]\n\n\n\n\n\n\n\nEn France, entre 2020 et 2022, le taux de mortalité infantile était de 3,7 pour 1000 naissances vivantes.\n\n\n\nSur 1000 enfants nés vivants entre 2020 et 2022, environ 4 en moyenne sont décédés avant l’âge de 12 mois.\n\n\n\n\n\n\n\nFigure 3.1: Taux de mortalité infantile entre 2020 et 2022 (en ‰)\n\n\n\n\n\n\n\n\n\n\n\n\nEn 2022, le taux de mortalité chez les femmes enceintes était de 9,6 pour 100 000 accouchements.\n\n\n\n\n\n\nIl en existe plusieurs types, dont :\n\nLa mortalité prématurée : mortalité survenant avant 65 ans (= taux spécifique par tranches d’âge)\nLa mortalité évitable : taux spécifique par causes de décès",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
     ]
   },
   {
-    "objectID": "indic_mort.html#taux-standardisé-de-mortalité",
-    "href": "indic_mort.html#taux-standardisé-de-mortalité",
+    "objectID": "indic_mort.html#sec-stand",
+    "href": "indic_mort.html#sec-stand",
     "title": "3  Indicateurs de mortalité",
     "section": "\n3.3 Taux standardisé de mortalité",
-    "text": "3.3 Taux standardisé de mortalité\n\n3.3.1 Problème\nIndépendamment de ses causes, la mortalité est liée un facteur incontournable : l’âge.\nSi la comparaison entre départements révèle des taux plus élevés dans l’un, cela peut-être dû non pas à des causes externes mais simplement à la structure d’âge du département : la mortalité sera plus élevée si la moyenne d’âge est plus élevée !\nOn dit que l’âge est un facteur de confusion (Section 10.3) dans la mesure des taux comparatifs de mortalité.\nimg stand 1\n\n3.3.2 Solution\nAfin de pouvoir comparer de manière pertinente des taux de mortalité entre différentes départements, il faut procéder à un traitement des taux bruts pour annuler cet effet âge : cette méthode est appelée standardisation.\nLes taux comparatifs de décès, ou taux standardisés, correspondent à des taux de décès calculés comme si la structure d’âge était la même dans tous les départements.\n\n\n\n\n\n\n\n\nDans cet exemple, on peut supposer que les taux de mortalité observés dépendent non pas de la structure d’âge dans chaque région, mais bien de facteurs externes.",
+    "text": "3.3 Taux standardisé de mortalité\n\n3.3.1 Problème\nIndépendamment de ses causes, la mortalité est liée un facteur incontournable : l’âge.\nSi la comparaison entre départements révèle des taux plus élevés dans l’un, cela peut-être dû non pas à des causes externes mais simplement à la structure d’âge du département : la mortalité sera plus élevée si la moyenne d’âge est plus élevée !\nOn dit que l’âge est un facteur de confusion (Section 10.3) dans la mesure des taux comparatifs de mortalité.\n\n\n\n\n\n\n\n\n\n(a) Taux bruts de mortalité\n\n\n\n\n\n\n\n\n\n(b) Part des plus de 75 ans\n\n\n\n\n\n\nFigure 3.2: Taux bruts de mortalité et part des plus de 75 ans en 2023 (en ‰)\n\n\n\n3.3.2 Solution\nAfin de pouvoir comparer de manière pertinente des taux de mortalité entre différentes zones géographiques, il faut procéder à un traitement des taux bruts pour s’affranchir de cet “effet âge” : cette méthode est appelée standardisation.\nLes taux comparatifs de décès, ou taux standardisés, correspondent à des taux de décès calculés comme si la structure d’âge était la même dans tous les départements.\n\n\n\n\n\n\n\nFigure 3.3: Taux standardisés de mortalité prématurée (&lt; 65 ans) en 2023 (en ‰)\n\n\n\n\nDans cet exemple, on peut supposer que les taux de mortalité observés dépendent non pas de la structure d’âge dans chaque région, mais bien de facteurs externes.",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
@@ -237,7 +237,7 @@
     "href": "indic_mort.html#taux-de-létalité",
     "title": "3  Indicateurs de mortalité",
     "section": "\n3.4 Taux de létalité",
-    "text": "3.4 Taux de létalité\nTandis que la mortalité représente le nombre d’individus décédés sur l’ensemble de la population, la létalité représente le nombre de personnes décédés d’une maladie parmi les personnes atteints de cette maladie.\nUn taux de létalité prend pour période d’étude le temps à partir du début de la maladie.\n\\[\n\\mathrm{\n\\frac\n{Nombre \\ de \\ décès \\ d'une \\ maladie \\ sur \\ la \\ période}\n{Nombre \\ de \\ personnes \\ atteintes \\ de \\ la \\ maladie \\ sur \\ la \\ même \\ période}\n}\n\\]\nElle est exprimée en temps depuis le début de la maladie (létalité à 28 jours, à un an, etc.).\nC’est un indicateur de la gravité d’une maladie.\n\n\n\n\n\n\nPendant la première phase de l’épidémie de COVID à Wuhan, la létalité du COVID était de 17,3% pour les cas survenus durant les deux premières semaines de janvier 2020.\n\n\n\nSur 100 cas de COVID survenus durant cette période, 17 sont décédés.\n\n\n\n\n\n\n\n\nUn taux de létalité n’est pas un taux de mortalité spécifique d’une cause de décès\n\n\n\nLa différence se situe au dénominateur :\n\nLe taux de mortalité spécifique du cancer du sein sur une période donnée correspond au nombre de personnes décédées d’un cancer du sein parmi l’ensemble de la population.\nLe taux de létalité du cancer du sein sur cette même période correspond au nombre de personnes décédées d’un cancer du sein parmi les personnes atteintes.\n\nLa mortalité spécifique est un indicateur de la charge globale de la maladie sur la société, tandis que la létalité est cruciale pour comprendre et gérer les risques pour les individus atteints d’une maladie donnée.",
+    "text": "3.4 Taux de létalité\nTandis que la mortalité représente le nombre d’individus décédés sur l’ensemble de la population, la létalité représente le nombre de personnes décédés d’une maladie parmi les personnes atteints de cette maladie.\nUn taux de létalité prend pour période d’étude le temps à partir du début de la maladie.\n\n\\[\n\\mathrm{\n\\frac\n{Nombre \\ de \\ décès \\ d'une \\ maladie}\n{Nombre \\ de \\ personnes \\ atteintes \\ de \\ la \\ maladie}\n\\ \\\ndepuis \\ le \\ début \\ de \\ la \\ maladie\n}\n\\]\n\nElle est exprimée en temps depuis le début de la maladie (e.g. létalité à 28 jours, létalité à un an).\nC’est un indicateur de la gravité d’une maladie.\n\n\n\n\n\n\nPendant la première phase de l’épidémie de COVID à Wuhan, la létalité du COVID était de 17,3% pour les cas survenus durant les deux premières semaines de janvier 2020.\n\n\n\nSur 100 cas de COVID survenus durant cette période, 17 sont décédés.\n\n\n\n\n\n\n\n\nUn taux de létalité n’est pas un taux de mortalité spécifique d’une cause de décès\n\n\n\nLa différence se situe au dénominateur :\n\nLe taux de mortalité spécifique du cancer du sein sur une période donnée correspond au nombre de personnes décédées d’un cancer du sein parmi l’ensemble de la population.\nLe taux de létalité du cancer du sein sur cette même période correspond au nombre de personnes décédées d’un cancer du sein parmi les personnes atteintes.\n\nLa mortalité spécifique est un indicateur de la charge globale de la maladie sur la société, tandis que la létalité est cruciale pour comprendre et gérer les risques pour les individus atteints d’une maladie donnée.",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
@@ -259,7 +259,7 @@
     "href": "indic_mort.html#ce-quil-faut-retenir",
     "title": "3  Indicateurs de mortalité",
     "section": "\n3.6 Ce qu’il faut retenir",
-    "text": "3.6 Ce qu’il faut retenir\n\nLa standardisation est indispensable dès lors qu’on souhaite comparer des taux de mortalité\nFaire la distinction entre mortalité et létalité",
+    "text": "3.6 Ce qu’il faut retenir\n\nLa standardisation est indispensable dès lors qu’on souhaite comparer des taux de mortalité\nFaire la distinction entre mortalité et létalité\n\n\n\nSource : Insee\n\n\n\nFigure 3.1: Taux de mortalité infantile entre 2020 et 2022 (en ‰)\nFigure 3.2 (a): Taux bruts de mortalité\nFigure 3.2 (b): Part des plus de 75 ans\nFigure 3.3: Taux standardisés de mortalité prématurée (&lt; 65 ans) en 2023 (en ‰)",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
@@ -270,7 +270,18 @@
     "href": "indic_morbi.html",
     "title": "4  Indicateurs de morbidité",
     "section": "",
-    "text": "4.1 Incidence\nL’incidence est un taux (Section 2.2).\nIl s’agit d’un taux appliqué à l’apparition de nouveaux cas d’une maladie dans une population.\n\\[\n\\mathrm{\n\\frac\n{Nombre \\ de \\ nouveaux \\ cas \\ survenus \\ pendant \\ une \\ période}\n{Nombre \\ de \\ personnes \\ à \\ risque \\ pendant \\ cette \\ période}\n}\n\\]\nPuisqu’il s’agit d’une mesure prise sur une période, elle est qualifiée de mesure longitudinale (en longueur, d’un point A à un point B).\nL’incidence reflète la vitesse de survenue d’une maladie dans une population.",
+    "text": "4.1 Incidence\nL’incidence est un taux (Section 2.2).\nIl s’agit d’un taux appliqué à l’apparition de nouveaux cas d’une maladie dans une population.\nPuisqu’il s’agit d’une mesure prise sur une période, elle est qualifiée de mesure longitudinale (en longueur, d’un point A à un point B).\nL’incidence reflète la vitesse de survenue d’une maladie dans une population.",
+    "crumbs": [
+      "Indicateurs de santé",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
+    ]
+  },
+  {
+    "objectID": "indic_morbi.html#sec-inc",
+    "href": "indic_morbi.html#sec-inc",
+    "title": "4  Indicateurs de morbidité",
+    "section": "",
+    "text": "\\[\n\\mathrm{\n\\frac\n{Nombre \\ de \\ nouveaux \\ cas \\ d'une \\ maladie}\n{Nombre \\ de \\ personnes \\ à \\ risque \\ de \\ devenir \\ malade}\n\\ \\\nsur \\ une \\ période \\ donnée\n}\n\\]\n\n\n\n\n\n\n\n\n\nExemple",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
@@ -281,7 +292,7 @@
     "href": "indic_morbi.html#sec-prev",
     "title": "4  Indicateurs de morbidité",
     "section": "\n4.2 Prévalence",
-    "text": "4.2 Prévalence\nLa prévalence est une proportion (Section 2.1).\nC’est la proportion de personnes atteintes d’une maladie à un instant donné dans la population.\n\\[\n\\mathrm{\n\\frac\n{Nombre \\ de \\ cas \\ observés}\n{Ensemble \\ de \\ la \\ population}\n}\n\\]\n\n\n\n\n\n\nLors d’une enquête nationale réalisée sur les 3000 femmes enceintes ayant accouché le 15/03/2024, 1150 ont été dépistées positives à la toxoplasmose.\n\n\n\nLa prévalence était de \\(\\frac{1150}{3000}\\) = 0,38\nLe 15/03/2024, la prévalence de la toxoplasmose chez les femmes enceintes était de 38%.\n\n\nDu fait qu’il s’agisse d’une mesure ponctuelle, elle est qualifiée de mesure transversale (à un instant donné, une photographie), en opposition à longitudinale.\nPour qu’une proportion de personnes malades soit constituée au sein d’une population, il faut logiquement que de nouveaux cas soient apparus en amont. Autrement dit, la prévalence d’une maladie est dépendante de son incidence.\nLa prévalence dépend également de la durée d’évolution de la maladie : plus celle-ci augmente, plus la prévalence augmente.",
+    "text": "4.2 Prévalence\nLa prévalence est une proportion (Section 2.1).\nC’est la proportion de personnes atteintes d’une maladie à un instant donné dans la population.\n\n\\[\n\\mathrm{\n\\frac\n{Nombre \\ de \\ cas \\ d'une \\ maladie}\n{Ensemble \\ de \\ la \\ population}\n\\ \\\nà \\ un \\ instant \\ donné\n}\n\\]\n\n\n\n\n\n\n\nLors d’une enquête nationale réalisée sur les 3000 femmes enceintes ayant accouché le 15/03/2024, 1150 ont été dépistées positives à la toxoplasmose.\n\n\n\nLa prévalence était de \\(\\frac{1150}{3000}\\) = 0,38\nLe 15/03/2024, la prévalence de la toxoplasmose chez les femmes enceintes était de 38%.\n\n\nDu fait qu’il s’agisse d’une mesure ponctuelle, elle est qualifiée de mesure transversale (à un instant donné, une photographie), en opposition à longitudinale.\nPour qu’une proportion de personnes malades soit constituée au sein d’une population, il faut logiquement que de nouveaux cas soient apparus en amont. Autrement dit, la prévalence d’une maladie est dépendante de son incidence.\nLa prévalence dépend également de la durée d’évolution de la maladie : plus celle-ci augmente, plus la prévalence augmente.",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
@@ -292,18 +303,18 @@
     "href": "indic_morbi.html#incidence-vs-prévalence",
     "title": "4  Indicateurs de morbidité",
     "section": "\n4.3 Incidence vs prévalence",
-    "text": "4.3 Incidence vs prévalence\nEn clair :\n\n\nLa prévalence est un indicateur statique\n\nElle rend compte de la fréquence d’une maladie à un instant donné\n\n\n\nL’incidence est un indicateur dynamique\n\nElle rend compte de la vitesse à laquelle une maladie survient sur une période donnée\n\n\n\n\n4.3.1 Analogie : la baignoire de l’épidémiologiste\nL’incidence, la prévalence et la relation qui existe entre elles peuvent être illustrées avec la baignoire de l’épidémiologiste.\nCette allégories est constituée classiquement de 4 éléments :\n\nUn robinet ouvert\nUn volume d’eau occupant la baignoire\nUne évacuation\nUne évaporation\n\nLe débit d’eau entrant représente les nouveaux cas de malades : c’est l’incidence.\nLe volume d’eau représente le proportion d’individus malades dans la population : c’est la prévalence.\nL’évacuation symbolise une proportion sortant de la population malade : c’est la mortalité.\nLa mort n’est pas la seule manière de ne plus être malade : il y a aussi la possibilité d’une guérison. Ce 4e élément peut être symbolisé par l’évaporation.\n\n\n\n\n\n\n\n\nEn résumé, il s’agit d’un circuit ouvert avec :\n\nUn volume entrant : l’apparition de nouveaux cas = incidence\n\nUn volume constitué : le nombre de cas constitués = prévalence\n\nUn volume sortant : la mort ou la guérison\n\n\nAinsi, bien que le robinet soit constamment ouvert, la baignoire ne déborde pas. En revanche, s’il y a une limite à la sortie, le volume d’eau aura tendance à augmenter avec le temps.\n\n4.3.2 Exemple : l’infection à VIH\nL’incidence, la prévalence et leur dynamique peuvent être représentées graphiquement à travers l’exemple de l’infection à VIH.\n\n\n\n\n\n\n\n\nL’infection à VIH est pourvoyeuse du SIDA, une maladie pour laquelle il n’y a pas de guérison.\nDe plus les progrès de la médecine ont changé la donne en permettant une augmentation notable de l’espérance de vie, autrement dit en permettant aux gens de moins mourir de la maladie. C’est ainsi qu’on parle de maladie chronique.\nLa prévalence d’une maladie a tendance à augmenter avec le temps, à l’image d’une baignoire qui se remplirait d’eau.\nL’incidence ne suit pas cette tendance. Hors situation d’épidémie, les nouveaux cas d’une maladie apparaissent à une vitesse modérée et constante, à l’image d’un robinet qu’on aurait laissé ouvert.\n\n4.3.3 Facteurs déterminants",
+    "text": "4.3 Incidence vs prévalence\nEn clair :\n\n\nLa prévalence est un indicateur statique\n\n\nElle rend compte de la fréquence d’une maladie à un instant donné\n\n\n\nL’incidence est un indicateur dynamique\n\n\nElle rend compte de la vitesse à laquelle une maladie survient sur une période donnée\n\n\n\n\n4.3.1 Analogie : la baignoire de l’épidémiologiste\nL’incidence, la prévalence et la relation qui existe entre elles peuvent être illustrées avec la baignoire de l’épidémiologiste (Figure 4.1).\nCette allégories est constituée classiquement de 4 éléments :\n\nUn robinet ouvert\nUn volume d’eau occupant la baignoire\nUne évacuation\nUne évaporation\n\nLe débit d’eau entrant représente les nouveaux cas de malades : c’est l’incidence.\nLe volume d’eau représente le proportion d’individus malades dans la population : c’est la prévalence.\nL’évacuation symbolise une proportion sortant de la population malade : c’est la mortalité.\nLa mort n’est pas la seule manière de ne plus être malade : il y a aussi une possibilité de guérison ou rémission. Ce dernier élément peut être symbolisé par l’évaporation.\n\n\n\n\n\n\n\nFigure 4.1: La baignoire de l’épidémiologiste\n\n\n\n\nEn résumé, il s’agit d’un circuit ouvert avec :\n\nUn débit entrant : l’apparition de nouveaux cas = incidence\n\nUn volume constitué : le nombre de cas constitués dans la population = prévalence\n\nUn débit sortant : la mort ou la guérison\n\n\nAinsi, bien que le robinet soit constamment ouvert, la baignoire ne déborde pas. En revanche, s’il y a une limite à la sortie, le niveau d’eau aura tendance à augmenter avec le temps.\n\n4.3.2 Exemple : l’infection à VIH\nL’incidence, la prévalence et leur dynamique peuvent être représentées graphiquement à travers l’exemple de l’infection à VIH.\n\n\n\n\n\n\n\nFigure 4.2: État de l’épidémie de SIDA dans le monde (en millions)\n\n\n\n\nL’infection à VIH est pourvoyeuse du SIDA, une maladie pour laquelle il n’y a pas de guérison.\nDe plus les progrès de la médecine ont changé la donne en permettant une augmentation notable de l’espérance de vie, autrement dit en permettant aux gens de moins mourir de la maladie. C’est ainsi qu’on parle de maladie chronique.\nLa prévalence d’une maladie a tendance à augmenter avec le temps, à l’image d’une baignoire qui se remplirait d’eau.\nL’incidence ne suit pas cette tendance. Hors situation d’épidémie, les nouveaux cas d’une maladie apparaissent à une vitesse modérée et constante, à l’image d’un robinet qu’on aurait laissé ouvert.\n\n4.3.3 Facteurs déterminants\nComment auraient tendance à évoluer l’incidence et la prévalence dans les situations suivantes (augmentation, diminution, stabilité) ?\n\n\n\n\n\n\nAugmentation des facteurs de risque\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nincidence\nprévalence\n\n\n\n\nArrow Up Long\n\n\n\n\nArrow Up Long\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAmélioration de la prise en charge : guérison plus rapide\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nincidence\nprévalence\n\n\n\n\nArrow Right Long\n\n\n\n\nArrow Down Long\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAmélioration de la prise en charge : survie plus longue\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nincidence\nprévalence\n\n\n\n\nArrow Right Long\n\n\n\n\nArrow Up Long\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAmélioration des méthodes diagnostiques\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nincidence\nprévalence\n\n\n\n\nArrow Up Long\n\n\n\n\nArrow Up Long\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMeilleure déclaration\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nincidence\nprévalence\n\n\n\n\nArrow Up Long\n\n\n\n\nArrow Up Long\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChangement de définition de la maladie\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nincidence\nprévalence\n\n\n\n\nQuestion\n\n\n\n\nQuestion",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
     ]
   },
   {
-    "objectID": "indic_morbi.html#incidence-prévalence",
-    "href": "indic_morbi.html#incidence-prévalence",
+    "objectID": "indic_morbi.html#incidence-ou-prévalence",
+    "href": "indic_morbi.html#incidence-ou-prévalence",
     "title": "4  Indicateurs de morbidité",
-    "section": "\n4.4 Incidence ? Prévalence ?",
-    "text": "4.4 Incidence ? Prévalence ?\n\n\n\n\n\n\nSur les 30 derniers jours, 15 patients ont été hospitalisés en réanimation pour septicémie.\n\n\n\n\n\nNombre de nouveaux cas sur une période donnée : c’est une incidence\n\n\n\n\n\n\n\n\n\nAu 01/01/2024, il y avait 5% de cas de cancer de la prostate chez les hommes habitant dans la région Hauts-de-France.\n\n\n\n\n\nProportion à un instant donné : c’est une prévalence",
+    "section": "\n4.4 Incidence ou prévalence ?",
+    "text": "4.4 Incidence ou prévalence ?\n\n\n\n\n\n\nSur les 30 derniers jours, 15 patients ont été hospitalisés en réanimation pour septicémie\n\n\n\n\n\nNombre de nouveaux cas sur une période donnée : c’est une incidence\n\n\n\n\n\n\n\n\n\nAu 01/01/2024, il y avait 5% de cas de cancer de la prostate chez les hommes habitant dans la région Hauts-de-France\n\n\n\n\n\nProportion à un instant donné : c’est une prévalence",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
@@ -314,7 +325,7 @@
     "href": "indic_morbi.html#ce-quil-faut-retenir",
     "title": "4  Indicateurs de morbidité",
     "section": "\n4.5 Ce qu’il faut retenir",
-    "text": "4.5 Ce qu’il faut retenir\n\nBien différencier incidence et prévalence (penser à la baignoire !)\nComprendre l’évolution de l’incidence et de la prévalence\nLa prévalence est dépendante de l’incidence",
+    "text": "4.5 Ce qu’il faut retenir\n\nBien différencier incidence et prévalence (penser à la baignoire !)\nComprendre l’évolution de l’incidence et de la prévalence\nLa prévalence est dépendante de l’incidence\n\n\n\n\nFigure 4.1: La baignoire de l’épidémiologiste\nFigure 4.2: État de l’épidémie de SIDA dans le monde (en millions)",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
@@ -343,11 +354,11 @@
     ]
   },
   {
-    "objectID": "sources_base.html#déclaration-obligatoire",
-    "href": "sources_base.html#déclaration-obligatoire",
+    "objectID": "sources_base.html#sec-mdo",
+    "href": "sources_base.html#sec-mdo",
     "title": "5  Recueils systématiques",
     "section": "5.2 Déclaration obligatoire",
-    "text": "5.2 Déclaration obligatoire\nLa liste des maladies à déclaratoire obligatoire\n\nRepose sur un système de transmission de données individuelles à l’autorité sanitaire - Recueil exhaustif car obligatoire\n2 procédures dans la transmission des données\n\nSignalement\nNotification\n\n38 maladies à déclaration obligatoire\n\nliste MDO\nButs :\n\nAgir et prévenir le risque d’épidémie\nAnalyser l’évolution dans le temps de ces maladies\nAdapter les politiques de santé publique aux besoins de la population\n\nDéclaration d’une maladie à DO - Signalement\n\nEn urgence, sans délai\nPar les médecins et biologiste\nDès suspicion\nAuprès des médecins inspecteurs de santé publique de l’ARS\nPas de support dédié (fax, téléphone…)\nDonnées nominatives\n\nPour figurer sur cette liste, les maladies doivent répondre à deux types de critères :\n\nDes critères principaux\nDes critères de faisabilité\n\nimg rougeole",
+    "text": "5.2 Déclaration obligatoire\nIl existe une liste des maladies à déclaratoire obligatoire\n\nRepose sur un système de transmission de données individuelles à l’autorité sanitaire\nRecueil exhaustif car obligatoire\n2 procédures dans la transmission des données\n\nSignalement\nNotification\n\n38 maladies à déclaration obligatoire\n\nButs :\n\nAgir et prévenir le risque d’épidémie\nAnalyser l’évolution dans le temps de ces maladies\nAdapter les politiques de santé publique aux besoins de la population\n\nDéclaration d’une maladie à DO - Signalement\n\nEn urgence, sans délai\nPar les médecins et biologiste\nDès suspicion\nAuprès des médecins inspecteurs de santé publique de l’ARS\nPas de support dédié (fax, téléphone…)\nDonnées nominatives\n\nPour figurer sur cette liste, les maladies doivent répondre à deux types de critères :\n\nDes critères principaux\nDes critères de faisabilité\n\nimg rougeole",
     "crumbs": [
       "Sources des indicateurs",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
@@ -358,7 +369,7 @@
     "href": "sources_base.html#systèmes-sentinelles",
     "title": "5  Recueils systématiques",
     "section": "5.3 Systèmes sentinelles",
-    "text": "5.3 Systèmes sentinelles\nLes systèmes sentinelles sont des\n\nEnsemble de professionnels de la santé (principalement des médecins) regroupés au sein d’un réseau\nLes professionnels s’engagent à signaler tous les cas de maladies surveillées par le système sentinelle auprès d’un centre coordinateur\nSystème basé sur le volontariat\nObjectif : repérer rapidement le début de certaines épidémies\nL’exhaustivité sur un territoire donnée n’est pas recherchée mais des efforts sont faits dans une zone donnée pour arriver à un certain degré de représentativité\nCollaboration entre médecins généralistes et chercheurs\nRéseau 1300 médecins généralistes français répartis sur l’ensemble du territoire métropolitain\nObjectifs : recueil, analyse, prévision et redistribution en temps réel de données épidémiologiques issues de l’activité des médecins généralistes libéraux\n\nSurveillance continue de 9 indicateurs\n\nSyndromes grippaux\nDiarrhée aiguë\nOreillons\nVaricelle\nUrétrite masculine\nZona\nBorréliose de Lyme\nSuicide et tentative de suicide\nCoqueluche\n\nimg carte",
+    "text": "5.3 Systèmes sentinelles\nLe réseau Sentinelles est un système de surveillance épidémiologique continue basé sur le volontariat.\nIl permet le recueil, l’analyse, la prévision et l’extrapolation en temps réel de données issues de l’activité de 1300 médecins généralistes libéraux répartis sur l’ensemble du territoire métropolitain.\nLes professionnels de santé appartenant à ce réseau s’engagent à signaler tous les cas de maladies surveillées auprès d’un centre coordinateur.\nTout comme le système de déclaration obligatoire (#sec-mdo), l’objectif est de repérer et contrôler l’émergence de potentielles épidémies.\nToutefois puisqu’il s’agit d’une déclaration volontaire, l’exhaustivité ne peut pas être recherchée, mais des efforts sont faits au niveau local afin d’arriver à un certain degré de représentativité.\n9 indicateurs bénéficient actuellement d’une surveillance continue :\n\nDiarrhée aiguë\nInfection respiratoire aiguë (syndromes grippaux et COVID-19)\nVaricelle\nOreillons\nUrétrite masculine\nZona\nBorréliose de Lyme\nCoqueluche\n\nSuicide et tentative de suicide\n\nLa situation des trois premières est actualisée chaque semaine et représentée graphiquement à un niveau national via une extrapolation des données obtenues localement.\n\n\n\n\n\n\n\n\n\n\n\n(a) Diarrhée aiguë\n\n\n\n\n\n\n\n\n\n\n\n(b) Infection respiratoire aiguë\n\n\n\n\n\n\n\n\n\n\n\n(c) Varicelle\n\n\n\n\n\n\n\nFigure 5.1: Situation observée en France métropolitaine par le réseau Sentinelles, semaine du 08 au 14/04/24",
     "crumbs": [
       "Sources des indicateurs",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
@@ -380,7 +391,7 @@
     "href": "sources_base.html#limites",
     "title": "5  Recueils systématiques",
     "section": "5.5 Limites",
-    "text": "5.5 Limites\n\n\nInformations limitées\n\nLes données que vous avez peuvent être incomplètes ou ne pas couvrir tous les aspects nécessaires pour une évaluation complète. Cela requiert une approche prudente dans l’interprétation des résultats et dans les décisions de soins basées sur ces données.\n\nPas de choix des données\n\nSouvent, dans le contexte clinique ou lors d’études épidémiologiques, vous devez travailler avec les données disponibles, qui ne sont pas toujours celles que vous auriez choisies. Cela peut affecter la manière dont vous interprétez et utilisez ces informations dans votre pratique.\n\nPas de définition standardisée\n\nDans le domaine de la santé, toutes les institutions ou études ne suivent pas les mêmes définitions pour les termes ou les critères diagnostiques. Cette variabilité peut conduire à des confusions ou à des erreurs d’interprétation si elle n’est pas correctement gérée.\n\nPas de contrôle de qualité des données\n\nLes données peuvent souvent être de qualité variable, sans vérifications ou contrôles standard pour assurer leur fiabilité. Il est essentiel de comprendre les limites de ces données pour éviter des conclusions erronées.\n\n\n\nPour pallier ces limitations, il est nécessaire de passer par la réalisation d’enquêtes spécifiques.",
+    "text": "5.5 Limites\n\n\nInformations limitées\n\nLes données que vous avez peuvent être incomplètes ou ne pas couvrir tous les aspects nécessaires pour une évaluation complète. Cela requiert une approche prudente dans l’interprétation des résultats et dans les décisions de soins basées sur ces données.\n\nPas de choix des données\n\nSouvent, dans le contexte clinique ou lors d’études épidémiologiques, vous devez travailler avec les données disponibles, qui ne sont pas toujours celles que vous auriez choisies. Cela peut affecter la manière dont vous interprétez et utilisez ces informations dans votre pratique.\n\nPas de définition standardisée\n\nDans le domaine de la santé, toutes les institutions ou études ne suivent pas les mêmes définitions pour les termes ou les critères diagnostiques. Cette variabilité peut conduire à des confusions ou à des erreurs d’interprétation si elle n’est pas correctement gérée.\n\nPas de contrôle de qualité des données\n\nLes données peuvent souvent être de qualité variable, sans vérifications ou contrôles standard pour assurer leur fiabilité. Il est essentiel de comprendre les limites de ces données pour éviter des conclusions erronées.\n\n\n\nPour pallier ces limitations, il est nécessaire de passer par la réalisation d’enquêtes spécifiques.\n\n\n\nFigure 5.1 (a): Diarrhée aiguë\nFigure 5.1 (b): Infection respiratoire aiguë\nFigure 5.1 (c): Varicelle",
     "crumbs": [
       "Sources des indicateurs",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
@@ -446,7 +457,7 @@
     "href": "erreur_def.html",
     "title": "8  Définition de l’erreur",
     "section": "",
-    "text": "La “vraie” valeur d’un indicateur est estimée par la mesure que l’on fait de cet indicateur.\nOn attend notamment de cette mesure :\n\nQu’elle fournisse la même valeur lorsqu’on la reproduit : sa fiabilité\nQu’elle corresponde bien à la “vraie” valeur : sa validité\n\nUne mesure peut parfois s’écarter de la “vraie” valeur, à laquelle nous n’avons pas accès : c’est ce qu’on peut appeler une erreur de mesure.\nUne erreur peut se produire par deux mécanismes, illustrés avec l’exemple suivant.\n\n\n\n\n\n\nexemple température, partie 2 (Section 2.7)\n\n\n\nL’erreur de calibrage de l’appareil, aboutissant à une surestimation de la température de 1°C, est une erreur prévisible. Elle se produit à chaque mesure, toujours dans le même sens. On peut dire de l’appareil qu’il est biaisé.\nD’autre part,\n\n\nEn résumé, on retrouve donc 2 grands types d’erreurs :\n\nLa fluctuation d’échantillonnage : une erreur imprévisible, liée au hasard, dite “aléatoire”\nLe biais : une erreur prévisible, non liée au hasard, dite “systématique”\n\n\n\n\n\n\n\nErreur ou écart ?\n\n\n\nLa notion d’erreur doit donc ici être comprise dans un sens large, non seulement comme une erreur de mesure, mais comme un écart par rapport à la réalité.",
+    "text": "La “vraie” valeur d’un indicateur est estimée par la mesure que l’on fait de cet indicateur.\nOn attend notamment de cette mesure :\n\nQu’elle fournisse la même valeur lorsqu’on la reproduit : sa fiabilité\nQu’elle corresponde bien à la “vraie” valeur : sa validité\n\nUne mesure peut parfois s’écarter de la “vraie” valeur, à laquelle nous n’avons pas accès : c’est ce qu’on peut appeler une erreur de mesure.\nUne erreur peut se produire par deux mécanismes, illustrés avec l’exemple suivant.\n\n\n\n\n\n\nexemple température, partie 2 (Section 2.7)\n\n\n\nL’erreur de calibrage de l’appareil, aboutissant à une surestimation de la température de 1°C, est une erreur prévisible. Elle se produit à chaque mesure, toujours dans le même sens. On peut dire de l’appareil qu’il est biaisé.\nD’autre part,\n\n\nEn résumé, on retrouve donc 2 grands types d’erreurs :\n\nLa fluctuation d’échantillonnage : une erreur imprévisible, liée au hasard, dite aléatoire (Chapitre 9)\nLe biais : une erreur prévisible, non liée au hasard, dite systématique (Chapitre 10)\n\n\n\n\n\n\n\nErreur ou écart ?\n\n\n\nLa notion d’erreur doit donc ici être comprise dans un sens large, non seulement comme une erreur de mesure, mais comme un écart par rapport à la réalité.",
     "crumbs": [
       "Erreurs de mesure",
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Définition de l'erreur</span>"
@@ -455,45 +466,67 @@
   {
     "objectID": "erreur_fluct.html",
     "href": "erreur_fluct.html",
-    "title": "9  Fluctuations d’échantillonnage",
+    "title": "9  Fluctuation d’échantillonnage",
     "section": "",
-    "text": "9.1 Quel est le problème ?",
+    "text": "9.1 La variabilité individuelle\nDans l’exemple de la prise de température chez vos patients (Chapitre 8), on a vu que la mesure était soumise à des fluctuations d’échantillonnage.\nPourtant, parler de fluctuations d’échantillonnage ici peut porter à confusion. On comprend le terme de fluctuation, synonyme de variabilité, en revanche on ne voit pas bien de quel échantillon il peut s’agir.\nLa notion de variabilité individuelle est dans ce cas plus concrète : vous prenez la température chez des individus, et le résultat varie.\nLa variabilité individuelle peut intervenir à deux niveaux :",
     "crumbs": [
       "Erreurs de mesure",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Fluctuations d'échantillonnage</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Fluctuation d'échantillonnage</span>"
+    ]
+  },
+  {
+    "objectID": "erreur_fluct.html#la-variabilité-individuelle",
+    "href": "erreur_fluct.html#la-variabilité-individuelle",
+    "title": "9  Fluctuation d’échantillonnage",
+    "section": "",
+    "text": "Entre les individus (= interindividuelle)\n\nEntre deux patients, la mesure de température ne donne pas la même valeur.\n\n\n\nChez un même individu (= intraindividuelle)\n\nLa mesure de température répétée chez un même patient peut donner des valeurs différentes.\n\n\n\n\n\n\n\n\n\nLa variabilité individuelle est présente dans plein de situations\n\n\n\n\nExemple vaccination\nExemple chirurgie\nExemple ostéopathie\n\n\n\n\n\n\n\n\n\nPour plus de simplicité, fluctuation d’échantillonnage et variabilité individuelle peuvent ici être considérées synonymes et utilisées de façon interchangeable.",
+    "crumbs": [
+      "Erreurs de mesure",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Fluctuation d'échantillonnage</span>"
+    ]
+  },
+  {
+    "objectID": "erreur_fluct.html#quel-est-le-problème",
+    "href": "erreur_fluct.html#quel-est-le-problème",
+    "title": "9  Fluctuation d’échantillonnage",
+    "section": "9.2 Quel est le problème ?",
+    "text": "9.2 Quel est le problème ?\nReprenons l’exemple de la prévalence obésité…\non obtient 20% dans échantillon, puis on généralise à la population\nIl y a donc un problème : en raison de la variabilité individuelle, il n’est pas suffisant de présenter cette valeur seule.\nSolution ? Présenter cette valeur, non pas seule, mais accompagnée d’un intervalle qui rend compte de la variabilité autour de cette valeur.",
+    "crumbs": [
+      "Erreurs de mesure",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Fluctuation d'échantillonnage</span>"
     ]
   },
   {
     "objectID": "erreur_fluct.html#une-solution-lintervalle-de-confiance",
     "href": "erreur_fluct.html#une-solution-lintervalle-de-confiance",
-    "title": "9  Fluctuations d’échantillonnage",
-    "section": "9.2 Une solution : l’intervalle de confiance",
-    "text": "9.2 Une solution : l’intervalle de confiance",
+    "title": "9  Fluctuation d’échantillonnage",
+    "section": "9.3 Une solution : l’intervalle de confiance",
+    "text": "9.3 Une solution : l’intervalle de confiance\nCet intervalle est appelé intervalle de confiance.\nEn pratique, on parle donc d’intervalle de confiance à 95%.\nPourquoi “confiance” ?",
     "crumbs": [
       "Erreurs de mesure",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Fluctuations d'échantillonnage</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Fluctuation d'échantillonnage</span>"
     ]
   },
   {
     "objectID": "erreur_fluct.html#exemple",
     "href": "erreur_fluct.html#exemple",
-    "title": "9  Fluctuations d’échantillonnage",
-    "section": "9.3 Exemple",
-    "text": "9.3 Exemple\nIntervalle de confiance à 95% d’une prévalence\nUne maladie a une prévalence de 20% dans un échantillon de 100 personnes tirées au sort en population générale.\nInterprétation : dans la population générale, il y a 95% de chance pour que la vraie prévalence de la maladie soit comprise entre 12 et 28% IC95% [0,12 – 0,28]",
+    "title": "9  Fluctuation d’échantillonnage",
+    "section": "9.4 Exemple",
+    "text": "9.4 Exemple\nIntervalle de confiance à 95% d’une prévalence\nUne maladie a une prévalence de 20% dans un échantillon de 100 personnes tirées au sort en population générale.\nInterprétation : dans la population générale, il y a 95% de chance pour que la vraie prévalence de la maladie soit comprise entre 12 et 28% IC95% [0,12 – 0,28]",
     "crumbs": [
       "Erreurs de mesure",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Fluctuations d'échantillonnage</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Fluctuation d'échantillonnage</span>"
     ]
   },
   {
-    "objectID": "erreur_fluct.html#en-bref",
-    "href": "erreur_fluct.html#en-bref",
-    "title": "9  Fluctuations d’échantillonnage",
-    "section": "9.4 En bref",
-    "text": "9.4 En bref\n\nErreurs aléatoires\nDiminuent en augmentant la taille de l’échantillon\nJustifient la réalisation de tests statistiques\nPrises en compte dans la présentation des résultats (intervalle de confiance)",
+    "objectID": "erreur_fluct.html#ce-quil-faut-retenir",
+    "href": "erreur_fluct.html#ce-quil-faut-retenir",
+    "title": "9  Fluctuation d’échantillonnage",
+    "section": "9.5 Ce qu’il faut retenir",
+    "text": "9.5 Ce qu’il faut retenir\n\nFluctuations d’échantillonnage = erreurs aléatoires\nPrises en compte dans la présentation des résultats (intervalle de confiance)\nDiminuent en augmentant la taille de l’échantillon",
     "crumbs": [
       "Erreurs de mesure",
-      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Fluctuations d'échantillonnage</span>"
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Fluctuation d'échantillonnage</span>"
     ]
   },
   {
@@ -501,7 +534,7 @@
     "href": "erreur_biais.html",
     "title": "10  Biais",
     "section": "",
-    "text": "10.1 Biais de sélection\nBiais intervenant lors de la constitution de l’échantillon ou du suivi des sujets conduisant à ce que l’échantillon ne soit pas représentatif de la population cible\nRetrouvé lors de la constitution :\nLa sélection n’engendre pas systématiquement un biais",
+    "text": "10.1 Biais de sélection\nBiais intervenant lors de la constitution de l’échantillon ou du suivi des sujets conduisant à ce que l’échantillon ne soit pas représentatif de la population cible\nRetrouvé lors de la constitution :",
     "crumbs": [
       "Erreurs de mesure",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Biais</span>"
@@ -512,7 +545,7 @@
     "href": "erreur_biais.html#sec-biais-sel",
     "title": "10  Biais",
     "section": "",
-    "text": "De la population source\nDe l’échantillon (nécessité de l’accord de participation)\n\nA l’entrée dans l’étude (non répondant, refus)\n\nTaux de participation\n= Comparaison, des sujets répondants vs non répondants\n\nLors du suivi (cas d’une cohorte)\n\nTaux d’attrition (perdus de vue)\n= Comparaison des caractéristiques PDV vs sujets suivis\n\n\n\n\n\n\n\n\n\n\nExemple\n\n\n\nSélection sur liste électorale vs annuaire",
+    "text": "De la population source\nDe l’échantillon (nécessité de l’accord de participation)\n\nA l’entrée dans l’étude (non répondant, refus)\n\nTaux de participation\n= Comparaison, des sujets répondants vs non répondants\n\nLors du suivi (cas d’une cohorte)\n\nTaux d’attrition (perdus de vue)\n= Comparaison des caractéristiques PDV vs sujets suivis\n\n\n\n\n\n\n\n\n\nLa sélection n’engendre pas systématiquement un biais\n\n\n\n\n\n\n\n\n\n\n\n\nSélection sur liste électorale vs annuaire",
     "crumbs": [
       "Erreurs de mesure",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Biais</span>"
@@ -534,7 +567,7 @@
     "href": "erreur_biais.html#sec-biais-conf",
     "title": "10  Biais",
     "section": "10.3 Biais de confusion",
-    "text": "10.3 Biais de confusion\n\nCes biais vont être liés à l’intervention d’un ou de plusieurs tiers facteurs\nIls sont particulièrement redoutés en épidémiologie analytique\nEn épidémiologie descriptive, peuvent intervenir lorsqu’on compare les taux provenant de plusieurs populations différentes\n\n\n\n\n\n\n\nComparer les taux bruts de mortalité de la région Nord-Pas-de-Calais (région jeune) à ceux de la région Limousin (région âgée)",
+    "text": "10.3 Biais de confusion\n\nCes biais vont être liés à l’intervention d’un ou de plusieurs tiers facteurs\n\nintervient surtout lorsqu’on recherche des causes : il est donc particulièrement redouté en épidémiologie analytique.\n\n\n\n\n\n\nSélection sur liste électorale vs annuaire\n\n\n\n\n\n\nEn épidémiologie descriptive, peuvent intervenir lorsqu’on compare les taux provenant de plusieurs populations différentes\n\n\n\n\n\n\nComparaison des taux bruts de mortalité entre le Nord et la Creuse\n\n\n\nLe Nord est une département plutôt jeune ; la Creuse est une département plutôt âgé.\nLa structure d’âge est donc à l’origine un biais de confusion dans la comparaison de taux bruts de mortalité. On dit que c’est un facteur de confusion.\nIl s’agit bien d’une erreur prévisible ayant une direction prédéterminée : un âge plus élevé est systématiquement associé à un taux de mortalité plus élevé.\nIl existe une méthode pour s’affranchir de ce biais : la standardisation (Section 3.3).",
     "crumbs": [
       "Erreurs de mesure",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Biais</span>"

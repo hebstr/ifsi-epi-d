@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="| IFSI 1A - UE 1.2 Santé Publique">
+<meta name="description" content="| IFSI 1A - UE 1.2-S2 Santé Publique">
 
 <title>Épidémiologie descriptive - 10&nbsp; Biais</title>
 <style>
@@ -107,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./"><strong>Épidémiologie descriptive</strong></a> 
+      <a href="./">Épidémiologie descriptive</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -205,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./erreur_fluct.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Fluctuations d'échantillonnage</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Fluctuation d'échantillonnage</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -255,7 +255,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Erreur ou écart systématique présentant une direction privilégiée et prévisible</p>
+<p>Un biais est une erreur prévisible, qui se produit systématiquement dans une direction prédéterminée. C’est pour cette raison qu’elle est qualifiée d’erreur <span class="cb">systématique</span>.</p>
 <p>Conséquences :</p>
 <ul>
 <li>Diminution de la puissance de l’étude</li>
@@ -267,6 +267,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Biais de <span class="cb">classement</span></li>
 <li>Biais de <span class="cb">confusion</span></li>
 </ul>
+<p>Alors que la fluctuation d’échantillon est une erreur d’origine statistique, le biais est une erreur d’origine <span class="cb">méthodologique</span>. La manière de s’en prémunir est donc d’élaborer une méthode, <span class="cb">une réflexion préalable</span> qui sera différente selon le contexte et type de biais.</p>
 <section id="sec-biais-sel" class="level2" data-number="10.1">
 <h2 data-number="10.1" class="anchored" data-anchor-id="sec-biais-sel"><span class="header-section-number">10.1</span> Biais de sélection</h2>
 <p>Biais intervenant lors de la constitution de l’échantillon ou du suivi des sujets conduisant à ce que l’échantillon ne soit pas représentatif de la population cible</p>
@@ -287,18 +288,30 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 </ul></li>
 </ul>
-<p><strong>La sélection n’engendre pas systématiquement un biais</strong></p>
+<div class="callout callout-style-simple callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+La sélection n’engendre pas systématiquement un biais
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Exemple
+Sélection sur liste électorale vs annuaire
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Sélection sur liste électorale vs annuaire</p>
+
 </div>
 </div>
 </section>
@@ -317,20 +330,36 @@ Exemple
 <h2 data-number="10.3" class="anchored" data-anchor-id="sec-biais-conf"><span class="header-section-number">10.3</span> Biais de confusion</h2>
 <ul>
 <li>Ces biais vont être liés à l’intervention d’un ou de plusieurs tiers facteurs</li>
-<li>Ils sont particulièrement redoutés en épidémiologie analytique</li>
-<li>En épidémiologie descriptive, peuvent intervenir lorsqu’on compare les taux provenant de plusieurs populations différentes</li>
 </ul>
+<p>intervient surtout lorsqu’on recherche des causes : il est donc particulièrement redouté en épidémiologie analytique.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Comparer les taux bruts de mortalité de la région Nord-Pas-de-Calais (région jeune) à ceux de la région Limousin (région âgée)
+Sélection sur liste électorale vs annuaire
 </div>
 </div>
 <div class="callout-body-container callout-body">
 
+</div>
+</div>
+<p>En épidémiologie descriptive, peuvent intervenir lorsqu’on compare les taux provenant de plusieurs populations différentes</p>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Comparaison des taux bruts de mortalité entre le Nord et la Creuse
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Le Nord est une département plutôt jeune ; la Creuse est une département plutôt âgé.</p>
+<p>La structure d’âge est donc à l’origine un biais de confusion dans la comparaison de taux bruts de mortalité. On dit que c’est un facteur de confusion.</p>
+<p>Il s’agit bien d’une erreur prévisible ayant une direction prédéterminée : un âge plus élevé est systématiquement associé à un taux de mortalité plus élevé.</p>
+<p>Il existe une méthode pour s’affranchir de ce biais : la <span class="cb">standardisation</span> (<a href="indic_mort.html#sec-stand" class="quarto-xref"><span>Section 3.3</span></a>).</p>
 </div>
 </div>
 </section>
@@ -679,7 +708,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
       <a href="./erreur_fluct.html" class="pagination-link  aria-label=" &lt;span="" d&#39;échantillonnage&lt;="" span&gt;"="">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Fluctuations d’échantillonnage</span></span>
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Fluctuation d’échantillonnage</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">

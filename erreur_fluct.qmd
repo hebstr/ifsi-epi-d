@@ -1,16 +1,67 @@
-# Fluctuations d'échantillonnage {#sec-fluct}
+# Fluctuation d'échantillonnage {#sec-fluct}
 
-- Erreurs aléatoires liées au hasard 
-- Diminuent en augmentant la taille de l'échantillon 
-- Prises en compte dans la présentation des résultats : Intervalle de confiance à 95%
+Une fluctuation d'échantillonnage est une erreur imprévisible, liée au hasard. 
+C'est pour cette raison qu'elle est qualifiée d'erreur [aléatoire]{.cb}.
+
+Il existe synonyme : variation, de variabilité, de "bruit".
+
+Un échantillon est composé d'[individus]{.cb}, au sens premier du terme (c'est-à-dire d'unités indivisibles, que ce soit la personne humaine ou non).
+
+En pratique, on parle alors souvent de [variabilité individuelle]{.cb}.
+
+
+## La variabilité individuelle
+
+
+Dans l'exemple de la prise de température chez vos patients (@sec-err), on a vu que la mesure était soumise à des fluctuations d'échantillonnage.
+
+Pourtant, parler de fluctuations d'échantillonnage ici peut porter à confusion.
+On comprend le terme de fluctuation, synonyme de variabilité, en revanche on ne voit pas bien de quel échantillon il peut s'agir.
+
+La notion de [variabilité individuelle]{.cb} est dans ce cas plus concrète : vous prenez la température chez des [individus]{.cb}, et le résultat [varie]{.cb}.
+
+La variabilité individuelle peut intervenir à deux niveaux :
+
+- Entre les individus (= [inter]{.cb}individuelle)
+: Entre deux patients, la mesure de température ne donne pas la même valeur.  
+
+- Chez un même individu (= [intra]{.cb}individuelle) 
+: La mesure de température répétée chez un même patient peut donner des valeurs différentes. 
+
+
+::: callout-tip
+## La variabilité individuelle est présente dans plein de situations
+
+- Exemple vaccination
+- Exemple chirurgie
+- Exemple ostéopathie
+:::
+
+::: callout-note
+## Pour plus de simplicité, fluctuation d'échantillonnage et variabilité individuelle peuvent ici être considérées synonymes et utilisées de façon interchangeable.
+:::
 
 
 ## Quel est le problème ?
 
+Reprenons l'exemple de la prévalence obésité...
 
+on obtient 20% dans échantillon, puis on généralise à la population
+
+Il y a donc un problème : en raison de la variabilité individuelle, il n'est pas suffisant de présenter cette valeur seule.
+
+Solution ? Présenter cette valeur, non pas seule, mais accompagnée d'un [intervalle]{.cb} qui rend compte de la [variabilité autour de cette valeur]{.cb}.
 
 
 ## Une solution : l'intervalle de confiance
+
+Cet intervalle est appelé [intervalle de confiance]{.cb}.
+
+
+
+En pratique, on parle donc d'intervalle de confiance à 95%.
+
+Pourquoi "confiance" ?
 
 
 
@@ -21,13 +72,14 @@ Intervalle de confiance à 95% d'une prévalence
 
 Une maladie a une prévalence de 20% dans un échantillon de 100 personnes tirées au sort en population générale.
 
+
+
 Interprétation : dans la population générale, il y a 95% de chance pour que la vraie prévalence de la maladie soit comprise entre 12 et 28% IC95% [0,12 – 0,28]
 
 
-## En bref
+## Ce qu'il faut retenir
 
-- Erreurs aléatoires
-- Diminuent en augmentant la taille de l'échantillon
-- Justifient la réalisation de tests statistiques
+- Fluctuations d'échantillonnage = erreurs aléatoires
 - Prises en compte dans la présentation des résultats (intervalle de confiance)
+- Diminuent en augmentant la taille de l'échantillon 
 

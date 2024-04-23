@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.4.537">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<meta name="description" content="| IFSI 1A - UE 1.2 Santé Publique">
+<meta name="description" content="| IFSI 1A - UE 1.2-S2 Santé Publique">
 <title>Épidémiologie descriptive - 3&nbsp; Indicateurs de mortalité</title>
 <style>
 code{white-space: pre-wrap;}
@@ -119,7 +119,7 @@ window.Quarto = {
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto"><div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./"><strong>Épidémiologie descriptive</strong></a> 
+      <a href="./">Épidémiologie descriptive</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -217,7 +217,7 @@ window.Quarto = {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./erreur_fluct.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Fluctuations d'échantillonnage</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Fluctuation d'échantillonnage</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -239,7 +239,7 @@ window.Quarto = {
 <li><a href="#taux-brut-de-mortalit%C3%A9" id="toc-taux-brut-de-mortalité" class="nav-link active" data-scroll-target="#taux-brut-de-mortalit%C3%A9"><span class="header-section-number">3.1</span> Taux brut de mortalité</a></li>
   <li><a href="#taux-sp%C3%A9cifique-de-mortalit%C3%A9" id="toc-taux-spécifique-de-mortalité" class="nav-link" data-scroll-target="#taux-sp%C3%A9cifique-de-mortalit%C3%A9"><span class="header-section-number">3.2</span> Taux spécifique de mortalité</a></li>
   <li>
-<a href="#taux-standardis%C3%A9-de-mortalit%C3%A9" id="toc-taux-standardisé-de-mortalité" class="nav-link" data-scroll-target="#taux-standardis%C3%A9-de-mortalit%C3%A9"><span class="header-section-number">3.3</span> Taux standardisé de mortalité</a>
+<a href="#sec-stand" id="toc-sec-stand" class="nav-link" data-scroll-target="#sec-stand"><span class="header-section-number">3.3</span> Taux standardisé de mortalité</a>
   <ul class="collapse">
 <li><a href="#probl%C3%A8me" id="toc-problème" class="nav-link" data-scroll-target="#probl%C3%A8me"><span class="header-section-number">3.3.1</span> Problème</a></li>
   <li><a href="#solution" id="toc-solution" class="nav-link" data-scroll-target="#solution"><span class="header-section-number">3.3.2</span> Solution</a></li>
@@ -279,13 +279,17 @@ window.Quarto = {
 <section id="taux-brut-de-mortalité" class="level2" data-number="3.1"><h2 data-number="3.1" class="anchored" data-anchor-id="taux-brut-de-mortalité">
 <span class="header-section-number">3.1</span> Taux brut de mortalité</h2>
 <p>Un <span class="cb">taux brut de mortalité</span> est un taux appliqué à <span class="cb">la survenue de décès</span> dans une population.</p>
+<blockquote class="blockquote">
 <p><span class="math display">\[
 \mathrm{
 \frac
-{Nombre \ de \ décès \ sur \ une \ période}
-{Effectif \ de \ la \ population \ sur \ la \ même \ période}
+{Nombre \ de \ décès}
+{Ensemble \ de \ la \ population}
+\ \
+sur \ une \ période \ donnée
 }
 \]</span></p>
+</blockquote>
 <p>Il est généralement calculé sur un an et exprimé en taux pour 1000.</p>
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -313,24 +317,40 @@ La phrase suivante n’est pas très intuitive :</p>
 </section><section id="taux-spécifique-de-mortalité" class="level2" data-number="3.2"><h2 data-number="3.2" class="anchored" data-anchor-id="taux-spécifique-de-mortalité">
 <span class="header-section-number">3.2</span> Taux spécifique de mortalité</h2>
 <p>Un <span class="cb">taux spécifique de mortalité</span> est un taux de mortalité dans lequel on tient compte d’un autre paramètre. Il s’agit le plus souvent de taux spécifiques par sexe, par tranches d’âges, ou par causes de décès.</p>
+<blockquote class="blockquote">
 <p><span class="math display">\[
 \mathrm{
 \frac
-{Nombre \ de \ décès \ dans \ le \ sous-groupe \ sur \ une \ période}
-{Effectif \ de \ la \ population \ dans \ le \ sous-groupe \ sur \ la \ même \ période}
+{Nombre \ de \ décès \ dans \ le \ sous-groupe}
+{Effectif \ de \ la \ population \ dans \ le \ sous-groupe}
+\ \
+sur \ une \ période \ donnée
 }
 \]</span></p>
+</blockquote>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-En 2022, le taux de mortalité infantile était de 3,8 pour 1000 naissances.
+En France, entre 2020 et 2022, le taux de mortalité infantile était de 3,7 pour 1000 naissances vivantes.
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Sur 1000 enfants nés en 2023, environ 4 sont décédés avant l’âge de 12 mois.</p>
+<p>Sur 1000 enfants nés vivants entre 2020 et 2022, environ 4 en moyenne sont décédés avant l’âge de 12 mois.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-mort-inf" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-mort-inf-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="img/taux_mort_inf_2020_2022.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1"><img src="img/taux_mort_inf_2020_2022.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:4.5in"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-mort-inf-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.1: Taux de mortalité infantile entre 2020 et 2022 (en ‰)
+</figcaption></figure>
+</div>
+</div>
+</div>
 </div>
 </div>
 <div class="callout callout-style-simple callout-tip callout-titled">
@@ -350,23 +370,55 @@ En 2022, le taux de mortalité chez les femmes enceintes était de 9,6 pour 100 
 <ul>
 <li>La mortalité <span class="cb">prématurée</span> : mortalité survenant avant 65 ans (= taux spécifique par tranches d’âge)</li>
 <li>La mortalité <span class="cb">évitable</span> : taux spécifique par causes de décès</li>
-</ul></section><section id="taux-standardisé-de-mortalité" class="level2" data-number="3.3"><h2 data-number="3.3" class="anchored" data-anchor-id="taux-standardisé-de-mortalité">
+</ul></section><section id="sec-stand" class="level2" data-number="3.3"><h2 data-number="3.3" class="anchored" data-anchor-id="sec-stand">
 <span class="header-section-number">3.3</span> Taux standardisé de mortalité</h2>
 <section id="problème" class="level3" data-number="3.3.1"><h3 data-number="3.3.1" class="anchored" data-anchor-id="problème">
 <span class="header-section-number">3.3.1</span> Problème</h3>
 <p>Indépendamment de ses causes, la mortalité est liée un facteur incontournable : <span class="cb">l’âge</span>.</p>
 <p>Si la comparaison entre départements révèle des taux plus élevés dans l’un, cela peut-être dû non pas à des causes externes mais simplement à la <span class="cb">structure d’âge</span> du département : <span class="cb">la mortalité sera plus élevée si la moyenne d’âge est plus élevée !</span></p>
 <p>On dit que l’âge est un <span class="cb">facteur de confusion</span> (<a href="erreur_biais.html#sec-biais-conf" class="quarto-xref"><span>Section 10.3</span></a>) dans la mesure des taux comparatifs de mortalité.</p>
-<p>img stand 1</p>
+<div id="fig-mort" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-mort-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-mort" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-mort-brut" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-subfloat-fig figure"><div aria-describedby="fig-mort-brut-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="img/taux_brut_mort_2023.png" class="lightbox" data-gallery="fig-mort" data-glightbox="description: .lightbox-desc-2"><img src="img/taux_brut_mort_2023.png" class="img-fluid figure-img" data-ref-parent="fig-mort"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-mort-brut-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Taux bruts de mortalité
+</figcaption></figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-mort" style="flex-basis: 50.0%;justify-content: flex-start;">
+<div id="fig-mort-part-75" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-subfloat-fig figure"><div aria-describedby="fig-mort-part-75-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="img/part_75_2023.png" class="lightbox" data-gallery="fig-mort" data-glightbox="description: .lightbox-desc-3"><img src="img/part_75_2023.png" class="img-fluid figure-img" data-ref-parent="fig-mort"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-mort-part-75-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Part des plus de 75 ans
+</figcaption></figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-mort-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.2: Taux bruts de mortalité et part des plus de 75 ans en 2023 (en ‰)
+</figcaption></figure>
+</div>
 </section><section id="solution" class="level3" data-number="3.3.2"><h3 data-number="3.3.2" class="anchored" data-anchor-id="solution">
 <span class="header-section-number">3.3.2</span> Solution</h3>
-<p>Afin de pouvoir comparer de manière pertinente des taux de mortalité entre différentes départements, il faut procéder à un traitement des taux bruts pour annuler cet <em>effet âge</em> : cette méthode est appelée <span class="cb">standardisation</span>.</p>
+<p>Afin de pouvoir comparer de manière pertinente des taux de mortalité entre différentes zones géographiques, il faut procéder à un traitement des taux bruts pour s’affranchir de cet “effet âge” : cette méthode est appelée <span class="cb">standardisation</span>.</p>
 <p>Les taux comparatifs de décès, ou <span class="cb">taux standardisés</span>, correspondent à des taux de décès calculés <span class="cb">comme si la structure d’âge était la même dans tous les départements</span>.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><a href="img/standard.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img/standard.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:6in"></a></p>
-</figure>
+<div id="fig-stand" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-stand-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="img/taux_stand_mort_prem_2023.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" data-glightbox="description: .lightbox-desc-4"><img src="img/taux_stand_mort_prem_2023.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:4.5in"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-stand-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;3.3: Taux standardisés de mortalité prématurée (&lt; 65 ans) en 2023 (en ‰)
+</figcaption></figure>
 </div>
 </div>
 </div>
@@ -375,14 +427,18 @@ En 2022, le taux de mortalité chez les femmes enceintes était de 9,6 pour 100 
 <span class="header-section-number">3.4</span> Taux de létalité</h2>
 <p>Tandis que la mortalité représente le nombre d’individus décédés sur l’ensemble de la population, la <span class="cb">létalité</span> représente le nombre de personnes décédés d’une maladie <span class="cb">parmi les personnes atteints de cette maladie</span>.</p>
 <p>Un <span class="cb">taux de létalité</span> prend pour période d’étude <span class="cb">le temps à partir du début</span> de la maladie.</p>
+<blockquote class="blockquote">
 <p><span class="math display">\[
 \mathrm{
 \frac
-{Nombre \ de \ décès \ d'une \ maladie \ sur \ la \ période}
-{Nombre \ de \ personnes \ atteintes \ de \ la \ maladie \ sur \ la \ même \ période}
+{Nombre \ de \ décès \ d'une \ maladie}
+{Nombre \ de \ personnes \ atteintes \ de \ la \ maladie}
+\ \
+depuis \ le \ début \ de \ la \ maladie
 }
 \]</span></p>
-<p>Elle est exprimée en temps depuis le début de la maladie (létalité à 28 jours, à un an, etc.).</p>
+</blockquote>
+<p>Elle est exprimée en temps depuis le début de la maladie (e.g.&nbsp;létalité à 28 jours, létalité à un an).</p>
 <p>C’est un indicateur de la <span class="cb">gravité</span> d’une maladie.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -497,8 +553,17 @@ Table&nbsp;3.2: Espérance de vie en bonne santé en France, 2022.
 <li>La standardisation est indispensable dès lors qu’on souhaite comparer des taux de mortalité</li>
 <li>Faire la distinction entre mortalité et létalité</li>
 </ul>
+<p><br></p>
+<hr>
+<p>Source : <a href="https://www.insee.fr/fr/statistiques/2012741">Insee</a></p>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">Figure&nbsp;3.1: Taux de mortalité infantile entre 2020 et 2022 (en ‰)</span>
+<span class="glightbox-desc lightbox-desc-2">Figure&nbsp;3.2&nbsp;(a): Taux bruts de mortalité</span>
+<span class="glightbox-desc lightbox-desc-3">Figure&nbsp;3.2&nbsp;(b): Part des plus de 75 ans</span>
+<span class="glightbox-desc lightbox-desc-4">Figure&nbsp;3.3: Taux standardisés de mortalité prématurée (&lt; 65 ans) en 2023 (en ‰)</span>
+</div>
 </section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -840,7 +905,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","selector":".lightbox","loop":false,"closeEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"closeEffect":"zoom","openEffect":"zoom","descPosition":"bottom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="| IFSI 1A - UE 1.2 Santé Publique">
+<meta name="description" content="| IFSI 1A - UE 1.2-S2 Santé Publique">
 
 <title>Épidémiologie descriptive - 5&nbsp; Recueils systématiques</title>
 <style>
@@ -42,6 +42,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -108,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./"><strong>Épidémiologie descriptive</strong></a> 
+      <a href="./">Épidémiologie descriptive</a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -206,7 +209,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./erreur_fluct.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Fluctuations d'échantillonnage</span></span></a>
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Fluctuation d'échantillonnage</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -228,7 +231,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#certificat-de-décès" id="toc-certificat-de-décès" class="nav-link active" data-scroll-target="#certificat-de-décès"><span class="header-section-number">5.1</span> Certificat de décès</a></li>
-  <li><a href="#déclaration-obligatoire" id="toc-déclaration-obligatoire" class="nav-link" data-scroll-target="#déclaration-obligatoire"><span class="header-section-number">5.2</span> Déclaration obligatoire</a></li>
+  <li><a href="#sec-mdo" id="toc-sec-mdo" class="nav-link" data-scroll-target="#sec-mdo"><span class="header-section-number">5.2</span> Déclaration obligatoire</a></li>
   <li><a href="#systèmes-sentinelles" id="toc-systèmes-sentinelles" class="nav-link" data-scroll-target="#systèmes-sentinelles"><span class="header-section-number">5.3</span> Systèmes sentinelles</a></li>
   <li><a href="#bases-de-données-médico-administratives" id="toc-bases-de-données-médico-administratives" class="nav-link" data-scroll-target="#bases-de-données-médico-administratives"><span class="header-section-number">5.4</span> Bases de données médico-administratives</a></li>
   <li><a href="#limites" id="toc-limites" class="nav-link" data-scroll-target="#limites"><span class="header-section-number">5.5</span> Limites</a></li>
@@ -292,11 +295,12 @@ ul.task-list li input[type="checkbox"] {
 <li><p>Mais habitudes et qualité de remplissage des certificats peuvent changer d’un pays à l’autre -&gt; rester prudent</p></li>
 </ul>
 </section>
-<section id="déclaration-obligatoire" class="level2" data-number="5.2">
-<h2 data-number="5.2" class="anchored" data-anchor-id="déclaration-obligatoire"><span class="header-section-number">5.2</span> Déclaration obligatoire</h2>
-<p>La liste des <a href="https://www.santepubliquefrance.fr/maladies-a-declaration-obligatoire/liste-des-maladies-a-declaration-obligatoire">maladies à déclaratoire obligatoire</a></p>
+<section id="sec-mdo" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="sec-mdo"><span class="header-section-number">5.2</span> Déclaration obligatoire</h2>
+<p>Il existe une liste des <a href="https://www.santepubliquefrance.fr/maladies-a-declaration-obligatoire/liste-des-maladies-a-declaration-obligatoire">maladies à déclaratoire obligatoire</a></p>
 <ul>
-<li>Repose sur un système de transmission de données individuelles à l’autorité sanitaire - Recueil exhaustif car obligatoire</li>
+<li>Repose sur un système de transmission de données individuelles à l’autorité sanitaire</li>
+<li>Recueil exhaustif car obligatoire</li>
 <li>2 procédures dans la transmission des données
 <ul>
 <li>Signalement</li>
@@ -304,7 +308,6 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li>38 maladies à déclaration obligatoire</li>
 </ul>
-<p>liste MDO</p>
 <p>Buts :</p>
 <ul>
 <li>Agir et prévenir le risque d’épidémie</li>
@@ -329,30 +332,72 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="systèmes-sentinelles" class="level2" data-number="5.3">
 <h2 data-number="5.3" class="anchored" data-anchor-id="systèmes-sentinelles"><span class="header-section-number">5.3</span> Systèmes sentinelles</h2>
-<p>Les <a href="https://sentiweb.fr/">systèmes sentinelles</a> sont des</p>
+<p>Le <a href="https://sentiweb.fr/">réseau Sentinelles</a> est un <span class="cb">système de surveillance épidémiologique continue</span> basé sur le <span class="cb">volontariat</span>.</p>
+<p>Il permet le recueil, l’analyse, la prévision et l’extrapolation en temps réel de données issues de l’activité de 1300 médecins généralistes libéraux répartis sur l’ensemble du territoire métropolitain.</p>
+<p>Les professionnels de santé appartenant à ce réseau s’engagent à signaler tous les cas de maladies surveillées auprès d’un centre coordinateur.</p>
+<p>Tout comme le système de déclaration obligatoire (#sec-mdo), l’objectif est de <span class="cb">repérer et contrôler l’émergence de potentielles épidémies</span>.</p>
+<p>Toutefois puisqu’il s’agit d’une <span class="cb">déclaration volontaire</span>, l’exhaustivité ne peut pas être recherchée, mais des efforts sont faits au niveau local afin d’arriver à un certain degré de <span class="cb">représentativité</span>.</p>
+<p><span class="cb">9 indicateurs</span> bénéficient actuellement d’une surveillance continue :</p>
 <ul>
-<li><p>Ensemble de professionnels de la santé (principalement des médecins) regroupés au sein d’un réseau</p></li>
-<li><p>Les professionnels s’engagent à signaler tous les cas de maladies surveillées par le système sentinelle auprès d’un centre coordinateur</p></li>
-<li><p>Système basé sur le volontariat</p></li>
-<li><p>Objectif : repérer rapidement le début de certaines épidémies</p></li>
-<li><p>L’exhaustivité sur un territoire donnée n’est pas recherchée mais des efforts sont faits dans une zone donnée pour arriver à un certain degré de représentativité</p></li>
-<li><p>Collaboration entre médecins généralistes et chercheurs</p></li>
-<li><p>Réseau 1300 médecins généralistes français répartis sur l’ensemble du territoire métropolitain</p></li>
-<li><p>Objectifs : recueil, analyse, prévision et redistribution en temps réel de données épidémiologiques issues de l’activité des médecins généralistes libéraux</p></li>
-</ul>
-<p>Surveillance continue de 9 indicateurs</p>
-<ul>
-<li>Syndromes grippaux</li>
-<li>Diarrhée aiguë</li>
+<li><span class="cb">Diarrhée aiguë</span></li>
+<li><span class="cb">Infection respiratoire aiguë (syndromes grippaux et COVID-19)</span></li>
+<li><span class="cb">Varicelle</span></li>
 <li>Oreillons</li>
-<li>Varicelle</li>
 <li>Urétrite masculine</li>
 <li>Zona</li>
 <li>Borréliose de Lyme</li>
+<li>Coqueluche<br>
+</li>
 <li>Suicide et tentative de suicide</li>
-<li>Coqueluche</li>
 </ul>
-<p>img carte</p>
+<p>La situation des trois premières est actualisée chaque semaine et représentée graphiquement à un niveau national via une extrapolation des données obtenues localement.</p>
+<div id="fig-senti" class="quarto-layout-panel">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-senti-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="quarto-layout-row">
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-senti" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div id="fig-senti-a" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-senti-a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://www.sentiweb.fr/img/accueil/40334-norm.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="fig-senti"><img src="https://www.sentiweb.fr/img/accueil/40334-norm.png" class="img-fluid figure-img" data-ref-parent="fig-senti"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-senti-a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(a) Diarrhée aiguë
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-senti" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div id="fig-senti-b" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-senti-b-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://www.sentiweb.fr/img/accueil/40335-norm.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="fig-senti"><img src="https://www.sentiweb.fr/img/accueil/40335-norm.png" class="img-fluid figure-img" data-ref-parent="fig-senti"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-senti-b-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(b) Infection respiratoire aiguë
+</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-senti" style="flex-basis: 33.3%;justify-content: flex-start;">
+<div id="fig-senti-c" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-subfloat-fig figure">
+<div aria-describedby="fig-senti-c-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="https://www.sentiweb.fr/img/accueil/40336-norm.png" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="fig-senti"><img src="https://www.sentiweb.fr/img/accueil/40336-norm.png" class="img-fluid figure-img" data-ref-parent="fig-senti"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-senti-c-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+(c) Varicelle
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-senti-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;5.1: Situation observée en France métropolitaine par le réseau Sentinelles, semaine du 08 au 14/04/24
+</figcaption>
+</figure>
+</div>
 </section>
 <section id="bases-de-données-médico-administratives" class="level2" data-number="5.4">
 <h2 data-number="5.4" class="anchored" data-anchor-id="bases-de-données-médico-administratives"><span class="header-section-number">5.4</span> Bases de données médico-administratives</h2>
@@ -398,6 +443,11 @@ Les données peuvent souvent être de qualité variable, sans vérifications ou 
 <p>Pour pallier ces limitations, il est nécessaire de passer par la réalisation d’<span class="cb">enquêtes spécifiques</span>.</p>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">Figure&nbsp;5.1&nbsp;(a): Diarrhée aiguë</span>
+<span class="glightbox-desc lightbox-desc-2">Figure&nbsp;5.1&nbsp;(b): Infection respiratoire aiguë</span>
+<span class="glightbox-desc lightbox-desc-3">Figure&nbsp;5.1&nbsp;(c): Varicelle</span>
+</div>
 </section>
 
 </main> <!-- /main -->
@@ -744,6 +794,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom","loop":false,"selector":".lightbox"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
+
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 

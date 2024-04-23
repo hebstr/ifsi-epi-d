@@ -21,17 +21,24 @@ L'incidence est un [taux]{.cb} (@sec-taux).
 
 Il s'agit d'un taux appliqué à [l'apparition de nouveaux cas]{.cb} d'une maladie dans une population.
 
+> 
 $$
 \mathrm{
 \frac
-{Nombre \ de \ nouveaux \ cas \ survenus \ pendant \ une \ période}
-{Nombre \ de \ personnes \ à \ risque \ pendant \ cette \ période}
+{Nombre \ de \ nouveaux \ cas \ d'une \ maladie}
+{Nombre \ de \ personnes \ à \ risque \ de \ devenir \ malade}
+\ \ 
+sur \ une \ période \ donnée
 }
 $$
 
 Puisqu'il s'agit d'une mesure prise sur une période, elle est qualifiée de mesure [longitudinale]{.cb} (*en longueur*, *d'un point A à un point B*).
 
-L'incidence reflète la [vitesse]{.cb} de survenue d'une maladie dans une population.
+L'incidence reflète la [vitesse de survenue]{.cb} d'une maladie dans une population.
+
+::: callout-tip
+## Exemple
+:::
 
 
 ## Prévalence {#sec-prev}
@@ -40,11 +47,14 @@ La [prévalence]{.cb} est une [proportion]{.cb} (@sec-prop).
 
 C'est la proportion de [personnes atteintes d'une maladie à un instant donné]{.cb} dans la population.
 
+>
 $$
 \mathrm{
 \frac
-{Nombre \ de \ cas \ observés}
+{Nombre \ de \ cas \ d'une \ maladie}
 {Ensemble \ de \ la \ population}
+\ \ 
+à \ un \ instant \ donné
 }
 $$
 
@@ -67,15 +77,15 @@ La prévalence dépend également de la [durée d'évolution]{.cb} de la maladie
 
 En clair :
 
-- La prévalence est un indicateur statique
+- La prévalence est un indicateur [statique]{.cb}
 : Elle rend compte de la [fréquence]{.cb} d'une maladie [à un instant donné]{.cb}
 
-- L'incidence est un indicateur dynamique
+- L'incidence est un indicateur [dynamique]{.cb}
 : Elle rend compte de la [vitesse]{.cb} à laquelle une maladie survient [sur une période donnée]{.cb}
 
 ### Analogie : la baignoire de l'épidémiologiste
 
-L'incidence, la prévalence et la relation qui existe entre elles peuvent être illustrées avec [la baignoire de l'épidémiologiste]{.cb}.
+L'incidence, la prévalence et la relation qui existe entre elles peuvent être illustrées avec [la baignoire de l'épidémiologiste]{.cb} (@fig-baignoire).
 
 Cette allégories est constituée classiquement de 4 éléments :
 
@@ -90,32 +100,34 @@ Le volume d'eau représente le proportion d'individus malades dans la population
 
 L'évacuation symbolise une proportion sortant de la population malade : c'est la [mortalité]{.cb}.
 
-La mort n'est pas la seule manière de ne plus être malade : il y a aussi la possibilité d'une [guérison]{.cb}.
-Ce 4e élément peut être symbolisé par l'évaporation.
+La mort n'est pas la seule manière de ne plus être malade : il y a aussi une possibilité de [guérison ou rémission]{.cb}.
+Ce dernier élément peut être symbolisé par l'évaporation.
 
-```{r}
-#| out-width: 6in
+```{r #fig-baignoire}
+#| out-width: 4.5in
 #| fig-align: center
+#| fig-cap: "La baignoire de l'épidémiologiste"
 
-knitr::include_graphics("img/bath.png")
+knitr::include_graphics("img/baignoire.png")
 ```
 
 En résumé, il s'agit d'un circuit ouvert avec :
 
-- Un volume [entrant]{.cb} : l'apparition de nouveaux cas = [incidence]{.cb}
-- Un volume [constitué]{.cb} : le nombre de cas constitués = [prévalence]{.cb}
-- Un volume [sortant]{.cb} : la [mort]{.cb} ou la [guérison]{.cb}
+- Un débit [entrant]{.cb} : l'apparition de nouveaux cas = [incidence]{.cb}
+- Un volume [constitué]{.cb} : le nombre de cas constitués dans la population = [prévalence]{.cb}
+- Un débit [sortant]{.cb} : la [mort]{.cb} ou la [guérison]{.cb}
 
-Ainsi, bien que le robinet soit constamment ouvert, la baignoire ne déborde pas. En revanche, s'il y a une limite à la sortie, le volume d'eau aura tendance à augmenter avec le temps.
+Ainsi, bien que le robinet soit constamment ouvert, la baignoire ne déborde pas. En revanche, s'il y a une limite à la sortie, le niveau d'eau aura tendance à augmenter avec le temps.
 
 
 ### Exemple : l'infection à VIH
 
 L'incidence, la prévalence et leur dynamique peuvent être représentées graphiquement à travers l'exemple de l'infection à VIH.
 
-```{r}
-#| out-width: 5in
+```{r #fig-vih}
+#| out-width: 6in
 #| fig-align: center
+#| fig-cap: "État de l'épidémie de SIDA dans le monde (en millions)"
 
 knitr::include_graphics("img/vih.png")
 ```
@@ -131,23 +143,95 @@ L'incidence ne suit pas cette tendance. Hors situation d'épidémie, les nouveau
 
 ### Facteurs déterminants
 
-```{r}
-#| out-width: 6in
-#| fig-align: center
+Comment auraient tendance à évoluer l'incidence et la prévalence dans les situations suivantes (augmentation, diminution, stabilité) ?
 
-knitr::include_graphics("img/tbl-mrb.png")
+```{r}
+library(gt)
+
+gt_arrow <- \(...) {
+
+  tibble::tibble(...) |> 
+    gt() |> 
+    fmt_icon() |> 
+    cols_align(align = "center",
+               columns = everything()) |>
+    tab_style(style = cell_text(weight = "bold"),
+              locations = cells_column_labels())
+  
+}
 ```
 
-## Incidence ? Prévalence ?
+::: {.callout-caution collapse="true" appearance="minimal"}
+## Augmentation des facteurs de risque
+
+```{r}
+gt_arrow(incidence = "arrow-up-long",
+         prévalence = "arrow-up-long")
+```
+
+:::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-## Sur les 30 derniers jours, 15 patients ont été hospitalisés en réanimation pour septicémie.
+## Amélioration de la prise en charge : guérison plus rapide
+
+```{r}
+gt_arrow(incidence = "arrow-right-long",
+         prévalence = "arrow-down-long")
+```
+
+:::
+
+::: {.callout-caution collapse="true" appearance="minimal"}
+## Amélioration de la prise en charge : survie plus longue
+
+```{r}
+gt_arrow(incidence = "arrow-right-long",
+         prévalence = "arrow-up-long")
+```
+
+:::
+
+::: {.callout-caution collapse="true" appearance="minimal"}
+## Amélioration des méthodes diagnostiques
+
+```{r}
+gt_arrow(incidence = "arrow-up-long",
+         prévalence = "arrow-up-long")
+```
+
+:::
+
+::: {.callout-caution collapse="true" appearance="minimal"}
+## Meilleure déclaration
+
+```{r}
+gt_arrow(incidence = "arrow-up-long",
+         prévalence = "arrow-up-long")
+```
+
+:::
+
+::: {.callout-caution collapse="true" appearance="minimal"}
+## Changement de définition de la maladie
+
+```{r}
+gt_arrow(incidence = "question",
+         prévalence = "question")
+```
+
+:::
+
+
+## Incidence ou prévalence ?
+
+::: {.callout-caution collapse="true" appearance="minimal"}
+## Sur les 30 derniers jours, 15 patients ont été hospitalisés en réanimation pour septicémie
 
 Nombre de nouveaux cas sur une période donnée : c'est une [incidence]{.cb}
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-## Au 01/01/2024, il y avait 5% de cas de cancer de la prostate chez les hommes habitant dans la région Hauts-de-France.
+## Au 01/01/2024, il y avait 5% de cas de cancer de la prostate chez les hommes habitant dans la région Hauts-de-France
 
 Proportion à un instant donné : c'est une [prévalence]{.cb}
 :::

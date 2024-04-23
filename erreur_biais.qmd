@@ -1,6 +1,7 @@
 # Biais {#sec-biais}
 
-Erreur ou écart systématique présentant une direction privilégiée et prévisible
+Un biais est une erreur prévisible, qui se produit systématiquement dans une direction prédéterminée.
+C'est pour cette raison qu'elle est qualifiée d'erreur [systématique]{.cb}.
 
 Conséquences : 
 
@@ -12,6 +13,8 @@ Il existe trois grandes catégories de biais :
 - Biais de [sélection]{.cb} 
 - Biais de [classement]{.cb} 
 - Biais de [confusion]{.cb}
+
+Alors que la fluctuation d'échantillon est une erreur d'origine statistique, le biais est une erreur d'origine [méthodologique]{.cb}. La manière de s'en prémunir est donc d'élaborer une méthode, [une réflexion préalable]{.cb} qui sera différente selon le contexte et type de biais.
 
 
 ## Biais de sélection {#sec-biais-sel}
@@ -28,12 +31,13 @@ Retrouvé lors de la constitution :
   - Lors du suivi (cas d'une cohorte)
     - Taux d'attrition (perdus de vue)
     - = Comparaison des caractéristiques PDV vs sujets suivis
-    
-**La sélection n'engendre pas systématiquement un biais**
+
+::: callout-warning
+## La sélection n'engendre pas systématiquement un biais
+:::
 
 ::: callout-tip
-## Exemple
-Sélection sur liste électorale vs annuaire
+## Sélection sur liste électorale vs annuaire
 :::
 
 
@@ -52,11 +56,27 @@ Mesure précise de la maladie (ou exposition) étudiée :
 ## Biais de confusion {#sec-biais-conf}
 
 - Ces biais vont être liés à l'intervention d'un ou de plusieurs tiers facteurs
-- Ils sont particulièrement redoutés en épidémiologie analytique
-- En épidémiologie descriptive, peuvent intervenir lorsqu'on compare les taux provenant de plusieurs populations différentes
+
+
+intervient surtout lorsqu'on recherche des causes : il est donc particulièrement redouté en épidémiologie analytique.
 
 ::: callout-tip
-## Comparer les taux bruts de mortalité de la région Nord-Pas-de-Calais (région jeune) à ceux de la région Limousin (région âgée)
+## Sélection sur liste électorale vs annuaire
+:::
+
+En épidémiologie descriptive, peuvent intervenir lorsqu'on compare les taux provenant de plusieurs populations différentes
+
+::: callout-tip
+## Comparaison des taux bruts de mortalité entre le Nord et la Creuse
+
+Le Nord est une département plutôt jeune ; la Creuse est une département plutôt âgé. 
+
+La structure d'âge est donc à l'origine un biais de confusion dans la comparaison de taux bruts de mortalité. On dit que c'est un facteur de confusion.
+
+Il s'agit bien d'une erreur prévisible ayant une direction prédéterminée : un âge plus élevé est systématiquement associé à un taux de mortalité plus élevé.
+
+Il existe une méthode pour s'affranchir de ce biais : la [standardisation]{.cb} (@sec-stand).
+
 :::
 
 ## En bref
