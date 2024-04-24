@@ -4,6 +4,7 @@
 library(knitr)
 ```
 
+Le [texte souligné]() renvoie vers un lien externe.
 
 ## La santé
 

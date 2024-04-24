@@ -1,4 +1,4 @@
-# Enquêtes spécifiques
+# Enquêtes spécifiques {#sec-src-spe}
 
 - Enquête réalisée spécialement pour répondre à un besoin d'information sur un sujet précis
 - Quand aucune statistique recueillie en routine n'existe
@@ -6,10 +6,10 @@
 
 On en distingue deux types :
 
-Enquêtes exhaustives
+Enquêtes en population (exhaustive)
 : Ces enquêtes visent à collecter des informations aussi complètes que possible, en couvrant tous les aspects pertinents du sujet d'étude pour réduire les biais et les lacunes des données préexistantes.
 
-Sur échantillon 
+Enquêtes sur échantillon représentatif
 : L'utilisation d'échantillons bien définis permet de contrôler la qualité des données recueillies et d'assurer que les résultats sont représentatifs et applicables à la population ciblée.
 
 
@@ -55,7 +55,7 @@ Un [échantillon]{.cb} est un sous-ensemble, une portion de taille variable d'un
 
 img pop echant
 
-Un échantillon doit être constitué de manière rigoureuse : on veut qu'il soit [un bon reflet] de la population dont il est issu. Autrement dit, on veut qu'il soit [représentatif]{.cb} de cette population.
+Un échantillon doit être constitué de manière rigoureuse : on veut qu'il soit [un bon reflet]{.cb} de la population dont il est issu. Autrement dit, on veut qu'il soit [représentatif]{.cb} de cette population.
 
 La représentativité d'un échantillon est toujours recherchée, puisqu'elle permet de [généraliser]{.cb} les résultats à la population dont il est issu.
 
@@ -169,7 +169,7 @@ Les pathologies sont diverses, et doivent être [facilement repérables]{.cb} (l
 ::: callout-tip
 ## Le registre des AVC dans la Métropole Européenne de Lille (MEL)
 
-Il s'agit d'un enregistrement [continue]{.cb} des nouveaux cas d'AVC ([pathologie donnée]{.cb}) chez les habitants de la MEL ([territoire géographique donné]{.cb}).
+Il s'agit d'un enregistrement [continu]{.cb} des nouveaux cas d'AVC ([pathologie donnée]{.cb}) chez les habitants de la MEL ([territoire géographique donné]{.cb}).
 :::
 
 

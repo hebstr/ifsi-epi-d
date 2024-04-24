@@ -1,85 +1,99 @@
 # Recueils systématiques
 
-## Certificat de décès
+## Déclaration obligatoire
 
-- Déclaration de décès obligatoire pour toute personne présente sur le territoire national, dont enfants déclarés à l'état civil (Enfants mort-nés : bulletin d'enfant déclaré sans vie)
-- Le certificat de décès est établi par le médecin qui constate le décès
+Sont présentés ici deux systèmes de déclaration obligatoire :
 
-Le certificat comprend 2 parties :
+- Le [certificat de décès]{.cb}
+- Les [maladies à déclaration obligatoire]{.cb}
 
-- Une partie supérieure nominative, utilisée pour la déclaration à l'état civil, qui comprend:
-  - Nom-prénom 
-  - domicile du décédé 
-  - date et heure de la mort 
-  - diverses opérations funéraires 
-  
-- Une partie inférieure anonyme qui comprend:
-  - renseignements médicaux 
-  - nom de la commune où est survenu le décès 
-  - date de décès
 
-img certif papier
+### Certificat de décès
+
+La déclaration d'un décès par un [certificat de décès]() est une [obligation légale]{.cb} pour toute personne décédée sur le territoire national, y compris un enfant enregistré à l'état civil[^1].
+
+[^1]: En cas d'enfant mort-né, il doit être établit un acte d'enfant sans vie, attestant que l'enfant était mort au moment de la naissance.
+
+Le certificat de décès doit être produit [par le médecin ayant constaté le décès]{.cb} (pourrait cependant être étendu[^2])
+
+[^2]: [Expérimentation autorisant les infirmiers à signer des certificats de décès](https://www.ameli.fr/infirmier/exercice-liberal/prescription-prise-charge/prise-charge-situation-type-soin/certificats-deces-par-infirmier)
+
+Il est composé de deux volets :
+
+- Volet administratif, utilisée pour la déclaration à l'état civil :
+  - Nom et prénom 
+  - Domicile
+  - Date et heure de la mort 
+  - Diverses opérations funéraires 
+
+- Volet médical :
+  - Renseignements médicaux 
+  - Date du décès
+  - Commune où est survenu le décès 
 
 img certif elec
 
-- Utilisation pour la plupart des statistiques de mortalité en France
-- Système similaire dans la plupart des pays du monde
-
-- Intérêts :
-
-  - Faire des comparaisons des taux de mortalité entre région
-  - Faire des comparaisons entre pays
-  
-- Mais habitudes et qualité de remplissage des certificats peuvent changer d'un pays à l'autre -> rester prudent
+Un certificat de décès correctement rempli participe à l'amélioration de la [veille sanitaire]{.cb}, à la qualité des [statistiques de mortalité]{.cb} et à la [comparabilité]{.cb} entre régions et pays (bien que la qualité de remplissage puisse varier d'un endroit à l'autre).
 
 
-## Déclaration obligatoire {#sec-mdo}
+### Maladies à déclaration obligatoire
 
-Il existe une liste des [maladies à déclaratoire obligatoire](https://www.santepubliquefrance.fr/maladies-a-declaration-obligatoire/liste-des-maladies-a-declaration-obligatoire)
+Il existe 38 [maladies à déclaratoire obligatoire](https://www.santepubliquefrance.fr/maladies-a-declaration-obligatoire/liste-des-maladies-a-declaration-obligatoire) (MDO). Elles ont en commun d'être des [maladies infectieuses]{.cb} (à deux exceptions[^3]).
 
-- Repose sur un système de transmission de données individuelles à l'autorité sanitaire
-- Recueil exhaustif car obligatoire
-- 2 procédures dans la transmission des données
-  - Signalement
-  - Notification
-- 38 maladies à déclaration obligatoire
+ [^3]: Le mésothéliome, le saturnisme chez l'enfant mineur.
 
-Buts :
+C'est un système de transmission de [données individuelles]{.cb} à l'autorité sanitaire, dans lequel deux procédures sont mises en jeu :
 
-- Agir et prévenir le risque d'épidémie
-- Analyser l'évolution dans le temps de ces maladies
-- Adapter les politiques de santé publique aux besoins de la population
 
-Déclaration d'une maladie à DO - Signalement
+- Notification (anonyme, pour suivi épidémiologique)
 
-- En urgence, sans délai
-- Par les médecins et biologiste
-- Dès suspicion
-- Auprès des médecins inspecteurs de santé publique de l'ARS
-- Pas de support dédié (fax, téléphone…)
-- Données nominatives
+- Signalement (nominatif, nécessité mesures préventives)
+  - En urgence et sans délai
+  - [Dès la suspicion]{.cb} de la maladie
+  - Par les [médecins et biologistes]{.cb}
+  - Auprès des médecins de l'ARS
+  - Pas de support dédié (fax, téléphone…)
 
-Pour figurer sur cette liste, les maladies doivent répondre à deux types de critères :
+- notification : [toutes]{.cb} les maladies sans exception
+- signalement : maladies nécessitant une [intervention urgente]{.cb}, soit toutes sauf l'infection à VIH, hépatite B et tétanos.
 
-- Des critères principaux
-- Des critères de faisabilité
+Le caractère [obligatoire]{.cb} de cette transmission permet une surveillance [continue]{.cb} et un recueil d'information [exhaustif]{.cb} vis-à-vis des maladies listées.
+
+::: callout-note
+## Pour figurer sur cette liste, la maladie doit répondre à deux types de critères
+
+##### Critères principaux {.unnumbered}
+
+- **Gravité** : elle peut entraîner des complications graves ou même la mort.
+- **Transmissibilité** : elle doit avoir un potentiel de transmission significatif justifiant une surveillance pour prévenir de possibles épidémies.
+- **Présence de mesures efficaces** : il existe des interventions efficaces pour contrôler ou prévenir la maladie (e.g., vaccination, traitements anti-infectieux, mesures de quarantaine).
+
+##### Critères de faisabilité {.unnumbered}
+
+- **Capacités diagnostiques** : la maladie doit être identifiable par des méthodes des disponibles et fiables.
+- **Capacités structurelles** : le système de santé doit être capable de gérer la déclaration et le suivi des cas sans surcharge excessive
+- **Utilité des données collectées** : la surveillance de la maladie doit apporter des informations qui améliorent les connaissances et contribuent ainsi à une meilleure prévention de la maladie.
+
+:::
+
+En résumé, ce système garantit une [surveillance continue]{.cb} à la fois pratique et utile de [maladies potentiellement graves]{.cb} afin de permettre une réponse rapide et efficace en cas de risque épidémique.
 
 img rougeole
 
 
-## Systèmes sentinelles
+## Déclaration volontaire
 
-Le [réseau Sentinelles](https://sentiweb.fr/) est un [système de surveillance épidémiologique continue]{.cb} basé sur le [volontariat]{.cb}.
+Le [réseau Sentinelles](https://sentiweb.fr/) est un système de [surveillance continue]{.cb} basé sur le [volontariat]{.cb}.
 
-Il permet le recueil, l'analyse, la prévision et l'extrapolation en temps réel de données issues de l'activité de 1300 médecins généralistes libéraux répartis sur l'ensemble du territoire métropolitain.
+Il permet le recueil, l'analyse, la prévision et l'extrapolation [en temps réel]{.cb} de données issues de l'activité de [1300 médecins généralistes libéraux]{.cb} répartis sur l'ensemble du territoire métropolitain.
 
-Les professionnels de santé appartenant à ce réseau s'engagent à signaler tous les cas de maladies surveillées auprès d'un centre coordinateur.
+Les professionnels de santé appartenant à ce réseau [s'engagent à signaler tous les cas]{.cb} de maladies surveillées auprès d'un centre coordinateur.
 
-Tout comme le système de déclaration obligatoire (#sec-mdo), l'objectif est de [repérer et contrôler l'émergence de potentielles épidémies]{.cb}.
+Tout comme le système de déclaration obligatoire, l'objectif est de [contrôler ou prévenir un risque d'épidémie]{.cb}.
 
-Toutefois puisqu'il s'agit d'une [déclaration volontaire]{.cb}, l'exhaustivité ne peut pas être recherchée, mais des efforts sont faits au niveau local afin d'arriver à un certain degré de [représentativité]{.cb}.
+Toutefois puisqu'il s'agit d'une déclaration [volontaire]{.cb}, l'exhaustivité ne peut pas être recherchée, mais des efforts sont faits localement afin d'arriver à un certain degré de [représentativité]{.cb}.
 
-[9 indicateurs]{.cb} bénéficient actuellement d'une surveillance continue :
+Actuellement, [9 pathologies]{.cb} bénéficient d'une surveillance continue :
 
 - [Diarrhée aiguë]{.cb}
 - [Infection respiratoire aiguë (syndromes grippaux et COVID-19)]{.cb}
@@ -88,10 +102,10 @@ Toutefois puisqu'il s'agit d'une [déclaration volontaire]{.cb}, l'exhaustivité
 - Urétrite masculine
 - Zona
 - Borréliose de Lyme
-- Coqueluche    
+- Coqueluche
 - Suicide et tentative de suicide
 
-La situation des trois premières est actualisée chaque semaine et représentée graphiquement à un niveau national via une extrapolation des données obtenues localement.
+La situation des trois premières est actualisée [chaque mercredi]{.cb} et représentée graphiquement à un niveau national (via une extrapolation des données obtenues localement).
 
 ::: {#fig-senti layout-nrow=1}
 
@@ -108,40 +122,68 @@ Situation observée en France métropolitaine par le réseau Sentinelles, semain
 
 ## Bases de données médico-administratives
 
-exemple du Système National des Données de Santé (SNDS)
+Le [Système National des Données de Santé](https://www.assurance-maladie.ameli.fr/etudes-et-donnees/en-savoir-plus-snds/presentation-systeme-national-donnees-sante-snds) (SNDS) a été crée en 2016. Il s'agit d'une base de données elle-même construite à partir de plusieurs sources de données :
 
-Système National des Données de Santé contient:
+- Données de remboursement des régimes d'Assurance Maladie (base SNIIRAM)
+- Données des hospitalisations (base PMSI)
+- Causes médicales de décès (CépiDC)
+- Données relatives aux handicap (MDPH)
+- Données relatives à l'infection à Covid-19 (bases Vaccin Covid et SI-DEP)
+- Échantillons de données des complémentaires santé
 
-- données de l'assurance maladie, SNIIRAM
-- données des hôpitaux, base PMSI
-- causes médicales de décès, CépiDC
-- données relatives aux handicap
-- échantillons de données des assurances maladies complémentaires
+Les finalités sont multiples :
 
-Finalités de ces données:
+- [Aide à la recherche ou l'évaluation présentant un caractère publique]{.cb}
 
-- Favoriser les études, la recherche ou l'évaluation présentant un caractère public
-- Aide à la mise en œuvre de politique de santé
-- Connaissance des dépenses de santé
-- Surveillance, veille et sécurité sanitaire
+::: callout-tip
+## Étude de l'efficacité de nouveaux traitements contre le diabète de type II en conditions réelles
+
+Les chercheurs peuvent accéder à des informations détaillées sur les résultats des traitements administrés à large échelle, permettant d'évaluer leur efficacité et leur sécurité dans des conditions réelles d'utilisation.
+:::
+
+- [Aide à la mise en oeuvre de politiques de santé]{.cb}
+
+::: callout-tip
+## Comparaison des taux de vaccination entre différentes régions
+
+Permet d'adapter les campagnes de vaccination pour cibler les zones où le taux de vaccination est faible, assurant une meilleure couverture vaccinale globale.
+:::
+
+- [Meilleure connaissance des dépenses de santé]{.cb}
+
+::: callout-tip
+## Analyse des tendances de consommation de traitements liés aux maladies chroniques
+
+Aide les autorités sanitaires à planifier des budgets plus précis et à envisager des mesures pour contrôler les dépenses, telles que la promotion des médicaments génériques.
+:::
+
+- [Surveillance, veille et sécurité sanitaire]{.cb}
+
+::: callout-tip
+## Suivi de l'évolution d'épidémies de grippe saisonnière en temps réel
+
+Permet d'adapter rapidement les réponses sanitaires et de contrôler la propagation.
+:::
 
 
 ## Limites
 
----
+##### Informations limitées {.unnumbered}
 
-Informations limitées
-: Les données que vous avez peuvent être incomplètes ou ne pas couvrir tous les aspects nécessaires pour une évaluation complète. Cela requiert une approche prudente dans l'interprétation des résultats et dans les décisions de soins basées sur ces données.
+Les données que vous avez peuvent être incomplètes ou ne pas couvrir tous les aspects nécessaires pour une évaluation complète. Cela requiert une approche prudente dans l'interprétation des résultats et dans les décisions de soins basées sur ces données.
 
-Pas de choix des données
-: Souvent, dans le contexte clinique ou lors d'études épidémiologiques, vous devez travailler avec les données disponibles, qui ne sont pas toujours celles que vous auriez choisies. Cela peut affecter la manière dont vous interprétez et utilisez ces informations dans votre pratique.
+##### Pas de choix des données {.unnumbered}
 
-Pas de définition standardisée
-: Dans le domaine de la santé, toutes les institutions ou études ne suivent pas les mêmes définitions pour les termes ou les critères diagnostiques. Cette variabilité peut conduire à des confusions ou à des erreurs d'interprétation si elle n'est pas correctement gérée.
+Les données disponibles ne sont pas toujours celles choisies, ce qui peut affecter l'interprétation et l'utilisation de ces informations en pratique.
 
-Pas de contrôle de qualité des données
-: Les données peuvent souvent être de qualité variable, sans vérifications ou contrôles standard pour assurer leur fiabilité. Il est essentiel de comprendre les limites de ces données pour éviter des conclusions erronées.
+##### Pas de définition standardisée {.unnumbered}
 
----
+La variabilité avec laquelle sont définies les critères peut conduire à des confusions ou à des erreurs d'interprétation si elle n'est pas prise en compte.
 
-Pour pallier ces limitations, il est nécessaire de passer par la réalisation d'[enquêtes spécifiques]{.cb}.
+##### Pas de contrôle de qualité des données {.unnumbered}
+
+Les données peuvent être de qualité variable, insuffisamment contrôlées pour assurer leur fiabilité.
+
+\
+
+Pour pallier ces limites, il peut être nécessaire de réaliser des [enquêtes spécifiques]{.cb} (@sec-src-spe).
