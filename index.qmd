@@ -1,12 +1,12 @@
 # Introduction {.unnumbered}
 
-::: {.p style="text-align:center"}
+---
 
-Les ressources externes au cours sont présentées en tant que supplément
+::: {.p style="text-align:center"}
+Les ressources externes au cours sont présentées en tant que suppléments
 : Autrement dit, l'ensemble de ce qui est demandé de connaitre pour l'examen est présent [dans ce cours]{.cb}
 
 **Il n'est pas demandé de connaitre des listes, des chiffres ou des formules mathématiques**
-
 :::
 
 ---

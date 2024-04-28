@@ -1,4 +1,4 @@
-# Mesures de base
+# Mesures de base {#sec-indic}
 
 Un indicateur de santé est une variable que l'on mesure afin de mesurer l'état de santé d'une population 
 
@@ -92,7 +92,7 @@ Deux effectifs de nature différente :
 L'indice correspondant est 30 pour 3, ou 10 pour 1 : il y a 10 enfants par IDE.
 :::
 
-### Exercice
+## Exercices
 
 Pour chaque énoncé, quel est l'indicateur de base correspondant ?
 
@@ -175,7 +175,7 @@ Pour être de qualité, un indicateur de santé doit être :
 Facilement compréhensible par les professionnels et les usagers
 
 ::: callout-tip
-## Le taux de mortalité infantile est une mesure simple et consensuelle du nombre d'enfants décédés entre la naissance et 12 mois parmi toutes les naissances vivantes dans une population donnée.
+## Le taux de mortalité infantile est une mesure simple et consensuelle du nombre d'enfants décédés entre la naissance et 12 mois parmi toutes les naissances vivantes dans une population donnée
 :::
 
 - [Fiable]{.cb}
@@ -267,17 +267,25 @@ Une mesure [précise mais inexacte]{.cb} donnerait des valeurs fiables [mais fau
 
 :::
 
+---
+\
+
 ::: {.p style="text-align:center"}
 ## TAKE-HOME MESSAGES {.unnumbered .unlisted}
 :::
 
 ::: callout-important
 ## [Bien distinguer les indicateurs de base]{.cb}
-- Un ratio est mesuré à partir d'une variable binaire
-- Un taux intègre une notion de risque et de temps
+:::
+
+::: callout-important
+## [Un taux intègre la notion de risque et de temps]{.cb}
 :::
 
 ::: callout-important
 ## [Fiabilité est synonyme de précision ; validité est synonyme d'exactitude]{.cb}
-- Une mesure peut être fiable sans être valide
+:::
+
+::: callout-important
+## [Une mesure peut être fiable sans être valide]{.cb}
 :::

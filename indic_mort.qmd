@@ -92,10 +92,6 @@ Indépendamment de ses causes, la mortalité est liée un facteur incontournable
 
 Si la comparaison entre départements révèle des taux plus élevés dans l'un, cela peut-être dû non pas à des causes externes mais simplement à la [structure d'âge]{.cb} du département : [la mortalité sera plus élevée si la moyenne d'âge est plus élevée !]{.cb}
 
-::: callout-note
-## L'âge est un [facteur de confusion]{.cb}^[Voir @sec-biais-conf] dans la mesure des taux comparatifs de mortalité
-:::
-
 ::: {#fig-mort layout-ncol=2}
 
 ![Taux bruts de mortalité](img/taux_brut_mort_2023.png){#fig-mort-brut}
@@ -103,6 +99,10 @@ Si la comparaison entre départements révèle des taux plus élevés dans l'un,
 ![Part des plus de 75 ans](img/part_75_2023.png){#fig-mort-part-75}
 
 Taux bruts de mortalité et part des plus de 75 ans en 2023 (en ‰)
+:::
+
+::: callout-note
+## L'âge est un [facteur de confusion]{.cb}^[Voir @sec-biais-conf] dans la mesure des taux comparatifs de mortalité
 :::
 
 ### Solution

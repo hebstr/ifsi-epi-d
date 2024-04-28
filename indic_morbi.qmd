@@ -148,78 +148,98 @@ Comment auraient tendance à évoluer l'incidence et la prévalence dans les sit
 
 ```{r}
 library(gt)
+library(dplyr)
+library(purrr)
 
 gt_arrow <- \(...) {
 
   tibble::tibble(...) |> 
     gt() |> 
-    fmt_icon() |> 
+    fmt_icon(columns = c("incidence", "prévalence")) |> 
     cols_align(align = "center",
                columns = everything()) |>
     tab_style(style = cell_text(weight = "bold"),
               locations = cells_column_labels())
   
 }
+
+title <-
+c("Augmentation des facteurs de risque",
+  "Amélioration de la prise en charge : guérison plus rapide",
+  "Amélioration de la prise en charge : survie plus longue",
+  "Amélioration des méthodes diagnostiques",
+  "Meilleure déclaration",
+  "Changement de définition de la maladie")
+
+tab <-
+list(gt_arrow(incidence = "arrow-up-long",
+              prévalence = "arrow-up-long"),
+     gt_arrow(incidence = "arrow-right-long",
+              prévalence = "arrow-down-long"),
+     gt_arrow(incidence = "arrow-right-long",
+              prévalence = "arrow-up-long"),
+     gt_arrow(incidence = "arrow-up-long",
+              prévalence = "arrow-up-long"),
+     gt_arrow(incidence = "arrow-up-long",
+              prévalence = "arrow-up-long"),
+     gt_arrow(incidence = "question",
+              prévalence = "question"))
 ```
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-## Augmentation des facteurs de risque
-
+## `r title[1]`
 ```{r}
-gt_arrow(incidence = "arrow-up-long",
-         prévalence = "arrow-up-long")
+tab[[1]]
 ```
-
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-## Amélioration de la prise en charge : guérison plus rapide
-
+## `r title[2]`
 ```{r}
-gt_arrow(incidence = "arrow-right-long",
-         prévalence = "arrow-down-long")
+tab[[2]]
 ```
-
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-## Amélioration de la prise en charge : survie plus longue
-
+## `r title[3]`
 ```{r}
-gt_arrow(incidence = "arrow-right-long",
-         prévalence = "arrow-up-long")
+tab[[3]]
 ```
-
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-## Amélioration des méthodes diagnostiques
-
+## `r title[4]`
 ```{r}
-gt_arrow(incidence = "arrow-up-long",
-         prévalence = "arrow-up-long")
+tab[[4]]
 ```
-
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-## Meilleure déclaration
-
+## `r title[5]`
 ```{r}
-gt_arrow(incidence = "arrow-up-long",
-         prévalence = "arrow-up-long")
+tab[[5]]
 ```
-
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-## Changement de définition de la maladie
-
+## `r title[6]`
 ```{r}
-gt_arrow(incidence = "question",
-         prévalence = "question")
+tab[[6]]
 ```
+:::
 
+---
+
+::: {.callout-caution collapse="true" appearance="minimal"}
+## Facteurs déterminants : résumé
+```{r}
+tab |> 
+  map(~ .[["_data"]]) |> 
+  list_rbind() |> 
+  mutate(" " = title,
+         .before = everything()) |>
+  gt_arrow()
+```
 :::
 
 
@@ -237,9 +257,21 @@ Nombre de nouveaux cas sur une période donnée : c'est une [incidence]{.cb}
 Proportion à un instant donné : c'est une [prévalence]{.cb}
 :::
 
+---
+\
 
-## Ce qu'il faut retenir
+::: {.p style="text-align:center"}
+## TAKE-HOME MESSAGES {.unnumbered .unlisted}
+:::
 
-- [Bien différencier incidence et prévalence (penser à la baignoire !)]{.cb}
-- [Comprendre l'évolution de l'incidence et de la prévalence]{.cb}
-- La prévalence est dépendante de l'incidence
+::: callout-important
+## [Bien distinguer incidence et prévalence (penser à la baignoire)]{.cb}
+:::
+
+::: callout-important
+## [La prévalence des maladies a tendance à augmenter avec le temps]{.cb}
+:::
+
+::: callout-important
+## [La prévalence est dépendante de l'incidence]{.cb}
+:::

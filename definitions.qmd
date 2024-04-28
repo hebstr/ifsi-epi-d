@@ -2,7 +2,7 @@
 
 ---
 
-> *"La santé est un état de complet bien-être physique, mental et social, et ne consiste pas seulement en une absence de maladie ou d'infirmité"*
+> *"La santé est un état de complet bien-être physique, mental et social, et ne consiste pas seulement en une absence de maladie ou d'infirmité."*
 
 ::: {.p style="text-align:right"}
 Préambule de la constitution de l'OMS, 1946
@@ -12,32 +12,49 @@ Préambule de la constitution de l'OMS, 1946
 
 ## L'épidémiologie
 
-L'épidémiologie est composée de trois concepts : au-dessus/parmi (*epi*), peuple (*demos*) et discours/connaissance (*logos*). Elle signifie donc par extrapolation
+L'épidémiologie est composée de trois concepts : au-dessus/parmi (*epi*), peuple (*demos*) et discours/connaissance (*logos*). C'est donc, par extrapolation :
 
-> *" la science de ce qui affecte la population"* 
+::: {.p style="text-align:center"}
+> *" La science de ce qui affecte la population"* 
+:::
 
-et était historiquement réservée à l'étude des maladies infectieuses (épidémies).
+Historiquement, l'épidémiologie était réservée à l'étude des maladies infectieuses ("épidémies").
 
-Actuellement, l'épidémiologie étudie en pratique :
+L'épidémiologie s'est depuis diversifiée et vise désormais à étudier :
 
-- La [distribution]{.cb} d'un phénomène de santé dans une population humaine 
-- Et les [déterminants]{.cb} de cette distribution (facteurs délétères, facteurs protecteurs)
+::: {.p style="text-align:center"}
+**la [distribution]{.cb} d'un phénomène de santé dans une population humaine** \
+**ainsi que les [déterminants]{.cb} de cette distribution**
+:::
 
 ::: callout-note
 ## Phénomène de santé ?
-Un phénomène de santé, ou état de santé, fait référence à [tout évènement]{.cb} relatif à santé d'une personne ou d'une population. Il n'est donc [pas forcément synonyme de maladie]{.cb} : il peut s'agir d'un symptôme, de la mortalité, mais aussi de facteurs comportementaux (consommation de tabac, pratique d'activité physique, etc.) ou socio-économiques.
+Un phénomène de santé, ou état de santé, fait référence à [tout évènement]{.cb} relatif à la santé d'une personne ou d'une population. Il n'est donc [pas forcément synonyme de maladie]{.cb} : il peut aussi s'agir d'un symptôme, de la mort, de facteurs comportementaux (e.g., consommation de tabac, pratique d'activité physique) ou socio-économiques.
 :::
 
 ### Pour quoi ?
 
 - [Décrire]{.cb} un phénomène de santé = Epidémiologie descriptive 
-  - Caractériser une pathologie 
+  - Déterminer la fréquence et la répartition d'un phénomène de santé en termes de personnes, de lieu et de temps (qui ? quoi ? où ?)
   
 - [Comprendre]{.cb} = Epidémiologie analytique
   - Rechercher les déterminants de cette pathologie 
 
 - [Evaluer]{.cb} = Epidémiologie évaluative
-  - Mesurer l’impact d’une politique de santé
+  - Mesurer l'impact d'une politique de santé
+
+::: callout-tip
+## Étude des maladies cardiovasculaires
+
+1. [Décrire]{.cb}
+: La collecte de données provenant d'enquêtes nationales a permis d'identifier que les maladies cardiovasculaires étaient plus fréquentes chez les adultes âgés de plus de 50 ans ayant des comportements à risque tels que le tabagisme ou une alimentation riche en sel.
+
+2. [Comprendre]{.cb}
+: Des études visant à rechercher des liens entre les facteurs de risque potentiels et la survenue de maladies cardiovasculaires ont pu montrer que les personnes les plus à risque étaient celles ayant, ente autres, une pression artérielle élevée ou un diabète mal contrôlé.
+
+3. [Évaluer]{.cb}
+: Analyser les données avant et après la mise en place de campagnes de sensibilisation sur les facteurs de risque de maladies cardiovasculaires (e.g., promouvoir l'activité physique, une alimentation plus saine)
+:::
 
 
 ```{r}
@@ -53,20 +70,18 @@ knitr::include_graphics("img/quadri.png")
 - [Les professionnels de santé]{.cb}
 : Ils jouent un rôle important dans la mise en oeuvre des interventions de santé, allant de la prévention à la prestation de soins. Leur expertise est nécessaire pour assurer des interventions efficaces et adaptées aux besoins de la populations.
 
+::: callout-tip
+## Campagne de vaccination contre la grippe saisonnière
+:::
 
-#### Les politiques et administrations {.unnumbered}
+- [Les politiques et administrations]{.cb}
+: Leur rôle consiste à élaborer des programmes répondant aux besoins de la population et favorisant l'accès au système de santé (e.g., campagnes de sensibilisation, promotion de la santé)
 
-Leur rôle consiste à élaborer des politiques et des programmes qui répondent aux besoins de la population et qui favorisent l'accès au système de santé (campagnes de sensibilisation)
+- [Les gestionnaires]{.cb}
+: Chargés de planifier, d'allouer et d'organiser les ressources nécessaires à la prestation des services de santé, leur travail consiste à garantir que les ressources sont utilisées de manière efficiente et équitable pour répondre aux besoins de la population (e.g., organiser des campagnes de vaccination en cas d'épidémie)
 
-
-#### Les gestionnaires {.unnumbered}
-
-Chargés de planifier, d'allouer et d'organiser les ressources nécessaires à la prestation des services de santé, leur travail consiste à garantir que les ressources sont utilisées de manière efficiente et équitable pour répondre aux besoins de la population (organiser des campagnes de vaccination en cas d'épidémie)
-
-
-#### Les usagers {.unnumbered}
-
-Ils doivent être en mesure de défendre leurs propres intérêts en matière de santé, en plaidant pour des politiques et des services qui répondent à leurs besoins spécifiques (patients, associations de patients, etc.)
+- [Les usagers]{.cb}
+: Ils doivent être en mesure de défendre leurs propres intérêts en matière de santé, en plaidant pour des politiques et des services qui répondent à leurs besoins spécifiques (e.g., associations de patients)
 
 
 ## L'épidémiologie descrptive
@@ -78,10 +93,7 @@ L'épidémiologie descriptive a pour objectif de **décrire** un problème de sa
 - Evolution 
 - Caractéristiques
 
-Elle repose sur l'utilisation d'indicateurs de santé :
-
-- Indicateurs de [morbidité]{.cb}
-- Indicateurs de [mortalité]{.cb}
+Elle repose sur l'utilisation d'[indicateurs de santé]{.cb} (@sec-indic).
 
 Ses objectifs sont multiples :
 
@@ -90,8 +102,8 @@ Ses objectifs sont multiples :
 ::: callout-tip
 ## Repérage des individus atteints de maladies infectieuses pour agir (exemples)
 
-- **Pandémie de Covid-19** : Isolement
-- **Tuberculose** : Traitement des malades
+- **Pandémie de Covid-19** : isolement
+- **Tuberculose** : traitement des malades
 - **Méningite bactérienne** : traitement prophylactique de l'entourage (vaccination)
 - **Toxi-infection alimentaire collective (TIAC)** : repérage et neutralisation de la source contaminante
 :::
@@ -114,7 +126,7 @@ img covid
 
 :::
 
-- [Formulation d'hypothèses dans la recherche étiologique]{.cb}
+- [Formulation d'hypothèses pour la recherche étiologique]{.cb}
 
 ::: callout-tip
 ## Le gradiant nord-sud des maladies cardiovasculaires
@@ -123,18 +135,20 @@ img gradient nord sud
 
 :::
 
+---
+\
 
-## En bref
+::: {.p style="text-align:center"}
+## TAKE-HOME MESSAGES {.unnumbered .unlisted}
+:::
 
-Vise à déterminer dans la population : la fréquence et la répartition 
+::: callout-important
+## [L'épidémiologie consiste à décrire des phénomènes de santé dans une population et rechercher les facteurs qui les déterminent]{.cb}
+:::
 
-- Des maladies 
-- Des paramètres de santé 
-- Des facteurs de risques 
+::: callout-important
+## [2 parties : descriptive et analytique]{.cb}
+:::
 
-En terme de 
 
-- Temps : Quand? 
-- Lieu : Où? 
-- Personnes : Qui?
 
