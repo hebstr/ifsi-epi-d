@@ -67,7 +67,7 @@ Sur 1000 enfants nés vivants entre 2020 et 2022, environ 4 en moyenne sont déc
 ```{r #fig-mort-inf}
 #| out-width: 4.5in
 #| fig-align: center
-#| fig-cap: "Taux de mortalité infantile entre 2020 et 2022 (en ‰)"
+#| fig-cap: "Taux de mortalité infantile entre 2020 et 2022 (en ‰). Source : [Insee](https://www.insee.fr/fr/statistiques/2012741)"
 
 knitr::include_graphics("img/taux_mort_inf_2020_2022.png")
 ```
@@ -92,7 +92,9 @@ Indépendamment de ses causes, la mortalité est liée un facteur incontournable
 
 Si la comparaison entre départements révèle des taux plus élevés dans l'un, cela peut-être dû non pas à des causes externes mais simplement à la [structure d'âge]{.cb} du département : [la mortalité sera plus élevée si la moyenne d'âge est plus élevée !]{.cb}
 
-On dit que l'âge est un [facteur de confusion]{.cb} (@sec-biais-conf) dans la mesure des taux comparatifs de mortalité.
+::: callout-note
+## L'âge est un [facteur de confusion]{.cb}^[Voir @sec-biais-conf] dans la mesure des taux comparatifs de mortalité
+:::
 
 ::: {#fig-mort layout-ncol=2}
 
@@ -112,12 +114,12 @@ Les taux comparatifs de décès, ou [taux standardisés]{.cb}, correspondent à 
 ```{r #fig-stand}
 #| out-width: 4.5in
 #| fig-align: center
-#| fig-cap: "Taux standardisés de mortalité prématurée (< 65 ans) en 2023 (en ‰)"
+#| fig-cap: "Taux standardisés de mortalité prématurée (< 65 ans) en 2023 (en ‰). Source : [Insee](https://www.insee.fr/fr/statistiques/2012741)"
 
 knitr::include_graphics("img/taux_stand_mort_prem_2023.png")
 ```
 
-Dans cet exemple, on peut supposer que les taux de mortalité observés dépendent non pas de la structure d'âge dans chaque région, mais bien de [facteurs externes]{.cb}.
+Après standardisation, on peut supposer que les taux de mortalité observés dépendent non plus de la structure d'âge dans chaque région, mais bien de [facteurs externes]{.cb}.
 
 
 ## Taux de létalité 
@@ -154,7 +156,7 @@ Sur 100 cas de COVID survenus durant cette période, 17 sont décédés.
 La différence se situe au dénominateur :
 
 - Le taux de mortalité spécifique du cancer du sein sur une période donnée correspond au nombre de personnes décédées d'un cancer du sein [parmi l'ensemble de la population]{.cb}.
-- Le taux de létalité du cancer du sein sur cette même période correspond au nombre de personnes décédées d'un cancer du sein [parmi les personnes atteintes]{.cb}.
+- Le taux de létalité du cancer du sein sur cette même période correspond au nombre de personnes décédées d'un cancer du sein [parmi les personnes atteintes d'un cancer du sein]{.cb}.
 
 La mortalité spécifique est un indicateur de la charge globale de la maladie sur la société, tandis que la létalité est cruciale pour comprendre et gérer les risques pour les individus atteints d'une maladie donnée.
 
@@ -177,7 +179,7 @@ tibble::tibble(" " = c("**Hommes**", "**Femmes**"),
 ::: callout-note
 ## Espérance de vie en bonne santé
 
-L'espérance de vie [en bonne santé]{.cb}, aussi appelée espérance de vie [sans incapacité]{.cb}, est le nombre moyen d'années qu'une personne peut espérer vivre sans souffrir d'incapacité dans les gestes de la vie quotidienne. 
+L'espérance de vie [en bonne santé]{.cb} (ou espérance de vie [sans incapacité]{.cb}) est le nombre moyen d'années qu'une personne peut espérer vivre sans souffrir d'incapacité dans les gestes de la vie quotidienne. 
 
 ```{r #tbl-esp-bs}
 #| tbl-cap: "Espérance de vie en bonne santé en France, 2022."
@@ -189,15 +191,23 @@ tibble::tibble(" " = c("**Hommes**", "**Femmes**"),
 ```
 :::
 
-
-## Ce qu'il faut retenir
-
-- La standardisation est indispensable dès lors qu'on souhaite comparer des taux de mortalité
-- Faire la distinction entre mortalité et létalité
-
-\
-
----
-
 Source : [Insee](https://www.insee.fr/fr/statistiques/2012741)
 
+---
+\
+
+::: {.p style="text-align:center"}
+## TAKE-HOME MESSAGES {.unnumbered .unlisted}
+:::
+
+::: callout-important
+## [La standardisation est indispensable dès lors qu'il faut mesurer des taux comparatifs de mortalité]{.cb}
+:::
+
+::: callout-important
+## [Bien distinguer mortalité et létalité]{.cb}
+:::
+
+::: callout-important
+## [La létalité n'est pas une mortalité spécifique d'une cause de décès]{.cb}
+:::

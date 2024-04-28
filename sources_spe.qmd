@@ -6,14 +6,16 @@
 
 On en distingue deux types :
 
+::: {.p style="text-align:center"}
+
 Enquêtes en population (exhaustive)
-: Ces enquêtes visent à collecter des informations aussi complètes que possible, en couvrant tous les aspects pertinents du sujet d'étude pour réduire les biais et les lacunes des données préexistantes.
+: [Registre de morbidité]{.cb} (@sec-reg)
 
 Enquêtes sur échantillon représentatif
-: L'utilisation d'échantillons bien définis permet de contrôler la qualité des données recueillies et d'assurer que les résultats sont représentatifs et applicables à la population ciblée.
+: [Transversale]{.cb} (@sec-spe-trans) \
+[Longitudinale]{.cb} (@sec-spe-long)
 
-
-## Terminologie
+:::
 
 ::: {layout-ncol=3}
 
@@ -34,19 +36,57 @@ tibble::tibble(Chronologie = c("Prospection", "Rétrospection")) |>
 
 :::
 
-### Population
 
-#### Exhaustivité
+## Enquête exhaustive
+
+### L'exhaustivité {#sec-exhaust}
+
+La notion d'exhaustivité a déjà été abordée^[Voir @sec-mdo].
 
 On a recueilli l'information de [tous]{.cb} les individus qui constituent la population.
 Dans ce cas on parle d'[exhaustivité]{.cb}.
+
+Ces enquêtes visent à collecter des informations aussi complètes que possible, en couvrant tous les aspects pertinents du sujet d'étude pour réduire les biais et les lacunes des données préexistantes.
 
 ::: callout-note
 ## Une liste exhaustive est une liste [complète]{.cb}, qui contient toute l'information
 :::
 
 
-#### Représentativité
+### Registre de morbidité {#sec-reg}
+
+Il s'agit d'une structure qui enregistre de manière [continue et exhaustive]{.cb}, [l'ensemble]{.cb} des cas :
+
+1. Pour [une pathologie donnée]{.cb}
+2. Sur un [territoire géographique donné]{.cb}
+
+Pour une pathologie donnée, un registre permet d'étudier :
+
+- Son incidence
+- Sa mortalité
+- Sa létalité
+
+Ce type d'enquête s'inscrit avant tout dans une démarche [descriptive]{.cb}, mais peut aussi aider à l'évaluation d'actions de santé publique (e.g. impact d'une campagne de dépistage).
+
+::: callout-tip
+## Les pathologies sont diverses et doivent être [facilement repérables]{.cb} : 
+
+- Registre de cancers (les plus nombreux)
+- Registre des maladies inflammatoires du tube digestif
+- Registre des malformations congénitales
+- Registre des AVC
+:::
+
+::: callout-tip
+## Le registre des AVC dans la Métropole Européenne de Lille (MEL)
+
+Il s'agit d'un enregistrement continu et exhaustif de tous les nouveaux cas d'AVC (**pathologie donnée**) chez les habitants de la MEL (**territoire géographique donné**).
+:::
+
+
+## Enquête sur échantillon représentatif
+
+### La représentativité {#sec-repres}
 
 Il n'est parfois (et même souvent) pas possible d'avoir accès à toute une population (effectifs trop grands, manque de moyens...).
 Une solution est de réaliser un [échantillonnage]{.cb} de cette population.
@@ -58,10 +98,11 @@ img pop echant
 Un échantillon doit être constitué de manière rigoureuse : on veut qu'il soit [un bon reflet]{.cb} de la population dont il est issu. Autrement dit, on veut qu'il soit [représentatif]{.cb} de cette population.
 
 La représentativité d'un échantillon est toujours recherchée, puisqu'elle permet de [généraliser]{.cb} les résultats à la population dont il est issu.
+L'utilisation d'échantillons bien définis permet de contrôler la qualité des données recueillies et d'assurer que les résultats sont représentatifs et applicables à la population ciblée.
 
-Un échantillon mal constitué, non représentatif, et un échantillon soumis à des [biais de sélection]{.cb} (@sec-biais-sel).
+Un échantillon mal constitué, non représentatif, et un échantillon soumis à des [biais de sélection]{.cb}^[Voir @sec-biais-sel].
 
-En pratique, la constitution d'un échantillon fait intervenir 3 notions : 
+En pratique, la constitution d'un échantillon fait intervenir trois concepts : 
 
 1. La population [cible]{.cb}
 
@@ -69,124 +110,38 @@ En pratique, la constitution d'un échantillon fait intervenir 3 notions :
 
 3. L'[échantillon]{.cb}, issu de la population source.
 
-Ces notions peuvent illustrées avec un exemple.
-
+On peut les illustrer avec un exemple.
 
 ::: callout-tip
 ## On souhaite connaître la prévalence de l'obésité chez les sujets âgés de 30 à 45 ans habitant à Lille
-
-
-
 :::
 
 
-### Durée
+### Enquête transversale {#sec-spe-trans}
 
-#### Transversalité
+La notion de transversalité ayant déjà été abordée^[Voir @sec-mrb], vous devriez être en mesure de répondre aux questions suivantes.
 
-Une mesure dite [transversale]{.cb} est une mesure de [prévalence]{.cb} (@sec-prev).
-
-C'est une mesure instantanée, réalisée [à instant donné]{.cb} (*une photographie*).
-Il n'y a donc [pas de suivi]{.cb}.
-
-::: callout-tip
-## Étude de la prévalence de 
-
-
+::: {.callout-caution collapse="true" appearance="minimal"}
+## L'objectif d'une enquête transversale est-il de mesurer une incidence ou une prévalence ?
+Mesure transversale = mesure prise à un instant donné \
+Une enquête transversale consiste donc à mesurer une [prévalence]{.cb}^[Voir @sec-prev]
 :::
 
-
-#### Longitudinalité
-
-Une mesure dite [longitudinale]{.cb} est une mesure d'[incidence]{.cb} (@sec-inc).
-
-C'est une mesure réalisée dans le temps, [sur une période donnée]{.cb} (*d'un point A à un point B*).
-Il a donc une notion de [suivi]{.cb}.
-
-::: callout-tip
-## Étude de l'incidence de 
-
-
+::: {.callout-caution collapse="true" appearance="minimal"}
+## Les sujets inclus dans une étude transversale sont-ils suivis dans le temps ?
+La réalisation d'une mesure à un instant donné signifie justement qu'il n'y a [pas de suivi dans le temps]{.cb}
 :::
 
-
-### Chronologie
-
-#### Prospection
-
-Une étude est dite [prospective]{.cb} si 
-
-::: callout-tip
-## exemple
-
-:::
-
-
-#### Rétrospection
-
-Une étude est dite [rétrospective]{.cb} si 
-
-::: callout-tip
-## exemple
-
-:::
-
-
-## Types d'enquêtes
-
-Il existe trois types d'enquêtes :
-
-- Enquête exhaustive : [registre de morbidité]{.cb}
-
-- Enquête sur [échantillon représentatif]{.cb}
-
-  - Enquête [transversale]{.cb}
-  - Enquête [de cohorte]{.cb}
-
-
-### Registre de morbidité
-
-Il s'agit d'une structure qui enregistre, de manière [continue]{.cb}, [l'ensemble]{.cb} des cas :
-
-- Pour [une pathologie donnée]{.cb}
-- Sur un [territoire géographique donné]{.cb}
-
-Pour une pathologie donnée, un registre permet d'étudier :
-
-- Son incidence
-- Sa mortalité
-- Sa létalité
-
-Ce type d'enquête s'inscrit avant tout dans une démarche [descriptive]{.cb}, mais peut aussi aider à l'évaluation d'actions de santé publique (e.g. impact d'une campagne de dépistage).
-
-Les pathologies sont diverses, et doivent être [facilement repérables]{.cb} (liste non exhaustive) : 
-
-- Registre de cancers (les plus nombreux)
-- Registre des maladies inflammatoires du tube digestif
-- Registre des malformations congénitales
-- Registre des AVC
-
-::: callout-tip
-## Le registre des AVC dans la Métropole Européenne de Lille (MEL)
-
-Il s'agit d'un enregistrement [continu]{.cb} des nouveaux cas d'AVC ([pathologie donnée]{.cb}) chez les habitants de la MEL ([territoire géographique donné]{.cb}).
-:::
-
-
-### Enquête sur échantillon représentatif
-
-#### Enquête transversale
-
-- Mesure de la prévalence
-- Sur échantillon représentatif (parfois exhaustive si population pas trop importante)
-- Pas de suivi de la population (« photographie »)
 - Champs d'étude restreint
-  - Pour des maladies suffisamment fréquentes pour pouvoir être étudiées avec une précision raisonnable
+- Pour des maladies suffisamment fréquentes pour pouvoir être étudiées avec une précision raisonnable
+
 
 ::: callout-tip
-## Exemples
+## Étude prévalence obésité présentée plus haut^[Voir @sec-repres] est une enquête transversale
+:::
 
-enquête MONA-LISA-Lille
+::: callout-tip
+## Enquête MONA-LISA-Lille
 
 - Objectif : mesurer la prévalence des principaux FR cardiovasculaire dans la MEL
 
@@ -202,22 +157,85 @@ Ex de résultat : la prévalence de l'HTA dans la MEL est de 53% chez les hommes
 
 :::
 
-#### Enquête longitudinale
+
+### Enquête longitudinale {#sec-spe-long}
+
+La notion de longitudinalité ayant déjà été abordée^[Voir @sec-mrb], vous devriez être en mesure de répondre aux questions suivantes.
+
+::: {.callout-caution collapse="true" appearance="minimal"}
+## L'objectif d'une enquête longitudinale est-il de mesurer une incidence ou une prévalence ?
+Mesure longitudinale = mesure réalisée dans le temps, sur une période donnée \
+Une enquête longitudinale consiste donc à mesurer une [incidence]{.cb} (@sec-prev)
+:::
+
+::: {.callout-caution collapse="true" appearance="minimal"}
+## Les sujets inclus dans une étude longitudinale sont-ils suivis dans le temps ?
+La réalisation d'une mesure sur une période donnée signifie justement qu'il y a [un suivi dans le temps]{.cb}
+:::
+
+Une enquête longitudinale est en pratique appelée [étude de cohorte]{.cb}.
+
+Une [cohorte]{.cb} est un groupe de personnes [suivies dans le temps]{.cb} servant à la réalisation d'études épidémiologiques présentant un intérêt de santé publique.
 
 ::: callout-tip
-## Exemples
+## La cohorte PAQUID (1988-2004)
 
-enquête PAQUID
+- **Inclusion** : 3777 sujets âgés de 65 ans et plus vivant en région Aquitaine
+- **Objectif** : étude du vieillissement cérébral et fonctionnel en population générale
+- **Suivi** : tous les deux ans à 11 reprises
+- **Résultat** : la démence était la cause principale de dépendance du sujet âgé en France
 
-- Étude de cohorte ayant inclus 3777 sujets de 65 ans et plus, en 1988
-- Echantillon de population générale de la région Aquitaine
-- Objectif : étude du vieillissement cérébral et fonctionnel en population générale
-- Suivi tous les deux ans à 11 reprises
-- Résultat : la démence était la cause principale de dépendance du sujet âgé en France
+:::
+
+::: callout-tip
+## La plus importante cohorte en population française : [CONSTANCES](https://www.constances.fr/) (2012 - )
+
+Objectif
+: - Recueil de données variées pour suivre l'état de santé, la morbidité, la mortalité, les facteurs de risque et les caractéristiques socio-démographiques de ses participants
+- Vise à couvrir un large éventail de problèmes de santé et leurs déterminants, sans se limiter à une question de recherche spécifique, facilitant ainsi l'analyse d'une multitude de problèmes scientifiques dans le domaine de la santé
+
+Protocole
+: - 220 000 volontaires âgés de 18 à 69 ans et affiliés au Régime général de sécurité sociale inclus entre 2012 et 2021
+- Données recueillies par des questionnaires complétés à domicile ou administrés par les médecins dans les centres d'examens de santé 
+
+
+Exemples d'études réalisées ou en cours
+: - Développement d'un algorithme d'identification de la dégénérescence maculaire liée à l'âge
+- Étude des liens entre les expositions environnementales vie entière et la santé cardio-métaboliques
+- Impact des violences sexuelles sur la santé mentale et la consommation de substances psycho-actives
+- Évolution de la morphologie de la population française
+- Rôle de la consommation de cannabis dans les comportements suicidaires
 
 :::
 
 
-## Ce qu'il faut retenir
+## Chronologie
+
+### Prospection
+
+Une étude est dite [prospective]{.cb} si 
+
+::: callout-tip
+## exemple
+
+:::
 
 
+### Rétrospection
+
+Une étude est dite [rétrospective]{.cb} si 
+
+::: callout-tip
+## exemple
+
+:::
+
+\
+
+::: {.p style="text-align:center"}
+## TAKE-HOME MESSAGES {.unnumbered .unlisted}
+:::
+
+::: callout-important
+## test
+:::

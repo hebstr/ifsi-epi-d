@@ -1,72 +1,37 @@
 # Introduction {.unnumbered}
 
-```{r}
-library(knitr)
-```
+::: {.p style="text-align:center"}
 
-Le [texte souligné]() renvoie vers un lien externe.
+Les ressources externes au cours sont présentées en tant que supplément
+: Autrement dit, l'ensemble de ce qui est demandé de connaitre pour l'examen est présent [dans ce cours]{.cb}
 
-## La santé
+**Il n'est pas demandé de connaitre des listes, des chiffres ou des formules mathématiques**
 
-> *"La santé est un état de complet bien-être physique, mental et social, et ne consiste pas seulement en une absence de maladie ou d’infirmité"*
-
-Préambule de la constitution de l’OMS, 1946
-
-## L'épidémiologie
-
-L'épidémiologie est composée de trois concepts : au-dessus/parmi (*epi*), peuple (*demos*) et discours/connaissance (*logos*). Elle signifie donc par extrapolation
-
-> *" la science de ce qui affecte la population"* 
-
-et était historiquement réservée à l'étude des maladies infectieuses (épidémies).
-
-Actuellement, l'épidémiologie étudie en pratique :
-
-- La [distribution]{.cb} d'un phénomène de santé dans une population humaine 
-- Et les [déterminants]{.cb} de cette distribution (facteurs délétères, facteurs protecteurs)
-
-::: callout-note
-## Phénomène de santé ?
-Un phénomène de santé, ou état de santé, fait référence à [tout évènement]{.cb} relatif à santé d'une personne ou d'une population. Il n'est donc [pas focrément synonyme de maladie]{.cb} : il peut s'agir d'un symptôme, de la mortalité, mais aussi de facteurs comportementaux (consommation de tabac, pratique d'activité physique, etc.) ou socio-économiques.
 :::
 
-## Pour quoi ?
+---
 
-- [Décrire]{.cb} un phénomène de santé = Epidémiologie descriptive 
-  - Caractériser une pathologie 
-  
-- [Comprendre]{.cb} = Epidémiologie analytique
-  - Rechercher les déterminants de cette pathologie 
+Le [texte souligné]() renvoie vers un lien interne au cours (chapitre, section, figure, ...) ou un lien externe.
 
-- [Evaluer]{.cb} = Epidémiologie évaluative
-  - Mesurer l’impact d’une politique de santé
+---
 
+::: callout-note
+## Ceci est une note
+:::
 
-```{r}
-#| out-width: 6in
-#| fig-align: center
+::: callout-tip
+## Ceci est un exemple
+:::
 
-include_graphics("img/quadri.png")
-```
+::: {.callout-caution collapse="true" appearance="minimal"}
+## Ceci est un énoncé ou une question (cliquer pour afficher la réponse)
+La réponse
+:::
 
+::: callout-warning
+## Ceci est une précision sur une notion de cours pouvant porter à confusion
+:::
 
-## Pour qui ?
-
-#### Les professionnels de santé {.unnumbered}
-
-Ils jouent un rôle important dans la mise en oeuvre des interventions de santé, allant de la prévention à la prestation de soins. Leur expertise est nécessaire pour assurer des interventions efficaces et adaptées aux besoins de la populations.
-
-
-#### Les politiques et administrations {.unnumbered}
-
-Leur rôle consiste à élaborer des politiques et des programmes qui répondent aux besoins de la population et qui favorisent l'accès au système de santé (campagnes de sensibilisation)
-
-
-#### Les gestionnaires {.unnumbered}
-
-Chargés de planifier, d'allouer et d'organiser les ressources nécessaires à la prestation des services de santé, leur travail consiste à garantir que les ressources sont utilisées de manière efficiente et équitable pour répondre aux besoins de la population (organiser des campagnes de vaccination en cas d'épidémie)
-
-
-#### Les usagers {.unnumbered}
-
-Ils doivent être en mesure de défendre leurs propres intérêts en matière de santé, en plaidant pour des politiques et des services qui répondent à leurs besoins spécifiques (patients, associations de patients, etc.)
+::: callout-important
+## Ceci est une précision, placée en fin de chapitre
+:::

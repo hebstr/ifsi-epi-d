@@ -36,7 +36,7 @@ img certif elec
 Un certificat de décès correctement rempli participe à l'amélioration de la [veille sanitaire]{.cb}, à la qualité des [statistiques de mortalité]{.cb} et à la [comparabilité]{.cb} entre régions et pays (bien que la qualité de remplissage puisse varier d'un endroit à l'autre).
 
 
-### Maladies à déclaration obligatoire
+### Maladies à déclaration obligatoire {#sec-mdo}
 
 Il existe 38 [maladies à déclaratoire obligatoire](https://www.santepubliquefrance.fr/maladies-a-declaration-obligatoire/liste-des-maladies-a-declaration-obligatoire) (MDO). Elles ont en commun d'être des [maladies infectieuses]{.cb} (à deux exceptions[^3]).
 
@@ -57,7 +57,7 @@ C'est un système de transmission de [données individuelles]{.cb} à l'autorit�
 - notification : [toutes]{.cb} les maladies sans exception
 - signalement : maladies nécessitant une [intervention urgente]{.cb}, soit toutes sauf l'infection à VIH, hépatite B et tétanos.
 
-Le caractère [obligatoire]{.cb} de cette transmission permet une surveillance [continue]{.cb} et un recueil d'information [exhaustif]{.cb} vis-à-vis des maladies listées.
+Le caractère [obligatoire]{.cb} de cette transmission permet une surveillance [continue]{.cb} et un recueil d'information [exhaustif]{.cb} (@sec-exhaust) vis-à-vis des maladies listées.
 
 ::: callout-note
 ## Pour figurer sur cette liste, la maladie doit répondre à deux types de critères
@@ -131,7 +131,7 @@ Le [Système National des Données de Santé](https://www.assurance-maladie.amel
 - Données relatives à l'infection à Covid-19 (bases Vaccin Covid et SI-DEP)
 - Échantillons de données des complémentaires santé
 
-Les finalités sont multiples :
+Ses finalités sont multiples :
 
 - [Aide à la recherche ou l'évaluation présentant un caractère publique]{.cb}
 
@@ -184,6 +184,27 @@ La variabilité avec laquelle sont définies les critères peut conduire à des 
 
 Les données peuvent être de qualité variable, insuffisamment contrôlées pour assurer leur fiabilité.
 
+---
 \
 
 Pour pallier ces limites, il peut être nécessaire de réaliser des [enquêtes spécifiques]{.cb} (@sec-src-spe).
+   
+::: {.p style="text-align:center"}
+## TAKE-HOME MESSAGES {.unnumbered .unlisted}
+:::
+
+::: callout-important
+## [Un système de déclaration obligatoire permet un recueil d'information exhaustif]{.cb}
+:::
+
+::: callout-important
+## [La déclaration d'un décès est une obligation légale]{.cb}
+:::
+
+::: callout-important
+## [Sauf exceptions, les MDO sont des maladies infectieuses]{.cb}
+:::
+
+::: callout-important
+## [Le signalement d'une MDO doit être réalisé en urgence, dès la suspicion]{.cb}
+:::

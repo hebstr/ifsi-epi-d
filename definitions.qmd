@@ -1,48 +1,127 @@
 # Définitions
 
-## Définitions
+---
 
-L’épidémiologie descriptive a pour objectif de **décrire** un problème de santé dans un groupe de personne ou une population :
+> *"La santé est un état de complet bien-être physique, mental et social, et ne consiste pas seulement en une absence de maladie ou d'infirmité"*
+
+::: {.p style="text-align:right"}
+Préambule de la constitution de l'OMS, 1946
+:::
+
+---
+
+## L'épidémiologie
+
+L'épidémiologie est composée de trois concepts : au-dessus/parmi (*epi*), peuple (*demos*) et discours/connaissance (*logos*). Elle signifie donc par extrapolation
+
+> *" la science de ce qui affecte la population"* 
+
+et était historiquement réservée à l'étude des maladies infectieuses (épidémies).
+
+Actuellement, l'épidémiologie étudie en pratique :
+
+- La [distribution]{.cb} d'un phénomène de santé dans une population humaine 
+- Et les [déterminants]{.cb} de cette distribution (facteurs délétères, facteurs protecteurs)
+
+::: callout-note
+## Phénomène de santé ?
+Un phénomène de santé, ou état de santé, fait référence à [tout évènement]{.cb} relatif à santé d'une personne ou d'une population. Il n'est donc [pas forcément synonyme de maladie]{.cb} : il peut s'agir d'un symptôme, de la mortalité, mais aussi de facteurs comportementaux (consommation de tabac, pratique d'activité physique, etc.) ou socio-économiques.
+:::
+
+### Pour quoi ?
+
+- [Décrire]{.cb} un phénomène de santé = Epidémiologie descriptive 
+  - Caractériser une pathologie 
+  
+- [Comprendre]{.cb} = Epidémiologie analytique
+  - Rechercher les déterminants de cette pathologie 
+
+- [Evaluer]{.cb} = Epidémiologie évaluative
+  - Mesurer l’impact d’une politique de santé
+
+
+```{r}
+#| out-width: 6in
+#| fig-align: center
+
+knitr::include_graphics("img/quadri.png")
+```
+
+
+### Pour qui ?
+
+- [Les professionnels de santé]{.cb}
+: Ils jouent un rôle important dans la mise en oeuvre des interventions de santé, allant de la prévention à la prestation de soins. Leur expertise est nécessaire pour assurer des interventions efficaces et adaptées aux besoins de la populations.
+
+
+#### Les politiques et administrations {.unnumbered}
+
+Leur rôle consiste à élaborer des politiques et des programmes qui répondent aux besoins de la population et qui favorisent l'accès au système de santé (campagnes de sensibilisation)
+
+
+#### Les gestionnaires {.unnumbered}
+
+Chargés de planifier, d'allouer et d'organiser les ressources nécessaires à la prestation des services de santé, leur travail consiste à garantir que les ressources sont utilisées de manière efficiente et équitable pour répondre aux besoins de la population (organiser des campagnes de vaccination en cas d'épidémie)
+
+
+#### Les usagers {.unnumbered}
+
+Ils doivent être en mesure de défendre leurs propres intérêts en matière de santé, en plaidant pour des politiques et des services qui répondent à leurs besoins spécifiques (patients, associations de patients, etc.)
+
+
+## L'épidémiologie descrptive
+
+L'épidémiologie descriptive a pour objectif de **décrire** un problème de santé dans un groupe de personne ou une population :
 
 - Fréquence 
 - Répartition 
 - Evolution 
 - Caractéristiques
 
-Elle repose sur l’utilisation d’indicateurs de santé :
+Elle repose sur l'utilisation d'indicateurs de santé :
 
 - Indicateurs de [morbidité]{.cb}
 - Indicateurs de [mortalité]{.cb}
 
-## Objectifs
+Ses objectifs sont multiples :
 
-### Surveillance et contrôle sanitaire
+- [Surveillance et contrôle sanitaire]{.cb}
 
-- Surveillance et alerte 
-- Repérer les individus atteints de maladie pour mettre en place des mesures : 
-  - Isolement (ex : SRAS) 
-  - Traitement des malades (Tuberculose) 
-  - Traitement prophylactique de l'entourage (ex: Méningite) 
-  - Repérer et neutraliser la source de la contamination (ex: TIAC) 
-  - ...
+::: callout-tip
+## Repérage des individus atteints de maladies infectieuses pour agir (exemples)
 
+- **Pandémie de Covid-19** : Isolement
+- **Tuberculose** : Traitement des malades
+- **Méningite bactérienne** : traitement prophylactique de l'entourage (vaccination)
+- **Toxi-infection alimentaire collective (TIAC)** : repérage et neutralisation de la source contaminante
+:::
 
-### Meilleure connaissance des besoins de prise en charge médicale des populations
+- [Meilleure connaissance des besoins de prise en charge de la population]{.cb}
 
-> *Ex : fréquence de la trisomie 21 selon l’âge maternel*
+::: callout-tip
+## Fréquence de la trisomie 21 selon l'âge maternel
 
+img t21
 
-### Evaluation d'une action de santé
+:::
+
+- [Évaluation d'une action de santé]{.cb}
+
+::: callout-tip
+## Covid : situation dans les hôpitaux 
 
 img covid
 
+:::
 
-### Formulation d’hypothèses dans la recherche étiologique
+- [Formulation d'hypothèses dans la recherche étiologique]{.cb}
 
-- Variations dans le temps
-- Variations géographiques
+::: callout-tip
+## Le gradiant nord-sud des maladies cardiovasculaires
 
 img gradient nord sud
+
+:::
 
 
 ## En bref

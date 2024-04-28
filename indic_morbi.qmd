@@ -19,7 +19,7 @@ Il existe en pratique deux indicateurs de morbidité : l'[incidence]{.cb} et la 
 
 L'incidence est un [taux]{.cb} (@sec-taux).
 
-Il s'agit d'un taux appliqué à [l'apparition de nouveaux cas]{.cb} d'une maladie dans une population.
+Un [taux d'incidence]{.cb} est un taux appliqué à [la survenue de nouveaux cas]{.cb} d'une maladie dans une population.
 
 > 
 $$
@@ -34,7 +34,7 @@ $$
 
 Puisqu'il s'agit d'une mesure prise sur une période, elle est qualifiée de mesure [longitudinale]{.cb} (*en longueur*, *d'un point A à un point B*).
 
-L'incidence reflète la [vitesse de survenue]{.cb} d'une maladie dans une population.
+Le taux d'incidence reflète la [vitesse de survenue]{.cb} d'une maladie dans une population.
 
 ::: callout-tip
 ## Exemple
@@ -45,7 +45,7 @@ L'incidence reflète la [vitesse de survenue]{.cb} d'une maladie dans une popula
 
 La [prévalence]{.cb} est une [proportion]{.cb} (@sec-prop).
 
-C'est la proportion de [personnes atteintes d'une maladie à un instant donné]{.cb} dans la population.
+C'est la proportion de [personnes atteintes d'une maladie à un instant donné]{.cb} dans une population.
 
 >
 $$
@@ -75,13 +75,14 @@ La prévalence dépend également de la [durée d'évolution]{.cb} de la maladie
 
 ## Incidence vs prévalence
 
-En clair :
-
-- La prévalence est un indicateur [statique]{.cb}
+::: {.p style="text-align:center"}
+La prévalence est un indicateur [statique]{.cb}
 : Elle rend compte de la [fréquence]{.cb} d'une maladie [à un instant donné]{.cb}
 
-- L'incidence est un indicateur [dynamique]{.cb}
+L'incidence est un indicateur [dynamique]{.cb}
 : Elle rend compte de la [vitesse]{.cb} à laquelle une maladie survient [sur une période donnée]{.cb}
+:::
+
 
 ### Analogie : la baignoire de l'épidémiologiste
 

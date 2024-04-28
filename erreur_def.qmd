@@ -1,4 +1,4 @@
-# Définition de l'erreur {#sec-err}
+# L'erreur {#sec-err}
 
 La "vraie" valeur d'un indicateur est estimée par la mesure que l'on fait de cet indicateur.
 
@@ -35,9 +35,14 @@ Ces 2 types d'erreurs peuvent être illustrés en reprenant la @fig-cible, refai
 knitr::include_graphics("img/cible_abcd.png")
 ```
 
->
-La [fluctuation d'échantillonnage]{.cb} est une erreur qui affecte la [précision]{.cb} d'une mesure \
-Le [biais]{.cb} est une erreur qui affecte l'[exactitude]{.cb} d'une mesure
+---
+
+::: {.p style="text-align:center"}
+**La [fluctuation d'échantillonnage]{.cb} est une erreur qui affecte la [précision]{.cb} d'une mesure** \
+**Le [biais]{.cb} est une erreur qui affecte l'[exactitude]{.cb} d'une mesure**
+:::
+
+---
 
 ::: callout-note
 ## Erreur ou écart ?

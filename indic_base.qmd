@@ -31,11 +31,9 @@ La couverture vaccinale contre la rougeole chez les enfants de 24 mois est de 80
 
 ### Taux {#sec-taux}
 
-Un taux est le risque de survenue d'un évènement au cours d'une période. 
+Un taux mesure le [risque]{.cb} de survenue d'un évènement [au cours d'une période]{.cb}. 
 
 Il s'exprime en pourcentage ou en un chiffre compris entre 0 et 1.
-
-Notion de temps et de risque
 
 >
 $$
@@ -49,6 +47,13 @@ $$
 
 ::: callout-tip
 ## Dans une maternelle, sur 200 enfants n'ayant jamais eu la varicelle et non vaccinés, il y a eu 72 nouveaux cas durant l'année scolaire 2021-2022.
+
+Nombre d'évènements : 72 nouveaux cas de varicelle \
+Nombre de sujets à risque de faire l'évènement : 200 enfants n'ayant jamais eu la varicelle et non vaccinés \
+Sur une période donnée : l'année scolaire 2021-2022
+
+Le taux correspondant est $\frac{72}{200}$ = 0,36 \
+Durant l'année scolaire 2021-2022, il y a eu 36 nouveaux cas de varicelle pour 100 enfants à risque
 :::
 
 ### Ratio 
@@ -68,7 +73,7 @@ Classiquement, le sex ratio est présenté avec les hommes à gauche et les femm
 : La schizophrénie concerne 3 fois plus souvent les hommes que les femmes
 
 - Le sex ratio de l'anorexie mentale est de 1/9 
-: La schizophrénie concerne 9 fois plus souvent les femmes que les hommes
+: L'anorexie mentale concerne 9 fois plus souvent les femmes que les hommes
 :::
 
 
@@ -103,7 +108,7 @@ Le numérateur est inclut dans le dénominateur : c'est une [proportion]{.cb}
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-## Consommation de cigarettes par habitant 
+## Nombre de cigarettes consommées par habitant 
 
 >
 2 effectifs de nature différente : \
@@ -124,44 +129,40 @@ Rapport entre les deux modalités d'une variable binaire : c'est un [ratio]{.cb}
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-## Nombre de décès sur une période / nombre de personnes à risque de décès sur cette période
-
-Un évènement : le décès 
-Mesuré sur une période donnée
-
-, sur une période donnée
-
-:::
-
-::: {.callout-caution collapse="true" appearance="minimal"}
-
-## Nombre d'hypertendus en 1975 / nombre d'hypertendus en 1994 
-
-[Indice]{.cb}
-
-- 2 variables :
-  - Nombre d'hypertendus sur une période
-  - Nombre d'hypertendus sur une autre période
-  
-**C'est un rapport des effectifs 2 variables différents**
-
-:::
-
-::: {.callout-caution collapse="true" appearance="minimal"}
 ## Nombre de femmes enceintes vaccinées contre la rubéole / nombre de femmes enceintes
 
+>
 Nombre de femmes enceintes = l'ensemble des femmes enceintes \
 Les femmes enceintes vaccinées contre la rubéole sont un sous-ensemble des femmes enceintes
 
 Le numérateur est inclut dans le dénominateur : c'est une [proportion]{.cb}
 :::
 
+::: {.callout-caution collapse="true" appearance="minimal"}
+## Nombre de décès survenus du 1er janvier au 01 juin 2023 / nombre de personnes à risque de décéder sur cette période
+
+>
+Un évènement : le décès \
+Notion de risque \
+Mesuré sur une période : du 01/01/2023 au 01/06/2023
+
+On mesure la survenue d'un évènement parmi les personnes à risque de faire cet évènement, sur une période donnée : c'est un [taux]{.cb}
+:::
+
+::: {.callout-caution collapse="true" appearance="minimal"}
+
+## EXEMPLE TAUX 
+
+exemple
+
+:::
+
 ---
 
 ::: callout-warning
-## Date vs période
+## Comment ne pas confondre une date avec une période
 
-Comment ne pas confondre date et période
+
 :::
 
 
@@ -174,7 +175,7 @@ Pour être de qualité, un indicateur de santé doit être :
 Facilement compréhensible par les professionnels et les usagers
 
 ::: callout-tip
-## Le taux de mortalité infantile est une mesure simple et consensuelle du nombre d'enfants décédés entre la naissance et 12 mois, sur le nombre total de naissances vivantes dans une population donnée.
+## Le taux de mortalité infantile est une mesure simple et consensuelle du nombre d'enfants décédés entre la naissance et 12 mois parmi toutes les naissances vivantes dans une population donnée.
 :::
 
 - [Fiable]{.cb}
@@ -208,10 +209,16 @@ Facilement compréhensible par les professionnels et les usagers
 
 ## Fiabilité vs validité {#sec-temp}
 
-Fiabilité et validité sont des notions à ne pas confondre, et toutes aussi importantes l'une que l'autre.
+Fiabilité et validité sont des notions à ne pas confondre, et toutes aussi nécessaires l'une que l'autre.
 
-> [Fiabilité]{.cb} est synonyme de [précision]{.cb} (ou reproductibilité) \
-[Validité]{.cb} est synonyme d'[exactitude]{.cb} (ou pertinence)
+---
+
+::: {.p style="text-align:center"}
+**[Fiabilité]{.cb} est synonyme de [précision]{.cb} (ou reproductibilité)** \
+**[Validité]{.cb} est synonyme d'[exactitude]{.cb} (ou pertinence)**
+:::
+
+---
 
 On peut illustrer précision et exactitude en symbolisant la mesure avec une cible et un ensemble de points, chacun représentant une mesure :
 
@@ -226,7 +233,7 @@ Quatre situations sont possibles.
 
 ![Imprécis mais plutôt exact](img/cible_b.png){#fig-cible-b}
 
-![Précis mais inexact](img/cible_c.png){#fig-cible-c}
+![Plutôt précis mais inexact](img/cible_c.png){#fig-cible-c}
 
 ![Imprécis et inexact](img/cible_d.png){#fig-cible-d}
 
@@ -241,24 +248,36 @@ La @fig-cible-c représente une situation fréquente en pratique. La répétitio
 
 La @fig-cible-d représente une situation où la mesure n'apporte pas d'information. Sa répétition ne donne jamais la même valeur, et rarement la bonne valeur : la mesure n'est [ni fiable ni valide]{.cb}.
 
+---
 
-Les deux caractéristiques sont donc nécessaires :
+::: {.p style="text-align:center"}
 
-- Une mesure [exacte mais imprécise]{.cb} donnerait des bonnes valeurs [par hasard]{.cb}
+Une mesure [exacte mais imprécise]{.cb} donnerait des bonnes valeurs [par hasard]{.cb}
 : Elle ne serait pas utilisable en pratique
 
-- Une mesure [précise mais inexacte]{.cb} donnerait des valeurs fiables [mais fausses]{.cb}
-: Elle serait utilisable de par sa fiabilité, mais elle induirait en erreur
-
-
-
-::: callout-tip
-## exemple température, partie 1
+Une mesure [précise mais inexacte]{.cb} donnerait des valeurs fiables [mais fausses]{.cb}
+: Elle serait utilisable en pratique de par sa fiabilité, mais donnerait une vision erronée de la réalité
 
 :::
 
+---
 
-## Ce qu'il faut retenir
+::: callout-tip
+## Mesure de la température, partie 1
 
-- [Reconnaître les indicateurs de base]{.cb}
-- [Distinguer fiabilité (précision) et validité (exactitude) : une mesure peut être fiable sans être valide !]{.cb}
+:::
+
+::: {.p style="text-align:center"}
+## TAKE-HOME MESSAGES {.unnumbered .unlisted}
+:::
+
+::: callout-important
+## [Bien distinguer les indicateurs de base]{.cb}
+- Un ratio est mesuré à partir d'une variable binaire
+- Un taux intègre une notion de risque et de temps
+:::
+
+::: callout-important
+## [Fiabilité est synonyme de précision ; validité est synonyme d'exactitude]{.cb}
+- Une mesure peut être fiable sans être valide
+:::
