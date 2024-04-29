@@ -7,14 +7,12 @@
 On en distingue deux types :
 
 ::: {.p style="text-align:center"}
-
 Enquêtes en population (exhaustive)
 : [Registre de morbidité]{.cb} (@sec-reg)
 
 Enquêtes sur échantillon représentatif
 : [Transversale]{.cb} (@sec-spe-trans) \
 [Longitudinale]{.cb} (@sec-spe-long)
-
 :::
 
 ::: {layout-ncol=3}
@@ -92,30 +90,92 @@ Il n'est parfois (et même souvent) pas possible d'avoir accès à toute une pop
 Une solution est de réaliser un [échantillonnage]{.cb} de cette population.
 
 Un [échantillon]{.cb} est un sous-ensemble, une portion de taille variable d'une population.
+Il doit être rigoureusement constitué : on veut qu'il soit [un bon reflet]{.cb} de la population dont il est issu. 
 
-img pop echant
-
-Un échantillon doit être constitué de manière rigoureuse : on veut qu'il soit [un bon reflet]{.cb} de la population dont il est issu. Autrement dit, on veut qu'il soit [représentatif]{.cb} de cette population.
-
-La représentativité d'un échantillon est toujours recherchée, puisqu'elle permet de [généraliser]{.cb} les résultats à la population dont il est issu.
-L'utilisation d'échantillons bien définis permet de contrôler la qualité des données recueillies et d'assurer que les résultats sont représentatifs et applicables à la population ciblée.
-
-Un échantillon mal constitué, non représentatif, et un échantillon soumis à des [biais de sélection]{.cb}^[Voir @sec-biais-sel].
-
-En pratique, la constitution d'un échantillon fait intervenir trois concepts : 
-
-1. La population [cible]{.cb}
-
-2. La population [source]{.cb}
-
-3. L'[échantillon]{.cb}, issu de la population source.
-
-On peut les illustrer avec un exemple.
-
-::: callout-tip
-## On souhaite connaître la prévalence de l'obésité chez les sujets âgés de 30 à 45 ans habitant à Lille
+::: {.p style="text-align:center"}
+**Autrement dit, on veut que l'échantillon soit [représentatif]{.cb} de sa population d'origine**
 :::
 
+::: callout-note
+## Pour est-ce important ?
+
+Admettons qu'une équipe de chercheurs ait pour objectif de connaitre la prévalence d'une maladie dans une population.
+Pour ce faire, un échantillon est constitué et une prévalence est mesurée à partir de cet échantillon.
+
+Pourtant, l'objectif de l'étude est bel et bien de connaitre la prévalence [dans la population]{.cb}, et non dans l'échantillon.
+
+L'échantillon n'est effectivement qu'un [intermédiaire]{.cb} : la finalité d'une telle étude est de faire une [estimation]{.cb}, à partir de la prévalence obtenue dans l'échantillon, de la [vraie prévalence]{.cb} dans la population^[valeur que l'on ne connaîtra jamais, à moins d'avoir accès à l'ensemble de la population !].
+
+Une bonne représentativité permet de [généraliser]{.cb} la valeur obtenue sur l'échantillon à sa population d'origine en garantissant un certain degré d'exactitude, raison pour laquelle [elle doit toujours être recherchée]{.cb}.
+Plus un échantillon est représentatif de la population dont il est issu, plus l'estimation est [proche de la vraie valeur]{.cb}.
+
+Un échantillon mal constitué, non représentatif de sa population d'origine, serait pourvoyeur de [biais de sélection]{.cb}^[Voir @sec-biais-sel]. La généralisation de ses résultats pourrait être à l'origine de conclusions erronées.
+:::
+
+La constitution d'un échantillon fait intervenir trois étapes successives : 
+
+::: {.p style="text-align:center"}
+
+[Population cible]{.cb}
+: ensemble de la population visée 
+
+[Population source]{.cb}
+: part de la population cible accessible en pratique
+
+[Échantillon]{.cb}
+: sélection issue de la population source
+
+:::
+
+```{r #fig-pop-1}
+#| out-width: 6in
+#| fig-align: center
+#| fig-cap: "De la population à l'échantillon"
+
+knitr::include_graphics("img/pop_1.png")
+```
+
+::: callout-tip
+## Étude de la prévalence de l'obésité chez les sujets âgés de 30 à 45 ans habitant à Lille (I)
+
+La population à laquelle on souhaite accéder est définie dès le départ. Il s'agit des **sujets âgés de 30 à 45 ans habitant à Lille** : c'est la [population cible]{.cb}.
+"Cible" car il s'agit bien de la population visée par notre question de recherche. 
+
+On souhaite, à partir de cette population théorique, constituer un échantillon.
+Or il faut pour cela trouver un moyen pratique d'accéder à cette population. \
+La solution idéale ? Trouver une liste qui contiendrait un maximum de sujets appartenant à notre population cible.
+Très souvent, les listes électorales remplissent plutôt bien cette fonction.
+
+La part de la population cible accessible en pratique est ainsi définie : il s'agit des **sujets âgés de 30 à 45 ans habitant à Lille** [ET]{.cb} **inscrits sur les listes électorales de la commune de Lille** : c'est la [population source]{.cb}.
+"Source" car il s'agit bien de la part de la population cible à partir de laquelle on pourra constituer notre échantillon.
+
+Enfin, un certain nombre de sujets appartenant à la population source seront sélectionnés par tirage au sort à partir des listes électorales : c'est l'[échantillon]{.cb}.
+
+```{r #fig-pop-2}
+#| out-width: 6in
+#| fig-align: center
+#| fig-cap: "De la population à l'échantillon (exemple)"
+
+knitr::include_graphics("img/pop_2.png")
+```
+
+La prévalence de l'obésité est mesurée parmi les sujets présents dans cet échantillon.
+:::
+
+::: {.p style="text-align:center"}
+**L'échantillon finalement constitué doit être [représentatif de la population cible]{.cb}**
+:::
+
+Par conséquent, cette représentativité doit être garantie à chaque niveau :
+
+1. La population [source]{.cb} doit être représentative de la population [cible]{.cb}
+: La constitution de la population source sur la base d'une liste électorale garantie une bonne représentativité vis-à-vis de la population cible par le fait que la majorité de la population d'une commune est inscrite sur ses listes électorales[^elec].
+
+2. L'[échantillon]{.cb} doit être représentatif de la population [source]{.cb}
+: La constitution
+
+[^elec]: Autrement dit, on considère qu'une liste électorale d'une commune donnée est une liste assez **exhaustive** de la population résidant dans cette commune.
+D'autres méthodes de sélection ne permettraient pas d'atteindre un tel niveau d'exhaustivité (e.g., dans un annuaire téléphonique, dans la rue, distribution de questionnaire par voie électronique).
 
 ### Enquête transversale {#sec-spe-trans}
 

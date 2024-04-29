@@ -37,7 +37,10 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
@@ -396,36 +399,110 @@ Le registre des AVC dans la Métropole Européenne de Lille (MEL)
 <section id="sec-repres" class="level3 page-columns page-full" data-number="6.2.1"><h3 data-number="6.2.1" class="anchored" data-anchor-id="sec-repres">
 <span class="header-section-number">6.2.1</span> La représentativité</h3>
 <p>Il n’est parfois (et même souvent) pas possible d’avoir accès à toute une population (effectifs trop grands, manque de moyens…). Une solution est de réaliser un <span class="cb">échantillonnage</span> de cette population.</p>
-<p>Un <span class="cb">échantillon</span> est un sous-ensemble, une portion de taille variable d’une population.</p>
-<p>img pop echant</p>
-<p>Un échantillon doit être constitué de manière rigoureuse : on veut qu’il soit <span class="cb">un bon reflet</span> de la population dont il est issu. Autrement dit, on veut qu’il soit <span class="cb">représentatif</span> de cette population.</p>
-<p>La représentativité d’un échantillon est toujours recherchée, puisqu’elle permet de <span class="cb">généraliser</span> les résultats à la population dont il est issu. L’utilisation d’échantillons bien définis permet de contrôler la qualité des données recueillies et d’assurer que les résultats sont représentatifs et applicables à la population ciblée.</p>
-<p>Un échantillon mal constitué, non représentatif, et un échantillon soumis à des <span class="cb">biais de sélection</span><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
-<div class="no-row-height column-margin column-container"><p><sup>2</sup>&nbsp;Voir <a href="erreur_biais.html#sec-biais-sel" class="quarto-xref"><span>Section 10.1</span></a></p></div><p>En pratique, la constitution d’un échantillon fait intervenir trois concepts :</p>
-<ol type="1">
-<li><p>La population <span class="cb">cible</span></p></li>
-<li><p>La population <span class="cb">source</span></p></li>
-<li><p>L’<span class="cb">échantillon</span>, issu de la population source.</p></li>
-</ol>
-<p>On peut les illustrer avec un exemple.</p>
+<p>Un <span class="cb">échantillon</span> est un sous-ensemble, une portion de taille variable d’une population. Il doit être rigoureusement constitué : on veut qu’il soit <span class="cb">un bon reflet</span> de la population dont il est issu.</p>
+<div class="p" style="text-align:center">
+<p><strong>Autrement dit, on veut que l’échantillon soit <span class="cb">représentatif</span> de sa population d’origine</strong></p>
+</div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Pour est-ce important ?
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Admettons qu’une équipe de chercheurs ait pour objectif de connaitre la prévalence d’une maladie dans une population. Pour ce faire, un échantillon est constitué et une prévalence est mesurée à partir de cet échantillon.</p>
+<p>Pourtant, l’objectif de l’étude est bel et bien de connaitre la prévalence <span class="cb">dans la population</span>, et non dans l’échantillon.</p>
+<p>L’échantillon n’est effectivement qu’un <span class="cb">intermédiaire</span> : la finalité d’une telle étude est de faire une <span class="cb">estimation</span>, à partir de la prévalence obtenue dans l’échantillon, de la <span class="cb">vraie prévalence</span> dans la population<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
+<p>Une bonne représentativité permet de <span class="cb">généraliser</span> la valeur obtenue sur l’échantillon à sa population d’origine en garantissant un certain degré d’exactitude, raison pour laquelle <span class="cb">elle doit toujours être recherchée</span>. Plus un échantillon est représentatif de la population dont il est issu, plus l’estimation est <span class="cb">proche de la vraie valeur</span>.</p>
+<p>Un échantillon mal constitué, non représentatif de sa population d’origine, serait pourvoyeur de <span class="cb">biais de sélection</span><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>. La généralisation de ses résultats pourrait être à l’origine de conclusions erronées.</p>
+</div>
+</div>
+<div class="no-row-height column-margin column-container"><p><sup>3</sup>&nbsp;Voir <a href="erreur_biais.html#sec-biais-sel" class="quarto-xref"><span>Section 10.1</span></a></p></div><div class="no-row-height column-margin column-container"><p><sup>2</sup>&nbsp;valeur que l’on ne connaîtra jamais, à moins d’avoir accès à l’ensemble de la population !</p></div><p>La constitution d’un échantillon fait intervenir trois étapes successives :</p>
+<div class="p" style="text-align:center">
+<dl>
+<dt><span class="cb">Population cible</span></dt>
+<dd>
+ensemble de la population visée
+</dd>
+<dt><span class="cb">Population source</span></dt>
+<dd>
+part de la population cible accessible en pratique
+</dd>
+<dt><span class="cb">Échantillon</span></dt>
+<dd>
+sélection issue de la population source
+</dd>
+</dl>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-pop-1" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-pop-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="img/pop_1.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1"><img src="img/pop_1.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:6in"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pop-1-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.1: De la population à l’échantillon
+</figcaption></figure>
+</div>
+</div>
+</div>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-On souhaite connaître la prévalence de l’obésité chez les sujets âgés de 30 à 45 ans habitant à Lille
+Étude de la prévalence de l’obésité chez les sujets âgés de 30 à 45 ans habitant à Lille (I)
 </div>
 </div>
 <div class="callout-body-container callout-body">
-
+<p>La population à laquelle on souhaite accéder est définie dès le départ. Il s’agit des <strong>sujets âgés de 30 à 45 ans habitant à Lille</strong> : c’est la <span class="cb">population cible</span>. “Cible” car il s’agit bien de la population visée par notre question de recherche.</p>
+<p>On souhaite, à partir de cette population théorique, constituer un échantillon. Or il faut pour cela trouver un moyen pratique d’accéder à cette population.<br>
+La solution idéale ? Trouver une liste qui contiendrait un maximum de sujets appartenant à notre population cible. Très souvent, les listes électorales remplissent plutôt bien cette fonction.</p>
+<p>La part de la population cible accessible en pratique est ainsi définie : il s’agit des <strong>sujets âgés de 30 à 45 ans habitant à Lille</strong> <span class="cb">ET</span> <strong>inscrits sur les listes électorales de la commune de Lille</strong> : c’est la <span class="cb">population source</span>. “Source” car il s’agit bien de la part de la population cible à partir de laquelle on pourra constituer notre échantillon.</p>
+<p>Enfin, un certain nombre de sujets appartenant à la population source seront sélectionnés par tirage au sort à partir des listes électorales : c’est l’<span class="cb">échantillon</span>.</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div id="fig-pop-2" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
+<figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-pop-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="img/pop_2.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="quarto-lightbox-gallery-2"><img src="img/pop_2.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:6in"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pop-2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;6.2: De la population à l’échantillon (exemple)
+</figcaption></figure>
 </div>
 </div>
-</section><section id="sec-spe-trans" class="level3 page-columns page-full" data-number="6.2.2"><h3 data-number="6.2.2" class="anchored" data-anchor-id="sec-spe-trans">
+</div>
+<p>La prévalence de l’obésité est mesurée parmi les sujets présents dans cet échantillon.</p>
+</div>
+</div>
+<div class="p" style="text-align:center">
+<p><strong>L’échantillon finalement constitué doit être <span class="cb">représentatif de la population cible</span></strong></p>
+</div>
+<p>Par conséquent, cette représentativité doit être garantie à chaque niveau :</p>
+<ol type="1">
+<li><dl>
+<dt>La population <span class="cb">source</span> doit être représentative de la population <span class="cb">cible</span>
+</dt>
+<dd>
+La constitution de la population source sur la base d’une liste électorale garantie une bonne représentativité vis-à-vis de la population cible par le fait que la majorité de la population d’une commune est inscrite sur ses listes électorales<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a>.
+</dd>
+</dl></li>
+<li><dl>
+<dt>L’<span class="cb">échantillon</span> doit être représentatif de la population <span class="cb">source</span>
+</dt>
+<dd>
+La constitution
+</dd>
+</dl></li>
+</ol><div class="no-row-height column-margin column-container"><p><sup>4</sup>&nbsp;Autrement dit, on considère qu’une liste électorale d’une commune donnée est une liste assez <strong>exhaustive</strong> de la population résidant dans cette commune. D’autres méthodes de sélection ne permettraient pas d’atteindre un tel niveau d’exhaustivité (e.g., dans un annuaire téléphonique, dans la rue, distribution de questionnaire par voie électronique).</p></div></section><section id="sec-spe-trans" class="level3 page-columns page-full" data-number="6.2.2"><h3 data-number="6.2.2" class="anchored" data-anchor-id="sec-spe-trans">
 <span class="header-section-number">6.2.2</span> Enquête transversale</h3>
-<p>La notion de transversalité ayant déjà été abordée<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a>, vous devriez être en mesure de répondre aux questions suivantes.</p>
-<div class="no-row-height column-margin column-container"><p><sup>3</sup>&nbsp;Voir <a href="indic_morbi.html" class="quarto-xref"><span>Chapitre 4</span></a></p></div><div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<p>La notion de transversalité ayant déjà été abordée<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>, vous devriez être en mesure de répondre aux questions suivantes.</p>
+<div class="no-row-height column-margin column-container"><p><sup>5</sup>&nbsp;Voir <a href="indic_morbi.html" class="quarto-xref"><span>Chapitre 4</span></a></p></div><div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -434,15 +511,15 @@ L’objectif d’une enquête transversale est-il de mesurer une incidence ou un
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-5" class="callout-5-contents callout-collapse collapse">
+<div id="callout-6" class="callout-6-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Mesure transversale = mesure prise à un instant donné<br>
-Une enquête transversale consiste donc à mesurer une <span class="cb">prévalence</span><a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a></p>
+Une enquête transversale consiste donc à mesurer une <span class="cb">prévalence</span><a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
 </div>
 </div>
 </div>
-<div class="no-row-height column-margin column-container"><p><sup>4</sup>&nbsp;Voir <a href="indic_morbi.html#sec-prev" class="quarto-xref"><span>Section 4.2</span></a></p></div><div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="no-row-height column-margin column-container"><p><sup>6</sup>&nbsp;Voir <a href="indic_morbi.html#sec-prev" class="quarto-xref"><span>Section 4.2</span></a></p></div><div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -451,7 +528,7 @@ Les sujets inclus dans une étude transversale sont-ils suivis dans le temps ?
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-6" class="callout-6-contents callout-collapse collapse">
+<div id="callout-7" class="callout-7-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>La réalisation d’une mesure à un instant donné signifie justement qu’il n’y a <span class="cb">pas de suivi dans le temps</span></p>
 </div>
@@ -467,14 +544,14 @@ Les sujets inclus dans une étude transversale sont-ils suivis dans le temps ?
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Étude prévalence obésité présentée plus haut<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a> est une enquête transversale
+Étude prévalence obésité présentée plus haut<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> est une enquête transversale
 </div>
 </div>
 <div class="callout-body-container callout-body">
 
 </div>
 </div>
-<div class="no-row-height column-margin column-container"><p><sup>5</sup>&nbsp;Voir <a href="#sec-repres" class="quarto-xref"><span>Section 6.2.1</span></a></p></div><div class="callout callout-style-simple callout-tip callout-titled">
+<div class="no-row-height column-margin column-container"><p><sup>7</sup>&nbsp;Voir <a href="#sec-repres" class="quarto-xref"><span>Section 6.2.1</span></a></p></div><div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -506,9 +583,9 @@ Enquête MONA-LISA-Lille
 </div>
 </section><section id="sec-spe-long" class="level3 page-columns page-full" data-number="6.2.3"><h3 data-number="6.2.3" class="anchored" data-anchor-id="sec-spe-long">
 <span class="header-section-number">6.2.3</span> Enquête longitudinale</h3>
-<p>La notion de longitudinalité ayant déjà été abordée<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>, vous devriez être en mesure de répondre aux questions suivantes.</p>
-<div class="no-row-height column-margin column-container"><p><sup>6</sup>&nbsp;Voir <a href="indic_morbi.html" class="quarto-xref"><span>Chapitre 4</span></a></p></div><div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<p>La notion de longitudinalité ayant déjà été abordée<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a>, vous devriez être en mesure de répondre aux questions suivantes.</p>
+<div class="no-row-height column-margin column-container"><p><sup>8</sup>&nbsp;Voir <a href="indic_morbi.html" class="quarto-xref"><span>Chapitre 4</span></a></p></div><div class="callout callout-style-simple callout-caution no-icon callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -517,7 +594,7 @@ L’objectif d’une enquête longitudinale est-il de mesurer une incidence ou u
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-9" class="callout-9-contents callout-collapse collapse">
+<div id="callout-10" class="callout-10-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>Mesure longitudinale = mesure réalisée dans le temps, sur une période donnée<br>
 Une enquête longitudinale consiste donc à mesurer une <span class="cb">incidence</span> (<a href="indic_morbi.html#sec-prev" class="quarto-xref"><span>Section 4.2</span></a>)</p>
@@ -525,7 +602,7 @@ Une enquête longitudinale consiste donc à mesurer une <span class="cb">inciden
 </div>
 </div>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
@@ -534,7 +611,7 @@ Les sujets inclus dans une étude longitudinale sont-ils suivis dans le temps ?
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-10" class="callout-10-contents callout-collapse collapse">
+<div id="callout-11" class="callout-11-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>La réalisation d’une mesure sur une période donnée signifie justement qu’il y a <span class="cb">un suivi dans le temps</span></p>
 </div>
@@ -653,6 +730,10 @@ test
 </div>
 
 
+<div class="hidden" aria-hidden="true">
+<span class="glightbox-desc lightbox-desc-1">Figure&nbsp;6.1: De la population à l’échantillon</span>
+<span class="glightbox-desc lightbox-desc-2">Figure&nbsp;6.2: De la population à l’échantillon (exemple)</span>
+</div>
 </main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -994,7 +1075,31 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+window.onload = () => {
+  lightboxQuarto.on('slide_before_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    const href = trigger.getAttribute('href');
+    if (href !== null) {
+      const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+      if (imgEl !== null) {
+        const srcAttr = imgEl.getAttribute("src");
+        if (srcAttr && srcAttr.startsWith("data:")) {
+          slideConfig.href = srcAttr;
+        }
+      }
+    } 
+  });
 
+  lightboxQuarto.on('slide_after_load', (data) => {
+    const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+    if (window.Quarto?.typesetMath) {
+      window.Quarto.typesetMath(slideNode);
+    }
+  });
+
+};
+          </script>
 
 
 </body></html>
