@@ -1,6 +1,6 @@
 # Biais {#sec-biais}
 
-Un biais est une erreur prévisible, qui se produit systématiquement dans une direction prédéterminée.
+Un biais est une erreur [prévisible]{.cb}, qui se produit systématiquement dans une [direction prédéterminée]{.cb}.
 C'est pour cette raison qu'elle est qualifiée d'erreur [systématique]{.cb}.
 
 Conséquences : 
@@ -14,12 +14,15 @@ Il existe trois grandes catégories de biais :
 - Biais de [classement]{.cb} 
 - Biais de [confusion]{.cb}
 
-Alors que la fluctuation d'échantillon est une erreur d'origine statistique, le biais est une erreur d'origine [méthodologique]{.cb}. La manière de s'en prémunir est donc d'élaborer une méthode, [une réflexion préalable]{.cb} qui sera différente selon le contexte et type de biais.
+Alors que la fluctuation d'échantillonnage est une erreur d'origine statistique, le biais est une erreur d'origine [méthodologique]{.cb} : il affecte la [validité]{.cb} d'une mesure et n'est [pas dépendant de la taille de l'échantillon]{.cb}.
+
+Une manière de s'en prémunir est donc d'élaborer une méthode, [une réflexion préalable]{.cb} qui sera différente selon le contexte et le type de biais.
 
 
 ## Biais de sélection {#sec-biais-sel}
 
-Biais intervenant lors de la constitution de l'échantillon ou du suivi des sujets conduisant à ce que l'échantillon ne soit pas représentatif de la population cible
+Un [biais de sélection]{.cb} intervient lors de la [constitution]{.cb} d'un échantillon ou du [suivi]{.cb} des sujets.
+Il conduit à une situation dans laquelle l'échantillon [n'est plus représentatif]{.cb} de la population cible.
 
 Retrouvé lors de la constitution : 
 
@@ -34,10 +37,6 @@ Retrouvé lors de la constitution :
 
 ::: callout-warning
 ## La sélection n'engendre pas systématiquement un biais
-:::
-
-::: callout-tip
-## Sélection sur liste électorale vs annuaire
 :::
 
 
@@ -55,23 +54,16 @@ Mesure précise de la maladie (ou exposition) étudiée :
 
 ## Biais de confusion {#sec-biais-conf}
 
-- Ces biais vont être liés à l'intervention d'un ou de plusieurs tiers facteurs
+Les biais de confusion sont liés à l'intervention d'un ou de plusieurs tiers facteurs (appelés [facteurs de confusion]{.cb}).
 
-
-intervient surtout lorsqu'on recherche des causes : il est donc particulièrement redouté en épidémiologie analytique.
-
-::: callout-tip
-## Sélection sur liste électorale vs annuaire
-:::
-
-En épidémiologie descriptive, peuvent intervenir lorsqu'on compare les taux provenant de plusieurs populations différentes
+En épidémiologie descriptive, ils peuvent intervenir lors de la [comparaison]{.cb} d'indicateurs provenant de populations différentes.
 
 ::: callout-tip
 ## Comparaison des taux bruts de mortalité entre le Nord et la Creuse
 
 Le Nord est une département plutôt jeune ; la Creuse est une département plutôt âgé. 
 
-La structure d'âge est donc à l'origine un biais de confusion dans la comparaison de taux bruts de mortalité. On dit que c'est un facteur de confusion.
+La structure d'âge est donc à l'origine un biais de confusion dans la comparaison de taux bruts de mortalité. On dit que c'est un [facteur de confusion]{.cb}.
 
 Il s'agit bien d'une erreur prévisible ayant une direction prédéterminée : un âge plus élevé est systématiquement associé à un taux de mortalité plus élevé.
 
@@ -79,9 +71,33 @@ Il existe une méthode pour s'affranchir de ce biais : la [standardisation]{.cb}
 
 :::
 
-## En bref
+Les biais de confusion interviennent surtout lorsqu'on recherche des [causes]{.cb} : ils sont donc particulièrement redoutés en [épidémiologie analytique]{.cb}.
 
-- Erreurs systématiques (sous ou sur estimation) 
-- Ne sont pas modifiés par la taille de l'échantillon 
-- Ils peuvent être évités ou réduits et nécessitent donc une réflexion préalable
+::: callout-tip
+## Association entre port du briquet et cancer du poumon
 
+On peut faire l'observation que les personnes portant un briquet sur elles ont plus de risque de développer un cancer du poumon.
+
+Pour autant, peut-on dire que le port du briquet est la cause du cancer ? Probablement pas, puisqu'il existe dans cette association un tiers facteur : [le tabagisme]{.cb}.
+
+La tabagisme joue ici le rôle de [facteur de confusion]{.cb} : il est à la fois lié au fait de porter un briquet sur soi et à la survenue du cancer du poumon.
+:::
+
+---
+\
+
+::: {.p style="text-align:center"}
+## TAKE-HOME MESSAGES {.unnumbered .unlisted}
+:::
+
+::: callout-important
+## [Biais = erreurs systématiques]{.cb}
+:::
+
+::: callout-important
+## [Ils ne sont pas modifiés par la taille de l'échantillon]{.cb} 
+:::
+
+::: callout-important
+## [Ils peuvent être évités ou réduits avec une réflexion préalable]{.cb} 
+:::

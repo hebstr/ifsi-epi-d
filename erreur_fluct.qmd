@@ -1,24 +1,21 @@
 # Fluctuation d'échantillonnage {#sec-fluct}
 
-Une fluctuation d'échantillonnage est une erreur imprévisible, liée au hasard. 
+Une fluctuation d'échantillonnage est une erreur [imprévisible, liée au hasard]{.cb}. 
 C'est pour cette raison qu'elle est qualifiée d'erreur [aléatoire]{.cb}.
 
-Il existe synonyme : variation, de variabilité, de "bruit".
-
-Un échantillon est composé d'[individus]{.cb}, au sens premier du terme (c'est-à-dire d'unités indivisibles, que ce soit la personne humaine ou non).
+Fluctuation est synonyme de [variabilité]{.cb}, de variation, ou de "bruit".
+Un échantillon est composé d'[individus]{.cb} au sens premier du terme, c'est-à-dire d'unités indivisibles, qu'il s'agisse de la personne humaine ou non.
 
 En pratique, on parle alors souvent de [variabilité individuelle]{.cb}.
 
 
 ## La variabilité individuelle
 
-
-Dans l'exemple de la prise de température chez vos patients (@sec-err), on a vu que la mesure était soumise à des fluctuations d'échantillonnage.
-
+Dans l'exemple de la prise de température chez vos patients^[Voir @sec-err], on a vu que la mesure était soumise aux fluctuations d'échantillonnage.
 Pourtant, parler de fluctuations d'échantillonnage ici peut porter à confusion.
 On comprend le terme de fluctuation, synonyme de variabilité, en revanche on ne voit pas bien de quel échantillon il peut s'agir.
 
-La notion de [variabilité individuelle]{.cb} est dans ce cas plus concrète : vous prenez la température chez des [individus]{.cb}, et le résultat [varie]{.cb}.
+La notion de [variabilité individuelle]{.cb} est dans ce cas plus concrète : vous prenez la température chez des [individus]{.cb}, et le résultat [peut varier]{.cb}.
 
 La variabilité individuelle peut intervenir à deux niveaux :
 
@@ -28,9 +25,10 @@ La variabilité individuelle peut intervenir à deux niveaux :
 - Chez un même individu (= [intra]{.cb}individuelle) 
 : La mesure de température répétée chez un même patient peut donner des valeurs différentes. 
 
-
 ::: callout-tip
 ## La variabilité individuelle est présente dans plein de situations
+
+/###
 
 - Exemple vaccination
 - Exemple chirurgie
@@ -42,44 +40,151 @@ La variabilité individuelle peut intervenir à deux niveaux :
 :::
 
 
-## Quel est le problème ?
+## Problème
 
-Reprenons l'exemple de la prévalence obésité...
+::: callout-tip
+## Prévalence de l'obésité chez les sujets âgés de 30 à 45 ans habitant à Lille (partie II)
 
-on obtient 20% dans échantillon, puis on généralise à la population
+On a constitué par tirage au sort un échantillon de 100 sujets dans lequel on a mesuré la prévalence de l'obésité. Cette prévalence est de [20%]{.cb}.
 
-Il y a donc un problème : en raison de la variabilité individuelle, il n'est pas suffisant de présenter cette valeur seule.
+> ***Que faire de cette valeur ? Peut-on simplement la généraliser telle quelle à l'ensemble de la population ?***
 
-Solution ? Présenter cette valeur, non pas seule, mais accompagnée d'un [intervalle]{.cb} qui rend compte de la [variabilité autour de cette valeur]{.cb}.
+Il ne faut pas oublier que cette mesure est soumise aux [fluctuations d'échantillonnage]{.cb}.
+Autrement dit, tout comme la mesure de température répétée chez un même patient, la prévalence mesurée sur de [nouveaux échantillons]{.cb} seraient [très probablement différente]{.cb} de 20%. La répétition de la mesure pourrait aussi bien rapporter une prévalence de 7% ou 32%.
+
+> ***Peut-on envisager de constituer plusieurs échantillons et de calculer la moyenne des valeurs mesurées dans chacun ?***
+
+Malheureusement, une enquête ne peut porter que sur un échantillon unique ; on ne peut donc porter des conclusions qu'à partir d'une mesure unique.
+:::
+
+Cet exemple illustre un problème incontournable dès lors qu'on effectue une mesure sur un échantillon :
+
+::: {.p style="text-align:center"}
+**En raison de la [variabilité individuelle]{.cb}, il y a trop d'[incertitude]{.cb} associée à la précision de cette mesure pour que celle-ci puisse être présentée seule dans les résultats d'une enquête sur échantillon.**
+:::
+
+Solution ? Présenter la mesure accompagnée d'un [intervalle]{.cb} qui rendra compte de la [variabilité autour de cette mesure]{.cb}.
 
 
-## Une solution : l'intervalle de confiance
+## Solution : l'intervalle de confiance
 
 Cet intervalle est appelé [intervalle de confiance]{.cb}.
 
+Il s'étend de part et d'autre de la valeur mesurée dans l'échantillon, et permet de [maîtriser l'incertitude]{.cb} due aux fluctuations d'échantillonnage avec un certain [niveau de confiance]{.cb}.
+
+Ce niveau de confiance doit être défini : jusqu'à quel point peut-on avoir confiance dans la précision de l'estimation de la vraie valeur ? Par tradition, ce niveau est fixé à [95%]{.cb}.
+
+En pratique, on parle alors d'[intervalle de confiance à 95%]{.cb}.
+
+Pour rappel, la mesure effectuée dans l'échantillon ne sert qu'à une chose : [estimer la vraie valeur]{.cb} dans la population de laquelle est issu cet échantillon.
+
+Ainsi, pour une valeur mesurée dans l'échantillon, on calculera l'intervalle de confiance à 95% associé, qui s'étendra de part et d'autre de cette valeur, et qui sera interprété comme étant :
+
+::: {.p style="text-align:center"}
+**l'intervalle dont on est sûr à 95% qu'il [contient la vraie valeur]{.cb} dans**\
+**la population d'où est issu l'échantillon**
+:::
 
 
-En pratique, on parle donc d'intervalle de confiance à 95%.
+### Simulation
 
-Pourquoi "confiance" ?
+::: callout-note
+## Rappel
+Dans la vraie vie, la vraie valeur dans la population [ne peut pas être connue]{.cb} et on cherche, à travers une mesure réalisée sur un [échantillon représentatif]{.cb}^[Voir @sec-repres] de cette population, à [estimer cette vraie valeur]{.cb}.
+:::
+
+Que se passerait-il si on constituait beaucoup d'échantillons et qu'on calculait pour chacun un intervalle de confiance à 95% ?
+
+Imaginons une situation [fictive]{.cb} dans laquelle [on connait la vraie valeur]{.cb} de la prévalence d'une maladie quelconque dans une population de 100 000 individus. Admettons que cette valeur soit [10%]{.cb}.
+
+À partir de cette population, on simule 20 expériences : on constitue [20 échantillons de 1000 individus tirés avec remise]{.cb}. 
+Dans chaque échantillon, [on mesure la prévalence]{.cb} de la maladie.
+
+On a donc mesuré [20 mesures de prévalences]{.cb} ; une valeur par échantillon.
+Vous savez maintenant que ces valeurs sont soumises aux [fluctuations d'échantillonnage]{.cb} et qu'elles sont donc toutes [plus ou moins différentes]{.cb} (11, 5, 15, 8, 15, 11, etc.).
+À chaque valeur est associé, à l'aide d'un calcul statistique, un [intervalle de confiance à 95%]{.cb}.
+
+Au total, on a donc :
+
+- Une population dont on connait la [vraie prévalence]{.cb} (10%)
+- [20 prévalences mesurées]{.cb} à partir d'échantillons issus de cette population et accompagnées de leur [intervalle de confiance à 95%]{.cb} 
+
+```{r #fig-ic}
+#| out-width: 6in
+#| fig-align: center
+#| fig-cap: "Simulation de 20 valeurs avec intervalle de confiance à 95%. <br> La [ligne horizontale]{.cb} représente la vraie prévalence de la maladie dans la population. Les [barres verticales]{.cb2} représentent les 20 prévalences mesurées accompagnées de leur intervalle de confiance à 95%."
+
+knitr::include_graphics("img/ic.png")
+```
+
+On constate que l'intervalle de confiance à 95% [contient la vraie valeur dans 19 cas sur 20 (95%)]{.cb}.
+Cette simulation illustre la définition donnée plus haut :
+
+---
+
+::: {.p style="text-align:center"}
+**L'[intervalle de confiance à 95%]{.cb} est l'intervalle qui, [95 fois sur 100]{.cb} (ou 19 fois sur 20), [contiendra la vraie valeur]{.cb} dans la population : on ne connaîtra jamais la vraie valeur avec certitude, mais [on fait le pari]{.cb} qu'il y a [95% de chances]{.cb} que l'intervalle [contienne cette valeur]{.cb}.**
+:::
+
+---
+
+### Exemple
+
+Dans la vraie vie, on ne peut pas se permettre de constituer 20 échantillons à partir d'une population, mais seulement un [échantillon unique]{.cb}.
+
+En pratique, dans la présentation des résultats d'une enquête sur échantillon représentatif, on observera classiquement : 
+
+1. Une [valeur mesurée]{.cb} sur cet échantillon
+2. Toujours accompagnée de son [intervalle de confiance à 95%]{.cb} afin de tenir compte des [fluctuations d'échantillonnage]{.cb}.
 
 
+::: callout-tip
+## Prévalence de l'obésité chez les sujets âgés de 30 à 45 ans habitant à Lille (partie III)
 
+La prévalence de l'obésité mesurée dans l'échantillon est de [20%]{.cb}. L'intervalle de confiance à 95% correspondant s'étend de [12 à 28%]{.cb}.
 
-## Exemple
+En pratique, le résultat pourrait être présenté de la manière suivante :
 
-Intervalle de confiance à 95% d'une prévalence
+::: {.p style="text-align:center"}
+**prévalence de l'obésité [IC95%] : 20% [12% ; 28%]**
+:::
 
-Une maladie a une prévalence de 20% dans un échantillon de 100 personnes tirées au sort en population générale.
+```{r}
+#| out-width: 4in
+#| fig-align: center
 
+knitr::include_graphics("img/ic_exemple.png")
+```
 
+::: {.p style="text-align:center"}
+**Dans la population, il y a 95% de chances que cet intervalle [contienne la vraie prévalence]{.cb} de l'obésité**
 
-Interprétation : dans la population générale, il y a 95% de chance pour que la vraie prévalence de la maladie soit comprise entre 12 et 28% IC95% [0,12 – 0,28]
+On peut aussi l'interpréter d'une autre manière :
 
+**Il y a 95% de chances que la prévalence de l'obésité dans la population [soit comprise entre 12 et 28%]{.cb}**
+:::
 
-## Ce qu'il faut retenir
+:::
 
-- Fluctuations d'échantillonnage = erreurs aléatoires
-- Prises en compte dans la présentation des résultats (intervalle de confiance)
-- Diminuent en augmentant la taille de l'échantillon 
+---
+\
 
+::: {.p style="text-align:center"}
+## TAKE-HOME MESSAGES {.unnumbered .unlisted}
+:::
+
+::: callout-important
+## [Fluctuations d'échantillonnage = erreurs aléatoires]{.cb}
+:::
+
+::: callout-important
+## [Elles affectent la précision d'une mesure]{.cb}
+:::
+
+::: callout-important
+## [Elles diminuent à mesure que la taille de l'échantillon augmente]{.cb}
+:::
+
+::: callout-important
+## [Elles sont prises en compte dans la présentation des résultats (intervalle de confiance)]{.cb}
+:::

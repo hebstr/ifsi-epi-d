@@ -1,5 +1,7 @@
 # Qualité des sources
 
+/###
+
 3 grands types de problèmes : 
 
 - Erreur de diagnostic : Malade non reconnu comme tel (sous-estimation) 

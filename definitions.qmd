@@ -12,11 +12,7 @@ Préambule de la constitution de l'OMS, 1946
 
 ## L'épidémiologie
 
-L'épidémiologie est composée de trois concepts : au-dessus/parmi (*epi*), peuple (*demos*) et discours/connaissance (*logos*). C'est donc, par extrapolation :
-
-::: {.p style="text-align:center"}
-> La science de ce qui affecte la population
-:::
+L'épidémiologie est composée de trois concepts : au-dessus/parmi (*epi*), peuple (*demos*) et discours/connaissance (*logos*). C'est donc, par extrapolation, [la science de ce qui affecte la population]{.cb}.
 
 Historiquement, l'épidémiologie était réservée à l'étude des maladies infectieuses ("épidémies").
 
@@ -143,11 +139,11 @@ img gradient nord sud
 :::
 
 ::: callout-important
-## [L'épidémiologie consiste à décrire des phénomènes de santé dans une population et rechercher les facteurs qui les déterminent]{.cb}
+## [L'épidémiologie vise à décrire des phénomènes de santé dans une population et rechercher les facteurs qui les déterminent]{.cb}
 :::
 
 ::: callout-important
-## [2 parties : descriptive et analytique]{.cb}
+## [Deux parties : descriptive et analytique]{.cb}
 :::
 
 

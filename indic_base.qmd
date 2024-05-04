@@ -1,12 +1,13 @@
 # Mesures de base {#sec-indic}
 
+/###
+
 Un indicateur de santé est une variable que l'on mesure afin de mesurer l'état de santé d'une population 
 
 - Outil d'évaluation et d'aide à la décision 
 - Permet de décrire l'état de santé des individus d'une communauté
 - Bien définir ce que nous mesurons +++ : TEMPS-ESPACE-PERSONNE
 - Toute mesure a un numérateur et un dénominateur
-
 
 sont à la base de 2 grandes catégories d'indicateurs de santé :
 
@@ -162,6 +163,7 @@ exemple
 ::: callout-warning
 ## Comment ne pas confondre une date avec une période
 
+/###
 
 :::
 
@@ -183,6 +185,7 @@ Facilement compréhensible par les professionnels et les usagers
 
 ::: callout-tip
 ## La MAPA est également une mesure fiable, si on considère , (le matin à domicile)
+/###
 :::
 
 - [Valide]{.cb}
@@ -190,6 +193,7 @@ Facilement compréhensible par les professionnels et les usagers
 
 ::: callout-tip
 ## La mesure autonome de la pression artérielle (MAPA)
+/###
 :::
 
 - [Sensible]{.cb}
@@ -264,7 +268,7 @@ Une mesure [précise mais inexacte]{.cb} donnerait des valeurs fiables [mais fau
 
 ::: callout-tip
 ## Mesure de la température, partie 1
-
+/###
 :::
 
 ---

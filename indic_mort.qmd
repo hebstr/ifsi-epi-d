@@ -90,7 +90,7 @@ Il en existe plusieurs types, dont :
 
 Indépendamment de ses causes, la mortalité est liée un facteur incontournable : [l'âge]{.cb}.
 
-Si la comparaison entre départements révèle des taux plus élevés dans l'un, cela peut-être dû non pas à des causes externes mais simplement à la [structure d'âge]{.cb} du département : [la mortalité sera plus élevée si la moyenne d'âge est plus élevée !]{.cb}
+Si la comparaison entre départements révèle des taux plus élevés dans l'un, cela peut-être dû non pas à des causes externes mais simplement à la [structure d'âge]{.cb} du département : [la mortalité est plus élevée si la moyenne d'âge est plus élevée]{.cb}.
 
 ::: {#fig-mort layout-ncol=2}
 

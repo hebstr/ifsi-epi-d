@@ -229,7 +229,6 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#sec-biais-sel" id="toc-sec-biais-sel" class="nav-link active" data-scroll-target="#sec-biais-sel"><span class="header-section-number">10.1</span> Biais de sélection</a></li>
   <li><a href="#biais-de-classement" id="toc-biais-de-classement" class="nav-link" data-scroll-target="#biais-de-classement"><span class="header-section-number">10.2</span> Biais de classement</a></li>
   <li><a href="#sec-biais-conf" id="toc-sec-biais-conf" class="nav-link" data-scroll-target="#sec-biais-conf"><span class="header-section-number">10.3</span> Biais de confusion</a></li>
-  <li><a href="#en-bref" id="toc-en-bref" class="nav-link" data-scroll-target="#en-bref"><span class="header-section-number">10.4</span> En bref</a></li>
   </ul>
 </nav>
     </div>
@@ -255,7 +254,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Un biais est une erreur prévisible, qui se produit systématiquement dans une direction prédéterminée. C’est pour cette raison qu’elle est qualifiée d’erreur <span class="cb">systématique</span>.</p>
+<p>Un biais est une erreur <span class="cb">prévisible</span>, qui se produit systématiquement dans une <span class="cb">direction prédéterminée</span>. C’est pour cette raison qu’elle est qualifiée d’erreur <span class="cb">systématique</span>.</p>
 <p>Conséquences :</p>
 <ul>
 <li>Diminution de la puissance de l’étude</li>
@@ -267,10 +266,11 @@ ul.task-list li input[type="checkbox"] {
 <li>Biais de <span class="cb">classement</span></li>
 <li>Biais de <span class="cb">confusion</span></li>
 </ul>
-<p>Alors que la fluctuation d’échantillon est une erreur d’origine statistique, le biais est une erreur d’origine <span class="cb">méthodologique</span>. La manière de s’en prémunir est donc d’élaborer une méthode, <span class="cb">une réflexion préalable</span> qui sera différente selon le contexte et type de biais.</p>
+<p>Alors que la fluctuation d’échantillonnage est une erreur d’origine statistique, le biais est une erreur d’origine <span class="cb">méthodologique</span> : il affecte la <span class="cb">validité</span> d’une mesure et n’est <span class="cb">pas dépendant de la taille de l’échantillon</span>.</p>
+<p>Une manière de s’en prémunir est donc d’élaborer une méthode, <span class="cb">une réflexion préalable</span> qui sera différente selon le contexte et le type de biais.</p>
 <section id="sec-biais-sel" class="level2" data-number="10.1">
 <h2 data-number="10.1" class="anchored" data-anchor-id="sec-biais-sel"><span class="header-section-number">10.1</span> Biais de sélection</h2>
-<p>Biais intervenant lors de la constitution de l’échantillon ou du suivi des sujets conduisant à ce que l’échantillon ne soit pas représentatif de la population cible</p>
+<p>Un <span class="cb">biais de sélection</span> intervient lors de la <span class="cb">constitution</span> d’un échantillon ou du <span class="cb">suivi</span> des sujets. Il conduit à une situation dans laquelle l’échantillon <span class="cb">n’est plus représentatif</span> de la population cible.</p>
 <p>Retrouvé lors de la constitution :</p>
 <ul>
 <li>De la population source</li>
@@ -301,19 +301,6 @@ La sélection n’engendre pas systématiquement un biais
 
 </div>
 </div>
-<div class="callout callout-style-simple callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Sélection sur liste électorale vs annuaire
-</div>
-</div>
-<div class="callout-body-container callout-body">
-
-</div>
-</div>
 </section>
 <section id="biais-de-classement" class="level2" data-number="10.2">
 <h2 data-number="10.2" class="anchored" data-anchor-id="biais-de-classement"><span class="header-section-number">10.2</span> Biais de classement</h2>
@@ -328,24 +315,8 @@ Sélection sur liste électorale vs annuaire
 </section>
 <section id="sec-biais-conf" class="level2" data-number="10.3">
 <h2 data-number="10.3" class="anchored" data-anchor-id="sec-biais-conf"><span class="header-section-number">10.3</span> Biais de confusion</h2>
-<ul>
-<li>Ces biais vont être liés à l’intervention d’un ou de plusieurs tiers facteurs</li>
-</ul>
-<p>intervient surtout lorsqu’on recherche des causes : il est donc particulièrement redouté en épidémiologie analytique.</p>
-<div class="callout callout-style-simple callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Sélection sur liste électorale vs annuaire
-</div>
-</div>
-<div class="callout-body-container callout-body">
-
-</div>
-</div>
-<p>En épidémiologie descriptive, peuvent intervenir lorsqu’on compare les taux provenant de plusieurs populations différentes</p>
+<p>Les biais de confusion sont liés à l’intervention d’un ou de plusieurs tiers facteurs (appelés <span class="cb">facteurs de confusion</span>).</p>
+<p>En épidémiologie descriptive, ils peuvent intervenir lors de la <span class="cb">comparaison</span> d’indicateurs provenant de populations différentes.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -357,22 +328,75 @@ Comparaison des taux bruts de mortalité entre le Nord et la Creuse
 </div>
 <div class="callout-body-container callout-body">
 <p>Le Nord est une département plutôt jeune ; la Creuse est une département plutôt âgé.</p>
-<p>La structure d’âge est donc à l’origine un biais de confusion dans la comparaison de taux bruts de mortalité. On dit que c’est un facteur de confusion.</p>
+<p>La structure d’âge est donc à l’origine un biais de confusion dans la comparaison de taux bruts de mortalité. On dit que c’est un <span class="cb">facteur de confusion</span>.</p>
 <p>Il s’agit bien d’une erreur prévisible ayant une direction prédéterminée : un âge plus élevé est systématiquement associé à un taux de mortalité plus élevé.</p>
 <p>Il existe une méthode pour s’affranchir de ce biais : la <span class="cb">standardisation</span> (<a href="indic_mort.html#sec-stand" class="quarto-xref"><span>Section 3.3</span></a>).</p>
 </div>
 </div>
+<p>Les biais de confusion interviennent surtout lorsqu’on recherche des <span class="cb">causes</span> : ils sont donc particulièrement redoutés en <span class="cb">épidémiologie analytique</span>.</p>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Association entre port du briquet et cancer du poumon
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>On peut faire l’observation que les personnes portant un briquet sur elles ont plus de risque de développer un cancer du poumon.</p>
+<p>Pour autant, peut-on dire que le port du briquet est la cause du cancer ? Probablement pas, puisqu’il existe dans cette association un tiers facteur : <span class="cb">le tabagisme</span>.</p>
+<p>La tabagisme joue ici le rôle de <span class="cb">facteur de confusion</span> : il est à la fois lié au fait de porter un briquet sur soi et à la survenue du cancer du poumon.</p>
+</div>
+</div>
+<hr>
+<p><br>
+</p>
 </section>
-<section id="en-bref" class="level2" data-number="10.4">
-<h2 data-number="10.4" class="anchored" data-anchor-id="en-bref"><span class="header-section-number">10.4</span> En bref</h2>
-<ul>
-<li>Erreurs systématiques (sous ou sur estimation)</li>
-<li>Ne sont pas modifiés par la taille de l’échantillon</li>
-<li>Ils peuvent être évités ou réduits et nécessitent donc une réflexion préalable</li>
-</ul>
+<section id="take-home-messages" class="level2 unnumbered unlisted p" style="text-align:center">
+<h2 class="unnumbered unlisted anchored" data-anchor-id="take-home-messages">TAKE-HOME MESSAGES</h2>
+</section>
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="cb">Biais = erreurs systématiques</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="cb">Ils ne sont pas modifiés par la taille de l’échantillon</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="cb">Ils peuvent être évités ou réduits avec une réflexion préalable</span>
+</div>
+</div>
+<div class="callout-body-container callout-body">
+
+</div>
+</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

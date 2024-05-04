@@ -1,6 +1,6 @@
 # Indicateurs de morbidité {#sec-mrb}
 
-La [morbidité]{.cb} est relative au fait d'être [atteint d'une maladie]{.cb}.
+La [morbidité]{.cb} se réfère au fait d'être [atteint d'une maladie]{.cb}.
 
 ::: callout-note
 ## Mesurer la morbidité : éléments philosophiques
@@ -38,6 +38,7 @@ Le taux d'incidence reflète la [vitesse de survenue]{.cb} d'une maladie dans un
 
 ::: callout-tip
 ## Exemple
+/###
 :::
 
 
@@ -186,6 +187,8 @@ list(gt_arrow(incidence = "arrow-up-long",
               prévalence = "question"))
 ```
 
+/### détail pour chaque
+
 ::: {.callout-caution collapse="true" appearance="minimal"}
 ## `r title[1]`
 ```{r}
@@ -231,14 +234,15 @@ tab[[6]]
 ---
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-## Facteurs déterminants : résumé
+## Facteurs déterminants : synthèse
 ```{r}
 tab |> 
   map(~ .[["_data"]]) |> 
   list_rbind() |> 
   mutate(" " = title,
          .before = everything()) |>
-  gt_arrow()
+  gt_arrow() |> 
+  cols_width(" " ~ pct(75))
 ```
 :::
 

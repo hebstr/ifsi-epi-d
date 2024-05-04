@@ -5,20 +5,18 @@
 Sont présentés ici deux systèmes de déclaration obligatoire :
 
 - Le [certificat de décès]{.cb}
-- Les [maladies à déclaration obligatoire]{.cb}
+- La liste des [maladies à déclaration obligatoire]{.cb}
 
 
 ### Certificat de décès
 
-La déclaration d'un décès par un [certificat de décès]() est une [obligation légale]{.cb} pour toute personne décédée sur le territoire national, y compris un enfant enregistré à l'état civil[^1].
+La déclaration d'un décès par un [certificat de décès]() est une [obligation légale]{.cb} pour toute personne décédée sur le territoire national, y compris un enfant enregistré à l'état civil^[En cas d'enfant mort-né, il doit être établit un acte d'enfant sans vie, attestant que l'enfant était mort au moment de la naissance].
 
-[^1]: En cas d'enfant mort-né, il doit être établit un acte d'enfant sans vie, attestant que l'enfant était mort au moment de la naissance.
-
-Le certificat de décès doit être produit [par le médecin ayant constaté le décès]{.cb} (pourrait cependant être étendu[^2])
-
-[^2]: [Expérimentation autorisant les infirmiers à signer des certificats de décès](https://www.ameli.fr/infirmier/exercice-liberal/prescription-prise-charge/prise-charge-situation-type-soin/certificats-deces-par-infirmier)
+Le certificat de décès doit être produit [par le médecin ayant constaté le décès]{.cb} (pourrait cependant être étendu^[[Expérimentation autorisant les infirmiers à signer des certificats de décès](https://www.ameli.fr/infirmier/exercice-liberal/prescription-prise-charge/prise-charge-situation-type-soin/certificats-deces-par-infirmier)])
 
 Il est composé de deux volets :
+
+/###
 
 - Volet administratif, utilisée pour la déclaration à l'état civil :
   - Nom et prénom 
@@ -38,12 +36,11 @@ Un certificat de décès correctement rempli participe à l'amélioration de la 
 
 ### Maladies à déclaration obligatoire {#sec-mdo}
 
-Il existe 38 [maladies à déclaratoire obligatoire](https://www.santepubliquefrance.fr/maladies-a-declaration-obligatoire/liste-des-maladies-a-declaration-obligatoire) (MDO). Elles ont en commun d'être des [maladies infectieuses]{.cb} (à deux exceptions[^3]).
-
- [^3]: Le mésothéliome, le saturnisme chez l'enfant mineur.
+Il existe 38 [maladies à déclaratoire obligatoire](https://www.santepubliquefrance.fr/maladies-a-declaration-obligatoire/liste-des-maladies-a-declaration-obligatoire) (MDO). Elles ont en commun d'être des [maladies infectieuses]{.cb} (à deux exceptions^[Le mésothéliome, le saturnisme chez l'enfant mineur]).
 
 C'est un système de transmission de [données individuelles]{.cb} à l'autorité sanitaire, dans lequel deux procédures sont mises en jeu :
 
+/###
 
 - Notification (anonyme, pour suivi épidémiologique)
 
@@ -78,7 +75,7 @@ Le caractère [obligatoire]{.cb} de cette transmission permet une surveillance [
 
 En résumé, ce système garantit une [surveillance continue]{.cb} à la fois pratique et utile de [maladies potentiellement graves]{.cb} afin de permettre une réponse rapide et efficace en cas de risque épidémique.
 
-img rougeole
+/### img rougeole
 
 
 ## Déclaration volontaire

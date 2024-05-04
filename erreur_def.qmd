@@ -16,7 +16,7 @@ Une erreur peut se produire par deux mécanismes, illustrés avec l'exemple suiv
 
 L'erreur de calibrage de l'appareil, aboutissant à une surestimation de la température de 1°C, est une erreur [prévisible]{.cb}. Elle se produit à chaque mesure, [toujours dans le même sens]{.cb}. On peut dire de l'appareil qu'il est [biaisé]{.cb}.
 
-D'autre part, 
+D'autre part, /###
 
 :::
 
@@ -46,6 +46,8 @@ knitr::include_graphics("img/cible_abcd.png")
 
 ::: callout-note
 ## Erreur ou écart ?
+
+/###
 
 Exp
 

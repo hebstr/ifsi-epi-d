@@ -151,7 +151,7 @@ Enfin, un certain nombre de sujets appartenant à la population source seront s�
 knitr::include_graphics("img/pop_2.png")
 ```
 
-La prévalence de l'obésité est mesurée parmi les sujets présents dans cet échantillon.
+La prévalence de l'obésité sera finalement mesurée dans cet échantillon.
 :::
 
 ::: {.p style="text-align:center"}
