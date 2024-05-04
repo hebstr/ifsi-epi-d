@@ -1,59 +1,55 @@
 # Enquêtes spécifiques {#sec-src-spe}
 
-- Enquête réalisée spécialement pour répondre à un besoin d'information sur un sujet précis
-- Quand aucune statistique recueillie en routine n'existe
-- Si la pathologie s'y prête
+Des enquêtes peuvent être réalisées pour répondre à un besoin spécifique d'information en l'absence de données de routine, et si la pathologie d'intérêt s'y prête.
 
-On en distingue deux types :
+On distingue deux types d'enquêtes spécifiques (aussi appelées enquêtes "ad hoc") :
 
-::: {.p style="text-align:center"}
-Enquêtes en population (exhaustive)
-: [Registre de morbidité]{.cb} (@sec-reg)
+- Enquête [exhaustive]{.cb} (en population) (@sec-part-exhaust)
+- Enquête sur [échantillon représentatif]{.cb} (@sec-echant)
 
-Enquêtes sur échantillon représentatif
-: [Transversale]{.cb} (@sec-spe-trans) \
-[Longitudinale]{.cb} (@sec-spe-long)
-:::
+Terminologie :
 
 ::: {layout-ncol=3}
 
 ```{r}
-tibble::tibble(Population = c("Exhaustivité", "Représentativité")) |> 
+tibble::tibble(Population = c("Exhaustive", "Représentative")) |> 
   knitr::kable(align = "c")
 ```
 
 ```{r}
-tibble::tibble(Durée = c("Transversalité", "Longitudinalité")) |> 
+tibble::tibble(Durée = c("Transversale", "Longitudinale")) |> 
   knitr::kable(align = "c")
 ```
 
 ```{r}
-tibble::tibble(Chronologie = c("Prospection", "Rétrospection")) |> 
+tibble::tibble(Chronologie = c("Prospective", "Rétrospective")) |> 
   knitr::kable(align = "c")
 ```
 
 :::
 
 
-## Enquête exhaustive
+## Enquête exhaustive {#sec-part-exhaust}
 
 ### L'exhaustivité {#sec-exhaust}
 
-La notion d'exhaustivité a déjà été abordée^[Voir @sec-mdo].
+La notion d'[exhaustivité]{.cb} a déjà été abordée^[Voir @sec-mdo].
 
-On a recueilli l'information de [tous]{.cb} les individus qui constituent la population.
-Dans ce cas on parle d'[exhaustivité]{.cb}.
+L'exhaustivité se dit d'une situation où l'on a pu recueillir l'information sur [la totalité]{.cb} des cas qui constituaient la population.
 
-Ces enquêtes visent à collecter des informations aussi complètes que possible, en couvrant tous les aspects pertinents du sujet d'étude pour réduire les biais et les lacunes des données préexistantes.
+Une [enquête exhaustive]{.cb} vise à collecter des informations [aussi complètes que possible]{.cb}, en couvrant tous les aspects pertinents du sujet d'étude pour réduire les lacunes des données pré-existantes.
 
-::: callout-note
-## Une liste exhaustive est une liste [complète]{.cb}, qui contient toute l'information
+
+::: {.callout-caution collapse="true" appearance="minimal"}
+## Que veut-on dire lorsqu'on parle de "liste exhaustive" ? 
+Une liste exhaustive est une liste [complète]{.cb}, qui explicite tous les éléments qui la composent.
 :::
 
+Un exemple d'enquête exhaustive est le [registre de morbidité]{.cb}.
 
-### Registre de morbidité {#sec-reg}
+### Registre de morbidité
 
-Il s'agit d'une structure qui enregistre de manière [continue et exhaustive]{.cb}, [l'ensemble]{.cb} des cas :
+Il s'agit d'un enregistrement [continu et exhaustif]{.cb} de [l'ensemble]{.cb} des cas :
 
 1. Pour [une pathologie donnée]{.cb}
 2. Sur un [territoire géographique donné]{.cb}
@@ -78,11 +74,16 @@ Ce type d'enquête s'inscrit avant tout dans une démarche [descriptive]{.cb}, m
 ::: callout-tip
 ## Le registre des AVC dans la Métropole Européenne de Lille (MEL)
 
-Il s'agit d'un enregistrement continu et exhaustif de tous les nouveaux cas d'AVC (**pathologie donnée**) chez les habitants de la MEL (**territoire géographique donné**).
+Il s'agit d'un enregistrement continu et exhaustif de tous les nouveaux cas d'AVC ([pathologie donnée]{.cb}) chez les habitants de la MEL ([territoire géographique donné]{.cb}).
 :::
 
 
-## Enquête sur échantillon représentatif
+## Enquête sur échantillon représentatif {#sec-echant}
+
+On en distingue deux types :
+
+- Enquête [transversale]{.cb} (@sec-spe-trans)
+- Enquête [longitudinale]{.cb} (@sec-spe-long)
 
 ### La représentativité {#sec-repres}
 
@@ -109,23 +110,14 @@ L'échantillon n'est effectivement qu'un [intermédiaire]{.cb} : la finalité d'
 Une bonne représentativité permet de [généraliser]{.cb} la valeur obtenue sur l'échantillon à sa population d'origine en garantissant un certain degré d'exactitude, raison pour laquelle [elle doit toujours être recherchée]{.cb}.
 Plus un échantillon est représentatif de la population dont il est issu, plus l'estimation est [proche de la vraie valeur]{.cb}.
 
-Un échantillon mal constitué, non représentatif de sa population d'origine, serait pourvoyeur de [biais de sélection]{.cb}^[Voir @sec-biais-sel]. La généralisation de ses résultats pourrait être à l'origine de conclusions erronées.
+Un échantillon mal constitué, non représentatif de sa population d'origine, serait pourvoyeur de [biais de sélection]{.cb}^[Voir @sec-biais-sel]. La généralisation de ses résultats pourrait mener à des conclusions erronées.
 :::
 
 La constitution d'un échantillon fait intervenir trois étapes successives : 
 
-::: {.p style="text-align:center"}
-
-[Population cible]{.cb}
-: ensemble de la population visée 
-
-[Population source]{.cb}
-: part de la population cible accessible en pratique
-
-[Échantillon]{.cb}
-: sélection issue de la population source
-
-:::
+1. [Population cible]{.cb} : ensemble de la population ciblée par l'enquête 
+2. [Population source]{.cb} : part de la population cible accessible en pratique
+3. [Échantillon]{.cb} : sélection issue de la population source
 
 ```{r #fig-pop-1}
 #| out-width: 6in
@@ -139,7 +131,7 @@ knitr::include_graphics("img/pop_1.png")
 ## Étude de la prévalence de l'obésité chez les sujets âgés de 30 à 45 ans habitant à Lille (I)
 
 La population à laquelle on souhaite accéder est définie dès le départ. Il s'agit des **sujets âgés de 30 à 45 ans habitant à Lille** : c'est la [population cible]{.cb}.
-"Cible" car il s'agit bien de la population visée par notre question de recherche. 
+"Cible" car il s'agit bien de l'ensemble de la population ciblée par notre question de recherche. 
 
 On souhaite, à partir de cette population théorique, constituer un échantillon.
 Or il faut pour cela trouver un moyen pratique d'accéder à cette population. \
@@ -166,10 +158,10 @@ La prévalence de l'obésité est mesurée parmi les sujets présents dans cet �
 **L'échantillon finalement constitué doit être [représentatif de la population cible]{.cb}**
 :::
 
-Par conséquent, cette représentativité doit être garantie à chaque niveau :
+Par conséquent, cette représentativité doit être garantit à chaque niveau :
 
 1. La population [source]{.cb} doit être représentative de la population [cible]{.cb}
-: La constitution de la population source sur la base d'une liste électorale garantie une bonne représentativité vis-à-vis de la population cible par le fait que la majorité de la population d'une commune est inscrite sur ses listes électorales[^elec].
+: La constitution de la population source sur la base d'une liste électorale garantie une bonne représentativité vis-à-vis de la population cible par le fait qu'une grande partie de la population d'une commune est inscrite sur ses listes électorales[^elec].
 
 2. L'[échantillon]{.cb} doit être représentatif de la population [source]{.cb}
 : La constitution
@@ -192,29 +184,29 @@ Une enquête transversale consiste donc à mesurer une [prévalence]{.cb}^[Voir 
 La réalisation d'une mesure à un instant donné signifie justement qu'il n'y a [pas de suivi dans le temps]{.cb}
 :::
 
-- Champs d'étude restreint
-- Pour des maladies suffisamment fréquentes pour pouvoir être étudiées avec une précision raisonnable
+Ce type d'enquête a un champ d'application plutôt restreint. Il est adapté à des maladies suffisamment [fréquentes]{.cb} pour pouvoir être étudiées [ponctuellement]{.cb} avec une précision raisonnable.
 
 
 ::: callout-tip
-## Étude prévalence obésité présentée plus haut^[Voir @sec-repres] est une enquête transversale
+## L'étude portant sur l'obésité présentée plus haut^[Voir @sec-repres] est un exemple d'enquête transversale
 :::
 
 ::: callout-tip
-## Enquête MONA-LISA-Lille
+## Enquête MONA-LISA-Lille (2005-2007)
 
-- Objectif : mesurer la prévalence des principaux FR cardiovasculaire dans la MEL
+Objectif
+: - Mesurer la prévalence des principaux facteurs de risque cardiovasculaire dans la métropole européenne de Lille (MEL)
 
-- Echantillon représentatif
-  - Par tirage au sort sur les listes électorales avec une stratification sur la taille des communes
-  - 1600 hommes et femmes, âgées de 35 à 74 ans et résidant dans la MEL
-  
-- Invitation par courrier
-  - Mesures (poids, taille, tour de taille, tour de hanche, PA, FC)
-  - Prise de sang à jeun (glycémie à jeun, cholestérolémie)
-  
-Ex de résultat : la prévalence de l'HTA dans la MEL est de 53% chez les hommes et de 45% chez les femmes
+Échantillon représentatif
+: - Tirage au sort sur les listes électorales avec stratification sur la taille des communes
+- 1600 hommes et femmes, âgés de 35 à 74 ans et résidant dans la MEL
 
+Invitation par courrier
+: - Mesures (e.g., poids, taille, pression artérielle, fréquence cardiaque)
+- Prise de sang à jeun (glycémie à jeun, cholestérolémie)
+
+Exemple de résultat
+: - La prévalence de l'HTA dans la MEL était de 53% chez les hommes et de 45% chez les femmes
 :::
 
 
@@ -235,16 +227,17 @@ La réalisation d'une mesure sur une période donnée signifie justement qu'il y
 
 Une enquête longitudinale est en pratique appelée [étude de cohorte]{.cb}.
 
-Une [cohorte]{.cb} est un groupe de personnes [suivies dans le temps]{.cb} servant à la réalisation d'études épidémiologiques présentant un intérêt de santé publique.
+Classiquement, une [cohorte]{.cb} est un groupe de personnes [suivies dans le temps]{.cb}, servant à la réalisation d'études épidémiologiques présentant un intérêt de santé publique.
+
+C'est parce qu'il y a un suivi qu'on parle de cohortes [prospectives]{.cb} : on mesure la survenue d'un évènement dans le temps (cas le plus fréquent)^[Il existe aussi des cohortes **rétrospectives** (on cherche à retrouver une information passée).].
+
 
 ::: callout-tip
 ## La cohorte PAQUID (1988-2004)
-
 - **Inclusion** : 3777 sujets âgés de 65 ans et plus vivant en région Aquitaine
 - **Objectif** : étude du vieillissement cérébral et fonctionnel en population générale
 - **Suivi** : tous les deux ans à 11 reprises
 - **Résultat** : la démence était la cause principale de dépendance du sujet âgé en France
-
 :::
 
 ::: callout-tip
@@ -265,29 +258,6 @@ Exemples d'études réalisées ou en cours
 - Impact des violences sexuelles sur la santé mentale et la consommation de substances psycho-actives
 - Évolution de la morphologie de la population française
 - Rôle de la consommation de cannabis dans les comportements suicidaires
-
-:::
-
-
-## Chronologie
-
-### Prospection
-
-Une étude est dite [prospective]{.cb} si 
-
-::: callout-tip
-## exemple
-
-:::
-
-
-### Rétrospection
-
-Une étude est dite [rétrospective]{.cb} si 
-
-::: callout-tip
-## exemple
-
 :::
 
 \
@@ -297,5 +267,22 @@ Une étude est dite [rétrospective]{.cb} si
 :::
 
 ::: callout-important
-## test
+## [Deux types d'enquêtes spécifiques : exhaustive ou sur échantillon représentatif]{.cb}
 :::
+
+::: callout-important
+## [Un échantillon doit être représentatif de la population dont il est issu]{.cb}
+:::
+
+::: callout-important
+## [Un registre de morbidité est une enquête exhaustive : c'est un recueil continu de tous les cas d'une pathologie donnée dans une zone géographique donnée]{.cb}
+:::
+
+::: callout-important
+## [Deux types d'enquêtes sur échantillon représentatif : transversale ou longitudinale]{.cb}
+:::
+
+::: callout-important
+## [Une enquête transversale mesure une prévalence ; une enquête longitudinale mesure une incidence]{.cb}
+:::
+
