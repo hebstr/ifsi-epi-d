@@ -76,7 +76,7 @@ ul.task-list li input[type="checkbox"] {
   });
 </script>
 </head>
-<body class="nav-sidebar floating slimcontent">
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top"><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
@@ -223,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
   </ul></nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./erreur_def.html">Erreurs de mesure</a></li><li class="breadcrumb-item"><a href="./erreur_fluct.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Fluctuation d'échantillonnage</span></a></li></ol></nav><div class="quarto-title">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./erreur_def.html">Erreurs de mesure</a></li><li class="breadcrumb-item"><a href="./erreur_fluct.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Fluctuation d'échantillonnage</span></a></li></ol></nav><div class="quarto-title">
 <h1 class="title"><span id="sec-fluct" class="quarto-section-identifier"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Fluctuation d’échantillonnage</span></span></h1>
 </div>
 
@@ -241,10 +241,10 @@ ul.task-list li input[type="checkbox"] {
 </header><p>Une fluctuation d’échantillonnage est une erreur <span class="cb">imprévisible, liée au hasard</span>. C’est pour cette raison qu’elle est qualifiée d’erreur <span class="cb">aléatoire</span>.</p>
 <p>Fluctuation est synonyme de <span class="cb">variabilité</span>, de variation, ou de “bruit”. Un échantillon est composé d’<span class="cb">individus</span> au sens premier du terme, c’est-à-dire d’unités indivisibles, qu’il s’agisse de la personne humaine ou non.</p>
 <p>En pratique, on parle alors souvent de <span class="cb">variabilité individuelle</span>.</p>
-<section id="la-variabilité-individuelle" class="level2 page-columns page-full" data-number="9.1"><h2 data-number="9.1" class="anchored" data-anchor-id="la-variabilité-individuelle">
+<section id="la-variabilité-individuelle" class="level2" data-number="9.1"><h2 data-number="9.1" class="anchored" data-anchor-id="la-variabilité-individuelle">
 <span class="header-section-number">9.1</span> La variabilité individuelle</h2>
-<p>Dans l’exemple de la prise de température chez vos patients<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>, on a vu que la mesure était soumise aux fluctuations d’échantillonnage. Pourtant, parler de fluctuations d’échantillonnage ici peut porter à confusion. On comprend le terme de fluctuation, synonyme de variabilité, en revanche on ne voit pas bien de quel échantillon il peut s’agir.</p>
-<div class="no-row-height column-margin column-container"><p><sup>1</sup>&nbsp;Voir <a href="erreur_def.html" class="quarto-xref"><span>Chapitre 8</span></a></p></div><p>La notion de <span class="cb">variabilité individuelle</span> est dans ce cas plus concrète : vous prenez la température chez des <span class="cb">individus</span>, et le résultat <span class="cb">peut varier</span>.</p>
+<p>Dans l’exemple de la prise de température chez vos patients (<a href="erreur_def.html" class="quarto-xref"><span>Chapitre 8</span></a>), on a vu que la mesure était soumise aux fluctuations d’échantillonnage. Pourtant, parler de fluctuations d’échantillonnage ici peut porter à confusion. On comprend le terme de fluctuation, synonyme de variabilité, en revanche on ne voit pas bien de quel échantillon il peut s’agir.</p>
+<p>La notion de <span class="cb">variabilité individuelle</span> est dans ce cas plus concrète : vous prenez la température chez des <span class="cb">individus</span>, et le résultat <span class="cb">peut varier</span>.</p>
 <p>La variabilité individuelle peut intervenir à deux niveaux :</p>
 <ul>
 <li><dl>
@@ -260,22 +260,44 @@ La mesure de température répétée chez un même patient peut donner des valeu
 </dd>
 </dl></li>
 </ul>
+<p>La variabilité individuelle peut s’exercer dans de nombreux domaines.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-La variabilité individuelle est présente dans plein de situations
+Effets indésirables médicamenteux
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>/###</p>
-<ul>
-<li>Exemple vaccination</li>
-<li>Exemple chirurgie</li>
-<li>Exemple ostéopathie</li>
-</ul>
+<p>Certains individus pourront présenter des effets indésirables graves à un traitement (e.g., chimiothérapie, vaccin), alors que d’autres n’ont présenteront aucun.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+La réponse immunitaire aux vaccins
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Bien que la plupart des individus développent une protection immunitaire après la vaccination contre le Covid, un certain pourcentage ne développera pas d’immunité et restera susceptible aux infections.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Récupération post-opératoire
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Deux patients peuvent subir la même intervention chirurgicale mais connaître des temps de récupération et des taux de complications très différents, en raison de divers facteurs (e.g., âge, statut nutritionnel, comorbidités)</p>
 </div>
 </div>
 <div class="callout callout-style-simple callout-note callout-titled">
@@ -284,7 +306,7 @@ La variabilité individuelle est présente dans plein de situations
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Pour plus de simplicité, fluctuation d’échantillonnage et variabilité individuelle peuvent ici être considérées synonymes et utilisées de façon interchangeable.
+Pour plus de simplicité, fluctuation d’échantillonnage et variabilité individuelle peuvent être considérées synonymes et utilisées de façon interchangeable.
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -319,7 +341,7 @@ Prévalence de l’obésité chez les sujets âgés de 30 à 45 ans habitant à 
 <p><strong>En raison de la <span class="cb">variabilité individuelle</span>, il y a trop d’<span class="cb">incertitude</span> associée à la précision de cette mesure pour que celle-ci puisse être présentée seule dans les résultats d’une enquête sur échantillon.</strong></p>
 </div>
 <p>Solution ? Présenter la mesure accompagnée d’un <span class="cb">intervalle</span> qui rendra compte de la <span class="cb">variabilité autour de cette mesure</span>.</p>
-</section><section id="solution-lintervalle-de-confiance" class="level2 page-columns page-full" data-number="9.3"><h2 data-number="9.3" class="anchored" data-anchor-id="solution-lintervalle-de-confiance">
+</section><section id="solution-lintervalle-de-confiance" class="level2" data-number="9.3"><h2 data-number="9.3" class="anchored" data-anchor-id="solution-lintervalle-de-confiance">
 <span class="header-section-number">9.3</span> Solution : l’intervalle de confiance</h2>
 <p>Cet intervalle est appelé <span class="cb">intervalle de confiance</span>.</p>
 <p>Il s’étend de part et d’autre de la valeur mesurée dans l’échantillon, et permet de <span class="cb">maîtriser l’incertitude</span> due aux fluctuations d’échantillonnage avec un certain <span class="cb">niveau de confiance</span>.</p>
@@ -330,7 +352,7 @@ Prévalence de l’obésité chez les sujets âgés de 30 à 45 ans habitant à 
 <div class="p" style="text-align:center">
 <p><strong>l’intervalle dont on est sûr à 95% qu’il <span class="cb">contient la vraie valeur</span> dans</strong><br><strong>la population d’où est issu l’échantillon</strong></p>
 </div>
-<section id="simulation" class="level3 page-columns page-full" data-number="9.3.1"><h3 data-number="9.3.1" class="anchored" data-anchor-id="simulation">
+<section id="simulation" class="level3" data-number="9.3.1"><h3 data-number="9.3.1" class="anchored" data-anchor-id="simulation">
 <span class="header-section-number">9.3.1</span> Simulation</h3>
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -342,11 +364,11 @@ Rappel
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Dans la vraie vie, la vraie valeur dans la population <span class="cb">ne peut pas être connue</span> et on cherche, à travers une mesure réalisée sur un <span class="cb">échantillon représentatif</span><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> de cette population, à <span class="cb">estimer cette vraie valeur</span>.</p>
+<p>Dans la vraie vie, la vraie valeur dans la population <span class="cb">ne peut pas être connue</span> et on cherche, à travers une mesure réalisée sur un <span class="cb">échantillon représentatif</span> (<a href="sources_spe.html#sec-repres" class="quarto-xref"><span>Section 6.2.1</span></a>) de cette population, à <span class="cb">estimer cette vraie valeur</span>.</p>
 <p>On fait le présupposé que cette vraie valeur est <span class="cb">fixe et unique</span>.</p>
 </div>
 </div>
-<div class="no-row-height column-margin column-container"><p><sup>2</sup>&nbsp;Voir <a href="sources_spe.html#sec-repres" class="quarto-xref"><span>Section 6.2.1</span></a></p></div><p>Que se passerait-il si on constituait beaucoup d’échantillons et qu’on calculait pour chacun un intervalle de confiance à 95% ?</p>
+<p>Que se passerait-il si on constituait beaucoup d’échantillons et qu’on calculait pour chacun un intervalle de confiance à 95% ?</p>
 <p>Imaginons une situation <span class="cb">fictive</span> dans laquelle <span class="cb">on connait la vraie valeur</span> de la prévalence d’une maladie quelconque dans une population de 100 000 individus. Admettons que cette valeur soit <span class="cb">10%</span>.</p>
 <p>À partir de cette population, on simule 20 expériences : on constitue <span class="cb">20 échantillons de 1000 individus tirés avec remise</span>. Dans chaque échantillon, <span class="cb">on mesure la prévalence</span> de la maladie.</p>
 <p>On a donc mesuré <span class="cb">20 mesures de prévalences</span> ; une valeur par échantillon. Vous savez maintenant que ces valeurs sont soumises aux <span class="cb">fluctuations d’échantillonnage</span> et qu’elles sont donc toutes <span class="cb">plus ou moins différentes</span> (11, 5, 15, 8, 15, 11, etc.). À chaque valeur est associé, à l’aide d’un calcul statistique, un <span class="cb">intervalle de confiance à 95%</span>.</p>
@@ -392,7 +414,7 @@ Prévalence de l’obésité chez les sujets âgés de 30 à 45 ans habitant à 
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>La prévalence de l’obésité mesurée dans l’échantillon est de <span class="cb">20%</span>. L’intervalle de confiance à 95% correspondant s’étend de <span class="cb">12 à 28%</span>.</p>
+<p>La prévalence de l’obésité mesurée dans l’échantillon de 100 sujets est de <span class="cb">20%</span>. L’intervalle de confiance à 95% correspondant s’étend de <span class="cb">12 à 28%</span>.</p>
 <p>En pratique, le résultat pourrait être présenté de la manière suivante :</p>
 <div class="p" style="text-align:center">
 <p><strong>prévalence de l’obésité [IC95%] : 20% [12% ; 28%]</strong></p>
@@ -405,16 +427,33 @@ Prévalence de l’obésité chez les sujets âgés de 30 à 45 ans habitant à 
 </div>
 </div>
 </div>
+<hr>
 <div class="p" style="text-align:center">
 <p><strong>Dans la population, il y a 95% de chances que cet intervalle <span class="cb">contienne la vraie prévalence</span> de l’obésité</strong></p>
 <p>On peut aussi l’interpréter d’une autre manière :</p>
 <p><strong>Il y a 95% de chances que la prévalence de l’obésité dans la population <span class="cb">soit comprise entre 12 et 28%</span></strong></p>
 </div>
+<hr>
+<p>Admettons que l’échantillon ne soit plus composé de 100 sujets, mais de <span class="cb">1000</span> sujets. L’intervalle de confiance à 95% correspondant s’étend de <span class="cb">18 à 23%</span>.</p>
+<p>Le résultat est alors le suivant :</p>
+<div class="p" style="text-align:center">
+<p><strong>prévalence de l’obésité [IC95%] : 20% [18% ; 23%]</strong></p>
+</div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure"><p><a href="img/ic_exemple_1000.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img src="img/ic_exemple_1000.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:2.5in"></a></p>
+</figure>
 </div>
 </div>
+</div>
+<p>On remarque que pour une même valeur mesurée, l’intervalle est <span class="cb">plus étroit</span> : l’estimation de la vraie valeur est <span class="cb">plus précise</span>.</p>
+</div>
+</div>
+<p>Cet exemple illustre le fait que les fluctuations d’échantillonnage ont pour caractéristique de <span class="cb">diminuer à mesure que la taille de l’échantillon augmente</span>. En augmentant la taille de l’échantillon, on augmente la <span class="cb">précision de l’estimation</span>.</p>
 <hr>
 <p><br></p>
-</section></section><section id="take-home-messages" class="level2 unnumbered unlisted p" style="text-align:center"><h2 class="unnumbered unlisted anchored" data-anchor-id="take-home-messages">TAKE-HOME MESSAGES</h2>
+</section></section><section id="messages-importants" class="level2 unnumbered unlisted p" style="text-align:center"><h2 class="unnumbered unlisted anchored" data-anchor-id="messages-importants">MESSAGES IMPORTANTS</h2>
 </section><div class="callout callout-style-simple callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -472,6 +511,7 @@ Prévalence de l’obésité chez les sujets âgés de 30 à 45 ans habitant à 
 <div class="hidden" aria-hidden="true">
 <span class="glightbox-desc lightbox-desc-1">Figure&nbsp;9.1: Simulation de 20 valeurs avec intervalle de confiance à 95%. <br> La <span class="cb">ligne horizontale</span> représente la vraie prévalence de la maladie dans la population. Les <span class="cb2">barres verticales</span> représentent les 20 prévalences mesurées accompagnées de leur intervalle de confiance à 95%.</span>
 </div>
+
 </main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -813,7 +853,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","loop":false,"openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","loop":false,"closeEffect":"zoom","selector":".lightbox"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

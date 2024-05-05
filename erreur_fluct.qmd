@@ -11,7 +11,7 @@ En pratique, on parle alors souvent de [variabilité individuelle]{.cb}.
 
 ## La variabilité individuelle
 
-Dans l'exemple de la prise de température chez vos patients^[Voir @sec-err], on a vu que la mesure était soumise aux fluctuations d'échantillonnage.
+Dans l'exemple de la prise de température chez vos patients (@sec-err), on a vu que la mesure était soumise aux fluctuations d'échantillonnage.
 Pourtant, parler de fluctuations d'échantillonnage ici peut porter à confusion.
 On comprend le terme de fluctuation, synonyme de variabilité, en revanche on ne voit pas bien de quel échantillon il peut s'agir.
 
@@ -25,18 +25,25 @@ La variabilité individuelle peut intervenir à deux niveaux :
 - Chez un même individu (= [intra]{.cb}individuelle) 
 : La mesure de température répétée chez un même patient peut donner des valeurs différentes. 
 
+La variabilité individuelle peut s'exercer dans de nombreux domaines.
+
 ::: callout-tip
-## La variabilité individuelle est présente dans plein de situations
+## Effets indésirables médicamenteux
+Certains individus pourront présenter des effets indésirables graves à un traitement (e.g., chimiothérapie, vaccin), alors que d'autres n'ont présenteront aucun.
+:::
 
-/###
+::: callout-tip
+## La réponse immunitaire aux vaccins 
+Bien que la plupart des individus développent une protection immunitaire après la vaccination contre le Covid, un certain pourcentage ne développera pas d'immunité et restera susceptible aux infections.
+:::
 
-- Exemple vaccination
-- Exemple chirurgie
-- Exemple ostéopathie
+::: callout-tip
+## Récupération post-opératoire
+Deux patients peuvent subir la même intervention chirurgicale mais connaître des temps de récupération et des taux de complications très différents, en raison de divers facteurs (e.g., âge, statut nutritionnel, comorbidités)
 :::
 
 ::: callout-note
-## Pour plus de simplicité, fluctuation d'échantillonnage et variabilité individuelle peuvent ici être considérées synonymes et utilisées de façon interchangeable.
+## Pour plus de simplicité, fluctuation d'échantillonnage et variabilité individuelle peuvent être considérées synonymes et utilisées de façon interchangeable.
 :::
 
 
@@ -90,7 +97,7 @@ Ainsi, pour une valeur mesurée dans l'échantillon, on calculera l'intervalle d
 
 ::: callout-note
 ## Rappel
-Dans la vraie vie, la vraie valeur dans la population [ne peut pas être connue]{.cb} et on cherche, à travers une mesure réalisée sur un [échantillon représentatif]{.cb}^[Voir @sec-repres] de cette population, à [estimer cette vraie valeur]{.cb}.
+Dans la vraie vie, la vraie valeur dans la population [ne peut pas être connue]{.cb} et on cherche, à travers une mesure réalisée sur un [échantillon représentatif]{.cb} (@sec-repres) de cette population, à [estimer cette vraie valeur]{.cb}.
 
 On fait le présupposé que cette vraie valeur est [fixe et unique]{.cb}.
 :::
@@ -143,7 +150,7 @@ En pratique, dans la présentation des résultats d'une enquête sur échantillo
 ::: callout-tip
 ## Prévalence de l'obésité chez les sujets âgés de 30 à 45 ans habitant à Lille (partie III)
 
-La prévalence de l'obésité mesurée dans l'échantillon est de [20%]{.cb}. L'intervalle de confiance à 95% correspondant s'étend de [12 à 28%]{.cb}.
+La prévalence de l'obésité mesurée dans l'échantillon de 100 sujets est de [20%]{.cb}. L'intervalle de confiance à 95% correspondant s'étend de [12 à 28%]{.cb}.
 
 En pratique, le résultat pourrait être présenté de la manière suivante :
 
@@ -158,6 +165,8 @@ En pratique, le résultat pourrait être présenté de la manière suivante :
 knitr::include_graphics("img/ic_exemple.png")
 ```
 
+---
+
 ::: {.p style="text-align:center"}
 **Dans la population, il y a 95% de chances que cet intervalle [contienne la vraie prévalence]{.cb} de l'obésité**
 
@@ -166,13 +175,35 @@ On peut aussi l'interpréter d'une autre manière :
 **Il y a 95% de chances que la prévalence de l'obésité dans la population [soit comprise entre 12 et 28%]{.cb}**
 :::
 
+---
+
+Admettons que l'échantillon ne soit plus composé de 100 sujets, mais de [1000]{.cb} sujets.
+L'intervalle de confiance à 95% correspondant s'étend de [18 à 23%]{.cb}.
+
+Le résultat est alors le suivant :
+
+::: {.p style="text-align:center"}
+**prévalence de l'obésité [IC95%] : 20% [18% ; 23%]**
 :::
+
+```{r}
+#| out-width: 2.5in
+#| fig-align: center
+
+knitr::include_graphics("img/ic_exemple_1000.png")
+```
+
+On remarque que pour une même valeur mesurée, l'intervalle est [plus étroit]{.cb} : l'estimation de la vraie valeur est [plus précise]{.cb}.
+:::
+
+Cet exemple illustre le fait que les fluctuations d'échantillonnage ont pour caractéristique de [diminuer à mesure que la taille de l'échantillon augmente]{.cb}.
+En augmentant la taille de l'échantillon, on augmente la [précision de l'estimation]{.cb}. 
 
 ---
 \
 
 ::: {.p style="text-align:center"}
-## TAKE-HOME MESSAGES {.unnumbered .unlisted}
+## MESSAGES IMPORTANTS {.unnumbered .unlisted}
 :::
 
 ::: callout-important

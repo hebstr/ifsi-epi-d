@@ -156,50 +156,30 @@ Mesuré sur une période : du 01/01/2023 au 01/06/2023
 On mesure la survenue d'un évènement parmi les personnes à risque de faire cet évènement, sur une période donnée : c'est un [taux]{.cb}
 :::
 
-::: {.callout-caution collapse="true" appearance="minimal"}
-
-## EXEMPLE TAUX 
-
-exemple
-
-:::
-
----
-
-::: callout-warning
-## Comment ne pas confondre une date avec une période
-
-/###
-
-:::
-
 
 ## Critères de qualité d'un indicateur
 
 Pour être de qualité, un indicateur de santé doit être :
 
 - [Simple et acceptable]{.cb}
-: Facilement utilisable par les chercheurs \
-Facilement compréhensible par les professionnels et les usagers
+: Facilement utilisable par les chercheurs, facilement compréhensible par les professionnels et les usagers
 
 ::: callout-tip
 ## Le taux de mortalité infantile est une mesure simple et consensuelle du nombre d'enfants décédés entre la naissance et 12 mois parmi toutes les naissances vivantes dans une population donnée
+:::
+
+- [Valide]{.cb}
+: La mesure est-elle pertinente ? Correspond-elle à ce qu'on souhaite mesurer ?
+
+::: callout-tip
+## La mesure autonome de la pression artérielle (MAPA) mesure la pression artérielle en conditions de vie réelle, par opposition à une mesure prise dans un contexte clinique pouvant être influencée par le stress (effet "blouse blanche") 
 :::
 
 - [Fiable]{.cb}
 : Si la mesure est répétée dans des conditions similaires, elle doit produire des résultats similaires
 
 ::: callout-tip
-## La MAPA est également une mesure fiable, si on considère , (le matin à domicile)
-/###
-:::
-
-- [Valide]{.cb}
-: La mesure est-elle pertinente, est-elle en accord avec la réalité ?
-
-::: callout-tip
-## La mesure autonome de la pression artérielle (MAPA)
-/###
+## La reproduction de la MAPA sur plusieurs jours et à intervalles réguliers dans les mêmes conditions environnementales permet d'évaluer sa fiabilité
 :::
 
 - [Sensible]{.cb}
@@ -219,23 +199,17 @@ Facilement compréhensible par les professionnels et les usagers
 
 ## Fiabilité vs validité {#sec-temp}
 
-Fiabilité et validité sont des notions à ne pas confondre, et toutes aussi nécessaires l'une que l'autre.
-
----
-
 ::: {.p style="text-align:center"}
 **[Fiabilité]{.cb} est synonyme de [précision]{.cb} (ou reproductibilité)** \
 **[Validité]{.cb} est synonyme d'[exactitude]{.cb} (ou pertinence)**
 :::
-
----
 
 On peut illustrer précision et exactitude en symbolisant la mesure avec une cible et un ensemble de points, chacun représentant une mesure :
 
 - La précision étant symbolisée par la dispersion entre les points
 - L'exactitude étant symbolisée par le centre de la cible : c'est la "vraie" valeur qu'on cherche à atteindre
 
-Quatre situations sont possibles.
+Quatre situations sont possibles :
 
 ::: {#fig-cible layout-ncol=2 layout-nrow=2}
 
@@ -258,8 +232,6 @@ La @fig-cible-c représente une situation fréquente en pratique. La répétitio
 
 La @fig-cible-d représente une situation où la mesure n'apporte pas d'information. Sa répétition ne donne jamais la même valeur, et rarement la bonne valeur : la mesure n'est [ni fiable ni valide]{.cb}.
 
----
-
 ::: {.p style="text-align:center"}
 
 Une mesure [exacte mais imprécise]{.cb} donnerait des bonnes valeurs [par hasard]{.cb}
@@ -270,18 +242,31 @@ Une mesure [précise mais inexacte]{.cb} donnerait des valeurs fiables [mais fau
 
 :::
 
----
-
 ::: callout-tip
-## Mesure de la température, partie 1
-/###
+## Mesure de la température (partie 1)
+Lors de votre première tournée dans un nouveau service, vous devez prendre la température chez les patients de votre secteur.
+On vous a informé pendant les transmissions que le thermomètre que vous utilisez, le seul disponible dans ce service, a un défaut de calibrage : il surestime la température de +1°C.
+
+Lorsque vous reprenez plusieurs fois d'affilée la mesure chez un même patient, il est très probable que vous obteniez *globalement* le même résultat : votre mesure de température est [fiable]{.cb}.
+
+Est-elle valide pour autant ? Souvenez-vous qu'en raison du défaut de calibrage de l'appareil, chaque valeur mesurée surestime la température de +1°C : aussi fiable soit-elle, la mesure [ne correspond pas à la réalité]{.cb}.
+
+Autrement dit :
+
+::: {.p style="text-align:center"}
+La mesure est [fiable]{.cb}
+: la répétition de la mesure reproduit *globalement* le même résultat 
+
+Pour autant, la mesure n'est [pas valide]{.cb}
+: l'appareil surestime la température de +1°C
+:::
 :::
 
 ---
 \
 
 ::: {.p style="text-align:center"}
-## TAKE-HOME MESSAGES {.unnumbered .unlisted}
+## MESSAGES IMPORTANTS {.unnumbered .unlisted}
 :::
 
 ::: callout-important
@@ -293,7 +278,11 @@ Une mesure [précise mais inexacte]{.cb} donnerait des valeurs fiables [mais fau
 :::
 
 ::: callout-important
-## [Fiabilité est synonyme de précision ; validité est synonyme d'exactitude]{.cb}
+## [Un ratio s'applique à une variable binaire]{.cb}
+:::
+
+::: callout-important
+## [La fiabilité se réfère à la précision ; la validité se réfère à l'exactitude]{.cb}
 :::
 
 ::: callout-important
