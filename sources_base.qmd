@@ -75,7 +75,11 @@ Le caractère [obligatoire]{.cb} de cette transmission permet une surveillance [
 
 En résumé, ce système garantit une [surveillance continue]{.cb} à la fois pratique et utile de [maladies potentiellement graves]{.cb} afin de permettre une réponse rapide et efficace en cas de risque épidémique.
 
-/### img rougeole
+```{r #fig-rougeole}
+#| fig-cap: "Évolution des cas de rougeole déclarés, selon l’origine importée ou non, 2017-2023, France entière.<br>Source : SPF, déclarations obligatoires"
+
+knitr::include_graphics("img/rougeole.png")
+```
 
 
 ## Déclaration volontaire

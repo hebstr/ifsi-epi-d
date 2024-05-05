@@ -1,15 +1,21 @@
 # Mesures de base {#sec-indic}
 
-/###
+Un [indicateur de santé]{.cb} est une variable spécifiquement définie et mesurée dans le but de [décrire et suivre l'état de santé]{.cb} d'une population.
 
-Un indicateur de santé est une variable que l'on mesure afin de mesurer l'état de santé d'une population 
+C'est un outil d'[évaluation]{.cb} des problèmes de santé, d'[aide à la décision]{.cb} et de [surveillance]{.cb} de l'efficacité des interventions de santé publique.
 
-- Outil d'évaluation et d'aide à la décision 
-- Permet de décrire l'état de santé des individus d'une communauté
-- Bien définir ce que nous mesurons +++ : TEMPS-ESPACE-PERSONNE
-- Toute mesure a un numérateur et un dénominateur
+Tout indicateur est composé d'un [numérateur]{.cb} et d'un [dénominateur]{.cb}, et doit être défini en tenant compte de trois éléments :
 
-sont à la base de 2 grandes catégories d'indicateurs de santé :
+- [Temps]{.cb} 
+: Préciser la période pendant laquelle les données ont été collectées pour observer les tendances au fil du temps (e.g., variations saisonnières des maladies infectieuses)
+
+- [Espace]{.cb}
+: Identifier les zones géographiques concernées pour pouvoir comparer différentes régions entre elles
+
+- [Personne]{.cb}
+: Tenir compte des caractéristiques démographiques de la population étudiée (e.g., âge, sexe, statut socio-économique) pour cibler les interventions vers les groupes les plus à risque.
+
+Les indicateurs de base présentés dans ce chapitre sont à l'origine de deux grandes catégories d'indicateurs de santé :
 
 - Les indicateurs de [mortalité]{.cb} (@sec-mrt)
 - Les indicateurs de [morbidité]{.cb} (@sec-mrb) 

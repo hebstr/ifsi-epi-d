@@ -5,7 +5,7 @@ La [morbidité]{.cb} se réfère au fait d'être [atteint d'une maladie]{.cb}.
 ::: callout-note
 ## Mesurer la morbidité : éléments philosophiques
 
-*La mesure de morbidité est un concept. Elle est un moyen de se représenter de manière simplifiée et tangible un phénomène de santé, qui lui est bien réel et complexe.*
+*La mesure de morbidité est une construction, un moyen de se représenter de manière simplifiée et tangible un phénomène de santé, qui lui est bien réel et complexe.*
 
 *La morbidité est multidimensionnelle (morbidité ressentie, diagnostiquée, objectivée, déclarée...). Quelle définition faut-il adopter ? Celle-ci peut varier selon les perspectives cliniques, épidémiologiques, voire même culturelles.* 
 
@@ -17,9 +17,7 @@ Il existe en pratique deux indicateurs de morbidité : l'[incidence]{.cb} et la 
 
 ## Incidence {#sec-inc}
 
-L'incidence est un [taux]{.cb} (@sec-taux).
-
-Un [taux d'incidence]{.cb} est un taux appliqué à [la survenue de nouveaux cas]{.cb} d'une maladie dans une population.
+Un [taux d'incidence]{.cb} est un [taux]{.cb} (@sec-taux) appliqué à la [survenue de nouveaux cas]{.cb} d'une maladie dans une population.
 
 > 
 $$
@@ -34,11 +32,17 @@ $$
 
 Puisqu'il s'agit d'une mesure prise sur une période, elle est qualifiée de mesure [longitudinale]{.cb} (*en longueur*, *d'un point A à un point B*).
 
-Le taux d'incidence reflète la [vitesse de survenue]{.cb} d'une maladie dans une population.
+Le taux d'incidence est [toujours]{.cb} spécifié pour une [période donnée]{.cb}.
+Il reflète la [vitesse de survenue]{.cb} d'une maladie dans une population.
 
 ::: callout-tip
-## Exemple
-/###
+## Dans une ville de 100 000 habitants, on observe 500 nouveaux cas de Covid durant l'hiver 2023 (période de 3 mois)
+
+Il y a eu 500 nouveaux cas sur les 3 mois.\
+On considère l'ensemble de la population comme étant à risque sur les 3 mois, soit 100 000 personnes.
+
+Le taux d'incidence était de $\frac{500}{100 \ 000}$ = 5 cas pour 1000 habitants sur 3 mois.\
+Durant l'hiver 2023, il y a eu 5 nouveaux cas de Covid pour 1000 habitants.
 :::
 
 
@@ -129,7 +133,7 @@ L'incidence, la prévalence et leur dynamique peuvent être représentées graph
 ```{r #fig-vih}
 #| out-width: 6in
 #| fig-align: center
-#| fig-cap: "État de l'épidémie de SIDA dans le monde (en millions)"
+#| fig-cap: "État de l'épidémie de SIDA dans le monde (en millions). Source : [UNAIDS](https://www.unaids.org/en/resources/fact-sheet)"
 
 knitr::include_graphics("img/vih.png")
 ```
@@ -187,13 +191,15 @@ list(gt_arrow(incidence = "arrow-up-long",
               prévalence = "question"))
 ```
 
-/### détail pour chaque
-
 ::: {.callout-caution collapse="true" appearance="minimal"}
 ## `r title[1]`
 ```{r}
 tab[[1]]
 ```
+
+Si davantage de personnes sont exposées à des facteurs favorisent le développement de d'une maladie (e.g., tabagisme pour le cancer du poumon, alimentation riche en graisses saturées pour les maladies cardiovasculaires), l'incidence [augmente]{.cb}.
+
+La prévalence est dépendante de l'incidence : elle aura aussi tendance à [augmenter]{.cb}, d'autant plus s'il s'agit d'une maladie chronique.
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
@@ -201,6 +207,10 @@ tab[[1]]
 ```{r}
 tab[[2]]
 ```
+
+L'incidence est focalisée sur l'apparition de nouveaux cas et non sur l'évolution de la maladie dans la population : elle n'est [pas affectée]{.cb} en cas de guérison plus rapide.
+
+En revanche, la guérison signifie une diminution du nombre de cas dans la population : la prévalence [diminue]{.cb}
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
@@ -208,6 +218,10 @@ tab[[2]]
 ```{r}
 tab[[3]]
 ```
+
+L'incidence est focalisée sur l'apparition de nouveaux cas et non sur l'évolution de la maladie dans la population : elle n'est [pas affectée]{.cb} en cas d'amélioration de la survie.
+
+En revanche, une amélioration de la survie entraîne une augmentation du nombre de personnes vivant avec la maladie : la prévalence [augmente]{.cb}. Cette situation concerne particulièrement les maladies chroniques.
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
@@ -215,6 +229,11 @@ tab[[3]]
 ```{r}
 tab[[4]]
 ```
+
+Des outils diagnostiques plus performants peuvent détecter la maladie chez des personnes chez qui elle n'aurait pas pu être diagnostiquée auparavant : l'incidence [augmente]{.cb}.\
+Cela peut donner l'impression d'une augmentation du nombre de nouveaux cas, alors qu'il s'agit en réalité d'une [meilleure identification des cas existants]{.cb}.
+
+La prévalence [augmente]{.cb} du fait de l'augmentation de l'incidence, d'autant plus si la maladie est détectée à une stade plus précoce (les malades vivront plus longtemps avec leur diagnostic).
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
@@ -222,6 +241,11 @@ tab[[4]]
 ```{r}
 tab[[5]]
 ```
+
+Une meilleure déclaration permet de capturer un nombre plus important de cas existants dans la population : l'incidence [augmente]{.cb}. 
+Cela peut donner l'impression d'une augmentation du nombre de nouveaux cas, alors qu'il s'agit en réalité d'une [meilleure identification des cas existants]{.cb}.
+
+Du fait de l'augmentation de l'incidence, la prévalence [augmente]{.cb}
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
@@ -229,6 +253,8 @@ tab[[5]]
 ```{r}
 tab[[6]]
 ```
+
+Un changement de définition de la maladie pourrait aussi bien entraîner une augmentation ou une diminution de l'incidence et de la prévalence, selon qu'elle est plus large ou plus restrictive.
 :::
 
 ---
@@ -250,15 +276,15 @@ tab |>
 ## Incidence ou prévalence ?
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-## Sur les 30 derniers jours, 15 patients ont été hospitalisés en réanimation pour septicémie
+## Sur les 30 derniers jours, 10 patients sur 40 hospitalisés dans une service de maladies infectieuses ont fait un séjour en réanimation pour choc septique
 
-Nombre de nouveaux cas sur une période donnée : c'est une [incidence]{.cb}
+Nombre de nouveaux évènements parmi les personnes à risque, sur une période donnée : c'est une [incidence]{.cb}.
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
 ## Au 01/01/2024, il y avait 5% de cas de cancer de la prostate chez les hommes habitant dans la région Hauts-de-France
 
-Proportion à un instant donné : c'est une [prévalence]{.cb}
+Proportion à un instant donné : c'est une [prévalence]{.cb}.
 :::
 
 ---

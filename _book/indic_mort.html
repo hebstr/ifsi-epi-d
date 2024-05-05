@@ -101,7 +101,7 @@ window.Quarto = {
 };
 </script>
 </head>
-<body class="nav-sidebar floating slimcontent">
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top"><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
@@ -250,7 +250,7 @@ window.Quarto = {
   </ul></nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./indic_base.html">Indicateurs de santé</a></li><li class="breadcrumb-item"><a href="./indic_mort.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Indicateurs de mortalité</span></a></li></ol></nav><div class="quarto-title">
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./indic_base.html">Indicateurs de santé</a></li><li class="breadcrumb-item"><a href="./indic_mort.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Indicateurs de mortalité</span></a></li></ol></nav><div class="quarto-title">
 <h1 class="title"><span id="sec-mrt" class="quarto-section-identifier"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Indicateurs de mortalité</span></span></h1>
 </div>
 
@@ -304,13 +304,14 @@ Pourquoi en “taux pour 1000” ?
 <p>Supposons que, sur l’année 2022, le taux brut de mortalité en France soit égal à 0,009.<br>
 La phrase suivante n’est pas très intuitive :</p>
 <blockquote class="blockquote">
-<p>En France, en 2022, le taux brut de mortalité était de 0,009 pour 1 habitant.</p>
+<p>En France, en 2022, le taux brut de mortalité était de <strong>0,009 pour 1 habitant</strong>.</p>
 </blockquote>
 <p>En pratique, cet inconvénient est résolu en multipliant par 1000 :</p>
 <blockquote class="blockquote">
-<p>En 2022, le taux brut de mortalité était de 9 pour 1000 habitants.</p>
+<p>En 2022, le taux brut de mortalité était de <strong>9 pour 1000 habitants</strong>.</p>
 </blockquote>
 <p>On comprend ainsi facilement que, en moyenne, pour 1000 personnes suivies sur l’année 2022, 9 sont décédées.</p>
+<p>Cette transformation facilite également les comparaisons entre différentes tailles de populations.</p>
 </div>
 </div>
 </section><section id="taux-spécifique-de-mortalité" class="level2" data-number="3.2"><h2 data-number="3.2" class="anchored" data-anchor-id="taux-spécifique-de-mortalité">
@@ -369,9 +370,9 @@ En 2022, le taux de mortalité chez les femmes enceintes était de 9,6 pour 100 
 <ul>
 <li>La mortalité <span class="cb">prématurée</span> : mortalité survenant avant 65 ans (= taux spécifique par tranches d’âge)</li>
 <li>La mortalité <span class="cb">évitable</span> : taux spécifique par causes de décès</li>
-</ul></section><section id="sec-stand" class="level2 page-columns page-full" data-number="3.3"><h2 data-number="3.3" class="anchored" data-anchor-id="sec-stand">
+</ul></section><section id="sec-stand" class="level2" data-number="3.3"><h2 data-number="3.3" class="anchored" data-anchor-id="sec-stand">
 <span class="header-section-number">3.3</span> Taux standardisé de mortalité</h2>
-<section id="problème" class="level3 page-columns page-full" data-number="3.3.1"><h3 data-number="3.3.1" class="anchored" data-anchor-id="problème">
+<section id="problème" class="level3" data-number="3.3.1"><h3 data-number="3.3.1" class="anchored" data-anchor-id="problème">
 <span class="header-section-number">3.3.1</span> Problème</h3>
 <p>Indépendamment de ses causes, la mortalité est liée un facteur incontournable : <span class="cb">l’âge</span>.</p>
 <p>Si la comparaison entre départements révèle des taux plus élevés dans l’un, cela peut-être dû non pas à des causes externes mais simplement à la <span class="cb">structure d’âge</span> du département : <span class="cb">la mortalité est plus élevée si la moyenne d’âge est plus élevée</span>.</p>
@@ -401,7 +402,7 @@ En 2022, le taux de mortalité chez les femmes enceintes était de 9,6 pour 100 
 </div>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-mort-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;3.2: Taux bruts de mortalité et part des plus de 75 ans en 2023 (en ‰)
+Figure&nbsp;3.2: Taux bruts de mortalité et part des plus de 75 ans en 2023 (en ‰). Source : <a href="https://www.insee.fr/fr/statistiques/2012741">Insee</a>
 </figcaption></figure>
 </div>
 <div class="callout callout-style-simple callout-note callout-titled">
@@ -410,14 +411,14 @@ Figure&nbsp;3.2: Taux bruts de mortalité et part des plus de 75 ans en 2023 (en
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-L’âge est un <span class="cb">facteur de confusion</span><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> dans la mesure des taux comparatifs de mortalité
+L’âge est un <span class="cb">facteur de confusion</span> (<a href="erreur_biais.html#sec-biais-conf" class="quarto-xref"><span>Section 10.3</span></a>) dans la mesure des taux comparatifs de mortalité
 </div>
 </div>
 <div class="callout-body-container callout-body">
 
 </div>
 </div>
-<div class="no-row-height column-margin column-container"><p><sup>1</sup>&nbsp;Voir <a href="erreur_biais.html#sec-biais-conf" class="quarto-xref"><span>Section 10.3</span></a></p></div></section><section id="solution" class="level3" data-number="3.3.2"><h3 data-number="3.3.2" class="anchored" data-anchor-id="solution">
+</section><section id="solution" class="level3" data-number="3.3.2"><h3 data-number="3.3.2" class="anchored" data-anchor-id="solution">
 <span class="header-section-number">3.3.2</span> Solution</h3>
 <p>Afin de pouvoir comparer de manière pertinente des taux de mortalité entre différentes zones géographiques, il faut procéder à un traitement des taux bruts pour s’affranchir de cet “effet âge” : cette méthode est appelée <span class="cb">standardisation</span>.</p>
 <p>Les taux comparatifs de décès, ou <span class="cb">taux standardisés</span>, correspondent à des taux de décès calculés <span class="cb">comme si la structure d’âge était la même dans tous les départements</span>.</p>
@@ -609,6 +610,7 @@ Table&nbsp;3.2: Espérance de vie en bonne santé en France, 2022.
 <span class="glightbox-desc lightbox-desc-3">Figure&nbsp;3.2&nbsp;(b): Part des plus de 75 ans</span>
 <span class="glightbox-desc lightbox-desc-4">Figure&nbsp;3.3: Taux standardisés de mortalité prématurée (&lt; 65 ans) en 2023 (en ‰). Source : <a href="https://www.insee.fr/fr/statistiques/2012741">Insee</a></span>
 </div>
+
 </main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -950,7 +952,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom","loop":false});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","closeEffect":"zoom","descPosition":"bottom","openEffect":"zoom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

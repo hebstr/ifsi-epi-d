@@ -91,6 +91,8 @@ Ainsi, pour une valeur mesurée dans l'échantillon, on calculera l'intervalle d
 ::: callout-note
 ## Rappel
 Dans la vraie vie, la vraie valeur dans la population [ne peut pas être connue]{.cb} et on cherche, à travers une mesure réalisée sur un [échantillon représentatif]{.cb}^[Voir @sec-repres] de cette population, à [estimer cette vraie valeur]{.cb}.
+
+On fait le présupposé que cette vraie valeur est [fixe et unique]{.cb}.
 :::
 
 Que se passerait-il si on constituait beaucoup d'échantillons et qu'on calculait pour chacun un intervalle de confiance à 95% ?

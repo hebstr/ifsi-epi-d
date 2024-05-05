@@ -294,15 +294,30 @@ window.Quarto = {
 </header>
 
 
-<p>/###</p>
-<p>Un indicateur de santé est une variable que l’on mesure afin de mesurer l’état de santé d’une population</p>
+<p>Un <span class="cb">indicateur de santé</span> est une variable spécifiquement définie et mesurée dans le but de <span class="cb">décrire et suivre l’état de santé</span> d’une population.</p>
+<p>C’est un outil d’<span class="cb">évaluation</span> des problèmes de santé, d’<span class="cb">aide à la décision</span> et de <span class="cb">surveillance</span> de l’efficacité des interventions de santé publique.</p>
+<p>Tout indicateur est composé d’un <span class="cb">numérateur</span> et d’un <span class="cb">dénominateur</span>, et doit être défini en tenant compte de trois éléments :</p>
 <ul>
-<li>Outil d’évaluation et d’aide à la décision</li>
-<li>Permet de décrire l’état de santé des individus d’une communauté</li>
-<li>Bien définir ce que nous mesurons +++ : TEMPS-ESPACE-PERSONNE</li>
-<li>Toute mesure a un numérateur et un dénominateur</li>
+<li><dl>
+<dt><span class="cb">Temps</span></dt>
+<dd>
+Préciser la période pendant laquelle les données ont été collectées pour observer les tendances au fil du temps (e.g., variations saisonnières des maladies infectieuses)
+</dd>
+</dl></li>
+<li><dl>
+<dt><span class="cb">Espace</span></dt>
+<dd>
+Identifier les zones géographiques concernées pour pouvoir comparer différentes régions entre elles
+</dd>
+</dl></li>
+<li><dl>
+<dt><span class="cb">Personne</span></dt>
+<dd>
+Tenir compte des caractéristiques démographiques de la population étudiée (e.g., âge, sexe, statut socio-économique) pour cibler les interventions vers les groupes les plus à risque.
+</dd>
+</dl></li>
 </ul>
-<p>sont à la base de 2 grandes catégories d’indicateurs de santé :</p>
+<p>Les indicateurs de base présentés dans ce chapitre sont à l’origine de deux grandes catégories d’indicateurs de santé :</p>
 <ul>
 <li>Les indicateurs de <span class="cb">mortalité</span> (<a href="indic_mort.html" class="quarto-xref"><span>Chapitre 3</span></a>)</li>
 <li>Les indicateurs de <span class="cb">morbidité</span> (<a href="indic_morbi.html" class="quarto-xref"><span>Chapitre 4</span></a>)</li>
@@ -1181,7 +1196,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","loop":false});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"selector":".lightbox","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

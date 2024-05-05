@@ -3,10 +3,10 @@
 Un biais est une erreur [prévisible]{.cb}, qui se produit systématiquement dans une [direction prédéterminée]{.cb}.
 C'est pour cette raison qu'elle est qualifiée d'erreur [systématique]{.cb}.
 
-Conséquences : 
+Les biais ont pour conséquences :
 
-- Diminution de la puissance de l'étude 
-- Sous-estimation ou surestimation d'une association 
+- Une [diminution]{.cb} de la capacité à [détecter une différence ou une association]{.cb} significative si celle-ci existe réellement
+- Une [sous-estimation ou une surestimation]{.cb} de l'association entre les facteurs étudiés et la maladie
 
 Il existe trois grandes catégories de biais :
 
@@ -21,36 +21,69 @@ Une manière de s'en prémunir est donc d'élaborer une méthode, [une réflexio
 
 ## Biais de sélection {#sec-biais-sel}
 
-Un [biais de sélection]{.cb} intervient lors de la [constitution]{.cb} d'un échantillon ou du [suivi]{.cb} des sujets.
-Il conduit à une situation dans laquelle l'échantillon [n'est plus représentatif]{.cb} de la population cible.
+Un [biais de sélection]{.cb} conduit *in fine* à une situation dans laquelle l'échantillon [n'est plus représentatif]{.cb} de la population cible.
 
-Retrouvé lors de la constitution : 
+Il peut survenir à différentes étapes de la constitution d'une enquête, notamment lors de la formation de la [population source]{.cb}, de l'[échantillonnage]{.cb}, ou pendant le [suivi]{.cb} dans les enquêtes de cohortes. 
 
-- De la population source 
-- De l'échantillon (nécessité de l'accord de participation) 
-  - A l'entrée dans l'étude (non répondant, refus) 
-    - Taux de participation
-    - = Comparaison, des sujets répondants vs non répondants
-  - Lors du suivi (cas d'une cohorte)
-    - Taux d'attrition (perdus de vue)
-    - = Comparaison des caractéristiques PDV vs sujets suivis
+- [Population source]{.cb} 
+: La population de laquelle est issu l'échantillon n'est pas représentative de la population cible. Cela peut être dû à une sélection spécifique de lieux de recrutement, comme les hôpitaux ou les cliniques, qui ne reflètent pas la diversité des conditions de la population générale.
+
+::: callout-tip
+## Critères d'inclusion ou d'exclusion trop restrictifs
+Si une étude sur le diabète exclut les patients ayant des comorbidités, comme les maladies cardiovasculaires, les résultats ne seront pas applicables à de nombreux patients diabétiques qui vivent effectivement avec ces comorbidités.
+:::
+
+::: callout-tip
+## Zone géographique restreinte
+Une étude menée dans une région urbaine, où l'accès aux services de santé est facilité, pourrait ne pas refléter la situation des zones rurales ou moins développées.
+:::
+
+- [Échantillon]{.cb}
+: La participation des sujets à une étude nécessite un consentement actif : les sujets qui choisissent de participer peuvent différer systématiquement de ceux qui refusent, que ce soit en termes de caractéristiques démographiques ou comportementales, ou d'autres facteurs de risque pertinents pour l'étude.
+
+::: callout-tip
+## Lors de l'inclusion : les non-participants diffèrent des participants
+
+Si les personnes plus malades ou ayant un niveau socio-économique inférieur sont moins susceptibles de participer à l'étude, les résultats peuvent sous-estimer l'association entre les facteurs de risque étudiés et la maladie.
+
+La comparaison des participants et des non-participants peut aider à identifier et mesurer l'impact de ce manque sur la validité des résultats.
+:::
+
+::: callout-tip
+## Lors du suivi : les sujets perdus de vue diffèrent des sujets restants
+
+Les participants peuvent quitter l'étude pour diverses raisons (e.g., déménagement, décès, perte d'intérêt).
+
+Si les participants restant dans l'étude ont un meilleur état de santé général que les perdus de vue, cela peut conduire à une sous-estimation des risques associés aux facteurs étudiés.
+
+La comparaison des caractéristiques des sujets restants et des perdus de vue permet de mesurer l'impact de cette perte sur la validité des résultats.
+:::
 
 ::: callout-warning
 ## La sélection n'engendre pas systématiquement un biais
+À condition que l'objectif de l'étude soit clairement défini et que des méthodes appropriées soient utilisées pour ajuster l'impact de cette sélection.
 :::
 
 
 ## Biais de classement
 
-Erreur systématique dans la mesure de la maladie ou de l'exposition conduisant à mal classer les sujets en malades/non malades ou en exposés/non exposés intervenant au moment du recueil de données
+Un [biais de classement]{.cb} (ou biais de mesure) survient au moment du [recueil de données]{.cb}, lorsqu'il y a une erreur dans la façon dont l'exposition ou la maladie est mesurée.
 
-Mesure précise de la maladie (ou exposition) étudiée :
+Il conduit à des [erreurs de classement]{.cb} des sujets dans les catégories pertinentes telles que malades/non malades ou exposés/non exposés.
 
-- Reposant, si possible, sur des méthodes objectives
-- Examens objectifs
-- Questionnaires standardisés et validés
-- Procédures reproductibles
+::: callout-tip
+## Déclaration de la consommation de tabac
+Si les sujets participants à une étude ont systématiquement tendance à sous-estimer leur consommation de tabac, l'association entre le tabagisme et le cancer du poumon pourra être [faussement sous-estimée]{.cb}.
+:::
 
+::: callout-tip
+## Mesure de la température (partie III)
+L'erreur de mesure induite par le mauvais calibrage du thermomètre est un biais de classement.
+
+Le thermomètre est [biaisé]{.cb} : à chaque mesure, il [surestime systématiquement]{.cb} la vraie valeur de température chez votre patient.
+:::
+
+Le contrôle des biais de classement nécessite un [contrôle rigoureux de la mesure]{.cb} (e.g., méthodes objectives, examens et questionnaires standardisés, calibrage du matériel).
 
 ## Biais de confusion {#sec-biais-conf}
 

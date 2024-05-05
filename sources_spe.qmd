@@ -1,6 +1,6 @@
 # Enquêtes spécifiques {#sec-src-spe}
 
-Des enquêtes peuvent être réalisées pour répondre à un besoin spécifique d'information en l'absence de données de routine, et si la pathologie d'intérêt s'y prête.
+Des enquêtes peuvent être réalisées pour répondre à un besoin spécifique d'information [en l'absence de données de routine]{.cb}, et si la pathologie d'intérêt s'y prête.
 
 On distingue deux types d'enquêtes spécifiques (aussi appelées enquêtes "ad hoc") :
 
@@ -128,10 +128,11 @@ knitr::include_graphics("img/pop_1.png")
 ```
 
 ::: callout-tip
-## Étude de la prévalence de l'obésité chez les sujets âgés de 30 à 45 ans habitant à Lille (I)
+## Prévalence de l'obésité chez les sujets âgés de 30 à 45 ans habitant à Lille (partie I)
 
-La population à laquelle on souhaite accéder est définie dès le départ. Il s'agit des **sujets âgés de 30 à 45 ans habitant à Lille** : c'est la [population cible]{.cb}.
-"Cible" car il s'agit bien de l'ensemble de la population ciblée par notre question de recherche. 
+La population à laquelle on souhaite accéder est définie dès le départ.
+Il s'agit des **sujets âgés de 30 à 45 ans habitant à Lille** : c'est la [population cible]{.cb}.
+"Cible" car il s'agit bien de l'ensemble de la population ciblée par notre question de recherche. C'est la population à laquelle on souhaite [généraliser]{.cb} les résultats.
 
 On souhaite, à partir de cette population théorique, constituer un échantillon.
 Or il faut pour cela trouver un moyen pratique d'accéder à cette population. \

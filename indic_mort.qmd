@@ -33,13 +33,15 @@ Le nombre de décès étant logiquement inférieur à l'effectif total de la pop
 Supposons que, sur l'année 2022, le taux brut de mortalité en France soit égal à 0,009.\
 La phrase suivante n'est pas très intuitive :
 
-> En France, en 2022, le taux brut de mortalité était de 0,009 pour 1 habitant.
+> En France, en 2022, le taux brut de mortalité était de **0,009 pour 1 habitant**.
 
 En pratique, cet inconvénient est résolu en multipliant par 1000 :
 
-> En 2022, le taux brut de mortalité était de 9 pour 1000 habitants.
+> En 2022, le taux brut de mortalité était de **9 pour 1000 habitants**.
 
 On comprend ainsi facilement que, en moyenne, pour 1000 personnes suivies sur l'année 2022, 9 sont décédées.
+
+Cette transformation facilite également les comparaisons entre différentes tailles de populations.
 :::
 
 
@@ -98,11 +100,11 @@ Si la comparaison entre départements révèle des taux plus élevés dans l'un,
 
 ![Part des plus de 75 ans](img/part_75_2023.png){#fig-mort-part-75}
 
-Taux bruts de mortalité et part des plus de 75 ans en 2023 (en ‰)
+Taux bruts de mortalité et part des plus de 75 ans en 2023 (en ‰). Source : [Insee](https://www.insee.fr/fr/statistiques/2012741)
 :::
 
 ::: callout-note
-## L'âge est un [facteur de confusion]{.cb}^[Voir @sec-biais-conf] dans la mesure des taux comparatifs de mortalité
+## L'âge est un [facteur de confusion]{.cb} (@sec-biais-conf) dans la mesure des taux comparatifs de mortalité
 :::
 
 ### Solution

@@ -226,8 +226,7 @@ ul.task-list li input[type="checkbox"] {
   
 
 
-</header><p>La “vraie” valeur d’un indicateur est estimée par la mesure que l’on fait de cet indicateur.</p>
-<p>On attend notamment de cette mesure :</p>
+</header><p>On attend de la mesure d’un indicateur deux choses :</p>
 <ol type="1">
 <li>Qu’elle fournisse la même valeur lorsqu’on la reproduit : sa <span class="cb">fiabilité</span>
 </li>
@@ -235,27 +234,39 @@ ul.task-list li input[type="checkbox"] {
 </li>
 </ol>
 <p>Une mesure peut parfois s’écarter de la vraie valeur, à laquelle nous n’avons pas accès : c’est ce qu’on peut appeler une <span class="cb">erreur de mesure</span>.</p>
-<p>Une erreur peut se produire par deux mécanismes, illustrés avec l’exemple suivant.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-exemple température, partie 2 (<a href="indic_base.html#sec-temp" class="quarto-xref"><span>Section 2.4</span></a>)
+Mesure de la température, (partie II)
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>L’erreur de calibrage de l’appareil, aboutissant à une surestimation de la température de 1°C, est une erreur <span class="cb">prévisible</span>. Elle se produit à chaque mesure, <span class="cb">toujours dans le même sens</span>. On peut dire de l’appareil qu’il est <span class="cb">biaisé</span>.</p>
-<p>D’autre part, /###</p>
+<p>L’erreur de calibrage de l’appareil, aboutissant à une surestimation de la température de 1°C, est une erreur <span class="cb">prévisible</span>. Elle se produit à chaque mesure, <span class="cb">toujours dans la même direction</span>. On peut ainsi dire de l’appareil qu’il est <span class="cb">biaisé</span>.</p>
+<p>Puisque vous êtes averti du défaut de l’appareil, et que l’erreur qui en résulte est prévisible, vous pouvez <span class="cb">facilement la corriger</span> : pour chaque mesure, il faut soustraire 1°C.</p>
+<p>D’autre part, on a dit que la mesure répétée chez un même patient rapportait <em>globalement</em> la même valeur. Globalement, mais pas <em>exactement</em>. Vous remarquez en effet que la valeur peut <span class="cb">varier</span> d’un chiffre après la virgule (38.6, 38.8, 38.8, 38.5, etc.).</p>
+<p>Pouvez-vous prédire quel sera ce chiffre avant de réaliser la mesure ? Probablement pas. Cette erreur semble être <span class="cb">liée au hasard</span>. Cette variation imprévisible, aléatoire, est appelée <span class="cb">fluctuation d’échantillonnage</span>.</p>
+<p>Cette erreur est de nature différente et ne peut donc pas être corrigée de la même manière.</p>
 </div>
 </div>
-<p>En résumé, il y a donc deux grands types d’erreurs :</p>
-<ul>
-<li>La <span class="cb">fluctuation d’échantillonnage</span> : une erreur imprévisible, liée au hasard, dite <span class="cb">aléatoire</span> (<a href="erreur_fluct.html" class="quarto-xref"><span>Chapitre 9</span></a>)</li>
-<li>Le <span class="cb">biais</span> : une erreur prévisible, prédéterminée, dite <span class="cb">systématique</span> (<a href="erreur_biais.html" class="quarto-xref"><span>Chapitre 10</span></a>)</li>
-</ul>
-<p>Ces 2 types d’erreurs peuvent être illustrés en reprenant la <a href="indic_base.html#fig-cible" class="quarto-xref">Figure&nbsp;<span>2.1</span></a>, refaisant ainsi le lien avec les notions de <span class="cb">fiabilité</span> et <span class="cb">validité</span> (<a href="indic_base.html#sec-temp" class="quarto-xref"><span>Section 2.4</span></a>).</p>
+<p>On a évoqué à travers cet exemple les deux grands types d’erreurs :</p>
+<hr>
+<div class="p" style="text-align:center">
+<dl>
+<dt>La fluctuation d’échantillonnage</dt>
+<dd>
+une erreur imprévisible, liée au hasard, dite <span class="cb">aléatoire</span> (<a href="erreur_fluct.html" class="quarto-xref"><span>Chapitre 9</span></a>)
+</dd>
+<dt>Le biais</dt>
+<dd>
+une erreur prévisible, prédéterminée, dite <span class="cb">systématique</span> (<a href="erreur_biais.html" class="quarto-xref"><span>Chapitre 10</span></a>)
+</dd>
+</dl>
+</div>
+<hr>
+<p>Ces deux types d’erreurs peuvent être illustrés en reprenant la <a href="indic_base.html#fig-cible" class="quarto-xref">Figure&nbsp;<span>2.1</span></a>, refaisant ainsi le lien avec les notions de <span class="cb">fiabilité</span> et <span class="cb">validité</span> (<a href="indic_base.html#sec-temp" class="quarto-xref"><span>Section 2.4</span></a>).</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div id="fig-cible-erreur" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
@@ -273,7 +284,7 @@ Figure&nbsp;8.1: Fluctuation d’échantillonnage et biais
 <p><strong>La <span class="cb">fluctuation d’échantillonnage</span> est une erreur qui affecte la <span class="cb">précision</span> d’une mesure</strong><br><strong>Le <span class="cb">biais</span> est une erreur qui affecte l’<span class="cb">exactitude</span> d’une mesure</strong></p>
 </div>
 <hr>
-<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout callout-style-simple callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
@@ -283,9 +294,7 @@ Erreur ou écart ?
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>/###</p>
-<p>Exp</p>
-<p>La notion d’erreur doit donc ici être comprise dans un sens large, non seulement comme une erreur de mesure, mais comme un <span class="cb">écart par rapport à la réalité</span>.</p>
+<p>Le terme d’erreur peut porter à confusion. Il doit être compris, pas seulement comme une erreur de mesure, mais comme un synonyme d’<span class="cb">écart</span> par rapport à la réalité ou à une valeur attendue.</p>
 </div>
 </div>
 
@@ -635,7 +644,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":false});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox","descPosition":"bottom","loop":false});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
