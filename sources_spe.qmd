@@ -264,7 +264,7 @@ Exemples d'études réalisées ou en cours
 \
 
 ::: {.p style="text-align:center"}
-## TAKE-HOME MESSAGES {.unnumbered .unlisted}
+## MESSAGES IMPORTANTS {.unnumbered .unlisted}
 :::
 
 ::: callout-important

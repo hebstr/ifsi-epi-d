@@ -291,7 +291,7 @@ Proportion à un instant donné : c'est une [prévalence]{.cb}.
 \
 
 ::: {.p style="text-align:center"}
-## TAKE-HOME MESSAGES {.unnumbered .unlisted}
+## MESSAGES IMPORTANTS {.unnumbered .unlisted}
 :::
 
 ::: callout-important

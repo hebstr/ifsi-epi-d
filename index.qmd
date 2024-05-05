@@ -1,37 +1,34 @@
 # Introduction {.unnumbered}
 
----
-
-::: {.p style="text-align:center"}
-Les ressources externes au cours sont présentées en tant que suppléments
-: Autrement dit, l'ensemble de ce qui est demandé de connaitre pour l'examen est présent [dans ce cours]{.cb}
-
-**Il n'est pas demandé de connaitre des listes, des chiffres ou des formules mathématiques**
-:::
-
----
-
 Le [texte souligné]() renvoie vers un lien interne au cours (chapitre, section, figure, ...) ou un lien externe.
 
 ---
 
+::: {.p style="text-align:center"}
+**Les ressources externes au cours sont présentées en tant que suppléments, ce qui veut dire que l'ensemble de ce qui est demandé de connaitre pour l'examen est présent [dans ce cours]{.cb}**
+
+**Il n'est pas demandé de connaitre de listes, de chiffres ou de formules mathématiques**
+:::
+
+---
+
 ::: callout-note
-## Ceci est une note
+## Une note/remarque
 :::
 
 ::: callout-tip
-## Ceci est un exemple
+## Un exemple
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-## Ceci est un énoncé ou une question (cliquer pour afficher la réponse)
+## Un énoncé ou une question (cliquer pour afficher la réponse)
 La réponse
 :::
 
 ::: callout-warning
-## Ceci est une précision sur une notion de cours pouvant porter à confusion
+## Une précision sur une notion de cours pouvant porter à confusion
 :::
 
 ::: callout-important
-## Ceci est une précision, placée en fin de chapitre
+## Ce qui est important de retenir du chapitre (présent en fin de chapitre)
 :::

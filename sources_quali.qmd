@@ -1,11 +1,19 @@
 # Qualité des sources
 
-/###
+Trois grands types de problèmes peuvent affecter la précision et l'exactitude des données recueillies :
 
-3 grands types de problèmes : 
 
-- Erreur de diagnostic : Malade non reconnu comme tel (sous-estimation) 
-- Non exhaustivité : Malade connu comme tel mais non enregistré par la source (sous-estimation)
-- Doublons : Le malade est connu mais enregistré plusieurs fois (surestimation)
+#### Erreur de diagnostic {.unnumbered}
 
+Une erreur de diagnostic peut conduire à une [sous-estimation]{.cb} du nombre réel de cas dans une population, affectant ainsi l'évaluation de l'incidence et de la prévalence de la maladie.
+
+
+#### Non-exhaustivité des enregistrements {.unnumbered}
+
+Situation dans laquelle un cas est connu comme tel, mais non enregistré par la source. La non-exhaustivité conduit à une [sous-estimation]{.cb} du nombre de cas, ce qui rend difficile l'évaluation précise de la charge de maladie et la planification des ressources nécessaires.
+
+
+#### Doublons {.unnumbered}
+
+Situation dans laquelle un cas est connu comme tel, mais enregistré plusieurs fois. La présence de doublons entraîne une [surestimation]{.cb} du nombre de cas, ce qui a pour conséquence de fausser les estimations de l'incidence et de la prévalence de la maladie.
 

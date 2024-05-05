@@ -120,7 +120,7 @@ La tabagisme joue ici le rôle de [facteur de confusion]{.cb} : il est à la foi
 \
 
 ::: {.p style="text-align:center"}
-## TAKE-HOME MESSAGES {.unnumbered .unlisted}
+## MESSAGES IMPORTANTS {.unnumbered .unlisted}
 :::
 
 ::: callout-important

@@ -12,16 +12,19 @@ Préambule de la constitution de l'OMS, 1946
 
 ## L'épidémiologie
 
-L'épidémiologie est composée de trois concepts : au-dessus/parmi (*epi*), peuple (*demos*) et discours/connaissance (*logos*). C'est donc, par extrapolation, [la science de ce qui affecte la population]{.cb}.
+Le terme ["épidémiologie"]{.cb} est composée de *epi* ("au-dessus/parmi"), *demos* ("peuple") et  *logos* ("discours/connaissance"). C'est donc classiquement, par extrapolation, [la science de ce qui affecte la population]{.cb}.
 
-Historiquement, l'épidémiologie était réservée à l'étude des maladies infectieuses ("épidémies").
+Historiquement, c'était une discipline consacrée à l'étude des maladies infectieuses ("épidémies").
+L'épidémiologie s'est diversifiée et vise désormais à étudier, de manière plus générale :
 
-L'épidémiologie s'est depuis diversifiée et vise désormais à étudier :
+---
 
 ::: {.p style="text-align:center"}
 **la [distribution]{.cb} d'un phénomène de santé dans une population humaine** \
 **ainsi que les [déterminants]{.cb} de cette distribution**
 :::
+
+---
 
 ::: callout-note
 ## Phénomène de santé ?
@@ -30,29 +33,6 @@ Un phénomène de santé, ou état de santé, fait référence à [tout évènem
 
 ### Pour quoi ?
 
-- [Décrire]{.cb} un phénomène de santé = Epidémiologie descriptive 
-  - Déterminer la fréquence et la répartition d'un phénomène de santé en termes de personnes, de lieu et de temps (qui ? quoi ? où ?)
-  
-- [Comprendre]{.cb} = Epidémiologie analytique
-  - Rechercher les déterminants de cette pathologie 
-
-- [Evaluer]{.cb} = Epidémiologie évaluative
-  - Mesurer l'impact d'une politique de santé
-
-::: callout-tip
-## Étude des maladies cardiovasculaires
-
-1. [Décrire]{.cb}
-: La collecte de données provenant d'enquêtes nationales a permis d'identifier que les maladies cardiovasculaires étaient plus fréquentes chez les adultes âgés de plus de 50 ans ayant des comportements à risque tels que le tabagisme ou une alimentation riche en sel.
-
-2. [Comprendre]{.cb}
-: Des études visant à rechercher des liens entre les facteurs de risque potentiels et la survenue de maladies cardiovasculaires ont pu montrer que les personnes les plus à risque étaient celles ayant, ente autres, une pression artérielle élevée ou un diabète mal contrôlé.
-
-3. [Évaluer]{.cb}
-: Analyser les données avant et après la mise en place de campagnes de sensibilisation sur les facteurs de risque de maladies cardiovasculaires (e.g., promouvoir l'activité physique, une alimentation plus saine)
-:::
-
-
 ```{r}
 #| out-width: 6in
 #| fig-align: center
@@ -60,15 +40,24 @@ Un phénomène de santé, ou état de santé, fait référence à [tout évènem
 knitr::include_graphics("img/quadri.png")
 ```
 
+::: callout-tip
+## Étude des maladies cardiovasculaires
+
+1. [Décrire : épidémiologie descriptive]{.cb}
+: La collecte de données provenant d'enquêtes nationales a permis d'identifier que les maladies cardiovasculaires étaient plus fréquentes chez les adultes âgés de plus de 50 ans ayant des comportements à risque tels que le tabagisme ou une alimentation riche en sel.
+
+2. [Comprendre : épidémiologie analytique]{.cb}
+: Des études visant à rechercher des liens entre les facteurs de risque potentiels et la survenue de maladies cardiovasculaires ont pu montrer que les personnes les plus à risque étaient celles ayant, ente autres, une pression artérielle élevée ou un diabète mal contrôlé.
+
+3. [Évaluer : épidémiologie évaluative]{.cb}
+: Analyser les données avant et après la mise en place de campagnes de sensibilisation sur les facteurs de risque de maladies cardiovasculaires (e.g., promouvoir l'activité physique, une alimentation plus saine)
+:::
+
 
 ### Pour qui ?
 
 - [Les professionnels de santé]{.cb}
 : Ils jouent un rôle important dans la mise en oeuvre des interventions de santé, allant de la prévention à la prestation de soins. Leur expertise est nécessaire pour assurer des interventions efficaces et adaptées aux besoins de la populations.
-
-::: callout-tip
-## Campagne de vaccination contre la grippe saisonnière
-:::
 
 - [Les politiques et administrations]{.cb}
 : Leur rôle consiste à élaborer des programmes répondant aux besoins de la population et favorisant l'accès au système de santé (e.g., campagnes de sensibilisation, promotion de la santé)
@@ -82,14 +71,22 @@ knitr::include_graphics("img/quadri.png")
 
 ## L'épidémiologie descrptive
 
-L'épidémiologie descriptive a pour objectif de **décrire** un problème de santé dans un groupe de personne ou une population :
+L'[épidémiologie descriptive]{.cb} a pour objectif de [décrire]{.cb} un [phénomène de santé]{.cb} dans un groupe ou une [population]{.cb}, en termes de :
 
-- Fréquence 
-- Répartition 
-- Evolution 
-- Caractéristiques
+- **Fréquence** : quelle est l'ampleur d'un phénomène de santé
+- **Répartition** : comment est-il distribué selon divers facteurs démographiques, socio-économiques, etc.
+- **Évolution** : comment sa fréquence et sa répartition évoluent dans le temps
+- **Caractéristiques** : quels mécanismes décrire (e.g., biologiques, comportementaux)
 
-Elle repose sur l'utilisation d'[indicateurs de santé]{.cb} (@sec-indic).
+::: callout-tip
+## Étude de l'obésité
+- Déterminer la prévalence de l'obésité
+- Identifier les régions où elle est la plus répandue
+- Suivre l'évolution au fil des années
+- Analyser les caractéristiques des populations les plus touchées
+:::
+
+L'épidémiologie descriptive repose sur l'utilisation d'[indicateurs de santé]{.cb} (@sec-indic).
 
 Ses objectifs sont multiples :
 
@@ -107,35 +104,29 @@ Ses objectifs sont multiples :
 - [Meilleure connaissance des besoins de prise en charge de la population]{.cb}
 
 ::: callout-tip
-## Fréquence de la trisomie 21 selon l'âge maternel
-
-img t21
-
+## Le risque d'avoir un enfant atteint de trisomie 21 augmente avec l'âge maternel
+Une meilleure compréhension de ce phénomène permet d'adapter la prise en charge de la population, notamment en matière de consultation génétique et de dépistage anténatal.
 :::
 
 - [Évaluation d'une action de santé]{.cb}
 
 ::: callout-tip
-## Covid : situation dans les hôpitaux 
-
-img covid
-
+## Efficacité de la vaccination pour diminuer le nombre d'hospitalisations et de décès dus au Covid
+L'évaluation peut consister à comparer la survenue des nouveaux cas, les taux d'hospitalisation et de mortalité avant et après couvertures vaccinales.
 :::
 
-- [Formulation d'hypothèses pour la recherche étiologique]{.cb}
+- [Formulation d'hypothèses pour la recherche analytique]{.cb}
 
 ::: callout-tip
-## Le gradiant nord-sud des maladies cardiovasculaires
-
-img gradient nord sud
-
+## Il existe un gradient nord-sud décroissant dans la survenue des maladies cardiovasculaires
+Ce phénomène a ouvert la voie à une recherche étiologique complexe et multidimensionnelle (e.g., influence climatique, exposition solaire, facteurs génétiques, facteurs socio-économiques).
 :::
 
 ---
 \
 
 ::: {.p style="text-align:center"}
-## TAKE-HOME MESSAGES {.unnumbered .unlisted}
+## MESSAGES IMPORTANTS {.unnumbered .unlisted}
 :::
 
 ::: callout-important
@@ -143,7 +134,7 @@ img gradient nord sud
 :::
 
 ::: callout-important
-## [Deux parties : descriptive et analytique]{.cb}
+## [Deux parties principales : descriptive et analytique]{.cb}
 :::
 
 
