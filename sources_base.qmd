@@ -10,54 +10,45 @@ Sont présentés ici deux systèmes de déclaration obligatoire :
 
 ### Certificat de décès
 
-La déclaration d'un décès par un [certificat de décès]() est une [obligation légale]{.cb} pour toute personne décédée sur le territoire national, y compris un enfant enregistré à l'état civil (en cas d'enfant mort-né, il doit être établit un acte d'enfant sans vie, attestant que l'enfant était mort au moment de la naissance).
+La déclaration d'un décès par un [certificat de décès](https://cepidc.inserm.fr/causes-medicales-de-deces/comment-sont-produites-les-donnees) est une [obligation légale]{.cb} pour toute personne décédée sur le territoire national, y compris un enfant enregistré à l'état civil (en cas d'enfant mort-né, il doit être établit un acte d'enfant sans vie, attestant que l'enfant était mort au moment de la naissance).
 
-Le certificat de décès doit être produit [par le médecin ayant constaté le décès]{.cb} (pourrait cependant être [étendu](https://www.ameli.fr/infirmier/exercice-liberal/prescription-prise-charge/prise-charge-situation-type-soin/certificats-deces-par-infirmier))
+Le certificat de décès doit être produit [par le médecin ayant constaté le décès]{.cb} (cette habilité pourrait cependant être [étendue](https://www.ameli.fr/infirmier/exercice-liberal/prescription-prise-charge/prise-charge-situation-type-soin/certificats-deces-par-infirmier)).
 
-Il est composé de deux volets :
+Il se compose de deux volets :
 
+| [ADMINISTRATIF]{.cb}<br>déclaration à l'état civil | [MÉDICAL]{.cb}<br>suivi épidémiologique |
+|:---:|:---:|
+| nom et prénom  | renseignements médicaux    |
+| domicile   | date et commune du décès    |
+| date et heure du décès    |    |
+| divers opérations funéraires    |      |
 
-/###
-
-- Volet administratif, utilisée pour la déclaration à l'état civil :
-  - Nom et prénom 
-  - Domicile
-  - Date et heure de la mort 
-  - Diverses opérations funéraires 
-
-- Volet médical :
-  - Renseignements médicaux 
-  - Date du décès
-  - Commune où est survenu le décès 
-
-
+\
 
 Un certificat de décès correctement rempli participe à l'amélioration de la [veille sanitaire]{.cb}, à la qualité des [statistiques de mortalité]{.cb} et à la [comparabilité]{.cb} entre régions et pays (bien que la qualité de remplissage puisse varier d'un endroit à l'autre).
 
 
 ### Maladies à déclaration obligatoire {#sec-mdo}
 
-Il existe 38 [maladies à déclaratoire obligatoire](https://www.santepubliquefrance.fr/maladies-a-declaration-obligatoire/liste-des-maladies-a-declaration-obligatoire) (MDO). Elles ont en commun d'être des [maladies infectieuses]{.cb}, à deux exceptions (le mésothéliome et le saturnisme chez l'enfant mineur).
+En 2024, il existe 38 [Maladies à Déclaratoire Obligatoire](https://www.santepubliquefrance.fr/maladies-a-declaration-obligatoire/liste-des-maladies-a-declaration-obligatoire) (MDO). Elles ont en commun d'être des [maladies infectieuses]{.cb}, à deux exceptions (le mésothéliome et le saturnisme chez l'enfant mineur).
 
-C'est un système de transmission de [données individuelles]{.cb} à l'autorité sanitaire, dans lequel deux procédures sont mises en jeu :
+C'est un système de [transmission de données individuelles]{.cb} à l'Agence Régionale de Santé (ARS), dans lequel deux procédures sont mises en jeu :
 
+| [SIGNALEMENT]{.cb} | [NOTIFICATION]{.cb} |
+|:---:|:---:|
+| **nominatif**<br>pour engager des mesures préventives | **anonyme**<br>pour le suivi épidémiologique |
+| maladies nécessitant une **intervention urgente**<br>(toutes sauf VIH, hépatite B aiguë, tétanos, mésothéliome et Covid-19). | **toutes les maladies** sans exception |
 
+---
 
-/###
+::: {.p style="text-align:center"}
+le signalement doit être réalisé
+: en [urgence]{.cb} et [sans délai]{.cb} \
+[dès la suspicion]{.cb} de la maladie \
+par les [médecins et biologistes]{.cb}
+:::
 
-- Notification (anonyme, pour suivi épidémiologique)
-
-- Signalement (nominatif, nécessité mesures préventives)
-  - En urgence et sans délai
-  - [Dès la suspicion]{.cb} de la maladie
-  - Par les [médecins et biologistes]{.cb}
-  - Auprès des médecins de l'ARS
-  - Pas de support dédié (fax, téléphone…)
-
-- notification : [toutes]{.cb} les maladies sans exception
-- signalement : maladies nécessitant une [intervention urgente]{.cb}, soit toutes sauf l'infection à VIH, hépatite B et tétanos.
-
-
+---
 
 Le caractère [obligatoire]{.cb} de cette transmission permet une surveillance [continue]{.cb} et un recueil d'information [exhaustif]{.cb} (@sec-exhaust) vis-à-vis des maladies listées.
 
@@ -96,7 +87,6 @@ Il permet le recueil, l'analyse et la prévision [en temps réel]{.cb} de donné
 Les professionnels de santé appartenant à ce réseau [s'engagent à signaler tous les cas]{.cb} de maladies surveillées auprès d'un centre coordinateur.
 
 Tout comme le système de déclaration obligatoire, l'objectif est de [contrôler ou prévenir un risque d'épidémie]{.cb}.
-
 Toutefois puisqu'il s'agit d'une déclaration [volontaire]{.cb}, l'exhaustivité ne peut pas être recherchée, mais des efforts sont faits localement afin d'arriver à un certain degré de [représentativité]{.cb}.
 
 Actuellement, [9 pathologies]{.cb} bénéficient d'une surveillance continue :
@@ -172,7 +162,7 @@ Permet d'adapter rapidement les réponses sanitaires et de contrôler la propaga
 :::
 
 
-## Limites
+## Limites des données de routine
 
 ##### Informations limitées {.unnumbered}
 

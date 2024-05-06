@@ -220,7 +220,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
   <li><a href="#d%C3%A9claration-volontaire" id="toc-déclaration-volontaire" class="nav-link" data-scroll-target="#d%C3%A9claration-volontaire"><span class="header-section-number">5.2</span> Déclaration volontaire</a></li>
   <li><a href="#bases-de-donn%C3%A9es-m%C3%A9dico-administratives" id="toc-bases-de-données-médico-administratives" class="nav-link" data-scroll-target="#bases-de-donn%C3%A9es-m%C3%A9dico-administratives"><span class="header-section-number">5.3</span> Bases de données médico-administratives</a></li>
-  <li><a href="#limites" id="toc-limites" class="nav-link" data-scroll-target="#limites"><span class="header-section-number">5.4</span> Limites</a></li>
+  <li><a href="#limites-des-donn%C3%A9es-de-routine" id="toc-limites-des-données-de-routine" class="nav-link" data-scroll-target="#limites-des-donn%C3%A9es-de-routine"><span class="header-section-number">5.4</span> Limites des données de routine</a></li>
   </ul></nav>
     </div>
 <!-- main -->
@@ -252,50 +252,79 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <section id="certificat-de-décès" class="level3" data-number="5.1.1"><h3 data-number="5.1.1" class="anchored" data-anchor-id="certificat-de-décès">
 <span class="header-section-number">5.1.1</span> Certificat de décès</h3>
-<p>La déclaration d’un décès par un <a href="">certificat de décès</a> est une <span class="cb">obligation légale</span> pour toute personne décédée sur le territoire national, y compris un enfant enregistré à l’état civil (en cas d’enfant mort-né, il doit être établit un acte d’enfant sans vie, attestant que l’enfant était mort au moment de la naissance).</p>
-<p>Le certificat de décès doit être produit <span class="cb">par le médecin ayant constaté le décès</span> (pourrait cependant être <a href="https://www.ameli.fr/infirmier/exercice-liberal/prescription-prise-charge/prise-charge-situation-type-soin/certificats-deces-par-infirmier">étendu</a>)</p>
-<p>Il est composé de deux volets :</p>
-<p>/###</p>
-<ul>
-<li>Volet administratif, utilisée pour la déclaration à l’état civil :
-<ul>
-<li>Nom et prénom</li>
-<li>Domicile</li>
-<li>Date et heure de la mort</li>
-<li>Diverses opérations funéraires</li>
-</ul>
-</li>
-<li>Volet médical :
-<ul>
-<li>Renseignements médicaux</li>
-<li>Date du décès</li>
-<li>Commune où est survenu le décès</li>
-</ul>
-</li>
-</ul>
+<p>La déclaration d’un décès par un <a href="https://cepidc.inserm.fr/causes-medicales-de-deces/comment-sont-produites-les-donnees">certificat de décès</a> est une <span class="cb">obligation légale</span> pour toute personne décédée sur le territoire national, y compris un enfant enregistré à l’état civil (en cas d’enfant mort-né, il doit être établit un acte d’enfant sans vie, attestant que l’enfant était mort au moment de la naissance).</p>
+<p>Le certificat de décès doit être produit <span class="cb">par le médecin ayant constaté le décès</span> (cette habilité pourrait cependant être <a href="https://www.ameli.fr/infirmier/exercice-liberal/prescription-prise-charge/prise-charge-situation-type-soin/certificats-deces-par-infirmier">étendue</a>).</p>
+<p>Il se compose de deux volets :</p>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead><tr class="header">
+<th style="text-align: center;">
+<span class="cb">ADMINISTRATIF</span><br>déclaration à l’état civil</th>
+<th style="text-align: center;">
+<span class="cb">MÉDICAL</span><br>suivi épidémiologique</th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">nom et prénom</td>
+<td style="text-align: center;">renseignements médicaux</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">domicile</td>
+<td style="text-align: center;">date et commune du décès</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">date et heure du décès</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">divers opérations funéraires</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
 <p>Un certificat de décès correctement rempli participe à l’amélioration de la <span class="cb">veille sanitaire</span>, à la qualité des <span class="cb">statistiques de mortalité</span> et à la <span class="cb">comparabilité</span> entre régions et pays (bien que la qualité de remplissage puisse varier d’un endroit à l’autre).</p>
 </section><section id="sec-mdo" class="level3" data-number="5.1.2"><h3 data-number="5.1.2" class="anchored" data-anchor-id="sec-mdo">
 <span class="header-section-number">5.1.2</span> Maladies à déclaration obligatoire</h3>
-<p>Il existe 38 <a href="https://www.santepubliquefrance.fr/maladies-a-declaration-obligatoire/liste-des-maladies-a-declaration-obligatoire">maladies à déclaratoire obligatoire</a> (MDO). Elles ont en commun d’être des <span class="cb">maladies infectieuses</span>, à deux exceptions (le mésothéliome et le saturnisme chez l’enfant mineur).</p>
-<p>C’est un système de transmission de <span class="cb">données individuelles</span> à l’autorité sanitaire, dans lequel deux procédures sont mises en jeu :</p>
-<p>/###</p>
-<ul>
-<li><p>Notification (anonyme, pour suivi épidémiologique)</p></li>
-<li>
-<p>Signalement (nominatif, nécessité mesures préventives)</p>
-<ul>
-<li>En urgence et sans délai</li>
-<li>
-<span class="cb">Dès la suspicion</span> de la maladie</li>
-<li>Par les <span class="cb">médecins et biologistes</span>
-</li>
-<li>Auprès des médecins de l’ARS</li>
-<li>Pas de support dédié (fax, téléphone…)</li>
-</ul>
-</li>
-<li><p>notification : <span class="cb">toutes</span> les maladies sans exception</p></li>
-<li><p>signalement : maladies nécessitant une <span class="cb">intervention urgente</span>, soit toutes sauf l’infection à VIH, hépatite B et tétanos.</p></li>
-</ul>
+<p>En 2024, il existe 38 <a href="https://www.santepubliquefrance.fr/maladies-a-declaration-obligatoire/liste-des-maladies-a-declaration-obligatoire">Maladies à Déclaratoire Obligatoire</a> (MDO). Elles ont en commun d’être des <span class="cb">maladies infectieuses</span>, à deux exceptions (le mésothéliome et le saturnisme chez l’enfant mineur).</p>
+<p>C’est un système de <span class="cb">transmission de données individuelles</span> à l’Agence Régionale de Santé (ARS), dans lequel deux procédures sont mises en jeu :</p>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead><tr class="header">
+<th style="text-align: center;"><span class="cb">SIGNALEMENT</span></th>
+<th style="text-align: center;"><span class="cb">NOTIFICATION</span></th>
+</tr></thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">
+<strong>nominatif</strong><br>pour engager des mesures préventives</td>
+<td style="text-align: center;">
+<strong>anonyme</strong><br>pour le suivi épidémiologique</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">maladies nécessitant une <strong>intervention urgente</strong><br>(toutes sauf VIH, hépatite B aiguë, tétanos, mésothéliome et Covid-19).</td>
+<td style="text-align: center;">
+<strong>toutes les maladies</strong> sans exception</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<div class="p" style="text-align:center">
+<dl>
+<dt>le signalement doit être réalisé</dt>
+<dd>
+en <span class="cb">urgence</span> et <span class="cb">sans délai</span><br><span class="cb">dès la suspicion</span> de la maladie<br>
+par les <span class="cb">médecins et biologistes</span>
+</dd>
+</dl>
+</div>
+<hr>
 <p>Le caractère <span class="cb">obligatoire</span> de cette transmission permet une surveillance <span class="cb">continue</span> et un recueil d’information <span class="cb">exhaustif</span> (<a href="sources_spe.html#sec-exhaust" class="quarto-xref"><span>Section 6.1.1</span></a>) vis-à-vis des maladies listées.</p>
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -331,7 +360,7 @@ Pour figurer sur cette liste, la maladie doit répondre à deux types de critèr
 <div class="cell-output-display">
 <div id="fig-rougeole" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-rougeole-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="img/rougeole.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1"><img src="img/rougeole.png" class="img-fluid figure-img" width="682"></a>
+<a href="img/rougeole.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1"><img src="img/rougeole.png" class="img-fluid figure-img" width="682"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-rougeole-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;5.1: Évolution des cas de rougeole déclarés, selon l’origine importée ou non, 2017-2023, France entière.<br>Source : SPF, déclarations obligatoires
@@ -344,8 +373,7 @@ Figure&nbsp;5.1: Évolution des cas de rougeole déclarés, selon l’origine im
 <p>Le <a href="https://sentiweb.fr/">réseau Sentinelles</a> est un système de <span class="cb">surveillance continue</span> basé sur le <span class="cb">volontariat</span>.</p>
 <p>Il permet le recueil, l’analyse et la prévision <span class="cb">en temps réel</span> de données issues de l’activité de <span class="cb">1300 médecins généralistes libéraux</span> répartis sur l’ensemble du territoire métropolitain.</p>
 <p>Les professionnels de santé appartenant à ce réseau <span class="cb">s’engagent à signaler tous les cas</span> de maladies surveillées auprès d’un centre coordinateur.</p>
-<p>Tout comme le système de déclaration obligatoire, l’objectif est de <span class="cb">contrôler ou prévenir un risque d’épidémie</span>.</p>
-<p>Toutefois puisqu’il s’agit d’une déclaration <span class="cb">volontaire</span>, l’exhaustivité ne peut pas être recherchée, mais des efforts sont faits localement afin d’arriver à un certain degré de <span class="cb">représentativité</span>.</p>
+<p>Tout comme le système de déclaration obligatoire, l’objectif est de <span class="cb">contrôler ou prévenir un risque d’épidémie</span>. Toutefois puisqu’il s’agit d’une déclaration <span class="cb">volontaire</span>, l’exhaustivité ne peut pas être recherchée, mais des efforts sont faits localement afin d’arriver à un certain degré de <span class="cb">représentativité</span>.</p>
 <p>Actuellement, <span class="cb">9 pathologies</span> bénéficient d’une surveillance continue :</p>
 <ul>
 <li><span class="cb">Diarrhée aiguë</span></li>
@@ -365,7 +393,7 @@ Figure&nbsp;5.1: Évolution des cas de rougeole déclarés, selon l’origine im
 <div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-senti" style="flex-basis: 33.3%;justify-content: flex-start;">
 <div id="fig-senti-a" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-subfloat-fig figure"><div aria-describedby="fig-senti-a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="https://www.sentiweb.fr/img/accueil/40334-norm.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="fig-senti"><img src="https://www.sentiweb.fr/img/accueil/40334-norm.png" class="img-fluid figure-img" data-ref-parent="fig-senti"></a>
+<a href="https://www.sentiweb.fr/img/accueil/40334-norm.png" class="lightbox" data-gallery="fig-senti" data-glightbox="description: .lightbox-desc-2"><img src="https://www.sentiweb.fr/img/accueil/40334-norm.png" class="img-fluid figure-img" data-ref-parent="fig-senti"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-senti-a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (a) Diarrhée aiguë
@@ -375,7 +403,7 @@ Figure&nbsp;5.1: Évolution des cas de rougeole déclarés, selon l’origine im
 <div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-senti" style="flex-basis: 33.3%;justify-content: flex-start;">
 <div id="fig-senti-b" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-subfloat-fig figure"><div aria-describedby="fig-senti-b-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="https://www.sentiweb.fr/img/accueil/40335-norm.png" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="fig-senti"><img src="https://www.sentiweb.fr/img/accueil/40335-norm.png" class="img-fluid figure-img" data-ref-parent="fig-senti"></a>
+<a href="https://www.sentiweb.fr/img/accueil/40335-norm.png" class="lightbox" data-gallery="fig-senti" data-glightbox="description: .lightbox-desc-3"><img src="https://www.sentiweb.fr/img/accueil/40335-norm.png" class="img-fluid figure-img" data-ref-parent="fig-senti"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-senti-b-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (b) Infection respiratoire aiguë
@@ -385,7 +413,7 @@ Figure&nbsp;5.1: Évolution des cas de rougeole déclarés, selon l’origine im
 <div class="quarto-layout-cell-subref quarto-layout-cell" data-ref-parent="fig-senti" style="flex-basis: 33.3%;justify-content: flex-start;">
 <div id="fig-senti-c" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-subfloat-fig figure"><div aria-describedby="fig-senti-c-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="https://www.sentiweb.fr/img/accueil/40336-norm.png" class="lightbox" data-glightbox="description: .lightbox-desc-4" data-gallery="fig-senti"><img src="https://www.sentiweb.fr/img/accueil/40336-norm.png" class="img-fluid figure-img" data-ref-parent="fig-senti"></a>
+<a href="https://www.sentiweb.fr/img/accueil/40336-norm.png" class="lightbox" data-gallery="fig-senti" data-glightbox="description: .lightbox-desc-4"><img src="https://www.sentiweb.fr/img/accueil/40336-norm.png" class="img-fluid figure-img" data-ref-parent="fig-senti"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-senti-c-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (c) Varicelle
@@ -474,8 +502,8 @@ Suivi de l’évolution d’épidémies de grippe saisonnière en temps réel
 <p>Permet d’adapter rapidement les réponses sanitaires et de contrôler la propagation.</p>
 </div>
 </div>
-</section><section id="limites" class="level2" data-number="5.4"><h2 data-number="5.4" class="anchored" data-anchor-id="limites">
-<span class="header-section-number">5.4</span> Limites</h2>
+</section><section id="limites-des-données-de-routine" class="level2" data-number="5.4"><h2 data-number="5.4" class="anchored" data-anchor-id="limites-des-données-de-routine">
+<span class="header-section-number">5.4</span> Limites des données de routine</h2>
 <section id="informations-limitées" class="level5 unnumbered"><h5 class="unnumbered anchored" data-anchor-id="informations-limitées">Informations limitées</h5>
 <p>Les données que vous avez peuvent être incomplètes ou ne pas couvrir tous les aspects nécessaires pour une évaluation complète. Cela requiert une approche prudente dans l’interprétation des résultats et dans les décisions de soins basées sur ces données.</p>
 </section><section id="pas-de-choix-des-données" class="level5 unnumbered"><h5 class="unnumbered anchored" data-anchor-id="pas-de-choix-des-données">Pas de choix des données</h5>
@@ -890,7 +918,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
