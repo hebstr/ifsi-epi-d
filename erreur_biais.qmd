@@ -30,12 +30,12 @@ Il peut survenir à différentes étapes de la constitution d'une enquête, nota
 
 ::: callout-tip
 ## Critères d'inclusion ou d'exclusion trop restrictifs
-Si une étude sur le diabète exclut les patients ayant des comorbidités, comme les maladies cardiovasculaires, les résultats ne seront pas applicables à de nombreux patients diabétiques qui vivent effectivement avec ces comorbidités.
+Si une étude sur le diabète exclut les patients ayant des comorbidités, comme les maladies cardiovasculaires, les résultats ne seront [pas applicables]{.cb} à de nombreux patients diabétiques qui vivent effectivement avec ces comorbidités.
 :::
 
 ::: callout-tip
 ## Zone géographique restreinte
-Une étude menée dans une région urbaine, où l'accès aux services de santé est facilité, pourrait ne pas refléter la situation des zones rurales ou moins développées.
+Une étude menée dans une région urbaine, où l'accès aux services de santé est facilité, pourrait [ne pas refléter]{.cb} la situation des zones rurales ou moins développées.
 :::
 
 - [Échantillon]{.cb}
@@ -44,7 +44,7 @@ Une étude menée dans une région urbaine, où l'accès aux services de santé 
 ::: callout-tip
 ## Lors de l'inclusion : les non-participants diffèrent des participants
 
-Si les personnes plus malades ou ayant un niveau socio-économique inférieur sont moins susceptibles de participer à l'étude, les résultats peuvent sous-estimer l'association entre les facteurs de risque étudiés et la maladie.
+Si les personnes plus malades ou ayant un niveau socio-économique inférieur sont moins susceptibles de participer à l'étude, les résultats peuvent [sous-estimer]{.cb} l'association entre les facteurs de risque étudiés et la maladie.
 
 La comparaison des participants et des non-participants peut aider à identifier et mesurer l'impact de ce manque sur la validité des résultats.
 :::
@@ -54,7 +54,7 @@ La comparaison des participants et des non-participants peut aider à identifier
 
 Les participants peuvent quitter l'étude pour diverses raisons (e.g., déménagement, décès, perte d'intérêt).
 
-Si les participants restant dans l'étude ont un meilleur état de santé général que les perdus de vue, cela peut conduire à une sous-estimation des risques associés aux facteurs étudiés.
+Si les participants restant dans l'étude ont un meilleur état de santé général que les perdus de vue, cela peut conduire à une [sous-estimation]{.cb} des risques associés aux facteurs étudiés.
 
 La comparaison des caractéristiques des sujets restants et des perdus de vue permet de mesurer l'impact de cette perte sur la validité des résultats.
 :::
@@ -94,14 +94,13 @@ En épidémiologie descriptive, ils peuvent intervenir lors de la [comparaison]{
 ::: callout-tip
 ## Comparaison des taux bruts de mortalité entre le Nord et la Creuse
 
-Le Nord est une département plutôt jeune ; la Creuse est une département plutôt âgé. 
+Le Nord est un département plutôt jeune ; la Creuse est un département plutôt âgé. 
 
 La structure d'âge est donc à l'origine un biais de confusion dans la comparaison de taux bruts de mortalité. On dit que c'est un [facteur de confusion]{.cb}.
 
 Il s'agit bien d'une erreur prévisible ayant une direction prédéterminée : un âge plus élevé est systématiquement associé à un taux de mortalité plus élevé.
 
 Il existe une méthode pour s'affranchir de ce biais : la [standardisation]{.cb} (@sec-stand).
-
 :::
 
 Les biais de confusion interviennent surtout lorsqu'on recherche des [causes]{.cb} : ils sont donc particulièrement redoutés en [épidémiologie analytique]{.cb}.
@@ -125,6 +124,10 @@ La tabagisme joue ici le rôle de [facteur de confusion]{.cb} : il est à la foi
 
 ::: callout-important
 ## [Biais = erreurs systématiques]{.cb}
+:::
+
+::: callout-important
+## [Ils affectent la validité d'une mesure]{.cb}
 :::
 
 ::: callout-important

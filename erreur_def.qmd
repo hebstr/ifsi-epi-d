@@ -10,7 +10,7 @@ Une mesure peut parfois s'écarter de la vraie valeur, à laquelle nous n'avons 
 ::: callout-tip
 ## Mesure de la température, (partie II)
 
-L'erreur de calibrage de l'appareil, aboutissant à une surestimation de la température de 1°C, est une erreur [prévisible]{.cb}. Elle se produit à chaque mesure, [toujours dans la même direction]{.cb}. On peut ainsi dire de l'appareil qu'il est [biaisé]{.cb}.
+L'erreur de calibrage de l'appareil, aboutissant à une surestimation de la température de +1°C, est une erreur [prévisible]{.cb}. Elle se produit à chaque mesure, [toujours dans la même direction]{.cb}. On peut ainsi dire de l'appareil qu'il est [biaisé]{.cb}.
 
 Puisque vous êtes averti du défaut de l'appareil, et que l'erreur qui en résulte est prévisible, vous pouvez [facilement la corriger]{.cb} : pour chaque mesure, il faut soustraire 1°C. 
 

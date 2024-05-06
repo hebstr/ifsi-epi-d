@@ -277,7 +277,7 @@ window.Quarto = {
 </ul>
 <section id="taux-brut-de-mortalité" class="level2" data-number="3.1"><h2 data-number="3.1" class="anchored" data-anchor-id="taux-brut-de-mortalité">
 <span class="header-section-number">3.1</span> Taux brut de mortalité</h2>
-<p>Un <span class="cb">taux brut de mortalité</span> est un taux appliqué à <span class="cb">la survenue de décès</span> dans une population.</p>
+<p>Un <span class="cb">taux brut de mortalité</span> est un <span class="cb">taux</span> (<a href="indic_base.html#sec-taux" class="quarto-xref"><span>Section 2.1.2</span></a>) appliqué à <span class="cb">la survenue de décès</span> dans une population.</p>
 <blockquote class="blockquote">
 <p><span class="math display">\[
 \mathrm{
@@ -302,11 +302,11 @@ Pourquoi en “taux pour 1000” ?
 <div class="callout-body-container callout-body">
 <p>Le nombre de décès étant logiquement inférieur à l’effectif total de la population, le taux tel qu’il est calculé est <span class="cb">toujours inférieur à 1</span>.</p>
 <p>Supposons que, sur l’année 2022, le taux brut de mortalité en France soit égal à 0,009.<br>
-La phrase suivante n’est pas très intuitive :</p>
+L’énoncé suivant n’est pas très intuitif :</p>
 <blockquote class="blockquote">
 <p>En France, en 2022, le taux brut de mortalité était de <strong>0,009 pour 1 habitant</strong>.</p>
 </blockquote>
-<p>En pratique, cet inconvénient est résolu en multipliant par 1000 :</p>
+<p>En pratique, on procède à une multiplication par 1000 (ou plus) :</p>
 <blockquote class="blockquote">
 <p>En 2022, le taux brut de mortalité était de <strong>9 pour 1000 habitants</strong>.</p>
 </blockquote>
@@ -366,7 +366,7 @@ En 2022, le taux de mortalité chez les femmes enceintes était de 9,6 pour 100 
 
 </div>
 </div>
-<p>Il en existe plusieurs types, dont :</p>
+<p>Il existe plusieurs types de taux de mortalité spécifique, dont :</p>
 <ul>
 <li>La mortalité <span class="cb">prématurée</span> : mortalité survenant avant 65 ans (= taux spécifique par tranches d’âge)</li>
 <li>La mortalité <span class="cb">évitable</span> : taux spécifique par causes de décès</li>
@@ -437,7 +437,7 @@ Figure&nbsp;3.3: Taux standardisés de mortalité prématurée (&lt; 65 ans) en 
 <p>Après standardisation, on peut supposer que les taux de mortalité observés dépendent non plus de la structure d’âge dans chaque région, mais bien de <span class="cb">facteurs externes</span>.</p>
 </section></section><section id="taux-de-létalité" class="level2" data-number="3.4"><h2 data-number="3.4" class="anchored" data-anchor-id="taux-de-létalité">
 <span class="header-section-number">3.4</span> Taux de létalité</h2>
-<p>Tandis que la mortalité représente le nombre d’individus décédés sur l’ensemble de la population, la <span class="cb">létalité</span> représente le nombre de personnes décédés d’une maladie <span class="cb">parmi les personnes atteints de cette maladie</span>.</p>
+<p>Tandis que la mortalité représente le nombre d’individus décédés sur l’ensemble de la population, la <span class="cb">létalité</span> représente le nombre d’individus décédés d’une maladie <span class="cb">parmi les personnes atteints de cette maladie</span>.</p>
 <p>Un <span class="cb">taux de létalité</span> prend pour période d’étude <span class="cb">le temps à partir du début</span> de la maladie.</p>
 <blockquote class="blockquote">
 <p><span class="math display">\[
@@ -458,11 +458,11 @@ depuis \ le \ début \ de \ la \ maladie
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Pendant la première phase de l’épidémie de COVID à Wuhan, la létalité du COVID était de 17,3% pour les cas survenus durant les deux premières semaines de janvier 2020.
+Pendant la première phase de l’épidémie de Covid à Wuhan, la létalité du Covid était de 17,3% pour les cas survenus durant les deux premières semaines de janvier 2020.
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Sur 100 cas de COVID survenus durant cette période, 17 sont décédés.</p>
+<p>Sur 100 cas de Covid survenus durant cette période, 17 sont décédés.</p>
 </div>
 </div>
 <div class="callout callout-style-simple callout-warning callout-titled">
@@ -477,8 +477,8 @@ Pendant la première phase de l’épidémie de COVID à Wuhan, la létalité du
 <div class="callout-body-container callout-body">
 <p>La différence se situe au dénominateur :</p>
 <ul>
-<li>Le taux de mortalité spécifique du cancer du sein sur une période donnée correspond au nombre de personnes décédées d’un cancer du sein <span class="cb">parmi l’ensemble de la population</span>.</li>
-<li>Le taux de létalité du cancer du sein sur cette même période correspond au nombre de personnes décédées d’un cancer du sein <span class="cb">parmi les personnes atteintes d’un cancer du sein</span>.</li>
+<li>Le taux de mortalité spécifique d’une maladie sur une période donnée correspond au nombre de personnes décédées de la maladie <span class="cb">parmi l’ensemble de la population</span>.</li>
+<li>Le taux de létalité d’une maladie sur cette même période correspond au nombre de personnes décédées de la maladie <span class="cb">parmi les personnes atteintes de la maladie</span>.</li>
 </ul>
 <p>La mortalité spécifique est un indicateur de la charge globale de la maladie sur la société, tandis que la létalité est cruciale pour comprendre et gérer les risques pour les individus atteints d’une maladie donnée.</p>
 </div>
@@ -569,19 +569,6 @@ Table&nbsp;3.2: Espérance de vie en bonne santé en France, 2022.
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="cb">La standardisation est indispensable dès lors qu’il faut mesurer des taux comparatifs de mortalité</span>
-</div>
-</div>
-<div class="callout-body-container callout-body">
-
-</div>
-</div>
-<div class="callout callout-style-simple callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
 <span class="cb">Bien distinguer mortalité et létalité</span>
 </div>
 </div>
@@ -595,7 +582,7 @@ Table&nbsp;3.2: Espérance de vie en bonne santé en France, 2022.
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="cb">La létalité n’est pas une mortalité spécifique d’une cause de décès</span>
+<span class="cb">La standardisation est indispensable dès lors qu’on souhaite comparer des taux de mortalité</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -952,7 +939,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"closeEffect":"zoom","selector":".lightbox","descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom","openEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

@@ -244,7 +244,7 @@ Mesure de la température, (partie II)
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>L’erreur de calibrage de l’appareil, aboutissant à une surestimation de la température de 1°C, est une erreur <span class="cb">prévisible</span>. Elle se produit à chaque mesure, <span class="cb">toujours dans la même direction</span>. On peut ainsi dire de l’appareil qu’il est <span class="cb">biaisé</span>.</p>
+<p>L’erreur de calibrage de l’appareil, aboutissant à une surestimation de la température de +1°C, est une erreur <span class="cb">prévisible</span>. Elle se produit à chaque mesure, <span class="cb">toujours dans la même direction</span>. On peut ainsi dire de l’appareil qu’il est <span class="cb">biaisé</span>.</p>
 <p>Puisque vous êtes averti du défaut de l’appareil, et que l’erreur qui en résulte est prévisible, vous pouvez <span class="cb">facilement la corriger</span> : pour chaque mesure, il faut soustraire 1°C.</p>
 <p>D’autre part, on a dit que la mesure répétée chez un même patient rapportait <em>globalement</em> la même valeur. Globalement, mais pas <em>exactement</em>. Vous remarquez en effet que la valeur peut <span class="cb">varier</span> d’un chiffre après la virgule (38.6, 38.8, 38.8, 38.5, etc.).</p>
 <p>Pouvez-vous prédire quel sera ce chiffre avant de réaliser la mesure ? Probablement pas. Cette erreur semble être <span class="cb">liée au hasard</span>. Cette variation imprévisible, aléatoire, est appelée <span class="cb">fluctuation d’échantillonnage</span>.</p>
@@ -644,7 +644,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"loop":false,"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","openEffect":"zoom"});
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","openEffect":"zoom","loop":false,"descPosition":"bottom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;

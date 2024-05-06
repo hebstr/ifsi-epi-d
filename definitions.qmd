@@ -63,13 +63,13 @@ knitr::include_graphics("img/quadri.png")
 : Leur rôle consiste à élaborer des programmes répondant aux besoins de la population et favorisant l'accès au système de santé (e.g., campagnes de sensibilisation, promotion de la santé)
 
 - [Les gestionnaires]{.cb}
-: Chargés de planifier, d'allouer et d'organiser les ressources nécessaires à la prestation des services de santé, leur travail consiste à garantir que les ressources sont utilisées de manière efficiente et équitable pour répondre aux besoins de la population (e.g., organiser des campagnes de vaccination en cas d'épidémie)
+: Chargés de planifier, d'allouer et d'organiser les ressources nécessaires services de santé, leur rôle consiste à garantir que les ressources sont utilisées de manière efficace pour répondre aux besoins de la population (e.g., organiser des campagnes de vaccination en cas d'épidémie)
 
 - [Les usagers]{.cb}
-: Ils doivent être en mesure de défendre leurs propres intérêts en matière de santé, en plaidant pour des politiques et des services qui répondent à leurs besoins spécifiques (e.g., associations de patients)
+: Ils doivent être en mesure de défendre leurs droits en matière de santé, en revendiquant des politiques et des services adaptés à leurs besoins (e.g., patients, associations de patients)
 
 
-## L'épidémiologie descrptive
+## L'épidémiologie descriptive
 
 L'[épidémiologie descriptive]{.cb} a pour objectif de [décrire]{.cb} un [phénomène de santé]{.cb} dans un groupe ou une [population]{.cb}, en termes de :
 
@@ -119,7 +119,7 @@ L'évaluation peut consister à comparer la survenue des nouveaux cas, les taux 
 
 ::: callout-tip
 ## Il existe un gradient nord-sud décroissant dans la survenue des maladies cardiovasculaires
-Ce phénomène a ouvert la voie à une recherche étiologique complexe et multidimensionnelle (e.g., influence climatique, exposition solaire, facteurs génétiques, facteurs socio-économiques).
+Ce phénomène a ouvert la voie vers une recherche complexe et multidimensionnelle (e.g., influence climatique, exposition solaire, facteurs génétiques, facteurs socio-économiques).
 :::
 
 ---
@@ -134,8 +134,5 @@ Ce phénomène a ouvert la voie à une recherche étiologique complexe et multid
 :::
 
 ::: callout-important
-## [Deux parties principales : descriptive et analytique]{.cb}
+## [Deux grandes parties à retenir : descriptive et analytique]{.cb}
 :::
-
-
-

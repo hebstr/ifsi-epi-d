@@ -1,7 +1,6 @@
 # Mesures de base {#sec-indic}
 
 Un [indicateur de santé]{.cb} est une variable spécifiquement définie et mesurée dans le but de [décrire et suivre l'état de santé]{.cb} d'une population.
-
 C'est un outil d'[évaluation]{.cb} des problèmes de santé, d'[aide à la décision]{.cb} et de [surveillance]{.cb} de l'efficacité des interventions de santé publique.
 
 Tout indicateur est composé d'un [numérateur]{.cb} et d'un [dénominateur]{.cb}, et doit être défini en tenant compte de trois éléments :
@@ -38,7 +37,7 @@ La couverture vaccinale contre la rougeole chez les enfants de 24 mois est de 80
 
 ### Taux {#sec-taux}
 
-Un taux mesure le [risque]{.cb} de survenue d'un évènement [au cours d'une période]{.cb}. 
+Un taux mesure le [risque de survenue]{.cb} d'un évènement [au cours d'une période]{.cb}. 
 
 Il s'exprime en pourcentage ou en un chiffre compris entre 0 et 1.
 
@@ -65,7 +64,7 @@ Durant l'année scolaire 2021-2022, il y a eu 36 nouveaux cas de varicelle pour 
 
 ### Ratio 
 
-Un ratio est un rapport des effectifs entre [deux modalités d'une variable binaire]{.cb}.
+Un ratio est un rapport des effectifs de [deux modalités d'une variable binaire]{.cb}.
 
 Les modalités d'une variable binaire sont [mutuellement exclusives]{.cb} : contrairement à une proportion, le numérateur ne peut pas être inclus dans le dénominateur.
 
@@ -74,19 +73,21 @@ Puisqu'il s'agit de la même unité au numérateur et au dénominateur, c'est un
 ::: callout-tip
 ## En considérant que le sexe est une variable binaire (homme/femme), le "sex ratio" correspond au rapport du nombre d'hommes sur le nombre de femmes (ou inversement)
 
-Classiquement, le sex ratio est présenté avec les hommes à gauche et les femmes à droite :
+Classiquement, le sex ratio est présenté avec les hommes à gauche et les femmes à droite.
 
-- Le sex ratio de la schizophrénie est de 3/1 
+::: {.p style="text-align:center"}
+Le sex ratio de la schizophrénie est de 3/1 
 : La schizophrénie concerne 3 fois plus souvent les hommes que les femmes
 
-- Le sex ratio de l'anorexie mentale est de 1/9 
+Le sex ratio de l'anorexie mentale est de 1/9 
 : L'anorexie mentale concerne 9 fois plus souvent les femmes que les hommes
+:::
 :::
 
 
 ### Indice
 
-Un indice est le rapport entre deux effectifs [de nature différente]{.cb}.
+Un indice est le rapport de deux effectifs [de nature différente]{.cb}.
 
 ::: callout-tip
 ## 30 enfants sont hospitalisés dans un service de pédiatrie. Dans ce service, il y a 3 IDE.
@@ -146,7 +147,7 @@ Le numérateur est inclut dans le dénominateur : c'est une [proportion]{.cb}
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
-## Nombre de décès survenus du 1er janvier au 01 juin 2023 / nombre de personnes à risque de décéder sur cette période
+## Nombre de décès survenus du 1er janvier au 1er juin 2023 / nombre de personnes à risque de décéder sur cette période
 
 >
 Un évènement : le décès \
@@ -176,7 +177,7 @@ Pour être de qualité, un indicateur de santé doit être :
 :::
 
 - [Fiable]{.cb}
-: Si la mesure est répétée dans des conditions similaires, elle doit produire des résultats similaires
+: Une mesure répétée dans des conditions similaires doit produire des résultats similaires
 
 ::: callout-tip
 ## La reproduction de la MAPA sur plusieurs jours et à intervalles réguliers dans les mêmes conditions environnementales permet d'évaluer sa fiabilité
@@ -193,7 +194,7 @@ Pour être de qualité, un indicateur de santé doit être :
 : La mesure détecte uniquement le phénomène étudié
 
 ::: callout-tip
-## Un test de dépistage du VIH doit être spécifique à l'infection à VIH et ne pas donner de résultats positifs pour d'autres infections virales
+## Un test de dépistage du VIH doit être spécifique de l'infection à VIH et ne pas donner de résultats positifs pour d'autres infections virales
 :::
 
 
@@ -207,7 +208,7 @@ Pour être de qualité, un indicateur de santé doit être :
 On peut illustrer précision et exactitude en symbolisant la mesure avec une cible et un ensemble de points, chacun représentant une mesure :
 
 - La précision étant symbolisée par la dispersion entre les points
-- L'exactitude étant symbolisée par le centre de la cible : c'est la "vraie" valeur qu'on cherche à atteindre
+- L'exactitude étant symbolisée par le centre de la cible : c'est la vraie valeur qu'on cherche à atteindre
 
 Quatre situations sont possibles :
 
@@ -215,7 +216,7 @@ Quatre situations sont possibles :
 
 ![Précis et exact](img/cible_a.png){#fig-cible-a}
 
-![Imprécis mais plutôt exact](img/cible_b.png){#fig-cible-b}
+![Plutôt exact mais imprécis](img/cible_b.png){#fig-cible-b}
 
 ![Plutôt précis mais inexact](img/cible_c.png){#fig-cible-c}
 
@@ -230,7 +231,9 @@ La @fig-cible-b représente une situation problématique : la répétition de la
 
 La @fig-cible-c représente une situation fréquente en pratique. La répétition de la mesure donne globalement la même valeur, mais celle-ci ne correspond pas à la réalité : la mesure est [fiable mais pas valide]{.cb}.
 
-La @fig-cible-d représente une situation où la mesure n'apporte pas d'information. Sa répétition ne donne jamais la même valeur, et rarement la bonne valeur : la mesure n'est [ni fiable ni valide]{.cb}.
+La @fig-cible-d représente une situation où la mesure n'apporte aucune information. Sa répétition ne donne jamais la même valeur, et rarement la bonne valeur : la mesure n'est [ni fiable ni valide]{.cb}.
+
+---
 
 ::: {.p style="text-align:center"}
 
@@ -242,23 +245,25 @@ Une mesure [précise mais inexacte]{.cb} donnerait des valeurs fiables [mais fau
 
 :::
 
+---
+
 ::: callout-tip
-## Mesure de la température (partie 1)
+## Mesure de la température (partie I)
 Lors de votre première tournée dans un nouveau service, vous devez prendre la température chez les patients de votre secteur.
 On vous a informé pendant les transmissions que le thermomètre que vous utilisez, le seul disponible dans ce service, a un défaut de calibrage : il surestime la température de +1°C.
 
 Lorsque vous reprenez plusieurs fois d'affilée la mesure chez un même patient, il est très probable que vous obteniez *globalement* le même résultat : votre mesure de température est [fiable]{.cb}.
 
-Est-elle valide pour autant ? Souvenez-vous qu'en raison du défaut de calibrage de l'appareil, chaque valeur mesurée surestime la température de +1°C : aussi fiable soit-elle, la mesure [ne correspond pas à la réalité]{.cb}.
+Est-elle valide pour autant ? Souvenez-vous qu'en raison du défaut de calibrage de l'appareil, chaque valeur mesurée surestime la température réelle de +1°C : aussi fiable soit-elle, la mesure [ne correspond pas à la réalité]{.cb}.
 
 Autrement dit :
 
 ::: {.p style="text-align:center"}
 La mesure est [fiable]{.cb}
-: la répétition de la mesure reproduit *globalement* le même résultat 
+: La répétition de la mesure reproduit *globalement* le même résultat 
 
 Pour autant, la mesure n'est [pas valide]{.cb}
-: l'appareil surestime la température de +1°C
+: L'appareil surestime la température réelle de +1°C
 :::
 :::
 

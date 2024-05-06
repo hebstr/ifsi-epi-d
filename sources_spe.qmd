@@ -33,7 +33,7 @@ tibble::tibble(Chronologie = c("Prospective", "Rétrospective")) |>
 
 ### L'exhaustivité {#sec-exhaust}
 
-La notion d'[exhaustivité]{.cb} a déjà été abordée^[Voir @sec-mdo].
+La notion d'[exhaustivité]{.cb} a déjà été abordée (@sec-mdo).
 
 L'exhaustivité se dit d'une situation où l'on a pu recueillir l'information sur [la totalité]{.cb} des cas qui constituaient la population.
 
@@ -91,7 +91,7 @@ Il n'est parfois (et même souvent) pas possible d'avoir accès à toute une pop
 Une solution est de réaliser un [échantillonnage]{.cb} de cette population.
 
 Un [échantillon]{.cb} est un sous-ensemble, une portion de taille variable d'une population.
-Il doit être rigoureusement constitué : on veut qu'il soit [un bon reflet]{.cb} de la population dont il est issu. 
+Il doit être rigoureusement constitué : on veut qu'il soit [un bon reflet]{.cb} de la population de laquelle il est issu. 
 
 ::: {.p style="text-align:center"}
 **Autrement dit, on veut que l'échantillon soit [représentatif]{.cb} de sa population d'origine**
@@ -105,12 +105,12 @@ Pour ce faire, un échantillon est constitué et une prévalence est mesurée à
 
 Pourtant, l'objectif de l'étude est bel et bien de connaitre la prévalence [dans la population]{.cb}, et non dans l'échantillon.
 
-L'échantillon n'est effectivement qu'un [intermédiaire]{.cb} : la finalité d'une telle étude est de faire une [estimation]{.cb}, à partir de la prévalence obtenue dans l'échantillon, de la [vraie prévalence]{.cb} dans la population^[valeur que l'on ne connaîtra jamais, à moins d'avoir accès à l'ensemble de la population !].
+L'échantillon n'est effectivement qu'un [intermédiaire]{.cb} : la finalité d'une telle étude est de faire une [estimation]{.cb}, à partir de la prévalence obtenue dans l'échantillon, de la [vraie prévalence]{.cb} dans la population (valeur que l'on ne connaîtra jamais, à moins d'avoir accès à l'ensemble de la population !).
 
 Une bonne représentativité permet de [généraliser]{.cb} la valeur obtenue sur l'échantillon à sa population d'origine en garantissant un certain degré d'exactitude, raison pour laquelle [elle doit toujours être recherchée]{.cb}.
-Plus un échantillon est représentatif de la population dont il est issu, plus l'estimation est [proche de la vraie valeur]{.cb}.
+Plus un échantillon est représentatif de sa population, plus l'estimation est [proche de la vraie valeur]{.cb}.
 
-Un échantillon mal constitué, non représentatif de sa population d'origine, serait pourvoyeur de [biais de sélection]{.cb}^[Voir @sec-biais-sel]. La généralisation de ses résultats pourrait mener à des conclusions erronées.
+Un échantillon mal constitué, non représentatif de sa population d'origine, serait pourvoyeur de [biais de sélection]{.cb} (@sec-biais-sel). La généralisation de ses résultats pourrait mener à des conclusions erronées.
 :::
 
 La constitution d'un échantillon fait intervenir trois étapes successives : 
@@ -162,22 +162,20 @@ La prévalence de l'obésité sera finalement mesurée dans cet échantillon.
 Par conséquent, cette représentativité doit être garantit à chaque niveau :
 
 1. La population [source]{.cb} doit être représentative de la population [cible]{.cb}
-: La constitution de la population source sur la base d'une liste électorale garantie une bonne représentativité vis-à-vis de la population cible par le fait qu'une grande partie de la population d'une commune est inscrite sur ses listes électorales[^elec].
+: La constitution de la population source sur la base d'une liste électorale garantie une bonne représentativité vis-à-vis de la population cible par le fait qu'une grande partie de la population d'une commune est inscrite sur ses listes électorales. Autrement dit, on considère qu'une liste électorale d'une commune donnée est une liste raisonnablement exhaustive de la population résidant dans cette commune.
+D'autres méthodes de sélection ne permettraient pas d'atteindre un tel niveau d'exhaustivité (e.g., dans un annuaire téléphonique, dans la rue, distribution de questionnaire par mail).
 
-2. L'[échantillon]{.cb} doit être représentatif de la population [source]{.cb}
-: La constitution
+2. **L'[échantillon]{.cb} doit être représentatif de la population [source]{.cb}**
 
-[^elec]: Autrement dit, on considère qu'une liste électorale d'une commune donnée est une liste assez **exhaustive** de la population résidant dans cette commune.
-D'autres méthodes de sélection ne permettraient pas d'atteindre un tel niveau d'exhaustivité (e.g., dans un annuaire téléphonique, dans la rue, distribution de questionnaire par voie électronique).
 
 ### Enquête transversale {#sec-spe-trans}
 
-La notion de transversalité ayant déjà été abordée^[Voir @sec-mrb], vous devriez être en mesure de répondre aux questions suivantes.
+La notion de transversalité ayant déjà été abordée (@sec-mrb), vous devriez être en mesure de répondre aux questions suivantes.
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
 ## L'objectif d'une enquête transversale est-il de mesurer une incidence ou une prévalence ?
 Mesure transversale = mesure prise à un instant donné \
-Une enquête transversale consiste donc à mesurer une [prévalence]{.cb}^[Voir @sec-prev]
+Une enquête transversale consiste donc à mesurer une [prévalence]{.cb} (@sec-prev)
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
@@ -189,7 +187,7 @@ Ce type d'enquête a un champ d'application plutôt restreint. Il est adapté à
 
 
 ::: callout-tip
-## L'étude portant sur l'obésité présentée plus haut^[Voir @sec-repres] est un exemple d'enquête transversale
+## L'étude portant sur l'obésité présentée plus haut (@sec-repres) est un exemple d'enquête transversale
 :::
 
 ::: callout-tip
@@ -213,7 +211,7 @@ Exemple de résultat
 
 ### Enquête longitudinale {#sec-spe-long}
 
-La notion de longitudinalité ayant déjà été abordée^[Voir @sec-mrb], vous devriez être en mesure de répondre aux questions suivantes.
+La notion de longitudinalité ayant déjà été abordée (@sec-mrb), vous devriez être en mesure de répondre aux questions suivantes.
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
 ## L'objectif d'une enquête longitudinale est-il de mesurer une incidence ou une prévalence ?
@@ -230,7 +228,7 @@ Une enquête longitudinale est en pratique appelée [étude de cohorte]{.cb}.
 
 Classiquement, une [cohorte]{.cb} est un groupe de personnes [suivies dans le temps]{.cb}, servant à la réalisation d'études épidémiologiques présentant un intérêt de santé publique.
 
-C'est parce qu'il y a un suivi qu'on parle de cohortes [prospectives]{.cb} : on mesure la survenue d'un évènement dans le temps (cas le plus fréquent)^[Il existe aussi des cohortes **rétrospectives** (on cherche à retrouver une information passée).].
+C'est parce qu'il y a un suivi qu'on parle de cohortes [prospectives]{.cb} : on mesure la survenue d'un évènement dans le temps. Il s'agit du cas le plus fréquent (il existe aussi des cohortes rétrospectives : on cherche à retrouver une information passée).
 
 
 ::: callout-tip
@@ -272,7 +270,7 @@ Exemples d'études réalisées ou en cours
 :::
 
 ::: callout-important
-## [Un échantillon doit être représentatif de la population dont il est issu]{.cb}
+## [Un échantillon doit être représentatif de la population de laquelle il est issu]{.cb}
 :::
 
 ::: callout-important

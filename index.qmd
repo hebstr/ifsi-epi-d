@@ -1,16 +1,19 @@
 # Introduction {.unnumbered}
 
-Le [texte souligné]() renvoie vers un lien interne au cours (chapitre, section, figure, ...) ou un lien externe.
-
----
+## Notes sur le cours {.unnumbered}
 
 ::: {.p style="text-align:center"}
-**Les ressources externes au cours sont présentées en tant que suppléments, ce qui veut dire que l'ensemble de ce qui est demandé de connaitre pour l'examen est présent [dans ce cours]{.cb}**
+Le texte [souligné]() renvoie vers un référence interne au cours (chapitre, section, figure, ...) ou un lien externe
 
-**Il n'est pas demandé de connaitre de listes, de chiffres ou de formules mathématiques**
+Les ressources externes sont présentées en tant que compléments au cours, autrement dit\
+**tout de ce qui est demandé de connaitre pour l'examen est écrit dans ce cours**
+
+Il n'est pas demandé de connaitre de listes, de chiffres ou de formules mathématiques
 :::
 
 ---
+
+En parcourant le cours, vous trouverez plusieurs encadrés ayant chacun une signification :
 
 ::: callout-note
 ## Une note/remarque
@@ -30,5 +33,5 @@ La réponse
 :::
 
 ::: callout-important
-## Ce qui est important de retenir du chapitre (présent en fin de chapitre)
+## Ce qu'il faut absolument retenir du chapitre (présent en fin de chapitre)
 :::

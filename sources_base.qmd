@@ -25,7 +25,7 @@ Il se compose de deux volets :
 
 \
 
-Un certificat de décès correctement rempli participe à l'amélioration de la [veille sanitaire]{.cb}, à la qualité des [statistiques de mortalité]{.cb} et à la [comparabilité]{.cb} entre régions et pays (bien que la qualité de remplissage puisse varier d'un endroit à l'autre).
+Un certificat de décès correctement rempli participe à l'amélioration de la [veille sanitaire]{.cb}, à la qualité des [statistiques de mortalité]{.cb} et à la [comparabilité]{.cb} entre régions et pays (bien que la qualité de remplissage puisse varier d'un lieu à l'autre).
 
 
 ### Maladies à déclaration obligatoire {#sec-mdo}
@@ -63,8 +63,8 @@ Le caractère [obligatoire]{.cb} de cette transmission permet une surveillance [
 
 ##### Critères de faisabilité {.unnumbered}
 
-- **Capacités diagnostiques** : la maladie doit être identifiable par des méthodes des disponibles et fiables.
-- **Capacités structurelles** : le système de santé doit être capable de gérer la déclaration et le suivi des cas sans surcharge excessive
+- **Capacités diagnostiques** : la maladie doit être identifiable par des méthodes disponibles et fiables.
+- **Capacités structurelles** : le système de santé doit être capable de gérer la déclaration et le suivi des cas sans surcharge excessive.
 - **Utilité des données collectées** : la surveillance de la maladie doit apporter des informations qui améliorent les connaissances et contribuent ainsi à une meilleure prévention de la maladie.
 
 :::
@@ -166,7 +166,7 @@ Permet d'adapter rapidement les réponses sanitaires et de contrôler la propaga
 
 ##### Informations limitées {.unnumbered}
 
-Les données que vous avez peuvent être incomplètes ou ne pas couvrir tous les aspects nécessaires pour une évaluation complète. Cela requiert une approche prudente dans l'interprétation des résultats et dans les décisions de soins basées sur ces données.
+Les données peuvent être incomplètes ou ne pas couvrir tous les aspects nécessaires pour une évaluation complète.
 
 ##### Pas de choix des données {.unnumbered}
 

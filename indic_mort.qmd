@@ -10,7 +10,7 @@ Il en existe trois types :
 
 ## Taux brut de mortalité
 
-Un [taux brut de mortalité]{.cb} est un taux appliqué à [la survenue de décès]{.cb} dans une population.
+Un [taux brut de mortalité]{.cb} est un [taux]{.cb} (@sec-taux) appliqué à [la survenue de décès]{.cb} dans une population.
 
 >
 $$
@@ -31,11 +31,11 @@ Il est généralement calculé sur un an et exprimé en taux pour 1000.
 Le nombre de décès étant logiquement inférieur à l'effectif total de la population, le taux tel qu'il est calculé est [toujours inférieur à 1]{.cb}.
 
 Supposons que, sur l'année 2022, le taux brut de mortalité en France soit égal à 0,009.\
-La phrase suivante n'est pas très intuitive :
+L'énoncé suivant n'est pas très intuitif :
 
 > En France, en 2022, le taux brut de mortalité était de **0,009 pour 1 habitant**.
 
-En pratique, cet inconvénient est résolu en multipliant par 1000 :
+En pratique, on procède à une multiplication par 1000 (ou plus) :
 
 > En 2022, le taux brut de mortalité était de **9 pour 1000 habitants**.
 
@@ -80,7 +80,7 @@ knitr::include_graphics("img/taux_mort_inf_2020_2022.png")
 ## En 2022, le taux de mortalité chez les femmes enceintes était de 9,6 pour 100 000 accouchements.
 :::
 
-Il en existe plusieurs types, dont :
+Il existe plusieurs types de taux de mortalité spécifique, dont :
 
 - La mortalité [prématurée]{.cb} : mortalité survenant avant 65 ans (= taux spécifique par tranches d'âge)
 - La mortalité [évitable]{.cb} : taux spécifique par causes de décès
@@ -126,7 +126,7 @@ Après standardisation, on peut supposer que les taux de mortalité observés d�
 
 ## Taux de létalité 
 
-Tandis que la mortalité représente le nombre d'individus décédés sur l'ensemble de la population, la [létalité]{.cb} représente le nombre de personnes décédés d'une maladie [parmi les personnes atteints de cette maladie]{.cb}.
+Tandis que la mortalité représente le nombre d'individus décédés sur l'ensemble de la population, la [létalité]{.cb} représente le nombre d'individus décédés d'une maladie [parmi les personnes atteints de cette maladie]{.cb}.
 
 Un [taux de létalité]{.cb} prend pour période d'étude [le temps à partir du début]{.cb} de la maladie.
 
@@ -147,9 +147,9 @@ C'est un indicateur de la [gravité]{.cb} d'une maladie.
 
 
 ::: callout-tip
-## Pendant la première phase de l'épidémie de COVID à Wuhan, la létalité du COVID était de 17,3% pour les cas survenus durant les deux premières semaines de janvier 2020.
+## Pendant la première phase de l'épidémie de Covid à Wuhan, la létalité du Covid était de 17,3% pour les cas survenus durant les deux premières semaines de janvier 2020.
 
-Sur 100 cas de COVID survenus durant cette période, 17 sont décédés.
+Sur 100 cas de Covid survenus durant cette période, 17 sont décédés.
 :::
 
 ::: callout-warning
@@ -157,8 +157,8 @@ Sur 100 cas de COVID survenus durant cette période, 17 sont décédés.
 
 La différence se situe au dénominateur :
 
-- Le taux de mortalité spécifique du cancer du sein sur une période donnée correspond au nombre de personnes décédées d'un cancer du sein [parmi l'ensemble de la population]{.cb}.
-- Le taux de létalité du cancer du sein sur cette même période correspond au nombre de personnes décédées d'un cancer du sein [parmi les personnes atteintes d'un cancer du sein]{.cb}.
+- Le taux de mortalité spécifique d'une maladie sur une période donnée correspond au nombre de personnes décédées de la maladie [parmi l'ensemble de la population]{.cb}.
+- Le taux de létalité d'une maladie sur cette même période correspond au nombre de personnes décédées de la maladie [parmi les personnes atteintes de la maladie]{.cb}.
 
 La mortalité spécifique est un indicateur de la charge globale de la maladie sur la société, tandis que la létalité est cruciale pour comprendre et gérer les risques pour les individus atteints d'une maladie donnée.
 
@@ -203,13 +203,9 @@ Source : [Insee](https://www.insee.fr/fr/statistiques/2012741)
 :::
 
 ::: callout-important
-## [La standardisation est indispensable dès lors qu'il faut mesurer des taux comparatifs de mortalité]{.cb}
-:::
-
-::: callout-important
 ## [Bien distinguer mortalité et létalité]{.cb}
 :::
 
 ::: callout-important
-## [La létalité n'est pas une mortalité spécifique d'une cause de décès]{.cb}
+## [La standardisation est indispensable dès lors qu'on souhaite comparer des taux de mortalité]{.cb}
 :::

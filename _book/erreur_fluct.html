@@ -346,11 +346,13 @@ Prévalence de l’obésité chez les sujets âgés de 30 à 45 ans habitant à 
 <p>Cet intervalle est appelé <span class="cb">intervalle de confiance</span>.</p>
 <p>Il s’étend de part et d’autre de la valeur mesurée dans l’échantillon, et permet de <span class="cb">maîtriser l’incertitude</span> due aux fluctuations d’échantillonnage avec un certain <span class="cb">niveau de confiance</span>.</p>
 <p>Ce niveau de confiance doit être défini : jusqu’à quel point peut-on avoir confiance dans la précision de l’estimation de la vraie valeur ? Par tradition, ce niveau est fixé à <span class="cb">95%</span>.</p>
-<p>En pratique, on parle alors d’<span class="cb">intervalle de confiance à 95%</span>.</p>
+<div class="p" style="text-align:center">
+<p><strong>En pratique, on parle alors d’<span class="cb">intervalle de confiance à 95%</span>.</strong></p>
+</div>
 <p>Pour rappel, la mesure effectuée dans l’échantillon ne sert qu’à une chose : <span class="cb">estimer la vraie valeur</span> dans la population de laquelle est issu cet échantillon.</p>
 <p>Ainsi, pour une valeur mesurée dans l’échantillon, on calculera l’intervalle de confiance à 95% associé, qui s’étendra de part et d’autre de cette valeur, et qui sera interprété comme étant :</p>
 <div class="p" style="text-align:center">
-<p><strong>l’intervalle dont on est sûr à 95% qu’il <span class="cb">contient la vraie valeur</span> dans</strong><br><strong>la population d’où est issu l’échantillon</strong></p>
+<p><strong>l’intervalle dont on est sûr à 95% qu’il <span class="cb">contient la vraie valeur</span> dans</strong><br><strong>la population de laquelle est issu l’échantillon</strong></p>
 </div>
 <section id="simulation" class="level3" data-number="9.3.1"><h3 data-number="9.3.1" class="anchored" data-anchor-id="simulation">
 <span class="header-section-number">9.3.1</span> Simulation</h3>
@@ -364,14 +366,13 @@ Rappel
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Dans la vraie vie, la vraie valeur dans la population <span class="cb">ne peut pas être connue</span> et on cherche, à travers une mesure réalisée sur un <span class="cb">échantillon représentatif</span> (<a href="sources_spe.html#sec-repres" class="quarto-xref"><span>Section 6.2.1</span></a>) de cette population, à <span class="cb">estimer cette vraie valeur</span>.</p>
-<p>On fait le présupposé que cette vraie valeur est <span class="cb">fixe et unique</span>.</p>
+<p>Dans la vraie vie, la vraie valeur dans la population <span class="cb">ne peut pas être connue</span> et on cherche, à travers une mesure réalisée sur un <span class="cb">échantillon représentatif</span> de cette population (<a href="sources_spe.html#sec-repres" class="quarto-xref"><span>Section 6.2.1</span></a>), à <span class="cb">estimer cette vraie valeur</span>. On fait le présupposé que cette vraie valeur est <span class="cb">fixe</span> et <span class="cb">unique</span>.</p>
 </div>
 </div>
 <p>Que se passerait-il si on constituait beaucoup d’échantillons et qu’on calculait pour chacun un intervalle de confiance à 95% ?</p>
 <p>Imaginons une situation <span class="cb">fictive</span> dans laquelle <span class="cb">on connait la vraie valeur</span> de la prévalence d’une maladie quelconque dans une population de 100 000 individus. Admettons que cette valeur soit <span class="cb">10%</span>.</p>
-<p>À partir de cette population, on simule 20 expériences : on constitue <span class="cb">20 échantillons de 1000 individus tirés avec remise</span>. Dans chaque échantillon, <span class="cb">on mesure la prévalence</span> de la maladie.</p>
-<p>On a donc mesuré <span class="cb">20 mesures de prévalences</span> ; une valeur par échantillon. Vous savez maintenant que ces valeurs sont soumises aux <span class="cb">fluctuations d’échantillonnage</span> et qu’elles sont donc toutes <span class="cb">plus ou moins différentes</span> (11, 5, 15, 8, 15, 11, etc.). À chaque valeur est associé, à l’aide d’un calcul statistique, un <span class="cb">intervalle de confiance à 95%</span>.</p>
+<p>À partir de cette population, on simule 20 expériences : on constitue <span class="cb">20 échantillons de 1000 individus tirés avec remise</span> (comme à la loterie). Dans chaque échantillon, on mesure la prévalence de la maladie.</p>
+<p>On a donc effectué 20 mesures de prévalences ; une valeur par échantillon. Vous savez maintenant que ces valeurs sont soumises aux fluctuations d’échantillonnage et qu’elles sont donc toutes <span class="cb">plus ou moins différentes</span> (11, 5, 15, 8, 15, 11, etc.). À chaque valeur est associé, à l’aide d’un calcul statistique, un intervalle de confiance à 95%.</p>
 <p>Au total, on a donc :</p>
 <ul>
 <li>Une population dont on connait la <span class="cb">vraie prévalence</span> (10%)</li>
@@ -383,7 +384,7 @@ Rappel
 <div class="cell-output-display">
 <div id="fig-ic" class="quarto-figure quarto-figure-center quarto-float anchored" data-fig-align="center">
 <figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-ic-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="img/ic.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="quarto-lightbox-gallery-1"><img src="img/ic.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:6in"></a>
+<a href="img/ic.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" data-glightbox="description: .lightbox-desc-1"><img src="img/ic.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:6in"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-ic-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;9.1: Simulation de 20 valeurs avec intervalle de confiance à 95%. <br> La <span class="cb">ligne horizontale</span> représente la vraie prévalence de la maladie dans la population. Les <span class="cb2">barres verticales</span> représentent les 20 prévalences mesurées accompagnées de leur intervalle de confiance à 95%.
@@ -853,7 +854,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","loop":false});
+<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","loop":false,"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
