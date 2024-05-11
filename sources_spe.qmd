@@ -98,7 +98,7 @@ Il doit être rigoureusement constitué : on veut qu'il soit [un bon reflet]{.cb
 :::
 
 ::: callout-note
-## Pour est-ce important ?
+## Pourquoi est-ce important ?
 
 Admettons qu'une équipe de chercheurs ait pour objectif de connaitre la prévalence d'une maladie dans une population.
 Pour ce faire, un échantillon est constitué et une prévalence est mesurée à partir de cet échantillon.
@@ -162,8 +162,7 @@ La prévalence de l'obésité sera finalement mesurée dans cet échantillon.
 Par conséquent, cette représentativité doit être garantit à chaque niveau :
 
 1. La population [source]{.cb} doit être représentative de la population [cible]{.cb}
-: La constitution de la population source sur la base d'une liste électorale garantie une bonne représentativité vis-à-vis de la population cible par le fait qu'une grande partie de la population d'une commune est inscrite sur ses listes électorales. Autrement dit, on considère qu'une liste électorale d'une commune donnée est une liste raisonnablement exhaustive de la population résidant dans cette commune.
-D'autres méthodes de sélection ne permettraient pas d'atteindre un tel niveau d'exhaustivité (e.g., dans un annuaire téléphonique, dans la rue, distribution de questionnaire par mail).
+: La constitution de la population source sur la base d'une liste électorale garantit une bonne représentativité vis-à-vis de la population cible (on considère que les personnes qui votent ont les mêmes caractéristiques que celles qui ne votent pas).
 
 2. **L'[échantillon]{.cb} doit être représentatif de la population [source]{.cb}**
 

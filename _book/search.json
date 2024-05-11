@@ -10,6 +10,16 @@
     ]
   },
   {
+    "objectID": "index.html#notes-sur-le-cours",
+    "href": "index.html#notes-sur-le-cours",
+    "title": "Épidémiologie descriptive",
+    "section": "Notes sur le cours",
+    "text": "Notes sur le cours\n\nLe texte souligné renvoie vers un référence interne au cours (chapitre, section, figure, …) ou un lien externe\nLes ressources externes sont présentées en tant que compléments au cours, autrement dit\ntout de ce qui est demandé de connaitre pour l’examen est écrit dans ce cours\nIl n’est pas demandé de connaitre de listes, de chiffres ou de formules mathématiques\n\n\nEn parcourant le cours, vous trouverez plusieurs encadrés ayant chacun une signification :\n\n\n\n\n\n\nUne note/remarque\n\n\n\n\n\n\n\n\n\n\n\n\nUn exemple\n\n\n\n\n\n\n\n\n\n\n\n\nUn énoncé ou une question (cliquer pour afficher la réponse)\n\n\n\n\n\nLa réponse\n\n\n\n\n\n\n\n\n\nUne précision sur une notion de cours pouvant porter à confusion\n\n\n\n\n\n\n\n\n\n\n\n\nCe qu’il faut absolument retenir du chapitre (présent en fin de chapitre)",
+    "crumbs": [
+      "Introduction"
+    ]
+  },
+  {
     "objectID": "definitions.html",
     "href": "definitions.html",
     "title": "\n1  Définitions\n",
@@ -30,21 +40,21 @@
     ]
   },
   {
-    "objectID": "definitions.html#lépidémiologie-descrptive",
-    "href": "definitions.html#lépidémiologie-descrptive",
+    "objectID": "definitions.html#lépidémiologie-descriptive",
+    "href": "definitions.html#lépidémiologie-descriptive",
     "title": "\n1  Définitions\n",
-    "section": "\n1.2 L’épidémiologie descrptive",
-    "text": "1.2 L’épidémiologie descrptive\nL’épidémiologie descriptive a pour objectif de décrire un phénomène de santé dans un groupe ou une population, en termes de :\n\n\nFréquence : quelle est l’ampleur d’un phénomène de santé\n\nRépartition : comment est-il distribué selon divers facteurs démographiques, socio-économiques, etc.\n\nÉvolution : comment sa fréquence et sa répartition évoluent dans le temps\n\nCaractéristiques : quels mécanismes décrire (e.g., biologiques, comportementaux)\n\n\n\n\n\n\n\nÉtude de l’obésité\n\n\n\n\nDéterminer la prévalence de l’obésité\nIdentifier les régions où elle est la plus répandue\nSuivre l’évolution au fil des années\nAnalyser les caractéristiques des populations les plus touchées\n\n\n\nL’épidémiologie descriptive repose sur l’utilisation d’indicateurs de santé (Chapitre 2).\nSes objectifs sont multiples :\n\nSurveillance et contrôle sanitaire\n\n\n\n\n\n\n\nRepérage des individus atteints de maladies infectieuses pour agir (exemples)\n\n\n\n\n\nPandémie de Covid-19 : isolement\n\nTuberculose : traitement des malades\n\nMéningite bactérienne : traitement prophylactique de l’entourage (vaccination)\n\nToxi-infection alimentaire collective (TIAC) : repérage et neutralisation de la source contaminante\n\n\n\n\nMeilleure connaissance des besoins de prise en charge de la population\n\n\n\n\n\n\n\nLe risque d’avoir un enfant atteint de trisomie 21 augmente avec l’âge maternel\n\n\n\nUne meilleure compréhension de ce phénomène permet d’adapter la prise en charge de la population, notamment en matière de consultation génétique et de dépistage anténatal.\n\n\n\nÉvaluation d’une action de santé\n\n\n\n\n\n\n\nEfficacité de la vaccination pour diminuer le nombre d’hospitalisations et de décès dus au Covid\n\n\n\nL’évaluation peut consister à comparer la survenue des nouveaux cas, les taux d’hospitalisation et de mortalité avant et après couvertures vaccinales.\n\n\n\nFormulation d’hypothèses pour la recherche analytique\n\n\n\n\n\n\n\nIl existe un gradient nord-sud décroissant dans la survenue des maladies cardiovasculaires\n\n\n\nCe phénomène a ouvert la voie à une recherche étiologique complexe et multidimensionnelle (e.g., influence climatique, exposition solaire, facteurs génétiques, facteurs socio-économiques).",
+    "section": "\n1.2 L’épidémiologie descriptive",
+    "text": "1.2 L’épidémiologie descriptive\nL’épidémiologie descriptive a pour objectif de décrire un phénomène de santé dans un groupe ou une population, en termes de :\n\n\nFréquence : quelle est l’ampleur d’un phénomène de santé\n\nRépartition : comment est-il distribué selon divers facteurs démographiques, socio-économiques, etc.\n\nÉvolution : comment sa fréquence et sa répartition évoluent dans le temps\n\nCaractéristiques : quels mécanismes décrire (e.g., biologiques, comportementaux)\n\n\n\n\n\n\n\nÉtude de l’obésité\n\n\n\n\nDéterminer la prévalence de l’obésité\nIdentifier les régions où elle est la plus répandue\nSuivre l’évolution au fil des années\nAnalyser les caractéristiques des populations les plus touchées\n\n\n\nL’épidémiologie descriptive repose sur l’utilisation d’indicateurs de santé (Chapitre 2).\nSes objectifs sont multiples :\n\nSurveillance et contrôle sanitaire\n\n\n\n\n\n\n\nRepérage des individus atteints de maladies infectieuses pour agir (exemples)\n\n\n\n\n\nPandémie de Covid-19 : isolement\n\nTuberculose : traitement des malades\n\nMéningite bactérienne : traitement prophylactique de l’entourage (vaccination)\n\nToxi-infection alimentaire collective (TIAC) : repérage et neutralisation de la source contaminante\n\n\n\n\nMeilleure connaissance des besoins de prise en charge de la population\n\n\n\n\n\n\n\nLe risque d’avoir un enfant atteint de trisomie 21 augmente avec l’âge maternel\n\n\n\nUne meilleure compréhension de ce phénomène permet d’adapter la prise en charge de la population, notamment en matière de consultation génétique et de dépistage anténatal.\n\n\n\nÉvaluation d’une action de santé\n\n\n\n\n\n\n\nEfficacité de la vaccination pour diminuer le nombre d’hospitalisations et de décès dus au Covid\n\n\n\nL’évaluation peut consister à comparer la survenue des nouveaux cas, les taux d’hospitalisation et de mortalité avant et après couvertures vaccinales.\n\n\n\nFormulation d’hypothèses pour la recherche analytique\n\n\n\n\n\n\n\nIl existe un gradient nord-sud décroissant dans la survenue des maladies cardiovasculaires\n\n\n\nCe phénomène a ouvert la voie vers une recherche complexe et multidimensionnelle (e.g., influence climatique, exposition solaire, facteurs génétiques, facteurs socio-économiques).",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Définitions</span>"
     ]
   },
   {
-    "objectID": "definitions.html#take-home-messages",
-    "href": "definitions.html#take-home-messages",
+    "objectID": "definitions.html#messages-importants",
+    "href": "definitions.html#messages-importants",
     "title": "\n1  Définitions\n",
-    "section": "TAKE-HOME MESSAGES",
-    "text": "TAKE-HOME MESSAGES",
+    "section": "MESSAGES IMPORTANTS",
+    "text": "MESSAGES IMPORTANTS",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Définitions</span>"
     ]
@@ -153,7 +163,7 @@
     "href": "indic_mort.html#sec-stand",
     "title": "3  Indicateurs de mortalité",
     "section": "\n3.3 Taux standardisé de mortalité",
-    "text": "3.3 Taux standardisé de mortalité\n\n3.3.1 Problème\nIndépendamment de ses causes, la mortalité est liée un facteur incontournable : l’âge.\nSi la comparaison entre départements révèle des taux plus élevés dans l’un, cela peut-être dû non pas à des causes externes mais simplement à la structure d’âge du département : la mortalité est plus élevée si la moyenne d’âge est plus élevée.\n\n\n\n\n\n\n\n\n\n(a) Taux bruts de mortalité\n\n\n\n\n\n\n\n\n\n(b) Part des plus de 75 ans\n\n\n\n\n\n\nFigure 3.2: Taux bruts de mortalité et part des plus de 75 ans en 2023 (en ‰). Source : Insee\n\n\n\n\n\n\n\n\nL’âge est un facteur de confusion (Section 10.3) dans la mesure des taux comparatifs de mortalité\n\n\n\n\n\n\n\n3.3.2 Solution\nAfin de pouvoir comparer de manière pertinente des taux de mortalité entre différentes zones géographiques, il faut procéder à un traitement des taux bruts pour s’affranchir de cet “effet âge” : cette méthode est appelée standardisation.\nLes taux comparatifs de décès, ou taux standardisés, correspondent à des taux de décès calculés comme si la structure d’âge était la même dans tous les départements.\n\n\n\n\n\n\n\nFigure 3.3: Taux standardisés de mortalité prématurée (&lt; 65 ans) en 2023 (en ‰). Source : Insee\n\n\n\n\nAprès standardisation, on peut supposer que les taux de mortalité observés dépendent non plus de la structure d’âge dans chaque région, mais bien de facteurs externes.",
+    "text": "3.3 Taux standardisé de mortalité\n\n3.3.1 Problème\nIndépendamment de ses causes, la mortalité est liée à un facteur incontournable : l’âge.\nSi la comparaison entre départements révèle des taux plus élevés dans l’un, cela peut-être dû non pas à des causes externes mais simplement à la structure d’âge du département : la mortalité est plus élevée si la moyenne d’âge est plus élevée.\n\n\n\n\n\n\n\n\n\n(a) Taux bruts de mortalité\n\n\n\n\n\n\n\n\n\n(b) Part des plus de 75 ans\n\n\n\n\n\n\nFigure 3.2: Taux bruts de mortalité et part des plus de 75 ans en 2023 (en ‰). Source : Insee\n\n\n\n\n\n\n\n\nL’âge est un facteur de confusion (Section 10.3) dans la mesure des taux comparatifs de mortalité\n\n\n\n\n\n\n\n3.3.2 Solution\nAfin de pouvoir comparer de manière pertinente des taux de mortalité entre différentes zones géographiques, il faut procéder à un traitement des taux bruts pour s’affranchir de cet “effet âge” : cette méthode est appelée standardisation.\nLes taux comparatifs de décès, ou taux standardisés, correspondent à des taux de décès calculés comme si la structure d’âge était la même dans tous les départements.\n\n\n\n\n\n\n\nFigure 3.3: Taux standardisés de mortalité prématurée (&lt; 65 ans) en 2023 (en ‰). Source : Insee\n\n\n\n\nAprès standardisation, on peut supposer que les taux de mortalité observés dépendent non plus de la structure d’âge dans chaque région, mais bien de facteurs externes.",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
@@ -182,11 +192,11 @@
     ]
   },
   {
-    "objectID": "indic_mort.html#take-home-messages",
-    "href": "indic_mort.html#take-home-messages",
+    "objectID": "indic_mort.html#messages-importants",
+    "href": "indic_mort.html#messages-importants",
     "title": "3  Indicateurs de mortalité",
-    "section": "TAKE-HOME MESSAGES",
-    "text": "TAKE-HOME MESSAGES",
+    "section": "MESSAGES IMPORTANTS",
+    "text": "MESSAGES IMPORTANTS",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
@@ -241,18 +251,18 @@
     "href": "indic_morbi.html#incidence-ou-prévalence",
     "title": "4  Indicateurs de morbidité",
     "section": "\n4.4 Incidence ou prévalence ?",
-    "text": "4.4 Incidence ou prévalence ?\n\n\n\n\n\n\nSur les 30 derniers jours, 10 patients sur 40 hospitalisés dans une service de maladies infectieuses ont fait un séjour en réanimation pour choc septique\n\n\n\n\n\nNombre de nouveaux évènements parmi les personnes à risque, sur une période donnée : c’est une incidence.\n\n\n\n\n\n\n\n\n\nAu 01/01/2024, il y avait 5% d’hommes atteints d’un cancer de la prostate dans la région Hauts-de-France\n\n\n\n\n\nProportion à un instant donné : c’est une prévalence.",
+    "text": "4.4 Incidence ou prévalence ?\n\n\n\n\n\n\nSur les 30 derniers jours, 10 patients sur 40 hospitalisés dans un service de maladies infectieuses ont fait un séjour en réanimation pour choc septique\n\n\n\n\n\nNombre de nouveaux évènements parmi les personnes à risque, sur une période donnée : c’est une incidence.\n\n\n\n\n\n\n\n\n\nAu 01/01/2024, il y avait 5% d’hommes atteints d’un cancer de la prostate dans la région Hauts-de-France\n\n\n\n\n\nProportion à un instant donné : c’est une prévalence.",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
     ]
   },
   {
-    "objectID": "indic_morbi.html#take-home-messages",
-    "href": "indic_morbi.html#take-home-messages",
+    "objectID": "indic_morbi.html#messages-importants",
+    "href": "indic_morbi.html#messages-importants",
     "title": "4  Indicateurs de morbidité",
-    "section": "TAKE-HOME MESSAGES",
-    "text": "TAKE-HOME MESSAGES",
+    "section": "MESSAGES IMPORTANTS",
+    "text": "MESSAGES IMPORTANTS",
     "crumbs": [
       "Indicateurs de santé",
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
@@ -303,22 +313,22 @@
     ]
   },
   {
-    "objectID": "sources_base.html#limites",
-    "href": "sources_base.html#limites",
+    "objectID": "sources_base.html#limites-des-données-de-routine",
+    "href": "sources_base.html#limites-des-données-de-routine",
     "title": "\n5  Recueils systématiques\n",
-    "section": "\n5.4 Limites",
-    "text": "5.4 Limites\nInformations limitées\nLes données que vous avez peuvent être incomplètes ou ne pas couvrir tous les aspects nécessaires pour une évaluation complète. Cela requiert une approche prudente dans l’interprétation des résultats et dans les décisions de soins basées sur ces données.\nPas de choix des données\nLes données disponibles ne sont pas toujours celles choisies, ce qui peut affecter l’interprétation et l’utilisation de ces informations en pratique.\nPas de définition standardisée\nLa variabilité avec laquelle sont définies les critères peut conduire à des confusions ou à des erreurs d’interprétation si elle n’est pas prise en compte.\nPas de contrôle de qualité des données\nLes données peuvent être de qualité variable, insuffisamment contrôlées pour assurer leur fiabilité.\n\n\nPour pallier ces limites, il peut être nécessaire de réaliser des enquêtes spécifiques (Chapitre 6).",
+    "section": "\n5.4 Limites des données de routine",
+    "text": "5.4 Limites des données de routine\nInformations limitées\nLes données peuvent être incomplètes ou ne pas couvrir tous les aspects nécessaires pour une évaluation complète.\nPas de choix des données\nLes données disponibles ne sont pas toujours celles choisies, ce qui peut affecter l’interprétation et l’utilisation de ces informations en pratique.\nPas de définition standardisée\nLa variabilité avec laquelle sont définies les critères peut conduire à des confusions ou à des erreurs d’interprétation si elle n’est pas prise en compte.\nPas de contrôle de qualité des données\nLes données peuvent être de qualité variable, insuffisamment contrôlées pour assurer leur fiabilité.\n\n\nPour pallier ces limites, il peut être nécessaire de réaliser des enquêtes spécifiques (Chapitre 6).",
     "crumbs": [
       "Sources des indicateurs",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
     ]
   },
   {
-    "objectID": "sources_base.html#take-home-messages",
-    "href": "sources_base.html#take-home-messages",
+    "objectID": "sources_base.html#messages-importants",
+    "href": "sources_base.html#messages-importants",
     "title": "\n5  Recueils systématiques\n",
-    "section": "TAKE-HOME MESSAGES",
-    "text": "TAKE-HOME MESSAGES",
+    "section": "MESSAGES IMPORTANTS",
+    "text": "MESSAGES IMPORTANTS",
     "crumbs": [
       "Sources des indicateurs",
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
@@ -351,18 +361,18 @@
     "href": "sources_spe.html#sec-echant",
     "title": "6  Enquêtes spécifiques",
     "section": "\n6.2 Enquête sur échantillon représentatif",
-    "text": "6.2 Enquête sur échantillon représentatif\nOn en distingue deux types :\n\nEnquête transversale (Section 6.2.2)\nEnquête longitudinale (Section 6.2.3)\n\n\n6.2.1 La représentativité\nIl n’est parfois (et même souvent) pas possible d’avoir accès à toute une population (effectifs trop grands, manque de moyens…). Une solution est de réaliser un échantillonnage de cette population.\nUn échantillon est un sous-ensemble, une portion de taille variable d’une population. Il doit être rigoureusement constitué : on veut qu’il soit un bon reflet de la population de laquelle il est issu.\n\nAutrement dit, on veut que l’échantillon soit représentatif de sa population d’origine\n\n\n\n\n\n\n\nPour est-ce important ?\n\n\n\nAdmettons qu’une équipe de chercheurs ait pour objectif de connaitre la prévalence d’une maladie dans une population. Pour ce faire, un échantillon est constitué et une prévalence est mesurée à partir de cet échantillon.\nPourtant, l’objectif de l’étude est bel et bien de connaitre la prévalence dans la population, et non dans l’échantillon.\nL’échantillon n’est effectivement qu’un intermédiaire : la finalité d’une telle étude est de faire une estimation, à partir de la prévalence obtenue dans l’échantillon, de la vraie prévalence dans la population (valeur que l’on ne connaîtra jamais, à moins d’avoir accès à l’ensemble de la population !).\nUne bonne représentativité permet de généraliser la valeur obtenue sur l’échantillon à sa population d’origine en garantissant un certain degré d’exactitude, raison pour laquelle elle doit toujours être recherchée. Plus un échantillon est représentatif de sa population, plus l’estimation est proche de la vraie valeur.\nUn échantillon mal constitué, non représentatif de sa population d’origine, serait pourvoyeur de biais de sélection (Section 10.1). La généralisation de ses résultats pourrait mener à des conclusions erronées.\n\n\nLa constitution d’un échantillon fait intervenir trois étapes successives :\n\n\nPopulation cible : ensemble de la population ciblée par l’enquête\n\nPopulation source : part de la population cible accessible en pratique\n\nÉchantillon : sélection issue de la population source\n\n\n\n\n\n\n\n\nFigure 6.1: De la population à l’échantillon\n\n\n\n\n\n\n\n\n\n\nPrévalence de l’obésité chez les sujets âgés de 30 à 45 ans habitant à Lille (partie I)\n\n\n\nLa population à laquelle on souhaite accéder est définie dès le départ. Il s’agit des sujets âgés de 30 à 45 ans habitant à Lille : c’est la population cible. “Cible” car il s’agit bien de l’ensemble de la population ciblée par notre question de recherche. C’est la population à laquelle on souhaite généraliser les résultats.\nOn souhaite, à partir de cette population théorique, constituer un échantillon. Or il faut pour cela trouver un moyen pratique d’accéder à cette population.\nLa solution idéale ? Trouver une liste qui contiendrait un maximum de sujets appartenant à notre population cible. Très souvent, les listes électorales remplissent plutôt bien cette fonction.\nLa part de la population cible accessible en pratique est ainsi définie : il s’agit des sujets âgés de 30 à 45 ans habitant à Lille ET inscrits sur les listes électorales de la commune de Lille : c’est la population source. “Source” car il s’agit bien de la part de la population cible à partir de laquelle on pourra constituer notre échantillon.\nEnfin, un certain nombre de sujets appartenant à la population source seront sélectionnés par tirage au sort à partir des listes électorales : c’est l’échantillon.\n\n\n\n\n\n\n\nFigure 6.2: De la population à l’échantillon (exemple)\n\n\n\n\nLa prévalence de l’obésité sera finalement mesurée dans cet échantillon.\n\n\n\nL’échantillon finalement constitué doit être représentatif de la population cible\n\nPar conséquent, cette représentativité doit être garantit à chaque niveau :\n\n\nLa population source doit être représentative de la population cible\n\n\nLa constitution de la population source sur la base d’une liste électorale garantie une bonne représentativité vis-à-vis de la population cible par le fait qu’une grande partie de la population d’une commune est inscrite sur ses listes électorales. Autrement dit, on considère qu’une liste électorale d’une commune donnée est une liste raisonnablement exhaustive de la population résidant dans cette commune. D’autres méthodes de sélection ne permettraient pas d’atteindre un tel niveau d’exhaustivité (e.g., dans un annuaire téléphonique, dans la rue, distribution de questionnaire par mail).\n\n\nL’échantillon doit être représentatif de la population source\n\n6.2.2 Enquête transversale\nLa notion de transversalité ayant déjà été abordée (Chapitre 4), vous devriez être en mesure de répondre aux questions suivantes.\n\n\n\n\n\n\nL’objectif d’une enquête transversale est-il de mesurer une incidence ou une prévalence ?\n\n\n\n\n\nMesure transversale = mesure prise à un instant donné\nUne enquête transversale consiste donc à mesurer une prévalence (Section 4.2)\n\n\n\n\n\n\n\n\n\nLes sujets inclus dans une étude transversale sont-ils suivis dans le temps ?\n\n\n\n\n\nLa réalisation d’une mesure à un instant donné signifie justement qu’il n’y a pas de suivi dans le temps\n\n\n\nCe type d’enquête a un champ d’application plutôt restreint. Il est adapté à des maladies suffisamment fréquentes pour pouvoir être étudiées ponctuellement avec une précision raisonnable.\n\n\n\n\n\n\nL’étude portant sur l’obésité présentée plus haut (Section 6.2.1) est un exemple d’enquête transversale\n\n\n\n\n\n\n\n\n\n\n\n\nEnquête MONA-LISA-Lille (2005-2007)\n\n\n\n\nObjectif\n\n\nMesurer la prévalence des principaux facteurs de risque cardiovasculaire dans la métropole européenne de Lille (MEL)\n\n\nÉchantillon représentatif\n\n\nTirage au sort sur les listes électorales avec stratification sur la taille des communes\n1600 hommes et femmes, âgés de 35 à 74 ans et résidant dans la MEL\n\n\nInvitation par courrier\n\n\nMesures (e.g., poids, taille, pression artérielle, fréquence cardiaque)\nPrise de sang à jeun (glycémie à jeun, cholestérolémie)\n\n\nExemple de résultat\n\n\nLa prévalence de l’HTA dans la MEL était de 53% chez les hommes et de 45% chez les femmes\n\n\n\n\n\n\n6.2.3 Enquête longitudinale\nLa notion de longitudinalité ayant déjà été abordée (Chapitre 4), vous devriez être en mesure de répondre aux questions suivantes.\n\n\n\n\n\n\nL’objectif d’une enquête longitudinale est-il de mesurer une incidence ou une prévalence ?\n\n\n\n\n\nMesure longitudinale = mesure réalisée dans le temps, sur une période donnée\nUne enquête longitudinale consiste donc à mesurer une incidence (Section 4.2)\n\n\n\n\n\n\n\n\n\nLes sujets inclus dans une étude longitudinale sont-ils suivis dans le temps ?\n\n\n\n\n\nLa réalisation d’une mesure sur une période donnée signifie justement qu’il y a un suivi dans le temps\n\n\n\nUne enquête longitudinale est en pratique appelée étude de cohorte.\nClassiquement, une cohorte est un groupe de personnes suivies dans le temps, servant à la réalisation d’études épidémiologiques présentant un intérêt de santé publique.\nC’est parce qu’il y a un suivi qu’on parle de cohortes prospectives : on mesure la survenue d’un évènement dans le temps. Il s’agit du cas le plus fréquent (il existe aussi des cohortes rétrospectives : on cherche à retrouver une information passée).\n\n\n\n\n\n\nLa cohorte PAQUID (1988-2004)\n\n\n\n\n\nInclusion : 3777 sujets âgés de 65 ans et plus vivant en région Aquitaine\n\nObjectif : étude du vieillissement cérébral et fonctionnel en population générale\n\nSuivi : tous les deux ans à 11 reprises\n\nRésultat : la démence était la cause principale de dépendance du sujet âgé en France\n\n\n\n\n\n\n\n\n\nLa plus importante cohorte en population française : CONSTANCES (2012 - )\n\n\n\n\nObjectif\n\n\nRecueil de données variées pour suivre l’état de santé, la morbidité, la mortalité, les facteurs de risque et les caractéristiques socio-démographiques de ses participants\nVise à couvrir un large éventail de problèmes de santé et leurs déterminants, sans se limiter à une question de recherche spécifique, facilitant ainsi l’analyse d’une multitude de problèmes scientifiques dans le domaine de la santé\n\n\nProtocole\n\n\n220 000 volontaires âgés de 18 à 69 ans et affiliés au Régime général de sécurité sociale inclus entre 2012 et 2021\nDonnées recueillies par des questionnaires complétés à domicile ou administrés par les médecins dans les centres d’examens de santé\n\n\nExemples d’études réalisées ou en cours\n\n\nDéveloppement d’un algorithme d’identification de la dégénérescence maculaire liée à l’âge\nÉtude des liens entre les expositions environnementales vie entière et la santé cardio-métaboliques\nImpact des violences sexuelles sur la santé mentale et la consommation de substances psycho-actives\nÉvolution de la morphologie de la population française\nRôle de la consommation de cannabis dans les comportements suicidaires",
+    "text": "6.2 Enquête sur échantillon représentatif\nOn en distingue deux types :\n\nEnquête transversale (Section 6.2.2)\nEnquête longitudinale (Section 6.2.3)\n\n\n6.2.1 La représentativité\nIl n’est parfois (et même souvent) pas possible d’avoir accès à toute une population (effectifs trop grands, manque de moyens…). Une solution est de réaliser un échantillonnage de cette population.\nUn échantillon est un sous-ensemble, une portion de taille variable d’une population. Il doit être rigoureusement constitué : on veut qu’il soit un bon reflet de la population de laquelle il est issu.\n\nAutrement dit, on veut que l’échantillon soit représentatif de sa population d’origine\n\n\n\n\n\n\n\nPourquoi est-ce important ?\n\n\n\nAdmettons qu’une équipe de chercheurs ait pour objectif de connaitre la prévalence d’une maladie dans une population. Pour ce faire, un échantillon est constitué et une prévalence est mesurée à partir de cet échantillon.\nPourtant, l’objectif de l’étude est bel et bien de connaitre la prévalence dans la population, et non dans l’échantillon.\nL’échantillon n’est effectivement qu’un intermédiaire : la finalité d’une telle étude est de faire une estimation, à partir de la prévalence obtenue dans l’échantillon, de la vraie prévalence dans la population (valeur que l’on ne connaîtra jamais, à moins d’avoir accès à l’ensemble de la population !).\nUne bonne représentativité permet de généraliser la valeur obtenue sur l’échantillon à sa population d’origine en garantissant un certain degré d’exactitude, raison pour laquelle elle doit toujours être recherchée. Plus un échantillon est représentatif de sa population, plus l’estimation est proche de la vraie valeur.\nUn échantillon mal constitué, non représentatif de sa population d’origine, serait pourvoyeur de biais de sélection (Section 10.1). La généralisation de ses résultats pourrait mener à des conclusions erronées.\n\n\nLa constitution d’un échantillon fait intervenir trois étapes successives :\n\n\nPopulation cible : ensemble de la population ciblée par l’enquête\n\nPopulation source : part de la population cible accessible en pratique\n\nÉchantillon : sélection issue de la population source\n\n\n\n\n\n\n\n\nFigure 6.1: De la population à l’échantillon\n\n\n\n\n\n\n\n\n\n\nPrévalence de l’obésité chez les sujets âgés de 30 à 45 ans habitant à Lille (partie I)\n\n\n\nLa population à laquelle on souhaite accéder est définie dès le départ. Il s’agit des sujets âgés de 30 à 45 ans habitant à Lille : c’est la population cible. “Cible” car il s’agit bien de l’ensemble de la population ciblée par notre question de recherche. C’est la population à laquelle on souhaite généraliser les résultats.\nOn souhaite, à partir de cette population théorique, constituer un échantillon. Or il faut pour cela trouver un moyen pratique d’accéder à cette population.\nLa solution idéale ? Trouver une liste qui contiendrait un maximum de sujets appartenant à notre population cible. Très souvent, les listes électorales remplissent plutôt bien cette fonction.\nLa part de la population cible accessible en pratique est ainsi définie : il s’agit des sujets âgés de 30 à 45 ans habitant à Lille ET inscrits sur les listes électorales de la commune de Lille : c’est la population source. “Source” car il s’agit bien de la part de la population cible à partir de laquelle on pourra constituer notre échantillon.\nEnfin, un certain nombre de sujets appartenant à la population source seront sélectionnés par tirage au sort à partir des listes électorales : c’est l’échantillon.\n\n\n\n\n\n\n\nFigure 6.2: De la population à l’échantillon (exemple)\n\n\n\n\nLa prévalence de l’obésité sera finalement mesurée dans cet échantillon.\n\n\n\nL’échantillon finalement constitué doit être représentatif de la population cible\n\nPar conséquent, cette représentativité doit être garantit à chaque niveau :\n\n\nLa population source doit être représentative de la population cible\n\n\nLa constitution de la population source sur la base d’une liste électorale garantit une bonne représentativité vis-à-vis de la population cible (on considère que les personnes qui votent ont les mêmes caractéristiques que celles qui ne votent pas).\n\n\nL’échantillon doit être représentatif de la population source\n\n6.2.2 Enquête transversale\nLa notion de transversalité ayant déjà été abordée (Chapitre 4), vous devriez être en mesure de répondre aux questions suivantes.\n\n\n\n\n\n\nL’objectif d’une enquête transversale est-il de mesurer une incidence ou une prévalence ?\n\n\n\n\n\nMesure transversale = mesure prise à un instant donné\nUne enquête transversale consiste donc à mesurer une prévalence (Section 4.2)\n\n\n\n\n\n\n\n\n\nLes sujets inclus dans une étude transversale sont-ils suivis dans le temps ?\n\n\n\n\n\nLa réalisation d’une mesure à un instant donné signifie justement qu’il n’y a pas de suivi dans le temps\n\n\n\nCe type d’enquête a un champ d’application plutôt restreint. Il est adapté à des maladies suffisamment fréquentes pour pouvoir être étudiées ponctuellement avec une précision raisonnable.\n\n\n\n\n\n\nL’étude portant sur l’obésité présentée plus haut (Section 6.2.1) est un exemple d’enquête transversale\n\n\n\n\n\n\n\n\n\n\n\n\nEnquête MONA-LISA-Lille (2005-2007)\n\n\n\n\nObjectif\n\n\nMesurer la prévalence des principaux facteurs de risque cardiovasculaire dans la métropole européenne de Lille (MEL)\n\n\nÉchantillon représentatif\n\n\nTirage au sort sur les listes électorales avec stratification sur la taille des communes\n1600 hommes et femmes, âgés de 35 à 74 ans et résidant dans la MEL\n\n\nInvitation par courrier\n\n\nMesures (e.g., poids, taille, pression artérielle, fréquence cardiaque)\nPrise de sang à jeun (glycémie à jeun, cholestérolémie)\n\n\nExemple de résultat\n\n\nLa prévalence de l’HTA dans la MEL était de 53% chez les hommes et de 45% chez les femmes\n\n\n\n\n\n\n6.2.3 Enquête longitudinale\nLa notion de longitudinalité ayant déjà été abordée (Chapitre 4), vous devriez être en mesure de répondre aux questions suivantes.\n\n\n\n\n\n\nL’objectif d’une enquête longitudinale est-il de mesurer une incidence ou une prévalence ?\n\n\n\n\n\nMesure longitudinale = mesure réalisée dans le temps, sur une période donnée\nUne enquête longitudinale consiste donc à mesurer une incidence (Section 4.2)\n\n\n\n\n\n\n\n\n\nLes sujets inclus dans une étude longitudinale sont-ils suivis dans le temps ?\n\n\n\n\n\nLa réalisation d’une mesure sur une période donnée signifie justement qu’il y a un suivi dans le temps\n\n\n\nUne enquête longitudinale est en pratique appelée étude de cohorte.\nClassiquement, une cohorte est un groupe de personnes suivies dans le temps, servant à la réalisation d’études épidémiologiques présentant un intérêt de santé publique.\nC’est parce qu’il y a un suivi qu’on parle de cohortes prospectives : on mesure la survenue d’un évènement dans le temps. Il s’agit du cas le plus fréquent (il existe aussi des cohortes rétrospectives : on cherche à retrouver une information passée).\n\n\n\n\n\n\nLa cohorte PAQUID (1988-2004)\n\n\n\n\n\nInclusion : 3777 sujets âgés de 65 ans et plus vivant en région Aquitaine\n\nObjectif : étude du vieillissement cérébral et fonctionnel en population générale\n\nSuivi : tous les deux ans à 11 reprises\n\nRésultat : la démence était la cause principale de dépendance du sujet âgé en France\n\n\n\n\n\n\n\n\n\nLa plus importante cohorte en population française : CONSTANCES (2012 - )\n\n\n\n\nObjectif\n\n\nRecueil de données variées pour suivre l’état de santé, la morbidité, la mortalité, les facteurs de risque et les caractéristiques socio-démographiques de ses participants\nVise à couvrir un large éventail de problèmes de santé et leurs déterminants, sans se limiter à une question de recherche spécifique, facilitant ainsi l’analyse d’une multitude de problèmes scientifiques dans le domaine de la santé\n\n\nProtocole\n\n\n220 000 volontaires âgés de 18 à 69 ans et affiliés au Régime général de sécurité sociale inclus entre 2012 et 2021\nDonnées recueillies par des questionnaires complétés à domicile ou administrés par les médecins dans les centres d’examens de santé\n\n\nExemples d’études réalisées ou en cours\n\n\nDéveloppement d’un algorithme d’identification de la dégénérescence maculaire liée à l’âge\nÉtude des liens entre les expositions environnementales vie entière et la santé cardio-métaboliques\nImpact des violences sexuelles sur la santé mentale et la consommation de substances psycho-actives\nÉvolution de la morphologie de la population française\nRôle de la consommation de cannabis dans les comportements suicidaires",
     "crumbs": [
       "Sources des indicateurs",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Enquêtes spécifiques</span>"
     ]
   },
   {
-    "objectID": "sources_spe.html#take-home-messages",
-    "href": "sources_spe.html#take-home-messages",
+    "objectID": "sources_spe.html#messages-importants",
+    "href": "sources_spe.html#messages-importants",
     "title": "6  Enquêtes spécifiques",
-    "section": "TAKE-HOME MESSAGES",
-    "text": "TAKE-HOME MESSAGES",
+    "section": "MESSAGES IMPORTANTS",
+    "text": "MESSAGES IMPORTANTS",
     "crumbs": [
       "Sources des indicateurs",
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Enquêtes spécifiques</span>"
@@ -490,38 +500,6 @@
     ]
   },
   {
-    "objectID": "erreur_biais.html#take-home-messages",
-    "href": "erreur_biais.html#take-home-messages",
-    "title": "10  Biais",
-    "section": "TAKE-HOME MESSAGES",
-    "text": "TAKE-HOME MESSAGES",
-    "crumbs": [
-      "Erreurs de mesure",
-      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Biais</span>"
-    ]
-  },
-  {
-    "objectID": "sources_base.html#messages-importants",
-    "href": "sources_base.html#messages-importants",
-    "title": "\n5  Recueils systématiques\n",
-    "section": "MESSAGES IMPORTANTS",
-    "text": "MESSAGES IMPORTANTS",
-    "crumbs": [
-      "Sources des indicateurs",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
-    ]
-  },
-  {
-    "objectID": "definitions.html#messages-importants",
-    "href": "definitions.html#messages-importants",
-    "title": "\n1  Définitions\n",
-    "section": "MESSAGES IMPORTANTS",
-    "text": "MESSAGES IMPORTANTS",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Définitions</span>"
-    ]
-  },
-  {
     "objectID": "erreur_biais.html#messages-importants",
     "href": "erreur_biais.html#messages-importants",
     "title": "10  Biais",
@@ -530,70 +508,6 @@
     "crumbs": [
       "Erreurs de mesure",
       "<span class='chapter-number'>10</span>  <span class='chapter-title'>Biais</span>"
-    ]
-  },
-  {
-    "objectID": "indic_morbi.html#messages-importants",
-    "href": "indic_morbi.html#messages-importants",
-    "title": "4  Indicateurs de morbidité",
-    "section": "MESSAGES IMPORTANTS",
-    "text": "MESSAGES IMPORTANTS",
-    "crumbs": [
-      "Indicateurs de santé",
-      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Indicateurs de morbidité</span>"
-    ]
-  },
-  {
-    "objectID": "sources_spe.html#messages-importants",
-    "href": "sources_spe.html#messages-importants",
-    "title": "6  Enquêtes spécifiques",
-    "section": "MESSAGES IMPORTANTS",
-    "text": "MESSAGES IMPORTANTS",
-    "crumbs": [
-      "Sources des indicateurs",
-      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Enquêtes spécifiques</span>"
-    ]
-  },
-  {
-    "objectID": "indic_mort.html#messages-importants",
-    "href": "indic_mort.html#messages-importants",
-    "title": "3  Indicateurs de mortalité",
-    "section": "MESSAGES IMPORTANTS",
-    "text": "MESSAGES IMPORTANTS",
-    "crumbs": [
-      "Indicateurs de santé",
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Indicateurs de mortalité</span>"
-    ]
-  },
-  {
-    "objectID": "sources_base.html#limites-des-données-de-routine",
-    "href": "sources_base.html#limites-des-données-de-routine",
-    "title": "\n5  Recueils systématiques\n",
-    "section": "\n5.4 Limites des données de routine",
-    "text": "5.4 Limites des données de routine\nInformations limitées\nLes données peuvent être incomplètes ou ne pas couvrir tous les aspects nécessaires pour une évaluation complète.\nPas de choix des données\nLes données disponibles ne sont pas toujours celles choisies, ce qui peut affecter l’interprétation et l’utilisation de ces informations en pratique.\nPas de définition standardisée\nLa variabilité avec laquelle sont définies les critères peut conduire à des confusions ou à des erreurs d’interprétation si elle n’est pas prise en compte.\nPas de contrôle de qualité des données\nLes données peuvent être de qualité variable, insuffisamment contrôlées pour assurer leur fiabilité.\n\n\nPour pallier ces limites, il peut être nécessaire de réaliser des enquêtes spécifiques (Chapitre 6).",
-    "crumbs": [
-      "Sources des indicateurs",
-      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Recueils systématiques</span>"
-    ]
-  },
-  {
-    "objectID": "index.html#notes-sur-le-cours",
-    "href": "index.html#notes-sur-le-cours",
-    "title": "Épidémiologie descriptive",
-    "section": "Notes sur le cours",
-    "text": "Notes sur le cours\n\nLe texte souligné renvoie vers un référence interne au cours (chapitre, section, figure, …) ou un lien externe\nLes ressources externes sont présentées en tant que compléments au cours, autrement dit\ntout de ce qui est demandé de connaitre pour l’examen est écrit dans ce cours\nIl n’est pas demandé de connaitre de listes, de chiffres ou de formules mathématiques\n\n\nEn parcourant le cours, vous trouverez plusieurs encadrés ayant chacun une signification :\n\n\n\n\n\n\nUne note/remarque\n\n\n\n\n\n\n\n\n\n\n\n\nUn exemple\n\n\n\n\n\n\n\n\n\n\n\n\nUn énoncé ou une question (cliquer pour afficher la réponse)\n\n\n\n\n\nLa réponse\n\n\n\n\n\n\n\n\n\nUne précision sur une notion de cours pouvant porter à confusion\n\n\n\n\n\n\n\n\n\n\n\n\nCe qu’il faut absolument retenir du chapitre (présent en fin de chapitre)",
-    "crumbs": [
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "definitions.html#lépidémiologie-descriptive",
-    "href": "definitions.html#lépidémiologie-descriptive",
-    "title": "\n1  Définitions\n",
-    "section": "\n1.2 L’épidémiologie descriptive",
-    "text": "1.2 L’épidémiologie descriptive\nL’épidémiologie descriptive a pour objectif de décrire un phénomène de santé dans un groupe ou une population, en termes de :\n\n\nFréquence : quelle est l’ampleur d’un phénomène de santé\n\nRépartition : comment est-il distribué selon divers facteurs démographiques, socio-économiques, etc.\n\nÉvolution : comment sa fréquence et sa répartition évoluent dans le temps\n\nCaractéristiques : quels mécanismes décrire (e.g., biologiques, comportementaux)\n\n\n\n\n\n\n\nÉtude de l’obésité\n\n\n\n\nDéterminer la prévalence de l’obésité\nIdentifier les régions où elle est la plus répandue\nSuivre l’évolution au fil des années\nAnalyser les caractéristiques des populations les plus touchées\n\n\n\nL’épidémiologie descriptive repose sur l’utilisation d’indicateurs de santé (Chapitre 2).\nSes objectifs sont multiples :\n\nSurveillance et contrôle sanitaire\n\n\n\n\n\n\n\nRepérage des individus atteints de maladies infectieuses pour agir (exemples)\n\n\n\n\n\nPandémie de Covid-19 : isolement\n\nTuberculose : traitement des malades\n\nMéningite bactérienne : traitement prophylactique de l’entourage (vaccination)\n\nToxi-infection alimentaire collective (TIAC) : repérage et neutralisation de la source contaminante\n\n\n\n\nMeilleure connaissance des besoins de prise en charge de la population\n\n\n\n\n\n\n\nLe risque d’avoir un enfant atteint de trisomie 21 augmente avec l’âge maternel\n\n\n\nUne meilleure compréhension de ce phénomène permet d’adapter la prise en charge de la population, notamment en matière de consultation génétique et de dépistage anténatal.\n\n\n\nÉvaluation d’une action de santé\n\n\n\n\n\n\n\nEfficacité de la vaccination pour diminuer le nombre d’hospitalisations et de décès dus au Covid\n\n\n\nL’évaluation peut consister à comparer la survenue des nouveaux cas, les taux d’hospitalisation et de mortalité avant et après couvertures vaccinales.\n\n\n\nFormulation d’hypothèses pour la recherche analytique\n\n\n\n\n\n\n\nIl existe un gradient nord-sud décroissant dans la survenue des maladies cardiovasculaires\n\n\n\nCe phénomène a ouvert la voie vers une recherche complexe et multidimensionnelle (e.g., influence climatique, exposition solaire, facteurs génétiques, facteurs socio-économiques).",
-    "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Définitions</span>"
     ]
   }
 ]
