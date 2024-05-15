@@ -11,9 +11,6 @@ book:
   sidebar: 
     border: true
     background: secondary
-  comments: 
-    hypothesis:
-      openSidebar: false
   chapters:
     - index.qmd
     

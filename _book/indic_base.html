@@ -72,17 +72,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Recherche"
   }
 }</script>
-<script type="application/json" class="js-hypothesis-config">
-{
-  "openSidebar": false
-}
-</script>
-<script async="" src="https://hypothes.is/embed.js"></script>
-<script>
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    document.body.classList.add('hypothesis-enabled');
-  });
-</script>
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
@@ -663,7 +652,7 @@ Un test de dépistage du VIH doit être spécifique de l’infection à VIH et n
 <div id="fig-cible-a" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-cible-a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="img/cible_a.png" class="lightbox" data-gallery="fig-cible" data-glightbox="description: .lightbox-desc-1"><img src="img/cible_a.png" class="img-fluid figure-img" data-ref-parent="fig-cible"></a>
+<a href="img/cible_a.png" class="lightbox" data-glightbox="description: .lightbox-desc-1" data-gallery="fig-cible"><img src="img/cible_a.png" class="img-fluid figure-img" data-ref-parent="fig-cible"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-cible-a-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (a) Précis et exact
@@ -675,7 +664,7 @@ Un test de dépistage du VIH doit être spécifique de l’infection à VIH et n
 <div id="fig-cible-b" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-cible-b-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="img/cible_b.png" class="lightbox" data-gallery="fig-cible" data-glightbox="description: .lightbox-desc-2"><img src="img/cible_b.png" class="img-fluid figure-img" data-ref-parent="fig-cible"></a>
+<a href="img/cible_b.png" class="lightbox" data-glightbox="description: .lightbox-desc-2" data-gallery="fig-cible"><img src="img/cible_b.png" class="img-fluid figure-img" data-ref-parent="fig-cible"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-cible-b-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (b) Plutôt exact mais imprécis
@@ -689,7 +678,7 @@ Un test de dépistage du VIH doit être spécifique de l’infection à VIH et n
 <div id="fig-cible-c" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-cible-c-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="img/cible_c.png" class="lightbox" data-gallery="fig-cible" data-glightbox="description: .lightbox-desc-3"><img src="img/cible_c.png" class="img-fluid figure-img" data-ref-parent="fig-cible"></a>
+<a href="img/cible_c.png" class="lightbox" data-glightbox="description: .lightbox-desc-3" data-gallery="fig-cible"><img src="img/cible_c.png" class="img-fluid figure-img" data-ref-parent="fig-cible"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-cible-c-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (c) Plutôt précis mais inexact
@@ -701,7 +690,7 @@ Un test de dépistage du VIH doit être spécifique de l’infection à VIH et n
 <div id="fig-cible-d" class="quarto-figure quarto-figure-center quarto-float anchored">
 <figure class="quarto-float quarto-subfloat-fig figure">
 <div aria-describedby="fig-cible-d-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="img/cible_d.png" class="lightbox" data-gallery="fig-cible" data-glightbox="description: .lightbox-desc-4"><img src="img/cible_d.png" class="img-fluid figure-img" data-ref-parent="fig-cible"></a>
+<a href="img/cible_d.png" class="lightbox" data-glightbox="description: .lightbox-desc-4" data-gallery="fig-cible"><img src="img/cible_d.png" class="img-fluid figure-img" data-ref-parent="fig-cible"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-subfloat-caption quarto-subfloat-fig" id="fig-cible-d-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 (d) Imprécis et inexact
@@ -1187,7 +1176,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
-<script>var lightboxQuarto = GLightbox({"descPosition":"bottom","closeEffect":"zoom","selector":".lightbox","openEffect":"zoom","loop":false});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","loop":false,"selector":".lightbox","descPosition":"bottom","closeEffect":"zoom"});
 window.onload = () => {
   lightboxQuarto.on('slide_before_load', (data) => {
     const { slideIndex, slideNode, slideConfig, player, trigger } = data;
