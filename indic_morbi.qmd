@@ -1,6 +1,6 @@
 # Indicateurs de morbidité {#sec-mrb}
 
-La [morbidité]{.cb} se réfère au fait d'être [atteint d'une maladie]{.cb}.
+La [morbidité]{.cb1} se réfère au fait d'être [atteint d'une maladie]{.cb1}.
 
 ::: callout-note
 ## Mesurer la morbidité : éléments philosophiques
@@ -12,14 +12,13 @@ La [morbidité]{.cb} se réfère au fait d'être [atteint d'une maladie]{.cb}.
 *Ainsi, comment mesurer la morbidité ? Par le biais de l'individu ? De son médecin ? D'un paramètre biologique ? Quand est-ce qu'elle commence et quand est-ce qu'elle finit ?*
 :::
 
-Il existe en pratique deux indicateurs de morbidité : l'[incidence]{.cb} et la [prévalence]{.cb}.
+Il existe en pratique deux indicateurs de morbidité : l'[incidence]{.cb1} et la [prévalence]{.cb1}.
 
 
 ## Incidence {#sec-inc}
 
-Un [taux d'incidence]{.cb} est un [taux]{.cb} (@sec-taux) appliqué à la [survenue de nouveaux cas]{.cb} d'une maladie dans une population.
+Un [taux d'incidence]{.cb1} est un [taux]{.cb1} (@sec-taux) appliqué à la [survenue de nouveaux cas]{.cb1} d'une maladie dans une population.
 
-> 
 $$
 \mathrm{
 \frac
@@ -30,10 +29,10 @@ sur \ une \ période \ donnée
 }
 $$
 
-Puisqu'il s'agit d'une mesure prise sur une période, elle est qualifiée de mesure [longitudinale]{.cb} (*en longueur*, *d'un point A à un point B*).
+Puisqu'il s'agit d'une mesure prise sur une période, elle est qualifiée de mesure [longitudinale]{.cb1} (*en longueur*, *d'un point A à un point B*).
 
-Le taux d'incidence est [toujours]{.cb} spécifié pour une [période donnée]{.cb}.
-Il reflète la [vitesse de survenue]{.cb} d'une maladie dans une population.
+Le taux d'incidence est [toujours]{.cb1} spécifié pour une [période donnée]{.cb1}.
+Il reflète la [vitesse de survenue]{.cb1} d'une maladie dans une population.
 
 ::: callout-tip
 ## Dans une ville de 100 000 habitants, on observe 500 nouveaux cas de Covid durant l'hiver 2023 (période de 3 mois)
@@ -48,9 +47,8 @@ Durant l'hiver 2023, il y a eu 5 nouveaux cas de Covid pour 1000 habitants.
 
 ## Prévalence {#sec-prev}
 
-La [prévalence]{.cb} est la [proportion]{.cb} (@sec-prop) de [personnes atteintes d'une maladie à un instant donné]{.cb} dans une population.
+La [prévalence]{.cb1} est la [proportion]{.cb1} (@sec-prop) de [personnes atteintes d'une maladie à un instant donné]{.cb1} dans une population.
 
->
 $$
 \mathrm{
 \frac
@@ -68,28 +66,28 @@ La prévalence était de $\frac{1150}{3000}$ = 0,38 \
 Le 15/03/2024, la prévalence de la toxoplasmose chez les femmes enceintes était de 38%.
 :::
 
-Du fait qu'il s'agisse d'une mesure ponctuelle, elle est qualifiée de mesure [transversale]{.cb} (*à un instant donné*, *une photographie*), en opposition à longitudinale.
+Du fait qu'il s'agisse d'une mesure ponctuelle, elle est qualifiée de mesure [transversale]{.cb1} (*à un instant donné*, *une photographie*), en opposition à longitudinale.
 
 Pour qu'une proportion de personnes malades se constitue au sein d'une population, il faut logiquement que de nouveaux cas soient apparus en amont.
-Autrement dit, la prévalence d'une maladie est [dépendante de l'incidence]{.cb} de cette maladie. 
+Autrement dit, la prévalence d'une maladie est [dépendante de l'incidence]{.cb1} de cette maladie. 
 
-La prévalence dépend également de la [durée d'évolution]{.cb} de la maladie : plus celle-ci augmente, plus le nombre de personnes vivant avec la maladie augmente dans la population. 
+La prévalence dépend également de la [durée d'évolution]{.cb1} de la maladie : plus celle-ci augmente, plus le nombre de personnes vivant avec la maladie augmente dans la population. 
 
 
 ## Incidence vs prévalence
 
 ::: {.p style="text-align:center"}
 La prévalence est un indicateur statique
-: Elle rend compte de la [fréquence]{.cb} d'une maladie [à un instant donné]{.cb}
+: Elle rend compte de la [fréquence]{.cb1} d'une maladie [à un instant donné]{.cb1}
 
 L'incidence est un indicateur dynamique
-: Elle rend compte de la [vitesse]{.cb} à laquelle une maladie survient [sur une période donnée]{.cb}
+: Elle rend compte de la [vitesse]{.cb1} à laquelle une maladie survient [sur une période donnée]{.cb1}
 :::
 
 
 ### Analogie : la baignoire de l'épidémiologiste
 
-L'incidence, la prévalence et la relation qui existe entre elles peuvent être illustrées avec [la baignoire de l'épidémiologiste]{.cb} (@fig-baignoire).
+L'incidence, la prévalence et la relation qui existe entre elles peuvent être illustrées avec [la baignoire de l'épidémiologiste]{.cb1} (@fig-baignoire).
 
 Elle est constituée classiquement de 4 éléments :
 
@@ -98,13 +96,13 @@ Elle est constituée classiquement de 4 éléments :
 3. Une évacuation
 4. Une évaporation
 
-Le débit d'eau entrant représente les nouveaux cas : c'est l'[incidence]{.cb}.
+Le débit d'eau entrant représente les nouveaux cas : c'est l'[incidence]{.cb1}.
 
-Le volume d'eau constitué représente le proportion de cas dans la population : c'est la [prévalence]{.cb}.
+Le volume d'eau constitué représente le proportion de cas dans la population : c'est la [prévalence]{.cb1}.
 
-L'évacuation symbolise une proportion de cas sortant de la population : c'est la [mortalité]{.cb}.
+L'évacuation symbolise une proportion de cas sortant de la population : c'est la [mortalité]{.cb1}.
 
-La mort n'est pas la seule manière de ne plus être malade : il y a aussi une possibilité de [guérison]{.cb} (ou rémission).
+La mort n'est pas la seule manière de ne plus être malade : il y a aussi une possibilité de [guérison]{.cb1} (ou rémission).
 Ce dernier élément peut être symbolisé par l'évaporation.
 
 ```{r #fig-baignoire}
@@ -117,9 +115,9 @@ knitr::include_graphics("img/baignoire.png")
 
 En résumé, il s'agit d'un circuit avec :
 
-- Un débit [entrant]{.cb} : l'apparition de nouveaux cas = [incidence]{.cb}
-- Un volume [constitué]{.cb} : le nombre de cas dans la population = [prévalence]{.cb}
-- Un débit [sortant]{.cb} : la [mort]{.cb} ou la [guérison]{.cb}
+- Un débit [entrant]{.cb1} : l'apparition de nouveaux cas = [incidence]{.cb1}
+- Un volume [constitué]{.cb1} : le nombre de cas dans la population = [prévalence]{.cb1}
+- Un débit [sortant]{.cb1} : la [mort]{.cb1} ou la [guérison]{.cb1}
 
 Bien que le robinet soit constamment ouvert, la baignoire ne déborde pas. En revanche, s'il y a une limite à la sortie, le niveau d'eau aura tendance à augmenter avec le temps.
 
@@ -131,25 +129,25 @@ L'incidence, la prévalence et leur évolution dans le temps peuvent être repr�
 ```{r #fig-vih}
 #| out-width: 6in
 #| fig-align: center
-#| fig-cap: "État de l'épidémie de SIDA dans le monde (en millions). Source : [UNAIDS](https://www.unaids.org/en/resources/fact-sheet)"
+#| fig-cap: "État de l'épidémie de SIDA dans le monde (en millions).<br>[Source : [UNAIDS](https://www.unaids.org/en/resources/fact-sheet)]{.quarto-float-subcaption}"
 
 knitr::include_graphics("img/vih.png")
 ```
 
-L'infection à VIH est pourvoyeuse du SIDA, une maladie pour laquelle il n'y a [pas de guérison]{.cb}.
-D'autre part, les progrès thérapeutiques ont permis à ce que les personnes malades [vivent plus longtemps]{.cb} avec leur maladie.
+L'infection à VIH est pourvoyeuse du SIDA, une maladie pour laquelle il n'y a [pas de guérison]{.cb1}.
+D'autre part, les progrès thérapeutiques ont permis à ce que les personnes malades [vivent plus longtemps]{.cb1} avec leur maladie.
 
-Une maladie pour laquelle la possibilité de guérison est diminuée, et la durée de survie augmentée, est une maladie dont la prévalence [augmente]{.cb}.
-Cette situation est celle des maladies dites [chroniques]{.cb}.
+Une maladie pour laquelle la possibilité de guérison est diminuée, et la durée de survie augmentée, est une maladie dont la prévalence [augmente]{.cb1}.
+Cette situation est celle des maladies dites [chroniques]{.cb1}.
 
-De manière générale, avec l'augmentation de l'espérance de vie, la prévalence d'une maladie a tendance à [augmenter avec le temps]{.cb}, *à l'image d'une baignoire qui se remplirait d'eau*.
+De manière générale, avec l'augmentation de l'espérance de vie, la prévalence d'une maladie a tendance à [augmenter avec le temps]{.cb1}, *à l'image d'une baignoire qui se remplirait d'eau*.
 
-L'incidence ne suit pas cette tendance. Hors situation particulière, les nouveaux cas d'une maladie apparaissent à une vitesse [modérée et constante]{.cb}, *à l'image d'un robinet qu'on aurait laissé ouvert*.
+L'incidence ne suit pas cette tendance. Hors situation particulière, les nouveaux cas d'une maladie apparaissent à une vitesse [modérée et constante]{.cb1}, *à l'image d'un robinet qu'on aurait laissé ouvert*.
 
 
 ### Facteurs déterminants
 
-Comment auraient tendance à évoluer l'incidence et la prévalence dans les situations suivantes (augmentation, diminution, stabilité) ?
+Comment auraient tendance à évoluer l'incidence et la prévalence dans les situations suivantes (augmentation, diminution ou stabilité) ?
 
 ```{r}
 library(gt)
@@ -197,9 +195,9 @@ list(gt_arrow(incidence = "arrow-up-long",
 tab[[1]]
 ```
 
-Si davantage de personnes sont exposées à des facteurs favorisant le développement d'une maladie (e.g., tabagisme pour le cancer du poumon, alimentation riche en graisses saturées pour les maladies cardiovasculaires), l'incidence [augmente]{.cb}.
+Si davantage de personnes sont exposées à des facteurs favorisant le développement d'une maladie (e.g., tabagisme pour le cancer du poumon, alimentation riche en graisses saturées pour les maladies cardiovasculaires), l'incidence [augmente]{.cb1}.
 
-La prévalence est dépendante de l'incidence : elle aura aussi tendance à [augmenter]{.cb}, d'autant plus s'il s'agit d'une maladie chronique.
+La prévalence est dépendante de l'incidence : elle aura aussi tendance à [augmenter]{.cb1}, d'autant plus s'il s'agit d'une maladie chronique.
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
@@ -208,9 +206,9 @@ La prévalence est dépendante de l'incidence : elle aura aussi tendance à [aug
 tab[[2]]
 ```
 
-L'incidence est focalisée sur l'apparition de nouveaux cas et non sur l'évolution de la maladie dans la population : elle n'est [pas affectée]{.cb} en cas de guérison plus rapide.
+L'incidence est focalisée sur l'apparition de nouveaux cas et non sur l'évolution de la maladie dans la population : elle n'est [pas affectée]{.cb1} en cas de guérison plus rapide.
 
-En revanche, la guérison signifie une diminution du nombre de cas dans la population : la prévalence [diminue]{.cb}
+En revanche, la guérison signifie une diminution du nombre de cas dans la population : la prévalence [diminue]{.cb1}
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
@@ -219,9 +217,9 @@ En revanche, la guérison signifie une diminution du nombre de cas dans la popul
 tab[[3]]
 ```
 
-L'incidence est focalisée sur l'apparition de nouveaux cas et non sur l'évolution de la maladie dans la population : elle n'est [pas affectée]{.cb} en cas d'amélioration de la survie.
+L'incidence est focalisée sur l'apparition de nouveaux cas et non sur l'évolution de la maladie dans la population : elle n'est [pas affectée]{.cb1} en cas d'amélioration de la survie.
 
-En revanche, une amélioration de la survie entraîne une augmentation du nombre de personnes vivant avec la maladie : la prévalence [augmente]{.cb}. Cette situation concerne particulièrement les maladies chroniques.
+En revanche, une amélioration de la survie entraîne une augmentation du nombre de personnes vivant avec la maladie : la prévalence [augmente]{.cb1}. Cette situation concerne particulièrement les maladies chroniques.
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
@@ -230,10 +228,10 @@ En revanche, une amélioration de la survie entraîne une augmentation du nombre
 tab[[4]]
 ```
 
-Des outils diagnostiques plus performants peuvent détecter la maladie chez des personnes chez qui elle n'aurait pas pu être diagnostiquée auparavant : l'incidence [augmente]{.cb}.\
-Cela peut donner l'impression d'une augmentation du nombre de nouveaux cas, alors qu'il s'agit en réalité d'une [meilleure identification des cas existants]{.cb}.
+Des outils diagnostiques plus performants peuvent détecter la maladie chez des personnes chez qui elle n'aurait pas pu être diagnostiquée auparavant : l'incidence [augmente]{.cb1}.\
+Cela peut donner l'impression d'une augmentation du nombre de nouveaux cas, alors qu'il s'agit en réalité d'une [meilleure identification des cas existants]{.cb1}.
 
-La prévalence [augmente]{.cb} du fait de l'augmentation de l'incidence, d'autant plus si la maladie est détectée à une stade plus précoce (les malades vivront plus longtemps avec leur diagnostic).
+La prévalence [augmente]{.cb1} du fait de l'augmentation de l'incidence, d'autant plus si la maladie est détectée à une stade plus précoce (les malades vivront plus longtemps avec leur diagnostic).
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
@@ -242,10 +240,10 @@ La prévalence [augmente]{.cb} du fait de l'augmentation de l'incidence, d'autan
 tab[[5]]
 ```
 
-Une meilleure déclaration permet de capturer un plus grand nombre de cas existants dans la population : l'incidence [augmente]{.cb}. 
-Cela peut donner l'impression d'une augmentation du nombre de nouveaux cas, alors qu'il s'agit en réalité d'une [meilleure identification des cas existants]{.cb}.
+Une meilleure déclaration permet de capturer un plus grand nombre de cas existants dans la population : l'incidence [augmente]{.cb1}. 
+Cela peut donner l'impression d'une augmentation du nombre de nouveaux cas, alors qu'il s'agit en réalité d'une [meilleure identification des cas existants]{.cb1}.
 
-Du fait de l'augmentation de l'incidence, la prévalence [augmente]{.cb}
+Du fait de l'augmentation de l'incidence, la prévalence [augmente]{.cb1}
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
@@ -278,30 +276,30 @@ tab |>
 ::: {.callout-caution collapse="true" appearance="minimal"}
 ## Sur les 30 derniers jours, 10 patients sur 40 hospitalisés dans un service de maladies infectieuses ont fait un séjour en réanimation pour choc septique
 
-Nombre de nouveaux évènements parmi les personnes à risque, sur une période donnée : c'est une [incidence]{.cb}.
+Nombre de nouveaux évènements parmi les personnes à risque, sur une période donnée : c'est une [incidence]{.cb1}.
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
 ## Au 01/01/2024, il y avait 5% d'hommes atteints d'un cancer de la prostate dans la région Hauts-de-France
 
-Proportion à un instant donné : c'est une [prévalence]{.cb}.
+Proportion à un instant donné : c'est une [prévalence]{.cb1}.
 :::
 
 ---
 \
 
 ::: {.p style="text-align:center"}
-## MESSAGES IMPORTANTS {.unnumbered .unlisted}
+# À RETENIR {.unnumbered .unlisted}
 :::
 
 ::: callout-important
-## [Bien distinguer incidence et prévalence (penser à la baignoire)]{.cb}
+# Bien distinguer incidence et prévalence (penser à la baignoire !)
 :::
 
 ::: callout-important
-## [La prévalence est dépendante de l'incidence]{.cb}
+# La prévalence est dépendante de l'incidence
 :::
 
 ::: callout-important
-## [La prévalence des maladies a tendance à augmenter avec le temps]{.cb}
+# La prévalence des maladies a tendance à augmenter avec le temps
 :::

@@ -1,39 +1,71 @@
 project:
   type: book
+  output-dir: _book
+
+execute:
+  freeze: auto
 
 lang: fr
 
 book:
-  title: "Épidémiologie descriptive"
+  title: Épidémiologie descriptive
   description: "| **IFSI 1A - UE 1.2-S2 Santé Publique**"
   author: Université de Lille
-  date: today
+  date: last-modified
+  downloads: [pdf, docx]
+  repo-url: https://codeberg.org/hebstr/epi_d
   sidebar: 
-    border: true
-    background: secondary
+    style: docked
+    background: lighten($primary, 59%)
   chapters:
-    - index.qmd
-    
-    - definitions.qmd
-    
+    - part: Introduction
+      chapters:
+        - index.qmd
+        - definitions.qmd
     - part: Indicateurs de santé
       chapters: 
         - indic_base.qmd
         - indic_mort.qmd
         - indic_morbi.qmd
-    
     - part: Sources des indicateurs
       chapters: 
         - sources_base.qmd
         - sources_spe.qmd
         - sources_quali.qmd
-    
     - part: Erreurs de mesure    
       chapters: 
         - erreur_def.qmd
         - erreur_fluct.qmd
         - erreur_biais.qmd
         
+format:
+  html:
+    toc-title: Dans ce chapitre
+    toc-depth: 4
+    toc-expand: true
+    number-sections: true
+    number-depth: 4
+    colorlinks: true
+    code-link: true
+    code-copy: false
+    code-fold: true
+    callout-appearance: simple
+    reference-location: margin
+    html-table-processing: none
+    crossref: 
+      title-delim: "."
+      tbl-title: "Tableau"
+    theme:
+      light: 
+        - cosmo
+        - _css/style.scss
+    grid:
+      sidebar-width: 310px
+      body-width: 780px
+      margin-width: 310px
+
+lightbox: true
+
 knitr: 
   opts_chunk:
     collapse: true
@@ -41,16 +73,4 @@ knitr:
     echo: false
     message: false
     warning: false
-
-format:
-  html:
-    theme:
-      light: 
-        - cosmo
-        - theme.scss
-    callout-appearance: simple
-    lightbox: true
-    code-link: true
-    code-copy: false
-    code-fold: true
-    reference-location: margin
+    

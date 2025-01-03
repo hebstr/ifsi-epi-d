@@ -1,0 +1,15 @@
+{
+  "hash": "0979f8bbec027c7b612ed89f0d2f3f5b",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# La notion d'erreur {#sec-err}\n\n## Erreur de mesure\n\nOn attend de la mesure d'un indicateur deux choses :\n\n1. Qu'elle fournisse la même valeur lorsqu'on la reproduit : sa [fiabilité]{.cb1}\n2. Qu'elle corresponde bien à la vraie valeur : sa [validité]{.cb1}\n\nUne mesure peut parfois s'écarter de la vraie valeur, à laquelle nous n'avons pas accès : c'est ce qu'on peut appeler une [erreur de mesure]{.cb1}.\n\n::: callout-tip\n## Mesure de la température, (partie II)\n\nL'erreur de calibrage de l'appareil, aboutissant à une surestimation de la température de +1°C, est une erreur [prévisible]{.cb1}. Elle se produit à chaque mesure, [toujours dans la même direction]{.cb1}. On peut ainsi dire de l'appareil qu'il est [biaisé]{.cb1}.\n\nPuisque vous êtes averti du défaut de l'appareil, et que l'erreur qui en résulte est prévisible, vous pouvez [facilement la corriger]{.cb1} : pour chaque mesure, il faut soustraire 1°C. \n\nD'autre part, on a dit que la mesure répétée chez un même patient rapportait *globalement* la même valeur. Globalement, mais pas *exactement*.\nVous remarquez en effet que la valeur peut [varier]{.cb1} d'un chiffre après la virgule (38.6, 38.8, 38.8, 38.5, etc.).\n\nPouvez-vous prédire quel sera ce chiffre avant de réaliser la mesure ? Probablement pas. Cette erreur semble être [liée au hasard]{.cb1}. Cette variation imprévisible, aléatoire, est appelée [fluctuation d'échantillonnage]{.cb1}.\n\nCette erreur est de nature différente et ne peut donc pas être corrigée de la même manière.\n:::\n\n## Deux types d'erreurs\n\nOn a évoqué à travers cet exemple les deux grands types d'erreurs :\n\n---\n\n::: {.p style=\"text-align:center\"}\nLa fluctuation d'échantillonnage \n: une erreur imprévisible, liée au hasard, dite [aléatoire]{.cb1} (@sec-fluct)\n\nLe biais\n: une erreur prévisible, prédéterminée, dite [systématique]{.cb1} (@sec-biais)\n:::\n\n---\n\nCes deux types d'erreurs peuvent être illustrés en reprenant la @fig-cible, refaisant ainsi le lien avec les notions de [fiabilité]{.cb1} et [validité]{.cb1} (@sec-temp).\n\n\n::: {.cell layout-align=\"center\"}\n::: {.cell-output-display}\n![Fluctuation d'échantillonnage et biais](img/cible_abcd.png){#fig-cible-erreur fig-align='center' width=7in}\n:::\n:::\n\n\n---\n\n::: {.p style=\"text-align:center\"}\n**La [fluctuation d'échantillonnage]{.cb1} est une erreur qui affecte la [précision]{.cb1} d'une mesure** \\\n**Le [biais]{.cb1} est une erreur qui affecte l'[exactitude]{.cb1} d'une mesure**\n:::\n\n---\n\n::: callout-warning\n## Erreur ou écart ?\nLe terme d'erreur peut porter à confusion. Il doit être compris, pas seulement comme une erreur de mesure, mais comme un synonyme d'[écart]{.cb1} par rapport à la réalité ou à une valeur attendue.\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

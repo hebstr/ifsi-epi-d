@@ -12,13 +12,13 @@ img hta
 
 ### Pour mieux comprendre : la notion de personne-temps
 
-La notion de [personne-temps]{.cb} peut paraître difficile à concevoir. 
+La notion de [personne-temps]{.cb1} peut paraître difficile à concevoir. 
 
-Pour calculer un taux d'incidence, on ne regarde pas seulement combien de personnes développent la maladie, mais plutôt combien de personnes développent la maladie [en fonction du temps pendant lequel elles étaient à risque de développer la maladie]{.cb}.
+Pour calculer un taux d'incidence, on ne regarde pas seulement combien de personnes développent la maladie, mais plutôt combien de personnes développent la maladie [en fonction du temps pendant lequel elles étaient à risque de développer la maladie]{.cb1}.
 
-Autrement dit, cela revient à [additionner]{.cb} tous les temps pendant lesquelles les personnes étaient à risque de devenir malades, jusqu'à ce qu'elles deviennent malades.
+Autrement dit, cela revient à [additionner]{.cb1} tous les temps pendant lesquelles les personnes étaient à risque de devenir malades, jusqu'à ce qu'elles deviennent malades.
 
-Le taux d'incidence correspond donc [au risque moyen de développer la maladie pendant la période considérée]{.cb}.
+Le taux d'incidence correspond donc [au risque moyen de développer la maladie pendant la période considérée]{.cb1}.
 
 
 ### Pour mieux comprendre : exemple

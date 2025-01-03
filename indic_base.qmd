@@ -1,30 +1,30 @@
 # Mesures de base {#sec-indic}
 
-Un [indicateur de santé]{.cb} est une variable spécifiquement définie et mesurée dans le but de [décrire et suivre l'état de santé]{.cb} d'une population.
-C'est un outil d'[évaluation]{.cb} des problèmes de santé, d'[aide à la décision]{.cb} et de [surveillance]{.cb} de l'efficacité des interventions de santé publique.
+Un [indicateur de santé]{.cb1} est une variable spécifiquement définie et mesurée dans le but de [décrire et suivre l'état de santé]{.cb1} d'une population.
+C'est un outil d'[évaluation]{.cb1} des problèmes de santé, d'[aide à la décision]{.cb1} et de [surveillance]{.cb1} de l'efficacité des interventions de santé publique.
 
-Tout indicateur est composé d'un [numérateur]{.cb} et d'un [dénominateur]{.cb}, et doit être défini en tenant compte de trois éléments :
+Tout indicateur est composé d'un [numérateur]{.cb1} et d'un [dénominateur]{.cb1}, et doit être défini en tenant compte de trois éléments :
 
-- [Temps]{.cb} 
+- [Temps]{.cb1} 
 : Préciser la période pendant laquelle les données ont été collectées pour observer les tendances au fil du temps (e.g., variations saisonnières des maladies infectieuses)
 
-- [Espace]{.cb}
+- [Espace]{.cb1}
 : Identifier les zones géographiques concernées pour pouvoir comparer différentes régions entre elles
 
-- [Personne]{.cb}
+- [Personne]{.cb1}
 : Tenir compte des caractéristiques démographiques de la population étudiée (e.g., âge, sexe, statut socio-économique) pour cibler les interventions vers les groupes les plus à risque.
 
 Les indicateurs de base présentés dans ce chapitre sont à l'origine de deux grandes catégories d'indicateurs de santé :
 
-- Les indicateurs de [mortalité]{.cb} (@sec-mrt)
-- Les indicateurs de [morbidité]{.cb} (@sec-mrb) 
+- Les indicateurs de [mortalité]{.cb1} (@sec-mrt)
+- Les indicateurs de [morbidité]{.cb1} (@sec-mrb) 
 
 
 ## Indicateurs de base
 
 ### Proportion {#sec-prop}
 
-Une proportion est un rapport dans lequel [le numérateur est inclus dans le dénominateur]{.cb}.
+Une proportion est un rapport dans lequel [le numérateur est inclus dans le dénominateur]{.cb1}.
 
 Il s'exprime en pourcentage ou en un chiffre compris entre 0 et 1.
 
@@ -37,7 +37,7 @@ La couverture vaccinale contre la rougeole chez les enfants de 24 mois est de 80
 
 ### Taux {#sec-taux}
 
-Un taux mesure le [risque de survenue]{.cb} d'un évènement [au cours d'une période]{.cb}. 
+Un taux mesure le [risque de survenue]{.cb1} d'un évènement [au cours d'une période]{.cb1}. 
 
 Il s'exprime en pourcentage ou en un chiffre compris entre 0 et 1.
 
@@ -64,11 +64,11 @@ Durant l'année scolaire 2021-2022, il y a eu 36 nouveaux cas de varicelle pour 
 
 ### Ratio 
 
-Un ratio est un rapport des effectifs de [deux modalités d'une variable binaire]{.cb}.
+Un ratio est un rapport des effectifs de [deux modalités d'une variable binaire]{.cb1}.
 
-Les modalités d'une variable binaire sont [mutuellement exclusives]{.cb} : contrairement à une proportion, le numérateur ne peut pas être inclus dans le dénominateur.
+Les modalités d'une variable binaire sont [mutuellement exclusives]{.cb1} : contrairement à une proportion, le numérateur ne peut pas être inclus dans le dénominateur.
 
-Puisqu'il s'agit de la même unité au numérateur et au dénominateur, c'est un rapport [sans unité]{.cb}.
+Puisqu'il s'agit de la même unité au numérateur et au dénominateur, c'est un rapport [sans unité]{.cb1}.
 
 ::: callout-tip
 ## En considérant que le sexe est une variable binaire (homme/femme), le "sex ratio" correspond au rapport du nombre d'hommes sur le nombre de femmes (ou inversement)
@@ -87,7 +87,7 @@ Le sex ratio de l'anorexie mentale est de 1/9
 
 ### Indice
 
-Un indice est le rapport de deux effectifs [de nature différente]{.cb}.
+Un indice est le rapport de deux effectifs [de nature différente]{.cb1}.
 
 ::: callout-tip
 ## 30 enfants sont hospitalisés dans un service de pédiatrie. Dans ce service, il y a 3 IDE.
@@ -112,7 +112,7 @@ Pour chaque énoncé, quel est l'indicateur de base correspondant ?
 Nombre de cancers = l'ensemble des cancers \
 Les cancers cutanés sont un sous-ensemble des cancers
 
-Le numérateur est inclut dans le dénominateur : c'est une [proportion]{.cb}
+Le numérateur est inclut dans le dénominateur : c'est une [proportion]{.cb1}
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
@@ -123,7 +123,7 @@ Le numérateur est inclut dans le dénominateur : c'est une [proportion]{.cb}
 \ \ \ \ - Nombre de cigarettes \
 \ \ \ \ - Nombre d'habitants
   
-Rapport entre 2 effectifs de nature différente : c'est un [indice]{.cb}
+Rapport entre 2 effectifs de nature différente : c'est un [indice]{.cb1}
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
@@ -133,7 +133,7 @@ Rapport entre 2 effectifs de nature différente : c'est un [indice]{.cb}
 Une variable : le statut tabagique\
 C'est une variable binaire : fumeur / non fumeur
 
-Rapport entre les deux modalités d'une variable binaire : c'est un [ratio]{.cb}
+Rapport entre les deux modalités d'une variable binaire : c'est un [ratio]{.cb1}
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
@@ -143,7 +143,7 @@ Rapport entre les deux modalités d'une variable binaire : c'est un [ratio]{.cb}
 Nombre de femmes enceintes = l'ensemble des femmes enceintes \
 Les femmes enceintes vaccinées contre la rubéole sont un sous-ensemble des femmes enceintes
 
-Le numérateur est inclut dans le dénominateur : c'est une [proportion]{.cb}
+Le numérateur est inclut dans le dénominateur : c'est une [proportion]{.cb1}
 :::
 
 ::: {.callout-caution collapse="true" appearance="minimal"}
@@ -154,7 +154,7 @@ Un évènement : le décès \
 Notion de risque \
 Mesuré sur une période : du 01/01/2023 au 01/06/2023
 
-On mesure la survenue d'un évènement parmi les personnes à risque de faire cet évènement, sur une période donnée : c'est un [taux]{.cb}
+On mesure la survenue d'un évènement parmi les personnes à risque de faire cet évènement, sur une période donnée : c'est un [taux]{.cb1}
 :::
 
 
@@ -162,35 +162,35 @@ On mesure la survenue d'un évènement parmi les personnes à risque de faire ce
 
 Pour être de qualité, un indicateur de santé doit être :
 
-- [Simple et acceptable]{.cb}
+- [Simple et acceptable]{.cb1}
 : Facilement utilisable par les chercheurs, facilement compréhensible par les professionnels et les usagers
 
 ::: callout-tip
 ## Le taux de mortalité infantile est une mesure simple et consensuelle du nombre d'enfants décédés entre la naissance et 12 mois parmi toutes les naissances vivantes dans une population donnée
 :::
 
-- [Valide]{.cb}
+- [Valide]{.cb1}
 : La mesure est-elle pertinente ? Correspond-elle à ce qu'on souhaite mesurer ?
 
 ::: callout-tip
-## La mesure autonome de la pression artérielle (MAPA) mesure la pression artérielle en conditions de vie réelle, par opposition à une mesure prise dans un contexte clinique pouvant être influencée par le stress (effet "blouse blanche") 
+## La mesure autonome de la pression artérielle (MAPA) mesure la pression artérielle en conditions de vie réelle, par opposition à une mesure prise dans un contexte clinique pouvant être influencée par le stress (effet *"blouse blanche"*) 
 :::
 
-- [Fiable]{.cb}
+- [Fiable]{.cb1}
 : Une mesure répétée dans des conditions similaires doit produire des résultats similaires
 
 ::: callout-tip
 ## La reproduction de la MAPA sur plusieurs jours et à intervalles réguliers dans les mêmes conditions environnementales permet d'évaluer sa fiabilité
 :::
 
-- [Sensible]{.cb}
+- [Sensible]{.cb1}
 : La mesure peut détecter des petites changements dans le phénomène étudié
 
 ::: callout-tip
 ## Un test de dépistage du cancer du sein doit être suffisamment sensible pour détecter une tumeur à un stade précoce, lorsque le traitement est le plus efficace
 :::
 
-- [Spécifique]{.cb}
+- [Spécifique]{.cb1}
 : La mesure détecte uniquement le phénomène étudié
 
 ::: callout-tip
@@ -201,8 +201,8 @@ Pour être de qualité, un indicateur de santé doit être :
 ## Fiabilité vs validité {#sec-temp}
 
 ::: {.p style="text-align:center"}
-**[Fiabilité]{.cb} est synonyme de [précision]{.cb} (ou reproductibilité)** \
-**[Validité]{.cb} est synonyme d'[exactitude]{.cb} (ou pertinence)**
+**[Fiabilité]{.cb1} est synonyme de [précision]{.cb1} (ou reproductibilité)** \
+**[Validité]{.cb1} est synonyme d'[exactitude]{.cb1} (ou pertinence)**
 :::
 
 On peut illustrer précision et exactitude en symbolisant la mesure avec une cible et un ensemble de points, chacun représentant une mesure :
@@ -225,22 +225,22 @@ Quatre situations sont possibles :
 Précision et exactitude
 :::
 
-La @fig-cible-a représente la situation idéale. La répétition de la mesure donne globalement la même valeur, celle-ci étant proche de la réalité : la mesure est [fiable et valide]{.cb}.
+La @fig-cible-a représente la situation idéale. La répétition de la mesure donne globalement la même valeur, celle-ci étant proche de la réalité : la mesure est [fiable et valide]{.cb1}.
 
-La @fig-cible-b représente une situation problématique : la répétition de la mesure ne donne jamais la même valeur. Elle peut parfois donner la bonne valeur, mais de façon imprévisible, par "chance" : la mesure [peut être valide, mais elle n'est pas fiable]{.cb}.
+La @fig-cible-b représente une situation problématique : la répétition de la mesure ne donne jamais la même valeur. Elle peut parfois donner la bonne valeur, mais de façon imprévisible, par "chance" : la mesure [peut être valide, mais elle n'est pas fiable]{.cb1}.
 
-La @fig-cible-c représente une situation fréquente en pratique. La répétition de la mesure donne globalement la même valeur, mais celle-ci ne correspond pas à la réalité : la mesure est [fiable mais pas valide]{.cb}.
+La @fig-cible-c représente une situation fréquente en pratique. La répétition de la mesure donne globalement la même valeur, mais celle-ci ne correspond pas à la réalité : la mesure est [fiable mais pas valide]{.cb1}.
 
-La @fig-cible-d représente une situation où la mesure n'apporte aucune information. Sa répétition ne donne jamais la même valeur, et rarement la bonne valeur : la mesure n'est [ni fiable ni valide]{.cb}.
+La @fig-cible-d représente une situation où la mesure n'apporte aucune information. Sa répétition ne donne jamais la même valeur, et rarement la bonne valeur : la mesure n'est [ni fiable ni valide]{.cb1}.
 
 ---
 
 ::: {.p style="text-align:center"}
 
-Une mesure [exacte mais imprécise]{.cb} donnerait des bonnes valeurs [par hasard]{.cb}
+Une mesure [exacte mais imprécise]{.cb1} donnerait des bonnes valeurs [par hasard]{.cb1}
 : Elle ne serait pas utilisable en pratique
 
-Une mesure [précise mais inexacte]{.cb} donnerait des valeurs fiables [mais fausses]{.cb}
+Une mesure [précise mais inexacte]{.cb1} donnerait des valeurs fiables [mais fausses]{.cb1}
 : Elle serait utilisable en pratique de par sa fiabilité, mais donnerait une vision erronée de la réalité
 
 :::
@@ -252,17 +252,17 @@ Une mesure [précise mais inexacte]{.cb} donnerait des valeurs fiables [mais fau
 Lors de votre première tournée dans un nouveau service, vous devez prendre la température chez les patients de votre secteur.
 On vous a informé pendant les transmissions que le thermomètre que vous utilisez, le seul disponible dans ce service, a un défaut de calibrage : il surestime la température de +1°C.
 
-Lorsque vous reprenez plusieurs fois d'affilée la mesure chez un même patient, il est très probable que vous obteniez *globalement* le même résultat : votre mesure de température est [fiable]{.cb}.
+Lorsque vous reprenez plusieurs fois d'affilée la mesure chez un même patient, il est très probable que vous obteniez *globalement* le même résultat : votre mesure de température est [fiable]{.cb1}.
 
-Est-elle valide pour autant ? Souvenez-vous qu'en raison du défaut de calibrage de l'appareil, chaque valeur mesurée surestime la température réelle de +1°C : aussi fiable soit-elle, la mesure [ne correspond pas à la réalité]{.cb}.
+Est-elle valide pour autant ? Souvenez-vous qu'en raison du défaut de calibrage de l'appareil, chaque valeur mesurée surestime la température réelle de +1°C : aussi fiable soit-elle, la mesure [ne correspond pas à la réalité]{.cb1}.
 
 Autrement dit :
 
 ::: {.p style="text-align:center"}
-La mesure est [fiable]{.cb}
+La mesure est [fiable]{.cb1}
 : La répétition de la mesure reproduit *globalement* le même résultat 
 
-Pour autant, la mesure n'est [pas valide]{.cb}
+Pour autant, la mesure n'est [pas valide]{.cb1}
 : L'appareil surestime la température réelle de +1°C
 :::
 :::
@@ -271,25 +271,25 @@ Pour autant, la mesure n'est [pas valide]{.cb}
 \
 
 ::: {.p style="text-align:center"}
-## MESSAGES IMPORTANTS {.unnumbered .unlisted}
+# À RETENIR {.unnumbered .unlisted}
 :::
 
 ::: callout-important
-## [Bien distinguer les indicateurs de base]{.cb}
+# Bien distinguer les indicateurs de base
 :::
 
 ::: callout-important
-## [Un taux intègre la notion de risque et de temps]{.cb}
+# Un taux intègre la notion de risque et de temps
 :::
 
 ::: callout-important
-## [Un ratio s'applique à une variable binaire]{.cb}
+# Un ratio s'applique à une variable binaire
 :::
 
 ::: callout-important
-## [La fiabilité se réfère à la précision ; la validité se réfère à l'exactitude]{.cb}
+# La fiabilité se réfère à la précision ; la validité se réfère à l'exactitude
 :::
 
 ::: callout-important
-## [Une mesure peut être fiable sans être valide]{.cb}
+# Une mesure peut être fiable sans être valide
 :::

@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar docked">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -93,10 +93,30 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Épidémiologie descriptive</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://codeberg.org/hebstr/epi_d" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-git"></i></a>
+    <div class="dropdown">
+      <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download"><i class="bi bi-download"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Épidémiologie-descriptive.pdf">
+              <i class="bi bi-bi-file-pdf pe-1"></i>
+            Download PDF
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="./Épidémiologie-descriptive.docx">
+              <i class="bi bi-bi-file-word pe-1"></i>
+            Download Docx
+            </a>
+          </li>
+      </ul>
+    </div>
+</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -106,27 +126,38 @@ ul.task-list li input[type="checkbox"] {
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction</span></a>
-  </div>
-</li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="./definitions.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Définitions</span></span></a>
-  </div>
-</li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">Indicateurs de santé</span></a>
+ <span class="menu-text">Introduction</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Présentation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./definitions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Définitions</span></span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Indicateurs de santé</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Basculer la section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./indic_base.html" class="sidebar-item-text sidebar-link">
@@ -149,13 +180,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
  <span class="menu-text">Sources des indicateurs</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Basculer la section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./sources_base.html" class="sidebar-item-text sidebar-link">
@@ -178,17 +209,17 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
  <span class="menu-text">Erreurs de mesure</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Basculer la section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Basculer la section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./erreur_def.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">L'erreur</span></span></a>
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">La notion d'erreur</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -211,8 +242,8 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table des matières</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Dans ce chapitre</h2>
    
   <ul>
   <li><a href="#sec-biais-sel" id="toc-sec-biais-sel" class="nav-link active" data-scroll-target="#sec-biais-sel"><span class="header-section-number">10.1</span> Biais de sélection</a></li>
@@ -243,27 +274,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Un biais est une erreur <span class="cb">prévisible</span>, qui se produit systématiquement dans une <span class="cb">direction prédéterminée</span>. C’est pour cette raison qu’elle est qualifiée d’erreur <span class="cb">systématique</span>.</p>
+<p>Un biais est une erreur <span class="cb1">prévisible</span>, qui se produit systématiquement dans une <span class="cb1">direction prédéterminée</span>. C’est pour cette raison qu’elle est qualifiée d’erreur <span class="cb1">systématique</span>.</p>
 <p>Les biais ont pour conséquences :</p>
 <ul>
-<li>Une <span class="cb">diminution</span> de la capacité à <span class="cb">détecter une différence ou une association</span> significative si celle-ci existe réellement</li>
-<li>Une <span class="cb">sous-estimation ou une surestimation</span> de l’association entre les facteurs étudiés et la maladie</li>
+<li>Une <span class="cb1">diminution</span> de la capacité à <span class="cb1">détecter une différence ou une association</span> significative si celle-ci existe réellement</li>
+<li>Une <span class="cb1">sous-estimation ou une surestimation</span> de l’association entre les facteurs étudiés et la maladie</li>
 </ul>
 <p>Il existe trois grandes catégories de biais :</p>
 <ul>
-<li>Biais de <span class="cb">sélection</span></li>
-<li>Biais de <span class="cb">classement</span></li>
-<li>Biais de <span class="cb">confusion</span></li>
+<li>Biais de <span class="cb1">sélection</span></li>
+<li>Biais de <span class="cb1">classement</span></li>
+<li>Biais de <span class="cb1">confusion</span></li>
 </ul>
-<p>Alors que la fluctuation d’échantillonnage est une erreur d’origine statistique, le biais est une erreur d’origine <span class="cb">méthodologique</span> : il affecte la <span class="cb">validité</span> d’une mesure et n’est <span class="cb">pas dépendant de la taille de l’échantillon</span>.</p>
-<p>Une manière de s’en prémunir est donc d’élaborer une méthode, <span class="cb">une réflexion préalable</span> qui sera différente selon le contexte et le type de biais.</p>
+<p>Alors que la fluctuation d’échantillonnage est une erreur d’origine statistique, le biais est une erreur d’origine <span class="cb1">méthodologique</span> : il affecte la <span class="cb1">validité</span> d’une mesure et n’est <span class="cb1">pas dépendant de la taille de l’échantillon</span>.</p>
+<p>Une manière de s’en prémunir est donc d’élaborer une méthode, <span class="cb1">une réflexion préalable</span> qui sera différente selon le contexte et le type de biais.</p>
 <section id="sec-biais-sel" class="level2" data-number="10.1">
 <h2 data-number="10.1" class="anchored" data-anchor-id="sec-biais-sel"><span class="header-section-number">10.1</span> Biais de sélection</h2>
-<p>Un <span class="cb">biais de sélection</span> conduit <em>in fine</em> à une situation dans laquelle l’échantillon <span class="cb">n’est plus représentatif</span> de la population cible.</p>
-<p>Il peut survenir à différentes étapes de la constitution d’une enquête, notamment lors de la formation de la <span class="cb">population source</span>, de l’<span class="cb">échantillonnage</span>, ou pendant le <span class="cb">suivi</span> dans les enquêtes de cohortes.</p>
+<p>Un <span class="cb1">biais de sélection</span> conduit <em>in fine</em> à une situation dans laquelle l’échantillon <span class="cb1">n’est plus représentatif</span> de la population cible.</p>
+<p>Il peut survenir à différentes étapes de la constitution d’une enquête, notamment lors de la formation de la <span class="cb1">population source</span>, de l’<span class="cb1">échantillonnage</span>, ou pendant le <span class="cb1">suivi</span> dans les enquêtes de cohortes.</p>
 <ul>
 <li><dl>
-<dt><span class="cb">Population source</span></dt>
+<dt><span class="cb1">Population source</span></dt>
 <dd>
 La population de laquelle est issu l’échantillon n’est pas représentative de la population cible. Cela peut être dû à une sélection spécifique de lieux de recrutement, comme les hôpitaux ou les cliniques, qui ne reflètent pas la diversité des conditions de la population générale.
 </dd>
@@ -279,7 +310,7 @@ Critères d’inclusion ou d’exclusion trop restrictifs
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Si une étude sur le diabète exclut les patients ayant des comorbidités, comme les maladies cardiovasculaires, les résultats ne seront <span class="cb">pas applicables</span> à de nombreux patients diabétiques qui vivent effectivement avec ces comorbidités.</p>
+<p>Si une étude sur le diabète exclut les patients ayant des comorbidités, comme les maladies cardiovasculaires, les résultats ne seront <span class="cb1">pas applicables</span> à de nombreux patients diabétiques qui vivent effectivement avec ces comorbidités.</p>
 </div>
 </div>
 <div class="callout callout-style-simple callout-tip callout-titled">
@@ -292,12 +323,12 @@ Zone géographique restreinte
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Une étude menée dans une région urbaine, où l’accès aux services de santé est facilité, pourrait <span class="cb">ne pas refléter</span> la situation des zones rurales ou moins développées.</p>
+<p>Une étude menée dans une région urbaine, où l’accès aux services de santé est facilité, pourrait <span class="cb1">ne pas refléter</span> la situation des zones rurales ou moins développées.</p>
 </div>
 </div>
 <ul>
 <li><dl>
-<dt><span class="cb">Échantillon</span></dt>
+<dt><span class="cb1">Échantillon</span></dt>
 <dd>
 La participation des sujets à une étude nécessite un consentement actif : les sujets qui choisissent de participer peuvent différer systématiquement de ceux qui refusent, que ce soit en termes de caractéristiques démographiques ou comportementales, ou d’autres facteurs de risque pertinents pour l’étude.
 </dd>
@@ -313,7 +344,7 @@ Lors de l’inclusion : les non-participants diffèrent des participants
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Si les personnes plus malades ou ayant un niveau socio-économique inférieur sont moins susceptibles de participer à l’étude, les résultats peuvent <span class="cb">sous-estimer</span> l’association entre les facteurs de risque étudiés et la maladie.</p>
+<p>Si les personnes plus malades ou ayant un niveau socio-économique inférieur sont moins susceptibles de participer à l’étude, les résultats peuvent <span class="cb1">sous-estimer</span> l’association entre les facteurs de risque étudiés et la maladie.</p>
 <p>La comparaison des participants et des non-participants peut aider à identifier et mesurer l’impact de ce manque sur la validité des résultats.</p>
 </div>
 </div>
@@ -328,7 +359,7 @@ Lors du suivi : les sujets perdus de vue diffèrent des sujets restants
 </div>
 <div class="callout-body-container callout-body">
 <p>Les participants peuvent quitter l’étude pour diverses raisons (e.g., déménagement, décès, perte d’intérêt).</p>
-<p>Si les participants restant dans l’étude ont un meilleur état de santé général que les perdus de vue, cela peut conduire à une <span class="cb">sous-estimation</span> des risques associés aux facteurs étudiés.</p>
+<p>Si les participants restant dans l’étude ont un meilleur état de santé général que les perdus de vue, cela peut conduire à une <span class="cb1">sous-estimation</span> des risques associés aux facteurs étudiés.</p>
 <p>La comparaison des caractéristiques des sujets restants et des perdus de vue permet de mesurer l’impact de cette perte sur la validité des résultats.</p>
 </div>
 </div>
@@ -348,8 +379,8 @@ La sélection n’engendre pas systématiquement un biais
 </section>
 <section id="biais-de-classement" class="level2" data-number="10.2">
 <h2 data-number="10.2" class="anchored" data-anchor-id="biais-de-classement"><span class="header-section-number">10.2</span> Biais de classement</h2>
-<p>Un <span class="cb">biais de classement</span> (ou biais de mesure) survient au moment du <span class="cb">recueil de données</span>, lorsqu’il y a une erreur dans la façon dont l’exposition ou la maladie est mesurée.</p>
-<p>Il conduit à des <span class="cb">erreurs de classement</span> des sujets dans les catégories pertinentes telles que malades/non malades ou exposés/non exposés.</p>
+<p>Un <span class="cb1">biais de classement</span> (ou biais de mesure) survient au moment du <span class="cb1">recueil de données</span>, lorsqu’il y a une erreur dans la façon dont l’exposition ou la maladie est mesurée.</p>
+<p>Il conduit à des <span class="cb1">erreurs de classement</span> des sujets dans les catégories pertinentes telles que malades/non malades ou exposés/non exposés.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -360,7 +391,7 @@ Déclaration de la consommation de tabac
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Si les sujets participants à une étude ont systématiquement tendance à sous-estimer leur consommation de tabac, l’association entre le tabagisme et le cancer du poumon pourra être <span class="cb">faussement sous-estimée</span>.</p>
+<p>Si les sujets participants à une étude ont systématiquement tendance à sous-estimer leur consommation de tabac, l’association entre le tabagisme et le cancer du poumon pourra être <span class="cb1">faussement sous-estimée</span>.</p>
 </div>
 </div>
 <div class="callout callout-style-simple callout-tip callout-titled">
@@ -374,15 +405,15 @@ Mesure de la température (partie III)
 </div>
 <div class="callout-body-container callout-body">
 <p>L’erreur de mesure induite par le mauvais calibrage du thermomètre est un biais de classement.</p>
-<p>Le thermomètre est <span class="cb">biaisé</span> : à chaque mesure, il <span class="cb">surestime systématiquement</span> la vraie valeur de température chez votre patient.</p>
+<p>Le thermomètre est <span class="cb1">biaisé</span> : à chaque mesure, il <span class="cb1">surestime systématiquement</span> la vraie valeur de température chez votre patient.</p>
 </div>
 </div>
-<p>Le contrôle des biais de classement nécessite un <span class="cb">contrôle rigoureux de la mesure</span> (e.g., méthodes objectives, examens et questionnaires standardisés, calibrage du matériel).</p>
+<p>Le contrôle des biais de classement nécessite un <span class="cb1">contrôle rigoureux de la mesure</span> (e.g., méthodes objectives, examens et questionnaires standardisés, calibrage du matériel).</p>
 </section>
 <section id="sec-biais-conf" class="level2" data-number="10.3">
 <h2 data-number="10.3" class="anchored" data-anchor-id="sec-biais-conf"><span class="header-section-number">10.3</span> Biais de confusion</h2>
-<p>Les biais de confusion sont liés à l’intervention d’un ou de plusieurs tiers facteurs (appelés <span class="cb">facteurs de confusion</span>).</p>
-<p>En épidémiologie descriptive, ils peuvent intervenir lors de la <span class="cb">comparaison</span> d’indicateurs provenant de populations différentes.</p>
+<p>Les biais de confusion sont liés à l’intervention d’un ou de plusieurs tiers facteurs (appelés <span class="cb1">facteurs de confusion</span>).</p>
+<p>En épidémiologie descriptive, ils peuvent intervenir lors de la <span class="cb1">comparaison</span> d’indicateurs provenant de populations différentes.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -394,12 +425,12 @@ Comparaison des taux bruts de mortalité entre le Nord et la Creuse
 </div>
 <div class="callout-body-container callout-body">
 <p>Le Nord est un département plutôt jeune ; la Creuse est un département plutôt âgé.</p>
-<p>La structure d’âge est donc à l’origine un biais de confusion dans la comparaison de taux bruts de mortalité. On dit que c’est un <span class="cb">facteur de confusion</span>.</p>
+<p>La structure d’âge est donc à l’origine un biais de confusion dans la comparaison de taux bruts de mortalité. On dit que c’est un <span class="cb1">facteur de confusion</span>.</p>
 <p>Il s’agit bien d’une erreur prévisible ayant une direction prédéterminée : un âge plus élevé est systématiquement associé à un taux de mortalité plus élevé.</p>
-<p>Il existe une méthode pour s’affranchir de ce biais : la <span class="cb">standardisation</span> (<a href="indic_mort.html#sec-stand" class="quarto-xref"><span>Section 3.3</span></a>).</p>
+<p>Il existe une méthode pour s’affranchir de ce biais : la <span class="cb1">standardisation</span> (<a href="indic_mort.html#sec-stand" class="quarto-xref"><span>Section 3.3</span></a>).</p>
 </div>
 </div>
-<p>Les biais de confusion interviennent surtout lorsqu’on recherche des <span class="cb">causes</span> : ils sont donc particulièrement redoutés en <span class="cb">épidémiologie analytique</span>.</p>
+<p>Les biais de confusion interviennent surtout lorsqu’on recherche des <span class="cb1">causes</span> : ils sont donc particulièrement redoutés en <span class="cb1">épidémiologie analytique</span>.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -411,8 +442,8 @@ Association entre port du briquet et cancer du poumon
 </div>
 <div class="callout-body-container callout-body">
 <p>On peut faire l’observation que les personnes portant un briquet sur elles ont plus de risque de développer un cancer du poumon.</p>
-<p>Pour autant, peut-on dire que le port du briquet est la cause du cancer ? Probablement pas, puisqu’il existe dans cette association un tiers facteur : <span class="cb">le tabagisme</span>.</p>
-<p>La tabagisme joue ici le rôle de <span class="cb">facteur de confusion</span> : il est à la fois lié au fait de porter un briquet sur soi et à la survenue du cancer du poumon.</p>
+<p>Pour autant, peut-on dire que le port du briquet est la cause du cancer ? Probablement pas, puisqu’il existe dans cette association un tiers facteur : <span class="cb1">le tabagisme</span>.</p>
+<p>La tabagisme joue ici le rôle de <span class="cb1">facteur de confusion</span> : il est à la fois lié au fait de porter un briquet sur soi et à la survenue du cancer du poumon.</p>
 </div>
 </div>
 <hr>
@@ -428,7 +459,7 @@ Association entre port du briquet et cancer du poumon
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="cb">Biais = erreurs systématiques</span>
+<span class="cb1">Biais = erreurs systématiques</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -441,7 +472,7 @@ Association entre port du briquet et cancer du poumon
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="cb">Ils affectent la validité d’une mesure</span>
+<span class="cb1">Ils affectent la validité d’une mesure</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -454,7 +485,7 @@ Association entre port du briquet et cancer du poumon
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="cb">Ils ne sont pas modifiés par la taille de l’échantillon</span>
+<span class="cb1">Ils ne sont pas modifiés par la taille de l’échantillon</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -467,7 +498,7 @@ Association entre port du briquet et cancer du poumon
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="cb">Ils peuvent être évités ou réduits avec une réflexion préalable</span>
+<span class="cb1">Ils peuvent être évités ou réduits avec une réflexion préalable</span>
 </div>
 </div>
 <div class="callout-body-container callout-body">

@@ -1,18 +1,17 @@
 # Indicateurs de mortalité {#sec-mrt}
 
-Un indicateur de [mortalité]{.cb} a pour but de décrire la [fréquence des décès]{.cb} dans une population.
+Un indicateur de [mortalité]{.cb1} a pour but de décrire la [fréquence des décès]{.cb1} dans une population.
 
 Il en existe trois types : 
 
-- Taux [brut]{.cb} 
-- Taux [spécifique]{.cb} 
-- Taux [standardisé]{.cb}
+- Taux [brut]{.cb1} 
+- Taux [spécifique]{.cb1} 
+- Taux [standardisé]{.cb1}
 
 ## Taux brut de mortalité
 
-Un [taux brut de mortalité]{.cb} est un [taux]{.cb} (@sec-taux) appliqué à [la survenue de décès]{.cb} dans une population.
+Un [taux brut de mortalité]{.cb1} est un [taux]{.cb1} (@sec-taux) appliqué à [la survenue de décès]{.cb1} dans une population.
 
->
 $$
 \mathrm{
 \frac
@@ -28,7 +27,7 @@ Il est généralement calculé sur un an et exprimé en taux pour 1000.
 ::: callout-note
 ## Pourquoi en "taux pour 1000" ?
 
-Le nombre de décès étant logiquement inférieur à l'effectif total de la population, le taux tel qu'il est calculé est [toujours inférieur à 1]{.cb}.
+Le nombre de décès étant logiquement inférieur à l'effectif total de la population, le taux tel qu'il est calculé est [toujours inférieur à 1]{.cb1}.
 
 Supposons que, sur l'année 2022, le taux brut de mortalité en France soit égal à 0,009.\
 L'énoncé suivant n'est pas très intuitif :
@@ -47,10 +46,9 @@ Cette transformation facilite également les comparaisons entre différentes tai
 
 ## Taux spécifique de mortalité 
 
-Un [taux spécifique de mortalité]{.cb} est un taux de mortalité dans lequel on tient compte d'un autre paramètre.
+Un [taux spécifique de mortalité]{.cb1} est un taux de mortalité dans lequel on tient compte d'un autre paramètre.
 Il s'agit le plus souvent de taux spécifiques par sexe, par tranches d'âges, ou par causes de décès.
 
->
 $$
 \mathrm{
 \frac
@@ -67,13 +65,12 @@ $$
 Sur 1000 enfants nés vivants entre 2020 et 2022, environ 4 en moyenne sont décédés avant l'âge de 12 mois.
 
 ```{r #fig-mort-inf}
-#| out-width: 4.5in
+#| out-width: 70%
 #| fig-align: center
-#| fig-cap: "Taux de mortalité infantile entre 2020 et 2022 (en ‰). Source : [Insee](https://www.insee.fr/fr/statistiques/2012741)"
+#| fig-cap: "Taux de mortalité infantile entre 2020 et 2022 (en ‰).<br>[Source : [Insee](https://www.insee.fr/fr/statistiques/2012741)]{.quarto-float-subcaption}"
 
 knitr::include_graphics("img/taux_mort_inf_2020_2022.png")
 ```
-
 :::
 
 ::: callout-tip
@@ -82,17 +79,17 @@ knitr::include_graphics("img/taux_mort_inf_2020_2022.png")
 
 Il existe plusieurs types de taux de mortalité spécifique, dont :
 
-- La mortalité [prématurée]{.cb} : mortalité survenant avant 65 ans (= taux spécifique par tranches d'âge)
-- La mortalité [évitable]{.cb} : taux spécifique par causes de décès
+- La mortalité [prématurée]{.cb1} : mortalité survenant avant 65 ans (= taux spécifique par tranches d'âge)
+- La mortalité [évitable]{.cb1} : taux spécifique par causes de décès
 
 
 ## Taux standardisé de mortalité {#sec-stand}
 
 ### Problème
 
-Indépendamment de ses causes, la mortalité est liée à un facteur incontournable : [l'âge]{.cb}.
+Indépendamment de ses causes, la mortalité est liée à un facteur incontournable : [l'âge]{.cb1}.
 
-Si la comparaison entre départements révèle des taux plus élevés dans l'un, cela peut-être dû non pas à des causes externes mais simplement à la [structure d'âge]{.cb} du département : [la mortalité est plus élevée si la moyenne d'âge est plus élevée]{.cb}.
+Si la comparaison entre départements révèle des taux plus élevés dans l'un, cela peut-être dû non pas à des causes externes mais simplement à la [structure d'âge]{.cb1} du département : [la mortalité est plus élevée si la moyenne d'âge est plus élevée]{.cb1}.
 
 ::: {#fig-mort layout-ncol=2}
 
@@ -100,37 +97,36 @@ Si la comparaison entre départements révèle des taux plus élevés dans l'un,
 
 ![Part des plus de 75 ans](img/part_75_2023.png){#fig-mort-part-75}
 
-Taux bruts de mortalité et part des plus de 75 ans en 2023 (en ‰). Source : [Insee](https://www.insee.fr/fr/statistiques/2012741)
+Taux bruts de mortalité et part des plus de 75 ans en 2023 (en ‰).<br>[Source : [Insee](https://www.insee.fr/fr/statistiques/2012741)]{.quarto-float-subcaption}
 :::
 
 ::: callout-note
-## L'âge est un [facteur de confusion]{.cb} (@sec-biais-conf) dans la mesure des taux comparatifs de mortalité
+## L'âge est un [facteur de confusion]{.cb1} (@sec-biais-conf) dans la mesure des taux comparatifs de mortalité
 :::
 
 ### Solution
 
-Afin de pouvoir comparer de manière pertinente des taux de mortalité entre différentes zones géographiques, il faut procéder à un traitement des taux bruts pour s'affranchir de cet "effet âge" : cette méthode est appelée [standardisation]{.cb}.
+Afin de pouvoir comparer de manière pertinente des taux de mortalité entre différentes zones géographiques, il faut procéder à un traitement des taux bruts pour s'affranchir de cet "effet âge" : cette méthode est appelée [standardisation]{.cb1}.
 
-Les taux comparatifs de décès, ou [taux standardisés]{.cb}, correspondent à des taux de décès calculés [comme si la structure d'âge était la même dans tous les départements]{.cb}.
+Les taux comparatifs de décès, ou [taux standardisés]{.cb1}, correspondent à des taux de décès calculés [comme si la structure d'âge était la même dans tous les départements]{.cb1}.
 
 ```{r #fig-stand}
-#| out-width: 4.5in
+#| out-width: 65%
 #| fig-align: center
-#| fig-cap: "Taux standardisés de mortalité prématurée (< 65 ans) en 2023 (en ‰). Source : [Insee](https://www.insee.fr/fr/statistiques/2012741)"
+#| fig-cap: "Taux standardisés de mortalité prématurée (< 65 ans) en 2023 (en ‰).<br>[Source : [Insee](https://www.insee.fr/fr/statistiques/2012741)]{.quarto-float-subcaption}"
 
 knitr::include_graphics("img/taux_stand_mort_prem_2023.png")
 ```
 
-Après standardisation, on peut supposer que les taux de mortalité observés dépendent non plus de la structure d'âge dans chaque région, mais bien de [facteurs externes]{.cb}.
+Après standardisation, on peut supposer que les taux de mortalité observés dépendent non plus de la structure d'âge dans chaque région, mais bien de [facteurs externes]{.cb1}.
 
 
 ## Taux de létalité 
 
-Tandis que la mortalité représente le nombre d'individus décédés sur l'ensemble de la population, la [létalité]{.cb} représente le nombre d'individus décédés d'une maladie [parmi les personnes atteints de cette maladie]{.cb}.
+Tandis que la mortalité représente le nombre d'individus décédés sur l'ensemble de la population, la [létalité]{.cb1} représente le nombre d'individus décédés d'une maladie [parmi les personnes atteints de cette maladie]{.cb1}.
 
-Un [taux de létalité]{.cb} prend pour période d'étude [le temps à partir du début]{.cb} de la maladie.
+Un [taux de létalité]{.cb1} prend pour période d'étude [le temps à partir du début]{.cb1} de la maladie.
 
->
 $$
 \mathrm{
 \frac
@@ -143,7 +139,7 @@ $$
 
 Elle est exprimée en temps depuis le début de la maladie (e.g. létalité à 28 jours, létalité à un an).
 
-C'est un indicateur de la [gravité]{.cb} d'une maladie.
+C'est un indicateur de la [gravité]{.cb1} d'une maladie.
 
 
 ::: callout-tip
@@ -153,12 +149,12 @@ Sur 100 cas de Covid survenus durant cette période, 17 sont décédés.
 :::
 
 ::: callout-warning
-## [Un taux de létalité n'est pas un taux de mortalité spécifique d'une cause de décès]{.cb}
+## [Un taux de létalité n'est pas un taux de mortalité spécifique d'une cause de décès]{.cb1}
 
 La différence se situe au dénominateur :
 
-- Le taux de mortalité spécifique d'une maladie sur une période donnée correspond au nombre de personnes décédées de la maladie [parmi l'ensemble de la population]{.cb}.
-- Le taux de létalité d'une maladie sur cette même période correspond au nombre de personnes décédées de la maladie [parmi les personnes atteintes de la maladie]{.cb}.
+- Le taux de mortalité spécifique d'une maladie sur une période donnée correspond au nombre de personnes décédées de la maladie [parmi l'ensemble de la population]{.cb1}.
+- Le taux de létalité d'une maladie sur cette même période correspond au nombre de personnes décédées de la maladie [parmi les personnes atteintes de la maladie]{.cb1}.
 
 La mortalité spécifique est un indicateur de la charge globale de la maladie sur la société, tandis que la létalité est cruciale pour comprendre et gérer les risques pour les individus atteints d'une maladie donnée.
 
@@ -167,7 +163,7 @@ La mortalité spécifique est un indicateur de la charge globale de la maladie s
 
 ## Espérance de vie
 
-L'espérance de vie est le [nombre moyen d'années]{.cb} qu'une personne peut espérer vivre [à partir d'un âge donné]{.cb}.
+L'espérance de vie est le [nombre moyen d'années]{.cb1} qu'une personne peut espérer vivre [à partir d'un âge donné]{.cb1}.
 
 ```{r #tbl-esp-base}
 #| tbl-cap: "Espérance de vie en France, 2022."
@@ -181,7 +177,7 @@ tibble::tibble(" " = c("**Hommes**", "**Femmes**"),
 ::: callout-note
 ## Espérance de vie en bonne santé
 
-L'espérance de vie [en bonne santé]{.cb} (ou espérance de vie [sans incapacité]{.cb}) est le nombre moyen d'années qu'une personne peut espérer vivre sans souffrir d'incapacité dans les gestes de la vie quotidienne. 
+L'espérance de vie [en bonne santé]{.cb1} (ou espérance de vie [sans incapacité]{.cb1}) est le nombre moyen d'années qu'une personne peut espérer vivre sans souffrir d'incapacité dans les gestes de la vie quotidienne. 
 
 ```{r #tbl-esp-bs}
 #| tbl-cap: "Espérance de vie en bonne santé en France, 2022."
@@ -199,13 +195,13 @@ Source : [Insee](https://www.insee.fr/fr/statistiques/2012741)
 \
 
 ::: {.p style="text-align:center"}
-## MESSAGES IMPORTANTS {.unnumbered .unlisted}
+# À RETENIR {.unnumbered .unlisted}
 :::
 
 ::: callout-important
-## [Bien distinguer mortalité et létalité]{.cb}
+# Bien distinguer mortalité et létalité
 :::
 
 ::: callout-important
-## [La standardisation est indispensable dès lors qu'on souhaite comparer des taux de mortalité]{.cb}
+# La standardisation est indispensable dès lors qu'on souhaite comparer des taux de mortalité
 :::
