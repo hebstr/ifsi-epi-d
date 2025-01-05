@@ -61,5 +61,35 @@
   },
   "erreur_def.qmd": {
     "erreur_def.html": "7877eb5b"
+  },
+  "01-definitions.qmd": {
+    "01-definitions.html": "f9ffb413"
+  },
+  "02-indic_base.qmd": {
+    "02-indic_base.html": "f81a2e6b"
+  },
+  "03-indic_mort.qmd": {
+    "03-indic_mort.html": "fa9e45e7"
+  },
+  "04-indic_morbi.qmd": {
+    "04-indic_morbi.html": "9fdf053d"
+  },
+  "05-sources_base.qmd": {
+    "05-sources_base.html": "c2815847"
+  },
+  "06-sources_spe.qmd": {
+    "06-sources_spe.html": "c36542e3"
+  },
+  "07-sources_quali.qmd": {
+    "07-sources_quali.html": "adf9e1d3"
+  },
+  "08-erreur_def.qmd": {
+    "08-erreur_def.html": "4ed4a28c"
+  },
+  "09-erreur_fluct.qmd": {
+    "09-erreur_fluct.html": "04178ef1"
+  },
+  "10-erreur_biais.qmd": {
+    "10-erreur_biais.html": "6c6ce622"
   }
 }

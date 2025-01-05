@@ -36,4 +36,9 @@ La réponse
 
 ## Formats {.unnumbered}
 
+## Barre de recherche {.unnumbered}
+
 ## Annotations {.unnumbered}
+
+
+

@@ -2,9 +2,6 @@ project:
   type: book
   output-dir: _book
 
-execute:
-  freeze: auto
-
 lang: fr
 
 book:
@@ -21,22 +18,22 @@ book:
     - part: Introduction
       chapters:
         - index.qmd
-        - definitions.qmd
+        - 01-definitions.qmd
     - part: Indicateurs de santé
       chapters: 
-        - indic_base.qmd
-        - indic_mort.qmd
-        - indic_morbi.qmd
+        - 02-indic_base.qmd
+        - 03-indic_mort.qmd
+        - 04-indic_morbi.qmd
     - part: Sources des indicateurs
       chapters: 
-        - sources_base.qmd
-        - sources_spe.qmd
-        - sources_quali.qmd
+        - 05-sources_base.qmd
+        - 06-sources_spe.qmd
+        - 07-sources_quali.qmd
     - part: Erreurs de mesure    
       chapters: 
-        - erreur_def.qmd
-        - erreur_fluct.qmd
-        - erreur_biais.qmd
+        - 08-erreur_def.qmd
+        - 09-erreur_fluct.qmd
+        - 10-erreur_biais.qmd
         
 format:
   html:
@@ -58,7 +55,7 @@ format:
     theme:
       light: 
         - cosmo
-        - _css/style.scss
+        - style.scss
     grid:
       sidebar-width: 310px
       body-width: 780px
