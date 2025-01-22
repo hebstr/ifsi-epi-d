@@ -53,13 +53,14 @@ format:
       title-delim: "."
       tbl-title: "Tableau"
     theme:
-      light: 
-        - cosmo
-        - style.scss
+      light: [cosmo, style.scss]
     grid:
       sidebar-width: 310px
       body-width: 780px
       margin-width: 310px
+      
+comments:
+  hypothesis: true
 
 lightbox: true
 

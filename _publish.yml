@@ -1,4 +1,4 @@
 - source: project
   quarto-pub:
     - id: 77f72c01-6d4c-4278-b772-52601075df4c
-      url: 'https://hebstr.quarto.pub/epid'
+      url: https://hebstr.quarto.pub/epid
