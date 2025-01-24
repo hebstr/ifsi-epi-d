@@ -169,7 +169,7 @@ div#quarto-margin-sidebar {
   font-size: 1.8rem;
   font-weight: bold;
   line-height: 2.4rem;
-  margin-left: 0.6rem;
+  margin-left: 1.5rem;
 }
 
 #quarto-sidebar .sidebar-item-section > .sidebar-item-container:first-child a {
@@ -283,10 +283,6 @@ code span.op {
 code a:any-link {
   text-decoration: underline;
   text-decoration-color: $line-color;
-}
-
-div.gslide-description .gslide-desc {
-  font-size: 1rem;
 }
 
 .quarto-float-caption {

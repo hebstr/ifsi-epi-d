@@ -37,7 +37,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9b3c9e2507349894cf5ad36418107d4d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-fb20d7766bf52fdc43f73f2d3575f456.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
@@ -327,13 +327,13 @@ Récupération post-opératoire
 <p>Deux patients peuvent subir la même intervention chirurgicale mais connaître des temps de récupération et des taux de complications très différents, en raison de divers facteurs (e.g., âge, statut nutritionnel, comorbidités)</p>
 </div>
 </div>
-<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout callout-style-simple callout-warning callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Pour plus de simplicité, fluctuation d’échantillonnage et variabilité individuelle peuvent être considérées synonymes et utilisées de façon interchangeable.
+Pour éviter toute confusion, fluctuation d’échantillonnage et variabilité individuelle peuvent être considérées comme étant synonymes.
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -354,11 +354,11 @@ Prévalence de l’obésité chez les sujets âgés de 30 à 45 ans habitant à 
 <div class="callout-body-container callout-body">
 <p>On a constitué par tirage au sort un échantillon de 100 sujets dans lequel on a mesuré la prévalence de l’obésité. Cette prévalence est de <span class="cb1">20%</span>.</p>
 <blockquote class="blockquote">
-<p><strong><em>Que faire de cette valeur ? Peut-on simplement la généraliser telle quelle à l’ensemble de la population ?</em></strong></p>
+<p><strong>Que faire de cette valeur ? Peut-on simplement la généraliser telle quelle à l’ensemble de la population ?</strong></p>
 </blockquote>
 <p>Il ne faut pas oublier que cette mesure est soumise aux <span class="cb1">fluctuations d’échantillonnage</span>. Autrement dit, tout comme la mesure de température répétée chez un même patient, la prévalence mesurée sur de <span class="cb1">nouveaux échantillons</span> seraient <span class="cb1">très probablement différente</span> de 20%. La répétition de la mesure pourrait aussi bien rapporter une prévalence de 7% ou 32%.</p>
 <blockquote class="blockquote">
-<p><strong><em>Peut-on envisager de constituer plusieurs échantillons et de calculer la moyenne des valeurs mesurées dans chacun ?</em></strong></p>
+<p><strong>Peut-on envisager de constituer plusieurs échantillons et de calculer la moyenne des valeurs mesurées dans chacun ?</strong></p>
 </blockquote>
 <p>Malheureusement, une enquête ne peut porter que sur un échantillon unique ; on ne peut donc porter des conclusions qu’à partir d’une mesure unique.</p>
 </div>
@@ -367,12 +367,12 @@ Prévalence de l’obésité chez les sujets âgés de 30 à 45 ans habitant à 
 <div class="p" style="text-align:center">
 <p><strong>En raison de la <span class="cb1">variabilité individuelle</span>, il y a trop d’<span class="cb1">incertitude</span> associée à la précision de cette mesure pour que celle-ci puisse être présentée seule dans les résultats d’une enquête sur échantillon.</strong></p>
 </div>
-<p>Solution ? Présenter la mesure accompagnée d’un <span class="cb1">intervalle</span> qui rendra compte de la <span class="cb1">variabilité autour de cette mesure</span>.</p>
+<p>Comment résoudre ce problème ? En accompagnant la mesure d’un <span class="cb1">intervalle</span> qui rendra compte de la <span class="cb1">variabilité autour de cette mesure</span>.</p>
 </section><section id="solution-lintervalle-de-confiance" class="level2" data-number="10.3"><h2 data-number="10.3" class="anchored" data-anchor-id="solution-lintervalle-de-confiance">
 <span class="header-section-number">10.3</span> Solution : l’intervalle de confiance</h2>
 <p>Cet intervalle est appelé <span class="cb1">intervalle de confiance</span>.</p>
 <p>Il s’étend de part et d’autre de la valeur mesurée dans l’échantillon, et permet de <span class="cb1">maîtriser l’incertitude</span> due aux fluctuations d’échantillonnage avec un certain <span class="cb1">niveau de confiance</span>.</p>
-<p>Ce niveau de confiance doit être défini : jusqu’à quel point peut-on avoir confiance dans la précision de l’estimation de la vraie valeur ? Par tradition, ce niveau est fixé à <span class="cb1">95%</span>.</p>
+<p>Ce niveau de confiance doit être défini : jusqu’à quel point peut-on avoir confiance dans la précision de l’estimation de la vraie valeur ? Par pure tradition, ce niveau est fixé à <span class="cb1">95%</span>.</p>
 <div class="p" style="text-align:center">
 <p><strong>En pratique, on parle alors d’<span class="cb1">intervalle de confiance à 95%</span>.</strong></p>
 </div>
@@ -396,7 +396,9 @@ Rappel
 <p>Dans la vraie vie, la vraie valeur dans la population <span class="cb1">ne peut pas être connue</span> et on cherche, à travers une mesure réalisée sur un <span class="cb1">échantillon représentatif</span> de cette population (<a href="06-sources_spe.html#sec-repres" class="quarto-xref"><span>Section 7.2.1</span></a>), à <span class="cb1">estimer cette vraie valeur</span>. On fait le présupposé que cette vraie valeur est <span class="cb1">fixe</span> et <span class="cb1">unique</span>.</p>
 </div>
 </div>
-<p>Que se passerait-il si on constituait beaucoup d’échantillons et qu’on calculait pour chacun un intervalle de confiance à 95% ?</p>
+<blockquote class="blockquote">
+<p><strong>Que se passerait-il si on constituait beaucoup d’échantillons et qu’on calculait pour chacun d’eux un intervalle de confiance à 95% ?</strong></p>
+</blockquote>
 <p>Imaginons une situation <span class="cb1">fictive</span> dans laquelle <span class="cb1">on connait la vraie valeur</span> de la prévalence d’une maladie quelconque dans une population de 100 000 individus. Admettons que cette valeur soit <span class="cb1">10%</span>.</p>
 <p>À partir de cette population, on simule 20 expériences : on constitue <span class="cb1">20 échantillons de 1000 individus tirés avec remise</span> (comme à la loterie). Dans chaque échantillon, on mesure la prévalence de la maladie.</p>
 <p>On a donc effectué 20 mesures de prévalences ; une valeur par échantillon. Vous savez maintenant que ces valeurs sont soumises aux fluctuations d’échantillonnage et qu’elles sont donc toutes <span class="cb1">plus ou moins différentes</span> (11, 5, 15, 8, 15, 11, etc.). À chaque valeur est associé, à l’aide d’un calcul statistique, un intervalle de confiance à 95%.</p>
@@ -454,13 +456,13 @@ Prévalence de l’obésité chez les sujets âgés de 30 à 45 ans habitant à 
 </div>
 </div>
 </div>
-<hr>
+<p><br></p>
 <div class="p" style="text-align:center">
 <p><strong>Dans la population, il y a 95% de chances que cet intervalle <span class="cb1">contienne la vraie prévalence</span> de l’obésité</strong></p>
 <p>On peut aussi l’interpréter d’une autre manière :</p>
 <p><strong>Il y a 95% de chances que la prévalence de l’obésité dans la population <span class="cb1">soit comprise entre 12 et 28%</span></strong></p>
 </div>
-<hr>
+<p><br></p>
 <p>Admettons que l’échantillon ne soit plus composé de 100 sujets, mais de <span class="cb1">1000</span> sujets. L’intervalle de confiance à 95% correspondant s’étend de <span class="cb1">18 à 23%</span>.</p>
 <p>Le résultat est alors le suivant :</p>
 <div class="p" style="text-align:center">

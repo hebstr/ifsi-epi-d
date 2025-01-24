@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-9b3c9e2507349894cf5ad36418107d4d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-fb20d7766bf52fdc43f73f2d3575f456.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
@@ -292,7 +292,7 @@ window.Quarto = {
   <li><a href="#ratio" id="toc-ratio" class="nav-link" data-scroll-target="#ratio"><span class="header-section-number">3.1.3</span> Ratio</a></li>
   <li><a href="#indice" id="toc-indice" class="nav-link" data-scroll-target="#indice"><span class="header-section-number">3.1.4</span> Indice</a></li>
   </ul></li>
-  <li><a href="#exercices" id="toc-exercices" class="nav-link" data-scroll-target="#exercices"><span class="header-section-number">3.2</span> Exercices</a></li>
+  <li><a href="#exercice" id="toc-exercice" class="nav-link" data-scroll-target="#exercice"><span class="header-section-number">3.2</span> Exercice</a></li>
   <li><a href="#critères-de-qualité-dun-indicateur" id="toc-critères-de-qualité-dun-indicateur" class="nav-link" data-scroll-target="#critères-de-qualité-dun-indicateur"><span class="header-section-number">3.3</span> Critères de qualité d’un indicateur</a></li>
   <li><a href="#sec-temp" id="toc-sec-temp" class="nav-link" data-scroll-target="#sec-temp"><span class="header-section-number">3.4</span> Fiabilité vs validité</a></li>
   </ul>
@@ -324,19 +324,19 @@ window.Quarto = {
 <p>Tout indicateur est composé d’un <span class="cb1">numérateur</span> et d’un <span class="cb1">dénominateur</span>, et doit être défini en tenant compte de trois éléments :</p>
 <ul>
 <li><dl>
-<dt><span class="cb1">Temps</span></dt>
+<dt>Temps</dt>
 <dd>
 Préciser la période pendant laquelle les données ont été collectées pour observer les tendances au fil du temps (e.g., variations saisonnières des maladies infectieuses)
 </dd>
 </dl></li>
 <li><dl>
-<dt><span class="cb1">Espace</span></dt>
+<dt>Espace</dt>
 <dd>
 Identifier les zones géographiques concernées pour pouvoir comparer différentes régions entre elles
 </dd>
 </dl></li>
 <li><dl>
-<dt><span class="cb1">Personne</span></dt>
+<dt>Personne</dt>
 <dd>
 Tenir compte des caractéristiques démographiques de la population étudiée (e.g., âge, sexe, statut socio-économique) pour cibler les interventions vers les groupes les plus à risque.
 </dd>
@@ -363,7 +363,7 @@ En 2023, sur 750 000 enfants de 24 mois, 600 000 sont correctement vaccinés con
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>La proportion correspondante est <span class="math inline">\(\frac{600 \ 000}{750 \ 000}\)</span> = 0,8<br>
+<p>La proportion correspondante est 600 000 / 750 000 = 0,8<br>
 La couverture vaccinale contre la rougeole chez les enfants de 24 mois est de 80%.</p>
 </div>
 </div>
@@ -395,7 +395,7 @@ Dans une maternelle, sur 200 enfants n’ayant jamais eu la varicelle et non vac
 <p>Nombre d’évènements : 72 nouveaux cas de varicelle<br>
 Nombre de sujets à risque de faire l’évènement : 200 enfants n’ayant jamais eu la varicelle et non vaccinés<br>
 Sur une période donnée : l’année scolaire 2021-2022</p>
-<p>Le taux correspondant est <span class="math inline">\(\frac{72}{200}\)</span> = 0,36<br>
+<p>Le taux correspondant est 72 / 200 = 0,36<br>
 Durant l’année scolaire 2021-2022, il y a eu 36 nouveaux cas de varicelle pour 100 enfants à risque</p>
 </div>
 </div>
@@ -411,11 +411,11 @@ Durant l’année scolaire 2021-2022, il y a eu 36 nouveaux cas de varicelle pou
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-En considérant que le sexe est une variable binaire (homme/femme), le “sex ratio” correspond au rapport du nombre d’hommes sur le nombre de femmes (ou inversement)
+En considérant que le sexe est une variable binaire (homme/femme), le “sex ratio” correspond au rapport du nombre d’hommes sur le nombre de femmes (ou inversement).
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Classiquement, le sex ratio est présenté avec les hommes à gauche et les femmes à droite.</p>
+<p>Classiquement, le sex ratio est présenté avec l’effectif masculin à gauche et l’effectif féminin à droite.</p>
 <div class="p" style="text-align:center">
 <dl>
 <dt>Le sex ratio de la schizophrénie est de 3/1</dt>
@@ -444,19 +444,17 @@ L’anorexie mentale concerne 9 fois plus souvent les femmes que les hommes
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Deux effectifs de nature différente :</p>
-<ul>
-<li>Nombre d’enfants</li>
-<li>Nombre d’IDE</li>
-</ul>
+<p>Deux effectifs de nature différente :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Nombre d’enfants<br>
+&nbsp;&nbsp;&nbsp;&nbsp;- Nombre d’IDE</p>
 <p>L’indice correspondant est 30 pour 3, ou 10 pour 1 : il y a 10 enfants par IDE.</p>
 </div>
 </div>
 </section>
 </section>
-<section id="exercices" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="exercices"><span class="header-section-number">3.2</span> Exercices</h2>
-<p>Pour chaque énoncé, quel est l’indicateur de base correspondant ?</p>
+<section id="exercice" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="exercice"><span class="header-section-number">3.2</span> Exercice</h2>
+<p>Pour chaque énoncé, quel est l’indicateur correspondant ?</p>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -565,7 +563,7 @@ Mesuré sur une période : du 01/01/2023 au 01/06/2023</p>
 <p>Pour être de qualité, un indicateur de santé doit être :</p>
 <ul>
 <li><dl>
-<dt><span class="cb1">Simple et acceptable</span></dt>
+<dt>Simple et acceptable</dt>
 <dd>
 Facilement utilisable par les chercheurs, facilement compréhensible par les professionnels et les usagers
 </dd>
@@ -586,7 +584,7 @@ Le taux de mortalité infantile est une mesure simple et consensuelle du nombre 
 </div>
 <ul>
 <li><dl>
-<dt><span class="cb1">Valide</span></dt>
+<dt>Valide</dt>
 <dd>
 La mesure est-elle pertinente ? Correspond-elle à ce qu’on souhaite mesurer ?
 </dd>
@@ -607,7 +605,7 @@ La mesure autonome de la pression artérielle (MAPA) mesure la pression artérie
 </div>
 <ul>
 <li><dl>
-<dt><span class="cb1">Fiable</span></dt>
+<dt>Fiable</dt>
 <dd>
 Une mesure répétée dans des conditions similaires doit produire des résultats similaires
 </dd>
@@ -628,7 +626,7 @@ La reproduction de la MAPA sur plusieurs jours et à intervalles réguliers dans
 </div>
 <ul>
 <li><dl>
-<dt><span class="cb1">Sensible</span></dt>
+<dt>Sensible</dt>
 <dd>
 La mesure peut détecter des petites changements dans le phénomène étudié
 </dd>
@@ -649,7 +647,7 @@ Un test de dépistage du cancer du sein doit être suffisamment sensible pour d�
 </div>
 <ul>
 <li><dl>
-<dt><span class="cb1">Spécifique</span></dt>
+<dt>Spécifique</dt>
 <dd>
 La mesure détecte uniquement le phénomène étudié
 </dd>
@@ -746,7 +744,8 @@ Figure&nbsp;3.1. Précision et exactitude
 <p>La <a href="#fig-cible-b" class="quarto-xref">Figure&nbsp;<span>3.1 (b)</span></a> représente une situation problématique : la répétition de la mesure ne donne jamais la même valeur. Elle peut parfois donner la bonne valeur, mais de façon imprévisible, par “chance” : la mesure <span class="cb1">peut être valide, mais elle n’est pas fiable</span>.</p>
 <p>La <a href="#fig-cible-c" class="quarto-xref">Figure&nbsp;<span>3.1 (c)</span></a> représente une situation fréquente en pratique. La répétition de la mesure donne globalement la même valeur, mais celle-ci ne correspond pas à la réalité : la mesure est <span class="cb1">fiable mais pas valide</span>.</p>
 <p>La <a href="#fig-cible-d" class="quarto-xref">Figure&nbsp;<span>3.1 (d)</span></a> représente une situation où la mesure n’apporte aucune information. Sa répétition ne donne jamais la même valeur, et rarement la bonne valeur : la mesure n’est <span class="cb1">ni fiable ni valide</span>.</p>
-<hr>
+<p><br>
+</p>
 <div class="p" style="text-align:center">
 <dl>
 <dt>Une mesure <span class="cb1">exacte mais imprécise</span> donnerait des bonnes valeurs <span class="cb1">par hasard</span></dt>
@@ -759,7 +758,8 @@ Elle serait utilisable en pratique de par sa fiabilité, mais donnerait une visi
 </dd>
 </dl>
 </div>
-<hr>
+<p><br>
+</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -801,7 +801,7 @@ L’appareil surestime la température réelle de +1°C
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Bien distinguer les indicateurs de base
+Distinguer les indicateurs de base
 </div>
 </div>
 <div class="callout-body-container callout-body">

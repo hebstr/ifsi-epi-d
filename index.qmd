@@ -2,12 +2,12 @@
 
 ## Important
 
-Le texte [souligné]() peut renvoyer soit à une autre partie du cours (chapitre, section, figure, ...), soit à un lien vers une ressource externe au cours.
+Le texte [souligné]() peut correspondre soit à un lien vers une autre partie du cours (chapitre, section, figure, ...), soit à un lien vers une ressource externe au cours.
 
-Tout lien vers une ressource externes au cours visent uniquement à apporter une information complémentaire, et ne peuvent pas faire l'objet de questions à l'examen. 
-Autrement dit, [tout ce qui peut demander de connaitre pour l'examen est présent dans le cours]{.cb1}.
+Tout lien vers une ressource externe au cours visent uniquement à apporter une information complémentaire, et ne peut pas faire l'objet de questions à l'examen. 
+Autrement dit, [tout ce qui peut être demander de connaitre pour l'examen est présent dans le cours]{.cb1}.
 
-Le cours est centré sur la compréhension des concepts. Il n'est pas demandé de connaitre des listes, des chiffres ou des formules mathématiques.
+Le cours est centré avant tout sur la compréhension. Il n'est pas demandé de connaitre des listes, des chiffres ou des formules mathématiques.
 
 Une barre de recherche, située dans la barre latérale gauche sur cette page, permet d'effectuer une recherche par mots-clés dans l'ensemble du cours.
 
@@ -26,7 +26,7 @@ En parcourant le cours, vous rencontrerez différents types d'encadrés ayant ch
 ## Un exemple
 :::
 
-::: {.callout-caution collapse="true" appearance="minimal"}
+::: {.callout-caution collapse="true" icon="false"}
 ## Un énoncé ou une question (cliquer pour afficher la réponse)
 La réponse
 :::
@@ -45,23 +45,30 @@ Une barre latérale dépliable est présente sur le côté droit de chaque page.
 
 Celle-ci permet d'annoter n'importe quelle partie du cours, de poster une question ou une remarque de façon [libre et ANONYME]{.cb1}. Elle permet également de surligner du texte.
 
-<!-- Pour utiliser cette fonction, il faut se connecter en cliquant sur [Log in]{.cb1} : -->
-
-```{r}
-#| out-width: 60%
-#| fig-align: center
-
-knitr::include_graphics("img/hypothesis_login.png")
-```
-
-Puis rentrer les identifiants suivants :
+Pour utiliser cette fonction, il faut se connecter en cliquant sur [Log in]{.cb1} puis rentrer les identifiants suivants :
 
   - **Username :** [ifsi_epid]{.cb1}
   - **Password :** [ifsi_epid]{.cb1}
 
+::: {layout-ncol=2}
+
+```{r}
+#| fig-align: center
+
+knitr::include_graphics("img/hypothesis_login_1.png")
+```
+
+```{r}
+#| fig-align: center
+
+knitr::include_graphics("img/hypothesis_login_2.png")
+```
+
+:::
+
 ### Notes
 
-Deux types de notes sont possibles :
+Il existe deux types de notes :
 
 ::: panel-tabset
 
@@ -96,7 +103,7 @@ knitr::include_graphics("img/hypothesis_pagenote.png")
 :::
 
 Il est possible de répondre à des annotations existantes.
-Toute annotation peut être supprimée après publication.
+Toute annotation peut être [définitivement supprimée]{.cb1} après publication.
 
 ### Surlignage
 
@@ -111,7 +118,7 @@ knitr::include_graphics("img/hypothesis_highlight.png")
 
 N'importe quelle partie du cours peut être surlignée.
 
-[Contrairement aux annotations, le surlignage est privé : il n'est visible que pour la personne connectée à ifsi_epid, et non pour l'ensemble des personnes consultant la page.]{.cb1}
+[Contrairement aux annotations, le surlignage est privé : il n'est visible que pour une personne connectée à ifsi_epid, et non pour l'ensemble des personnes consultant la page.]{.cb1}
 
 ---
 
@@ -119,6 +126,4 @@ N'importe quelle partie du cours peut être surlignée.
 
 Toute action d'annotation ou de surlignage est automatiquement [sauvegardée et conservée]{.cb1} après déconnexion et/ou fermeture de la page.
 
-Cette fonction [ANONYME]{.cb1} est importante pour clarifier des éléments du cours et obtenir un maximum de retours individuels : toute remarque [en lien direct avec le cours]{.cb1} ou [suggestion d'amélioration]{.cb1} est la bienvenue ! {{< fa face-smile-wink >}}
-
-
+Cette fonction [ANONYME]{.cb1} est importante pour clarifier des éléments du cours et obtenir un maximum de retours individuels : toute remarque [en lien direct avec le cours]{.cb1} ou [suggestion d'amélioration]{.cb1} est la bienvenue !

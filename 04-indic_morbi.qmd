@@ -14,7 +14,6 @@ La [morbidité]{.cb1} se réfère au fait d'être [atteint d'une maladie]{.cb1}.
 
 Il existe en pratique deux indicateurs de morbidité : l'[incidence]{.cb1} et la [prévalence]{.cb1}.
 
-
 ## Incidence {#sec-inc}
 
 Un [taux d'incidence]{.cb1} est un [taux]{.cb1} (@sec-taux) appliqué à la [survenue de nouveaux cas]{.cb1} d'une maladie dans une population.
@@ -44,7 +43,6 @@ Le taux d'incidence était de $\frac{500}{100 \ 000}$ = 5 cas pour 1000 habitant
 Durant l'hiver 2023, il y a eu 5 nouveaux cas de Covid pour 1000 habitants.
 :::
 
-
 ## Prévalence {#sec-prev}
 
 La [prévalence]{.cb1} est la [proportion]{.cb1} (@sec-prop) de [personnes atteintes d'une maladie à un instant donné]{.cb1} dans une population.
@@ -73,17 +71,17 @@ Autrement dit, la prévalence d'une maladie est [dépendante de l'incidence]{.cb
 
 La prévalence dépend également de la [durée d'évolution]{.cb1} de la maladie : plus celle-ci augmente, plus le nombre de personnes vivant avec la maladie augmente dans la population. 
 
-
 ## Incidence vs prévalence
 
 ::: {.p style="text-align:center"}
+
 La prévalence est un indicateur statique
 : Elle rend compte de la [fréquence]{.cb1} d'une maladie [à un instant donné]{.cb1}
 
 L'incidence est un indicateur dynamique
 : Elle rend compte de la [vitesse]{.cb1} à laquelle une maladie survient [sur une période donnée]{.cb1}
-:::
 
+:::
 
 ### Analogie : la baignoire de l'épidémiologiste
 
@@ -105,10 +103,11 @@ L'évacuation symbolise une proportion de cas sortant de la population : c'est l
 La mort n'est pas la seule manière de ne plus être malade : il y a aussi une possibilité de [guérison]{.cb1} (ou rémission).
 Ce dernier élément peut être symbolisé par l'évaporation.
 
-```{r #fig-baignoire}
-#| out-width: 4.5in
+```{r}
+#| label: fig-baignoire
+#| out-width: 60%
 #| fig-align: center
-#| fig-cap: "La baignoire de l'épidémiologiste"
+#| fig-cap: La baignoire de l'épidémiologiste
 
 knitr::include_graphics("img/baignoire.png")
 ```
@@ -121,13 +120,13 @@ En résumé, il s'agit d'un circuit avec :
 
 Bien que le robinet soit constamment ouvert, la baignoire ne déborde pas. En revanche, s'il y a une limite à la sortie, le niveau d'eau aura tendance à augmenter avec le temps.
 
-
 ### Exemple : l'infection à VIH
 
 L'incidence, la prévalence et leur évolution dans le temps peuvent être représentées graphiquement à travers l'exemple de l'infection à VIH.
 
-```{r #fig-vih}
-#| out-width: 6in
+```{r}
+#| label: fig-vih
+#| out-width: 70%
 #| fig-align: center
 #| fig-cap: "État de l'épidémie de SIDA dans le monde (en millions).<br>[Source : [UNAIDS](https://www.unaids.org/en/resources/fact-sheet)]{.quarto-float-subcaption}"
 
@@ -189,7 +188,7 @@ list(gt_arrow(incidence = "arrow-up-long",
               prévalence = "question"))
 ```
 
-::: {.callout-caution collapse="true" appearance="minimal"}
+::: {.callout-caution collapse="true" icon="false"}
 ## `r title[1]`
 ```{r}
 tab[[1]]
@@ -200,7 +199,7 @@ Si davantage de personnes sont exposées à des facteurs favorisant le développ
 La prévalence est dépendante de l'incidence : elle aura aussi tendance à [augmenter]{.cb1}, d'autant plus s'il s'agit d'une maladie chronique.
 :::
 
-::: {.callout-caution collapse="true" appearance="minimal"}
+::: {.callout-caution collapse="true" icon="false"}
 ## `r title[2]`
 ```{r}
 tab[[2]]
@@ -211,7 +210,7 @@ L'incidence est focalisée sur l'apparition de nouveaux cas et non sur l'évolut
 En revanche, la guérison signifie une diminution du nombre de cas dans la population : la prévalence [diminue]{.cb1}
 :::
 
-::: {.callout-caution collapse="true" appearance="minimal"}
+::: {.callout-caution collapse="true" icon="false"}
 ## `r title[3]`
 ```{r}
 tab[[3]]
@@ -222,7 +221,7 @@ L'incidence est focalisée sur l'apparition de nouveaux cas et non sur l'évolut
 En revanche, une amélioration de la survie entraîne une augmentation du nombre de personnes vivant avec la maladie : la prévalence [augmente]{.cb1}. Cette situation concerne particulièrement les maladies chroniques.
 :::
 
-::: {.callout-caution collapse="true" appearance="minimal"}
+::: {.callout-caution collapse="true" icon="false"}
 ## `r title[4]`
 ```{r}
 tab[[4]]
@@ -234,7 +233,7 @@ Cela peut donner l'impression d'une augmentation du nombre de nouveaux cas, alor
 La prévalence [augmente]{.cb1} du fait de l'augmentation de l'incidence, d'autant plus si la maladie est détectée à une stade plus précoce (les malades vivront plus longtemps avec leur diagnostic).
 :::
 
-::: {.callout-caution collapse="true" appearance="minimal"}
+::: {.callout-caution collapse="true" icon="false"}
 ## `r title[5]`
 ```{r}
 tab[[5]]
@@ -246,7 +245,7 @@ Cela peut donner l'impression d'une augmentation du nombre de nouveaux cas, alor
 Du fait de l'augmentation de l'incidence, la prévalence [augmente]{.cb1}
 :::
 
-::: {.callout-caution collapse="true" appearance="minimal"}
+::: {.callout-caution collapse="true" icon="false"}
 ## `r title[6]`
 ```{r}
 tab[[6]]
@@ -257,7 +256,7 @@ Un changement de définition de la maladie pourrait aussi bien entraîner une au
 
 ---
 
-::: {.callout-caution collapse="true" appearance="minimal"}
+::: {.callout-caution collapse="true" icon="false"}
 ## Facteurs déterminants : synthèse
 ```{r}
 tab |> 
@@ -270,22 +269,22 @@ tab |>
 ```
 :::
 
-
 ## Incidence ou prévalence ?
 
-::: {.callout-caution collapse="true" appearance="minimal"}
+::: {.callout-caution collapse="true" icon="false"}
 ## Sur les 30 derniers jours, 10 patients sur 40 hospitalisés dans un service de maladies infectieuses ont fait un séjour en réanimation pour choc septique
 
 Nombre de nouveaux évènements parmi les personnes à risque, sur une période donnée : c'est une [incidence]{.cb1}.
 :::
 
-::: {.callout-caution collapse="true" appearance="minimal"}
+::: {.callout-caution collapse="true" icon="false"}
 ## Au 01/01/2024, il y avait 5% d'hommes atteints d'un cancer de la prostate dans la région Hauts-de-France
 
 Proportion à un instant donné : c'est une [prévalence]{.cb1}.
 :::
 
 ---
+
 \
 
 ::: {.p style="text-align:center"}
@@ -293,7 +292,7 @@ Proportion à un instant donné : c'est une [prévalence]{.cb1}.
 :::
 
 ::: callout-important
-# Bien distinguer incidence et prévalence (penser à la baignoire !)
+# Distinguer incidence et prévalence : penser à la baignoire (@fig-baignoire)
 :::
 
 ::: callout-important

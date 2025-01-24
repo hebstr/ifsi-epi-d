@@ -10,7 +10,7 @@ On attend de la mesure d'un indicateur deux choses :
 Une mesure peut parfois s'écarter de la vraie valeur, à laquelle nous n'avons pas accès : c'est ce qu'on peut appeler une [erreur de mesure]{.cb1}.
 
 ::: callout-tip
-## Mesure de la température, (partie II)
+## Mesure de la température (partie II)
 
 L'erreur de calibrage de l'appareil, aboutissant à une surestimation de la température de +1°C, est une erreur [prévisible]{.cb1}. Elle se produit à chaque mesure, [toujours dans la même direction]{.cb1}. On peut ainsi dire de l'appareil qu'il est [biaisé]{.cb1}.
 
@@ -28,26 +28,20 @@ Cette erreur est de nature différente et ne peut donc pas être corrigée de la
 
 On a évoqué à travers cet exemple les deux grands types d'erreurs :
 
----
-
-::: {.p style="text-align:center"}
-La fluctuation d'échantillonnage 
-: une erreur imprévisible, liée au hasard, dite [aléatoire]{.cb1} (@sec-fluct)
-
-Le biais
-: une erreur prévisible, prédéterminée, dite [systématique]{.cb1} (@sec-biais)
-:::
-
----
+  - La fluctuation d'échantillonnage
+  : Une erreur imprévisible, liée au hasard, dite [aléatoire]{.cb1} (@sec-fluct)
+  - Le biais
+  : Une erreur prévisible, prédéterminée, dite [systématique]{.cb1} (@sec-biais)
 
 Ces deux types d'erreurs peuvent être illustrés en reprenant la @fig-cible, refaisant ainsi le lien avec les notions de [fiabilité]{.cb1} et [validité]{.cb1} (@sec-temp).
 
-```{r #fig-cible-erreur}
-#| out-width: 7in
+```{r}
+#| label: fig-cible-erreur
+#| out-width: 70%
 #| fig-align: center
-#| fig-cap: "Fluctuation d'échantillonnage et biais"
+#| fig-cap: Fluctuation d'échantillonnage et biais
 
-knitr::include_graphics("img/cible_abcd.png")
+knitr::include_graphics("img/cible_x.png")
 ```
 
 ---
@@ -61,6 +55,7 @@ knitr::include_graphics("img/cible_abcd.png")
 
 ::: callout-warning
 ## Erreur ou écart ?
+
 Le terme d'erreur peut porter à confusion. Il doit être compris, pas seulement comme une erreur de mesure, mais comme un synonyme d'[écart]{.cb1} par rapport à la réalité ou à une valeur attendue.
 :::
 

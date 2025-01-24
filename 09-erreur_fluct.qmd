@@ -42,10 +42,9 @@ Bien que la plupart des individus développent une protection immunitaire après
 Deux patients peuvent subir la même intervention chirurgicale mais connaître des temps de récupération et des taux de complications très différents, en raison de divers facteurs (e.g., âge, statut nutritionnel, comorbidités)
 :::
 
-::: callout-note
-## Pour plus de simplicité, fluctuation d'échantillonnage et variabilité individuelle peuvent être considérées synonymes et utilisées de façon interchangeable.
+::: callout-warning
+## Pour éviter toute confusion, fluctuation d'échantillonnage et variabilité individuelle peuvent être considérées comme étant synonymes.
 :::
-
 
 ## Problème
 
@@ -54,12 +53,12 @@ Deux patients peuvent subir la même intervention chirurgicale mais connaître d
 
 On a constitué par tirage au sort un échantillon de 100 sujets dans lequel on a mesuré la prévalence de l'obésité. Cette prévalence est de [20%]{.cb1}.
 
-> ***Que faire de cette valeur ? Peut-on simplement la généraliser telle quelle à l'ensemble de la population ?***
+> **Que faire de cette valeur ? Peut-on simplement la généraliser telle quelle à l'ensemble de la population ?**
 
 Il ne faut pas oublier que cette mesure est soumise aux [fluctuations d'échantillonnage]{.cb1}.
 Autrement dit, tout comme la mesure de température répétée chez un même patient, la prévalence mesurée sur de [nouveaux échantillons]{.cb1} seraient [très probablement différente]{.cb1} de 20%. La répétition de la mesure pourrait aussi bien rapporter une prévalence de 7% ou 32%.
 
-> ***Peut-on envisager de constituer plusieurs échantillons et de calculer la moyenne des valeurs mesurées dans chacun ?***
+> **Peut-on envisager de constituer plusieurs échantillons et de calculer la moyenne des valeurs mesurées dans chacun ?**
 
 Malheureusement, une enquête ne peut porter que sur un échantillon unique ; on ne peut donc porter des conclusions qu'à partir d'une mesure unique.
 :::
@@ -70,7 +69,7 @@ Cet exemple illustre un problème incontournable dès lors qu'on effectue une me
 **En raison de la [variabilité individuelle]{.cb1}, il y a trop d'[incertitude]{.cb1} associée à la précision de cette mesure pour que celle-ci puisse être présentée seule dans les résultats d'une enquête sur échantillon.**
 :::
 
-Solution ? Présenter la mesure accompagnée d'un [intervalle]{.cb1} qui rendra compte de la [variabilité autour de cette mesure]{.cb1}.
+Comment résoudre ce problème ? En accompagnant la mesure d'un [intervalle]{.cb1} qui rendra compte de la [variabilité autour de cette mesure]{.cb1}.
 
 
 ## Solution : l'intervalle de confiance
@@ -79,7 +78,7 @@ Cet intervalle est appelé [intervalle de confiance]{.cb1}.
 
 Il s'étend de part et d'autre de la valeur mesurée dans l'échantillon, et permet de [maîtriser l'incertitude]{.cb1} due aux fluctuations d'échantillonnage avec un certain [niveau de confiance]{.cb1}.
 
-Ce niveau de confiance doit être défini : jusqu'à quel point peut-on avoir confiance dans la précision de l'estimation de la vraie valeur ? Par tradition, ce niveau est fixé à [95%]{.cb1}.
+Ce niveau de confiance doit être défini : jusqu'à quel point peut-on avoir confiance dans la précision de l'estimation de la vraie valeur ? Par pure tradition, ce niveau est fixé à [95%]{.cb1}.
 
 ::: {.p style="text-align:center"}
 **En pratique, on parle alors d'[intervalle de confiance à 95%]{.cb1}.**
@@ -103,7 +102,7 @@ Dans la vraie vie, la vraie valeur dans la population [ne peut pas être connue]
 On fait le présupposé que cette vraie valeur est [fixe]{.cb1} et [unique]{.cb1}.
 :::
 
-Que se passerait-il si on constituait beaucoup d'échantillons et qu'on calculait pour chacun un intervalle de confiance à 95% ?
+> **Que se passerait-il si on constituait beaucoup d'échantillons et qu'on calculait pour chacun d'eux un intervalle de confiance à 95% ?**
 
 Imaginons une situation [fictive]{.cb1} dans laquelle [on connait la vraie valeur]{.cb1} de la prévalence d'une maladie quelconque dans une population de 100 000 individus. Admettons que cette valeur soit [10%]{.cb1}.
 
@@ -162,7 +161,7 @@ En pratique, le résultat pourrait être présenté de la manière suivante :
 knitr::include_graphics("img/ic_exemple.png")
 ```
 
----
+\
 
 ::: {.p style="text-align:center"}
 **Dans la population, il y a 95% de chances que cet intervalle [contienne la vraie prévalence]{.cb1} de l'obésité**
@@ -172,7 +171,7 @@ On peut aussi l'interpréter d'une autre manière :
 **Il y a 95% de chances que la prévalence de l'obésité dans la population [soit comprise entre 12 et 28%]{.cb1}**
 :::
 
----
+\
 
 Admettons que l'échantillon ne soit plus composé de 100 sujets, mais de [1000]{.cb1} sujets.
 L'intervalle de confiance à 95% correspondant s'étend de [18 à 23%]{.cb1}.

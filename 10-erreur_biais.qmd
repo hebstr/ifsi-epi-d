@@ -18,27 +18,28 @@ Alors que la fluctuation d'échantillonnage est une erreur d'origine statistique
 
 Une manière de s'en prémunir est donc d'élaborer une méthode, [une réflexion préalable]{.cb1} qui sera différente selon le contexte et le type de biais.
 
-
 ## Biais de sélection {#sec-biais-sel}
 
 Un [biais de sélection]{.cb1} conduit *in fine* à une situation dans laquelle l'échantillon [n'est plus représentatif]{.cb1} de la population cible.
 
 Il peut survenir à différentes étapes de la constitution d'une enquête, notamment lors de la formation de la [population source]{.cb1}, de l'[échantillonnage]{.cb1}, ou pendant le [suivi]{.cb1} dans les enquêtes de cohortes. 
 
-- [Population source]{.cb1} 
+- **Population source**
 : La population de laquelle est issu l'échantillon n'est pas représentative de la population cible. Cela peut être dû à une sélection spécifique de lieux de recrutement, comme les hôpitaux ou les cliniques, qui ne reflètent pas la diversité des conditions de la population générale.
 
 ::: callout-tip
 ## Critères d'inclusion ou d'exclusion trop restrictifs
+
 Si une étude sur le diabète exclut les patients ayant des comorbidités, comme les maladies cardiovasculaires, les résultats ne seront [pas applicables]{.cb1} à de nombreux patients diabétiques qui vivent effectivement avec ces comorbidités.
 :::
 
 ::: callout-tip
 ## Zone géographique restreinte
+
 Une étude menée dans une région urbaine, où l'accès aux services de santé est facilité, pourrait [ne pas refléter]{.cb1} la situation des zones rurales ou moins développées.
 :::
 
-- [Échantillon]{.cb1}
+- **Échantillon**
 : La participation des sujets à une étude nécessite un consentement actif : les sujets qui choisissent de participer peuvent différer systématiquement de ceux qui refusent, que ce soit en termes de caractéristiques démographiques ou comportementales, ou d'autres facteurs de risque pertinents pour l'étude.
 
 ::: callout-tip
@@ -61,9 +62,9 @@ La comparaison des caractéristiques des sujets restants et des perdus de vue pe
 
 ::: callout-warning
 ## La sélection n'engendre pas systématiquement un biais
+
 À condition que l'objectif de l'étude soit clairement défini et que des méthodes appropriées soient utilisées pour ajuster l'impact de cette sélection.
 :::
-
 
 ## Biais de classement
 
@@ -73,11 +74,13 @@ Il conduit à des [erreurs de classement]{.cb1} des sujets dans les catégories 
 
 ::: callout-tip
 ## Déclaration de la consommation de tabac
+
 Si les sujets participants à une étude ont systématiquement tendance à sous-estimer leur consommation de tabac, l'association entre le tabagisme et le cancer du poumon pourra être [faussement sous-estimée]{.cb1}.
 :::
 
 ::: callout-tip
 ## Mesure de la température (partie III)
+
 L'erreur de mesure induite par le mauvais calibrage du thermomètre est un biais de classement.
 
 Le thermomètre est [biaisé]{.cb1} : à chaque mesure, il [surestime systématiquement]{.cb1} la vraie valeur de température chez votre patient.
@@ -116,6 +119,7 @@ La tabagisme joue ici le rôle de [facteur de confusion]{.cb1} : il est à la fo
 :::
 
 ---
+
 \
 
 ::: {.p style="text-align:center"}

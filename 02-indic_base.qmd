@@ -5,20 +5,19 @@ C'est un outil d'[évaluation]{.cb1} des problèmes de santé, d'[aide à la dé
 
 Tout indicateur est composé d'un [numérateur]{.cb1} et d'un [dénominateur]{.cb1}, et doit être défini en tenant compte de trois éléments :
 
-- [Temps]{.cb1} 
+- Temps
 : Préciser la période pendant laquelle les données ont été collectées pour observer les tendances au fil du temps (e.g., variations saisonnières des maladies infectieuses)
 
-- [Espace]{.cb1}
+- Espace
 : Identifier les zones géographiques concernées pour pouvoir comparer différentes régions entre elles
 
-- [Personne]{.cb1}
+- Personne
 : Tenir compte des caractéristiques démographiques de la population étudiée (e.g., âge, sexe, statut socio-économique) pour cibler les interventions vers les groupes les plus à risque.
 
 Les indicateurs de base présentés dans ce chapitre sont à l'origine de deux grandes catégories d'indicateurs de santé :
 
 - Les indicateurs de [mortalité]{.cb1} (@sec-mrt)
 - Les indicateurs de [morbidité]{.cb1} (@sec-mrb) 
-
 
 ## Indicateurs de base
 
@@ -31,7 +30,7 @@ Il s'exprime en pourcentage ou en un chiffre compris entre 0 et 1.
 ::: callout-tip
 ## En 2023, sur 750 000 enfants de 24 mois, 600 000 sont correctement vaccinés contre la rougeole.
 
-La proportion correspondante est $\frac{600 \ 000}{750 \ 000}$ = 0,8 \
+La proportion correspondante est 600 000 / 750 000 = 0,8 \
 La couverture vaccinale contre la rougeole chez les enfants de 24 mois est de 80%.
 :::
 
@@ -58,7 +57,7 @@ Nombre d'évènements : 72 nouveaux cas de varicelle \
 Nombre de sujets à risque de faire l'évènement : 200 enfants n'ayant jamais eu la varicelle et non vaccinés \
 Sur une période donnée : l'année scolaire 2021-2022
 
-Le taux correspondant est $\frac{72}{200}$ = 0,36 \
+Le taux correspondant est 72 / 200 = 0,36 \
 Durant l'année scolaire 2021-2022, il y a eu 36 nouveaux cas de varicelle pour 100 enfants à risque
 :::
 
@@ -71,9 +70,9 @@ Les modalités d'une variable binaire sont [mutuellement exclusives]{.cb1} : con
 Puisqu'il s'agit de la même unité au numérateur et au dénominateur, c'est un rapport [sans unité]{.cb1}.
 
 ::: callout-tip
-## En considérant que le sexe est une variable binaire (homme/femme), le "sex ratio" correspond au rapport du nombre d'hommes sur le nombre de femmes (ou inversement)
+## En considérant que le sexe est une variable binaire (homme/femme), le "sex ratio" correspond au rapport du nombre d'hommes sur le nombre de femmes (ou inversement).
 
-Classiquement, le sex ratio est présenté avec les hommes à gauche et les femmes à droite.
+Classiquement, le sex ratio est présenté avec l'effectif masculin à gauche et l'effectif féminin à droite.
 
 ::: {.p style="text-align:center"}
 Le sex ratio de la schizophrénie est de 3/1 
@@ -84,7 +83,6 @@ Le sex ratio de l'anorexie mentale est de 1/9
 :::
 :::
 
-
 ### Indice
 
 Un indice est le rapport de deux effectifs [de nature différente]{.cb1}.
@@ -92,19 +90,18 @@ Un indice est le rapport de deux effectifs [de nature différente]{.cb1}.
 ::: callout-tip
 ## 30 enfants sont hospitalisés dans un service de pédiatrie. Dans ce service, il y a 3 IDE.
 
-Deux effectifs de nature différente :
-
-- Nombre d'enfants
-- Nombre d'IDE
+Deux effectifs de nature différente : \
+\ \ \ \ - Nombre d'enfants \
+\ \ \ \ - Nombre d'IDE
 
 L'indice correspondant est 30 pour 3, ou 10 pour 1 : il y a 10 enfants par IDE.
 :::
 
-## Exercices
+## Exercice
 
-Pour chaque énoncé, quel est l'indicateur de base correspondant ?
+Pour chaque énoncé, quel est l'indicateur correspondant ?
 
-::: {.callout-caution collapse="true" appearance="minimal"}
+::: {.callout-caution collapse="true" icon="false"}
 
 ## Nombre de cancers cutanés / nombre de cancers 
 
@@ -115,7 +112,7 @@ Les cancers cutanés sont un sous-ensemble des cancers
 Le numérateur est inclut dans le dénominateur : c'est une [proportion]{.cb1}
 :::
 
-::: {.callout-caution collapse="true" appearance="minimal"}
+::: {.callout-caution collapse="true" icon="false"}
 ## Nombre de cigarettes consommées par habitant 
 
 >
@@ -126,7 +123,7 @@ Le numérateur est inclut dans le dénominateur : c'est une [proportion]{.cb1}
 Rapport entre 2 effectifs de nature différente : c'est un [indice]{.cb1}
 :::
 
-::: {.callout-caution collapse="true" appearance="minimal"}
+::: {.callout-caution collapse="true" icon="false"}
 ## Nombre de fumeurs / Nombre de non fumeurs
 
 >
@@ -136,7 +133,7 @@ C'est une variable binaire : fumeur / non fumeur
 Rapport entre les deux modalités d'une variable binaire : c'est un [ratio]{.cb1}
 :::
 
-::: {.callout-caution collapse="true" appearance="minimal"}
+::: {.callout-caution collapse="true" icon="false"}
 ## Nombre de femmes enceintes vaccinées contre la rubéole / nombre de femmes enceintes
 
 >
@@ -146,7 +143,7 @@ Les femmes enceintes vaccinées contre la rubéole sont un sous-ensemble des fem
 Le numérateur est inclut dans le dénominateur : c'est une [proportion]{.cb1}
 :::
 
-::: {.callout-caution collapse="true" appearance="minimal"}
+::: {.callout-caution collapse="true" icon="false"}
 ## Nombre de décès survenus du 1er janvier au 1er juin 2023 / nombre de personnes à risque de décéder sur cette période
 
 >
@@ -157,46 +154,44 @@ Mesuré sur une période : du 01/01/2023 au 01/06/2023
 On mesure la survenue d'un évènement parmi les personnes à risque de faire cet évènement, sur une période donnée : c'est un [taux]{.cb1}
 :::
 
-
 ## Critères de qualité d'un indicateur
 
 Pour être de qualité, un indicateur de santé doit être :
 
-- [Simple et acceptable]{.cb1}
+- Simple et acceptable
 : Facilement utilisable par les chercheurs, facilement compréhensible par les professionnels et les usagers
 
 ::: callout-tip
 ## Le taux de mortalité infantile est une mesure simple et consensuelle du nombre d'enfants décédés entre la naissance et 12 mois parmi toutes les naissances vivantes dans une population donnée
 :::
 
-- [Valide]{.cb1}
+- Valide
 : La mesure est-elle pertinente ? Correspond-elle à ce qu'on souhaite mesurer ?
 
 ::: callout-tip
 ## La mesure autonome de la pression artérielle (MAPA) mesure la pression artérielle en conditions de vie réelle, par opposition à une mesure prise dans un contexte clinique pouvant être influencée par le stress (effet *"blouse blanche"*) 
 :::
 
-- [Fiable]{.cb1}
+- Fiable
 : Une mesure répétée dans des conditions similaires doit produire des résultats similaires
 
 ::: callout-tip
 ## La reproduction de la MAPA sur plusieurs jours et à intervalles réguliers dans les mêmes conditions environnementales permet d'évaluer sa fiabilité
 :::
 
-- [Sensible]{.cb1}
+- Sensible
 : La mesure peut détecter des petites changements dans le phénomène étudié
 
 ::: callout-tip
 ## Un test de dépistage du cancer du sein doit être suffisamment sensible pour détecter une tumeur à un stade précoce, lorsque le traitement est le plus efficace
 :::
 
-- [Spécifique]{.cb1}
+- Spécifique
 : La mesure détecte uniquement le phénomène étudié
 
 ::: callout-tip
 ## Un test de dépistage du VIH doit être spécifique de l'infection à VIH et ne pas donner de résultats positifs pour d'autres infections virales
 :::
-
 
 ## Fiabilité vs validité {#sec-temp}
 
@@ -233,7 +228,7 @@ La @fig-cible-c représente une situation fréquente en pratique. La répétitio
 
 La @fig-cible-d représente une situation où la mesure n'apporte aucune information. Sa répétition ne donne jamais la même valeur, et rarement la bonne valeur : la mesure n'est [ni fiable ni valide]{.cb1}.
 
----
+\
 
 ::: {.p style="text-align:center"}
 
@@ -245,7 +240,7 @@ Une mesure [précise mais inexacte]{.cb1} donnerait des valeurs fiables [mais fa
 
 :::
 
----
+\
 
 ::: callout-tip
 ## Mesure de la température (partie I)
@@ -268,6 +263,7 @@ Pour autant, la mesure n'est [pas valide]{.cb1}
 :::
 
 ---
+
 \
 
 ::: {.p style="text-align:center"}
@@ -275,7 +271,7 @@ Pour autant, la mesure n'est [pas valide]{.cb1}
 :::
 
 ::: callout-important
-# Bien distinguer les indicateurs de base
+# Distinguer les indicateurs de base
 :::
 
 ::: callout-important

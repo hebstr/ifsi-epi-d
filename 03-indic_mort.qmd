@@ -43,7 +43,6 @@ On comprend ainsi facilement que, en moyenne, pour 1000 personnes suivies sur l'
 Cette transformation facilite également les comparaisons entre différentes tailles de populations.
 :::
 
-
 ## Taux spécifique de mortalité 
 
 Un [taux spécifique de mortalité]{.cb1} est un taux de mortalité dans lequel on tient compte d'un autre paramètre.
@@ -64,7 +63,8 @@ $$
 
 Sur 1000 enfants nés vivants entre 2020 et 2022, environ 4 en moyenne sont décédés avant l'âge de 12 mois.
 
-```{r #fig-mort-inf}
+```{r}
+#| label: fig-mort-inf
 #| out-width: 70%
 #| fig-align: center
 #| fig-cap: "Taux de mortalité infantile entre 2020 et 2022 (en ‰).<br>[Source : [Insee](https://www.insee.fr/fr/statistiques/2012741)]{.quarto-float-subcaption}"
@@ -89,7 +89,7 @@ Il existe plusieurs types de taux de mortalité spécifique, dont :
 
 Indépendamment de ses causes, la mortalité est liée à un facteur incontournable : [l'âge]{.cb1}.
 
-Si la comparaison entre départements révèle des taux plus élevés dans l'un, cela peut-être dû non pas à des causes externes mais simplement à la [structure d'âge]{.cb1} du département : [la mortalité est plus élevée si la moyenne d'âge est plus élevée]{.cb1}.
+Si la comparaison entre départements révèle des taux plus élevés dans l'un, cela peut-être dû non pas à des causes externes mais simpl ement à la [structure d'âge]{.cb1} du département : [la mortalité est plus élevée si la moyenne d'âge est plus élevée]{.cb1}.
 
 ::: {#fig-mort layout-ncol=2}
 
@@ -110,7 +110,8 @@ Afin de pouvoir comparer de manière pertinente des taux de mortalité entre dif
 
 Les taux comparatifs de décès, ou [taux standardisés]{.cb1}, correspondent à des taux de décès calculés [comme si la structure d'âge était la même dans tous les départements]{.cb1}.
 
-```{r #fig-stand}
+```{r}
+#| label: fig-stand
 #| out-width: 65%
 #| fig-align: center
 #| fig-cap: "Taux standardisés de mortalité prématurée (< 65 ans) en 2023 (en ‰).<br>[Source : [Insee](https://www.insee.fr/fr/statistiques/2012741)]{.quarto-float-subcaption}"
@@ -119,7 +120,6 @@ knitr::include_graphics("img/taux_stand_mort_prem_2023.png")
 ```
 
 Après standardisation, on peut supposer que les taux de mortalité observés dépendent non plus de la structure d'âge dans chaque région, mais bien de [facteurs externes]{.cb1}.
-
 
 ## Taux de létalité 
 
@@ -141,7 +141,6 @@ Elle est exprimée en temps depuis le début de la maladie (e.g. létalité à 2
 
 C'est un indicateur de la [gravité]{.cb1} d'une maladie.
 
-
 ::: callout-tip
 ## Pendant la première phase de l'épidémie de Covid à Wuhan, la létalité du Covid était de 17,3% pour les cas survenus durant les deux premières semaines de janvier 2020.
 
@@ -160,33 +159,51 @@ La mortalité spécifique est un indicateur de la charge globale de la maladie s
 
 :::
 
-
 ## Espérance de vie
+
+```{r}
+library(gt)
+
+table_esp <- \(birth, old) {
+  
+  tibble::tibble(" " = c("Hommes", "Femmes"),
+                 "À la naissance" = birth,
+                 "À 65 ans" = old) |> 
+    gt() |> 
+    tab_style(style = cell_text(weight = "bold"),
+              locations = 
+                list(cells_column_labels(),
+                     cells_body(columns = 1)))
+    
+}
+```
 
 L'espérance de vie est le [nombre moyen d'années]{.cb1} qu'une personne peut espérer vivre [à partir d'un âge donné]{.cb1}.
 
-```{r #tbl-esp-base}
-#| tbl-cap: "Espérance de vie en France, 2022."
-
-tibble::tibble(" " = c("**Hommes**", "**Femmes**"),
-               "À la naissance" = c(79.3, 85.1),
-               "À 65 ans" = c(19.1, 23.0)) |> 
-  knitr::kable(align = "c")
-```
-
-::: callout-note
-## Espérance de vie en bonne santé
-
 L'espérance de vie [en bonne santé]{.cb1} (ou espérance de vie [sans incapacité]{.cb1}) est le nombre moyen d'années qu'une personne peut espérer vivre sans souffrir d'incapacité dans les gestes de la vie quotidienne. 
 
-```{r #tbl-esp-bs}
-#| tbl-cap: "Espérance de vie en bonne santé en France, 2022."
+::: panel-tabset
 
-tibble::tibble(" " = c("**Hommes**", "**Femmes**"),
-               "À la naissance" = c(63.8, 65.3),
-               "À 65 ans" = c(10.2, 11.8)) |> 
-  knitr::kable(align = "c")
+# Espérance de vie
+
+```{r}
+#| label: tbl-esp-base
+#| tbl-cap: Espérance de vie en France, 2022.
+
+table_esp(birth = c(79.3, 85.1),
+          old = c(19.1, 23.0))
 ```
+
+# Espérance de vie en bonne santé
+
+```{r}
+#| label: tbl-esp-bs
+#| tbl-cap: Espérance de vie en bonne santé en France, 2022.
+
+table_esp(birth = c(63.8, 65.3),
+          old = c(10.2, 11.8))
+```
+
 :::
 
 Source : [Insee](https://www.insee.fr/fr/statistiques/2012741)
