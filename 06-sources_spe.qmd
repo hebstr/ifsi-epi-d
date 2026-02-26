@@ -39,7 +39,7 @@ L'exhaustivité se dit d'une situation où l'on a pu recueillir l'information su
 Une [enquête exhaustive]{.cb1} vise à collecter des informations [aussi complètes que possible]{.cb1}, en couvrant tous les aspects pertinents du sujet d'étude pour réduire les lacunes des données pré-existantes.
 
 ::: {.callout-caution collapse="true" icon="false"}
-## Que veut-on dire lorsqu'on parle de "liste exhaustive" ? 
+## Que veut-on dire lorsqu'on parle de "liste exhaustive" ?
 Une liste exhaustive est une liste [complète]{.cb1}, qui explicite tous les éléments qui la composent.
 :::
 
@@ -60,7 +60,7 @@ Pour une pathologie donnée, un registre permet d'étudier :
 Ce type d'enquête s'inscrit avant tout dans une démarche [descriptive]{.cb1}, mais peut aussi aider à l'évaluation d'actions de santé publique (e.g. impact d'une campagne de dépistage).
 
 ::: callout-tip
-## Les pathologies sont diverses et doivent être facilement repérables 
+## Les pathologies sont diverses et doivent être facilement repérables
 
 - Registre de cancers (les plus nombreux)
 - Registre des maladies inflammatoires du tube digestif
@@ -87,7 +87,7 @@ Il n'est parfois (et même souvent) pas possible d'avoir accès à toute une pop
 Une solution est de réaliser un [échantillonnage]{.cb1} de cette population.
 
 Un [échantillon]{.cb1} est un sous-ensemble, une portion de taille variable d'une population.
-Il doit être rigoureusement constitué : on veut qu'il soit [un bon reflet]{.cb1} de la population de laquelle il est issu. 
+Il doit être rigoureusement constitué : on veut qu'il soit [un bon reflet]{.cb1} de la population de laquelle il est issu.
 
 ::: {.p style="text-align:center"}
 **Autrement dit, on veut que l'échantillon soit [représentatif]{.cb1} de sa population d'origine**
@@ -109,9 +109,9 @@ Plus un échantillon est représentatif de sa population, plus l'estimation est 
 Un échantillon mal constitué, non représentatif de sa population d'origine, serait pourvoyeur de [biais de sélection]{.cb1} (@sec-biais-sel). La généralisation de ses résultats pourrait mener à des conclusions erronées.
 :::
 
-La constitution d'un échantillon fait intervenir trois étapes successives : 
+La constitution d'un échantillon fait intervenir trois étapes successives :
 
-1. [Population cible]{.cb1} : ensemble de la population ciblée par l'enquête 
+1. [Population cible]{.cb1} : ensemble de la population ciblée par l'enquête
 2. [Population source]{.cb1} : part de la population cible accessible en pratique
 3. [Échantillon]{.cb1} : sélection issue de la population source
 
@@ -120,7 +120,7 @@ La constitution d'un échantillon fait intervenir trois étapes successives :
 #| out-width: 70%
 #| fig-align: center
 #| fig-cap: De la population à l'échantillon
-#| lightbox: 
+#| lightbox:
 #|   group: fig-pop
 
 knitr::include_graphics("img/pop_1.png")
@@ -148,7 +148,7 @@ Enfin, un certain nombre de sujets appartenant à la population source seront s�
 #| out-width: 75%
 #| fig-align: center
 #| fig-cap: De la population à l'échantillon (exemple)
-#| lightbox: 
+#| lightbox:
 #|   group: fig-pop
 
 knitr::include_graphics("img/pop_2.png")
@@ -164,7 +164,7 @@ La prévalence de l'obésité sera finalement mesurée dans cet échantillon.
 Par conséquent, cette représentativité doit être garantit à chaque niveau :
 
 1. La population [source]{.cb1} doit être représentative de la population [cible]{.cb1}
-: La constitution de la population source sur la base d'une liste électorale garantit une bonne représentativité vis-à-vis de la population cible (on considère que les personnes qui votent ont les mêmes caractéristiques que celles qui ne votent pas).
+	: La constitution de la population source sur la base d'une liste électorale garantit une bonne représentativité vis-à-vis de la population cible (on considère que les personnes qui votent ont les mêmes caractéristiques que celles qui ne votent pas).
 
 2. **L'[échantillon]{.cb1} doit être représentatif de la population [source]{.cb1}**
 
@@ -245,7 +245,7 @@ Objectif
 
 Protocole
 : - 220 000 volontaires âgés de 18 à 69 ans et affiliés au Régime général de sécurité sociale inclus entre 2012 et 2021
-- Données recueillies par des questionnaires complétés à domicile ou administrés par les médecins dans les centres d'examens de santé 
+- Données recueillies par des questionnaires complétés à domicile ou administrés par les médecins dans les centres d'examens de santé
 
 
 Exemples d'études réalisées ou en cours
@@ -256,7 +256,7 @@ Exemples d'études réalisées ou en cours
 - Rôle de la consommation de cannabis dans les comportements suicidaires
 :::
 
----
+***
 
 \
 

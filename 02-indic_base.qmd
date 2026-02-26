@@ -6,18 +6,18 @@ C'est un outil d'[évaluation]{.cb1} des problèmes de santé, d'[aide à la dé
 Tout indicateur est composé d'un [numérateur]{.cb1} et d'un [dénominateur]{.cb1}, et doit être défini en tenant compte de trois éléments :
 
 - Temps
-: Préciser la période pendant laquelle les données ont été collectées pour observer les tendances au fil du temps (e.g., variations saisonnières des maladies infectieuses)
+	: Préciser la période pendant laquelle les données ont été collectées pour observer les tendances au fil du temps (e.g., variations saisonnières des maladies infectieuses)
 
 - Espace
-: Identifier les zones géographiques concernées pour pouvoir comparer différentes régions entre elles
+	: Identifier les zones géographiques concernées pour pouvoir comparer différentes régions entre elles
 
 - Personne
-: Tenir compte des caractéristiques démographiques de la population étudiée (e.g., âge, sexe, statut socio-économique) pour cibler les interventions vers les groupes les plus à risque.
+	: Tenir compte des caractéristiques démographiques de la population étudiée (e.g., âge, sexe, statut socio-économique) pour cibler les interventions vers les groupes les plus à risque.
 
 Les indicateurs de base présentés dans ce chapitre sont à l'origine de deux grandes catégories d'indicateurs de santé :
 
 - Les indicateurs de [mortalité]{.cb1} (@sec-mrt)
-- Les indicateurs de [morbidité]{.cb1} (@sec-mrb) 
+- Les indicateurs de [morbidité]{.cb1} (@sec-mrb)
 
 ## Indicateurs de base
 
@@ -36,18 +36,15 @@ La couverture vaccinale contre la rougeole chez les enfants de 24 mois est de 80
 
 ### Taux {#sec-taux}
 
-Un taux mesure le [risque de survenue]{.cb1} d'un évènement [au cours d'une période]{.cb1}. 
+Un taux mesure le [risque de survenue]{.cb1} d'un évènement [au cours d'une période]{.cb1}.
 
 Il s'exprime en pourcentage ou en un chiffre compris entre 0 et 1.
 
->
 $$
-\mathrm{
 \frac
-{Nombre \ d'évènements}
-{Nombre \ de \ sujet \ à \ risque \ de \ faire \ l'évènement}
-\ \ sur \ une \ période \ donnée
-}
+  {\text{Nombre d'évènements}}
+  {\text{Nombre de sujet à risque de faire l'évènement}}
+\text{ sur une période donnée}
 $$
 
 ::: callout-tip
@@ -61,7 +58,7 @@ Le taux correspondant est 72 / 200 = 0,36 \
 Durant l'année scolaire 2021-2022, il y a eu 36 nouveaux cas de varicelle pour 100 enfants à risque
 :::
 
-### Ratio 
+### Ratio
 
 Un ratio est un rapport des effectifs de [deux modalités d'une variable binaire]{.cb1}.
 
@@ -75,11 +72,11 @@ Puisqu'il s'agit de la même unité au numérateur et au dénominateur, c'est un
 Classiquement, le sex ratio est présenté avec l'effectif masculin à gauche et l'effectif féminin à droite.
 
 ::: {.p style="text-align:center"}
-Le sex ratio de la schizophrénie est de 3/1 
-: La schizophrénie concerne 3 fois plus souvent les hommes que les femmes
+**Le sex ratio de la schizophrénie est de 3/1** \
+La schizophrénie concerne 3 fois plus souvent les hommes que les femmes
 
-Le sex ratio de l'anorexie mentale est de 1/9 
-: L'anorexie mentale concerne 9 fois plus souvent les femmes que les hommes
+**Le sex ratio de l'anorexie mentale est de 1/9** \
+L'anorexie mentale concerne 9 fois plus souvent les femmes que les hommes
 :::
 :::
 
@@ -103,7 +100,7 @@ Pour chaque énoncé, quel est l'indicateur correspondant ?
 
 ::: {.callout-caution collapse="true" icon="false"}
 
-## Nombre de cancers cutanés / nombre de cancers 
+## Nombre de cancers cutanés / nombre de cancers
 
 >
 Nombre de cancers = l'ensemble des cancers \
@@ -113,13 +110,11 @@ Le numérateur est inclut dans le dénominateur : c'est une [proportion]{.cb1}
 :::
 
 ::: {.callout-caution collapse="true" icon="false"}
-## Nombre de cigarettes consommées par habitant 
+## Nombre de cigarettes consommées par habitant
 
 >
-2 effectifs de nature différente : \
-\ \ \ \ - Nombre de cigarettes \
-\ \ \ \ - Nombre d'habitants
-  
+2 effectifs de nature différente : nombre de cigarettes et nombre d'habitants
+
 Rapport entre 2 effectifs de nature différente : c'est un [indice]{.cb1}
 :::
 
@@ -158,36 +153,31 @@ On mesure la survenue d'un évènement parmi les personnes à risque de faire ce
 
 Pour être de qualité, un indicateur de santé doit être :
 
-- Simple et acceptable
-: Facilement utilisable par les chercheurs, facilement compréhensible par les professionnels et les usagers
+- **Simple et acceptable** : facilement utilisable par les chercheurs, facilement compréhensible par les professionnels et les usagers
 
 ::: callout-tip
 ## Le taux de mortalité infantile est une mesure simple et consensuelle du nombre d'enfants décédés entre la naissance et 12 mois parmi toutes les naissances vivantes dans une population donnée
 :::
 
-- Valide
-: La mesure est-elle pertinente ? Correspond-elle à ce qu'on souhaite mesurer ?
+- **Valide** : la mesure est-elle pertinente ? Correspond-elle à ce qu'on souhaite mesurer ?
 
 ::: callout-tip
-## La mesure autonome de la pression artérielle (MAPA) mesure la pression artérielle en conditions de vie réelle, par opposition à une mesure prise dans un contexte clinique pouvant être influencée par le stress (effet *"blouse blanche"*) 
+## La mesure autonome de la pression artérielle (MAPA) mesure la pression artérielle en conditions de vie réelle, par opposition à une mesure prise dans un contexte clinique pouvant être influencée par le stress (effet *"blouse blanche"*)
 :::
 
-- Fiable
-: Une mesure répétée dans des conditions similaires doit produire des résultats similaires
+- **Fiable** : une mesure répétée dans des conditions similaires doit produire des résultats similaires
 
 ::: callout-tip
 ## La reproduction de la MAPA sur plusieurs jours et à intervalles réguliers dans les mêmes conditions environnementales permet d'évaluer sa fiabilité
 :::
 
-- Sensible
-: La mesure peut détecter des petites changements dans le phénomène étudié
+- **Sensible** : la mesure peut détecter des petites changements dans le phénomène étudié
 
 ::: callout-tip
 ## Un test de dépistage du cancer du sein doit être suffisamment sensible pour détecter une tumeur à un stade précoce, lorsque le traitement est le plus efficace
 :::
 
-- Spécifique
-: La mesure détecte uniquement le phénomène étudié
+- **Spécifique** : la mesure détecte uniquement le phénomène étudié
 
 ::: callout-tip
 ## Un test de dépistage du VIH doit être spécifique de l'infection à VIH et ne pas donner de résultats positifs pour d'autres infections virales
@@ -233,10 +223,10 @@ La @fig-cible-d représente une situation où la mesure n'apporte aucune informa
 ::: {.p style="text-align:center"}
 
 Une mesure [exacte mais imprécise]{.cb1} donnerait des bonnes valeurs [par hasard]{.cb1}
-: Elle ne serait pas utilisable en pratique
+  : Elle ne serait pas utilisable en pratique
 
 Une mesure [précise mais inexacte]{.cb1} donnerait des valeurs fiables [mais fausses]{.cb1}
-: Elle serait utilisable en pratique de par sa fiabilité, mais donnerait une vision erronée de la réalité
+  : Elle serait utilisable en pratique de par sa fiabilité, mais donnerait une vision erronée de la réalité
 
 :::
 
@@ -255,14 +245,14 @@ Autrement dit :
 
 ::: {.p style="text-align:center"}
 La mesure est [fiable]{.cb1}
-: La répétition de la mesure reproduit *globalement* le même résultat 
+  : La répétition de la mesure reproduit *globalement* le même résultat
 
 Pour autant, la mesure n'est [pas valide]{.cb1}
-: L'appareil surestime la température réelle de +1°C
+  : L'appareil surestime la température réelle de +1°C
 :::
 :::
 
----
+***
 
 \
 

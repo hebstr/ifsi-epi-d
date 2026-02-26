@@ -10,8 +10,8 @@ Les biais ont pour conséquences :
 
 Il existe trois grandes catégories de biais :
 
-- Biais de [sélection]{.cb1} 
-- Biais de [classement]{.cb1} 
+- Biais de [sélection]{.cb1}
+- Biais de [classement]{.cb1}
 - Biais de [confusion]{.cb1}
 
 Alors que la fluctuation d'échantillonnage est une erreur d'origine statistique, le biais est une erreur d'origine [méthodologique]{.cb1} : il affecte la [validité]{.cb1} d'une mesure et n'est [pas dépendant de la taille de l'échantillon]{.cb1}.
@@ -22,10 +22,10 @@ Une manière de s'en prémunir est donc d'élaborer une méthode, [une réflexio
 
 Un [biais de sélection]{.cb1} conduit *in fine* à une situation dans laquelle l'échantillon [n'est plus représentatif]{.cb1} de la population cible.
 
-Il peut survenir à différentes étapes de la constitution d'une enquête, notamment lors de la formation de la [population source]{.cb1}, de l'[échantillonnage]{.cb1}, ou pendant le [suivi]{.cb1} dans les enquêtes de cohortes. 
+Il peut survenir à différentes étapes de la constitution d'une enquête, notamment lors de la formation de la [population source]{.cb1}, de l'[échantillonnage]{.cb1}, ou pendant le [suivi]{.cb1} dans les enquêtes de cohortes.
 
 - **Population source**
-: La population de laquelle est issu l'échantillon n'est pas représentative de la population cible. Cela peut être dû à une sélection spécifique de lieux de recrutement, comme les hôpitaux ou les cliniques, qui ne reflètent pas la diversité des conditions de la population générale.
+	: La population de laquelle est issu l'échantillon n'est pas représentative de la population cible. Cela peut être dû à une sélection spécifique de lieux de recrutement, comme les hôpitaux ou les cliniques, qui ne reflètent pas la diversité des conditions de la population générale.
 
 ::: callout-tip
 ## Critères d'inclusion ou d'exclusion trop restrictifs
@@ -40,7 +40,7 @@ Une étude menée dans une région urbaine, où l'accès aux services de santé 
 :::
 
 - **Échantillon**
-: La participation des sujets à une étude nécessite un consentement actif : les sujets qui choisissent de participer peuvent différer systématiquement de ceux qui refusent, que ce soit en termes de caractéristiques démographiques ou comportementales, ou d'autres facteurs de risque pertinents pour l'étude.
+	: La participation des sujets à une étude nécessite un consentement actif : les sujets qui choisissent de participer peuvent différer systématiquement de ceux qui refusent, que ce soit en termes de caractéristiques démographiques ou comportementales, ou d'autres facteurs de risque pertinents pour l'étude.
 
 ::: callout-tip
 ## Lors de l'inclusion : les non-participants diffèrent des participants
@@ -97,7 +97,7 @@ En épidémiologie descriptive, ils peuvent intervenir lors de la [comparaison]{
 ::: callout-tip
 ## Comparaison des taux bruts de mortalité entre le Nord et la Creuse
 
-Le Nord est un département plutôt jeune ; la Creuse est un département plutôt âgé. 
+Le Nord est un département plutôt jeune ; la Creuse est un département plutôt âgé.
 
 La structure d'âge est donc à l'origine un biais de confusion dans la comparaison de taux bruts de mortalité. On dit que c'est un [facteur de confusion]{.cb1}.
 
@@ -118,7 +118,7 @@ Pour autant, peut-on dire que le port du briquet est la cause du cancer ? Probab
 La tabagisme joue ici le rôle de [facteur de confusion]{.cb1} : il est à la fois lié au fait de porter un briquet sur soi et à la survenue du cancer du poumon.
 :::
 
----
+***
 
 \
 

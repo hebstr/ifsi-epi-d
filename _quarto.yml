@@ -1,8 +1,5 @@
 project:
   type: book
-  output-dir: _book
-
-lang: fr
 
 book:
   title: Épidémiologie descriptive
@@ -11,64 +8,32 @@ book:
   date: last-modified
   downloads: [pdf, docx]
   repo-url: https://codeberg.org/hebstr/epi_d
-  sidebar: 
-    style: docked
-    background: lighten($primary, 59%)
+  sidebar:
+    style: floating
   chapters:
     - part: Introduction
       chapters:
         - index.qmd
         - 01-definitions.qmd
     - part: Indicateurs de santé
-      chapters: 
+      chapters:
         - 02-indic_base.qmd
         - 03-indic_mort.qmd
         - 04-indic_morbi.qmd
     - part: Sources des indicateurs
-      chapters: 
+      chapters:
         - 05-sources_base.qmd
         - 06-sources_spe.qmd
         - 07-sources_quali.qmd
-    - part: Erreurs de mesure    
-      chapters: 
+    - part: Erreurs de mesure
+      chapters:
         - 08-erreur_def.qmd
         - 09-erreur_fluct.qmd
         - 10-erreur_biais.qmd
-        
+
 format:
-  html:
-    toc-title: Dans ce chapitre
-    toc-depth: 4
-    toc-expand: true
-    number-sections: true
-    number-depth: 4
-    colorlinks: true
-    code-link: true
-    code-copy: false
-    code-fold: true
-    callout-appearance: simple
-    reference-location: margin
-    html-table-processing: none
-    crossref: 
-      title-delim: "."
-      tbl-title: "Tableau"
-    theme:
-      light: [cosmo, style.scss]
-    grid:
-      sidebar-width: 310px
-      body-width: 780px
-      margin-width: 310px
-      
+  hebstr-template-html: default
+  # hebstr-template-typst: default
+
 comments:
   hypothesis: true
-
-lightbox: true
-
-knitr: 
-  opts_chunk:
-    collapse: true
-    comment: "#>"
-    echo: false
-    message: false
-    warning: false
-    

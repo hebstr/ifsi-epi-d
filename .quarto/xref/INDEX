@@ -1,95 +1,35 @@
 {
   "index.qmd": {
-    "index.html": "9631726a"
-  },
-  "indicateurs.qmd": {
-    "indicateurs.html": "86a037dd"
-  },
-  "sources.qmd": {
-    "sources.html": "3fe4e6a2"
-  },
-  "references.qmd": {
-    "references.html": "078c6b3e"
-  },
-  "definitions.qmd": {
-    "definitions.html": "1062799f"
-  },
-  "erreurs.qmd": {
-    "erreurs.html": "7ce7a2c4"
-  },
-  "indicateurs_base.qmd": {
-    "indicateurs_base.html": "e31cea4a"
-  },
-  "indicateurs_mrt.qmd": {
-    "indicateurs_mrt.html": "7d007a62"
-  },
-  "indicateurs_mrb.qmd": {
-    "indicateurs_mrb.html": "5cfb5ffc"
-  },
-  "sources_base.qmd": {
-    "sources_base.html": "c2d47884"
-  },
-  "sources_adhoc.qmd": {
-    "sources_adhoc.html": "6f89f20b"
-  },
-  "sources_quali.qmd": {
-    "sources_quali.html": "7b41d865"
-  },
-  "fluctuations.qmd": {
-    "fluctuations.html": "70273e50"
-  },
-  "biais.qmd": {
-    "biais.html": "141790fc"
-  },
-  "sources_spe.qmd": {
-    "sources_spe.html": "dd5d9821"
-  },
-  "erreur_fluct.qmd": {
-    "erreur_fluct.html": "e9f82d70"
-  },
-  "indic_base.qmd": {
-    "indic_base.html": "90de1e14"
-  },
-  "indic_mort.qmd": {
-    "indic_mort.html": "c3ead28e"
-  },
-  "indic_morbi.qmd": {
-    "indic_morbi.html": "e6fe9de6"
-  },
-  "erreur_biais.qmd": {
-    "erreur_biais.html": "e830da2d"
-  },
-  "erreur_def.qmd": {
-    "erreur_def.html": "7877eb5b"
+    "index.html": "cda8ea43"
   },
   "01-definitions.qmd": {
-    "01-definitions.html": "f9ffb413"
+    "01-definitions.html": "61a311c9"
   },
   "02-indic_base.qmd": {
-    "02-indic_base.html": "f81a2e6b"
+    "02-indic_base.html": "cd17c6aa"
   },
   "03-indic_mort.qmd": {
-    "03-indic_mort.html": "fa9e45e7"
+    "03-indic_mort.html": "384a0ca1"
   },
   "04-indic_morbi.qmd": {
-    "04-indic_morbi.html": "9fdf053d"
+    "04-indic_morbi.html": "87a04dbd"
   },
   "05-sources_base.qmd": {
-    "05-sources_base.html": "c2815847"
+    "05-sources_base.html": "2fdb28aa"
   },
   "06-sources_spe.qmd": {
-    "06-sources_spe.html": "c36542e3"
+    "06-sources_spe.html": "bc15d37b"
   },
   "07-sources_quali.qmd": {
-    "07-sources_quali.html": "adf9e1d3"
+    "07-sources_quali.html": "7635497e"
   },
   "08-erreur_def.qmd": {
-    "08-erreur_def.html": "4ed4a28c"
+    "08-erreur_def.html": "9ad2b175"
   },
   "09-erreur_fluct.qmd": {
-    "09-erreur_fluct.html": "04178ef1"
+    "09-erreur_fluct.html": "b145eb58"
   },
   "10-erreur_biais.qmd": {
-    "10-erreur_biais.html": "6c6ce622"
+    "10-erreur_biais.html": "2fc14084"
   }
 }

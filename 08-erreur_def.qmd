@@ -14,7 +14,7 @@ Une mesure peut parfois s'écarter de la vraie valeur, à laquelle nous n'avons 
 
 L'erreur de calibrage de l'appareil, aboutissant à une surestimation de la température de +1°C, est une erreur [prévisible]{.cb1}. Elle se produit à chaque mesure, [toujours dans la même direction]{.cb1}. On peut ainsi dire de l'appareil qu'il est [biaisé]{.cb1}.
 
-Puisque vous êtes averti du défaut de l'appareil, et que l'erreur qui en résulte est prévisible, vous pouvez [facilement la corriger]{.cb1} : pour chaque mesure, il faut soustraire 1°C. 
+Puisque vous êtes averti du défaut de l'appareil, et que l'erreur qui en résulte est prévisible, vous pouvez [facilement la corriger]{.cb1} : pour chaque mesure, il faut soustraire 1°C.
 
 D'autre part, on a dit que la mesure répétée chez un même patient rapportait *globalement* la même valeur. Globalement, mais pas *exactement*.
 Vous remarquez en effet que la valeur peut [varier]{.cb1} d'un chiffre après la virgule (38.6, 38.8, 38.8, 38.5, etc.).
@@ -44,18 +44,17 @@ Ces deux types d'erreurs peuvent être illustrés en reprenant la @fig-cible, re
 knitr::include_graphics("img/cible_x.png")
 ```
 
----
+***
 
 ::: {.p style="text-align:center"}
 **La [fluctuation d'échantillonnage]{.cb1} est une erreur qui affecte la [précision]{.cb1} d'une mesure** \
 **Le [biais]{.cb1} est une erreur qui affecte l'[exactitude]{.cb1} d'une mesure**
 :::
 
----
+***
 
 ::: callout-warning
 ## Erreur ou écart ?
 
 Le terme d'erreur peut porter à confusion. Il doit être compris, pas seulement comme une erreur de mesure, mais comme un synonyme d'[écart]{.cb1} par rapport à la réalité ou à une valeur attendue.
 :::
-

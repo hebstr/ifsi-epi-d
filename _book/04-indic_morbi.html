@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
+<meta name="generator" content="quarto-1.9.22">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
 <meta name="description" content="| IFSI 1A - UE 1.2-S2 Santé Publique">
+
 <title>5&nbsp; Indicateurs de morbidité – Épidémiologie descriptive</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -20,6 +26,7 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
+
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
@@ -29,18 +36,25 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <link href="./05-sources_base.html" rel="next">
 <link href="./03-indic_mort.html" rel="prev">
-<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-fa946811cf40c7878aef30c2a32d0301.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8e988d8d4f9ab8cf4626e3f2ecf81262.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-fa946811cf40c7878aef30c2a32d0301.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-fb20d7766bf52fdc43f73f2d3575f456.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e415de9b280d1ac0a9ade54fe73f4250.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-e415de9b280d1ac0a9ade54fe73f4250.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e415de9b280d1ac0a9ade54fe73f4250.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><script id="quarto-search-options" type="application/json">{
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
   "collapse-after": 3,
@@ -66,11 +80,26 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Envoyer",
     "search-label": "Recherche"
   }
-}</script><script async="" src="https://hypothes.is/embed.js"></script><script>
+}</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
   window.document.addEventListener("DOMContentLoaded", function (_event) {
     document.body.classList.add('hypothesis-enabled');
   });
-</script><script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script><script type="text/javascript">
+</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+<script>
+window.MathJax = {
+  chtml: {
+    mtextInheritFont: true
+  }
+};
+</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
 const typesetMath = (el) => {
   if (window.MathJax) {
     // MathJax Typeset
@@ -81,7 +110,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -96,11 +125,16 @@ window.Quarto = {
   typesetMath
 };
 </script>
+
+<link rel="stylesheet" href="site_libs/quarto-contrib/quarto-project/hebstr-template/resources/fonts.css">
 </head>
-<body class="nav-sidebar docked">
+
+<body class="nav-sidebar floating quarto-light">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><nav class="quarto-secondary-nav"><div class="container-fluid d-flex">
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Basculer la barre latérale" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
@@ -111,17 +145,21 @@ window.Quarto = {
         <i class="bi bi-search"></i>
       </button>
     </div>
-  </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto"><div class="pt-lg-2 mt-2 text-left sidebar-header">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Épidémiologie descriptive</a> 
         <div class="sidebar-tools-main">
-    <a href="https://codeberg.org/hebstr/epi_d" title="Code source" class="quarto-navigation-tool px-1" aria-label="Code source"><i class="bi bi-git"></i></a>
+    <a href="https://codeberg.org/hebstr/epi_d" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-git"></i></a>
     <div class="dropdown">
       <a href="" title="Download" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label="Download"><i class="bi bi-download"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
-<li>
+          <li>
             <a class="dropdown-item sidebar-tools-main-item" href="./Épidémiologie-descriptive.pdf">
               <i class="bi bi-file-pdf pe-1"></i>
             Download PDF
@@ -134,7 +172,7 @@ window.Quarto = {
             </a>
           </li>
       </ul>
-</div>
+    </div>
 </div>
     </div>
       </div>
@@ -145,7 +183,7 @@ window.Quarto = {
         </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
-<li class="sidebar-item sidebar-item-section">
+        <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Introduction</span></a>
@@ -153,8 +191,8 @@ window.Quarto = {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">
-<li class="sidebar-item">
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Présentation du cours</span></span></a>
@@ -167,7 +205,7 @@ window.Quarto = {
   </div>
 </li>
       </ul>
-</li>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true">
@@ -176,8 +214,8 @@ window.Quarto = {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">
-<li class="sidebar-item">
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./02-indic_base.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Mesures de base</span></span></a>
@@ -196,7 +234,7 @@ window.Quarto = {
   </div>
 </li>
       </ul>
-</li>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
@@ -205,8 +243,8 @@ window.Quarto = {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">
-<li class="sidebar-item">
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./05-sources_base.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Recueils systématiques</span></span></a>
@@ -225,7 +263,7 @@ window.Quarto = {
   </div>
 </li>
       </ul>
-</li>
+  </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
@@ -234,8 +272,8 @@ window.Quarto = {
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">
-<li class="sidebar-item">
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./08-erreur_def.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">La notion d’erreur</span></span></a>
@@ -254,30 +292,34 @@ window.Quarto = {
   </div>
 </li>
       </ul>
-</li>
+  </li>
     </ul>
-</div>
-</nav><div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99"><h2 id="toc-title">Dans ce chapitre</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Sur cette page</h2>
    
   <ul>
-<li><a href="#sec-inc" id="toc-sec-inc" class="nav-link active" data-scroll-target="#sec-inc"><span class="header-section-number">5.1</span> Incidence</a></li>
+  <li><a href="#sec-inc" id="toc-sec-inc" class="nav-link active" data-scroll-target="#sec-inc"><span class="header-section-number">5.1</span> Incidence</a></li>
   <li><a href="#sec-prev" id="toc-sec-prev" class="nav-link" data-scroll-target="#sec-prev"><span class="header-section-number">5.2</span> Prévalence</a></li>
-  <li>
-<a href="#incidence-vs-pr%C3%A9valence" id="toc-incidence-vs-prévalence" class="nav-link" data-scroll-target="#incidence-vs-pr%C3%A9valence"><span class="header-section-number">5.3</span> Incidence vs prévalence</a>
+  <li><a href="#incidence-vs-prévalence" id="toc-incidence-vs-prévalence" class="nav-link" data-scroll-target="#incidence-vs-prévalence"><span class="header-section-number">5.3</span> Incidence vs prévalence</a>
   <ul>
-<li><a href="#analogie-la-baignoire-de-l%C3%A9pid%C3%A9miologiste" id="toc-analogie-la-baignoire-de-lépidémiologiste" class="nav-link" data-scroll-target="#analogie-la-baignoire-de-l%C3%A9pid%C3%A9miologiste"><span class="header-section-number">5.3.1</span> Analogie : la baignoire de l’épidémiologiste</a></li>
-  <li><a href="#exemple-linfection-%C3%A0-vih" id="toc-exemple-linfection-à-vih" class="nav-link" data-scroll-target="#exemple-linfection-%C3%A0-vih"><span class="header-section-number">5.3.2</span> Exemple : l’infection à VIH</a></li>
-  <li><a href="#facteurs-d%C3%A9terminants" id="toc-facteurs-déterminants" class="nav-link" data-scroll-target="#facteurs-d%C3%A9terminants"><span class="header-section-number">5.3.3</span> Facteurs déterminants</a></li>
+  <li><a href="#analogie-la-baignoire-de-lépidémiologiste" id="toc-analogie-la-baignoire-de-lépidémiologiste" class="nav-link" data-scroll-target="#analogie-la-baignoire-de-lépidémiologiste"><span class="header-section-number">5.3.1</span> Analogie : la baignoire de l’épidémiologiste</a></li>
+  <li><a href="#exemple-linfection-à-vih" id="toc-exemple-linfection-à-vih" class="nav-link" data-scroll-target="#exemple-linfection-à-vih"><span class="header-section-number">5.3.2</span> Exemple : l’infection à VIH</a></li>
+  <li><a href="#facteurs-déterminants" id="toc-facteurs-déterminants" class="nav-link" data-scroll-target="#facteurs-déterminants"><span class="header-section-number">5.3.3</span> Facteurs déterminants</a></li>
+  </ul></li>
+  <li><a href="#incidence-ou-prévalence" id="toc-incidence-ou-prévalence" class="nav-link" data-scroll-target="#incidence-ou-prévalence"><span class="header-section-number">5.4</span> Incidence ou prévalence ?</a></li>
   </ul>
-</li>
-  <li><a href="#incidence-ou-pr%C3%A9valence" id="toc-incidence-ou-prévalence" class="nav-link" data-scroll-target="#incidence-ou-pr%C3%A9valence"><span class="header-section-number">5.4</span> Incidence ou prévalence ?</a></li>
-  </ul></nav>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./02-indic_base.html">Indicateurs de santé</a></li><li class="breadcrumb-item"><a href="./04-indic_morbi.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Indicateurs de morbidité</span></a></li></ol></nav><div class="quarto-title">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./02-indic_base.html">Indicateurs de santé</a></li><li class="breadcrumb-item"><a href="./04-indic_morbi.html"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Indicateurs de morbidité</span></a></li></ol></nav>
+<div class="quarto-title">
 <h1 class="title"><span id="sec-mrb" class="quarto-section-identifier"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Indicateurs de morbidité</span></span></h1>
 </div>
 
@@ -286,20 +328,29 @@ window.Quarto = {
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">dernière mise à jour</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">26 février 2026</p>
+    </div>
+  </div>
   
     
   </div>
   
 
 
-</header><p>La <span class="cb1">morbidité</span> se réfère au fait d’être <span class="cb1">atteint d’une maladie</span>.</p>
+</header>
+
+
+<p>La <span class="cb1">morbidité</span> se réfère au fait d’être <span class="cb1">atteint d’une maladie</span>.</p>
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Mesurer la morbidité : éléments philosophiques
+<span class="screen-reader-only">Note</span>Mesurer la morbidité : éléments philosophiques
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -309,17 +360,14 @@ Mesurer la morbidité : éléments philosophiques
 </div>
 </div>
 <p>Il existe en pratique deux indicateurs de morbidité : l’<span class="cb1">incidence</span> et la <span class="cb1">prévalence</span>.</p>
-<section id="sec-inc" class="level2" data-number="5.1"><h2 data-number="5.1" class="anchored" data-anchor-id="sec-inc">
-<span class="header-section-number">5.1</span> Incidence</h2>
+<section id="sec-inc" class="level2" data-number="5.1">
+<h2 data-number="5.1" class="anchored" data-anchor-id="sec-inc"><span class="header-section-number">5.1</span> Incidence</h2>
 <p>Un <span class="cb1">taux d’incidence</span> est un <span class="cb1">taux</span> (<a href="02-indic_base.html#sec-taux" class="quarto-xref"><span>Section 3.1.2</span></a>) appliqué à la <span class="cb1">survenue de nouveaux cas</span> d’une maladie dans une population.</p>
 <p><span class="math display">\[
-\mathrm{
 \frac
-{Nombre \ de \ nouveaux \ cas \ d'une \ maladie}
-{Nombre \ de \ personnes \ à \ risque \ de \ devenir \ malade}
-\ \
-sur \ une \ période \ donnée
-}
+  {\text{Nombre de nouveaux cas d'une maladie}}
+  {\text{Nombre de personnes à risque de devenir malade}}
+\text{ sur une période donnée}
 \]</span></p>
 <p>Puisqu’il s’agit d’une mesure prise sur une période, elle est qualifiée de mesure <span class="cb1">longitudinale</span> (<em>en longueur</em>, <em>d’un point A à un point B</em>).</p>
 <p>Le taux d’incidence est <span class="cb1">toujours</span> spécifié pour une <span class="cb1">période donnée</span>. Il reflète la <span class="cb1">vitesse de survenue</span> d’une maladie dans une population.</p>
@@ -329,27 +377,25 @@ sur \ une \ période \ donnée
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Dans une ville de 100 000 habitants, on observe 500 nouveaux cas de Covid durant l’hiver 2023 (période de 3 mois)
+<span class="screen-reader-only">Astuce</span>Dans une ville de 100 000 habitants, on observe 500 nouveaux cas de Covid durant l’hiver 2023 (période de 3 mois)
 </div>
 </div>
 <div class="callout-body-container callout-body">
 <p>Il y a eu 500 nouveaux cas sur les 3 mois.<br>
 On considère l’ensemble de la population comme étant à risque sur les 3 mois, soit 100 000 personnes.</p>
-<p>Le taux d’incidence était de <span class="math inline">\(\frac{500}{100 \ 000}\)</span> = 5 cas pour 1000 habitants sur 3 mois.<br>
+<p>Le taux d’incidence était de 500 / 100 000 = 5 cas pour 1000 habitants sur 3 mois.<br>
 Durant l’hiver 2023, il y a eu 5 nouveaux cas de Covid pour 1000 habitants.</p>
 </div>
 </div>
-</section><section id="sec-prev" class="level2" data-number="5.2"><h2 data-number="5.2" class="anchored" data-anchor-id="sec-prev">
-<span class="header-section-number">5.2</span> Prévalence</h2>
+</section>
+<section id="sec-prev" class="level2" data-number="5.2">
+<h2 data-number="5.2" class="anchored" data-anchor-id="sec-prev"><span class="header-section-number">5.2</span> Prévalence</h2>
 <p>La <span class="cb1">prévalence</span> est la <span class="cb1">proportion</span> (<a href="02-indic_base.html#sec-prop" class="quarto-xref"><span>Section 3.1.1</span></a>) de <span class="cb1">personnes atteintes d’une maladie à un instant donné</span> dans une population.</p>
 <p><span class="math display">\[
-\mathrm{
 \frac
-{Nombre \ de \ cas \ d'une \ maladie}
-{Ensemble \ de \ la \ population}
-\ \
-à \ un \ instant \ donné
-}
+  {\text{Nombre de cas d'une maladie}}
+  {\text{Ensemble de la population}}
+\text{ à un instant donné}
 \]</span></p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
@@ -357,33 +403,28 @@ Durant l’hiver 2023, il y a eu 5 nouveaux cas de Covid pour 1000 habitants.</p
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Lors d’une enquête nationale réalisée sur les 3000 femmes enceintes ayant accouché le 15/03/2024, 1150 ont été dépistées positives à la toxoplasmose.
+<span class="screen-reader-only">Astuce</span>Lors d’une enquête nationale réalisée sur les 3000 femmes enceintes ayant accouché le 15/03/2024, 1150 ont été dépistées positives à la toxoplasmose.
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>La prévalence était de <span class="math inline">\(\frac{1150}{3000}\)</span> = 0,38<br>
+<p>La prévalence était de 1150 / 3000 = 0,38<br>
 Le 15/03/2024, la prévalence de la toxoplasmose chez les femmes enceintes était de 38%.</p>
 </div>
 </div>
 <p>Du fait qu’il s’agisse d’une mesure ponctuelle, elle est qualifiée de mesure <span class="cb1">transversale</span> (<em>à un instant donné</em>, <em>une photographie</em>), en opposition à longitudinale.</p>
 <p>Pour qu’une proportion de personnes malades se constitue au sein d’une population, il faut logiquement que de nouveaux cas soient apparus en amont. Autrement dit, la prévalence d’une maladie est <span class="cb1">dépendante de l’incidence</span> de cette maladie.</p>
 <p>La prévalence dépend également de la <span class="cb1">durée d’évolution</span> de la maladie : plus celle-ci augmente, plus le nombre de personnes vivant avec la maladie augmente dans la population.</p>
-</section><section id="incidence-vs-prévalence" class="level2" data-number="5.3"><h2 data-number="5.3" class="anchored" data-anchor-id="incidence-vs-prévalence">
-<span class="header-section-number">5.3</span> Incidence vs prévalence</h2>
+</section>
+<section id="incidence-vs-prévalence" class="level2" data-number="5.3">
+<h2 data-number="5.3" class="anchored" data-anchor-id="incidence-vs-prévalence"><span class="header-section-number">5.3</span> Incidence vs prévalence</h2>
 <div class="p" style="text-align:center">
-<dl>
-<dt>La prévalence est un indicateur statique</dt>
-<dd>
-Elle rend compte de la <span class="cb1">fréquence</span> d’une maladie <span class="cb1">à un instant donné</span>
-</dd>
-<dt>L’incidence est un indicateur dynamique</dt>
-<dd>
-Elle rend compte de la <span class="cb1">vitesse</span> à laquelle une maladie survient <span class="cb1">sur une période donnée</span>
-</dd>
-</dl>
+<p><strong>La prévalence est un indicateur statique</strong><br>
+Elle rend compte de la <span class="cb1">fréquence</span> d’une maladie <span class="cb1">à un instant donné</span></p>
+<p><strong>L’incidence est un indicateur dynamique</strong><br>
+Elle rend compte de la <span class="cb1">vitesse</span> à laquelle une maladie survient <span class="cb1">sur une période donnée</span></p>
 </div>
-<section id="analogie-la-baignoire-de-lépidémiologiste" class="level3" data-number="5.3.1"><h3 data-number="5.3.1" class="anchored" data-anchor-id="analogie-la-baignoire-de-lépidémiologiste">
-<span class="header-section-number">5.3.1</span> Analogie : la baignoire de l’épidémiologiste</h3>
+<section id="analogie-la-baignoire-de-lépidémiologiste" class="level3" data-number="5.3.1">
+<h3 data-number="5.3.1" class="anchored" data-anchor-id="analogie-la-baignoire-de-lépidémiologiste"><span class="header-section-number">5.3.1</span> Analogie : la baignoire de l’épidémiologiste</h3>
 <p>L’incidence, la prévalence et la relation qui existe entre elles peuvent être illustrées avec <span class="cb1">la baignoire de l’épidémiologiste</span> (<a href="#fig-baignoire" class="quarto-xref">Figure&nbsp;<span>5.1</span></a>).</p>
 <p>Elle est constituée classiquement de 4 éléments :</p>
 <ol type="1">
@@ -399,37 +440,39 @@ Elle rend compte de la <span class="cb1">vitesse</span> à laquelle une maladie 
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div id="fig-baignoire" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
-<figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-baignoire-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-baignoire-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <a href="img/baignoire.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Figure&nbsp;5.1. La baignoire de l’épidémiologiste"><img src="img/baignoire.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:60.0%"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-baignoire-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;5.1. La baignoire de l’épidémiologiste
-</figcaption></figure>
+</figcaption>
+</figure>
 </div>
 </div>
 </div>
 <p>En résumé, il s’agit d’un circuit avec :</p>
 <ul>
-<li>Un débit <span class="cb1">entrant</span> : l’apparition de nouveaux cas = <span class="cb1">incidence</span>
-</li>
-<li>Un volume <span class="cb1">constitué</span> : le nombre de cas dans la population = <span class="cb1">prévalence</span>
-</li>
-<li>Un débit <span class="cb1">sortant</span> : la <span class="cb1">mort</span> ou la <span class="cb1">guérison</span>
-</li>
+<li>Un débit <span class="cb1">entrant</span> : l’apparition de nouveaux cas = <span class="cb1">incidence</span></li>
+<li>Un volume <span class="cb1">constitué</span> : le nombre de cas dans la population = <span class="cb1">prévalence</span></li>
+<li>Un débit <span class="cb1">sortant</span> : la <span class="cb1">mort</span> ou la <span class="cb1">guérison</span></li>
 </ul>
 <p>Bien que le robinet soit constamment ouvert, la baignoire ne déborde pas. En revanche, s’il y a une limite à la sortie, le niveau d’eau aura tendance à augmenter avec le temps.</p>
-</section><section id="exemple-linfection-à-vih" class="level3" data-number="5.3.2"><h3 data-number="5.3.2" class="anchored" data-anchor-id="exemple-linfection-à-vih">
-<span class="header-section-number">5.3.2</span> Exemple : l’infection à VIH</h3>
+</section>
+<section id="exemple-linfection-à-vih" class="level3" data-number="5.3.2">
+<h3 data-number="5.3.2" class="anchored" data-anchor-id="exemple-linfection-à-vih"><span class="header-section-number">5.3.2</span> Exemple : l’infection à VIH</h3>
 <p>L’incidence, la prévalence et leur évolution dans le temps peuvent être représentées graphiquement à travers l’exemple de l’infection à VIH.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div id="fig-vih" class="quarto-float quarto-figure quarto-figure-center anchored" data-fig-align="center">
-<figure class="quarto-float quarto-float-fig figure"><div aria-describedby="fig-vih-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-vih-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <a href="img/vih.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Figure&nbsp;5.2. État de l’épidémie de SIDA dans le monde (en millions). Source : UNAIDS"><img src="img/vih.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:70.0%"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-vih-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figure&nbsp;5.2. État de l’épidémie de SIDA dans le monde (en millions).<br><span class="quarto-float-subcaption">Source : <a href="https://www.unaids.org/en/resources/fact-sheet">UNAIDS</a></span>
-</figcaption></figure>
+</figcaption>
+</figure>
 </div>
 </div>
 </div>
@@ -437,16 +480,17 @@ Figure&nbsp;5.2. État de l’épidémie de SIDA dans le monde (en millions).<br
 <p>Une maladie pour laquelle la possibilité de guérison est diminuée, et la durée de survie augmentée, est une maladie dont la prévalence <span class="cb1">augmente</span>. Cette situation est celle des maladies dites <span class="cb1">chroniques</span>.</p>
 <p>De manière générale, avec l’augmentation de l’espérance de vie, la prévalence d’une maladie a tendance à <span class="cb1">augmenter avec le temps</span>, <em>à l’image d’une baignoire qui se remplirait d’eau</em>.</p>
 <p>L’incidence ne suit pas cette tendance. Hors situation particulière, les nouveaux cas d’une maladie apparaissent à une vitesse <span class="cb1">modérée et constante</span>, <em>à l’image d’un robinet qu’on aurait laissé ouvert</em>.</p>
-</section><section id="facteurs-déterminants" class="level3" data-number="5.3.3"><h3 data-number="5.3.3" class="anchored" data-anchor-id="facteurs-déterminants">
-<span class="header-section-number">5.3.3</span> Facteurs déterminants</h3>
+</section>
+<section id="facteurs-déterminants" class="level3" data-number="5.3.3">
+<h3 data-number="5.3.3" class="anchored" data-anchor-id="facteurs-déterminants"><span class="header-section-number">5.3.3</span> Facteurs déterminants</h3>
 <p>Comment auraient tendance à évoluer l’incidence et la prévalence dans les situations suivantes (augmentation, diminution ou stabilité) ?</p>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Augmentation des facteurs de risque
+<span class="screen-reader-only">Mise en garde</span>Augmentation des facteurs de risque
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -454,23 +498,23 @@ Augmentation des facteurs de risque
 <div class="callout-body-container callout-body">
 <div class="cell">
 <div class="cell-output-display">
-<div id="fytvfnaisq" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#fytvfnaisq table {
+<div id="nmzucbnjko" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#nmzucbnjko table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#fytvfnaisq thead, #fytvfnaisq tbody, #fytvfnaisq tfoot, #fytvfnaisq tr, #fytvfnaisq td, #fytvfnaisq th {
+#nmzucbnjko thead, #nmzucbnjko tbody, #nmzucbnjko tfoot, #nmzucbnjko tr, #nmzucbnjko td, #nmzucbnjko th {
   border-style: none;
 }
 
-#fytvfnaisq p {
+#nmzucbnjko p {
   margin: 0;
   padding: 0;
 }
 
-#fytvfnaisq .gt_table {
+#nmzucbnjko .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -496,12 +540,12 @@ Augmentation des facteurs de risque
   border-left-color: #D3D3D3;
 }
 
-#fytvfnaisq .gt_caption {
+#nmzucbnjko .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#fytvfnaisq .gt_title {
+#nmzucbnjko .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -513,7 +557,7 @@ Augmentation des facteurs de risque
   border-bottom-width: 0;
 }
 
-#fytvfnaisq .gt_subtitle {
+#nmzucbnjko .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -525,7 +569,7 @@ Augmentation des facteurs de risque
   border-top-width: 0;
 }
 
-#fytvfnaisq .gt_heading {
+#nmzucbnjko .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -537,13 +581,13 @@ Augmentation des facteurs de risque
   border-right-color: #D3D3D3;
 }
 
-#fytvfnaisq .gt_bottom_border {
+#nmzucbnjko .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#fytvfnaisq .gt_col_headings {
+#nmzucbnjko .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -558,7 +602,7 @@ Augmentation des facteurs de risque
   border-right-color: #D3D3D3;
 }
 
-#fytvfnaisq .gt_col_heading {
+#nmzucbnjko .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -578,7 +622,7 @@ Augmentation des facteurs de risque
   overflow-x: hidden;
 }
 
-#fytvfnaisq .gt_column_spanner_outer {
+#nmzucbnjko .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -590,15 +634,15 @@ Augmentation des facteurs de risque
   padding-right: 4px;
 }
 
-#fytvfnaisq .gt_column_spanner_outer:first-child {
+#nmzucbnjko .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#fytvfnaisq .gt_column_spanner_outer:last-child {
+#nmzucbnjko .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#fytvfnaisq .gt_column_spanner {
+#nmzucbnjko .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -610,11 +654,11 @@ Augmentation des facteurs de risque
   width: 100%;
 }
 
-#fytvfnaisq .gt_spanner_row {
+#nmzucbnjko .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#fytvfnaisq .gt_group_heading {
+#nmzucbnjko .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -640,7 +684,7 @@ Augmentation des facteurs de risque
   text-align: left;
 }
 
-#fytvfnaisq .gt_empty_group_heading {
+#nmzucbnjko .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -655,15 +699,15 @@ Augmentation des facteurs de risque
   vertical-align: middle;
 }
 
-#fytvfnaisq .gt_from_md > :first-child {
+#nmzucbnjko .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#fytvfnaisq .gt_from_md > :last-child {
+#nmzucbnjko .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#fytvfnaisq .gt_row {
+#nmzucbnjko .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -682,7 +726,7 @@ Augmentation des facteurs de risque
   overflow-x: hidden;
 }
 
-#fytvfnaisq .gt_stub {
+#nmzucbnjko .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -695,7 +739,7 @@ Augmentation des facteurs de risque
   padding-right: 5px;
 }
 
-#fytvfnaisq .gt_stub_row_group {
+#nmzucbnjko .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -709,15 +753,15 @@ Augmentation des facteurs de risque
   vertical-align: top;
 }
 
-#fytvfnaisq .gt_row_group_first td {
+#nmzucbnjko .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#fytvfnaisq .gt_row_group_first th {
+#nmzucbnjko .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#fytvfnaisq .gt_summary_row {
+#nmzucbnjko .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -727,16 +771,16 @@ Augmentation des facteurs de risque
   padding-right: 5px;
 }
 
-#fytvfnaisq .gt_first_summary_row {
+#nmzucbnjko .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#fytvfnaisq .gt_first_summary_row.thick {
+#nmzucbnjko .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#fytvfnaisq .gt_last_summary_row {
+#nmzucbnjko .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -746,7 +790,7 @@ Augmentation des facteurs de risque
   border-bottom-color: #D3D3D3;
 }
 
-#fytvfnaisq .gt_grand_summary_row {
+#nmzucbnjko .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -756,7 +800,7 @@ Augmentation des facteurs de risque
   padding-right: 5px;
 }
 
-#fytvfnaisq .gt_first_grand_summary_row {
+#nmzucbnjko .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -766,7 +810,7 @@ Augmentation des facteurs de risque
   border-top-color: #D3D3D3;
 }
 
-#fytvfnaisq .gt_last_grand_summary_row_top {
+#nmzucbnjko .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -776,11 +820,11 @@ Augmentation des facteurs de risque
   border-bottom-color: #D3D3D3;
 }
 
-#fytvfnaisq .gt_striped {
+#nmzucbnjko .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#fytvfnaisq .gt_table_body {
+#nmzucbnjko .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -789,7 +833,7 @@ Augmentation des facteurs de risque
   border-bottom-color: #D3D3D3;
 }
 
-#fytvfnaisq .gt_footnotes {
+#nmzucbnjko .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -803,7 +847,7 @@ Augmentation des facteurs de risque
   border-right-color: #D3D3D3;
 }
 
-#fytvfnaisq .gt_footnote {
+#nmzucbnjko .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -812,7 +856,7 @@ Augmentation des facteurs de risque
   padding-right: 5px;
 }
 
-#fytvfnaisq .gt_sourcenotes {
+#nmzucbnjko .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -826,7 +870,7 @@ Augmentation des facteurs de risque
   border-right-color: #D3D3D3;
 }
 
-#fytvfnaisq .gt_sourcenote {
+#nmzucbnjko .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -834,86 +878,87 @@ Augmentation des facteurs de risque
   padding-right: 5px;
 }
 
-#fytvfnaisq .gt_left {
+#nmzucbnjko .gt_left {
   text-align: left;
 }
 
-#fytvfnaisq .gt_center {
+#nmzucbnjko .gt_center {
   text-align: center;
 }
 
-#fytvfnaisq .gt_right {
+#nmzucbnjko .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#fytvfnaisq .gt_font_normal {
+#nmzucbnjko .gt_font_normal {
   font-weight: normal;
 }
 
-#fytvfnaisq .gt_font_bold {
+#nmzucbnjko .gt_font_bold {
   font-weight: bold;
 }
 
-#fytvfnaisq .gt_font_italic {
+#nmzucbnjko .gt_font_italic {
   font-style: italic;
 }
 
-#fytvfnaisq .gt_super {
+#nmzucbnjko .gt_super {
   font-size: 65%;
 }
 
-#fytvfnaisq .gt_footnote_marks {
+#nmzucbnjko .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#fytvfnaisq .gt_asterisk {
+#nmzucbnjko .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#fytvfnaisq .gt_indent_1 {
+#nmzucbnjko .gt_indent_1 {
   text-indent: 5px;
 }
 
-#fytvfnaisq .gt_indent_2 {
+#nmzucbnjko .gt_indent_2 {
   text-indent: 10px;
 }
 
-#fytvfnaisq .gt_indent_3 {
+#nmzucbnjko .gt_indent_3 {
   text-indent: 15px;
 }
 
-#fytvfnaisq .gt_indent_4 {
+#nmzucbnjko .gt_indent_4 {
   text-indent: 20px;
 }
 
-#fytvfnaisq .gt_indent_5 {
+#nmzucbnjko .gt_indent_5 {
   text-indent: 25px;
 }
 
-#fytvfnaisq .katex-display {
+#nmzucbnjko .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#fytvfnaisq div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#nmzucbnjko div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
 <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
-<thead><tr class="gt_col_headings">
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="incidence">incidence</th>
+  <thead>
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="incidence">incidence</th>
       <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="prévalence">prévalence</th>
-    </tr></thead>
-<tbody class="gt_table_body"><tr>
-<td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title>
-<path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
-<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title>
-<path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
-</tr></tbody>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title><path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
+<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title><path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td></tr>
+  </tbody>
+  
 </table>
 </div>
 </div>
@@ -924,12 +969,12 @@ Augmentation des facteurs de risque
 </div>
 </div>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-5-contents" aria-controls="callout-5" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Amélioration de la prise en charge : guérison plus rapide
+<span class="screen-reader-only">Mise en garde</span>Amélioration de la prise en charge : guérison plus rapide
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -937,23 +982,23 @@ Amélioration de la prise en charge : guérison plus rapide
 <div class="callout-body-container callout-body">
 <div class="cell">
 <div class="cell-output-display">
-<div id="srjmjeajxr" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#srjmjeajxr table {
+<div id="vubtzttrxr" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#vubtzttrxr table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#srjmjeajxr thead, #srjmjeajxr tbody, #srjmjeajxr tfoot, #srjmjeajxr tr, #srjmjeajxr td, #srjmjeajxr th {
+#vubtzttrxr thead, #vubtzttrxr tbody, #vubtzttrxr tfoot, #vubtzttrxr tr, #vubtzttrxr td, #vubtzttrxr th {
   border-style: none;
 }
 
-#srjmjeajxr p {
+#vubtzttrxr p {
   margin: 0;
   padding: 0;
 }
 
-#srjmjeajxr .gt_table {
+#vubtzttrxr .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -979,12 +1024,12 @@ Amélioration de la prise en charge : guérison plus rapide
   border-left-color: #D3D3D3;
 }
 
-#srjmjeajxr .gt_caption {
+#vubtzttrxr .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#srjmjeajxr .gt_title {
+#vubtzttrxr .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -996,7 +1041,7 @@ Amélioration de la prise en charge : guérison plus rapide
   border-bottom-width: 0;
 }
 
-#srjmjeajxr .gt_subtitle {
+#vubtzttrxr .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1008,7 +1053,7 @@ Amélioration de la prise en charge : guérison plus rapide
   border-top-width: 0;
 }
 
-#srjmjeajxr .gt_heading {
+#vubtzttrxr .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1020,13 +1065,13 @@ Amélioration de la prise en charge : guérison plus rapide
   border-right-color: #D3D3D3;
 }
 
-#srjmjeajxr .gt_bottom_border {
+#vubtzttrxr .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#srjmjeajxr .gt_col_headings {
+#vubtzttrxr .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1041,7 +1086,7 @@ Amélioration de la prise en charge : guérison plus rapide
   border-right-color: #D3D3D3;
 }
 
-#srjmjeajxr .gt_col_heading {
+#vubtzttrxr .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1061,7 +1106,7 @@ Amélioration de la prise en charge : guérison plus rapide
   overflow-x: hidden;
 }
 
-#srjmjeajxr .gt_column_spanner_outer {
+#vubtzttrxr .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1073,15 +1118,15 @@ Amélioration de la prise en charge : guérison plus rapide
   padding-right: 4px;
 }
 
-#srjmjeajxr .gt_column_spanner_outer:first-child {
+#vubtzttrxr .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#srjmjeajxr .gt_column_spanner_outer:last-child {
+#vubtzttrxr .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#srjmjeajxr .gt_column_spanner {
+#vubtzttrxr .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1093,11 +1138,11 @@ Amélioration de la prise en charge : guérison plus rapide
   width: 100%;
 }
 
-#srjmjeajxr .gt_spanner_row {
+#vubtzttrxr .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#srjmjeajxr .gt_group_heading {
+#vubtzttrxr .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1123,7 +1168,7 @@ Amélioration de la prise en charge : guérison plus rapide
   text-align: left;
 }
 
-#srjmjeajxr .gt_empty_group_heading {
+#vubtzttrxr .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1138,15 +1183,15 @@ Amélioration de la prise en charge : guérison plus rapide
   vertical-align: middle;
 }
 
-#srjmjeajxr .gt_from_md > :first-child {
+#vubtzttrxr .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#srjmjeajxr .gt_from_md > :last-child {
+#vubtzttrxr .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#srjmjeajxr .gt_row {
+#vubtzttrxr .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1165,7 +1210,7 @@ Amélioration de la prise en charge : guérison plus rapide
   overflow-x: hidden;
 }
 
-#srjmjeajxr .gt_stub {
+#vubtzttrxr .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1178,7 +1223,7 @@ Amélioration de la prise en charge : guérison plus rapide
   padding-right: 5px;
 }
 
-#srjmjeajxr .gt_stub_row_group {
+#vubtzttrxr .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1192,15 +1237,15 @@ Amélioration de la prise en charge : guérison plus rapide
   vertical-align: top;
 }
 
-#srjmjeajxr .gt_row_group_first td {
+#vubtzttrxr .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#srjmjeajxr .gt_row_group_first th {
+#vubtzttrxr .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#srjmjeajxr .gt_summary_row {
+#vubtzttrxr .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1210,16 +1255,16 @@ Amélioration de la prise en charge : guérison plus rapide
   padding-right: 5px;
 }
 
-#srjmjeajxr .gt_first_summary_row {
+#vubtzttrxr .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#srjmjeajxr .gt_first_summary_row.thick {
+#vubtzttrxr .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#srjmjeajxr .gt_last_summary_row {
+#vubtzttrxr .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1229,7 +1274,7 @@ Amélioration de la prise en charge : guérison plus rapide
   border-bottom-color: #D3D3D3;
 }
 
-#srjmjeajxr .gt_grand_summary_row {
+#vubtzttrxr .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1239,7 +1284,7 @@ Amélioration de la prise en charge : guérison plus rapide
   padding-right: 5px;
 }
 
-#srjmjeajxr .gt_first_grand_summary_row {
+#vubtzttrxr .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1249,7 +1294,7 @@ Amélioration de la prise en charge : guérison plus rapide
   border-top-color: #D3D3D3;
 }
 
-#srjmjeajxr .gt_last_grand_summary_row_top {
+#vubtzttrxr .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1259,11 +1304,11 @@ Amélioration de la prise en charge : guérison plus rapide
   border-bottom-color: #D3D3D3;
 }
 
-#srjmjeajxr .gt_striped {
+#vubtzttrxr .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#srjmjeajxr .gt_table_body {
+#vubtzttrxr .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1272,7 +1317,7 @@ Amélioration de la prise en charge : guérison plus rapide
   border-bottom-color: #D3D3D3;
 }
 
-#srjmjeajxr .gt_footnotes {
+#vubtzttrxr .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1286,7 +1331,7 @@ Amélioration de la prise en charge : guérison plus rapide
   border-right-color: #D3D3D3;
 }
 
-#srjmjeajxr .gt_footnote {
+#vubtzttrxr .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1295,7 +1340,7 @@ Amélioration de la prise en charge : guérison plus rapide
   padding-right: 5px;
 }
 
-#srjmjeajxr .gt_sourcenotes {
+#vubtzttrxr .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1309,7 +1354,7 @@ Amélioration de la prise en charge : guérison plus rapide
   border-right-color: #D3D3D3;
 }
 
-#srjmjeajxr .gt_sourcenote {
+#vubtzttrxr .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1317,86 +1362,87 @@ Amélioration de la prise en charge : guérison plus rapide
   padding-right: 5px;
 }
 
-#srjmjeajxr .gt_left {
+#vubtzttrxr .gt_left {
   text-align: left;
 }
 
-#srjmjeajxr .gt_center {
+#vubtzttrxr .gt_center {
   text-align: center;
 }
 
-#srjmjeajxr .gt_right {
+#vubtzttrxr .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#srjmjeajxr .gt_font_normal {
+#vubtzttrxr .gt_font_normal {
   font-weight: normal;
 }
 
-#srjmjeajxr .gt_font_bold {
+#vubtzttrxr .gt_font_bold {
   font-weight: bold;
 }
 
-#srjmjeajxr .gt_font_italic {
+#vubtzttrxr .gt_font_italic {
   font-style: italic;
 }
 
-#srjmjeajxr .gt_super {
+#vubtzttrxr .gt_super {
   font-size: 65%;
 }
 
-#srjmjeajxr .gt_footnote_marks {
+#vubtzttrxr .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#srjmjeajxr .gt_asterisk {
+#vubtzttrxr .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#srjmjeajxr .gt_indent_1 {
+#vubtzttrxr .gt_indent_1 {
   text-indent: 5px;
 }
 
-#srjmjeajxr .gt_indent_2 {
+#vubtzttrxr .gt_indent_2 {
   text-indent: 10px;
 }
 
-#srjmjeajxr .gt_indent_3 {
+#vubtzttrxr .gt_indent_3 {
   text-indent: 15px;
 }
 
-#srjmjeajxr .gt_indent_4 {
+#vubtzttrxr .gt_indent_4 {
   text-indent: 20px;
 }
 
-#srjmjeajxr .gt_indent_5 {
+#vubtzttrxr .gt_indent_5 {
   text-indent: 25px;
 }
 
-#srjmjeajxr .katex-display {
+#vubtzttrxr .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#srjmjeajxr div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#vubtzttrxr div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
 <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
-<thead><tr class="gt_col_headings">
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="incidence">incidence</th>
+  <thead>
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="incidence">incidence</th>
       <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="prévalence">prévalence</th>
-    </tr></thead>
-<tbody class="gt_table_body"><tr>
-<td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Right Long" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Right Long</title>
-<path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"></path></svg></span></td>
-<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Down Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Down Long</title>
-<path d="M169.4 502.6c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 402.7 224 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 370.7L86.6 329.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128z"></path></svg></span></td>
-</tr></tbody>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Right Long" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Right Long</title><path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"></path></svg></span></td>
+<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Down Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Down Long</title><path d="M169.4 502.6c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 402.7 224 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 370.7L86.6 329.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128z"></path></svg></span></td></tr>
+  </tbody>
+  
 </table>
 </div>
 </div>
@@ -1407,12 +1453,12 @@ Amélioration de la prise en charge : guérison plus rapide
 </div>
 </div>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-6-contents" aria-controls="callout-6" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Amélioration de la prise en charge : survie plus longue
+<span class="screen-reader-only">Mise en garde</span>Amélioration de la prise en charge : survie plus longue
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -1420,23 +1466,23 @@ Amélioration de la prise en charge : survie plus longue
 <div class="callout-body-container callout-body">
 <div class="cell">
 <div class="cell-output-display">
-<div id="vgcgcestyv" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#vgcgcestyv table {
+<div id="njsusajhzl" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#njsusajhzl table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#vgcgcestyv thead, #vgcgcestyv tbody, #vgcgcestyv tfoot, #vgcgcestyv tr, #vgcgcestyv td, #vgcgcestyv th {
+#njsusajhzl thead, #njsusajhzl tbody, #njsusajhzl tfoot, #njsusajhzl tr, #njsusajhzl td, #njsusajhzl th {
   border-style: none;
 }
 
-#vgcgcestyv p {
+#njsusajhzl p {
   margin: 0;
   padding: 0;
 }
 
-#vgcgcestyv .gt_table {
+#njsusajhzl .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1462,12 +1508,12 @@ Amélioration de la prise en charge : survie plus longue
   border-left-color: #D3D3D3;
 }
 
-#vgcgcestyv .gt_caption {
+#njsusajhzl .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#vgcgcestyv .gt_title {
+#njsusajhzl .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1479,7 +1525,7 @@ Amélioration de la prise en charge : survie plus longue
   border-bottom-width: 0;
 }
 
-#vgcgcestyv .gt_subtitle {
+#njsusajhzl .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1491,7 +1537,7 @@ Amélioration de la prise en charge : survie plus longue
   border-top-width: 0;
 }
 
-#vgcgcestyv .gt_heading {
+#njsusajhzl .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1503,13 +1549,13 @@ Amélioration de la prise en charge : survie plus longue
   border-right-color: #D3D3D3;
 }
 
-#vgcgcestyv .gt_bottom_border {
+#njsusajhzl .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#vgcgcestyv .gt_col_headings {
+#njsusajhzl .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1524,7 +1570,7 @@ Amélioration de la prise en charge : survie plus longue
   border-right-color: #D3D3D3;
 }
 
-#vgcgcestyv .gt_col_heading {
+#njsusajhzl .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1544,7 +1590,7 @@ Amélioration de la prise en charge : survie plus longue
   overflow-x: hidden;
 }
 
-#vgcgcestyv .gt_column_spanner_outer {
+#njsusajhzl .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1556,15 +1602,15 @@ Amélioration de la prise en charge : survie plus longue
   padding-right: 4px;
 }
 
-#vgcgcestyv .gt_column_spanner_outer:first-child {
+#njsusajhzl .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#vgcgcestyv .gt_column_spanner_outer:last-child {
+#njsusajhzl .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#vgcgcestyv .gt_column_spanner {
+#njsusajhzl .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1576,11 +1622,11 @@ Amélioration de la prise en charge : survie plus longue
   width: 100%;
 }
 
-#vgcgcestyv .gt_spanner_row {
+#njsusajhzl .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#vgcgcestyv .gt_group_heading {
+#njsusajhzl .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1606,7 +1652,7 @@ Amélioration de la prise en charge : survie plus longue
   text-align: left;
 }
 
-#vgcgcestyv .gt_empty_group_heading {
+#njsusajhzl .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1621,15 +1667,15 @@ Amélioration de la prise en charge : survie plus longue
   vertical-align: middle;
 }
 
-#vgcgcestyv .gt_from_md > :first-child {
+#njsusajhzl .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#vgcgcestyv .gt_from_md > :last-child {
+#njsusajhzl .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#vgcgcestyv .gt_row {
+#njsusajhzl .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1648,7 +1694,7 @@ Amélioration de la prise en charge : survie plus longue
   overflow-x: hidden;
 }
 
-#vgcgcestyv .gt_stub {
+#njsusajhzl .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1661,7 +1707,7 @@ Amélioration de la prise en charge : survie plus longue
   padding-right: 5px;
 }
 
-#vgcgcestyv .gt_stub_row_group {
+#njsusajhzl .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1675,15 +1721,15 @@ Amélioration de la prise en charge : survie plus longue
   vertical-align: top;
 }
 
-#vgcgcestyv .gt_row_group_first td {
+#njsusajhzl .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#vgcgcestyv .gt_row_group_first th {
+#njsusajhzl .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#vgcgcestyv .gt_summary_row {
+#njsusajhzl .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1693,16 +1739,16 @@ Amélioration de la prise en charge : survie plus longue
   padding-right: 5px;
 }
 
-#vgcgcestyv .gt_first_summary_row {
+#njsusajhzl .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#vgcgcestyv .gt_first_summary_row.thick {
+#njsusajhzl .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#vgcgcestyv .gt_last_summary_row {
+#njsusajhzl .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1712,7 +1758,7 @@ Amélioration de la prise en charge : survie plus longue
   border-bottom-color: #D3D3D3;
 }
 
-#vgcgcestyv .gt_grand_summary_row {
+#njsusajhzl .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1722,7 +1768,7 @@ Amélioration de la prise en charge : survie plus longue
   padding-right: 5px;
 }
 
-#vgcgcestyv .gt_first_grand_summary_row {
+#njsusajhzl .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1732,7 +1778,7 @@ Amélioration de la prise en charge : survie plus longue
   border-top-color: #D3D3D3;
 }
 
-#vgcgcestyv .gt_last_grand_summary_row_top {
+#njsusajhzl .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1742,11 +1788,11 @@ Amélioration de la prise en charge : survie plus longue
   border-bottom-color: #D3D3D3;
 }
 
-#vgcgcestyv .gt_striped {
+#njsusajhzl .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#vgcgcestyv .gt_table_body {
+#njsusajhzl .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1755,7 +1801,7 @@ Amélioration de la prise en charge : survie plus longue
   border-bottom-color: #D3D3D3;
 }
 
-#vgcgcestyv .gt_footnotes {
+#njsusajhzl .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1769,7 +1815,7 @@ Amélioration de la prise en charge : survie plus longue
   border-right-color: #D3D3D3;
 }
 
-#vgcgcestyv .gt_footnote {
+#njsusajhzl .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1778,7 +1824,7 @@ Amélioration de la prise en charge : survie plus longue
   padding-right: 5px;
 }
 
-#vgcgcestyv .gt_sourcenotes {
+#njsusajhzl .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1792,7 +1838,7 @@ Amélioration de la prise en charge : survie plus longue
   border-right-color: #D3D3D3;
 }
 
-#vgcgcestyv .gt_sourcenote {
+#njsusajhzl .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1800,86 +1846,87 @@ Amélioration de la prise en charge : survie plus longue
   padding-right: 5px;
 }
 
-#vgcgcestyv .gt_left {
+#njsusajhzl .gt_left {
   text-align: left;
 }
 
-#vgcgcestyv .gt_center {
+#njsusajhzl .gt_center {
   text-align: center;
 }
 
-#vgcgcestyv .gt_right {
+#njsusajhzl .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#vgcgcestyv .gt_font_normal {
+#njsusajhzl .gt_font_normal {
   font-weight: normal;
 }
 
-#vgcgcestyv .gt_font_bold {
+#njsusajhzl .gt_font_bold {
   font-weight: bold;
 }
 
-#vgcgcestyv .gt_font_italic {
+#njsusajhzl .gt_font_italic {
   font-style: italic;
 }
 
-#vgcgcestyv .gt_super {
+#njsusajhzl .gt_super {
   font-size: 65%;
 }
 
-#vgcgcestyv .gt_footnote_marks {
+#njsusajhzl .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#vgcgcestyv .gt_asterisk {
+#njsusajhzl .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#vgcgcestyv .gt_indent_1 {
+#njsusajhzl .gt_indent_1 {
   text-indent: 5px;
 }
 
-#vgcgcestyv .gt_indent_2 {
+#njsusajhzl .gt_indent_2 {
   text-indent: 10px;
 }
 
-#vgcgcestyv .gt_indent_3 {
+#njsusajhzl .gt_indent_3 {
   text-indent: 15px;
 }
 
-#vgcgcestyv .gt_indent_4 {
+#njsusajhzl .gt_indent_4 {
   text-indent: 20px;
 }
 
-#vgcgcestyv .gt_indent_5 {
+#njsusajhzl .gt_indent_5 {
   text-indent: 25px;
 }
 
-#vgcgcestyv .katex-display {
+#njsusajhzl .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#vgcgcestyv div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#njsusajhzl div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
 <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
-<thead><tr class="gt_col_headings">
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="incidence">incidence</th>
+  <thead>
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="incidence">incidence</th>
       <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="prévalence">prévalence</th>
-    </tr></thead>
-<tbody class="gt_table_body"><tr>
-<td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Right Long" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Right Long</title>
-<path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"></path></svg></span></td>
-<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title>
-<path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
-</tr></tbody>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Right Long" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Right Long</title><path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"></path></svg></span></td>
+<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title><path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td></tr>
+  </tbody>
+  
 </table>
 </div>
 </div>
@@ -1890,12 +1937,12 @@ Amélioration de la prise en charge : survie plus longue
 </div>
 </div>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-7-contents" aria-controls="callout-7" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Amélioration des méthodes diagnostiques
+<span class="screen-reader-only">Mise en garde</span>Amélioration des méthodes diagnostiques
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -1903,23 +1950,23 @@ Amélioration des méthodes diagnostiques
 <div class="callout-body-container callout-body">
 <div class="cell">
 <div class="cell-output-display">
-<div id="ihgslaupmc" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#ihgslaupmc table {
+<div id="vuaafnnvww" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#vuaafnnvww table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#ihgslaupmc thead, #ihgslaupmc tbody, #ihgslaupmc tfoot, #ihgslaupmc tr, #ihgslaupmc td, #ihgslaupmc th {
+#vuaafnnvww thead, #vuaafnnvww tbody, #vuaafnnvww tfoot, #vuaafnnvww tr, #vuaafnnvww td, #vuaafnnvww th {
   border-style: none;
 }
 
-#ihgslaupmc p {
+#vuaafnnvww p {
   margin: 0;
   padding: 0;
 }
 
-#ihgslaupmc .gt_table {
+#vuaafnnvww .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -1945,12 +1992,12 @@ Amélioration des méthodes diagnostiques
   border-left-color: #D3D3D3;
 }
 
-#ihgslaupmc .gt_caption {
+#vuaafnnvww .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#ihgslaupmc .gt_title {
+#vuaafnnvww .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -1962,7 +2009,7 @@ Amélioration des méthodes diagnostiques
   border-bottom-width: 0;
 }
 
-#ihgslaupmc .gt_subtitle {
+#vuaafnnvww .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1974,7 +2021,7 @@ Amélioration des méthodes diagnostiques
   border-top-width: 0;
 }
 
-#ihgslaupmc .gt_heading {
+#vuaafnnvww .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1986,13 +2033,13 @@ Amélioration des méthodes diagnostiques
   border-right-color: #D3D3D3;
 }
 
-#ihgslaupmc .gt_bottom_border {
+#vuaafnnvww .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#ihgslaupmc .gt_col_headings {
+#vuaafnnvww .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2007,7 +2054,7 @@ Amélioration des méthodes diagnostiques
   border-right-color: #D3D3D3;
 }
 
-#ihgslaupmc .gt_col_heading {
+#vuaafnnvww .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2027,7 +2074,7 @@ Amélioration des méthodes diagnostiques
   overflow-x: hidden;
 }
 
-#ihgslaupmc .gt_column_spanner_outer {
+#vuaafnnvww .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2039,15 +2086,15 @@ Amélioration des méthodes diagnostiques
   padding-right: 4px;
 }
 
-#ihgslaupmc .gt_column_spanner_outer:first-child {
+#vuaafnnvww .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#ihgslaupmc .gt_column_spanner_outer:last-child {
+#vuaafnnvww .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#ihgslaupmc .gt_column_spanner {
+#vuaafnnvww .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2059,11 +2106,11 @@ Amélioration des méthodes diagnostiques
   width: 100%;
 }
 
-#ihgslaupmc .gt_spanner_row {
+#vuaafnnvww .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#ihgslaupmc .gt_group_heading {
+#vuaafnnvww .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2089,7 +2136,7 @@ Amélioration des méthodes diagnostiques
   text-align: left;
 }
 
-#ihgslaupmc .gt_empty_group_heading {
+#vuaafnnvww .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2104,15 +2151,15 @@ Amélioration des méthodes diagnostiques
   vertical-align: middle;
 }
 
-#ihgslaupmc .gt_from_md > :first-child {
+#vuaafnnvww .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#ihgslaupmc .gt_from_md > :last-child {
+#vuaafnnvww .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#ihgslaupmc .gt_row {
+#vuaafnnvww .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2131,7 +2178,7 @@ Amélioration des méthodes diagnostiques
   overflow-x: hidden;
 }
 
-#ihgslaupmc .gt_stub {
+#vuaafnnvww .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2144,7 +2191,7 @@ Amélioration des méthodes diagnostiques
   padding-right: 5px;
 }
 
-#ihgslaupmc .gt_stub_row_group {
+#vuaafnnvww .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2158,15 +2205,15 @@ Amélioration des méthodes diagnostiques
   vertical-align: top;
 }
 
-#ihgslaupmc .gt_row_group_first td {
+#vuaafnnvww .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#ihgslaupmc .gt_row_group_first th {
+#vuaafnnvww .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#ihgslaupmc .gt_summary_row {
+#vuaafnnvww .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2176,16 +2223,16 @@ Amélioration des méthodes diagnostiques
   padding-right: 5px;
 }
 
-#ihgslaupmc .gt_first_summary_row {
+#vuaafnnvww .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#ihgslaupmc .gt_first_summary_row.thick {
+#vuaafnnvww .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#ihgslaupmc .gt_last_summary_row {
+#vuaafnnvww .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2195,7 +2242,7 @@ Amélioration des méthodes diagnostiques
   border-bottom-color: #D3D3D3;
 }
 
-#ihgslaupmc .gt_grand_summary_row {
+#vuaafnnvww .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2205,7 +2252,7 @@ Amélioration des méthodes diagnostiques
   padding-right: 5px;
 }
 
-#ihgslaupmc .gt_first_grand_summary_row {
+#vuaafnnvww .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2215,7 +2262,7 @@ Amélioration des méthodes diagnostiques
   border-top-color: #D3D3D3;
 }
 
-#ihgslaupmc .gt_last_grand_summary_row_top {
+#vuaafnnvww .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2225,11 +2272,11 @@ Amélioration des méthodes diagnostiques
   border-bottom-color: #D3D3D3;
 }
 
-#ihgslaupmc .gt_striped {
+#vuaafnnvww .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#ihgslaupmc .gt_table_body {
+#vuaafnnvww .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2238,7 +2285,7 @@ Amélioration des méthodes diagnostiques
   border-bottom-color: #D3D3D3;
 }
 
-#ihgslaupmc .gt_footnotes {
+#vuaafnnvww .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2252,7 +2299,7 @@ Amélioration des méthodes diagnostiques
   border-right-color: #D3D3D3;
 }
 
-#ihgslaupmc .gt_footnote {
+#vuaafnnvww .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -2261,7 +2308,7 @@ Amélioration des méthodes diagnostiques
   padding-right: 5px;
 }
 
-#ihgslaupmc .gt_sourcenotes {
+#vuaafnnvww .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2275,7 +2322,7 @@ Amélioration des méthodes diagnostiques
   border-right-color: #D3D3D3;
 }
 
-#ihgslaupmc .gt_sourcenote {
+#vuaafnnvww .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -2283,86 +2330,87 @@ Amélioration des méthodes diagnostiques
   padding-right: 5px;
 }
 
-#ihgslaupmc .gt_left {
+#vuaafnnvww .gt_left {
   text-align: left;
 }
 
-#ihgslaupmc .gt_center {
+#vuaafnnvww .gt_center {
   text-align: center;
 }
 
-#ihgslaupmc .gt_right {
+#vuaafnnvww .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#ihgslaupmc .gt_font_normal {
+#vuaafnnvww .gt_font_normal {
   font-weight: normal;
 }
 
-#ihgslaupmc .gt_font_bold {
+#vuaafnnvww .gt_font_bold {
   font-weight: bold;
 }
 
-#ihgslaupmc .gt_font_italic {
+#vuaafnnvww .gt_font_italic {
   font-style: italic;
 }
 
-#ihgslaupmc .gt_super {
+#vuaafnnvww .gt_super {
   font-size: 65%;
 }
 
-#ihgslaupmc .gt_footnote_marks {
+#vuaafnnvww .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#ihgslaupmc .gt_asterisk {
+#vuaafnnvww .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#ihgslaupmc .gt_indent_1 {
+#vuaafnnvww .gt_indent_1 {
   text-indent: 5px;
 }
 
-#ihgslaupmc .gt_indent_2 {
+#vuaafnnvww .gt_indent_2 {
   text-indent: 10px;
 }
 
-#ihgslaupmc .gt_indent_3 {
+#vuaafnnvww .gt_indent_3 {
   text-indent: 15px;
 }
 
-#ihgslaupmc .gt_indent_4 {
+#vuaafnnvww .gt_indent_4 {
   text-indent: 20px;
 }
 
-#ihgslaupmc .gt_indent_5 {
+#vuaafnnvww .gt_indent_5 {
   text-indent: 25px;
 }
 
-#ihgslaupmc .katex-display {
+#vuaafnnvww .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#ihgslaupmc div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#vuaafnnvww div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
 <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
-<thead><tr class="gt_col_headings">
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="incidence">incidence</th>
+  <thead>
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="incidence">incidence</th>
       <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="prévalence">prévalence</th>
-    </tr></thead>
-<tbody class="gt_table_body"><tr>
-<td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title>
-<path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
-<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title>
-<path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
-</tr></tbody>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title><path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
+<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title><path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td></tr>
+  </tbody>
+  
 </table>
 </div>
 </div>
@@ -2374,12 +2422,12 @@ Cela peut donner l’impression d’une augmentation du nombre de nouveaux cas, 
 </div>
 </div>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-8-contents" aria-controls="callout-8" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Meilleure déclaration
+<span class="screen-reader-only">Mise en garde</span>Meilleure déclaration
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -2387,23 +2435,23 @@ Meilleure déclaration
 <div class="callout-body-container callout-body">
 <div class="cell">
 <div class="cell-output-display">
-<div id="uvowctknum" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#uvowctknum table {
+<div id="fppucwwbef" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#fppucwwbef table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#uvowctknum thead, #uvowctknum tbody, #uvowctknum tfoot, #uvowctknum tr, #uvowctknum td, #uvowctknum th {
+#fppucwwbef thead, #fppucwwbef tbody, #fppucwwbef tfoot, #fppucwwbef tr, #fppucwwbef td, #fppucwwbef th {
   border-style: none;
 }
 
-#uvowctknum p {
+#fppucwwbef p {
   margin: 0;
   padding: 0;
 }
 
-#uvowctknum .gt_table {
+#fppucwwbef .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -2429,12 +2477,12 @@ Meilleure déclaration
   border-left-color: #D3D3D3;
 }
 
-#uvowctknum .gt_caption {
+#fppucwwbef .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#uvowctknum .gt_title {
+#fppucwwbef .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -2446,7 +2494,7 @@ Meilleure déclaration
   border-bottom-width: 0;
 }
 
-#uvowctknum .gt_subtitle {
+#fppucwwbef .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -2458,7 +2506,7 @@ Meilleure déclaration
   border-top-width: 0;
 }
 
-#uvowctknum .gt_heading {
+#fppucwwbef .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -2470,13 +2518,13 @@ Meilleure déclaration
   border-right-color: #D3D3D3;
 }
 
-#uvowctknum .gt_bottom_border {
+#fppucwwbef .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#uvowctknum .gt_col_headings {
+#fppucwwbef .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2491,7 +2539,7 @@ Meilleure déclaration
   border-right-color: #D3D3D3;
 }
 
-#uvowctknum .gt_col_heading {
+#fppucwwbef .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2511,7 +2559,7 @@ Meilleure déclaration
   overflow-x: hidden;
 }
 
-#uvowctknum .gt_column_spanner_outer {
+#fppucwwbef .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2523,15 +2571,15 @@ Meilleure déclaration
   padding-right: 4px;
 }
 
-#uvowctknum .gt_column_spanner_outer:first-child {
+#fppucwwbef .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#uvowctknum .gt_column_spanner_outer:last-child {
+#fppucwwbef .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#uvowctknum .gt_column_spanner {
+#fppucwwbef .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -2543,11 +2591,11 @@ Meilleure déclaration
   width: 100%;
 }
 
-#uvowctknum .gt_spanner_row {
+#fppucwwbef .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#uvowctknum .gt_group_heading {
+#fppucwwbef .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2573,7 +2621,7 @@ Meilleure déclaration
   text-align: left;
 }
 
-#uvowctknum .gt_empty_group_heading {
+#fppucwwbef .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -2588,15 +2636,15 @@ Meilleure déclaration
   vertical-align: middle;
 }
 
-#uvowctknum .gt_from_md > :first-child {
+#fppucwwbef .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#uvowctknum .gt_from_md > :last-child {
+#fppucwwbef .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#uvowctknum .gt_row {
+#fppucwwbef .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2615,7 +2663,7 @@ Meilleure déclaration
   overflow-x: hidden;
 }
 
-#uvowctknum .gt_stub {
+#fppucwwbef .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2628,7 +2676,7 @@ Meilleure déclaration
   padding-right: 5px;
 }
 
-#uvowctknum .gt_stub_row_group {
+#fppucwwbef .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2642,15 +2690,15 @@ Meilleure déclaration
   vertical-align: top;
 }
 
-#uvowctknum .gt_row_group_first td {
+#fppucwwbef .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#uvowctknum .gt_row_group_first th {
+#fppucwwbef .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#uvowctknum .gt_summary_row {
+#fppucwwbef .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2660,16 +2708,16 @@ Meilleure déclaration
   padding-right: 5px;
 }
 
-#uvowctknum .gt_first_summary_row {
+#fppucwwbef .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#uvowctknum .gt_first_summary_row.thick {
+#fppucwwbef .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#uvowctknum .gt_last_summary_row {
+#fppucwwbef .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2679,7 +2727,7 @@ Meilleure déclaration
   border-bottom-color: #D3D3D3;
 }
 
-#uvowctknum .gt_grand_summary_row {
+#fppucwwbef .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -2689,7 +2737,7 @@ Meilleure déclaration
   padding-right: 5px;
 }
 
-#uvowctknum .gt_first_grand_summary_row {
+#fppucwwbef .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2699,7 +2747,7 @@ Meilleure déclaration
   border-top-color: #D3D3D3;
 }
 
-#uvowctknum .gt_last_grand_summary_row_top {
+#fppucwwbef .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -2709,11 +2757,11 @@ Meilleure déclaration
   border-bottom-color: #D3D3D3;
 }
 
-#uvowctknum .gt_striped {
+#fppucwwbef .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#uvowctknum .gt_table_body {
+#fppucwwbef .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2722,7 +2770,7 @@ Meilleure déclaration
   border-bottom-color: #D3D3D3;
 }
 
-#uvowctknum .gt_footnotes {
+#fppucwwbef .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2736,7 +2784,7 @@ Meilleure déclaration
   border-right-color: #D3D3D3;
 }
 
-#uvowctknum .gt_footnote {
+#fppucwwbef .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -2745,7 +2793,7 @@ Meilleure déclaration
   padding-right: 5px;
 }
 
-#uvowctknum .gt_sourcenotes {
+#fppucwwbef .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -2759,7 +2807,7 @@ Meilleure déclaration
   border-right-color: #D3D3D3;
 }
 
-#uvowctknum .gt_sourcenote {
+#fppucwwbef .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -2767,86 +2815,87 @@ Meilleure déclaration
   padding-right: 5px;
 }
 
-#uvowctknum .gt_left {
+#fppucwwbef .gt_left {
   text-align: left;
 }
 
-#uvowctknum .gt_center {
+#fppucwwbef .gt_center {
   text-align: center;
 }
 
-#uvowctknum .gt_right {
+#fppucwwbef .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#uvowctknum .gt_font_normal {
+#fppucwwbef .gt_font_normal {
   font-weight: normal;
 }
 
-#uvowctknum .gt_font_bold {
+#fppucwwbef .gt_font_bold {
   font-weight: bold;
 }
 
-#uvowctknum .gt_font_italic {
+#fppucwwbef .gt_font_italic {
   font-style: italic;
 }
 
-#uvowctknum .gt_super {
+#fppucwwbef .gt_super {
   font-size: 65%;
 }
 
-#uvowctknum .gt_footnote_marks {
+#fppucwwbef .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#uvowctknum .gt_asterisk {
+#fppucwwbef .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#uvowctknum .gt_indent_1 {
+#fppucwwbef .gt_indent_1 {
   text-indent: 5px;
 }
 
-#uvowctknum .gt_indent_2 {
+#fppucwwbef .gt_indent_2 {
   text-indent: 10px;
 }
 
-#uvowctknum .gt_indent_3 {
+#fppucwwbef .gt_indent_3 {
   text-indent: 15px;
 }
 
-#uvowctknum .gt_indent_4 {
+#fppucwwbef .gt_indent_4 {
   text-indent: 20px;
 }
 
-#uvowctknum .gt_indent_5 {
+#fppucwwbef .gt_indent_5 {
   text-indent: 25px;
 }
 
-#uvowctknum .katex-display {
+#fppucwwbef .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#uvowctknum div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#fppucwwbef div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
 <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
-<thead><tr class="gt_col_headings">
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="incidence">incidence</th>
+  <thead>
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="incidence">incidence</th>
       <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="prévalence">prévalence</th>
-    </tr></thead>
-<tbody class="gt_table_body"><tr>
-<td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title>
-<path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
-<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title>
-<path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
-</tr></tbody>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title><path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
+<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title><path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td></tr>
+  </tbody>
+  
 </table>
 </div>
 </div>
@@ -2857,12 +2906,12 @@ Meilleure déclaration
 </div>
 </div>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-9-contents" aria-controls="callout-9" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Changement de définition de la maladie
+<span class="screen-reader-only">Mise en garde</span>Changement de définition de la maladie
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -2870,23 +2919,23 @@ Changement de définition de la maladie
 <div class="callout-body-container callout-body">
 <div class="cell">
 <div class="cell-output-display">
-<div id="hxdmulmknh" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#hxdmulmknh table {
+<div id="nolvihkegc" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#nolvihkegc table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#hxdmulmknh thead, #hxdmulmknh tbody, #hxdmulmknh tfoot, #hxdmulmknh tr, #hxdmulmknh td, #hxdmulmknh th {
+#nolvihkegc thead, #nolvihkegc tbody, #nolvihkegc tfoot, #nolvihkegc tr, #nolvihkegc td, #nolvihkegc th {
   border-style: none;
 }
 
-#hxdmulmknh p {
+#nolvihkegc p {
   margin: 0;
   padding: 0;
 }
 
-#hxdmulmknh .gt_table {
+#nolvihkegc .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -2912,12 +2961,12 @@ Changement de définition de la maladie
   border-left-color: #D3D3D3;
 }
 
-#hxdmulmknh .gt_caption {
+#nolvihkegc .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#hxdmulmknh .gt_title {
+#nolvihkegc .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -2929,7 +2978,7 @@ Changement de définition de la maladie
   border-bottom-width: 0;
 }
 
-#hxdmulmknh .gt_subtitle {
+#nolvihkegc .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -2941,7 +2990,7 @@ Changement de définition de la maladie
   border-top-width: 0;
 }
 
-#hxdmulmknh .gt_heading {
+#nolvihkegc .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -2953,13 +3002,13 @@ Changement de définition de la maladie
   border-right-color: #D3D3D3;
 }
 
-#hxdmulmknh .gt_bottom_border {
+#nolvihkegc .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#hxdmulmknh .gt_col_headings {
+#nolvihkegc .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -2974,7 +3023,7 @@ Changement de définition de la maladie
   border-right-color: #D3D3D3;
 }
 
-#hxdmulmknh .gt_col_heading {
+#nolvihkegc .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -2994,7 +3043,7 @@ Changement de définition de la maladie
   overflow-x: hidden;
 }
 
-#hxdmulmknh .gt_column_spanner_outer {
+#nolvihkegc .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3006,15 +3055,15 @@ Changement de définition de la maladie
   padding-right: 4px;
 }
 
-#hxdmulmknh .gt_column_spanner_outer:first-child {
+#nolvihkegc .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#hxdmulmknh .gt_column_spanner_outer:last-child {
+#nolvihkegc .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#hxdmulmknh .gt_column_spanner {
+#nolvihkegc .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -3026,11 +3075,11 @@ Changement de définition de la maladie
   width: 100%;
 }
 
-#hxdmulmknh .gt_spanner_row {
+#nolvihkegc .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#hxdmulmknh .gt_group_heading {
+#nolvihkegc .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3056,7 +3105,7 @@ Changement de définition de la maladie
   text-align: left;
 }
 
-#hxdmulmknh .gt_empty_group_heading {
+#nolvihkegc .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -3071,15 +3120,15 @@ Changement de définition de la maladie
   vertical-align: middle;
 }
 
-#hxdmulmknh .gt_from_md > :first-child {
+#nolvihkegc .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#hxdmulmknh .gt_from_md > :last-child {
+#nolvihkegc .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#hxdmulmknh .gt_row {
+#nolvihkegc .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3098,7 +3147,7 @@ Changement de définition de la maladie
   overflow-x: hidden;
 }
 
-#hxdmulmknh .gt_stub {
+#nolvihkegc .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3111,7 +3160,7 @@ Changement de définition de la maladie
   padding-right: 5px;
 }
 
-#hxdmulmknh .gt_stub_row_group {
+#nolvihkegc .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3125,15 +3174,15 @@ Changement de définition de la maladie
   vertical-align: top;
 }
 
-#hxdmulmknh .gt_row_group_first td {
+#nolvihkegc .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#hxdmulmknh .gt_row_group_first th {
+#nolvihkegc .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#hxdmulmknh .gt_summary_row {
+#nolvihkegc .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3143,16 +3192,16 @@ Changement de définition de la maladie
   padding-right: 5px;
 }
 
-#hxdmulmknh .gt_first_summary_row {
+#nolvihkegc .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#hxdmulmknh .gt_first_summary_row.thick {
+#nolvihkegc .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#hxdmulmknh .gt_last_summary_row {
+#nolvihkegc .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3162,7 +3211,7 @@ Changement de définition de la maladie
   border-bottom-color: #D3D3D3;
 }
 
-#hxdmulmknh .gt_grand_summary_row {
+#nolvihkegc .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3172,7 +3221,7 @@ Changement de définition de la maladie
   padding-right: 5px;
 }
 
-#hxdmulmknh .gt_first_grand_summary_row {
+#nolvihkegc .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3182,7 +3231,7 @@ Changement de définition de la maladie
   border-top-color: #D3D3D3;
 }
 
-#hxdmulmknh .gt_last_grand_summary_row_top {
+#nolvihkegc .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3192,11 +3241,11 @@ Changement de définition de la maladie
   border-bottom-color: #D3D3D3;
 }
 
-#hxdmulmknh .gt_striped {
+#nolvihkegc .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#hxdmulmknh .gt_table_body {
+#nolvihkegc .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3205,7 +3254,7 @@ Changement de définition de la maladie
   border-bottom-color: #D3D3D3;
 }
 
-#hxdmulmknh .gt_footnotes {
+#nolvihkegc .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3219,7 +3268,7 @@ Changement de définition de la maladie
   border-right-color: #D3D3D3;
 }
 
-#hxdmulmknh .gt_footnote {
+#nolvihkegc .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -3228,7 +3277,7 @@ Changement de définition de la maladie
   padding-right: 5px;
 }
 
-#hxdmulmknh .gt_sourcenotes {
+#nolvihkegc .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3242,7 +3291,7 @@ Changement de définition de la maladie
   border-right-color: #D3D3D3;
 }
 
-#hxdmulmknh .gt_sourcenote {
+#nolvihkegc .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -3250,86 +3299,87 @@ Changement de définition de la maladie
   padding-right: 5px;
 }
 
-#hxdmulmknh .gt_left {
+#nolvihkegc .gt_left {
   text-align: left;
 }
 
-#hxdmulmknh .gt_center {
+#nolvihkegc .gt_center {
   text-align: center;
 }
 
-#hxdmulmknh .gt_right {
+#nolvihkegc .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#hxdmulmknh .gt_font_normal {
+#nolvihkegc .gt_font_normal {
   font-weight: normal;
 }
 
-#hxdmulmknh .gt_font_bold {
+#nolvihkegc .gt_font_bold {
   font-weight: bold;
 }
 
-#hxdmulmknh .gt_font_italic {
+#nolvihkegc .gt_font_italic {
   font-style: italic;
 }
 
-#hxdmulmknh .gt_super {
+#nolvihkegc .gt_super {
   font-size: 65%;
 }
 
-#hxdmulmknh .gt_footnote_marks {
+#nolvihkegc .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#hxdmulmknh .gt_asterisk {
+#nolvihkegc .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#hxdmulmknh .gt_indent_1 {
+#nolvihkegc .gt_indent_1 {
   text-indent: 5px;
 }
 
-#hxdmulmknh .gt_indent_2 {
+#nolvihkegc .gt_indent_2 {
   text-indent: 10px;
 }
 
-#hxdmulmknh .gt_indent_3 {
+#nolvihkegc .gt_indent_3 {
   text-indent: 15px;
 }
 
-#hxdmulmknh .gt_indent_4 {
+#nolvihkegc .gt_indent_4 {
   text-indent: 20px;
 }
 
-#hxdmulmknh .gt_indent_5 {
+#nolvihkegc .gt_indent_5 {
   text-indent: 25px;
 }
 
-#hxdmulmknh .katex-display {
+#nolvihkegc .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#hxdmulmknh div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#nolvihkegc div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
 <table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
-<thead><tr class="gt_col_headings">
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="incidence">incidence</th>
+  <thead>
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="incidence">incidence</th>
       <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="prévalence">prévalence</th>
-    </tr></thead>
-<tbody class="gt_table_body"><tr>
-<td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Question" role="img" viewbox="0 0 320 512" style="height:1em;width:0.62em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Question</title>
-<path d="M80 160c0-35.3 28.7-64 64-64h32c35.3 0 64 28.7 64 64v3.6c0 21.8-11.1 42.1-29.4 53.8l-42.2 27.1c-25.2 16.2-40.4 44.1-40.4 74V320c0 17.7 14.3 32 32 32s32-14.3 32-32v-1.4c0-8.2 4.2-15.8 11-20.2l42.2-27.1c36.6-23.6 58.8-64.1 58.8-107.7V160c0-70.7-57.3-128-128-128H144C73.3 32 16 89.3 16 160c0 17.7 14.3 32 32 32s32-14.3 32-32zm80 320a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"></path></svg></span></td>
-<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Question" role="img" viewbox="0 0 320 512" style="height:1em;width:0.62em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Question</title>
-<path d="M80 160c0-35.3 28.7-64 64-64h32c35.3 0 64 28.7 64 64v3.6c0 21.8-11.1 42.1-29.4 53.8l-42.2 27.1c-25.2 16.2-40.4 44.1-40.4 74V320c0 17.7 14.3 32 32 32s32-14.3 32-32v-1.4c0-8.2 4.2-15.8 11-20.2l42.2-27.1c36.6-23.6 58.8-64.1 58.8-107.7V160c0-70.7-57.3-128-128-128H144C73.3 32 16 89.3 16 160c0 17.7 14.3 32 32 32s32-14.3 32-32zm80 320a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"></path></svg></span></td>
-</tr></tbody>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Question" role="img" viewbox="0 0 320 512" style="height:1em;width:0.62em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Question</title><path d="M80 160c0-35.3 28.7-64 64-64h32c35.3 0 64 28.7 64 64v3.6c0 21.8-11.1 42.1-29.4 53.8l-42.2 27.1c-25.2 16.2-40.4 44.1-40.4 74V320c0 17.7 14.3 32 32 32s32-14.3 32-32v-1.4c0-8.2 4.2-15.8 11-20.2l42.2-27.1c36.6-23.6 58.8-64.1 58.8-107.7V160c0-70.7-57.3-128-128-128H144C73.3 32 16 89.3 16 160c0 17.7 14.3 32 32 32s32-14.3 32-32zm80 320a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"></path></svg></span></td>
+<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Question" role="img" viewbox="0 0 320 512" style="height:1em;width:0.62em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Question</title><path d="M80 160c0-35.3 28.7-64 64-64h32c35.3 0 64 28.7 64 64v3.6c0 21.8-11.1 42.1-29.4 53.8l-42.2 27.1c-25.2 16.2-40.4 44.1-40.4 74V320c0 17.7 14.3 32 32 32s32-14.3 32-32v-1.4c0-8.2 4.2-15.8 11-20.2l42.2-27.1c36.6-23.6 58.8-64.1 58.8-107.7V160c0-70.7-57.3-128-128-128H144C73.3 32 16 89.3 16 160c0 17.7 14.3 32 32 32s32-14.3 32-32zm80 320a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"></path></svg></span></td></tr>
+  </tbody>
+  
 </table>
 </div>
 </div>
@@ -3340,12 +3390,12 @@ Changement de définition de la maladie
 </div>
 <hr>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-10-contents" aria-controls="callout-10" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Facteurs déterminants : synthèse
+<span class="screen-reader-only">Mise en garde</span>Facteurs déterminants : synthèse
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -3353,23 +3403,23 @@ Facteurs déterminants : synthèse
 <div class="callout-body-container callout-body">
 <div class="cell">
 <div class="cell-output-display">
-<div id="xpuabzeppz" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#xpuabzeppz table {
+<div id="qbggqaexlg" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#qbggqaexlg table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#xpuabzeppz thead, #xpuabzeppz tbody, #xpuabzeppz tfoot, #xpuabzeppz tr, #xpuabzeppz td, #xpuabzeppz th {
+#qbggqaexlg thead, #qbggqaexlg tbody, #qbggqaexlg tfoot, #qbggqaexlg tr, #qbggqaexlg td, #qbggqaexlg th {
   border-style: none;
 }
 
-#xpuabzeppz p {
+#qbggqaexlg p {
   margin: 0;
   padding: 0;
 }
 
-#xpuabzeppz .gt_table {
+#qbggqaexlg .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -3395,12 +3445,12 @@ Facteurs déterminants : synthèse
   border-left-color: #D3D3D3;
 }
 
-#xpuabzeppz .gt_caption {
+#qbggqaexlg .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#xpuabzeppz .gt_title {
+#qbggqaexlg .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -3412,7 +3462,7 @@ Facteurs déterminants : synthèse
   border-bottom-width: 0;
 }
 
-#xpuabzeppz .gt_subtitle {
+#qbggqaexlg .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -3424,7 +3474,7 @@ Facteurs déterminants : synthèse
   border-top-width: 0;
 }
 
-#xpuabzeppz .gt_heading {
+#qbggqaexlg .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -3436,13 +3486,13 @@ Facteurs déterminants : synthèse
   border-right-color: #D3D3D3;
 }
 
-#xpuabzeppz .gt_bottom_border {
+#qbggqaexlg .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#xpuabzeppz .gt_col_headings {
+#qbggqaexlg .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3457,7 +3507,7 @@ Facteurs déterminants : synthèse
   border-right-color: #D3D3D3;
 }
 
-#xpuabzeppz .gt_col_heading {
+#qbggqaexlg .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3477,7 +3527,7 @@ Facteurs déterminants : synthèse
   overflow-x: hidden;
 }
 
-#xpuabzeppz .gt_column_spanner_outer {
+#qbggqaexlg .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3489,15 +3539,15 @@ Facteurs déterminants : synthèse
   padding-right: 4px;
 }
 
-#xpuabzeppz .gt_column_spanner_outer:first-child {
+#qbggqaexlg .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#xpuabzeppz .gt_column_spanner_outer:last-child {
+#qbggqaexlg .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#xpuabzeppz .gt_column_spanner {
+#qbggqaexlg .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -3509,11 +3559,11 @@ Facteurs déterminants : synthèse
   width: 100%;
 }
 
-#xpuabzeppz .gt_spanner_row {
+#qbggqaexlg .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#xpuabzeppz .gt_group_heading {
+#qbggqaexlg .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3539,7 +3589,7 @@ Facteurs déterminants : synthèse
   text-align: left;
 }
 
-#xpuabzeppz .gt_empty_group_heading {
+#qbggqaexlg .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -3554,15 +3604,15 @@ Facteurs déterminants : synthèse
   vertical-align: middle;
 }
 
-#xpuabzeppz .gt_from_md > :first-child {
+#qbggqaexlg .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#xpuabzeppz .gt_from_md > :last-child {
+#qbggqaexlg .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#xpuabzeppz .gt_row {
+#qbggqaexlg .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3581,7 +3631,7 @@ Facteurs déterminants : synthèse
   overflow-x: hidden;
 }
 
-#xpuabzeppz .gt_stub {
+#qbggqaexlg .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3594,7 +3644,7 @@ Facteurs déterminants : synthèse
   padding-right: 5px;
 }
 
-#xpuabzeppz .gt_stub_row_group {
+#qbggqaexlg .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -3608,15 +3658,15 @@ Facteurs déterminants : synthèse
   vertical-align: top;
 }
 
-#xpuabzeppz .gt_row_group_first td {
+#qbggqaexlg .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#xpuabzeppz .gt_row_group_first th {
+#qbggqaexlg .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#xpuabzeppz .gt_summary_row {
+#qbggqaexlg .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3626,16 +3676,16 @@ Facteurs déterminants : synthèse
   padding-right: 5px;
 }
 
-#xpuabzeppz .gt_first_summary_row {
+#qbggqaexlg .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#xpuabzeppz .gt_first_summary_row.thick {
+#qbggqaexlg .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#xpuabzeppz .gt_last_summary_row {
+#qbggqaexlg .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3645,7 +3695,7 @@ Facteurs déterminants : synthèse
   border-bottom-color: #D3D3D3;
 }
 
-#xpuabzeppz .gt_grand_summary_row {
+#qbggqaexlg .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -3655,7 +3705,7 @@ Facteurs déterminants : synthèse
   padding-right: 5px;
 }
 
-#xpuabzeppz .gt_first_grand_summary_row {
+#qbggqaexlg .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3665,7 +3715,7 @@ Facteurs déterminants : synthèse
   border-top-color: #D3D3D3;
 }
 
-#xpuabzeppz .gt_last_grand_summary_row_top {
+#qbggqaexlg .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -3675,11 +3725,11 @@ Facteurs déterminants : synthèse
   border-bottom-color: #D3D3D3;
 }
 
-#xpuabzeppz .gt_striped {
+#qbggqaexlg .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#xpuabzeppz .gt_table_body {
+#qbggqaexlg .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -3688,7 +3738,7 @@ Facteurs déterminants : synthèse
   border-bottom-color: #D3D3D3;
 }
 
-#xpuabzeppz .gt_footnotes {
+#qbggqaexlg .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3702,7 +3752,7 @@ Facteurs déterminants : synthèse
   border-right-color: #D3D3D3;
 }
 
-#xpuabzeppz .gt_footnote {
+#qbggqaexlg .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -3711,7 +3761,7 @@ Facteurs déterminants : synthèse
   padding-right: 5px;
 }
 
-#xpuabzeppz .gt_sourcenotes {
+#qbggqaexlg .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -3725,7 +3775,7 @@ Facteurs déterminants : synthèse
   border-right-color: #D3D3D3;
 }
 
-#xpuabzeppz .gt_sourcenote {
+#qbggqaexlg .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -3733,130 +3783,109 @@ Facteurs déterminants : synthèse
   padding-right: 5px;
 }
 
-#xpuabzeppz .gt_left {
+#qbggqaexlg .gt_left {
   text-align: left;
 }
 
-#xpuabzeppz .gt_center {
+#qbggqaexlg .gt_center {
   text-align: center;
 }
 
-#xpuabzeppz .gt_right {
+#qbggqaexlg .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#xpuabzeppz .gt_font_normal {
+#qbggqaexlg .gt_font_normal {
   font-weight: normal;
 }
 
-#xpuabzeppz .gt_font_bold {
+#qbggqaexlg .gt_font_bold {
   font-weight: bold;
 }
 
-#xpuabzeppz .gt_font_italic {
+#qbggqaexlg .gt_font_italic {
   font-style: italic;
 }
 
-#xpuabzeppz .gt_super {
+#qbggqaexlg .gt_super {
   font-size: 65%;
 }
 
-#xpuabzeppz .gt_footnote_marks {
+#qbggqaexlg .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#xpuabzeppz .gt_asterisk {
+#qbggqaexlg .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#xpuabzeppz .gt_indent_1 {
+#qbggqaexlg .gt_indent_1 {
   text-indent: 5px;
 }
 
-#xpuabzeppz .gt_indent_2 {
+#qbggqaexlg .gt_indent_2 {
   text-indent: 10px;
 }
 
-#xpuabzeppz .gt_indent_3 {
+#qbggqaexlg .gt_indent_3 {
   text-indent: 15px;
 }
 
-#xpuabzeppz .gt_indent_4 {
+#qbggqaexlg .gt_indent_4 {
   text-indent: 20px;
 }
 
-#xpuabzeppz .gt_indent_5 {
+#qbggqaexlg .gt_indent_5 {
   text-indent: 25px;
 }
 
-#xpuabzeppz .katex-display {
+#qbggqaexlg .katex-display {
   display: inline-flex !important;
   margin-bottom: 0.75em !important;
 }
 
-#xpuabzeppz div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
+#qbggqaexlg div.Reactable > div.rt-table > div.rt-thead > div.rt-tr.rt-tr-group-header > div.rt-th-group:after {
   height: 0px !important;
 }
 </style>
 <table class="gt_table" style="table-layout:fixed;" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
-<colgroup>
-<col style="width:75%;">
-<col>
-<col>
-</colgroup>
-<thead><tr class="gt_col_headings">
-<th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="a-"> </th>
+  <colgroup>
+    <col style="width:75%;">
+    <col>
+    <col>
+  </colgroup>
+  <thead>
+    <tr class="gt_col_headings">
+      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="a-"> </th>
       <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="incidence">incidence</th>
       <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" style="font-weight: bold;" scope="col" id="prévalence">prévalence</th>
-    </tr></thead>
-<tbody class="gt_table_body">
-<tr>
-<td headers=" " class="gt_row gt_center">Augmentation des facteurs de risque</td>
-<td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title>
-<path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
-<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title>
-<path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
-</tr>
-<tr>
-<td headers=" " class="gt_row gt_center">Amélioration de la prise en charge : guérison plus rapide</td>
-<td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Right Long" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Right Long</title>
-<path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"></path></svg></span></td>
-<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Down Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Down Long</title>
-<path d="M169.4 502.6c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 402.7 224 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 370.7L86.6 329.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128z"></path></svg></span></td>
-</tr>
-<tr>
-<td headers=" " class="gt_row gt_center">Amélioration de la prise en charge : survie plus longue</td>
-<td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Right Long" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Right Long</title>
-<path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"></path></svg></span></td>
-<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title>
-<path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
-</tr>
-<tr>
-<td headers=" " class="gt_row gt_center">Amélioration des méthodes diagnostiques</td>
-<td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title>
-<path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
-<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title>
-<path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
-</tr>
-<tr>
-<td headers=" " class="gt_row gt_center">Meilleure déclaration</td>
-<td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title>
-<path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
-<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title>
-<path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
-</tr>
-<tr>
-<td headers=" " class="gt_row gt_center">Changement de définition de la maladie</td>
-<td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Question" role="img" viewbox="0 0 320 512" style="height:1em;width:0.62em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Question</title>
-<path d="M80 160c0-35.3 28.7-64 64-64h32c35.3 0 64 28.7 64 64v3.6c0 21.8-11.1 42.1-29.4 53.8l-42.2 27.1c-25.2 16.2-40.4 44.1-40.4 74V320c0 17.7 14.3 32 32 32s32-14.3 32-32v-1.4c0-8.2 4.2-15.8 11-20.2l42.2-27.1c36.6-23.6 58.8-64.1 58.8-107.7V160c0-70.7-57.3-128-128-128H144C73.3 32 16 89.3 16 160c0 17.7 14.3 32 32 32s32-14.3 32-32zm80 320a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"></path></svg></span></td>
-<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Question" role="img" viewbox="0 0 320 512" style="height:1em;width:0.62em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Question</title>
-<path d="M80 160c0-35.3 28.7-64 64-64h32c35.3 0 64 28.7 64 64v3.6c0 21.8-11.1 42.1-29.4 53.8l-42.2 27.1c-25.2 16.2-40.4 44.1-40.4 74V320c0 17.7 14.3 32 32 32s32-14.3 32-32v-1.4c0-8.2 4.2-15.8 11-20.2l42.2-27.1c36.6-23.6 58.8-64.1 58.8-107.7V160c0-70.7-57.3-128-128-128H144C73.3 32 16 89.3 16 160c0 17.7 14.3 32 32 32s32-14.3 32-32zm80 320a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"></path></svg></span></td>
-</tr>
-</tbody>
+    </tr>
+  </thead>
+  <tbody class="gt_table_body">
+    <tr><td headers=" " class="gt_row gt_center">Augmentation des facteurs de risque</td>
+<td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title><path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
+<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title><path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td></tr>
+    <tr><td headers=" " class="gt_row gt_center">Amélioration de la prise en charge : guérison plus rapide</td>
+<td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Right Long" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Right Long</title><path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"></path></svg></span></td>
+<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Down Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Down Long</title><path d="M169.4 502.6c12.5 12.5 32.8 12.5 45.3 0l128-128c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 402.7 224 32c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 370.7L86.6 329.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l128 128z"></path></svg></span></td></tr>
+    <tr><td headers=" " class="gt_row gt_center">Amélioration de la prise en charge : survie plus longue</td>
+<td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Right Long" role="img" viewbox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Right Long</title><path d="M502.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L402.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l370.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z"></path></svg></span></td>
+<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title><path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td></tr>
+    <tr><td headers=" " class="gt_row gt_center">Amélioration des méthodes diagnostiques</td>
+<td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title><path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
+<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title><path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td></tr>
+    <tr><td headers=" " class="gt_row gt_center">Meilleure déclaration</td>
+<td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title><path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td>
+<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Arrow Up Long" role="img" viewbox="0 0 384 512" style="height:1em;width:0.75em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Arrow Up Long</title><path d="M214.6 9.4c-12.5-12.5-32.8-12.5-45.3 0l-128 128c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 109.3V480c0 17.7 14.3 32 32 32s32-14.3 32-32V109.3l73.4 73.4c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-128-128z"></path></svg></span></td></tr>
+    <tr><td headers=" " class="gt_row gt_center">Changement de définition de la maladie</td>
+<td headers="incidence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Question" role="img" viewbox="0 0 320 512" style="height:1em;width:0.62em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Question</title><path d="M80 160c0-35.3 28.7-64 64-64h32c35.3 0 64 28.7 64 64v3.6c0 21.8-11.1 42.1-29.4 53.8l-42.2 27.1c-25.2 16.2-40.4 44.1-40.4 74V320c0 17.7 14.3 32 32 32s32-14.3 32-32v-1.4c0-8.2 4.2-15.8 11-20.2l42.2-27.1c36.6-23.6 58.8-64.1 58.8-107.7V160c0-70.7-57.3-128-128-128H144C73.3 32 16 89.3 16 160c0 17.7 14.3 32 32 32s32-14.3 32-32zm80 320a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"></path></svg></span></td>
+<td headers="prévalence" class="gt_row gt_center"><span style="white-space:nowrap;"><svg aria-label="Question" role="img" viewbox="0 0 320 512" style="height:1em;width:0.62em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><title>Question</title><path d="M80 160c0-35.3 28.7-64 64-64h32c35.3 0 64 28.7 64 64v3.6c0 21.8-11.1 42.1-29.4 53.8l-42.2 27.1c-25.2 16.2-40.4 44.1-40.4 74V320c0 17.7 14.3 32 32 32s32-14.3 32-32v-1.4c0-8.2 4.2-15.8 11-20.2l42.2-27.1c36.6-23.6 58.8-64.1 58.8-107.7V160c0-70.7-57.3-128-128-128H144C73.3 32 16 89.3 16 160c0 17.7 14.3 32 32 32s32-14.3 32-32zm80 320a40 40 0 1 0 0-80 40 40 0 1 0 0 80z"></path></svg></span></td></tr>
+  </tbody>
+  
 </table>
 </div>
 </div>
@@ -3864,15 +3893,17 @@ Facteurs déterminants : synthèse
 </div>
 </div>
 </div>
-</section></section><section id="incidence-ou-prévalence" class="level2" data-number="5.4"><h2 data-number="5.4" class="anchored" data-anchor-id="incidence-ou-prévalence">
-<span class="header-section-number">5.4</span> Incidence ou prévalence ?</h2>
+</section>
+</section>
+<section id="incidence-ou-prévalence" class="level2" data-number="5.4">
+<h2 data-number="5.4" class="anchored" data-anchor-id="incidence-ou-prévalence"><span class="header-section-number">5.4</span> Incidence ou prévalence ?</h2>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-11-contents" aria-controls="callout-11" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Sur les 30 derniers jours, 10 patients sur 40 hospitalisés dans un service de maladies infectieuses ont fait un séjour en réanimation pour choc septique
+<span class="screen-reader-only">Mise en garde</span>Sur les 30 derniers jours, 10 patients sur 40 hospitalisés dans un service de maladies infectieuses ont fait un séjour en réanimation pour choc septique
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -3883,12 +3914,12 @@ Sur les 30 derniers jours, 10 patients sur 40 hospitalisés dans un service de m
 </div>
 </div>
 <div class="callout callout-style-simple callout-caution no-icon callout-titled">
-<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-12-contents" aria-controls="callout-12" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon no-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Au 01/01/2024, il y avait 5% d’hommes atteints d’un cancer de la prostate dans la région Hauts-de-France
+<span class="screen-reader-only">Mise en garde</span>Au 01/01/2024, il y avait 5% d’hommes atteints d’un cancer de la prostate dans la région Hauts-de-France
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
@@ -3899,41 +3930,45 @@ Au 01/01/2024, il y avait 5% d’hommes atteints d’un cancer de la prostate da
 </div>
 </div>
 <hr>
-<p><br></p>
-</section><section id="à-retenir" class="level2 unnumbered unlisted p" style="text-align:center"><h2 class="unnumbered unlisted anchored" data-anchor-id="à-retenir">À RETENIR</h2>
-</section><div class="callout callout-style-simple callout-important callout-titled">
+<p><br>
+</p>
+</section>
+<section id="à-retenir" class="level2 unnumbered unlisted p" style="text-align:center">
+<h2 class="unnumbered unlisted anchored" data-anchor-id="à-retenir">À RETENIR</h2>
+</section>
+<div class="callout callout-style-simple callout-important callout-empty-content callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Distinguer incidence et prévalence : penser à la baignoire (<a href="#fig-baignoire" class="quarto-xref">Figure&nbsp;<span>5.1</span></a>)
+<span class="screen-reader-only">Important</span>Distinguer incidence et prévalence : penser à la baignoire (<a href="#fig-baignoire" class="quarto-xref">Figure&nbsp;<span>5.1</span></a>)
 </div>
 </div>
 <div class="callout-body-container callout-body">
 
 </div>
 </div>
-<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout callout-style-simple callout-important callout-empty-content callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-La prévalence est dépendante de l’incidence
+<span class="screen-reader-only">Important</span>La prévalence est dépendante de l’incidence
 </div>
 </div>
 <div class="callout-body-container callout-body">
 
 </div>
 </div>
-<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout callout-style-simple callout-important callout-empty-content callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-La prévalence des maladies a tendance à augmenter avec le temps
+<span class="screen-reader-only">Important</span>La prévalence des maladies a tendance à augmenter avec le temps
 </div>
 </div>
 <div class="callout-body-container callout-body">
@@ -3943,176 +3978,245 @@ La prévalence des maladies a tendance à augmenter avec le temps
 
 
 
-</main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
         }
       }
+      return false;
     }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copié");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copié");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
         }
-        return container.innerHTML
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
       } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -4120,185 +4224,163 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script><nav class="page-navigation"><div class="nav-page nav-page-previous">
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
       <a href="./03-indic_mort.html" class="pagination-link" aria-label="Indicateurs de mortalité">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Indicateurs de mortalité</span></span>
       </a>          
@@ -4342,6 +4424,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   
 })();
           </script>
+
+
 
 
 </body></html>

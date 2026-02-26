@@ -4,3 +4,8 @@
 .Ruserdata
 
 /.quarto/
+/_book/
+**/misc/
+**/*.quarto_ipynb
+
+/.luarc.json

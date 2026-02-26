@@ -181,22 +181,22 @@ Permet d'adapter rapidement les réponses sanitaires et de contrôler la propaga
 ## Limites des données de routine
 
 - Informations limitées
-: Les données peuvent être incomplètes ou ne pas couvrir tous les aspects nécessaires pour une évaluation complète.
+  : Les données peuvent être incomplètes ou ne pas couvrir tous les aspects nécessaires pour une évaluation complète.
 
 - Pas de choix des données
-: Les données disponibles ne sont pas toujours celles choisies, ce qui peut affecter l'interprétation et l'utilisation de ces informations en pratique.
+  : Les données disponibles ne sont pas toujours celles choisies, ce qui peut affecter l'interprétation et l'utilisation de ces informations en pratique.
 
 - Pas de définition standardisée
-: La variabilité avec laquelle sont définies les critères peut conduire à des confusions ou à des erreurs d'interprétation si elle n'est pas prise en compte.
+  : La variabilité avec laquelle sont définies les critères peut conduire à des confusions ou à des erreurs d'interprétation si elle n'est pas prise en compte.
 
 - Pas de contrôle de qualité des données
-: Les données peuvent être de qualité variable, insuffisamment contrôlées pour assurer leur fiabilité.
+  : Les données peuvent être de qualité variable, insuffisamment contrôlées pour assurer leur fiabilité.
 
 \
 
 Pour pallier à ces limites, il peut être nécessaire de réaliser des [enquêtes spécifiques]{.cb1} (@sec-src-spe).
 
----
+***
 
 \
 

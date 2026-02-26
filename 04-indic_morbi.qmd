@@ -7,7 +7,7 @@ La [morbidité]{.cb1} se réfère au fait d'être [atteint d'une maladie]{.cb1}.
 
 *La mesure de morbidité est une construction, un moyen de se représenter de manière simplifiée et tangible un phénomène de santé, qui lui est bien réel et complexe.*
 
-*La morbidité est multidimensionnelle (morbidité ressentie, diagnostiquée, objectivée, déclarée...). Quelle définition faut-il adopter ? Celle-ci peut varier selon les perspectives cliniques, épidémiologiques, voire même culturelles.* 
+*La morbidité est multidimensionnelle (morbidité ressentie, diagnostiquée, objectivée, déclarée...). Quelle définition faut-il adopter ? Celle-ci peut varier selon les perspectives cliniques, épidémiologiques, voire même culturelles.*
 
 *Ainsi, comment mesurer la morbidité ? Par le biais de l'individu ? De son médecin ? D'un paramètre biologique ? Quand est-ce qu'elle commence et quand est-ce qu'elle finit ?*
 :::
@@ -19,14 +19,12 @@ Il existe en pratique deux indicateurs de morbidité : l'[incidence]{.cb1} et la
 Un [taux d'incidence]{.cb1} est un [taux]{.cb1} (@sec-taux) appliqué à la [survenue de nouveaux cas]{.cb1} d'une maladie dans une population.
 
 $$
-\mathrm{
 \frac
-{Nombre \ de \ nouveaux \ cas \ d'une \ maladie}
-{Nombre \ de \ personnes \ à \ risque \ de \ devenir \ malade}
-\ \ 
-sur \ une \ période \ donnée
-}
+  {\text{Nombre de nouveaux cas d'une maladie}}
+  {\text{Nombre de personnes à risque de devenir malade}}
+\text{ sur une période donnée}
 $$
+
 
 Puisqu'il s'agit d'une mesure prise sur une période, elle est qualifiée de mesure [longitudinale]{.cb1} (*en longueur*, *d'un point A à un point B*).
 
@@ -39,7 +37,7 @@ Il reflète la [vitesse de survenue]{.cb1} d'une maladie dans une population.
 Il y a eu 500 nouveaux cas sur les 3 mois.\
 On considère l'ensemble de la population comme étant à risque sur les 3 mois, soit 100 000 personnes.
 
-Le taux d'incidence était de $\frac{500}{100 \ 000}$ = 5 cas pour 1000 habitants sur 3 mois.\
+Le taux d'incidence était de 500 / 100 000 = 5 cas pour 1000 habitants sur 3 mois.\
 Durant l'hiver 2023, il y a eu 5 nouveaux cas de Covid pour 1000 habitants.
 :::
 
@@ -48,38 +46,35 @@ Durant l'hiver 2023, il y a eu 5 nouveaux cas de Covid pour 1000 habitants.
 La [prévalence]{.cb1} est la [proportion]{.cb1} (@sec-prop) de [personnes atteintes d'une maladie à un instant donné]{.cb1} dans une population.
 
 $$
-\mathrm{
 \frac
-{Nombre \ de \ cas \ d'une \ maladie}
-{Ensemble \ de \ la \ population}
-\ \ 
-à \ un \ instant \ donné
-}
+  {\text{Nombre de cas d'une maladie}}
+  {\text{Ensemble de la population}}
+\text{ à un instant donné}
 $$
 
 ::: callout-tip
 ## Lors d'une enquête nationale réalisée sur les 3000 femmes enceintes ayant accouché le 15/03/2024, 1150 ont été dépistées positives à la toxoplasmose.
 
-La prévalence était de $\frac{1150}{3000}$ = 0,38 \
+La prévalence était de 1150 / 3000 = 0,38 \
 Le 15/03/2024, la prévalence de la toxoplasmose chez les femmes enceintes était de 38%.
 :::
 
 Du fait qu'il s'agisse d'une mesure ponctuelle, elle est qualifiée de mesure [transversale]{.cb1} (*à un instant donné*, *une photographie*), en opposition à longitudinale.
 
 Pour qu'une proportion de personnes malades se constitue au sein d'une population, il faut logiquement que de nouveaux cas soient apparus en amont.
-Autrement dit, la prévalence d'une maladie est [dépendante de l'incidence]{.cb1} de cette maladie. 
+Autrement dit, la prévalence d'une maladie est [dépendante de l'incidence]{.cb1} de cette maladie.
 
-La prévalence dépend également de la [durée d'évolution]{.cb1} de la maladie : plus celle-ci augmente, plus le nombre de personnes vivant avec la maladie augmente dans la population. 
+La prévalence dépend également de la [durée d'évolution]{.cb1} de la maladie : plus celle-ci augmente, plus le nombre de personnes vivant avec la maladie augmente dans la population.
 
 ## Incidence vs prévalence
 
 ::: {.p style="text-align:center"}
 
-La prévalence est un indicateur statique
-: Elle rend compte de la [fréquence]{.cb1} d'une maladie [à un instant donné]{.cb1}
+**La prévalence est un indicateur statique** \
+Elle rend compte de la [fréquence]{.cb1} d'une maladie [à un instant donné]{.cb1}
 
-L'incidence est un indicateur dynamique
-: Elle rend compte de la [vitesse]{.cb1} à laquelle une maladie survient [sur une période donnée]{.cb1}
+**L'incidence est un indicateur dynamique** \
+Elle rend compte de la [vitesse]{.cb1} à laquelle une maladie survient [sur une période donnée]{.cb1}
 
 :::
 
@@ -155,37 +150,43 @@ library(purrr)
 
 gt_arrow <- \(...) {
 
-  tibble::tibble(...) |> 
-    gt() |> 
-    fmt_icon(columns = c("incidence", "prévalence")) |> 
-    cols_align(align = "center",
-               columns = everything()) |>
-    tab_style(style = cell_text(weight = "bold"),
-              locations = cells_column_labels())
-  
+  tibble::tibble(...) |>
+    gt() |>
+    fmt_icon(columns = c("incidence", "prévalence")) |>
+    cols_align(
+      align = "center",
+      columns = everything()
+    ) |>
+    tab_style(
+      style = cell_text(weight = "bold"),
+      locations = cells_column_labels()
+    )
+
 }
 
-title <-
-c("Augmentation des facteurs de risque",
+title <- c(
+  "Augmentation des facteurs de risque",
   "Amélioration de la prise en charge : guérison plus rapide",
   "Amélioration de la prise en charge : survie plus longue",
   "Amélioration des méthodes diagnostiques",
   "Meilleure déclaration",
-  "Changement de définition de la maladie")
+  "Changement de définition de la maladie"
+)
 
-tab <-
-list(gt_arrow(incidence = "arrow-up-long",
-              prévalence = "arrow-up-long"),
-     gt_arrow(incidence = "arrow-right-long",
-              prévalence = "arrow-down-long"),
-     gt_arrow(incidence = "arrow-right-long",
-              prévalence = "arrow-up-long"),
-     gt_arrow(incidence = "arrow-up-long",
-              prévalence = "arrow-up-long"),
-     gt_arrow(incidence = "arrow-up-long",
-              prévalence = "arrow-up-long"),
-     gt_arrow(incidence = "question",
-              prévalence = "question"))
+tab <- list(
+  gt_arrow(incidence = "arrow-up-long",
+           prévalence = "arrow-up-long"),
+  gt_arrow(incidence = "arrow-right-long",
+           prévalence = "arrow-down-long"),
+  gt_arrow(incidence = "arrow-right-long",
+           prévalence = "arrow-up-long"),
+  gt_arrow(incidence = "arrow-up-long",
+           prévalence = "arrow-up-long"),
+  gt_arrow(incidence = "arrow-up-long",
+           prévalence = "arrow-up-long"),
+  gt_arrow(incidence = "question",
+           prévalence = "question")
+)
 ```
 
 ::: {.callout-caution collapse="true" icon="false"}
@@ -239,7 +240,7 @@ La prévalence [augmente]{.cb1} du fait de l'augmentation de l'incidence, d'auta
 tab[[5]]
 ```
 
-Une meilleure déclaration permet de capturer un plus grand nombre de cas existants dans la population : l'incidence [augmente]{.cb1}. 
+Une meilleure déclaration permet de capturer un plus grand nombre de cas existants dans la population : l'incidence [augmente]{.cb1}.
 Cela peut donner l'impression d'une augmentation du nombre de nouveaux cas, alors qu'il s'agit en réalité d'une [meilleure identification des cas existants]{.cb1}.
 
 Du fait de l'augmentation de l'incidence, la prévalence [augmente]{.cb1}
@@ -254,17 +255,16 @@ tab[[6]]
 Un changement de définition de la maladie pourrait aussi bien entraîner une augmentation ou une diminution de l'incidence et de la prévalence, selon qu'elle devient plus large ou plus restrictive.
 :::
 
----
+***
 
 ::: {.callout-caution collapse="true" icon="false"}
 ## Facteurs déterminants : synthèse
 ```{r}
-tab |> 
-  map(~ .[["_data"]]) |> 
-  list_rbind() |> 
-  mutate(" " = title,
-         .before = everything()) |>
-  gt_arrow() |> 
+tab |>
+  map(pluck, "_data") |>
+  list_rbind() |>
+  mutate(" " = title, .before = everything()) |>
+  gt_arrow() |>
   cols_width(" " ~ pct(75))
 ```
 :::
@@ -283,7 +283,7 @@ Nombre de nouveaux évènements parmi les personnes à risque, sur une période 
 Proportion à un instant donné : c'est une [prévalence]{.cb1}.
 :::
 
----
+***
 
 \
 

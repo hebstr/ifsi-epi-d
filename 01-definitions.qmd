@@ -6,7 +6,7 @@
 Préambule de la constitution de l'OMS, 1946
 :::
 
----
+***
 
 ## L'épidémiologie
 
@@ -38,29 +38,29 @@ knitr::include_graphics("img/quadri.png")
 ::: callout-tip
 ## Étude des maladies cardiovasculaires
 
-1. Décrire : épidémiologie descriptive
-: La collecte de données provenant d'enquêtes nationales a permis d'identifier que les maladies cardiovasculaires étaient plus fréquentes chez les adultes âgés de plus de 50 ans ayant des comportements à risque tels que le tabagisme ou une alimentation riche en sel.
+1. **Décrire : épidémiologie descriptive** \
+La collecte de données provenant d'enquêtes nationales a permis d'identifier que les maladies cardiovasculaires étaient plus fréquentes chez les adultes âgés de plus de 50 ans ayant des comportements à risque tels que le tabagisme ou une alimentation riche en sel.
 
-2. Comprendre : épidémiologie analytique
-: Des études visant à rechercher des liens entre les facteurs de risque potentiels et la survenue de maladies cardiovasculaires ont pu montrer que les personnes les plus à risque étaient celles ayant, ente autres, une pression artérielle élevée ou un diabète mal contrôlé.
+2. **Comprendre : épidémiologie analytique** \
+Des études visant à rechercher des liens entre les facteurs de risque potentiels et la survenue de maladies cardiovasculaires ont pu montrer que les personnes les plus à risque étaient celles ayant, ente autres, une pression artérielle élevée ou un diabète mal contrôlé.
 
-3. Évaluer : épidémiologie évaluative
-: Analyser les données avant et après la mise en place de campagnes de sensibilisation sur les facteurs de risque de maladies cardiovasculaires (e.g., promouvoir l'activité physique, une alimentation plus saine)
+3. **Évaluer : épidémiologie évaluative** \
+Analyser les données avant et après la mise en place de campagnes de sensibilisation sur les facteurs de risque de maladies cardiovasculaires (e.g., promouvoir l'activité physique, une alimentation plus saine)
 :::
 
 ### Pour qui ?
 
 - **Les professionnels de santé**
-: Ils jouent un rôle important dans la mise en oeuvre des interventions de santé, allant de la prévention à la prestation de soins. Leur expertise est nécessaire pour assurer des interventions efficaces et adaptées aux besoins de la populations.
+  : Ils jouent un rôle important dans la mise en oeuvre des interventions de santé, allant de la prévention à la prestation de soins. Leur expertise est nécessaire pour assurer des interventions efficaces et adaptées aux besoins de la populations.
 
 - **Les politiques et administrations**
-: Leur rôle consiste à élaborer des programmes répondant aux besoins de la population et favorisant l'accès au système de santé (e.g., campagnes de sensibilisation, promotion de la santé)
+  : Leur rôle consiste à élaborer des programmes répondant aux besoins de la population et favorisant l'accès au système de santé (e.g., campagnes de sensibilisation, promotion de la santé)
 
 - **Les gestionnaires**
-: Chargés de planifier, d'allouer et d'organiser les ressources nécessaires services de santé, leur rôle consiste à garantir que les ressources sont utilisées de manière efficace pour répondre aux besoins de la population (e.g., organiser des campagnes de vaccination en cas d'épidémie)
+  : Chargés de planifier, d'allouer et d'organiser les ressources nécessaires services de santé, leur rôle consiste à garantir que les ressources sont utilisées de manière efficace pour répondre aux besoins de la population (e.g., organiser des campagnes de vaccination en cas d'épidémie)
 
 - **Les usagers**
-: Ils doivent être en mesure de défendre leurs droits en matière de santé, en revendiquant des politiques et des services adaptés à leurs besoins (e.g., patients, associations de patients)
+  : Ils doivent être en mesure de défendre leurs droits en matière de santé, en revendiquant des politiques et des services adaptés à leurs besoins (e.g., patients, associations de patients)
 
 ## L'épidémiologie descriptive
 
@@ -115,7 +115,8 @@ L'évaluation peut consister à comparer la survenue des nouveaux cas, les taux 
 Ce phénomène a ouvert la voie vers une recherche complexe et multidimensionnelle (e.g., influence climatique, exposition solaire, facteurs génétiques, facteurs socio-économiques).
 :::
 
----
+***
+
 \
 
 ::: {.p style="text-align:center"}

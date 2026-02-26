@@ -1,6 +1,6 @@
 # Fluctuation d'échantillonnage {#sec-fluct}
 
-Une fluctuation d'échantillonnage est une erreur [imprévisible, liée au hasard]{.cb1}. 
+Une fluctuation d'échantillonnage est une erreur [imprévisible, liée au hasard]{.cb1}.
 C'est pour cette raison qu'elle est qualifiée d'erreur [aléatoire]{.cb1}.
 
 Fluctuation est synonyme de [variabilité]{.cb1}, de variation, ou de "bruit".
@@ -20,10 +20,10 @@ La notion de [variabilité individuelle]{.cb1} est dans ce cas plus concrète : 
 La variabilité individuelle peut intervenir à deux niveaux :
 
 - Entre les individus (= [inter]{.cb1}individuelle)
-: Entre deux patients, la mesure de température ne donne pas la même valeur.  
+	: Entre deux patients, la mesure de température ne donne pas la même valeur.
 
-- Chez un même individu (= [intra]{.cb1}individuelle) 
-: La mesure de température répétée chez un même patient peut donner des valeurs différentes. 
+- Chez un même individu (= [intra]{.cb1}individuelle)
+	: La mesure de température répétée chez un même patient peut donner des valeurs différentes.
 
 La variabilité individuelle peut s'exercer dans de nombreux domaines.
 
@@ -33,7 +33,7 @@ Certains individus pourront présenter des effets indésirables graves à un tra
 :::
 
 ::: callout-tip
-## La réponse immunitaire aux vaccins 
+## La réponse immunitaire aux vaccins
 Bien que la plupart des individus développent une protection immunitaire après la vaccination contre le Covid, un certain pourcentage ne développera pas d'immunité et restera susceptible aux infections.
 :::
 
@@ -106,7 +106,7 @@ On fait le présupposé que cette vraie valeur est [fixe]{.cb1} et [unique]{.cb1
 
 Imaginons une situation [fictive]{.cb1} dans laquelle [on connait la vraie valeur]{.cb1} de la prévalence d'une maladie quelconque dans une population de 100 000 individus. Admettons que cette valeur soit [10%]{.cb1}.
 
-À partir de cette population, on simule 20 expériences : on constitue [20 échantillons de 1000 individus tirés avec remise]{.cb1} (comme à la loterie). 
+À partir de cette population, on simule 20 expériences : on constitue [20 échantillons de 1000 individus tirés avec remise]{.cb1} (comme à la loterie).
 Dans chaque échantillon, on mesure la prévalence de la maladie.
 
 On a donc effectué 20 mesures de prévalences ; une valeur par échantillon.
@@ -116,7 +116,7 @@ Vous savez maintenant que ces valeurs sont soumises aux fluctuations d'échantil
 Au total, on a donc :
 
 - Une population dont on connait la [vraie prévalence]{.cb1} (10%)
-- [20 prévalences mesurées]{.cb1} à partir d'échantillons issus de cette population et accompagnées de leur [intervalle de confiance à 95%]{.cb1} 
+- [20 prévalences mesurées]{.cb1} à partir d'échantillons issus de cette population et accompagnées de leur [intervalle de confiance à 95%]{.cb1}
 
 ```{r #fig-ic}
 #| out-width: 70%
@@ -137,7 +137,7 @@ Cette simulation illustre la définition donnée plus haut :
 
 Dans la vraie vie, on ne peut pas se permettre de constituer 20 échantillons à partir d'une population, mais seulement un [échantillon unique]{.cb1}.
 
-En pratique, dans la présentation des résultats d'une enquête sur échantillon représentatif, on observera classiquement : 
+En pratique, dans la présentation des résultats d'une enquête sur échantillon représentatif, on observera classiquement :
 
 1. Une [valeur mesurée]{.cb1} sur cet échantillon
 2. Toujours accompagnée de son [intervalle de confiance à 95%]{.cb1} afin de tenir compte des [fluctuations d'échantillonnage]{.cb1}.
@@ -193,9 +193,9 @@ On remarque que pour une même valeur mesurée, l'intervalle est [plus étroit]{
 :::
 
 Cet exemple illustre le fait que les fluctuations d'échantillonnage ont pour caractéristique de [diminuer à mesure que la taille de l'échantillon augmente]{.cb1}.
-En augmentant la taille de l'échantillon, on augmente la [précision de l'estimation]{.cb1}. 
+En augmentant la taille de l'échantillon, on augmente la [précision de l'estimation]{.cb1}.
 
----
+***
 
 \
 

@@ -2,10 +2,10 @@
 
 Un indicateur de [mortalité]{.cb1} a pour but de décrire la [fréquence des décès]{.cb1} dans une population.
 
-Il en existe trois types : 
+Il en existe trois types :
 
-- Taux [brut]{.cb1} 
-- Taux [spécifique]{.cb1} 
+- Taux [brut]{.cb1}
+- Taux [spécifique]{.cb1}
 - Taux [standardisé]{.cb1}
 
 ## Taux brut de mortalité
@@ -13,13 +13,10 @@ Il en existe trois types :
 Un [taux brut de mortalité]{.cb1} est un [taux]{.cb1} (@sec-taux) appliqué à [la survenue de décès]{.cb1} dans une population.
 
 $$
-\mathrm{
 \frac
-{Nombre \ de \ décès}
-{Ensemble \ de \ la \ population}
-\ \ 
-sur \ une \ période \ donnée
-}
+  {\text{Nombre de décès}}
+  {\text{Ensemble de la population}}
+\text{ sur une période donnée}
 $$
 
 Il est généralement calculé sur un an et exprimé en taux pour 1000.
@@ -43,21 +40,18 @@ On comprend ainsi facilement que, en moyenne, pour 1000 personnes suivies sur l'
 Cette transformation facilite également les comparaisons entre différentes tailles de populations.
 :::
 
-## Taux spécifique de mortalité 
+## Taux spécifique de mortalité
 
 Un [taux spécifique de mortalité]{.cb1} est un taux de mortalité dans lequel on tient compte d'un autre paramètre.
 Il s'agit le plus souvent de taux spécifiques par sexe, par tranches d'âges, ou par causes de décès.
 
 $$
-\mathrm{
 \frac
-{Nombre \ de \ décès \ dans \ le \ sous-groupe}
-{Effectif \ de \ la \ population \ dans \ le \ sous-groupe}
-\ \
-sur \ une \ période \ donnée
-}
+  {\text{Nombre de décès dans le sous-groupe}}
+  {\text{Effectif de la population dans le sous-groupe}}
+\text{ sur une période donnée}
 $$
-  
+
 ::: callout-tip
 ## En France, entre 2020 et 2022, le taux de mortalité infantile était de 3,7 pour 1000 naissances vivantes.
 
@@ -121,20 +115,17 @@ knitr::include_graphics("img/taux_stand_mort_prem_2023.png")
 
 Après standardisation, on peut supposer que les taux de mortalité observés dépendent non plus de la structure d'âge dans chaque région, mais bien de [facteurs externes]{.cb1}.
 
-## Taux de létalité 
+## Taux de létalité
 
 Tandis que la mortalité représente le nombre d'individus décédés sur l'ensemble de la population, la [létalité]{.cb1} représente le nombre d'individus décédés d'une maladie [parmi les personnes atteints de cette maladie]{.cb1}.
 
 Un [taux de létalité]{.cb1} prend pour période d'étude [le temps à partir du début]{.cb1} de la maladie.
 
 $$
-\mathrm{
 \frac
-{Nombre \ de \ décès \ d'une \ maladie}
-{Nombre \ de \ personnes \ atteintes \ de \ la \ maladie}
-\ \
-depuis \ le \ début \ de \ la \ maladie
-}
+  {\text{Nombre de décès d'une maladie}}
+  {\text{Nombre de personnes atteintes de la maladie}}
+\text{ depuis le début de la maladie}
 $$
 
 Elle est exprimée en temps depuis le début de la maladie (e.g. létalité à 28 jours, létalité à un an).
@@ -148,7 +139,7 @@ Sur 100 cas de Covid survenus durant cette période, 17 sont décédés.
 :::
 
 ::: callout-warning
-## [Un taux de létalité n'est pas un taux de mortalité spécifique d'une cause de décès]{.cb1}
+## Un taux de létalité n'est pas un taux de mortalité spécifique d'une cause de décès
 
 La différence se situe au dénominateur :
 
@@ -164,23 +155,28 @@ La mortalité spécifique est un indicateur de la charge globale de la maladie s
 ```{r}
 library(gt)
 
-table_esp <- \(birth, old) {
-  
-  tibble::tibble(" " = c("Hommes", "Femmes"),
-                 "À la naissance" = birth,
-                 "À 65 ans" = old) |> 
-    gt() |> 
-    tab_style(style = cell_text(weight = "bold"),
-              locations = 
-                list(cells_column_labels(),
-                     cells_body(columns = 1)))
-    
+table_esp <- \(young, old) {
+
+  tibble::tibble(
+    " " = c("Hommes", "Femmes"),
+    "À la naissance" = young,
+    "À 65 ans" = old
+  ) |>
+    gt() |>
+    tab_style(
+      style = cell_text(weight = "bold"),
+      locations = list(
+        cells_column_labels(),
+        cells_body(columns = 1)
+      )
+    )
+
 }
 ```
 
 L'espérance de vie est le [nombre moyen d'années]{.cb1} qu'une personne peut espérer vivre [à partir d'un âge donné]{.cb1}.
 
-L'espérance de vie [en bonne santé]{.cb1} (ou espérance de vie [sans incapacité]{.cb1}) est le nombre moyen d'années qu'une personne peut espérer vivre sans souffrir d'incapacité dans les gestes de la vie quotidienne. 
+L'espérance de vie [en bonne santé]{.cb1} (ou espérance de vie [sans incapacité]{.cb1}) est le nombre moyen d'années qu'une personne peut espérer vivre sans souffrir d'incapacité dans les gestes de la vie quotidienne.
 
 ::: panel-tabset
 
@@ -190,8 +186,10 @@ L'espérance de vie [en bonne santé]{.cb1} (ou espérance de vie [sans incapaci
 #| label: tbl-esp-base
 #| tbl-cap: Espérance de vie en France, 2022.
 
-table_esp(birth = c(79.3, 85.1),
-          old = c(19.1, 23.0))
+table_esp(
+  young = c(79.3, 85.1),
+  old = c(19.1, 23.0)
+)
 ```
 
 # Espérance de vie en bonne santé
@@ -200,15 +198,18 @@ table_esp(birth = c(79.3, 85.1),
 #| label: tbl-esp-bs
 #| tbl-cap: Espérance de vie en bonne santé en France, 2022.
 
-table_esp(birth = c(63.8, 65.3),
-          old = c(10.2, 11.8))
+table_esp(
+  young = c(63.8, 65.3),
+  old = c(10.2, 11.8)
+)
 ```
 
 :::
 
 Source : [Insee](https://www.insee.fr/fr/statistiques/2012741)
 
----
+***
+
 \
 
 ::: {.p style="text-align:center"}

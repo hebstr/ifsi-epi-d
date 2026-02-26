@@ -2,17 +2,17 @@
 
 ## Important
 
-Le texte [souligné]() peut correspondre soit à un lien vers une autre partie du cours (chapitre, section, figure, ...), soit à un lien vers une ressource externe au cours.
+Le texte [souligné]{.fake-link} peut correspondre soit à un lien vers une autre partie du cours (chapitre, section, figure, ...), soit à un lien vers une ressource externe au cours.
 
-Tout lien vers une ressource externe au cours visent uniquement à apporter une information complémentaire, et ne peut pas faire l'objet de questions à l'examen. 
-Autrement dit, [tout ce qui peut être demander de connaitre pour l'examen est présent dans le cours]{.cb1}.
+Tout lien vers une ressource externe au cours visent uniquement à apporter une information complémentaire, et ne peut pas faire l'objet de questions à l'examen.
+Autrement dit, [tout ce qui pourra être demandé de connaitre pour l'examen est présent dans ce cours]{.cb1}.
 
-Le cours est centré avant tout sur la compréhension. Il n'est pas demandé de connaitre des listes, des chiffres ou des formules mathématiques.
+Ce cours est centré avant tout sur la compréhension : [il ne sera jamais demandé de connaitre des listes, des chiffres ou des formules mathématiques.]{.cb1}
 
-Une barre de recherche, située dans la barre latérale gauche sur cette page, permet d'effectuer une recherche par mots-clés dans l'ensemble du cours.
+Une [barre de recherche]{.cb1}, située dans la barre latérale gauche sur cette page, permet d'effectuer une recherche par mots-clés dans l'ensemble du cours.
 
-Un diapo est en cours de réalisation et sera mis à disposition prochainement.
-Des versions Word et PDF seront également misent à disposition. 
+Un [diapo]{.cb1} est en cours de réalisation et sera mis à disposition prochainement.
+Des [formats Word et PDF]{.cb1} de ce cours seront également mis à disposition.
 
 ## Encadrés
 
@@ -38,6 +38,8 @@ La réponse
 ::: callout-important
 ## Ce qu'il est important de retenir du chapitre (placé en fin de chapitre)
 :::
+
+::: {.content-visible when-format="html"}
 
 ## Annotation et surlignage du texte
 
@@ -87,7 +89,7 @@ knitr::include_graphics("img/hypothesis_annotate.png")
 N'importe quelle partie du cours peut être annotée.
 
 [L'annotation est ANONYME et publique : elle est visible instantanément pour l'ensemble des personnes consultant la page.]{.cb1}
-En revanche, seule une personne connectée à [ifsi_epid]{.cb1} peut ajouter/modifier/supprimer une annotation.
+En revanche, seule une personne connectée à **ifsi_epid** et l'intervenant.e peuvent ajouter/modifier/supprimer une annotation, ou répondre à une question.
 
 # **Note de page**
 
@@ -102,8 +104,8 @@ knitr::include_graphics("img/hypothesis_pagenote.png")
 
 :::
 
-Il est possible de répondre à des annotations existantes.
-Toute annotation peut être [définitivement supprimée]{.cb1} après publication.
+Il est possible de répondre à toute note déjà existante.
+Toute note peut être [définitivement supprimée]{.cb1} après publication.
 
 ### Surlignage
 
@@ -120,10 +122,12 @@ N'importe quelle partie du cours peut être surlignée.
 
 [Contrairement aux annotations, le surlignage est privé : il n'est visible que pour une personne connectée à ifsi_epid, et non pour l'ensemble des personnes consultant la page.]{.cb1}
 
----
+***
 
 \
 
 Toute action d'annotation ou de surlignage est automatiquement [sauvegardée et conservée]{.cb1} après déconnexion et/ou fermeture de la page.
 
-Cette fonction [ANONYME]{.cb1} est importante pour clarifier des éléments du cours et obtenir un maximum de retours individuels : toute remarque [en lien direct avec le cours]{.cb1} ou [suggestion d'amélioration]{.cb1} est la bienvenue !
+Cette fonction [ANONYME]{.cb1} est importante pour clarifier des éléments du cours et recueillir un maximum de retours individuels : toute [question]{.cb1}, toute [remarque en lien direct avec le cours]{.cb1} ou [suggestion d'amélioration]{.cb1} est la bienvenue !
+
+:::
