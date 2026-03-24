@@ -55,6 +55,7 @@ Pour utiliser cette fonction, il faut se connecter en cliquant sur [Log in]{.cb1
 ::: {layout-ncol=2}
 
 ```{r}
+#| out-width: 90%
 #| fig-align: center
 
 knitr::include_graphics("img/hypothesis_login_1.png")

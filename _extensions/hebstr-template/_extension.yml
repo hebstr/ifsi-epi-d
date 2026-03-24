@@ -40,8 +40,8 @@ contributes:
       html-table-processing: none
       # html-math-method: plain
       theme:
-        light: theme.scss
-        # dark: theme-dark.scss
+        light: [theme-light.scss, theme-base.scss]
+        dark: [theme-dark.scss, theme-base.scss]
       css: resources/fonts.css
       lightbox: true
       grid:

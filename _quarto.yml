@@ -7,7 +7,6 @@ book:
   author: Université de Lille
   date: last-modified
   downloads: [pdf, docx]
-  repo-url: https://codeberg.org/hebstr/epi_d
   sidebar:
     style: floating
   chapters:
@@ -33,6 +32,8 @@ book:
 
 format:
   hebstr-template-html: default
+    # code-tools:
+    #   source: https://codeberg.org/hebstr/epi_d/src/branch/main/
   # hebstr-template-typst: default
 
 comments:
